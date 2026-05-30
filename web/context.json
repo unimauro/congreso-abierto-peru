@@ -1,0 +1,44 @@
+{
+  "_nota": "Datos de presupuesto y personal provenientes de fuentes oficiales y periodísticas CITADAS. La integración automática vía scraping de MEF Consulta Amigable y PTE está pendiente (ver docs/PLAN.md, Fase 1.3 y Fase 2). No se inventan cifras.",
+  "presupuesto": {
+    "unidad": "millones de soles (PIA)",
+    "descripcion": "Presupuesto Institucional de Apertura del pliego Congreso de la República",
+    "serie": [
+      { "anio": 2022, "pia": 879 },
+      { "anio": 2023, "pia": 930 },
+      { "anio": 2024, "pia": 1084 },
+      { "anio": 2025, "pia": 1412 }
+    ],
+    "destacados": [
+      "El presupuesto se duplicó en el quinquenio: de ~S/879 M (inicios 2022) a S/1,412 M (2025).",
+      "Solo entre 2024 y 2025 creció ~63%.",
+      "El alza 2025 se asocia a la restitución de la bicameralidad (130 diputados + 60 senadores desde julio 2026)."
+    ],
+    "fuentes": [
+      { "medio": "Ojo Público", "url": "https://ojo-publico.com/politica/congreso-duplico-su-presupuesto-solo-cinco-anos" },
+      { "medio": "La República", "url": "https://larepublica.pe/politica/congreso/2024/12/23/congreso-quintuplico-su-presupuesto-en-24-anos-paso-de-s-282-millones-a-s-1412-millones-mesa-directiva-alianza-para-el-progreso-bicameralidad-994488" },
+      { "medio": "Infobae", "url": "https://www.infobae.com/peru/2024/12/26/congreso-aumento-su-presupuesto-en-266-en-los-ultimos-diez-anos-casi-s1400-millones-fueron-destinados-para-el-2025/" },
+      { "medio": "El Comercio", "url": "https://elcomercio.pe/politica/congreso/congreso-de-la-republica-defiende-presupuesto-de-9282-millones-de-soles-que-se-le-asigno-para-este-2023-parlamento-jose-williams-maria-del-carmen-alva-noticia/" }
+    ]
+  },
+  "personal": {
+    "descripcion": "Personal en planilla del Congreso (no incluye pensionistas, Parlamento Andino ni personal de expresidentes).",
+    "kpis": [
+      { "label": "Trabajadores en planilla", "valor": "~3,000", "nota": "conteo de octubre, según EC Data" },
+      { "label": "Trabajadores por congresista", "valor": "23", "nota": "promedio" }
+    ],
+    "estructura": [
+      { "item": "Despacho del congresista", "max": 7 },
+      { "item": "Adicional si preside comisión", "max": 10 }
+    ],
+    "destacados": [
+      "Cada congresista puede contratar hasta 7 personas en su despacho.",
+      "Si preside una comisión, puede gestionar hasta 17 personas en total.",
+      "El Congreso eliminó el régimen CAS y trasladó esas plazas al D. Leg. 728."
+    ],
+    "fuentes": [
+      { "medio": "El Comercio (EC Data)", "url": "https://elcomercio.pe/politica/congreso/un-congreso-con-planilla-privilegiada-existen-un-promedio-de-23-trabajadores-por-cada-parlamentario-congreso-ec-data-noticia/" },
+      { "medio": "Infobae", "url": "https://www.infobae.com/peru/2025/12/18/peru-tiene-unos-16-millones-de-trabajadores-en-el-sector-publico-de-los-cuales-373233-son-cas/" }
+    ]
+  }
+}

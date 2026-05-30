@@ -15,8 +15,10 @@ import sys
 from collections import Counter
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from pipeline.scrapers.proyectos_ley import fetch_periodo  # noqa: E402
+from pipeline.scrapers.proyectos_ley import fetch_periodo, LISTA_ENDPOINT, _filtro, API_BASE  # noqa: E402
 from pipeline.common.http import build_session  # noqa: E402
+
+COMISIONES_ENDPOINT = f"{API_BASE}/comisiones"
 
 # Estados que indican que el proyecto llegó a ser ley.
 ESTADOS_LEY = ("PUBLICAD", "PROMULGAD", "AUTÓGRAFA", "AUTOGRAFA")
@@ -25,6 +27,29 @@ ESTADOS_LEY = ("PUBLICAD", "PROMULGAD", "AUTÓGRAFA", "AUTOGRAFA")
 def es_ley(estado: str) -> bool:
     e = (estado or "").upper()
     return any(k in e for k in ESTADOS_LEY)
+
+
+def fetch_comisiones(session, periodo: int) -> list[dict]:
+    """Lista las comisiones y cuenta los proyectos asignados a cada una (dato real)."""
+    resp = session.get(COMISIONES_ENDPOINT, timeout=getattr(session, "request_timeout", 60))
+    resp.raise_for_status()
+    comisiones = (resp.json().get("data") or [])
+    salida = []
+    for c in comisiones:
+        body = _filtro(periodo)
+        body["comisionId"] = c["comisionId"]
+        r = session.post(
+            LISTA_ENDPOINT,
+            params={"pageSize": 100000, "page": 1, "rowStart": 0},
+            json=body,
+            timeout=getattr(session, "request_timeout", 60),
+        )
+        r.raise_for_status()
+        n = len((r.json().get("data") or {}).get("proyectos") or [])
+        salida.append({"nombre": c["nombreComision"], "proyectos": n})
+        print(f"    comision {c['comisionId']:>2} {c['nombreComision'][:30]:<30} {n}", file=sys.stderr)
+    salida.sort(key=lambda x: x["proyectos"], reverse=True)
+    return salida
 
 
 def build(periodos: list[int], fecha: str) -> dict:
@@ -51,6 +76,9 @@ def build(periodos: list[int], fecha: str) -> dict:
 
     leyes = sum(1 for p in todos if es_ley(p.estado))
 
+    print("[*] cruzando comisiones...", file=sys.stderr)
+    comisiones = fetch_comisiones(session, periodos[0])
+
     recientes = sorted(
         todos, key=lambda p: (p.fecha_presentacion or "", p.numero), reverse=True
     )[:25]
@@ -73,6 +101,7 @@ def build(periodos: list[int], fecha: str) -> dict:
         "top_autores": [
             {"nombre": n, "proyectos": c} for n, c in autores.most_common(20)
         ],
+        "comisiones": comisiones,
         "recientes": [
             {
                 "codigo": p.codigo,
