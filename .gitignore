@@ -1,0 +1,33 @@
+# Datos descargados (no versionar el dump completo)
+/data/
+*.csv
+!docs/**/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+.env*.local
+
+# Ruby / Rails
+/backend/tmp/
+/backend/log/
+/backend/.bundle/
+vendor/bundle/
+
+# Entorno
+.env
+.DS_Store
+
+# Editores
+.idea/
+.vscode/
+*.swp
