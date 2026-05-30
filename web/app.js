@@ -59,6 +59,41 @@ function renderResumen() {
     data: { labels: s.map(x => x.anio), datasets: [{ data: s.map(x => x.pia), borderColor: css("--accent"), backgroundColor: "rgba(226,55,68,.15)", fill: true, tension: .3, pointRadius: 4, pointBackgroundColor: css("--accent") }] },
     options: opts({ plugins: { legend: { display: false } }, scales: scales() }),
   });
+  renderYearFilter();
+}
+
+// --- Filtro de año dinámico ---
+let SELYEAR = null;
+function aniosDisponibles() {
+  const pres = CTX.presupuesto.serie.map(x => x.anio);
+  const proy = Object.keys(DATA.por_anio).map(Number);
+  // años donde hay datos legislativos (periodo actual) y presupuesto
+  return pres.filter(a => proy.includes(a)).sort((a, b) => a - b);
+}
+function renderYearFilter() {
+  const years = aniosDisponibles();
+  if (!years.length) return;
+  if (!SELYEAR || !years.includes(SELYEAR)) SELYEAR = years[years.length - 1];
+  const bar = document.getElementById("yearbar");
+  bar.querySelectorAll(".ychip").forEach(c => c.remove());
+  years.forEach(y => {
+    const b = document.createElement("button");
+    b.className = "ychip" + (y === SELYEAR ? " active" : "");
+    b.textContent = y;
+    b.onclick = () => { SELYEAR = y; renderYearFilter(); };
+    bar.appendChild(b);
+  });
+  renderYearKpis(SELYEAR);
+}
+function renderYearKpis(y) {
+  const proy = DATA.por_anio[y] || 0;
+  const pb = CTX.presupuesto.serie.find(x => x.anio === y) || {};
+  const fmtM = (m) => m != null ? `S/ ${fmt(m)} M` : "—";
+  document.getElementById("kpis-year").innerHTML =
+    kpiCard("Proyectos presentados", fmt(proy), `en ${y}`, "var(--accent)") +
+    kpiCard("Presupuesto (PIM)", fmtM(pb.pim), `modificado ${y}`, "var(--accent-2)") +
+    kpiCard("Ejecutado (Devengado)", fmtM(pb.devengado), `gastado en ${y}`, "var(--green)") +
+    kpiCard("Avance de ejecución", pb.avance != null ? `${pb.avance}%` : "—", "devengado / PIM", "var(--amber)");
 }
 
 function renderProyectos() {
@@ -95,16 +130,28 @@ function renderPresupuesto() {
   const p = CTX.presupuesto, s = p.serie;
   const first = s[0], last = s.at(-1);
   const crec = ((last.pia / first.pia - 1) * 100).toFixed(0);
-  document.getElementById("pres-unidad").textContent = p.unidad;
+  document.getElementById("pres-unidad").textContent = p.unidad + " · PIA vs Devengado";
   document.getElementById("kpis-pres").innerHTML =
-    kpiCard(`PIA ${last.anio}`, `S/ ${fmt(last.pia)} M`, "presupuesto vigente", "var(--accent)") +
-    kpiCard(`PIA ${first.anio}`, `S/ ${fmt(first.pia)} M`, "punto de partida") +
-    kpiCard(`Crecimiento ${first.anio}–${last.anio}`, `+${crec}%`, "aumento del costo", "var(--amber)") +
+    kpiCard(`PIA ${last.anio}`, `S/ ${fmt(last.pia)} M`, "presupuesto de apertura", "var(--accent)") +
+    kpiCard(`Devengado ${last.anio}`, `S/ ${fmt(last.devengado)} M`, `${last.avance}% de avance`, "var(--green)") +
+    kpiCard(`Crecimiento ${first.anio}–${last.anio}`, `+${crec}%`, "PIA en el periodo", "var(--amber)") +
     kpiCard("Por congresista", `S/ ${(last.pia / 130).toFixed(1)} M`, "PIA ÷ 130 congresistas", "var(--purple)");
   mk("chPres", {
     type: "bar",
-    data: { labels: s.map(x => x.anio), datasets: [{ label: "PIA (millones S/)", data: s.map(x => x.pia), backgroundColor: css("--accent"), borderRadius: 8, maxBarThickness: 90 }] },
-    options: opts({ plugins: { legend: { display: false } }, scales: scales() }),
+    data: {
+      labels: s.map(x => x.anio),
+      datasets: [
+        { label: "PIA", data: s.map(x => x.pia), backgroundColor: css("--accent"), borderRadius: 6, maxBarThickness: 46 },
+        { label: "Devengado (ejecutado)", data: s.map(x => x.devengado), backgroundColor: css("--green"), borderRadius: 6, maxBarThickness: 46 },
+        { label: "Avance %", type: "line", data: s.map(x => x.avance), borderColor: css("--amber"), backgroundColor: css("--amber"), tension: .3, pointRadius: 3, yAxisID: "y2" },
+      ],
+    },
+    options: opts({
+      plugins: { legend: { labels: { color: textC() } } },
+      scales: Object.assign(scales(), {
+        y2: { position: "right", min: 0, max: 100, grid: { display: false }, ticks: { color: textC(), callback: v => v + "%", font: { size: 11 } }, border: { display: false } },
+      }),
+    }),
   });
   document.getElementById("pres-facts").innerHTML = p.destacados.map(d => `<li>${d}</li>`).join("");
   document.getElementById("pres-fuentes").innerHTML = fuentesHtml(p.fuentes);
@@ -171,6 +218,12 @@ document.querySelectorAll(".menu button").forEach(btn => {
 });
 const initial = (location.hash || "").replace("#", "");
 if (initial) activar(initial, false);
+
+// Modal Yape
+const yModal = document.getElementById("yape-modal");
+document.getElementById("yape-top").addEventListener("click", () => yModal.classList.add("open"));
+document.getElementById("yape-close").addEventListener("click", () => yModal.classList.remove("open"));
+yModal.addEventListener("click", (e) => { if (e.target === yModal) yModal.classList.remove("open"); });
 
 // Tema
 const themeBtn = document.getElementById("theme");

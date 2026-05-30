@@ -55,6 +55,23 @@
   .nav-actions{display:flex;align-items:center;gap:10px}
   .btn{border:1px solid var(--border);background:var(--panel);color:var(--text);border-radius:9px;padding:7px 12px;font-size:13px;font-weight:600;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:7px;transition:.15s}
   .btn:hover{border-color:var(--muted)}
+  .bmc-mini{background:#ffdd00;border-color:#ffdd00;color:#0a0b0d}
+  .bmc-mini:hover{background:#ffe533;border-color:#ffe533}
+  @media(max-width:620px){.ghub{display:none}}
+  /* Modal Yape */
+  .modal{position:fixed;inset:0;z-index:50;background:rgba(0,0,0,.6);backdrop-filter:blur(3px);display:none;align-items:center;justify-content:center;padding:20px}
+  .modal.open{display:flex}
+  .modal-card{background:var(--panel);border:1px solid var(--border);border-radius:18px;padding:26px;max-width:340px;text-align:center;box-shadow:var(--shadow)}
+  .modal-card img{width:240px;height:240px;border-radius:14px;border:1px solid var(--border)}
+  .modal-card h3{margin:0 0 4px;font-size:19px;font-weight:800}
+  .modal-card p{margin:0 0 16px;color:var(--muted);font-size:14px}
+  .modal-card .close{margin-top:16px}
+  /* Filtro de año */
+  .yearbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0 14px}
+  .yearbar .lbl{font-size:13px;font-weight:700;color:var(--muted);margin-right:4px}
+  .ychip{border:1px solid var(--border);background:var(--panel);color:var(--muted);font-family:inherit;font-weight:700;font-size:13px;padding:7px 13px;border-radius:9px;cursor:pointer;transition:.12s}
+  .ychip:hover{color:var(--text);border-color:var(--muted)}
+  .ychip.active{background:var(--accent);border-color:var(--accent);color:#fff}
   /* Menú */
   .menu{display:flex;gap:4px;overflow-x:auto;border-bottom:1px solid var(--border);background:var(--bg);position:sticky;top:62px;z-index:19}
   .menu .wrap{display:flex;gap:4px}
@@ -121,8 +138,9 @@
   <div class="wrap nav">
     <div class="brand"><span class="logo">CA</span> Congreso Abierto Perú</div>
     <div class="nav-actions">
-      <a class="btn" href="share.png" target="_blank" rel="noopener">📷 Compartir</a>
-      <a class="btn" href="https://github.com/unimauro/congreso-abierto-peru" target="_blank" rel="noopener">★ GitHub</a>
+      <a class="btn bmc-mini" href="https://buymeacoffee.com/unimauro" target="_blank" rel="noopener" title="Invítame un café">☕ Café</a>
+      <button class="btn" id="yape-top" title="Apóyame con Yape">📱 Yape</button>
+      <a class="btn ghub" href="https://github.com/unimauro/congreso-abierto-peru" target="_blank" rel="noopener" title="Ver en GitHub">★ GitHub</a>
       <button class="btn" id="theme" title="Cambiar tema">◐</button>
     </div>
   </div>
@@ -148,6 +166,13 @@
       <p class="sub">Observatorio de datos abiertos del Congreso de la República del Perú: producción legislativa, presupuesto, comisiones y personal — directo de la fuente.</p>
     </div>
     <div class="grid kpis" id="kpis-resumen"></div>
+
+    <div class="card full" style="margin-bottom:16px">
+      <div class="panel-head"><h3>🔎 Explora por año</h3><span class="hint">métricas dinámicas según el año elegido</span></div>
+      <div class="yearbar" id="yearbar"><span class="lbl">Año:</span></div>
+      <div class="grid kpis" id="kpis-year" style="margin:0"></div>
+    </div>
+
     <div class="grid panels">
       <div class="card">
         <div class="panel-head"><h3>Proyectos presentados por año</h3><span class="hint">fecha de presentación</span></div>
@@ -188,7 +213,7 @@
   <!-- PRESUPUESTO -->
   <section class="view" id="view-presupuesto">
     <h2 class="section">Presupuesto — evolución del costo del Congreso</h2>
-    <span class="badge-src">⚠ Fuentes oficiales/periodísticas citadas · integración automática (MEF) pendiente</span>
+    <span class="badge-src" style="color:var(--green);border-color:color-mix(in srgb,var(--green) 35%,var(--border));background:color-mix(in srgb,var(--green) 8%,transparent)">✅ Scrapeado de MEF Consulta Amigable (pliego 028) · 2016–2026</span>
     <div class="grid kpis" id="kpis-pres"></div>
     <div class="card full">
       <div class="panel-head"><h3>Presupuesto Institucional de Apertura (PIA)</h3><span class="hint" id="pres-unidad"></span></div>
@@ -244,6 +269,15 @@
   </section>
 
 </main>
+
+<div class="modal" id="yape-modal">
+  <div class="modal-card">
+    <h3>📱 Apóyame con Yape 💛</h3>
+    <p>Escanea el QR desde tu app de Yape. ¡Gracias por sostener este proyecto! 🙌</p>
+    <img src="yape.png" alt="QR de Yape" />
+    <div><button class="btn close" id="yape-close">Cerrar</button></div>
+  </div>
+</div>
 
 <footer class="wrap">
   <div><strong>Congreso Abierto Perú</strong> — proyecto cívico de datos abiertos · Licencia

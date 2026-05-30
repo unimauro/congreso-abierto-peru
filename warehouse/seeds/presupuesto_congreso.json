@@ -1,0 +1,123 @@
+[
+  {
+    "pia": 624824866,
+    "pim": 651461557,
+    "certificacion": 524650469,
+    "compromiso": 523788854,
+    "atencion_mensual": 523788854,
+    "devengado": 522541769,
+    "girado": 521731320,
+    "avance": 80.2,
+    "anio": 2016
+  },
+  {
+    "pia": 616674888,
+    "pim": 711147298,
+    "certificacion": 599533964,
+    "compromiso": 589626748,
+    "atencion_mensual": 589626748,
+    "devengado": 588667365,
+    "girado": 588215889,
+    "avance": 82.8,
+    "anio": 2017
+  },
+  {
+    "pia": 708032291,
+    "pim": 709777837,
+    "certificacion": 562249032,
+    "compromiso": 551053520,
+    "atencion_mensual": 551053520,
+    "devengado": 550914687,
+    "girado": 550045447,
+    "avance": 77.6,
+    "anio": 2018
+  },
+  {
+    "pia": 708184529,
+    "pim": 708496784,
+    "certificacion": 597868242,
+    "compromiso": 552136387,
+    "atencion_mensual": 523330354,
+    "devengado": 523230761,
+    "girado": 522449854,
+    "avance": 73.9,
+    "anio": 2019
+  },
+  {
+    "pia": 649368974,
+    "pim": 650478734,
+    "certificacion": 534323400,
+    "compromiso": 475931060,
+    "atencion_mensual": 475931060,
+    "devengado": 475598788,
+    "girado": 475054982,
+    "avance": 73.1,
+    "anio": 2020
+  },
+  {
+    "pia": 649368974,
+    "pim": 649629107,
+    "certificacion": 618830394,
+    "compromiso": 589093788,
+    "atencion_mensual": 589093513,
+    "devengado": 588882267,
+    "girado": 588053408,
+    "avance": 90.6,
+    "anio": 2021
+  },
+  {
+    "pia": 879366475,
+    "pim": 881763945,
+    "certificacion": 811529238,
+    "compromiso": 804885938,
+    "atencion_mensual": 804853271,
+    "devengado": 804762333,
+    "girado": 803642138,
+    "avance": 91.3,
+    "anio": 2022
+  },
+  {
+    "pia": 879744600,
+    "pim": 930006726,
+    "certificacion": 889328894,
+    "compromiso": 862416166,
+    "atencion_mensual": 862360545,
+    "devengado": 861860890,
+    "girado": 860037337,
+    "avance": 92.7,
+    "anio": 2023
+  },
+  {
+    "pia": 1084148245,
+    "pim": 1134768774,
+    "certificacion": 987465013,
+    "compromiso": 946697072,
+    "atencion_mensual": 943164990,
+    "devengado": 943144389,
+    "girado": 942503407,
+    "avance": 83.1,
+    "anio": 2024
+  },
+  {
+    "pia": 1412401268,
+    "pim": 1413267068,
+    "certificacion": 1290119895,
+    "compromiso": 1276244258,
+    "atencion_mensual": 1262862003,
+    "devengado": 1257523750,
+    "girado": 1256905028,
+    "avance": 89.0,
+    "anio": 2025
+  },
+  {
+    "pia": 1768984816,
+    "pim": 1769475156,
+    "certificacion": 1346951045,
+    "compromiso": 1287311342,
+    "atencion_mensual": 667627344,
+    "devengado": 616860052,
+    "girado": 593862332,
+    "avance": 34.9,
+    "anio": 2026
+  }
+]
