@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Congreso Abierto Perú — Observatorio Legislativo</title>
+<meta name="description" content="Observatorio de datos abiertos del Congreso de la República del Perú: proyectos de ley, autores, estados y producción legislativa." />
+<meta property="og:title" content="Congreso Abierto Perú" />
+<meta property="og:description" content="Transparencia y análisis de datos del Congreso del Perú con datos públicos." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Geist+Mono:wght@500&display=swap" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  :root{
+    --bg:#0a0b0d; --panel:#121317; --panel-2:#16181d; --border:#23262e;
+    --text:#e7e9ee; --muted:#9aa1ad; --accent:#e23744; --accent-2:#3b82f6;
+    --green:#22c55e; --amber:#f59e0b; --radius:14px;
+    --shadow:0 1px 0 rgba(255,255,255,.03), 0 8px 24px rgba(0,0,0,.35);
+  }
+  [data-theme="light"]{
+    --bg:#f6f7f9; --panel:#ffffff; --panel-2:#fbfbfd; --border:#e6e8ec;
+    --text:#16181d; --muted:#5b626f; --shadow:0 1px 2px rgba(0,0,0,.04),0 8px 24px rgba(0,0,0,.06);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--bg); color:var(--text);
+    font-family:'Inter',system-ui,-apple-system,sans-serif;
+    line-height:1.5; -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+  a{color:inherit}
+  /* Header */
+  header{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:62px;gap:16px}
+  .brand{display:flex;align-items:center;gap:11px;font-weight:800;letter-spacing:-.02em;font-size:16px}
+  .logo{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,var(--accent),#b3121d);display:grid;place-items:center;color:#fff;font-weight:800}
+  .nav-actions{display:flex;align-items:center;gap:10px}
+  .btn{border:1px solid var(--border);background:var(--panel);color:var(--text);border-radius:9px;padding:7px 12px;font-size:13px;font-weight:600;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:7px;transition:.15s}
+  .btn:hover{border-color:var(--muted)}
+  /* Hero */
+  .hero{padding:46px 0 26px}
+  .pill{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:600;color:var(--muted);border:1px solid var(--border);background:var(--panel);padding:5px 11px;border-radius:999px}
+  .dot{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 0 3px color-mix(in srgb,var(--green) 25%,transparent)}
+  h1{font-size:clamp(28px,5vw,46px);line-height:1.05;letter-spacing:-.03em;margin:16px 0 10px;font-weight:800}
+  .sub{color:var(--muted);font-size:17px;max-width:640px}
+  /* KPI grid */
+  .grid{display:grid;gap:16px}
+  .kpis{grid-template-columns:repeat(4,1fr);margin:30px 0}
+  @media(max-width:820px){.kpis{grid-template-columns:repeat(2,1fr)}}
+  .card{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:18px;box-shadow:var(--shadow)}
+  .kpi .label{font-size:12.5px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.04em}
+  .kpi .num{font-size:34px;font-weight:800;letter-spacing:-.03em;margin-top:6px;font-variant-numeric:tabular-nums}
+  .kpi .meta{font-size:12.5px;color:var(--muted);margin-top:4px}
+  .kpi .meta b{color:var(--green)}
+  /* Panels */
+  .panels{grid-template-columns:1.4fr 1fr;margin-bottom:16px}
+  @media(max-width:900px){.panels{grid-template-columns:1fr}}
+  .panel-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
+  .panel-head h3{margin:0;font-size:15px;font-weight:700;letter-spacing:-.01em}
+  .panel-head .hint{font-size:12px;color:var(--muted)}
+  .chart-box{position:relative;height:280px}
+  .chart-box.tall{height:420px}
+  /* Table */
+  table{width:100%;border-collapse:collapse;font-size:13.5px}
+  th,td{text-align:left;padding:11px 10px;border-bottom:1px solid var(--border);vertical-align:top}
+  th{font-size:11.5px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);font-weight:600}
+  tbody tr:hover{background:var(--panel-2)}
+  .code{font-family:'Geist Mono',monospace;font-size:12.5px;color:var(--accent-2);white-space:nowrap}
+  .tag{font-size:11px;font-weight:600;padding:3px 8px;border-radius:6px;background:var(--panel-2);border:1px solid var(--border);color:var(--muted);white-space:nowrap}
+  .tag.ley{color:var(--green);border-color:color-mix(in srgb,var(--green) 35%,var(--border))}
+  /* Footer */
+  footer{border-top:1px solid var(--border);margin-top:40px;padding:26px 0 50px;color:var(--muted);font-size:13px}
+  footer a{color:var(--accent-2);text-decoration:none}
+  .disclaimer{margin-top:10px;font-size:12px;opacity:.8}
+  .full{grid-column:1/-1}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <div class="brand"><span class="logo">CA</span> Congreso Abierto Perú</div>
+    <div class="nav-actions">
+      <a class="btn" href="https://github.com/unimauro/congreso-abierto-peru" target="_blank" rel="noopener">★ GitHub</a>
+      <button class="btn" id="theme" title="Cambiar tema">◐ Tema</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <span class="pill"><span class="dot"></span> Datos oficiales · periodo 2021–2026 · <span id="gen"></span></span>
+    <h1>Cómo funciona realmente el Congreso.</h1>
+    <p class="sub">Observatorio de datos abiertos del Congreso de la República del Perú. Producción legislativa, autores y estados de los proyectos de ley — directo de la fuente oficial.</p>
+  </section>
+
+  <section class="grid kpis" id="kpis"></section>
+
+  <section class="grid panels">
+    <div class="card">
+      <div class="panel-head"><h3>Proyectos presentados por año</h3><span class="hint">fecha de presentación</span></div>
+      <div class="chart-box"><canvas id="chAnio"></canvas></div>
+    </div>
+    <div class="card">
+      <div class="panel-head"><h3>Por proponente</h3><span class="hint">quién origina</span></div>
+      <div class="chart-box"><canvas id="chProp"></canvas></div>
+    </div>
+  </section>
+
+  <section class="grid panels">
+    <div class="card">
+      <div class="panel-head"><h3>Estado de los proyectos</h3><span class="hint">en qué etapa están</span></div>
+      <div class="chart-box tall"><canvas id="chEstado"></canvas></div>
+    </div>
+    <div class="card">
+      <div class="panel-head"><h3>Top autores</h3><span class="hint">por nº de proyectos firmados</span></div>
+      <div class="chart-box tall"><canvas id="chAutor"></canvas></div>
+    </div>
+  </section>
+
+  <section class="card full">
+    <div class="panel-head"><h3>Proyectos más recientes</h3><span class="hint">últimos presentados</span></div>
+    <div style="overflow-x:auto">
+      <table id="tabla">
+        <thead><tr><th>Código</th><th>Título</th><th>Estado</th><th>Fecha</th><th>Autores</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <div><strong>Congreso Abierto Perú</strong> — proyecto cívico de datos abiertos · Licencia
+    <a href="https://github.com/unimauro/congreso-abierto-peru/blob/master/LICENSE">AGPL-3.0</a> ·
+    Fuente: <span class="code">api.congreso.gob.pe/spley-portal-service</span></div>
+  <div class="disclaimer">Proyecto independiente. No afiliado al Congreso de la República del Perú. Los datos son información pública del Estado peruano. Versión inicial — iteramos.</div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

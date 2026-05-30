@@ -1,0 +1,308 @@
+{
+ "meta": {
+  "generado": "2026-05-29",
+  "periodos": [
+   2021
+  ],
+  "fuente": "api.congreso.gob.pe/spley-portal-service"
+ },
+ "totales": {
+  "proyectos": 14704,
+  "leyes_aprobadas": 3826,
+  "autores_unicos": 140,
+  "por_periodo": {
+   "2021": 14704
+  }
+ },
+ "por_estado": {
+  "EN COMISIÓN": 5746,
+  "Publicada en el Diario Oficial El Peruano": 3754,
+  "DICTAMEN": 2164,
+  "Orden del Día": 1737,
+  "EN AGENDA DEL PLENO": 528,
+  "Al Archivo": 267,
+  "Retirado por su Autor": 245,
+  "AUTÓGRAFA": 72,
+  "EN RECONSIDERACIÓN": 71,
+  "APROBADO": 43,
+  "APROBADO 1ERA. VOTACIÓN": 36,
+  "DECRETO DE ARCHIVO": 16
+ },
+ "por_anio": {
+  "2021": 1097,
+  "2022": 2786,
+  "2023": 2861,
+  "2024": 3074,
+  "2025": 3833,
+  "2026": 1053
+ },
+ "por_proponente": {
+  "Congreso": 13624,
+  "Poder Ejecutivo": 467,
+  "Congreso-Actualización": 328,
+  "Gobiernos Locales": 111,
+  "Colegios Profesionales": 35,
+  "Poder Judicial": 31,
+  "Jurado Nacional de Elecciones": 28,
+  "Ministerio Público": 19
+ },
+ "top_autores": [
+  {
+   "nombre": "Cruz Mamani, Flavio",
+   "proyectos": 2324
+  },
+  {
+   "nombre": "Cerrón Rojas, Waldemar José",
+   "proyectos": 1919
+  },
+  {
+   "nombre": "Agüero Gutiérrez, María Antonieta",
+   "proyectos": 1663
+  },
+  {
+   "nombre": "Portalatino Ávalos, Kelly Roxana",
+   "proyectos": 1590
+  },
+  {
+   "nombre": "Gonza Castillo, Américo",
+   "proyectos": 1585
+  },
+  {
+   "nombre": "Taipe Coronado, María Elizabeth",
+   "proyectos": 1534
+  },
+  {
+   "nombre": "Mita Alanoca, Isaac",
+   "proyectos": 1533
+  },
+  {
+   "nombre": "Gutiérrez Ticona, Paul Silvio",
+   "proyectos": 1380
+  },
+  {
+   "nombre": "Ugarte Mamani, Jhakeline Katy",
+   "proyectos": 1283
+  },
+  {
+   "nombre": "Medina Hermosilla, Elizabeth Sara",
+   "proyectos": 1274
+  },
+  {
+   "nombre": "Paredes Gonzales, Alex Antonio",
+   "proyectos": 1190
+  },
+  {
+   "nombre": "Vergara Mendoza, Elvis Hernán",
+   "proyectos": 1174
+  },
+  {
+   "nombre": "Bellido Ugarte, Guido",
+   "proyectos": 1160
+  },
+  {
+   "nombre": "Tacuri Valdivia, Germán Adolfo",
+   "proyectos": 1158
+  },
+  {
+   "nombre": "Aragón Carreño, Luis Ángel",
+   "proyectos": 1155
+  },
+  {
+   "nombre": "Quito Sarmiento, Bernardo Jaime",
+   "proyectos": 1117
+  },
+  {
+   "nombre": "Quiroz Barboza, Segundo Teodomiro",
+   "proyectos": 1103
+  },
+  {
+   "nombre": "Espinoza Vargas, Jhaec Darwin",
+   "proyectos": 1088
+  },
+  {
+   "nombre": "Flores Ancachi, Jorge Luis",
+   "proyectos": 1012
+  },
+  {
+   "nombre": "Montalvo Cubas, Segundo Toribio",
+   "proyectos": 990
+  }
+ ],
+ "recientes": [
+  {
+   "codigo": "14704/2025-CR",
+   "estado": "PRESENTADO",
+   "fecha": "2026-05-29",
+   "titulo": "PROYECTO DE LEY QUE PRECISA EL MOMENTO DEL CESE DE LA CARRERA JUDICIAL RESPETANDO LOS SETENTA AÑOS DE EDAD A FIN DE GENERAR SEGURIDAD JURÍDICA Y REDUCIR LA PROVISIONALIDAD BRINDANDO UN MEJOR SERVICIO A LOS CIUDADANOS",
+   "autores": 6
+  },
+  {
+   "codigo": "14703/2025-CR",
+   "estado": "PRESENTADO",
+   "fecha": "2026-05-29",
+   "titulo": "PROYECTO DE LEY QUE DECLARA DE INTERÉS NACIONAL LA CONSTRUCCIÓN DE LA LÍNEA FÉRREA DE LA CIUDAD DE SICUANI (CUSCO) A PUERTO MALDONADO (DEPARTAMENTO DE MADRE DE DIOS)",
+   "autores": 8
+  },
+  {
+   "codigo": "14702/2025-CR",
+   "estado": "PRESENTADO",
+   "fecha": "2026-05-29",
+   "titulo": "PROYECTO DE LEY QUE FORTALECE LAS BRIGADAS DE AUTOPROTECCIÓN ESCOLAR (BAPE) DE LAS INSTITUCIONES EDUCATIVAS Y RECONOCE SU PARTICIPACIÓN EN EL SISTEMA NACIONAL DE SEGURIDAD CIUDADANA, A FIN DE GARANTIZAR ENTORNOS ESCOLARES SEGUROS",
+   "autores": 5
+  },
+  {
+   "codigo": "14701/2025-PE",
+   "estado": "PRESENTADO",
+   "fecha": "2026-05-29",
+   "titulo": "PROYECTO DE LEY QUE RECATEGORIZA A VILLA A LOS CENTROS POBLADOS DE CASA GRANDE, CHATITO Y VICHAYAL, DEL DISTRITO DE LA ARENA, DE LA PROVINCIA DE PIURA, DEL DEPARTAMENTO DE PIURA",
+   "autores": 0
+  },
+  {
+   "codigo": "14700/2025-CR",
+   "estado": "PRESENTADO",
+   "fecha": "2026-05-29",
+   "titulo": "PROYECTO DE LEY QUE DECLARA DE INTERÉS NACIONAL EL FORTALECIMIENTO DE LAS ACCIONES DE PRESERVACIÓN, INVESTIGACIÓN, TRANSMISIÓN CULTURAL Y PUESTA EN VALOR DE LA MARINERA COMO PATRIMONIO CULTURAL INMATERIAL DE LA NACIÓN",
+   "autores": 6
+  },
+  {
+   "codigo": "14699/2025-CR",
+   "estado": "PRESENTADO",
+   "fecha": "2026-05-29",
+   "titulo": "PROYECTO DE LEY QUE MODIFICA LA LEY DEL IMPUESTO A LA RENTA PARA FORTALECER LA COMPETITIVIDAD DEL PAÍS EN MATERIA TRIBUTARIA",
+   "autores": 6
+  },
+  {
+   "codigo": "14698/2025-CR",
+   "estado": "PRESENTADO",
+   "fecha": "2026-05-29",
+   "titulo": "PROYECTO DE LEY QUE GARANTIZA LA SEGURIDAD JURÍDICA Y LA EQUIDAD TRIBUTARIA EN LA REGIÓN SAN MARTÍN RESTITUYENDO LA VIGENCIA DE LA LEY 32317",
+   "autores": 6
+  },
+  {
+   "codigo": "14697/2025-CR",
+   "estado": "EN COMISIÓN",
+   "fecha": "2026-05-29",
+   "titulo": "PROYECTO DE LEY QUE RECONOCE E INSTITUCIONALIZA AL DEPARTAMENTO DE HUANCAVELICA COMO SEDE MUNDIAL DE LA PAPA NATIVA GOURMET",
+   "autores": 3
+  },
+  {
+   "codigo": "14696/2025-CR",
+   "estado": "EN COMISIÓN",
+   "fecha": "2026-05-29",
+   "titulo": "PROYECTO DE LEY QUE MODIFICA LA LEY 27891, LEY DEL REFUGIADO",
+   "autores": 6
+  },
+  {
+   "codigo": "14695/2025-CR",
+   "estado": "EN COMISIÓN",
+   "fecha": "2026-05-28",
+   "titulo": "PROYECTO DE LEY QUE DECLARA DE INTERÉS NACIONAL Y NECESIDAD PÚBLICA LA CREACIÓN DEL DISTRITO DE SANTÍSIMA TRINIDAD DE MOLLEPATA, EN LA PROVINCIA DE HUAMANGA, DEPARTAMENTO DE AYACUCHO",
+   "autores": 6
+  },
+  {
+   "codigo": "14694/2025-CR",
+   "estado": "EN COMISIÓN",
+   "fecha": "2026-05-28",
+   "titulo": "PROYECTO DE LEY QUE DECLARA DE INTERÉS NACIONAL Y NECESIDAD PÚBLICA LA CREACIÓN DEL DISTRITO DE CALLACAMIPUCARA, PROVINCIA DE CHUCUITO, DEPARTAMENTO DE PUNO",
+   "autores": 6
+  },
+  {
+   "codigo": "14693/2025-CR",
+   "estado": "EN COMISIÓN",
+   "fecha": "2026-05-28",
+   "titulo": "PROYECTO DE LEY QUE CREA LA ESCALA REMUNERATIVA DEL PERSONAL BAJO EL RÉGIMEN LABORAL DEL DECRETO LEGISLATIVO N.° 728 EN LOS GOBIERNOS REGIONALES DEL SECTOR AGRARIO",
+   "autores": 6
+  },
+  {
+   "codigo": "14692/2025-CP",
+   "estado": "EN COMISIÓN",
+   "fecha": "2026-05-27",
+   "titulo": "PROYECTO DE LEY QUE RECONOCE LA COMPENSACIÓN POR TIEMPO DE SERVICIOS (CTS) DE LOS PROFESIONALES MÉDICOS DEL SECTOR PÚBLICO DESDE SU INGRESO A LA ADMINISTRACIÓN PÚBLICA",
+   "autores": 0
+  },
+  {
+   "codigo": "14691/2025-CR",
+   "estado": "EN COMISIÓN",
+   "fecha": "2026-05-27",
+   "titulo": "PROYECTO DE LEY QUE DECLARA DE INTERÉS NACIONAL LA PROMOCIÓN Y DIFUSIÓN DE LAS EXPERIENCIAS DE SIEMBRA Y COSECHA DE AGUA COMO PRÁCTICA ANCESTRAL DE GESTIÓN HÍDRICA SOSTENIBLE, Y DESTACA LA EXPERIENCIA DESARROLLADA EN EL FUNDO “LA COSECHA DEL FUTURO”, UBICADO EN LA COMUNIDAD CAMPESINA DE MASAJCANCHA, DISTRITO DE PACCHA, PROVINCIA DE JAUJA, DEPARTAMENTO DE JUNÍN, COMO REFERENTE DE RESILIENCIA HÍDRICA, INNOVACIÓN AGRARIA, CONSERVACIÓN AMBIENTAL Y PRESERVACIÓN DE CONOCIMIENTOS ANCESTRALES.",
+   "autores": 5
+  },
+  {
+   "codigo": "14690/2025-CR",
+   "estado": "EN COMISIÓN",
+   "fecha": "2026-05-27",
+   "titulo": "PROYECTO DE LEY QUE DECLARA DE INTERÉS NACIONAL Y NECESIDAD PÚBLICA EL RECONOCIMIENTO COMO PATRIMONIO CULTURAL DE LA NACIÓN DEL COMPLEJO ARQUEOLÓGICO MIRAFLORES, UBICADO EN EL DISTRITO DE AUCALLAMA, PROVINCIA DE HUARAL, DEPARTAMENTO DE LIMA, QUE ALBERGA UNA DE LAS REPRESENTACIONES MÁS ANTIGUAS DE LA CHACANA O CRUZ ANDINA DE SUDAMÉRICA; ASÍ COMO SU INVESTIGACIÓN, PROTECCIÓN, CONSERVACIÓN, PROMOCIÓN Y PUESTA EN VALOR.",
+   "autores": 5
+  },
+  {
+   "codigo": "14689/2025-CR",
+   "estado": "EN COMISIÓN",
+   "fecha": "2026-05-27",
+   "titulo": "PROYECTO DE LEY QUE FORTALECE LA FUNCIÓN FORMATIVA, ÉTICA Y DE GARANTÍA DEL EJERCICIO PROFESIONAL DE LOS COLEGIOS PROFESIONALES",
+   "autores": 6
+  },
+  {
+   "codigo": "14688/2025-CR",
+   "estado": "EN COMISIÓN",
+   "fecha": "2026-05-27",
+   "titulo": "PROYECTO DE LEY QUE EXCLUYE NORMAS SIN EFECTO VIGENTE, CONTINUANDO EL PROCESO DE CONSOLIDACIÓN DEL ESPECTRO NORMATIVO PERUANO",
+   "autores": 5
+  },
+  {
+   "codigo": "14687/2025-CR",
+   "estado": "EN COMISIÓN",
+   "fecha": "2026-05-27",
+   "titulo": "PROYECTO DE LEY QUE DECLARA DE INTERÉS NACIONAL LA PROMOCIÓN DEL CIRCUITO TURÍSTICO HISTÓRICO, CULTURAL Y RELIGIOSO DEL DEPARTAMENTO DE HUANCAVELICA",
+   "autores": 4
+  },
+  {
+   "codigo": "14686/2025-CR",
+   "estado": "EN COMISIÓN",
+   "fecha": "2026-05-27",
+   "titulo": "PROYECTO DE LEY QUE DECLARA DE INTERÉS NACIONAL Y DE NECESIDAD PÚBLICA LA CREACIÓN DE LA EMPRESA PRESTADORA DE SERVICIOS DE AGUA POTABLE Y SANEAMIENTO TUMBES S.A.",
+   "autores": 7
+  },
+  {
+   "codigo": "14685/2025-CR",
+   "estado": "EN COMISIÓN",
+   "fecha": "2026-05-27",
+   "titulo": "PROYECTO DE LEY QUE DECLARA EN EMERGENCIA EL SISTEMA NACIONAL PENITENCIARIO Y DECLARA DE NECESIDAD PÚBLICA Y DE INTERÉS NACIONAL LA REUBICACIÓN DE LOS E.P. DE LURIGANCHO Y DEL E.P. MIGUEL CASTRO CASTRO DEL DISTRITO DE SAN JUAN DE LURIGANCHO, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA",
+   "autores": 1
+  },
+  {
+   "codigo": "14684/2025-CR",
+   "estado": "EN COMISIÓN",
+   "fecha": "2026-05-27",
+   "titulo": "PROYECTO DE LEY QUE MODIFICA EL ARTÍCULO 82 DE LA CONSTITUCIÓN POLÍTICA DEL PERÚ PARA FORTALECER LA INDEPENDENCIA EN LA DESIGNACIÓN DEL CONTRALOR GENERAL DE LA REPÚBLICA",
+   "autores": 1
+  },
+  {
+   "codigo": "14683/2025-CR",
+   "estado": "EN COMISIÓN",
+   "fecha": "2026-05-27",
+   "titulo": "PROYECTO DE LEY QUE FORTALECE LA LUCHA CONTRA LA CORRUPCIÓN Y SANCIONA CON PENA PRIVATIVA DE LA LIBERTAD DE CADENA PERPETUA Y/O INHABILITACIÓN EN LOS CASOS DE DELITO DE COLUSIÓN DEL CÓDIGO PENAL",
+   "autores": 1
+  },
+  {
+   "codigo": "14682/2025-CR",
+   "estado": "EN COMISIÓN",
+   "fecha": "2026-05-27",
+   "titulo": "PROYECTO DE LEY QUE DECLARA DE INTERÉS NACIONAL Y NECESIDAD PÚBLICA LA DECLARATORIA DE EMERGENCIA AMBIENTAL POR PELIGRO INMINENTE ANTE CONTAMINACIÓN HÍDRICA DEL RÍO TAMBO EN LA PROVINCIA DE ISLAY, DEPARTAMENTO DE AREQUIPA",
+   "autores": 6
+  },
+  {
+   "codigo": "14681/2025-CR",
+   "estado": "EN COMISIÓN",
+   "fecha": "2026-05-27",
+   "titulo": "PROYECTO DE LEY QUE DECLARA DE INTERÉS NACIONAL Y NECESIDAD PÚBLICA LA CREACIÓN DEL INSTITUTO DE EDUCACIÓN SUPERIOR TECNOLÓGICO PÚBLICO DE TABACONAS, DISTRITO DE TABACONAS, PROVINCIA DE SAN IGNACIO, DEPARTAMENTO DE CAJAMARCA",
+   "autores": 6
+  },
+  {
+   "codigo": "14680/2025-CR",
+   "estado": "EN COMISIÓN",
+   "fecha": "2026-05-27",
+   "titulo": "PROYECTO DE LEY QUE MODIFICA EL ARTÍCULO 4 DE LA LEY N.° 10674 Y EL ARTÍCULO 3 DEL DECRETO SUPREMO N.° 300-68-HC, FORTALECIENDO LA REPRESENTACIÓN GREMIAL Y RECONOCIENDO LA NATURALEZA PRIVADA Y AUTÓNOMA DE LAS ORGANIZACIONES DE EXPENDEDORES DE DIARIOS, REVISTAS Y LOTERÍAS",
+   "autores": 7
+  }
+ ]
+}
