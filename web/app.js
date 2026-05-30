@@ -150,6 +150,8 @@ Promise.all([fetch("data.json").then(r => r.json()), fetch("context.json").then(
   .then(([d, c]) => {
     DATA = d; CTX = c;
     document.getElementById("gen").textContent = "actualizado " + d.meta.generado;
+    const ud = document.getElementById("updated-date");
+    if (ud) ud.textContent = d.meta.generado;
     renderAll();
   })
   .catch(e => { document.getElementById("kpis-resumen").innerHTML = `<div class="card">Error cargando datos: ${e}</div>`; });

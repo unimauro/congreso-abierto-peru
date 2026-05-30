@@ -2,12 +2,32 @@
 <html lang="es" data-theme="dark">
 <head>
 <meta charset="UTF-8" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MY9DFQF5GR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-MY9DFQF5GR');
+</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Congreso Abierto Perú — Observatorio Legislativo</title>
 <meta name="description" content="Observatorio de datos abiertos del Congreso de la República del Perú: proyectos de ley, presupuesto, comisiones y personal." />
-<meta property="og:title" content="Congreso Abierto Perú" />
-<meta property="og:description" content="Transparencia y análisis de datos del Congreso del Perú con datos públicos." />
-<meta property="og:image" content="https://unimauro.github.io/congreso-abierto-peru/share.png" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<meta name="theme-color" content="#e23744" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Congreso Abierto Perú — Observatorio Legislativo" />
+<meta property="og:description" content="¿Qué hizo el Congreso 2021–2026? 14,704 proyectos, 3,826 leyes y S/1,412M de presupuesto. Datos oficiales." />
+<meta property="og:url" content="https://unimauro.github.io/congreso-abierto-peru/" />
+<meta property="og:image" content="https://unimauro.github.io/congreso-abierto-peru/og.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Congreso Abierto Perú — Observatorio Legislativo" />
+<meta name="twitter:description" content="¿Qué hizo el Congreso 2021–2026? Proyectos, leyes, presupuesto y comisiones con datos oficiales." />
+<meta name="twitter:image" content="https://unimauro.github.io/congreso-abierto-peru/og.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Geist+Mono:wght@500&display=swap" rel="stylesheet" />
@@ -76,6 +96,19 @@
   ul.facts{margin:6px 0 0;padding-left:18px;color:var(--text);font-size:14px}
   ul.facts li{margin:6px 0}
   .full{grid-column:1/-1}
+  /* Apoyo */
+  .support{display:flex;flex-wrap:wrap;align-items:center;gap:22px;justify-content:space-between}
+  .support .pitch{flex:1;min-width:240px}
+  .support h3{margin:0 0 6px;font-size:18px;font-weight:800;letter-spacing:-.01em}
+  .support p{margin:0;color:var(--muted);font-size:14px;max-width:440px}
+  .support-actions{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+  .bmc{display:inline-flex;align-items:center;gap:9px;background:#ffdd00;color:#0a0b0d;font-weight:800;font-size:15px;padding:12px 18px;border-radius:11px;text-decoration:none;transition:.15s;box-shadow:var(--shadow)}
+  .bmc:hover{transform:translateY(-2px)}
+  .yape{display:flex;flex-direction:column;align-items:center;gap:6px}
+  .yape img{width:104px;height:104px;border-radius:12px;border:1px solid var(--border)}
+  .yape span{font-size:12px;font-weight:700;color:#742d8a}
+  [data-theme="light"] .yape span{color:#742d8a}
+  .updated{display:inline-flex;align-items:center;gap:7px;font-size:13px;color:var(--muted);font-weight:600}
   .view{display:none}
   .view.active{display:block}
   footer{border-top:1px solid var(--border);margin-top:40px;padding:26px 0 50px;color:var(--muted);font-size:13px}
@@ -190,6 +223,22 @@
         <div class="panel-head"><h3>Lo que hay que saber</h3></div>
         <ul class="facts" id="per-facts"></ul>
         <div class="note" id="per-fuentes"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APOYO -->
+  <section class="card full support" style="margin-top:24px">
+    <div class="pitch">
+      <h3>¿Te sirve este observatorio? 💛</h3>
+      <p>Es un proyecto cívico, independiente y de código abierto. Un cafecito ☕ ayuda a mantener los servidores y a seguir liberando datos del Congreso. ¡Gracias! 🙌</p>
+      <div class="updated" style="margin-top:12px">🕒 Última actualización de datos: <strong id="updated-date">—</strong></div>
+    </div>
+    <div class="support-actions">
+      <a class="bmc" href="https://buymeacoffee.com/unimauro" target="_blank" rel="noopener">☕ Buy me a coffee</a>
+      <div class="yape">
+        <img src="yape.png" alt="QR de Yape" />
+        <span>📱 Yápeme</span>
       </div>
     </div>
   </section>

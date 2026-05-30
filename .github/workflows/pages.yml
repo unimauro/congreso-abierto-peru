@@ -35,6 +35,13 @@ jobs:
         run: python web/build_data.py --periodos 2021 --fecha "$(date -u +%Y-%m-%d)"
         continue-on-error: true   # si la API falla, se publica el data.json versionado
 
+      - name: Regenerar imágenes (OG + tarjeta) con datos frescos
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq librsvg2-bin
+          python web/og_card.py    && rsvg-convert -w 1200 -h 630  web/og.svg    -o web/og.png
+          python web/share_card.py && rsvg-convert -w 1080 -h 1350 web/share.svg -o web/share.png
+        continue-on-error: true   # si rsvg falla, se publican las imágenes versionadas
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: web

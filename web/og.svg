@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0b0d"/><stop offset="1" stop-color="#15161b"/></linearGradient>
+    <linearGradient id="logo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e23744"/><stop offset="1" stop-color="#b3121d"/></linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="9" fill="url(#logo)"/>
+  <rect x="70" y="70" width="84" height="84" rx="20" fill="url(#logo)"/>
+  <text x="112" y="129" fill="#fff" font-size="42" font-weight="800" font-family="Helvetica,Arial" text-anchor="middle">CA</text>
+  <text x="178" y="112" fill="#e7e9ee" font-size="46" font-weight="800" font-family="Helvetica,Arial">Congreso Abierto Perú</text>
+  <text x="178" y="148" fill="#9aa1ad" font-size="26" font-family="Helvetica,Arial">Observatorio legislativo · datos oficiales</text>
+  <text x="70" y="240" fill="#e7e9ee" font-size="50" font-weight="800" font-family="Helvetica,Arial">¿Qué hizo el Congreso 2021–2026?</text>
+  
+    <text x="70" y="330" fill="#e23744" font-size="74" font-weight="800" font-family="Helvetica,Arial">14,704</text>
+    <text x="70" y="368" fill="#9aa1ad" font-size="27" font-family="Helvetica,Arial">proyectos de ley</text>
+    <text x="610" y="330" fill="#22c55e" font-size="74" font-weight="800" font-family="Helvetica,Arial">3,826</text>
+    <text x="610" y="368" fill="#9aa1ad" font-size="27" font-family="Helvetica,Arial">leyes publicadas</text>
+    <text x="70" y="480" fill="#3b82f6" font-size="74" font-weight="800" font-family="Helvetica,Arial">S/1,412M</text>
+    <text x="70" y="518" fill="#9aa1ad" font-size="27" font-family="Helvetica,Arial">presupuesto 2025</text>
+    <text x="610" y="480" fill="#f59e0b" font-size="74" font-weight="800" font-family="Helvetica,Arial">140</text>
+    <text x="610" y="518" fill="#9aa1ad" font-size="27" font-family="Helvetica,Arial">autores</text>
+  <line x1="70" y1="560" x2="1130" y2="560" stroke="#23262e" stroke-width="2"/>
+  <text x="70" y="600" fill="#9aa1ad" font-size="25" font-family="Helvetica,Arial">unimauro.github.io/congreso-abierto-peru</text>
+</svg>
