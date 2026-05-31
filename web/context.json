@@ -95,6 +95,20 @@
     ],
     "scrapeado": true
   },
+  "incremento": {
+    "titulo": "¿Por qué sube tanto el presupuesto?",
+    "motivos": [
+      {"factor": "Personal y obligaciones sociales", "detalle": "71% del presupuesto. El 125% del aumento se concentra aquí: +700 plazas nuevas en el periodo y bonos extraordinarios por convenios colectivos.", "peso": 71},
+      {"factor": "Implementación de la bicameralidad", "detalle": "S/180 M según el Plan Maestro para instalar y operar 130 diputados + 60 senadores desde julio 2026.", "peso": 13},
+      {"factor": "Obras de infraestructura", "detalle": "S/68 M en obras y más de S/37 M para construir un nuevo edificio (previsto para 2026).", "peso": 7},
+      {"factor": "Otros gastos operativos", "detalle": "Equipamiento tecnológico, vehículos y gastos corrientes.", "peso": 9}
+    ],
+    "fuentes": [
+      {"medio": "Ojo Público", "url": "https://ojo-publico.com/politica/congreso-duplico-su-presupuesto-solo-cinco-anos"},
+      {"medio": "Infobae", "url": "https://www.infobae.com/peru/2025/11/21/congreso-pide-mas-dinero-en-su-presupuesto-2026-las-excusas-para-incrementar-monto-en-s1768-millones/"},
+      {"medio": "El Foco", "url": "https://elfoco.pe/2025/06/reportajes/el-congreso-planea-gastar-s-114-millones-en-implementar-la-bicameralidad/"}
+    ]
+  },
   "personal": {
     "descripcion": "Personal en planilla del Congreso (no incluye pensionistas, Parlamento Andino ni personal de expresidentes).",
     "kpis": [
@@ -122,6 +136,7 @@
     "destacados": [
       "Cada congresista puede contratar hasta 7 personas en su despacho.",
       "Si preside una comisión, puede gestionar hasta 17 personas en total.",
+      "Se crearon +700 plazas nuevas en el periodo y el 71% del presupuesto va a gastos de personal.",
       "El Congreso eliminó el régimen CAS y trasladó esas plazas al D. Leg. 728."
     ],
     "fuentes": [

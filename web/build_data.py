@@ -70,9 +70,16 @@ def build(periodos: list[int], fecha: str) -> dict:
     por_proponente = Counter(p.proponente for p in todos if p.proponente)
 
     autores = Counter()
+    principal = Counter()
     for p in todos:
         for a in p.autores:
             autores[a] += 1
+        if p.autores:
+            principal[p.autores[0]] += 1  # el primer firmante es el autor principal
+
+    tot_con_autor = sum(principal.values())
+    top10 = sum(c for _, c in principal.most_common(10))
+    top20 = sum(c for _, c in principal.most_common(20))
 
     leyes = sum(1 for p in todos if es_ley(p.estado))
 
@@ -102,6 +109,15 @@ def build(periodos: list[int], fecha: str) -> dict:
             {"nombre": n, "proyectos": c} for n, c in autores.most_common(20)
         ],
         "comisiones": comisiones,
+        "produccion_congresistas": [
+            {"nombre": n, "proyectos": c} for n, c in principal.most_common(20)
+        ],
+        "concentracion": {
+            "autores_principales": len(principal),
+            "total_con_autor": tot_con_autor,
+            "top10_pct": round(top10 / tot_con_autor * 100, 1) if tot_con_autor else 0,
+            "top20_pct": round(top20 / tot_con_autor * 100, 1) if tot_con_autor else 0,
+        },
         "recientes": [
             {
                 "codigo": p.codigo,

@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generado": "2026-05-29",
+  "generado": "2026-05-31",
   "periodos": [
    2021
   ],
@@ -366,6 +366,94 @@
    "proyectos": 0
   }
  ],
+ "produccion_congresistas": [
+  {
+   "nombre": "Ugarte Mamani, Jhakeline Katy",
+   "proyectos": 618
+  },
+  {
+   "nombre": "Cerrón Rojas, Waldemar José",
+   "proyectos": 607
+  },
+  {
+   "nombre": "Flores Ancachi, Jorge Luis",
+   "proyectos": 505
+  },
+  {
+   "nombre": "Bellido Ugarte, Guido",
+   "proyectos": 451
+  },
+  {
+   "nombre": "Montalvo Cubas, Segundo Toribio",
+   "proyectos": 370
+  },
+  {
+   "nombre": "Reymundo Mercado, Edgard Cornelio",
+   "proyectos": 366
+  },
+  {
+   "nombre": "Cruz Mamani, Flavio",
+   "proyectos": 320
+  },
+  {
+   "nombre": "Soto Reyes, Alejandro",
+   "proyectos": 292
+  },
+  {
+   "nombre": "Paredes Gonzales, Alex Antonio",
+   "proyectos": 277
+  },
+  {
+   "nombre": "Gonza Castillo, Américo",
+   "proyectos": 258
+  },
+  {
+   "nombre": "Gutiérrez Ticona, Paul Silvio",
+   "proyectos": 243
+  },
+  {
+   "nombre": "Quiroz Barboza, Segundo Teodomiro",
+   "proyectos": 238
+  },
+  {
+   "nombre": "Pariona Sinche, Alfredo",
+   "proyectos": 211
+  },
+  {
+   "nombre": "Taipe Coronado, María Elizabeth",
+   "proyectos": 200
+  },
+  {
+   "nombre": "Quispe Mamani, Wilson Rusbel",
+   "proyectos": 181
+  },
+  {
+   "nombre": "Aragón Carreño, Luis Ángel",
+   "proyectos": 181
+  },
+  {
+   "nombre": "Medina Minaya, Esdras Ricardo",
+   "proyectos": 180
+  },
+  {
+   "nombre": "Dávila Atanacio, Pasión Neomías",
+   "proyectos": 170
+  },
+  {
+   "nombre": "Burgos Oliveros, Juan Bartolomé",
+   "proyectos": 159
+  },
+  {
+   "nombre": "Soto Palacios, Wilson",
+   "proyectos": 143
+  }
+ ],
+ "concentracion": {
+  "autores_principales": 139,
+  "total_con_autor": 13597,
+  "top10_pct": 29.9,
+  "top20_pct": 43.9
+ },
  "recientes": [
   {
    "codigo": "14704/2025-CR",

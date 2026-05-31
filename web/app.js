@@ -188,9 +188,41 @@ function renderPersonal() {
   document.getElementById("per-fuentes").innerHTML = fuentesHtml(pe.fuentes);
 }
 
+function renderIncremento() {
+  const inc = CTX.incremento;
+  if (!inc) return;
+  document.getElementById("inc-titulo").textContent = inc.titulo;
+  mk("chIncremento", {
+    type: "doughnut",
+    data: { labels: inc.motivos.map(m => m.factor), datasets: [{ data: inc.motivos.map(m => m.peso), backgroundColor: palette(inc.motivos.length), borderWidth: 0 }] },
+    options: opts({ cutout: "58%", plugins: { legend: { position: "bottom", labels: { color: textC(), boxWidth: 12, font: { size: 11 } } }, tooltip: { callbacks: { label: c => ` ${c.label}: ${c.parsed}%` } } } }),
+  });
+  document.getElementById("inc-facts").innerHTML = inc.motivos.map(m => `<li><b>${m.factor} (${m.peso}%)</b> — ${m.detalle}</li>`).join("");
+  document.getElementById("inc-fuentes").innerHTML = fuentesHtml(inc.fuentes);
+}
+
+function renderAnalisis() {
+  const prod = DATA.produccion_congresistas || [];
+  const c = DATA.concentracion || {};
+  document.getElementById("kpis-analisis").innerHTML =
+    kpiCard("Autores principales", fmt(c.autores_principales || 0), "congresistas que lideran proyectos", "var(--accent)") +
+    kpiCard("Top 10 concentra", `${c.top10_pct || 0}%`, "de todos los proyectos", "var(--amber)") +
+    kpiCard("Top 20 concentra", `${c.top20_pct || 0}%`, "de todos los proyectos", "var(--accent-2)") +
+    kpiCard("Líder", prod[0]?.nombre.split(",")[0] || "—", `${fmt(prod[0]?.proyectos || 0)} proyectos`, "var(--purple)");
+  const top = prod.slice(0, 15);
+  mk("chProd", {
+    type: "bar",
+    data: { labels: top.map(x => x.nombre), datasets: [{ data: top.map(x => x.proyectos), backgroundColor: css("--accent"), borderRadius: 6 }] },
+    options: opts({ indexAxis: "y", plugins: { legend: { display: false } }, scales: scales(true) }),
+  });
+  document.getElementById("prod-note").innerHTML =
+    `Se cuenta como <b>autor principal</b> al primer firmante de cada proyecto. ${fmt(c.autores_principales || 0)} congresistas lideraron al menos un proyecto; los 10 más activos concentran el <b>${c.top10_pct || 0}%</b> de toda la producción legislativa del periodo.`;
+}
+
 function renderAll() {
   if (!DATA || !CTX) return;
-  renderResumen(); renderProyectos(); renderPresupuesto(); renderComisiones(); renderPersonal();
+  renderResumen(); renderProyectos(); renderPresupuesto(); renderIncremento();
+  renderComisiones(); renderAnalisis(); renderPersonal();
 }
 
 Promise.all([fetch("data.json").then(r => r.json()), fetch("context.json").then(r => r.json())])

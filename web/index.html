@@ -152,6 +152,7 @@
     <button data-view="proyectos">Proyectos de ley</button>
     <button data-view="presupuesto">Presupuesto</button>
     <button data-view="comisiones">Comisiones</button>
+    <button data-view="analisis">Análisis 🔬</button>
     <button data-view="personal">Personal</button>
   </div>
 </nav>
@@ -221,6 +222,12 @@
       <ul class="facts" id="pres-facts"></ul>
       <div class="note" id="pres-fuentes"></div>
     </div>
+    <div class="card full" style="margin-top:16px">
+      <div class="panel-head"><h3 id="inc-titulo">¿Por qué sube tanto el presupuesto?</h3><span class="hint">desglose del incremento</span></div>
+      <div class="chart-box"><canvas id="chIncremento"></canvas></div>
+      <ul class="facts" id="inc-facts"></ul>
+      <div class="note" id="inc-fuentes"></div>
+    </div>
   </section>
 
   <!-- COMISIONES -->
@@ -231,6 +238,24 @@
       <div class="panel-head"><h3>Proyectos por comisión</h3><span class="hint">top 15 · dato real (API)</span></div>
       <div class="chart-box tall"><canvas id="chCom"></canvas></div>
       <div class="note">Cruce real entre las comisiones del Congreso y los proyectos de ley asignados (API oficial). Presupuesto, personal y sesiones por comisión requieren el scraping del Portal de Transparencia — planificado en la Fase 1.3.</div>
+    </div>
+  </section>
+
+  <!-- ANALISIS / ZOOM -->
+  <section class="view" id="view-analisis">
+    <h2 class="section">Análisis 🔬 — el zoom</h2>
+    <div class="grid kpis" id="kpis-analisis"></div>
+    <div class="card full">
+      <div class="panel-head"><h3>Producción por congresista</h3><span class="hint">top 15 · como autor principal (1er firmante) · dato real</span></div>
+      <div class="chart-box tall"><canvas id="chProd"></canvas></div>
+      <div class="note" id="prod-note"></div>
+    </div>
+    <div class="card full" style="margin-top:16px">
+      <div class="panel-head"><h3>🚧 Próximamente en el zoom</h3></div>
+      <ul class="facts">
+        <li><b>Producción por bancada</b> y <b>congresistas con producción nula total</b>: requieren el padrón completo de los 130 congresistas con su bancada (scraping del directorio oficial), uniéndolo con cuidado a la autoría para no atribuir mal. En cola.</li>
+        <li><b>Asesores por congresista</b>: es planilla del Portal de Transparencia (PTE). Hoy mostramos la regla estructural (hasta 7 por despacho) y el dato agregado de +700 plazas; el detalle por congresista viene con el scraper del PTE.</li>
+      </ul>
     </div>
   </section>
 
