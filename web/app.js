@@ -233,6 +233,66 @@ function renderPersonal() {
 
   document.getElementById("per-fuentes").innerHTML =
     `Fuente: <a href="https://www.transparencia.gob.pe/personal/pte_transparencia_personal.aspx?id_entidad=16" target="_blank" rel="noopener">Portal de Transparencia Estándar (PTE)</a> — planilla nominal del Congreso (id_entidad=16), ${MESES[m.mes]} ${m.anio}. ${m.nota}`;
+
+  initBuscadorPersonal();
+}
+
+// ---- Buscador de personal (directorio nominal completo) ----
+const PER_PAGE = 50;
+let perState = { q: "", reg: "", orden: "nombre", pag: 0, wired: false };
+
+function personalFiltrado() {
+  const L = PERSONAL.lista || [];              // [nombre, cargo, regimen, dependencia, total]
+  const q = perState.q.trim().toLowerCase();
+  const reg = perState.reg;
+  let out = L.filter(r =>
+    (!reg || r[2] === reg) &&
+    (!q || (r[0] + " " + r[1] + " " + r[3]).toLowerCase().includes(q))
+  );
+  out = out.slice().sort(perState.orden === "sueldo"
+    ? (a, b) => b[4] - a[4]
+    : (a, b) => a[0].localeCompare(b[0], "es"));
+  return out;
+}
+
+function renderBuscadorPersonal() {
+  const res = personalFiltrado();
+  const total = res.length;
+  const paginas = Math.max(1, Math.ceil(total / PER_PAGE));
+  if (perState.pag >= paginas) perState.pag = paginas - 1;
+  if (perState.pag < 0) perState.pag = 0;
+  const slice = res.slice(perState.pag * PER_PAGE, perState.pag * PER_PAGE + PER_PAGE);
+
+  document.getElementById("per-count").textContent =
+    `${fmt(total)} ${total === 1 ? "persona" : "personas"}`;
+  document.querySelector("#tPerLista tbody").innerHTML = slice.map(r =>
+    `<tr><td>${r[0]}</td><td>${r[1]}</td><td>${r[3] || "—"}</td><td>${r[2]}</td><td>${soles(r[4])}</td></tr>`
+  ).join("") || `<tr><td colspan="5" style="text-align:center;color:var(--muted);padding:24px">Sin resultados para “${perState.q}”.</td></tr>`;
+
+  document.getElementById("per-pag").textContent = `Página ${perState.pag + 1} de ${fmt(paginas)}`;
+  document.getElementById("per-prev").disabled = perState.pag === 0;
+  document.getElementById("per-next").disabled = perState.pag >= paginas - 1;
+}
+
+function initBuscadorPersonal() {
+  // poblar filtro de régimen una sola vez con lo que hay en los datos
+  const sel = document.getElementById("per-reg");
+  if (sel && sel.options.length <= 1) {
+    (PERSONAL.por_regimen || []).forEach(r => {
+      const o = document.createElement("option");
+      o.value = r.regimen; o.textContent = `${r.regimen} (${fmt(r.n)})`;
+      sel.appendChild(o);
+    });
+  }
+  if (perState.wired) { renderBuscadorPersonal(); return; }
+  perState.wired = true;
+  const q = document.getElementById("per-q");
+  q.addEventListener("input", () => { perState.q = q.value; perState.pag = 0; renderBuscadorPersonal(); });
+  sel.addEventListener("change", () => { perState.reg = sel.value; perState.pag = 0; renderBuscadorPersonal(); });
+  document.getElementById("per-orden").addEventListener("change", e => { perState.orden = e.target.value; perState.pag = 0; renderBuscadorPersonal(); });
+  document.getElementById("per-prev").addEventListener("click", () => { perState.pag--; renderBuscadorPersonal(); });
+  document.getElementById("per-next").addEventListener("click", () => { perState.pag++; renderBuscadorPersonal(); });
+  renderBuscadorPersonal();
 }
 
 function renderIncremento() {

@@ -120,6 +120,13 @@ def build(fecha: str) -> dict:
             {"nombre": r["nombre"], "cargo": r["cargo"], "total": monto(r)}
             for r in top_pensiones
         ],
+        # Lista nominal COMPLETA (compacta) para el buscador del sitio.
+        # Orden de campos: [nombre, cargo, régimen, dependencia, total].
+        "lista_campos": ["nombre", "cargo", "regimen", "dependencia", "total"],
+        "lista": [
+            [r["nombre"], r["cargo"], r["regimen"], r["dependencia"], monto(r)]
+            for r in sorted(rows, key=lambda r: r["nombre"])
+        ],
     }
 
 

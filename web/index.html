@@ -104,6 +104,12 @@
   th,td{text-align:left;padding:11px 10px;border-bottom:1px solid var(--border);vertical-align:top}
   th{font-size:11.5px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);font-weight:600}
   tbody tr:hover{background:var(--panel-2)}
+  .per-filtros{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+  .per-filtros input,.per-filtros select{background:var(--panel-2);border:1px solid var(--border);color:var(--text);border-radius:9px;padding:10px 12px;font-size:14px;font-family:inherit}
+  .per-filtros input{flex:1;min-width:220px}
+  .per-pager{display:flex;align-items:center;justify-content:center;gap:14px;margin-top:12px;color:var(--muted);font-size:13px}
+  .per-pager button:disabled{opacity:.4;cursor:not-allowed}
+  #tPerLista td:last-child{text-align:right;white-space:nowrap;font-weight:600}
   .code{font-family:'Geist Mono',monospace;font-size:12.5px;color:var(--accent-2);white-space:nowrap}
   .tag{font-size:11px;font-weight:600;padding:3px 8px;border-radius:6px;background:var(--panel-2);border:1px solid var(--border);color:var(--muted);white-space:nowrap}
   .tag.ley{color:var(--green);border-color:color-mix(in srgb,var(--green) 35%,var(--border))}
@@ -264,6 +270,26 @@
     <h2 class="section">Personal del Congreso</h2>
     <span class="badge-src" id="per-badge">✅ Planilla nominal real · Portal de Transparencia (PTE)</span>
     <div class="grid kpis" id="kpis-per"></div>
+
+    <div class="card full" id="per-buscador">
+      <div class="panel-head"><h3>🔎 Buscador de personal</h3><span class="hint" id="per-count"></span></div>
+      <div class="per-filtros">
+        <input type="search" id="per-q" placeholder="Nombre, cargo o dependencia… (ej. coordinador, asesor, gabinete)" autocomplete="off" />
+        <select id="per-reg"><option value="">Todos los regímenes</option></select>
+        <select id="per-orden">
+          <option value="nombre">Ordenar: A–Z</option>
+          <option value="sueldo">Ordenar: sueldo ↓</option>
+        </select>
+      </div>
+      <div style="overflow:auto;max-height:520px">
+        <table id="tPerLista">
+          <thead><tr><th>Nombre</th><th>Cargo</th><th>Dependencia</th><th>Régimen</th><th style="text-align:right">S/ mes</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="per-pager"><button class="btn" id="per-prev">‹ Anterior</button><span id="per-pag"></span><button class="btn" id="per-next">Siguiente ›</button></div>
+    </div>
+
     <div class="grid panels">
       <div class="card">
         <div class="panel-head"><h3>Personal por régimen laboral</h3><span class="hint">n° de personas</span></div>
