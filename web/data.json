@@ -1,32 +1,32 @@
 {
  "meta": {
-  "generado": "2026-05-31",
+  "generado": "2026-08-15",
   "periodos": [
    2021
   ],
   "fuente": "api.congreso.gob.pe/spley-portal-service"
  },
  "totales": {
-  "proyectos": 14704,
-  "leyes_aprobadas": 3826,
+  "proyectos": 14864,
+  "leyes_aprobadas": 3999,
   "autores_unicos": 140,
   "por_periodo": {
-   "2021": 14704
+   "2021": 14864
   }
  },
  "por_estado": {
-  "EN COMISIÓN": 5746,
-  "Publicada en el Diario Oficial El Peruano": 3754,
-  "DICTAMEN": 2164,
-  "Orden del Día": 1737,
-  "EN AGENDA DEL PLENO": 528,
-  "Al Archivo": 267,
-  "Retirado por su Autor": 245,
-  "AUTÓGRAFA": 72,
-  "EN RECONSIDERACIÓN": 71,
-  "APROBADO": 43,
-  "APROBADO 1ERA. VOTACIÓN": 36,
-  "DECRETO DE ARCHIVO": 16
+  "EN COMISIÓN": 5545,
+  "Publicada en el Diario Oficial El Peruano": 3996,
+  "DICTAMEN": 1876,
+  "Orden del Día": 1795,
+  "EN AGENDA DEL PLENO": 552,
+  "EN AGENDA CD": 349,
+  "Al Archivo": 274,
+  "Retirado por su Autor": 246,
+  "EN AGENDA DE LA COMISIÓN PERMANENTE": 71,
+  "EN RECONSIDERACIÓN": 68,
+  "APROBADO 1ERA. VOTACIÓN": 34,
+  "EN CUARTO INTERMEDIO": 20
  },
  "por_anio": {
   "2021": 1097,
@@ -34,176 +34,176 @@
   "2023": 2861,
   "2024": 3074,
   "2025": 3833,
-  "2026": 1053
+  "2026": 1213
  },
  "por_proponente": {
-  "Congreso": 13624,
-  "Poder Ejecutivo": 467,
+  "Congreso": 13766,
+  "PODER EJECUTIVO": 482,
   "Congreso-Actualización": 328,
-  "Gobiernos Locales": 111,
+  "Gobiernos Locales": 113,
   "Colegios Profesionales": 35,
   "Poder Judicial": 31,
   "Jurado Nacional de Elecciones": 28,
-  "Ministerio Público": 19
+  "Gobiernos Regionales": 20
  },
  "top_autores": [
   {
    "nombre": "Cruz Mamani, Flavio",
-   "proyectos": 2324
+   "proyectos": 2348
   },
   {
    "nombre": "Cerrón Rojas, Waldemar José",
-   "proyectos": 1919
+   "proyectos": 1926
   },
   {
    "nombre": "Agüero Gutiérrez, María Antonieta",
-   "proyectos": 1663
-  },
-  {
-   "nombre": "Portalatino Ávalos, Kelly Roxana",
-   "proyectos": 1590
+   "proyectos": 1678
   },
   {
    "nombre": "Gonza Castillo, Américo",
-   "proyectos": 1585
+   "proyectos": 1608
   },
   {
-   "nombre": "Taipe Coronado, María Elizabeth",
-   "proyectos": 1534
+   "nombre": "Portalatino Ávalos, Kelly Roxana",
+   "proyectos": 1594
   },
   {
    "nombre": "Mita Alanoca, Isaac",
-   "proyectos": 1533
+   "proyectos": 1557
+  },
+  {
+   "nombre": "Taipe Coronado, María Elizabeth",
+   "proyectos": 1548
   },
   {
    "nombre": "Gutiérrez Ticona, Paul Silvio",
-   "proyectos": 1380
+   "proyectos": 1390
   },
   {
    "nombre": "Ugarte Mamani, Jhakeline Katy",
-   "proyectos": 1283
+   "proyectos": 1284
   },
   {
    "nombre": "Medina Hermosilla, Elizabeth Sara",
-   "proyectos": 1274
-  },
-  {
-   "nombre": "Paredes Gonzales, Alex Antonio",
-   "proyectos": 1190
-  },
-  {
-   "nombre": "Vergara Mendoza, Elvis Hernán",
-   "proyectos": 1174
+   "proyectos": 1283
   },
   {
    "nombre": "Bellido Ugarte, Guido",
-   "proyectos": 1160
+   "proyectos": 1205
   },
   {
-   "nombre": "Tacuri Valdivia, Germán Adolfo",
-   "proyectos": 1158
+   "nombre": "Paredes Gonzales, Alex Antonio",
+   "proyectos": 1193
+  },
+  {
+   "nombre": "Vergara Mendoza, Elvis Hernán",
+   "proyectos": 1185
   },
   {
    "nombre": "Aragón Carreño, Luis Ángel",
-   "proyectos": 1155
+   "proyectos": 1168
+  },
+  {
+   "nombre": "Tacuri Valdivia, Germán Adolfo",
+   "proyectos": 1165
   },
   {
    "nombre": "Quito Sarmiento, Bernardo Jaime",
-   "proyectos": 1117
+   "proyectos": 1129
+  },
+  {
+   "nombre": "Espinoza Vargas, Jhaec Darwin",
+   "proyectos": 1127
   },
   {
    "nombre": "Quiroz Barboza, Segundo Teodomiro",
    "proyectos": 1103
   },
   {
-   "nombre": "Espinoza Vargas, Jhaec Darwin",
-   "proyectos": 1088
-  },
-  {
    "nombre": "Flores Ancachi, Jorge Luis",
-   "proyectos": 1012
+   "proyectos": 1016
   },
   {
    "nombre": "Montalvo Cubas, Segundo Toribio",
-   "proyectos": 990
+   "proyectos": 1001
   }
  ],
  "comisiones": [
   {
    "nombre": "Presupuesto y Cuenta General de la República",
-   "proyectos": 2734
+   "proyectos": 2765
   },
   {
    "nombre": "Educación, Juventud y Deporte",
-   "proyectos": 2290
+   "proyectos": 2325
   },
   {
    "nombre": "Economía, Banca, Finanzas e Inteligencia Financiera",
-   "proyectos": 1984
+   "proyectos": 2000
   },
   {
    "nombre": "Descentralización, Regionalización, Gobiernos Locales y Modernización de la Gestión del Estado",
-   "proyectos": 1790
+   "proyectos": 1832
   },
   {
    "nombre": "Justicia y Derechos Humanos",
-   "proyectos": 1678
+   "proyectos": 1689
   },
   {
    "nombre": "Constitución y Reglamento",
-   "proyectos": 1367
+   "proyectos": 1373
   },
   {
    "nombre": "Salud y Población",
-   "proyectos": 1039
+   "proyectos": 1049
   },
   {
    "nombre": "Defensa Nacional, Orden Interno, Desarrollo Alternativo y Lucha Contra las Drogas",
-   "proyectos": 983
+   "proyectos": 996
   },
   {
    "nombre": "Trabajo y Seguridad Social",
-   "proyectos": 849
+   "proyectos": 854
   },
   {
    "nombre": "Agraria",
-   "proyectos": 775
+   "proyectos": 781
   },
   {
    "nombre": "Transportes y Comunicaciones",
-   "proyectos": 749
+   "proyectos": 759
   },
   {
    "nombre": "Cultura y Patrimonio Cultural",
-   "proyectos": 720
+   "proyectos": 730
   },
   {
    "nombre": "Vivienda y Construcción",
-   "proyectos": 466
+   "proyectos": 477
   },
   {
    "nombre": "Energía y Minas",
-   "proyectos": 392
+   "proyectos": 393
   },
   {
    "nombre": "Pueblos Andinos, Amazónicos y Afroperuanos, Ambiente y Ecología",
-   "proyectos": 348
+   "proyectos": 350
   },
   {
    "nombre": "Producción, Micro y Pequeña Empresa y Cooperativas",
-   "proyectos": 322
+   "proyectos": 324
   },
   {
    "nombre": "Comercio Exterior y Turismo",
-   "proyectos": 307
+   "proyectos": 309
   },
   {
    "nombre": "Mujer y Familia",
-   "proyectos": 289
+   "proyectos": 290
   },
   {
    "nombre": "Defensa del Consumidor y Organismos Reguladores de los Servicios Públicos",
-   "proyectos": 274
+   "proyectos": 276
   },
   {
    "nombre": "Inclusión Social y Personas con Discapacidad",
@@ -219,7 +219,7 @@
   },
   {
    "nombre": "Ciencia, Innovación y Tecnología",
-   "proyectos": 146
+   "proyectos": 147
   },
   {
    "nombre": "Inteligencia",
@@ -364,16 +364,140 @@
   {
    "nombre": "Comisión Especial Multipartidaria, encargada de realizar trabajo en conjunto con el Ministerio del Interior y las entidades del Estado peruano responsables de los objetivos prioritarios y lineamientos en la lucha frontal contra el terrorismo y crimen organizado trasnacional",
    "proyectos": 0
+  },
+  {
+   "nombre": "Bicameral de Presupuesto y de la Cuenta General de la República",
+   "proyectos": 0
+  },
+  {
+   "nombre": "Constitución, Reglamento y Relaciones Exteriores",
+   "proyectos": 0
+  },
+  {
+   "nombre": "Defensa Nacional y Orden Interno",
+   "proyectos": 0
+  },
+  {
+   "nombre": "Asuntos de Desarrollo Productivo, Energía y Minas, Infraestructura y Trabajo",
+   "proyectos": 0
+  },
+  {
+   "nombre": "Economía, Medio Ambiente y Defensa del Consumidor",
+   "proyectos": 0
+  },
+  {
+   "nombre": "Asuntos de Salud, Educación, Cultura, Mujer y Desarrollo Social y Digital",
+   "proyectos": 0
+  },
+  {
+   "nombre": "Asuntos de Gestión del Estado y Contraloría",
+   "proyectos": 0
+  },
+  {
+   "nombre": "Justicia y Derechos Humanos",
+   "proyectos": 0
+  },
+  {
+   "nombre": "Ética Parlamentaria",
+   "proyectos": 0
+  },
+  {
+   "nombre": "Procedimientos Especiales",
+   "proyectos": 0
+  },
+  {
+   "nombre": "Inteligencia",
+   "proyectos": 0
+  },
+  {
+   "nombre": "Control Político sobre los Actos Normativos del Poder Ejecutivo y Regímenes de Excepción",
+   "proyectos": 0
+  },
+  {
+   "nombre": "Constitución, Reglamento y Relaciones Exteriores",
+   "proyectos": 0
+  },
+  {
+   "nombre": "Defensa Nacional y Orden Interno",
+   "proyectos": 0
+  },
+  {
+   "nombre": "Desarrollo Agrario",
+   "proyectos": 0
+  },
+  {
+   "nombre": "Defensa del Consumidor y Regulación de los Servicios Públicos",
+   "proyectos": 0
+  },
+  {
+   "nombre": "Modernización de la Gestión del Estado y Contraloría",
+   "proyectos": 0
+  },
+  {
+   "nombre": "Economía, Banca, Finanzas e Inteligencia Financiera",
+   "proyectos": 0
+  },
+  {
+   "nombre": "Educación, Cultura y Deporte",
+   "proyectos": 0
+  },
+  {
+   "nombre": "Energía y Minas",
+   "proyectos": 0
+  },
+  {
+   "nombre": "Justicia y Derechos Humanos",
+   "proyectos": 0
+  },
+  {
+   "nombre": "Inclusión Social, Familia, Mujer y Pueblos Andinos, Amazónicos y Afroperuanos",
+   "proyectos": 0
+  },
+  {
+   "nombre": "Producción, Comercio Exterior y Turismo",
+   "proyectos": 0
+  },
+  {
+   "nombre": "Medio Ambiente y Sostenibilidad",
+   "proyectos": 0
+  },
+  {
+   "nombre": "Salud",
+   "proyectos": 0
+  },
+  {
+   "nombre": "Trabajo y Seguridad Social",
+   "proyectos": 0
+  },
+  {
+   "nombre": "Infraestructura, Vivienda y Transportes",
+   "proyectos": 0
+  },
+  {
+   "nombre": "Ciencia, Innovación Tecnológica y Sociedad Digital",
+   "proyectos": 0
+  },
+  {
+   "nombre": "Ética Parlamentaria",
+   "proyectos": 0
+  },
+  {
+   "nombre": "Ordenamiento y Seguimiento Legislativo",
+   "proyectos": 0
+  },
+  {
+   "nombre": "Acusaciones Constitucionales",
+   "proyectos": 0
   }
  ],
  "produccion_congresistas": [
   {
    "nombre": "Ugarte Mamani, Jhakeline Katy",
-   "proyectos": 618
+   "proyectos": 619
   },
   {
    "nombre": "Cerrón Rojas, Waldemar José",
-   "proyectos": 607
+   "proyectos": 609
   },
   {
    "nombre": "Flores Ancachi, Jorge Luis",
@@ -381,19 +505,19 @@
   },
   {
    "nombre": "Bellido Ugarte, Guido",
-   "proyectos": 451
+   "proyectos": 482
   },
   {
    "nombre": "Montalvo Cubas, Segundo Toribio",
-   "proyectos": 370
+   "proyectos": 376
   },
   {
    "nombre": "Reymundo Mercado, Edgard Cornelio",
-   "proyectos": 366
+   "proyectos": 367
   },
   {
    "nombre": "Cruz Mamani, Flavio",
-   "proyectos": 320
+   "proyectos": 325
   },
   {
    "nombre": "Soto Reyes, Alejandro",
@@ -401,15 +525,15 @@
   },
   {
    "nombre": "Paredes Gonzales, Alex Antonio",
-   "proyectos": 277
+   "proyectos": 278
   },
   {
    "nombre": "Gonza Castillo, Américo",
-   "proyectos": 258
+   "proyectos": 263
   },
   {
    "nombre": "Gutiérrez Ticona, Paul Silvio",
-   "proyectos": 243
+   "proyectos": 251
   },
   {
    "nombre": "Quiroz Barboza, Segundo Teodomiro",
@@ -417,11 +541,11 @@
   },
   {
    "nombre": "Pariona Sinche, Alfredo",
-   "proyectos": 211
+   "proyectos": 219
   },
   {
    "nombre": "Taipe Coronado, María Elizabeth",
-   "proyectos": 200
+   "proyectos": 204
   },
   {
    "nombre": "Quispe Mamani, Wilson Rusbel",
@@ -437,7 +561,7 @@
   },
   {
    "nombre": "Dávila Atanacio, Pasión Neomías",
-   "proyectos": 170
+   "proyectos": 171
   },
   {
    "nombre": "Burgos Oliveros, Juan Bartolomé",
@@ -445,190 +569,190 @@
   },
   {
    "nombre": "Soto Palacios, Wilson",
-   "proyectos": 143
+   "proyectos": 144
   }
  ],
  "concentracion": {
   "autores_principales": 139,
-  "total_con_autor": 13597,
-  "top10_pct": 29.9,
-  "top20_pct": 43.9
+  "total_con_autor": 13739,
+  "top10_pct": 30.0,
+  "top20_pct": 44.0
  },
  "recientes": [
   {
-   "codigo": "14704/2025-CR",
+   "codigo": "14864/2025-CR",
    "estado": "PRESENTADO",
-   "fecha": "2026-05-29",
-   "titulo": "PROYECTO DE LEY QUE PRECISA EL MOMENTO DEL CESE DE LA CARRERA JUDICIAL RESPETANDO LOS SETENTA AÑOS DE EDAD A FIN DE GENERAR SEGURIDAD JURÍDICA Y REDUCIR LA PROVISIONALIDAD BRINDANDO UN MEJOR SERVICIO A LOS CIUDADANOS",
-   "autores": 6
-  },
-  {
-   "codigo": "14703/2025-CR",
-   "estado": "PRESENTADO",
-   "fecha": "2026-05-29",
-   "titulo": "PROYECTO DE LEY QUE DECLARA DE INTERÉS NACIONAL LA CONSTRUCCIÓN DE LA LÍNEA FÉRREA DE LA CIUDAD DE SICUANI (CUSCO) A PUERTO MALDONADO (DEPARTAMENTO DE MADRE DE DIOS)",
-   "autores": 8
-  },
-  {
-   "codigo": "14702/2025-CR",
-   "estado": "PRESENTADO",
-   "fecha": "2026-05-29",
-   "titulo": "PROYECTO DE LEY QUE FORTALECE LAS BRIGADAS DE AUTOPROTECCIÓN ESCOLAR (BAPE) DE LAS INSTITUCIONES EDUCATIVAS Y RECONOCE SU PARTICIPACIÓN EN EL SISTEMA NACIONAL DE SEGURIDAD CIUDADANA, A FIN DE GARANTIZAR ENTORNOS ESCOLARES SEGUROS",
-   "autores": 5
-  },
-  {
-   "codigo": "14701/2025-PE",
-   "estado": "PRESENTADO",
-   "fecha": "2026-05-29",
-   "titulo": "PROYECTO DE LEY QUE RECATEGORIZA A VILLA A LOS CENTROS POBLADOS DE CASA GRANDE, CHATITO Y VICHAYAL, DEL DISTRITO DE LA ARENA, DE LA PROVINCIA DE PIURA, DEL DEPARTAMENTO DE PIURA",
-   "autores": 0
-  },
-  {
-   "codigo": "14700/2025-CR",
-   "estado": "PRESENTADO",
-   "fecha": "2026-05-29",
-   "titulo": "PROYECTO DE LEY QUE DECLARA DE INTERÉS NACIONAL EL FORTALECIMIENTO DE LAS ACCIONES DE PRESERVACIÓN, INVESTIGACIÓN, TRANSMISIÓN CULTURAL Y PUESTA EN VALOR DE LA MARINERA COMO PATRIMONIO CULTURAL INMATERIAL DE LA NACIÓN",
-   "autores": 6
-  },
-  {
-   "codigo": "14699/2025-CR",
-   "estado": "PRESENTADO",
-   "fecha": "2026-05-29",
-   "titulo": "PROYECTO DE LEY QUE MODIFICA LA LEY DEL IMPUESTO A LA RENTA PARA FORTALECER LA COMPETITIVIDAD DEL PAÍS EN MATERIA TRIBUTARIA",
-   "autores": 6
-  },
-  {
-   "codigo": "14698/2025-CR",
-   "estado": "PRESENTADO",
-   "fecha": "2026-05-29",
-   "titulo": "PROYECTO DE LEY QUE GARANTIZA LA SEGURIDAD JURÍDICA Y LA EQUIDAD TRIBUTARIA EN LA REGIÓN SAN MARTÍN RESTITUYENDO LA VIGENCIA DE LA LEY 32317",
-   "autores": 6
-  },
-  {
-   "codigo": "14697/2025-CR",
-   "estado": "EN COMISIÓN",
-   "fecha": "2026-05-29",
-   "titulo": "PROYECTO DE LEY QUE RECONOCE E INSTITUCIONALIZA AL DEPARTAMENTO DE HUANCAVELICA COMO SEDE MUNDIAL DE LA PAPA NATIVA GOURMET",
+   "fecha": "2026-07-22",
+   "titulo": "PROYECTO DE LEY QUE RESTITUYE LA COMPETENCIA DE LA JURISDICCIÓN ORDINARIA SOBRE LOS PROCESOS PENALES SEGUIDOS CONTRA MILITARES Y POLICÍAS",
    "autores": 3
   },
   {
-   "codigo": "14696/2025-CR",
-   "estado": "EN COMISIÓN",
-   "fecha": "2026-05-29",
-   "titulo": "PROYECTO DE LEY QUE MODIFICA LA LEY 27891, LEY DEL REFUGIADO",
-   "autores": 6
-  },
-  {
-   "codigo": "14695/2025-CR",
-   "estado": "EN COMISIÓN",
-   "fecha": "2026-05-28",
-   "titulo": "PROYECTO DE LEY QUE DECLARA DE INTERÉS NACIONAL Y NECESIDAD PÚBLICA LA CREACIÓN DEL DISTRITO DE SANTÍSIMA TRINIDAD DE MOLLEPATA, EN LA PROVINCIA DE HUAMANGA, DEPARTAMENTO DE AYACUCHO",
-   "autores": 6
-  },
-  {
-   "codigo": "14694/2025-CR",
-   "estado": "EN COMISIÓN",
-   "fecha": "2026-05-28",
-   "titulo": "PROYECTO DE LEY QUE DECLARA DE INTERÉS NACIONAL Y NECESIDAD PÚBLICA LA CREACIÓN DEL DISTRITO DE CALLACAMIPUCARA, PROVINCIA DE CHUCUITO, DEPARTAMENTO DE PUNO",
-   "autores": 6
-  },
-  {
-   "codigo": "14693/2025-CR",
-   "estado": "EN COMISIÓN",
-   "fecha": "2026-05-28",
-   "titulo": "PROYECTO DE LEY QUE CREA LA ESCALA REMUNERATIVA DEL PERSONAL BAJO EL RÉGIMEN LABORAL DEL DECRETO LEGISLATIVO N.° 728 EN LOS GOBIERNOS REGIONALES DEL SECTOR AGRARIO",
-   "autores": 6
-  },
-  {
-   "codigo": "14692/2025-CP",
-   "estado": "EN COMISIÓN",
-   "fecha": "2026-05-27",
-   "titulo": "PROYECTO DE LEY QUE RECONOCE LA COMPENSACIÓN POR TIEMPO DE SERVICIOS (CTS) DE LOS PROFESIONALES MÉDICOS DEL SECTOR PÚBLICO DESDE SU INGRESO A LA ADMINISTRACIÓN PÚBLICA",
+   "codigo": "14863/2025-PE",
+   "estado": "PRESENTADO",
+   "fecha": "2026-07-20",
+   "titulo": "PROYECTO DE LEY QUE MODIFICA LA LEY N.° 27943, LEY DEL SISTEMA PORTUARIO NACIONAL, A FIN DE OTORGAR LA FACULTAD DE EJECUCIÓN COACTIVA A LA AUTORIDAD PORTUARIA NACIONAL",
    "autores": 0
   },
   {
-   "codigo": "14691/2025-CR",
-   "estado": "EN COMISIÓN",
-   "fecha": "2026-05-27",
-   "titulo": "PROYECTO DE LEY QUE DECLARA DE INTERÉS NACIONAL LA PROMOCIÓN Y DIFUSIÓN DE LAS EXPERIENCIAS DE SIEMBRA Y COSECHA DE AGUA COMO PRÁCTICA ANCESTRAL DE GESTIÓN HÍDRICA SOSTENIBLE, Y DESTACA LA EXPERIENCIA DESARROLLADA EN EL FUNDO “LA COSECHA DEL FUTURO”, UBICADO EN LA COMUNIDAD CAMPESINA DE MASAJCANCHA, DISTRITO DE PACCHA, PROVINCIA DE JAUJA, DEPARTAMENTO DE JUNÍN, COMO REFERENTE DE RESILIENCIA HÍDRICA, INNOVACIÓN AGRARIA, CONSERVACIÓN AMBIENTAL Y PRESERVACIÓN DE CONOCIMIENTOS ANCESTRALES.",
-   "autores": 5
+   "codigo": "14862/2025-PE",
+   "estado": "PRESENTADO",
+   "fecha": "2026-07-17",
+   "titulo": "PROYECTO DE LEY DE CREACIÓN DEL DISTRITO DE WINCHINKIM EN LA PROVINCIA DE CONDORCANQUI DEL DEPARTAMENTO DE AMAZONAS",
+   "autores": 0
   },
   {
-   "codigo": "14690/2025-CR",
-   "estado": "EN COMISIÓN",
-   "fecha": "2026-05-27",
-   "titulo": "PROYECTO DE LEY QUE DECLARA DE INTERÉS NACIONAL Y NECESIDAD PÚBLICA EL RECONOCIMIENTO COMO PATRIMONIO CULTURAL DE LA NACIÓN DEL COMPLEJO ARQUEOLÓGICO MIRAFLORES, UBICADO EN EL DISTRITO DE AUCALLAMA, PROVINCIA DE HUARAL, DEPARTAMENTO DE LIMA, QUE ALBERGA UNA DE LAS REPRESENTACIONES MÁS ANTIGUAS DE LA CHACANA O CRUZ ANDINA DE SUDAMÉRICA; ASÍ COMO SU INVESTIGACIÓN, PROTECCIÓN, CONSERVACIÓN, PROMOCIÓN Y PUESTA EN VALOR.",
-   "autores": 5
+   "codigo": "14861/2025-GR",
+   "estado": "PRESENTADO",
+   "fecha": "2026-07-16",
+   "titulo": "PROYECTO DE LEY QUE DISPONE LA EXPROPIACIÓN DE LOS LOTES 17, 18 Y 19 EMPLAZADOS EN LA MANZANA 70, UBICADOS EN EL DISTRITO DE HUAMACHUCO, PROVINCIA DE SÁNCHEZ CARRIÓN, REGIÓN LA LIBERTAD, QUE FORMAN PARTE DE LA CASA DONDE NACIÓ EL PRÓCER DE LA INDEPENDENCIA Y TRIBUNO DE LA REPÚBLICA DOCTOR JOSÉ FAUSTINO SÁNCHEZ CARRIÓN.",
+   "autores": 0
   },
   {
-   "codigo": "14689/2025-CR",
+   "codigo": "14860/2025-CR",
    "estado": "EN COMISIÓN",
-   "fecha": "2026-05-27",
-   "titulo": "PROYECTO DE LEY QUE FORTALECE LA FUNCIÓN FORMATIVA, ÉTICA Y DE GARANTÍA DEL EJERCICIO PROFESIONAL DE LOS COLEGIOS PROFESIONALES",
+   "fecha": "2026-07-13",
+   "titulo": "PROYECTO DE LEY QUE DECLARA DE INTERÉS NACIONAL Y NECESIDAD PÚBLICA LA CREACIÓN DEL DISTRITO DE TACA, UBICADO EN EL DISTRITO DE CANARIA DE LA PROVINCIA DE VÍCTOR FAJARDO DEL DEPARTAMENTO DE AYACUCHO",
+   "autores": 1
+  },
+  {
+   "codigo": "14859/2025-CR",
+   "estado": "EN COMISIÓN",
+   "fecha": "2026-07-10",
+   "titulo": "PROYECTO DE LA NUEVA LEY DEL DOCENTE",
    "autores": 6
   },
   {
-   "codigo": "14688/2025-CR",
+   "codigo": "14858/2025-CR",
    "estado": "EN COMISIÓN",
-   "fecha": "2026-05-27",
-   "titulo": "PROYECTO DE LEY QUE EXCLUYE NORMAS SIN EFECTO VIGENTE, CONTINUANDO EL PROCESO DE CONSOLIDACIÓN DEL ESPECTRO NORMATIVO PERUANO",
-   "autores": 5
+   "fecha": "2026-07-07",
+   "titulo": "PROYECTO DE LEY QUE MODIFICA LA LEY N.° 32680, A FIN DE GARANTIZAR EL NOMBRAMIENTO EXCEPCIONAL EN LA CATEGORÍA DE DOCENTE AUXILIAR DE LOS JEFES DE PRÁCTICA DE UNIVERSIDADES PÚBLICAS QUE INGRESARON POR CONCURSO PÚBLICO Y MANTUVIERON CONTINUIDAD FUNCIONAL BAJO DENOMINACIONES CONTRACTUALES DISTINTAS",
+   "autores": 6
   },
   {
-   "codigo": "14687/2025-CR",
+   "codigo": "14857/2025-CR",
    "estado": "EN COMISIÓN",
-   "fecha": "2026-05-27",
-   "titulo": "PROYECTO DE LEY QUE DECLARA DE INTERÉS NACIONAL LA PROMOCIÓN DEL CIRCUITO TURÍSTICO HISTÓRICO, CULTURAL Y RELIGIOSO DEL DEPARTAMENTO DE HUANCAVELICA",
-   "autores": 4
+   "fecha": "2026-07-07",
+   "titulo": "PROYECTO DE LEY NUEVA LEY GENERAL DE EDUCACIÓN",
+   "autores": 6
   },
   {
-   "codigo": "14686/2025-CR",
+   "codigo": "14856/2025-CR",
    "estado": "EN COMISIÓN",
-   "fecha": "2026-05-27",
-   "titulo": "PROYECTO DE LEY QUE DECLARA DE INTERÉS NACIONAL Y DE NECESIDAD PÚBLICA LA CREACIÓN DE LA EMPRESA PRESTADORA DE SERVICIOS DE AGUA POTABLE Y SANEAMIENTO TUMBES S.A.",
+   "fecha": "2026-07-06",
+   "titulo": "PROYECTO DE LEY QUE MODIFICA LA LEY N.° 31557, LEY QUE REGULA LA EXPLOTACIÓN DE LOS JUEGOS A DISTANCIA Y APUESTAS DEPORTIVAS A DISTANCIA, A FIN DE FORTALECER EL FINANCIAMIENTO DESCENTRALIZADO DE LOS SERVICIOS DE SALUD MENTAL",
    "autores": 7
   },
   {
-   "codigo": "14685/2025-CR",
+   "codigo": "14855/2025-CR",
    "estado": "EN COMISIÓN",
-   "fecha": "2026-05-27",
-   "titulo": "PROYECTO DE LEY QUE DECLARA EN EMERGENCIA EL SISTEMA NACIONAL PENITENCIARIO Y DECLARA DE NECESIDAD PÚBLICA Y DE INTERÉS NACIONAL LA REUBICACIÓN DE LOS E.P. DE LURIGANCHO Y DEL E.P. MIGUEL CASTRO CASTRO DEL DISTRITO DE SAN JUAN DE LURIGANCHO, PROVINCIA DE LIMA, DEPARTAMENTO DE LIMA",
-   "autores": 1
-  },
-  {
-   "codigo": "14684/2025-CR",
-   "estado": "EN COMISIÓN",
-   "fecha": "2026-05-27",
-   "titulo": "PROYECTO DE LEY QUE MODIFICA EL ARTÍCULO 82 DE LA CONSTITUCIÓN POLÍTICA DEL PERÚ PARA FORTALECER LA INDEPENDENCIA EN LA DESIGNACIÓN DEL CONTRALOR GENERAL DE LA REPÚBLICA",
-   "autores": 1
-  },
-  {
-   "codigo": "14683/2025-CR",
-   "estado": "EN COMISIÓN",
-   "fecha": "2026-05-27",
-   "titulo": "PROYECTO DE LEY QUE FORTALECE LA LUCHA CONTRA LA CORRUPCIÓN Y SANCIONA CON PENA PRIVATIVA DE LA LIBERTAD DE CADENA PERPETUA Y/O INHABILITACIÓN EN LOS CASOS DE DELITO DE COLUSIÓN DEL CÓDIGO PENAL",
-   "autores": 1
-  },
-  {
-   "codigo": "14682/2025-CR",
-   "estado": "EN COMISIÓN",
-   "fecha": "2026-05-27",
-   "titulo": "PROYECTO DE LEY QUE DECLARA DE INTERÉS NACIONAL Y NECESIDAD PÚBLICA LA DECLARATORIA DE EMERGENCIA AMBIENTAL POR PELIGRO INMINENTE ANTE CONTAMINACIÓN HÍDRICA DEL RÍO TAMBO EN LA PROVINCIA DE ISLAY, DEPARTAMENTO DE AREQUIPA",
+   "fecha": "2026-07-03",
+   "titulo": "PROYECTO DE LEY INTEGRAL PARA LA PREVENCIÓN, ATENCIÓN Y REHABILITACIÓN DEL ACCIDENTE CEREBROVASCULAR",
    "autores": 6
   },
   {
-   "codigo": "14681/2025-CR",
+   "codigo": "14854/2025-CR",
    "estado": "EN COMISIÓN",
-   "fecha": "2026-05-27",
-   "titulo": "PROYECTO DE LEY QUE DECLARA DE INTERÉS NACIONAL Y NECESIDAD PÚBLICA LA CREACIÓN DEL INSTITUTO DE EDUCACIÓN SUPERIOR TECNOLÓGICO PÚBLICO DE TABACONAS, DISTRITO DE TABACONAS, PROVINCIA DE SAN IGNACIO, DEPARTAMENTO DE CAJAMARCA",
+   "fecha": "2026-07-03",
+   "titulo": "PROYECTO DE LEY QUE DECLARA DE INTERÉS NACIONAL Y NECESIDAD PÚBLICA LA CREACIÓN DEL DISTRITO DE ILLAHUASI, UBICADO EN EL DISTRITO DE ANDARAPA, PROVINCIA DE ANDAHUAYLAS Y DEPARTAMENTO DE APURÍMAC",
+   "autores": 5
+  },
+  {
+   "codigo": "14853/2025-CR",
+   "estado": "EN COMISIÓN",
+   "fecha": "2026-07-03",
+   "titulo": "PROYECTO DE LEY QUE DECLARA DE INTERÉS NACIONAL LA EXCLUSIÓN DE PARTE DEL ÁREA DEL TERRENO DE LA FUERZA AÉREA DEL PERÚ, UBICADO EN LA CIUDAD DE PUERTO MALDONADO, DISTRITO DE TAMBOPATA, PROVINCIA DE TAMBOPATA, DEPARTAMENTO DE MADRE DE DIOS",
+   "autores": 8
+  },
+  {
+   "codigo": "14852/2025-PE",
+   "estado": "EN COMISIÓN",
+   "fecha": "2026-07-02",
+   "titulo": "PROYECTO DE LEY QUE ESTABLECE LA PROHIBICIÓN DE IMPORTACIÓN DE MERCANCÍAS PRODUCIDAS POR TRABAJO FORZOSO",
+   "autores": 0
+  },
+  {
+   "codigo": "14851/2025-PE",
+   "estado": "EN COMISIÓN",
+   "fecha": "2026-07-02",
+   "titulo": "PROYECTO DE LEY QUE MODIFICA EL DECRETO LEGISLATIVO 1137, LEY DEL EJÉRCITO DEL PERÚ",
+   "autores": 0
+  },
+  {
+   "codigo": "14850/2025-CR",
+   "estado": "EN COMISIÓN",
+   "fecha": "2026-07-02",
+   "titulo": "PROYECTO DE LEY QUE REGULA EL SISTEMA REMUNERATIVO Y DE COMPENSACIONES DE LOS TRABAJADORES DEL SERVICIO DE SEGURIDAD PRIVADA",
    "autores": 6
   },
   {
-   "codigo": "14680/2025-CR",
+   "codigo": "14849/2025-CR",
    "estado": "EN COMISIÓN",
-   "fecha": "2026-05-27",
-   "titulo": "PROYECTO DE LEY QUE MODIFICA EL ARTÍCULO 4 DE LA LEY N.° 10674 Y EL ARTÍCULO 3 DEL DECRETO SUPREMO N.° 300-68-HC, FORTALECIENDO LA REPRESENTACIÓN GREMIAL Y RECONOCIENDO LA NATURALEZA PRIVADA Y AUTÓNOMA DE LAS ORGANIZACIONES DE EXPENDEDORES DE DIARIOS, REVISTAS Y LOTERÍAS",
+   "fecha": "2026-06-30",
+   "titulo": "PROYECTO DE LEY QUE FACULTA EL SANEAMIENTO FINANCIERO EXCEPCIONAL DE LA EMPRESA NACIONAL DE LA COCA MEDIANTE LA CONDONACIÓN DE DEUDA CON EL FONAFE POR RAZONES DE INTERÉS NACIONAL",
    "autores": 7
+  },
+  {
+   "codigo": "14848/2025-CR",
+   "estado": "EN COMISIÓN",
+   "fecha": "2026-06-26",
+   "titulo": "PROYECTO DE RESOLUCIÓN LEGISLATIVA DEL SENADO QUE MODIFICA E INCORPORA DIVERSOS ARTÍCULOS AL REGLAMENTO DEL SENADO, A FIN DE FORTALECER SU FUNCIÓN DE REVISIÓN CONSTITUCIONAL, CALIDAD NORMATIVA, CONTROL POLÍTICO SUPERIOR, TRANSPARENCIA, CONTINUIDAD DEMOCRÁTICA Y DESIGNACIÓN MERITOCRÁTICA DE ALTOS FUNCIONARIOS",
+   "autores": 6
+  },
+  {
+   "codigo": "14847/2025-CR",
+   "estado": "EN COMISIÓN",
+   "fecha": "2026-06-26",
+   "titulo": "PROYECTO DE RESOLUCIÓN LEGISLATIVA QUE MODIFICA E INCORPORA DIVERSOS ARTÍCULOS AL REGLAMENTO DE LA CÁMARA DE DIPUTADOS, A FIN DE FORTALECER SU AUTONOMÍA INSTITUCIONAL, LA DEMOCRACIA DELIBERATIVA, LA TRANSPARENCIA, LA CALIDAD NORMATIVA, EL SISTEMA DE COMISIONES, LA PARTICIPACIÓN CIUDADANA Y EL RESPETO DE LAS MINORÍAS PARLAMENTARIAS.",
+   "autores": 6
+  },
+  {
+   "codigo": "14846/2025-CR",
+   "estado": "EN COMISIÓN",
+   "fecha": "2026-06-26",
+   "titulo": "PROYECTO DE LEY QUE FORTALECE LA INTEGRIDAD, TRANSPARENCIA, AUTENTICIDAD, TRAZABILIDAD Y SEGURIDAD DEL SUFRAGIO, MODIFICA LA LEY N.° 26859, LEY ORGÁNICA DE ELECCIONES, E INCORPORA DELITOS ELECTORALES AL CÓDIGO PENAL PARA PROTEGER LA VOLUNTAD POPULAR",
+   "autores": 6
+  },
+  {
+   "codigo": "14845/2025-CR",
+   "estado": "EN COMISIÓN",
+   "fecha": "2026-06-26",
+   "titulo": "PROYECTO DE LEY QUE ESTABLECE LA INTANGIBILIDAD DE LAS FUENTES HÍDRICAS Y LAS ÁREAS DE CAPTACIÓN DE AGUA DE LAS EMPRESAS PRESTADORAS DE SERVICIOS EN LA SELVA AMAZÓNICA",
+   "autores": 6
+  },
+  {
+   "codigo": "14844/2025-PE",
+   "estado": "Publicada en el Diario Oficial El Peruano",
+   "fecha": "2026-06-26",
+   "titulo": "PROYECTO DE RESOLUCIÓN LEGISLATIVA QUE AUTORIZA EL INGRESO DE UNIDAD NAVAL Y DE PERSONAL MILITAR EXTRANJERO CON ARMAS DE GUERRA AL TERRITORIO DE LA REPÚBLICA DEL PERÚ",
+   "autores": 0
+  },
+  {
+   "codigo": "14843/2025-CR",
+   "estado": "EN COMISIÓN",
+   "fecha": "2026-06-24",
+   "titulo": "PROYECTO DE LEY QUE MODIFICA LA DENOMINACIÓN DE LA UNIVERSIDAD NACIONAL AGRARIA JUAN VELASCO ALVARADO DE MAJES POR UNIVERSIDAD NACIONAL AGRARIA FRANCISCO MOSTAJO MIRANDA DE MAJES",
+   "autores": 6
+  },
+  {
+   "codigo": "14842/2025-CR",
+   "estado": "EN COMISIÓN",
+   "fecha": "2026-06-24",
+   "titulo": "PROYECTO DE LEY  QUE CREA  EL  DISTRITO DE SANGANI EN LA PROVINCIA DE CHANCHAMAYO DEL DEPARTAMENTO DE JUNÍN",
+   "autores": 5
+  },
+  {
+   "codigo": "14841/2025-CR",
+   "estado": "EN COMISIÓN",
+   "fecha": "2026-06-24",
+   "titulo": "PROYECTO DE LEY QUE GARANTIZA LA EFICACIA PLENA DE LA FIRMA DIGITAL Y PROHÍBE LA EXIGENCIA DE FORMALIDADES ADICIONALES",
+   "autores": 8
+  },
+  {
+   "codigo": "14840/2025-CR",
+   "estado": "EN COMISIÓN",
+   "fecha": "2026-06-24",
+   "titulo": "PROYECTO DE LEY QUE MODIFICA LA LEY 32309, LEY QUE CREA INCENTIVOS ECONÓMICOS Y FISCALES PARA EL FOMENTO DE LA ACTIVIDAD CINEMATOGRÁFICA Y AUDIOVISUAL DEL PERÚ, E INCORPORA UNA CUOTA DE PANTALLA OBLIGATORIA PARA LAS OBRAS CINEMATOGRÁFICAS Y AUDIOVISUALES PERUANAS",
+   "autores": 8
   }
  ]
 }

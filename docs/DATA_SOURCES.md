@@ -20,13 +20,21 @@ Estado verificado al **2026-05-29**. Leyenda:
 - Notas: la API parece ignorar `pageSize` y devuelve el listado completo del periodo
   (varios MB). El scraper lo maneja descargando todo el periodo de una vez.
 
+
+### Personal / planilla (PTE) — ✅ confirmada
+- **Host:** `https://www.transparencia.gob.pe/personal/pte_transparencia_personal.aspx`
+- **Congreso:** `id_entidad=16`. GET puro: `?id_entidad=16&in_anno_consulta=AAAA&ch_mes_consulta=MM&ch_tipo_regimen=R&id_tema=32&pag=P`.
+- **Régimenes (R):** 1=CAS · 2=276 · 3=728 · 4=PAC · 5=FAG · 6=PNUD · 7=Altos Funcionarios · 8=Pensionistas · 9=Ley Servir. Paginar mientras haya "Siguiente".
+- **Campos:** régimen, nombre (APELLIDOS, NOMBRES), cargo, dependencia, remuneración, total.
+- **Verificado 2026-07:** 3,515 en planilla activa + 536 pensionistas (masa S/27.7 M/mes). Scraper: `pipeline/scrapers/personal_pte.py`.
+- ⚠️ **Geobloqueo:** responde desde IP residencial peruana; falla desde datacenter (CI). Refresco por laptop (`actualizar_personal.sh`).
+
 ## 🟡 Scrapeables (ruta identificada)
 
 | Fuente | Ruta | Método |
 |---|---|---|
 | Comisiones (integrantes, sesiones) | `congreso.gob.pe/comisiones*` + datos abiertos por comisión | HTML / CSV |
 | Presupuesto del Congreso | MEF Consulta Amigable `apps5.mineco.gob.pe` (pliego Congreso) | POST aspx |
-| Personal / remuneraciones | PTE `transparencia.gob.pe` `id_entidad=16` | HTML / descargas |
 | Contrataciones | OSCE / SEACE; Contraloría `portaltransparencia.contraloria.gob.pe` | HTML / API |
 | Diario de Debates | actas en PDF | descarga + parsing PDF |
 | Votaciones | actas de votación (PDF/HTML) | descarga + parsing |

@@ -3,7 +3,9 @@
 const fmt = (n) => new Intl.NumberFormat("es-PE").format(n);
 const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
 let CHARTS = {};
-let DATA = null, CTX = null;
+let DATA = null, CTX = null, PERSONAL = null;
+const soles = (n) => "S/ " + new Intl.NumberFormat("es-PE", { maximumFractionDigits: 0 }).format(n);
+const solesM = (n) => "S/ " + (n / 1e6).toFixed(1) + " M";
 
 function palette(n) {
   const base = ["#e23744", "#3b82f6", "#22c55e", "#f59e0b", "#a855f7",
@@ -173,19 +175,64 @@ function renderComisiones() {
   });
 }
 
+const MESES = ["", "enero", "febrero", "marzo", "abril", "mayo", "junio", "julio",
+  "agosto", "setiembre", "octubre", "noviembre", "diciembre"];
+
 function renderPersonal() {
-  const pe = CTX.personal;
+  if (!PERSONAL) return; // snapshot del PTE opcional; si falta, no rompe el resto
+  const P = PERSONAL, t = P.totales, s = P.sueldos, m = P.meta;
+
+  const badge = document.getElementById("per-badge");
+  if (badge) badge.textContent = `✅ Planilla nominal real · Portal de Transparencia (PTE) · ${MESES[m.mes]} ${m.anio}`;
+
   document.getElementById("kpis-per").innerHTML =
-    pe.kpis.map((k, i) => kpiCard(k.label, k.valor, k.nota, i === 0 ? "var(--accent)" : "var(--amber)")).join("") +
-    kpiCard("Despacho base", "7", "máx. por congresista", "var(--green)") +
-    kpiCard("Si preside comisión", "17", "máx. a gestionar", "var(--purple)");
-  mk("chPer", {
+    kpiCard("Planilla activa", fmt(t.planilla_activa), "personas (CAS + 276 + 728)", "var(--accent)") +
+    kpiCard("Masa salarial", solesM(t.masa_mensual_activa), "al mes · planilla activa", "var(--amber)") +
+    kpiCard("Costo anual est.", solesM(t.masa_anual_activa_est), "≈ 14 sueldos (2 gratif.)", "var(--accent-2)") +
+    kpiCard("Sueldo mediana", soles(s.mediana), `máx. ${soles(s.max)}`, "var(--purple)");
+
+  // Personal por régimen
+  const reg = P.por_regimen;
+  mk("chPerReg", {
     type: "bar",
-    data: { labels: pe.estructura.map(e => e.item), datasets: [{ data: pe.estructura.map(e => e.max), backgroundColor: [css("--green"), css("--purple")], borderRadius: 6 }] },
+    data: { labels: reg.map(r => r.regimen), datasets: [{ data: reg.map(r => r.n), backgroundColor: palette(reg.length), borderRadius: 6 }] },
+    options: opts({ indexAxis: "y", plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => ` ${fmt(c.parsed.x)} personas · ${solesM(reg[c.dataIndex].masa)}/mes` } } }, scales: scales(true) }),
+  });
+
+  // Distribución de sueldos
+  const d = s.distribucion;
+  mk("chPerDist", {
+    type: "bar",
+    data: { labels: d.map(x => x.rango), datasets: [{ data: d.map(x => x.n), backgroundColor: css("--green"), borderRadius: 6 }] },
+    options: opts({ plugins: { legend: { display: false } }, scales: scales(false) }),
+  });
+
+  // Personal por cargo
+  const cg = P.por_cargo;
+  mk("chPerCargo", {
+    type: "bar",
+    data: { labels: cg.map(c => c.cargo), datasets: [{ data: cg.map(c => c.n), backgroundColor: css("--accent-2"), borderRadius: 6 }] },
     options: opts({ indexAxis: "y", plugins: { legend: { display: false } }, scales: scales(true) }),
   });
-  document.getElementById("per-facts").innerHTML = pe.destacados.map(d => `<li>${d}</li>`).join("");
-  document.getElementById("per-fuentes").innerHTML = fuentesHtml(pe.fuentes);
+
+  // Top sueldos
+  document.querySelector("#tPerTop tbody").innerHTML = P.top_sueldos.map(r =>
+    `<tr><td>${r.nombre}</td><td>${r.cargo}</td><td style="text-align:right;white-space:nowrap"><b>${soles(r.total)}</b></td></tr>`).join("");
+
+  // Top pensiones
+  document.querySelector("#tPerPen tbody").innerHTML = P.top_pensiones.map(r =>
+    `<tr><td>${r.nombre}</td><td>${r.cargo}</td><td style="text-align:right;white-space:nowrap"><b>${soles(r.total)}</b></td></tr>`).join("");
+
+  const bulk = reg.find(r => /728/.test(r.regimen));
+  document.getElementById("per-facts").innerHTML = [
+    `La planilla activa suma <b>${fmt(t.planilla_activa)} personas</b> y cuesta <b>${soles(t.masa_mensual_activa)} al mes</b> (≈ <b>${soles(t.masa_anual_activa_est)}</b> al año con gratificaciones).`,
+    bulk ? `El grueso está en el <b>Régimen 728</b>: ${fmt(bulk.n)} personas y ${solesM(bulk.masa)} mensuales.` : "",
+    `El sueldo mediano es <b>${soles(s.mediana)}</b> y el más alto <b>${soles(s.max)}</b> (${P.top_sueldos[0]?.cargo || "—"}).`,
+    `Aparte, <b>${fmt(t.pensionistas)} pensionistas</b> (cesantes, viudez y ex-presidentes) cuestan <b>${soles(t.masa_mensual_pensiones)}</b> al mes.`,
+  ].filter(Boolean).map(x => `<li>${x}</li>`).join("");
+
+  document.getElementById("per-fuentes").innerHTML =
+    `Fuente: <a href="https://www.transparencia.gob.pe/personal/pte_transparencia_personal.aspx?id_entidad=16" target="_blank" rel="noopener">Portal de Transparencia Estándar (PTE)</a> — planilla nominal del Congreso (id_entidad=16), ${MESES[m.mes]} ${m.anio}. ${m.nota}`;
 }
 
 function renderIncremento() {
@@ -225,9 +272,13 @@ function renderAll() {
   renderComisiones(); renderAnalisis(); renderPersonal();
 }
 
-Promise.all([fetch("data.json").then(r => r.json()), fetch("context.json").then(r => r.json())])
-  .then(([d, c]) => {
-    DATA = d; CTX = c;
+Promise.all([
+  fetch("data.json").then(r => r.json()),
+  fetch("context.json").then(r => r.json()),
+  fetch("personal.json").then(r => r.ok ? r.json() : null).catch(() => null),
+])
+  .then(([d, c, p]) => {
+    DATA = d; CTX = c; PERSONAL = p;
     document.getElementById("gen").textContent = "actualizado " + d.meta.generado;
     const ud = document.getElementById("updated-date");
     if (ud) ud.textContent = d.meta.generado;

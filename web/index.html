@@ -262,18 +262,36 @@
   <!-- PERSONAL -->
   <section class="view" id="view-personal">
     <h2 class="section">Personal del Congreso</h2>
-    <span class="badge-src">⚠ Fuentes periodísticas citadas · integración automática (PTE) pendiente</span>
+    <span class="badge-src" id="per-badge">✅ Planilla nominal real · Portal de Transparencia (PTE)</span>
     <div class="grid kpis" id="kpis-per"></div>
     <div class="grid panels">
       <div class="card">
-        <div class="panel-head"><h3>Capacidad de contratación por congresista</h3><span class="hint">personas</span></div>
-        <div class="chart-box"><canvas id="chPer"></canvas></div>
+        <div class="panel-head"><h3>Personal por régimen laboral</h3><span class="hint">n° de personas</span></div>
+        <div class="chart-box"><canvas id="chPerReg"></canvas></div>
       </div>
       <div class="card">
-        <div class="panel-head"><h3>Lo que hay que saber</h3></div>
-        <ul class="facts" id="per-facts"></ul>
-        <div class="note" id="per-fuentes"></div>
+        <div class="panel-head"><h3>Distribución de sueldos</h3><span class="hint">planilla activa · S/ mensual</span></div>
+        <div class="chart-box"><canvas id="chPerDist"></canvas></div>
       </div>
+    </div>
+    <div class="card full" style="margin-top:16px">
+      <div class="panel-head"><h3>Personal por cargo</h3><span class="hint">top 15 · planilla activa</span></div>
+      <div class="chart-box tall"><canvas id="chPerCargo"></canvas></div>
+    </div>
+    <div class="grid panels" style="margin-top:16px">
+      <div class="card">
+        <div class="panel-head"><h3>💸 Sueldos más altos</h3><span class="hint">planilla activa · dato real</span></div>
+        <div style="overflow:auto;max-height:360px"><table id="tPerTop"><thead><tr><th>Nombre</th><th>Cargo</th><th style="text-align:right">S/ mes</th></tr></thead><tbody></tbody></table></div>
+      </div>
+      <div class="card">
+        <div class="panel-head"><h3>🏛️ Pensiones más altas</h3><span class="hint">cesantes, viudez, ex-presidentes</span></div>
+        <div style="overflow:auto;max-height:360px"><table id="tPerPen"><thead><tr><th>Nombre</th><th>Concepto</th><th style="text-align:right">S/ mes</th></tr></thead><tbody></tbody></table></div>
+      </div>
+    </div>
+    <div class="card full" style="margin-top:16px">
+      <div class="panel-head"><h3>Lo que dice la planilla</h3></div>
+      <ul class="facts" id="per-facts"></ul>
+      <div class="note" id="per-fuentes"></div>
     </div>
   </section>
 
@@ -308,7 +326,7 @@
   <div><strong>Congreso Abierto Perú</strong> — proyecto cívico de datos abiertos · Licencia
     <a href="https://github.com/unimauro/congreso-abierto-peru/blob/master/LICENSE">AGPL-3.0</a> ·
     Fuente legislativa: <span class="code">api.congreso.gob.pe/spley-portal-service</span></div>
-  <div class="disclaimer">Proyecto independiente. No afiliado al Congreso de la República del Perú. Los datos legislativos y de comisiones son oficiales; presupuesto y personal provienen de fuentes citadas mientras se implementa su scraping. Versión en evolución.</div>
+  <div class="disclaimer">Proyecto independiente. No afiliado al Congreso de la República del Perú. Datos legislativos y de comisiones: API oficial del Congreso. Personal: planilla nominal del Portal de Transparencia Estándar (PTE, id_entidad=16). Presupuesto: MEF Consulta Amigable. Versión en evolución.</div>
 </footer>
 
 <script src="app.js"></script>

@@ -1,0 +1,405 @@
+{
+ "meta": {
+  "generado": "2026-08-15",
+  "anio": 2026,
+  "mes": 7,
+  "fuente": "transparencia.gob.pe (PTE) · id_entidad=16",
+  "regimenes": [
+   "CAS",
+   "Pensionistas",
+   "Régimen 276",
+   "Régimen 728"
+  ],
+  "nota": "Planilla nominal del Portal de Transparencia Estándar. Los pensionistas (cesantes, viudez, ex-presidentes) se reportan aparte de la planilla activa."
+ },
+ "totales": {
+  "planilla_activa": 3515,
+  "pensionistas": 536,
+  "registros": 4051,
+  "masa_mensual_activa": 27653231.68,
+  "masa_anual_activa_est": 387145243.52,
+  "masa_mensual_pensiones": 4597575.34
+ },
+ "sueldos": {
+  "mediana": 7202.1,
+  "promedio": 7887.4,
+  "min": 140.17,
+  "max": 31741.41,
+  "distribucion": [
+   {
+    "rango": "< 2.5k",
+    "n": 62
+   },
+   {
+    "rango": "2.5k–5k",
+    "n": 1251
+   },
+   {
+    "rango": "5k–8k",
+    "n": 729
+   },
+   {
+    "rango": "8k–12k",
+    "n": 782
+   },
+   {
+    "rango": "12k–18k",
+    "n": 566
+   },
+   {
+    "rango": "> 18k",
+    "n": 116
+   }
+  ]
+ },
+ "por_regimen": [
+  {
+   "regimen": "Régimen 728",
+   "n": 3453,
+   "masa": 27335347.98
+  },
+  {
+   "regimen": "Pensionistas",
+   "n": 536,
+   "masa": 4597575.34
+  },
+  {
+   "regimen": "CAS",
+   "n": 55,
+   "masa": 305021.35
+  },
+  {
+   "regimen": "Régimen 276",
+   "n": 7,
+   "masa": 12862.35
+  }
+ ],
+ "por_cargo": [
+  {
+   "cargo": "TECNICO",
+   "n": 835
+  },
+  {
+   "cargo": "AUXILIAR",
+   "n": 708
+  },
+  {
+   "cargo": "PROFESIONAL",
+   "n": 287
+  },
+  {
+   "cargo": "ASESOR II",
+   "n": 250
+  },
+  {
+   "cargo": "ASISTENTE",
+   "n": 135
+  },
+  {
+   "cargo": "ASESOR",
+   "n": 133
+  },
+  {
+   "cargo": "ASESOR PRINCIPAL",
+   "n": 131
+  },
+  {
+   "cargo": "COORDINADOR",
+   "n": 127
+  },
+  {
+   "cargo": "TECNICO ADMINISTRATIVO",
+   "n": 104
+  },
+  {
+   "cargo": "ESPECIALISTA PARLAMENTARIO",
+   "n": 87
+  },
+  {
+   "cargo": "AUXILIAR ADMINISTRATIVO",
+   "n": 63
+  },
+  {
+   "cargo": "TECNICO PARLAMENTARIO",
+   "n": 62
+  },
+  {
+   "cargo": "AUXILIAR OPERARIO",
+   "n": 54
+  },
+  {
+   "cargo": "JEFE",
+   "n": 52
+  },
+  {
+   "cargo": "ESPECIALISTA ADMINISTRATIVO",
+   "n": 48
+  }
+ ],
+ "por_dependencia": [
+  {
+   "dependencia": "DEPARTAMENTO DE COMISIONES",
+   "n": 225
+  },
+  {
+   "dependencia": "DEPARTAMENTO DE SEGURIDAD",
+   "n": 157
+  },
+  {
+   "dependencia": "AREA DE ADMINISTRACION DE EDIFICIOS",
+   "n": 155
+  },
+  {
+   "dependencia": "OFICINA DE COMUNICACIONES E IMAGEN INSTITUCIONAL",
+   "n": 106
+  },
+  {
+   "dependencia": "MODULO DE PERSONAL DE CONFIANZA SEGUN ACUERDO DE MESA 072-2022-2023-MESA-CR",
+   "n": 53
+  },
+  {
+   "dependencia": "AREA DE SERVICIOS AUXILIARES PARLAMENTARIOS",
+   "n": 50
+  },
+  {
+   "dependencia": "AREA DE INGENIERIA E INFRAESTRUCTURA",
+   "n": 43
+  },
+  {
+   "dependencia": "DEPARTAMENTO DE SERVICIOS GENERALES",
+   "n": 41
+  },
+  {
+   "dependencia": "AREA DE ARCHIVO GENERAL",
+   "n": 40
+  },
+  {
+   "dependencia": "AREA DE ATENCION CIUDADANA",
+   "n": 40
+  },
+  {
+   "dependencia": "DEPARTAMENTO DE PROTOCOLO",
+   "n": 37
+  },
+  {
+   "dependencia": "AREA DE DESARROLLO Y BIENESTAR DEL PERSONAL",
+   "n": 37
+  },
+  {
+   "dependencia": "AREA DE TRAMITE DOCUMENTARIO",
+   "n": 37
+  },
+  {
+   "dependencia": "AREA DE EDUCACION CIUDADANA",
+   "n": 35
+  },
+  {
+   "dependencia": "G.F. DE TRANSPORTES",
+   "n": 35
+  }
+ ],
+ "top_sueldos": [
+  {
+   "nombre": "FORNO FLOREZ, GIOVANNI CARLO ANTONIO",
+   "cargo": "OFICIAL MAYOR",
+   "regimen": "Régimen 728",
+   "dependencia": "OFICIALIA MAYOR DEL CONGRESO DE LA REPUBLICA",
+   "total": 31741.41
+  },
+  {
+   "nombre": "BERNAL NEGREIROS, GIANCARLO",
+   "cargo": "DIRECTOR GENERAL",
+   "regimen": "Régimen 728",
+   "dependencia": "DIRECCION GENERAL DE ADMINISTRACION",
+   "total": 30299.71
+  },
+  {
+   "nombre": "LEVANO ACOSTA, RUTH IRENE",
+   "cargo": "ESPECIALISTA PARLAMENTARIO",
+   "regimen": "Régimen 728",
+   "dependencia": "DIRECCION GENERAL PARLAMENTARIA",
+   "total": 30299.71
+  },
+  {
+   "nombre": "NECIOSUP SANTA CRUZ, VICTOR HUGO",
+   "cargo": "SECRETARIO TECNICO",
+   "regimen": "Régimen 728",
+   "dependencia": "OFICIALIA MAYOR DEL CONGRESO DE LA REPUBLICA",
+   "total": 28921.71
+  },
+  {
+   "nombre": "ABANTO VALDIVIESO, JOSE ANTONIO",
+   "cargo": "ASESOR PARLAMENTARIO",
+   "regimen": "Régimen 728",
+   "dependencia": "DIRECCION GENERAL PARLAMENTARIA",
+   "total": 23479.11
+  },
+  {
+   "nombre": "CHIRINOS MARTINEZ, JOSE CARLOS",
+   "cargo": "SECRETARIO TECNICO",
+   "regimen": "Régimen 728",
+   "dependencia": "DEPARTAMENTO DE COMISIONES",
+   "total": 23479.11
+  },
+  {
+   "nombre": "VIZCARRA BASTO, TULIO AUGUSTO",
+   "cargo": "ESPECIALISTA PARLAMENTARIO",
+   "regimen": "Régimen 728",
+   "dependencia": "DEPARTAMENTO DE COMISIONES",
+   "total": 23479.11
+  },
+  {
+   "nombre": "ROVIRA ZAGAL, HUGO FERNANDO",
+   "cargo": "ESPECIALISTA PARLAMENTARIO",
+   "regimen": "Régimen 728",
+   "dependencia": "DEPARTAMENTO DE PARTICIPACION CIUDADANA",
+   "total": 23366.11
+  },
+  {
+   "nombre": "PAZ MENDOZA, GIANMARCO",
+   "cargo": "SECRETARIO TECNICO",
+   "regimen": "Régimen 728",
+   "dependencia": "DEPARTAMENTO DE COMISIONES",
+   "total": 23366.11
+  },
+  {
+   "nombre": "VILLEGUEZ CORZO, SUSANA GLADYS",
+   "cargo": "TECNICO",
+   "regimen": "CAS",
+   "dependencia": "DEPARTAMENTO DE TECNOLOGIAS DE LA INFORMACION",
+   "total": 23172.57
+  },
+  {
+   "nombre": "ARBOLEDA MENESES, JORGE LUIS",
+   "cargo": "PROFESIONAL",
+   "regimen": "Régimen 728",
+   "dependencia": "DEPARTAMENTO DE COMISIONES",
+   "total": 22419.11
+  },
+  {
+   "nombre": "RAGGIO ZAGAL, RENATO JESUS",
+   "cargo": "JEFE",
+   "regimen": "Régimen 728",
+   "dependencia": "DEPARTAMENTO DE SERVICIOS GENERALES",
+   "total": 22419.11
+  },
+  {
+   "nombre": "CORONADO VERA, SANDRO ANDRES",
+   "cargo": "ESPECIALISTA ADMINISTRATIVO",
+   "regimen": "Régimen 728",
+   "dependencia": "DEPARTAMENTO DE RECURSOS HUMANOS",
+   "total": 22419.11
+  },
+  {
+   "nombre": "RIVERA LAZO, FERNANDO ROBERTO",
+   "cargo": "ESPECIALISTA PARLAMENTARIO",
+   "regimen": "Régimen 728",
+   "dependencia": "DEPARTAMENTO DE COMISIONES",
+   "total": 22419.11
+  },
+  {
+   "nombre": "SANCHEZ BERNAOLA, MELISSA YULISSA",
+   "cargo": "JEFE",
+   "regimen": "Régimen 728",
+   "dependencia": "DEPARTAMENTO DE BIBLIOTECA",
+   "total": 22419.11
+  },
+  {
+   "nombre": "FERNANDEZ GARIBAY, ALEXANDRO MARIO",
+   "cargo": "JEFE",
+   "regimen": "Régimen 728",
+   "dependencia": "CENTRO DE MODALIDADES FORMATIVAS",
+   "total": 22419.11
+  },
+  {
+   "nombre": "UGARTE HUERTA, NELSON ALEX",
+   "cargo": "JEFE",
+   "regimen": "Régimen 728",
+   "dependencia": "OFICINA DE PLANEAMIENTO PRESUPUESTO Y MODERNIZACION",
+   "total": 22419.11
+  },
+  {
+   "nombre": "AMABLE SALVA, YOANA MIRIAM",
+   "cargo": "JEFE",
+   "regimen": "Régimen 728",
+   "dependencia": "DEPARTAMENTO DE COOPERACION INTERNACIONAL",
+   "total": 22419.11
+  },
+  {
+   "nombre": "MISARI CARRANZA, MARCO ANTONIO",
+   "cargo": "PROFESIONAL",
+   "regimen": "Régimen 728",
+   "dependencia": "OFICINA DE COMUNICACIONES E IMAGEN INSTITUCIONAL",
+   "total": 22341.69
+  },
+  {
+   "nombre": "RAMIREZ CHAVARRY, JOHAN",
+   "cargo": "PROFESIONAL",
+   "regimen": "Régimen 728",
+   "dependencia": "DEPARTAMENTO DE CALIDAD LEGISLATIVA",
+   "total": 22341.69
+  }
+ ],
+ "top_pensiones": [
+  {
+   "nombre": "KUCZYNSKI GODARD, PEDRO PABLO",
+   "cargo": "EX PRESIDENTE CONSTITUCIONAL",
+   "total": 31200.0
+  },
+  {
+   "nombre": "TOLEDO MANRIQUE, ALEJANDRO",
+   "cargo": "EX PRESIDENTE CONSTITUCIONAL",
+   "total": 31200.0
+  },
+  {
+   "nombre": "JARA GALLEGOS VDA DE PANIAGUA, NILDA MERCEDES",
+   "cargo": "SOBREVIVIENTE-VIUDEZ(EX-PRESIDENTE CONSTITUCIONAL)",
+   "total": 31200.0
+  },
+  {
+   "nombre": "HUMALA TASSO, OLLANTA MOISES",
+   "cargo": "EX PRESIDENTE CONSTITUCIONAL",
+   "total": 31200.0
+  },
+  {
+   "nombre": "TRELLES LARA, CESAR",
+   "cargo": "EX-PARLAMENTARIO",
+   "total": 21999.93
+  },
+  {
+   "nombre": "CONSTANTINIDES ROSADO, MARIA CRISTALA",
+   "cargo": "EX-DIPUTADO",
+   "total": 21999.93
+  },
+  {
+   "nombre": "CACERES VELASQUEZ, ROGER ENRIQUE",
+   "cargo": "EX-CONGRESISTA",
+   "total": 21999.93
+  },
+  {
+   "nombre": "SANCHEZ PINEDO VDA DE ROMERO, LUZ DORIS",
+   "cargo": "EX-CONGRESISTA",
+   "total": 21999.93
+  },
+  {
+   "nombre": "CARDO FRANCO, ANDRES ALFONSO",
+   "cargo": "EX-SENADOR",
+   "total": 21999.93
+  },
+  {
+   "nombre": "ESPICHAN TUMAY, DANIEL HUMBERTO",
+   "cargo": "EX-CONGRESISTA",
+   "total": 21999.93
+  },
+  {
+   "nombre": "LAOS VISAG, GLADIS SOLEDAD",
+   "cargo": "EX-DIPUTADO",
+   "total": 21999.93
+  },
+  {
+   "nombre": "AVILA DIAZ, ROLANDO",
+   "cargo": "EX-DIPUTADO",
+   "total": 21999.93
+  }
+ ]
+}
