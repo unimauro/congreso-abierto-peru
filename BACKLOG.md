@@ -14,6 +14,13 @@ surjan, y commitear. Prioridad de arriba hacia abajo.
 - [x] Dashboard estático en GitHub Pages (Resumen, Proyectos, Presupuesto, Comisiones, Análisis).
 - [x] **Presupuesto** del Congreso (MEF Consulta Amigable, Playwright).
 - [x] Cruce **Comisiones × proyectos** (dato real API).
+- [x] **Materias / tipos de ley** — clasificador por palabras clave del título
+  (`clasificar_materia` en build_data.py) + sección en Análisis. Hallazgo:
+  **20.8% de los proyectos son declarativos/simbólicos** (3,089).
+- [x] **Buscador de personal** — directorio nominal completo (4,051) por nombre,
+  cargo, dependencia y régimen, con paginación.
+- [x] **Nuevo periodo 2026–2031** detectado (instalado 27-jul-2026, 0 proyectos aún);
+  nota en el sitio. El análisis sigue sobre el periodo 2021–2026.
 - [x] **Personal del Congreso** — planilla nominal real del PTE (`id_entidad=16`):
   scraper `pipeline/scrapers/personal_pte.py` + agregador `web/build_personal.py`
   + sección con régimen, distribución de sueldos, cargos, top sueldos y pensiones.
@@ -31,8 +38,14 @@ surjan, y commitear. Prioridad de arriba hacia abajo.
   varios casos es el despacho/comisión. Cruzar con el **padrón de 130 congresistas
   + bancada** para atribuir asesores a cada despacho y detectar contrataciones
   polémicas (familiares, sancionados, sin perfil).
+- [ ] **Ranking por bancada / partido** — ⚠️ la API oficial NO expone el grupo
+  parlamentario por proyecto (el filtro `grupParId` se ignora). Requiere el
+  **padrón de congresistas con su bancada** (directorio oficial) cruzado con la
+  autoría. Es el bloqueante para todo ranking partidario.
 - [ ] **Padrón de congresistas** (130) con bancada, foto, votos y producción —
   base para casi todos los cruces. Fuente: directorio oficial + SPLEY autores.
+- [ ] **Análisis del nuevo periodo 2026–2031** en cuanto la API cargue sus
+  proyectos (hoy 0). El scraper ya soporta `perParId=2026`.
 - [ ] **Enriquecer personal con cheka** (`apicheck.tunky.net`): expediente,
   trayectoria interinstitucional, sanciones RNSSC y DJ de intereses por persona.
 

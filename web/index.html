@@ -250,8 +250,16 @@
   <!-- ANALISIS / ZOOM -->
   <section class="view" id="view-analisis">
     <h2 class="section">Análisis 🔬 — el zoom</h2>
+    <div class="note" id="periodo-nota" style="margin:-6px 0 16px"></div>
     <div class="grid kpis" id="kpis-analisis"></div>
+
     <div class="card full">
+      <div class="panel-head"><h3>¿Qué tipo de leyes se están creando?</h3><span class="hint">materia inferida del título · dato real</span></div>
+      <div class="chart-box tall"><canvas id="chMaterias"></canvas></div>
+      <div class="note" id="mat-note"></div>
+    </div>
+
+    <div class="card full" style="margin-top:16px">
       <div class="panel-head"><h3>Producción por congresista</h3><span class="hint">top 15 · como autor principal (1er firmante) · dato real</span></div>
       <div class="chart-box tall"><canvas id="chProd"></canvas></div>
       <div class="note" id="prod-note"></div>
@@ -259,8 +267,8 @@
     <div class="card full" style="margin-top:16px">
       <div class="panel-head"><h3>🚧 Próximamente en el zoom</h3></div>
       <ul class="facts">
-        <li><b>Producción por bancada</b> y <b>congresistas con producción nula total</b>: requieren el padrón completo de los 130 congresistas con su bancada (scraping del directorio oficial), uniéndolo con cuidado a la autoría para no atribuir mal. En cola.</li>
-        <li><b>Asesores por congresista</b>: es planilla del Portal de Transparencia (PTE). Hoy mostramos la regla estructural (hasta 7 por despacho) y el dato agregado de +700 plazas; el detalle por congresista viene con el scraper del PTE.</li>
+        <li><b>Ranking por bancada / partido</b>: la API oficial del Congreso <b>no expone el grupo parlamentario</b> por proyecto (el filtro se ignora). Requiere cruzar el padrón de congresistas con su bancada (directorio oficial) y unirlo con cuidado a la autoría. En cola.</li>
+        <li><b>Detección de altas/bajas de personal</b> mes a mes (recién contratados) comparando planillas del PTE. En cola.</li>
       </ul>
     </div>
   </section>

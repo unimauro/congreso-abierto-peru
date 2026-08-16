@@ -29,6 +29,59 @@ def es_ley(estado: str) -> bool:
     return any(k in e for k in ESTADOS_LEY)
 
 
+# Clasificador de materia por palabras clave en el título (orden = prioridad).
+# Pensado para responder "¿qué tipo de leyes se están creando?" con honestidad:
+# la primera categoría que coincide gana. "Declarativas" va primero porque es el
+# hallazgo de fiscalización clave (leyes simbólicas: declara de interés, homenajes).
+MATERIAS = [
+    ("Declarativa / simbólica", ("DECLARA DE INTERES", "DECLARA DE INTERÉS",
+        "DECLARA DE NECESIDAD", "DECLÁRESE", "DECLARESE", "DÍA NACIONAL", "DIA NACIONAL",
+        "HOMENAJE", "HÉROE", "HEROE", "BENEMÉRIT", "DECLARA COMO", "DECLARA CIUDAD",
+        "PATRIMONIO CULTURAL", "DENOMINA", "DÍA DE", "SEMANA DE")),
+    ("Seguridad y orden", ("SEGURIDAD CIUDADANA", "DELINCUENC", "EXTORSI", "CRIMEN",
+        "CRIMINAL", "SICARIA", "SERENAZGO", "ARMAS", "TERRORISMO", "ORDEN INTERNO",
+        "MARCAJE", "PANDILLA")),
+    ("Justicia y penal", ("PENAL", "DELITO", "PENA PRIVATIVA", "PRISIÓN", "PRISION",
+        "JUDICIAL", "PROCESAL", "FISCALÍA", "FISCALIA", "MINISTERIO PÚBLICO",
+        "IMPUNIDAD", "CORRUPCIÓN", "CORRUPCION")),
+    ("Trabajo y pensiones", ("LABORAL", "TRABAJADOR", "REMUNERAC", "JORNADA",
+        "SINDICA", "CTS", "GRATIFICAC", "JUBILAC", "PENSIONISTA", "AFP", "ONP",
+        "SEGURO SOCIAL", "DESPIDO")),
+    ("Salud", ("SALUD", "HOSPITAL", "ESSALUD", "MÉDIC", "MEDIC", "ENFERMED",
+        "SANITARI", "FARMAC", "VACUNA", "DISCAPACIDAD")),
+    ("Educación", ("EDUCAC", "ESCOLAR", "UNIVERSID", "DOCENTE", "ESTUDIANTE",
+        "MAGISTERIAL", "PRONABEC", "ANALFABET", "INSTITUTO", "SUNEDU")),
+    ("Economía y tributación", ("TRIBUT", "IMPUESTO", "IGV", "ARANCEL", "ECONÓMIC",
+        "ECONOMIC", "FINANCIER", "CRÉDITO", "CREDITO", "MYPE", "EMPRESA", "MERCADO",
+        "INVERSIÓN", "INVERSION", "REACTIVA")),
+    ("Transporte e infraestructura", ("TRANSPORTE", "VEHÍCUL", "VEHICUL", "CARRETERA",
+        "VIAL", "TRÁNSITO", "TRANSITO", "INFRAESTRUCTURA", "PEAJE", "AEROPUERTO",
+        "PORTUARI")),
+    ("Agrario, pesca y rural", ("AGRARI", "AGRÍCOL", "AGRICOL", "AGRO", "RURAL",
+        "RIEGO", "GANADER", "PESCA", "PESQUER", "CAMÉLID", "CAFÉ", "CACAO")),
+    ("Ambiente y recursos", ("AMBIENT", "FORESTAL", "AGUA", "MINER", "CONTAMINAC",
+        "RESIDUOS", "CLIMÁTIC", "CLIMATIC", "ÁREA NATURAL", "ECOSISTEMA", "HÍDRIC",
+        "HIDRIC")),
+    ("Mujer, familia y niñez", ("MUJER", "FAMILIA", "VIOLENCIA", "NIÑO", "NIÑEZ",
+        "NIÑA", "ADOLESCENT", "GÉNERO", "GENERO", "FEMINICID", "ALIMENT",
+        "ADULTO MAYOR")),
+    ("Descentralización y regiones", ("REGIONAL", "MUNICIPAL", "DISTRITO",
+        "PROVINCIA", "DESCENTRALIZ", "GOBIERNO LOCAL", "MANCOMUNIDAD", "UBICACIÓN",
+        "CREACIÓN DEL DISTRITO", "CREACION DEL DISTRITO")),
+    ("Reforma política y electoral", ("ELECTORAL", "CONSTITUC", "REFORMA POLÍTICA",
+        "PARTIDO POLÍTICO", "PARTIDO POLITICO", "REFERÉNDUM", "REFERENDUM",
+        "BICAMERAL", "INMUNIDAD", "CONGRESO DE LA REP", "VOTO")),
+]
+
+
+def clasificar_materia(titulo: str) -> str:
+    t = (titulo or "").upper()
+    for nombre, claves in MATERIAS:
+        if any(k in t for k in claves):
+            return nombre
+    return "Otros"
+
+
 def fetch_comisiones(session, periodo: int) -> list[dict]:
     """Lista las comisiones y cuenta los proyectos asignados a cada una (dato real)."""
     resp = session.get(COMISIONES_ENDPOINT, timeout=getattr(session, "request_timeout", 60))
@@ -86,6 +139,20 @@ def build(periodos: list[int], fecha: str) -> dict:
     print("[*] cruzando comisiones...", file=sys.stderr)
     comisiones = fetch_comisiones(session, periodos[0])
 
+    # Materia por título + cuántas de cada materia llegaron a ser ley.
+    materia_total = Counter()
+    materia_leyes = Counter()
+    for p in todos:
+        mat = clasificar_materia(p.titulo)
+        materia_total[mat] += 1
+        if es_ley(p.estado):
+            materia_leyes[mat] += 1
+    materias = [
+        {"tema": t, "proyectos": n, "leyes": materia_leyes.get(t, 0),
+         "pct": round(n / len(todos) * 100, 1) if todos else 0}
+        for t, n in materia_total.most_common()
+    ]
+
     recientes = sorted(
         todos, key=lambda p: (p.fecha_presentacion or "", p.numero), reverse=True
     )[:25]
@@ -109,6 +176,7 @@ def build(periodos: list[int], fecha: str) -> dict:
             {"nombre": n, "proyectos": c} for n, c in autores.most_common(20)
         ],
         "comisiones": comisiones,
+        "materias": materias,
         "produccion_congresistas": [
             {"nombre": n, "proyectos": c} for n, c in principal.most_common(20)
         ],

@@ -311,11 +311,39 @@ function renderIncremento() {
 function renderAnalisis() {
   const prod = DATA.produccion_congresistas || [];
   const c = DATA.concentracion || {};
+  const mats = DATA.materias || [];
+  const decl = mats.find(m => /Declarativa/.test(m.tema));
+
+  const nota = document.getElementById("periodo-nota");
+  if (nota) nota.innerHTML =
+    "Se analiza el periodo parlamentario <b>2021–2026</b> (14,864 proyectos). El nuevo Congreso <b>2026–2031</b> se instaló el 27-jul-2026; aún no registra proyectos de ley en la API oficial — se sumará en cuanto empiece a producir.";
+
   document.getElementById("kpis-analisis").innerHTML =
     kpiCard("Autores principales", fmt(c.autores_principales || 0), "congresistas que lideran proyectos", "var(--accent)") +
-    kpiCard("Top 10 concentra", `${c.top10_pct || 0}%`, "de todos los proyectos", "var(--amber)") +
-    kpiCard("Top 20 concentra", `${c.top20_pct || 0}%`, "de todos los proyectos", "var(--accent-2)") +
+    kpiCard("Declarativas", decl ? `${decl.pct}%` : "—", decl ? `${fmt(decl.proyectos)} proyectos simbólicos` : "", "var(--amber)") +
+    kpiCard("Top 10 concentra", `${c.top10_pct || 0}%`, "de la producción total", "var(--accent-2)") +
     kpiCard("Líder", prod[0]?.nombre.split(",")[0] || "—", `${fmt(prod[0]?.proyectos || 0)} proyectos`, "var(--purple)");
+
+  // Materias: barras horizontales por # de proyectos
+  mk("chMaterias", {
+    type: "bar",
+    data: {
+      labels: mats.map(m => m.tema),
+      datasets: [{ data: mats.map(m => m.proyectos), backgroundColor: mats.map(m => /Declarativa/.test(m.tema) ? css("--amber") : css("--accent-2")), borderRadius: 6 }],
+    },
+    options: opts({
+      indexAxis: "y",
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: c2 => ` ${fmt(c2.parsed.x)} proyectos (${mats[c2.dataIndex].pct}%) · ${fmt(mats[c2.dataIndex].leyes)} llegaron a ley` } },
+      },
+      scales: scales(true),
+    }),
+  });
+  document.getElementById("mat-note").innerHTML = decl
+    ? `La materia se infiere por palabras clave del título. El hallazgo más fuerte: <b>${decl.pct}% de los proyectos son declarativos o simbólicos</b> (declara de interés/necesidad pública, días conmemorativos, homenajes) — ${fmt(decl.proyectos)} proyectos, de los cuales ${fmt(decl.leyes)} se volvieron ley. Las materias con más impacto real (salud, seguridad, economía) pesan mucho menos.`
+    : "La materia se infiere por palabras clave del título de cada proyecto.";
+
   const top = prod.slice(0, 15);
   mk("chProd", {
     type: "bar",
@@ -332,10 +360,13 @@ function renderAll() {
   renderComisiones(); renderAnalisis(); renderPersonal();
 }
 
+// Revalidar con el servidor (ETag) para no servir datos viejos de caché:
+// el dashboard se regenera a diario y debe reflejar el snapshot más reciente.
+const nocache = { cache: "no-cache" };
 Promise.all([
-  fetch("data.json").then(r => r.json()),
-  fetch("context.json").then(r => r.json()),
-  fetch("personal.json").then(r => r.ok ? r.json() : null).catch(() => null),
+  fetch("data.json", nocache).then(r => r.json()),
+  fetch("context.json", nocache).then(r => r.json()),
+  fetch("personal.json", nocache).then(r => r.ok ? r.json() : null).catch(() => null),
 ])
   .then(([d, c, p]) => {
     DATA = d; CTX = c; PERSONAL = p;

@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generado": "2026-08-15",
+  "generado": "2026-08-16",
   "periodos": [
    2021
   ],
@@ -488,6 +488,92 @@
   {
    "nombre": "Acusaciones Constitucionales",
    "proyectos": 0
+  }
+ ],
+ "materias": [
+  {
+   "tema": "Otros",
+   "proyectos": 3506,
+   "leyes": 972,
+   "pct": 23.6
+  },
+  {
+   "tema": "Declarativa / simbólica",
+   "proyectos": 3089,
+   "leyes": 852,
+   "pct": 20.8
+  },
+  {
+   "tema": "Educación",
+   "proyectos": 1264,
+   "leyes": 389,
+   "pct": 8.5
+  },
+  {
+   "tema": "Trabajo y pensiones",
+   "proyectos": 1164,
+   "leyes": 287,
+   "pct": 7.8
+  },
+  {
+   "tema": "Economía y tributación",
+   "proyectos": 1026,
+   "leyes": 262,
+   "pct": 6.9
+  },
+  {
+   "tema": "Salud",
+   "proyectos": 956,
+   "leyes": 214,
+   "pct": 6.4
+  },
+  {
+   "tema": "Justicia y penal",
+   "proyectos": 947,
+   "leyes": 228,
+   "pct": 6.4
+  },
+  {
+   "tema": "Descentralización y regiones",
+   "proyectos": 595,
+   "leyes": 154,
+   "pct": 4.0
+  },
+  {
+   "tema": "Reforma política y electoral",
+   "proyectos": 567,
+   "leyes": 154,
+   "pct": 3.8
+  },
+  {
+   "tema": "Seguridad y orden",
+   "proyectos": 526,
+   "leyes": 205,
+   "pct": 3.5
+  },
+  {
+   "tema": "Ambiente y recursos",
+   "proyectos": 353,
+   "leyes": 60,
+   "pct": 2.4
+  },
+  {
+   "tema": "Mujer, familia y niñez",
+   "proyectos": 333,
+   "leyes": 77,
+   "pct": 2.2
+  },
+  {
+   "tema": "Transporte e infraestructura",
+   "proyectos": 329,
+   "leyes": 88,
+   "pct": 2.2
+  },
+  {
+   "tema": "Agrario, pesca y rural",
+   "proyectos": 209,
+   "leyes": 57,
+   "pct": 1.4
   }
  ],
  "produccion_congresistas": [
