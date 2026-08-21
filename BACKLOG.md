@@ -21,6 +21,10 @@ surjan, y commitear. Prioridad de arriba hacia abajo.
   cargo, dependencia y régimen, con paginación.
 - [x] **Nuevo periodo 2026–2031** detectado (instalado 27-jul-2026, 0 proyectos aún);
   nota en el sitio. El análisis sigue sobre el periodo 2021–2026.
+- [x] **Pipeline diario auto-commit** (`pages.yml`): regenera data.json, commitea si
+  cambió y despliega. El commit diario **mantiene el cron vivo** (ya no se desactiva
+  por inactividad) y el historial de commits es el registro de actualizaciones.
+- [x] **Vista "Estado de datos"**: frescura + fuente por dataset con semáforo.
 - [x] **Personal del Congreso** — planilla nominal real del PTE (`id_entidad=16`):
   scraper `pipeline/scrapers/personal_pte.py` + agregador `web/build_personal.py`
   + sección con régimen, distribución de sueldos, cargos, top sueldos y pensiones.

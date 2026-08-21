@@ -160,6 +160,7 @@
     <button data-view="comisiones">Comisiones</button>
     <button data-view="analisis">Análisis 🔬</button>
     <button data-view="personal">Personal</button>
+    <button data-view="estado">Estado de datos</button>
   </div>
 </nav>
 
@@ -326,6 +327,21 @@
       <div class="panel-head"><h3>Lo que dice la planilla</h3></div>
       <ul class="facts" id="per-facts"></ul>
       <div class="note" id="per-fuentes"></div>
+    </div>
+  </section>
+
+  <!-- ESTADO DE DATOS -->
+  <section class="view" id="view-estado">
+    <h2 class="section">Estado de datos 🔄</h2>
+    <div class="note" style="margin:-6px 0 16px">Frescura y fuente de cada conjunto de datos. Los datos legislativos se regeneran automáticamente cada día (GitHub Actions); el personal del PTE se actualiza manualmente porque el portal bloquea los servidores de CI.</div>
+    <div class="grid panels" id="estado-cards"></div>
+    <div class="card full" style="margin-top:16px">
+      <div class="panel-head"><h3>¿Cómo se actualiza?</h3></div>
+      <ul class="facts">
+        <li><b>Legislativo</b> (proyectos, materias, comisiones): pipeline diario en CI que consulta la API oficial del Congreso y <b>commitea los cambios</b> (el historial de commits es el registro de actualizaciones).</li>
+        <li><b>Personal</b> (planilla PTE): se corre <span class="code">actualizar_personal.sh</span> desde una IP peruana (el PTE bloquea datacenters). El PTE publica ~1 vez al mes.</li>
+        <li><b>Presupuesto</b> (MEF): serie anual versionada; se regenera con el scraper Playwright cuando el MEF publica el nuevo año.</li>
+      </ul>
     </div>
   </section>
 

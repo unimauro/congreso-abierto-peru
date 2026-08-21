@@ -4,13 +4,15 @@ on:
   push:
     branches: [master]
     paths: ["web/**", ".github/workflows/pages.yml"]
-  # Regenera los datos automáticamente cada día a las 11:00 UTC (06:00 Perú)
+  # Regenera los datos y (si cambiaron) los commitea cada día a las 11:00 UTC (06:00 Perú).
+  # El commit diario mantiene el cron activo (GitHub desactiva los schedules tras
+  # ~60 días SIN actividad en el repo) y deja un historial visible de qué cambió.
   schedule:
     - cron: "0 11 * * *"
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write        # para commitear el data.json regenerado
   pages: write
   id-token: write
 
@@ -41,6 +43,19 @@ jobs:
           python web/og_card.py    && rsvg-convert -w 1200 -h 630  web/og.svg    -o web/og.png
           python web/share_card.py && rsvg-convert -w 1080 -h 1350 web/share.svg -o web/share.png
         continue-on-error: true   # si rsvg falla, se publican las imágenes versionadas
+
+      - name: Commitear datos si cambiaron (mantiene el cron vivo + log de cambios)
+        run: |
+          git config user.name  "Congreso Abierto Perú (bot)"
+          git config user.email "unimauro@gmail.com"
+          git add web/data.json web/og.png web/og.svg web/share.png web/share.svg
+          if git diff --cached --quiet; then
+            echo "Sin cambios en los datos — nada que commitear."
+          else
+            git commit -m "chore(datos): refresco automático $(date -u +%Y-%m-%d)"
+            git push
+            echo "Datos actualizados y commiteados."
+          fi
 
       - uses: actions/upload-pages-artifact@v3
         with:

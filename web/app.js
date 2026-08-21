@@ -354,10 +354,66 @@ function renderAnalisis() {
     `Se cuenta como <b>autor principal</b> al primer firmante de cada proyecto. ${fmt(c.autores_principales || 0)} congresistas lideraron al menos un proyecto; los 10 más activos concentran el <b>${c.top10_pct || 0}%</b> de toda la producción legislativa del periodo.`;
 }
 
+const MESES_ABBR = ["", "ene", "feb", "mar", "abr", "may", "jun", "jul", "ago",
+  "set", "oct", "nov", "dic"];
+
+// Días transcurridos desde YYYY-MM-DD hasta hoy (usa la fecha del navegador).
+function diasDesde(fechaISO) {
+  if (!fechaISO) return null;
+  const d = new Date(fechaISO + "T00:00:00");
+  if (isNaN(d)) return null;
+  return Math.floor((Date.now() - d.getTime()) / 86400000);
+}
+
+function estadoCard(titulo, fecha, sub, fuente, dias) {
+  let sem = "var(--green)", txt = "al día";
+  if (dias == null) { sem = "var(--muted)"; txt = "—"; }
+  else if (dias <= 7) { sem = "var(--green)"; txt = `hace ${dias} día${dias === 1 ? "" : "s"}`; }
+  else if (dias <= 45) { sem = "var(--amber)"; txt = `hace ${dias} días`; }
+  else { sem = "var(--accent)"; txt = `hace ${dias} días`; }
+  return `<div class="card">
+    <div class="panel-head"><h3>${titulo}</h3><span class="tag" style="color:${sem};border-color:${sem}">${txt}</span></div>
+    <div style="font-size:26px;font-weight:800;letter-spacing:-.02em;margin:2px 0 4px">${fecha}</div>
+    <div style="color:var(--muted);font-size:13px;margin-bottom:8px">${sub}</div>
+    <div class="note" style="margin:0">Fuente: ${fuente}</div>
+  </div>`;
+}
+
+function renderEstado() {
+  const el = document.getElementById("estado-cards");
+  if (!el) return;
+  const cards = [];
+
+  // Legislativo (data.json)
+  const g = DATA.meta?.generado;
+  cards.push(estadoCard("Legislativo", g || "—",
+    `${fmt(DATA.totales?.proyectos || 0)} proyectos · ${fmt(DATA.totales?.leyes_aprobadas || 0)} leyes · periodo 2021–2026`,
+    "API oficial del Congreso (SPLEY)", diasDesde(g)));
+
+  // Personal (personal.json)
+  if (PERSONAL) {
+    const pg = PERSONAL.meta?.generado, pm = PERSONAL.meta;
+    cards.push(estadoCard("Personal (PTE)", pg || "—",
+      `Planilla de ${MESES_ABBR[pm.mes]}-${pm.anio} · ${fmt(PERSONAL.totales?.planilla_activa || 0)} activos`,
+      "Portal de Transparencia (id_entidad=16)", diasDesde(pg)));
+  } else {
+    cards.push(estadoCard("Personal (PTE)", "—", "snapshot no disponible", "Portal de Transparencia", null));
+  }
+
+  // Presupuesto (context.json)
+  const pr = CTX.presupuesto || {};
+  const ultAnio = (pr.serie && pr.serie.length) ? pr.serie[pr.serie.length - 1].anio : "—";
+  cards.push(estadoCard("Presupuesto (MEF)", String(ultAnio),
+    `Serie ${pr.serie?.[0]?.anio || ""}–${ultAnio} · PIA/PIM/devengado`,
+    "MEF – Consulta Amigable (SIAF)", null));
+
+  el.innerHTML = cards.join("");
+}
+
 function renderAll() {
   if (!DATA || !CTX) return;
   renderResumen(); renderProyectos(); renderPresupuesto(); renderIncremento();
-  renderComisiones(); renderAnalisis(); renderPersonal();
+  renderComisiones(); renderAnalisis(); renderPersonal(); renderEstado();
 }
 
 // Revalidar con el servidor (ETag) para no servir datos viejos de caché:
