@@ -21,21 +21,21 @@
   <text x="80" y="338" fill="#e7e9ee" font-size="58" font-weight="800" font-family="Helvetica,Arial">Congreso 2021–2026?</text>
 
   <!-- KPI grande 1 -->
-  <text x="80" y="500" fill="#e23744" font-size="120" font-weight="800" font-family="Helvetica,Arial">14,704</text>
+  <text x="80" y="500" fill="#e23744" font-size="120" font-weight="800" font-family="Helvetica,Arial">14,864</text>
   <text x="80" y="548" fill="#c7ccd6" font-size="30" font-family="Helvetica,Arial">proyectos de ley presentados</text>
 
   <!-- KPI fila -->
-  <text x="80" y="690" fill="#22c55e" font-size="76" font-weight="800" font-family="Helvetica,Arial">3,826</text>
+  <text x="80" y="690" fill="#22c55e" font-size="76" font-weight="800" font-family="Helvetica,Arial">3,999</text>
   <text x="80" y="730" fill="#9aa1ad" font-size="26" font-family="Helvetica,Arial">leyes publicadas</text>
 
-  <text x="560" y="690" fill="#3b82f6" font-size="76" font-weight="800" font-family="Helvetica,Arial">26%</text>
+  <text x="560" y="690" fill="#3b82f6" font-size="76" font-weight="800" font-family="Helvetica,Arial">27%</text>
   <text x="560" y="730" fill="#9aa1ad" font-size="26" font-family="Helvetica,Arial">tasa de aprobación</text>
 
   <text x="80" y="850" fill="#f59e0b" font-size="76" font-weight="800" font-family="Helvetica,Arial">140</text>
   <text x="80" y="890" fill="#9aa1ad" font-size="26" font-family="Helvetica,Arial">congresistas autores</text>
 
   <text x="560" y="850" fill="#a855f7" font-size="50" font-weight="800" font-family="Helvetica,Arial">Cruz Mamani</text>
-  <text x="560" y="890" fill="#9aa1ad" font-size="26" font-family="Helvetica,Arial">+ proyectos firmados (2324)</text>
+  <text x="560" y="890" fill="#9aa1ad" font-size="26" font-family="Helvetica,Arial">+ proyectos firmados (2348)</text>
 
   <!-- Estados -->
   <text x="80" y="975" fill="#e7e9ee" font-size="30" font-weight="700" font-family="Helvetica,Arial">¿En qué etapa están?</text>
@@ -43,22 +43,22 @@
     <text x="80" y="1004" fill="#c7ccd6" font-size="22" font-family="Helvetica,Arial">EN COMISIÓN</text>
     <rect x="80" y="1014" width="600" height="26" rx="13" fill="#1d2026"/>
     <rect x="80" y="1014" width="560" height="26" rx="13" fill="#3b82f6"/>
-    <text x="700" y="1034" fill="#e7e9ee" font-size="22" font-weight="700" font-family="Helvetica,Arial">5,746</text>
+    <text x="700" y="1034" fill="#e7e9ee" font-size="22" font-weight="700" font-family="Helvetica,Arial">5,545</text>
     <text x="80" y="1068" fill="#c7ccd6" font-size="22" font-family="Helvetica,Arial">Publicada en el Diario Ofic…</text>
     <rect x="80" y="1078" width="600" height="26" rx="13" fill="#1d2026"/>
-    <rect x="80" y="1078" width="365" height="26" rx="13" fill="#3b82f6"/>
-    <text x="700" y="1098" fill="#e7e9ee" font-size="22" font-weight="700" font-family="Helvetica,Arial">3,754</text>
+    <rect x="80" y="1078" width="403" height="26" rx="13" fill="#3b82f6"/>
+    <text x="700" y="1098" fill="#e7e9ee" font-size="22" font-weight="700" font-family="Helvetica,Arial">3,996</text>
     <text x="80" y="1132" fill="#c7ccd6" font-size="22" font-family="Helvetica,Arial">DICTAMEN</text>
     <rect x="80" y="1142" width="600" height="26" rx="13" fill="#1d2026"/>
-    <rect x="80" y="1142" width="210" height="26" rx="13" fill="#3b82f6"/>
-    <text x="700" y="1162" fill="#e7e9ee" font-size="22" font-weight="700" font-family="Helvetica,Arial">2,164</text>
+    <rect x="80" y="1142" width="189" height="26" rx="13" fill="#3b82f6"/>
+    <text x="700" y="1162" fill="#e7e9ee" font-size="22" font-weight="700" font-family="Helvetica,Arial">1,876</text>
     <text x="80" y="1196" fill="#c7ccd6" font-size="22" font-family="Helvetica,Arial">Orden del Día</text>
     <rect x="80" y="1206" width="600" height="26" rx="13" fill="#1d2026"/>
-    <rect x="80" y="1206" width="169" height="26" rx="13" fill="#3b82f6"/>
-    <text x="700" y="1226" fill="#e7e9ee" font-size="22" font-weight="700" font-family="Helvetica,Arial">1,737</text>
+    <rect x="80" y="1206" width="181" height="26" rx="13" fill="#3b82f6"/>
+    <text x="700" y="1226" fill="#e7e9ee" font-size="22" font-weight="700" font-family="Helvetica,Arial">1,795</text>
 
   <!-- Footer -->
   <line x1="80" y1="1235" x2="1000" y2="1235" stroke="#23262e" stroke-width="2"/>
   <text x="80" y="1285" fill="#e7e9ee" font-size="30" font-weight="700" font-family="Helvetica,Arial">unimauro.github.io/congreso-abierto-peru</text>
-  <text x="80" y="1320" fill="#6b7280" font-size="22" font-family="Helvetica,Arial">Fuente: api.congreso.gob.pe · actualizado 2026-05-29 · datos públicos</text>
+  <text x="80" y="1320" fill="#6b7280" font-size="22" font-family="Helvetica,Arial">Fuente: api.congreso.gob.pe · actualizado 2026-08-21 · datos públicos</text>
 </svg>

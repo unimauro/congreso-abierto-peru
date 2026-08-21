@@ -11,12 +11,12 @@
   <text x="178" y="148" fill="#9aa1ad" font-size="26" font-family="Helvetica,Arial">Observatorio legislativo · datos oficiales</text>
   <text x="70" y="240" fill="#e7e9ee" font-size="50" font-weight="800" font-family="Helvetica,Arial">¿Qué hizo el Congreso 2021–2026?</text>
   
-    <text x="70" y="330" fill="#e23744" font-size="74" font-weight="800" font-family="Helvetica,Arial">14,704</text>
+    <text x="70" y="330" fill="#e23744" font-size="74" font-weight="800" font-family="Helvetica,Arial">14,864</text>
     <text x="70" y="368" fill="#9aa1ad" font-size="27" font-family="Helvetica,Arial">proyectos de ley</text>
-    <text x="610" y="330" fill="#22c55e" font-size="74" font-weight="800" font-family="Helvetica,Arial">3,826</text>
+    <text x="610" y="330" fill="#22c55e" font-size="74" font-weight="800" font-family="Helvetica,Arial">3,999</text>
     <text x="610" y="368" fill="#9aa1ad" font-size="27" font-family="Helvetica,Arial">leyes publicadas</text>
-    <text x="70" y="480" fill="#3b82f6" font-size="74" font-weight="800" font-family="Helvetica,Arial">S/1,412M</text>
-    <text x="70" y="518" fill="#9aa1ad" font-size="27" font-family="Helvetica,Arial">presupuesto 2025</text>
+    <text x="70" y="480" fill="#3b82f6" font-size="74" font-weight="800" font-family="Helvetica,Arial">S/1,769M</text>
+    <text x="70" y="518" fill="#9aa1ad" font-size="27" font-family="Helvetica,Arial">presupuesto 2026</text>
     <text x="610" y="480" fill="#f59e0b" font-size="74" font-weight="800" font-family="Helvetica,Arial">140</text>
     <text x="610" y="518" fill="#9aa1ad" font-size="27" font-family="Helvetica,Arial">autores</text>
   <line x1="70" y1="560" x2="1130" y2="560" stroke="#23262e" stroke-width="2"/>
