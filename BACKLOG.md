@@ -32,6 +32,15 @@ surjan, y commitear. Prioridad de arriba hacia abajo.
 
 ---
 
+- [x] **Vista "Informe 📌"** (2026-08-25): resumen ejecutivo que cruza los tres
+  datasets — proyectos, costo por ley (gasto del periodo ÷ leyes), ritmo de gasto
+  diario, proyección de cierre 2026 (lineal + patrón histórico), conversión a ley
+  por materia, y top-10 sueldos con nombre. Se recalcula solo con cada refresco.
+- [x] **Mejora de gráficas** (2026-08-25): fuera el doble eje del chart de
+  presupuesto (avance % ahora en su propio gráfico), doughnuts plegados a top-4 +
+  "Otros", paleta categórica validada (CVD/contraste) por tema claro/oscuro,
+  tooltips con formato S/ M.
+
 ## 🔜 Próximo (alto valor de fiscalización)
 
 - [ ] **Contratos / proveedores del Congreso** (OCDS/SEACE) — quién le vende al

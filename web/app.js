@@ -7,10 +7,21 @@ let DATA = null, CTX = null, PERSONAL = null;
 const soles = (n) => "S/ " + new Intl.NumberFormat("es-PE", { maximumFractionDigits: 0 }).format(n);
 const solesM = (n) => "S/ " + (n / 1e6).toFixed(1) + " M";
 
+// Paleta categórica fija (≤5 series; las demás se pliegan en "Otros").
+// Validada por tema (CVD ΔE, banda de luminosidad y contraste sobre la superficie).
 function palette(n) {
-  const base = ["#e23744", "#3b82f6", "#22c55e", "#f59e0b", "#a855f7",
-    "#06b6d4", "#ec4899", "#84cc16", "#f97316", "#14b8a6", "#6366f1", "#eab308"];
+  const light = document.documentElement.getAttribute("data-theme") === "light";
+  const base = light
+    ? ["#e23744", "#3b82f6", "#f59e0b", "#a855f7", "#06b6d4"]
+    : ["#e23744", "#3b82f6", "#d97706", "#a855f7", "#0891b2"];
   return Array.from({ length: n }, (_, i) => base[i % base.length]);
+}
+// Pliega un objeto {label: valor} a los top-k + "Otros" (para tortas legibles).
+function foldTop(obj, k = 4) {
+  const entries = Object.entries(obj).sort((a, b) => b[1] - a[1]);
+  const top = entries.slice(0, k), resto = entries.slice(k);
+  if (resto.length) top.push(["Otros (" + resto.length + ")", resto.reduce((a, e) => a + e[1], 0)]);
+  return { labels: top.map(e => e[0]), values: top.map(e => e[1]) };
 }
 const gridC = () => css("--border");
 const textC = () => css("--muted");
@@ -52,14 +63,14 @@ function renderResumen() {
 
   mk("chAnio", {
     type: "bar",
-    data: { labels: Object.keys(DATA.por_anio), datasets: [{ data: Object.values(DATA.por_anio), backgroundColor: css("--accent"), borderRadius: 6, maxBarThickness: 60 }] },
-    options: opts({ plugins: { legend: { display: false } }, scales: scales() }),
+    data: { labels: Object.keys(DATA.por_anio), datasets: [{ data: Object.values(DATA.por_anio), backgroundColor: css("--accent"), borderRadius: 4, maxBarThickness: 60 }] },
+    options: opts({ plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => ` ${fmt(c.parsed.y)} proyectos` } } }, scales: scales() }),
   });
   const s = CTX.presupuesto.serie;
   mk("chPresMini", {
     type: "line",
     data: { labels: s.map(x => x.anio), datasets: [{ data: s.map(x => x.pia), borderColor: css("--accent"), backgroundColor: "rgba(226,55,68,.15)", fill: true, tension: .3, pointRadius: 4, pointBackgroundColor: css("--accent") }] },
-    options: opts({ plugins: { legend: { display: false } }, scales: scales() }),
+    options: opts({ plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => ` PIA: S/ ${fmt(c.parsed.y)} M` } } }, scales: scales() }),
   });
   renderYearFilter();
 }
@@ -110,11 +121,18 @@ function renderProyectos() {
     data: { labels: aut.map(a => a.nombre), datasets: [{ data: aut.map(a => a.proyectos), backgroundColor: css("--green"), borderRadius: 6 }] },
     options: opts({ indexAxis: "y", plugins: { legend: { display: false } }, scales: scales(true) }),
   });
-  const pL = Object.keys(DATA.por_proponente), pV = Object.values(DATA.por_proponente);
+  const prop = foldTop(DATA.por_proponente, 4);
+  const propTotal = prop.values.reduce((a, b) => a + b, 0);
   mk("chProp", {
     type: "doughnut",
-    data: { labels: pL, datasets: [{ data: pV, backgroundColor: palette(pL.length), borderWidth: 0 }] },
-    options: opts({ cutout: "62%", plugins: { legend: { position: "bottom", labels: { color: textC(), boxWidth: 12, font: { size: 11 } } } } }),
+    data: { labels: prop.labels, datasets: [{ data: prop.values, backgroundColor: palette(prop.labels.length), borderWidth: 2, borderColor: css("--panel") }] },
+    options: opts({
+      cutout: "62%",
+      plugins: {
+        legend: { position: "bottom", labels: { color: textC(), boxWidth: 12, font: { size: 11 } } },
+        tooltip: { callbacks: { label: c => ` ${fmt(c.parsed)} proyectos (${(c.parsed / propTotal * 100).toFixed(1)}%)` } },
+      },
+    }),
   });
   document.querySelector("#tabla tbody").innerHTML = DATA.recientes.slice(0, 12).map(p => {
     const ley = /PUBLICAD|PROMULGAD|AUTÓGRAFA|AUTOGRAFA/i.test(p.estado);
@@ -138,21 +156,47 @@ function renderPresupuesto() {
     kpiCard(`Devengado ${last.anio}`, `S/ ${fmt(last.devengado)} M`, `${last.avance}% de avance`, "var(--green)") +
     kpiCard(`Crecimiento ${first.anio}–${last.anio}`, `+${crec}%`, "PIA en el periodo", "var(--amber)") +
     kpiCard("Por congresista", `S/ ${(last.pia / 130).toFixed(1)} M`, "PIA ÷ 130 congresistas", "var(--purple)");
+  // Un solo eje (S/ M): PIA vs Devengado; PIM y avance van en el tooltip.
+  // El avance % tiene su propio gráfico (chAvance) — nunca doble eje.
   mk("chPres", {
     type: "bar",
     data: {
       labels: s.map(x => x.anio),
       datasets: [
-        { label: "PIA", data: s.map(x => x.pia), backgroundColor: css("--accent"), borderRadius: 6, maxBarThickness: 46 },
-        { label: "Devengado (ejecutado)", data: s.map(x => x.devengado), backgroundColor: css("--green"), borderRadius: 6, maxBarThickness: 46 },
-        { label: "Avance %", type: "line", data: s.map(x => x.avance), borderColor: css("--amber"), backgroundColor: css("--amber"), tension: .3, pointRadius: 3, yAxisID: "y2" },
+        { label: "PIA", data: s.map(x => x.pia), backgroundColor: css("--accent"), borderRadius: 4, maxBarThickness: 42 },
+        { label: "Devengado (ejecutado)", data: s.map(x => x.devengado), backgroundColor: css("--accent-2"), borderRadius: 4, maxBarThickness: 42 },
       ],
     },
     options: opts({
-      plugins: { legend: { labels: { color: textC() } } },
-      scales: Object.assign(scales(), {
-        y2: { position: "right", min: 0, max: 100, grid: { display: false }, ticks: { color: textC(), callback: v => v + "%", font: { size: 11 } }, border: { display: false } },
-      }),
+      plugins: {
+        legend: { labels: { color: textC() } },
+        tooltip: { callbacks: {
+          label: c => ` ${c.dataset.label}: S/ ${fmt(c.parsed.y)} M`,
+          afterBody: items => { const r = s[items[0].dataIndex]; return [`PIM: S/ ${fmt(r.pim)} M`, `Avance: ${r.avance}%${r.anio === s.at(-1).anio && r.avance < 70 ? " (año en curso)" : ""}`]; },
+        } },
+      },
+      scales: scales(),
+    }),
+  });
+  const ultimo = s.at(-1);
+  mk("chAvance", {
+    type: "line",
+    data: {
+      labels: s.map(x => x.anio),
+      datasets: [{
+        label: "Avance de ejecución",
+        data: s.map(x => x.avance),
+        borderColor: css("--amber"), backgroundColor: css("--amber"),
+        tension: .3, pointRadius: s.map(x => x.anio === ultimo.anio ? 6 : 4),
+        pointStyle: s.map(x => x.anio === ultimo.anio ? "rectRot" : "circle"),
+      }],
+    },
+    options: opts({
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: c => ` ${c.parsed.y}% del PIM ejecutado${s[c.dataIndex].anio === ultimo.anio ? " · año en curso (parcial)" : ""}` } },
+      },
+      scales: Object.assign(scales(), { y: { min: 0, max: 100, grid: { color: gridC() }, ticks: { color: textC(), callback: v => v + "%", font: { family: "Inter", size: 11 } }, border: { display: false } } }),
     }),
   });
   document.getElementById("pres-facts").innerHTML = p.destacados.map(d => `<li>${d}</li>`).join("");
@@ -195,7 +239,7 @@ function renderPersonal() {
   const reg = P.por_regimen;
   mk("chPerReg", {
     type: "bar",
-    data: { labels: reg.map(r => r.regimen), datasets: [{ data: reg.map(r => r.n), backgroundColor: palette(reg.length), borderRadius: 6 }] },
+    data: { labels: reg.map(r => r.regimen), datasets: [{ data: reg.map(r => r.n), backgroundColor: css("--accent-2"), borderRadius: 4 }] },
     options: opts({ indexAxis: "y", plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => ` ${fmt(c.parsed.x)} personas · ${solesM(reg[c.dataIndex].masa)}/mes` } } }, scales: scales(true) }),
   });
 
@@ -410,10 +454,117 @@ function renderEstado() {
   el.innerHTML = cards.join("");
 }
 
+// ---- Informe de corte: resumen ejecutivo que cruza los tres datasets ----
+function diaDelAnio(fechaISO) {
+  const d = new Date(fechaISO + "T00:00:00");
+  return Math.floor((d - new Date(d.getFullYear(), 0, 0)) / 86400000);
+}
+function fechaLarga(fechaISO) {
+  return new Date(fechaISO + "T00:00:00").toLocaleDateString("es-PE", { day: "numeric", month: "long", year: "numeric" });
+}
+
+function renderInforme() {
+  const corte = DATA.meta.generado;
+  const t = DATA.totales;
+  const s = CTX.presupuesto.serie;
+  const y = s.at(-1);                       // año en curso (2026)
+  const doy = diaDelAnio(corte);
+  const gastoDia = y.devengado / doy;       // S/ M por día
+  const proyLineal = Math.round(gastoDia * 365);
+  const cerrados = s.filter(x => x.anio < y.anio).slice(-3);
+  const avHist = cerrados.reduce((a, x) => a + x.avance, 0) / cerrados.length;
+  const proyHist = Math.round(y.pim * avHist / 100);
+  const gastoPeriodo = s.filter(x => x.anio >= 2021).reduce((a, x) => a + x.devengado, 0);
+  const costoLeyM = gastoPeriodo / t.leyes_aprobadas;
+  const tasa = (t.leyes_aprobadas / t.proyectos * 100).toFixed(1);
+  const mats = DATA.materias || [];
+  const decl = mats.find(m => /Declarativa/.test(m.tema));
+
+  const st = document.getElementById("inf-subtitulo");
+  if (st) st.textContent = `Corte al ${fechaLarga(corte)} · día ${doy} del año · los tres datasets cruzados`;
+
+  document.getElementById("kpis-informe").innerHTML =
+    kpiCard("Gastado en el año", `S/ ${fmt(y.devengado)} M`, `${y.avance}% del PIM al corte`, "var(--accent)") +
+    kpiCard("Ritmo de gasto", `S/ ${gastoDia.toFixed(1)} M`, "por día calendario", "var(--amber)") +
+    kpiCard("Costo por ley", `S/ ${costoLeyM.toFixed(2)} M`, `gasto 2021–${y.anio} ÷ ${fmt(t.leyes_aprobadas)} leyes`, "var(--accent-2)") +
+    kpiCard("Cierre proyectado", `S/ ${fmt(proyHist)} M`, `si repite el patrón histórico (${avHist.toFixed(1)}%)`, "var(--purple)");
+
+  // Resumen ejecutivo narrado
+  const P = PERSONAL;
+  const parrafos = [
+    `<b>Producción legislativa.</b> El periodo 2021–2026 cerró con <b>${fmt(t.proyectos)} proyectos de ley</b> presentados y <b>${fmt(t.leyes_aprobadas)} leyes publicadas</b> (tasa de aprobación de ${tasa}%). ${decl ? `El <b>${decl.pct}% de los proyectos son declarativos o simbólicos</b> (${fmt(decl.proyectos)}), y ${fmt(decl.leyes)} de ellos llegaron a ser ley: <b>1 de cada ${Math.round(t.leyes_aprobadas / decl.leyes)} leyes publicadas es simbólica</b>.` : ""} El nuevo Congreso bicameral 2026–2031 se instaló el 27-jul-2026 y aún no registra proyectos en la API oficial.`,
+    `<b>Costo.</b> En ${y.anio} el Congreso tiene un presupuesto modificado (PIM) de <b>S/ ${fmt(y.pim)} M</b> — el más alto de su historia — y al corte lleva ejecutados <b>S/ ${fmt(y.devengado)} M</b> (${y.avance}%), unos <b>S/ ${gastoDia.toFixed(1)} M por día</b>. Dividiendo todo el gasto del periodo (S/ ${fmt(Math.round(gastoPeriodo))} M devengados 2021–${y.anio}) entre las ${fmt(t.leyes_aprobadas)} leyes publicadas, <b>cada ley le costó al país S/ ${costoLeyM.toFixed(2)} M en promedio</b>.`,
+    P ? `<b>Personal.</b> La planilla activa suma <b>${fmt(P.totales.planilla_activa)} personas</b> con una masa salarial de <b>${solesM(P.totales.masa_mensual_activa)} al mes</b> (≈ ${solesM(P.totales.masa_anual_activa_est)} al año, el ${(P.totales.masa_anual_activa_est / (y.pim * 1e6) * 100).toFixed(0)}% del PIM). A eso se suman <b>${fmt(P.totales.pensionistas)} pensionistas</b> por ${solesM(P.totales.masa_mensual_pensiones)}/mes. El sueldo más alto es <b>${soles(P.top_sueldos[0].total)}</b> (${P.top_sueldos[0].cargo.toLowerCase()}) y la mediana <b>${soles(P.sueldos.mediana)}</b>. Los <b>${fmt(P.totales.registros)} nombres</b> están en el <a href="#personal" onclick="activar('personal')">buscador de personal</a>.` : "",
+    `<b>Proyección.</b> Al ritmo actual, el ${y.anio} cerraría en <b>S/ ${fmt(proyLineal)} M</b> (proyección lineal). Si en cambio repite el patrón de ejecución de los últimos tres años cerrados (avance promedio ${avHist.toFixed(1)}%), terminaría en <b>S/ ${fmt(proyHist)} M</b>. En ambos escenarios sería el año más caro de la historia del Congreso.`,
+  ].filter(Boolean);
+  document.getElementById("inf-resumen").innerHTML = parrafos.map(p => `<p>${p}</p>`).join("");
+
+  // Proyección de cierre 2026 — una sola medida (S/ M); estimados en tinte claro, techo en gris.
+  const azul = css("--accent-2");
+  mk("chProyeccion", {
+    type: "bar",
+    data: {
+      labels: [`Ejecutado al corte`, "Proyección lineal", `Patrón histórico (${avHist.toFixed(0)}%)`, "PIM (techo autorizado)"],
+      datasets: [{
+        data: [y.devengado, proyLineal, proyHist, y.pim],
+        backgroundColor: [azul, azul + "88", azul + "88", css("--border")],
+        borderColor: [azul, azul, azul, textC()],
+        borderWidth: [0, 1, 1, 1],
+        borderRadius: 4,
+      }],
+    },
+    options: opts({
+      indexAxis: "y",
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: c => ` S/ ${fmt(c.parsed.x)} M (${(c.parsed.x / y.pim * 100).toFixed(1)}% del PIM)` } },
+      },
+      scales: scales(true),
+    }),
+  });
+
+  // Impacto por materia: qué % de los proyectos de cada materia llegó a ser ley.
+  const conv = mats.filter(m => m.proyectos >= 100)
+    .map(m => ({ ...m, tasa: m.leyes / m.proyectos * 100 }))
+    .sort((a, b) => b.tasa - a.tasa);
+  mk("chImpacto", {
+    type: "bar",
+    data: {
+      labels: conv.map(m => m.tema),
+      datasets: [{
+        data: conv.map(m => +m.tasa.toFixed(1)),
+        backgroundColor: conv.map(m => /Declarativa/.test(m.tema) ? css("--amber") : css("--accent-2")),
+        borderRadius: 4,
+      }],
+    },
+    options: opts({
+      indexAxis: "y",
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: c2 => { const m = conv[c2.dataIndex]; return ` ${c2.parsed.x}% → ley (${fmt(m.leyes)} de ${fmt(m.proyectos)} proyectos)`; } } },
+      },
+      scales: scales(true),
+    }),
+  });
+  const notaImp = document.getElementById("inf-impacto-nota");
+  if (notaImp && decl) notaImp.innerHTML =
+    `Las <b>declarativas/simbólicas</b> (en ámbar) se convierten en ley al <b>${(decl.leyes / decl.proyectos * 100).toFixed(1)}%</b> — igual o mejor que el promedio (${tasa}%): homenajes y días conmemorativos avanzan tan rápido como las leyes con impacto real. Solo materias con ≥100 proyectos.`;
+
+  // Quién trabaja ahí — top sueldos con nombre y apellido
+  if (P) {
+    document.querySelector("#tInfTop tbody").innerHTML = P.top_sueldos.slice(0, 10).map((r, i) =>
+      `<tr><td>${i + 1}</td><td>${r.nombre}</td><td>${r.cargo}</td><td>${r.dependencia || "—"}</td><td style="text-align:right;white-space:nowrap"><b>${soles(r.total)}</b></td></tr>`).join("");
+  }
+
+  const nota = document.getElementById("inf-nota");
+  if (nota) nota.innerHTML =
+    `Metodología: gasto = devengado MEF (Consulta Amigable, pliego 028); el costo por ley divide el gasto total del periodo entre las leyes publicadas (el gasto de 2021 incluye el primer semestre del Congreso anterior). La proyección lineal extrapola el ritmo diario al corte; el patrón histórico aplica el avance promedio de los últimos 3 años cerrados sobre el PIM. La materia se infiere por palabras clave del título. Personal: planilla nominal del PTE, último mes publicado.`;
+}
+
 function renderAll() {
   if (!DATA || !CTX) return;
   renderResumen(); renderProyectos(); renderPresupuesto(); renderIncremento();
-  renderComisiones(); renderAnalisis(); renderPersonal(); renderEstado();
+  renderComisiones(); renderAnalisis(); renderPersonal(); renderEstado(); renderInforme();
 }
 
 // Revalidar con el servidor (ETag) para no servir datos viejos de caché:

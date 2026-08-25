@@ -155,6 +155,7 @@
 <nav class="menu">
   <div class="wrap">
     <button data-view="resumen" class="active">Resumen</button>
+    <button data-view="informe">Informe 📌</button>
     <button data-view="proyectos">Proyectos de ley</button>
     <button data-view="presupuesto">Presupuesto</button>
     <button data-view="comisiones">Comisiones</button>
@@ -193,6 +194,41 @@
     </div>
   </section>
 
+  <!-- INFORME DE CORTE -->
+  <section class="view" id="view-informe">
+    <h2 class="section">Informe 📌 — el Congreso en números</h2>
+    <div class="note" id="inf-subtitulo" style="margin:-6px 0 16px"></div>
+    <div class="grid kpis" id="kpis-informe"></div>
+
+    <div class="card full">
+      <div class="panel-head"><h3>Resumen ejecutivo</h3><span class="hint">producción · costo · personal · proyección</span></div>
+      <div id="inf-resumen" style="line-height:1.7;font-size:14.5px"></div>
+    </div>
+
+    <div class="card full" style="margin-top:16px">
+      <div class="panel-head"><h3>¿En cuánto cierra el año?</h3><span class="hint">gasto 2026, millones S/ · estimados en tinte claro</span></div>
+      <div class="chart-box"><canvas id="chProyeccion"></canvas></div>
+      <div class="note">La barra gris es el techo autorizado (PIM). Las dos proyecciones son estimados: la lineal extrapola el ritmo diario; la histórica aplica el avance promedio de los últimos 3 años cerrados.</div>
+    </div>
+
+    <div class="card full" style="margin-top:16px">
+      <div class="panel-head"><h3>Impacto: ¿qué materias sí se vuelven ley?</h3><span class="hint">% de proyectos que llegó a ley, por materia</span></div>
+      <div class="chart-box tall"><canvas id="chImpacto"></canvas></div>
+      <div class="note" id="inf-impacto-nota"></div>
+    </div>
+
+    <div class="card full" style="margin-top:16px">
+      <div class="panel-head"><h3>Quién trabaja ahí — los 10 sueldos más altos</h3><span class="hint">planilla nominal real (PTE) · nombre y apellido</span></div>
+      <div style="overflow:auto"><table id="tInfTop"><thead><tr><th>#</th><th>Nombre</th><th>Cargo</th><th>Dependencia</th><th style="text-align:right">S/ mes</th></tr></thead><tbody></tbody></table></div>
+      <div class="note">El directorio completo (4,051 nombres, con búsqueda por cargo y dependencia) está en la sección <a href="#personal" onclick="activar('personal')">Personal</a>.</div>
+    </div>
+
+    <div class="card full" style="margin-top:16px">
+      <div class="panel-head"><h3>Metodología y fuentes</h3></div>
+      <div class="note" id="inf-nota" style="margin:0"></div>
+    </div>
+  </section>
+
   <!-- PROYECTOS -->
   <section class="view" id="view-proyectos">
     <h2 class="section">Proyectos de ley</h2>
@@ -228,6 +264,10 @@
       <div class="chart-box tall"><canvas id="chPres"></canvas></div>
       <ul class="facts" id="pres-facts"></ul>
       <div class="note" id="pres-fuentes"></div>
+    </div>
+    <div class="card full" style="margin-top:16px">
+      <div class="panel-head"><h3>Avance de ejecución por año</h3><span class="hint">devengado ÷ PIM · el último año es parcial</span></div>
+      <div class="chart-box"><canvas id="chAvance"></canvas></div>
     </div>
     <div class="card full" style="margin-top:16px">
       <div class="panel-head"><h3 id="inc-titulo">¿Por qué sube tanto el presupuesto?</h3><span class="hint">desglose del incremento</span></div>
