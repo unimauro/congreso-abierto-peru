@@ -78,7 +78,9 @@ surjan, y commitear. Prioridad de arriba hacia abajo.
 
 - [ ] **Buscador de personal** (nombre/cargo/dependencia) en el front (shards por letra).
 - [ ] Snapshot de personal versionado + `actualizar_personal.sh` (refresco laptop).
-- [ ] Automatizar refresco de personal (launchd, IP residencial — PTE geobloquea CI).
+- [x] **Refresco local automático** (2026-09-01): `actualizar_todo.sh` (MEF +
+  sync context.json + PTE, commit/push solo si hay datos nuevos) programado
+  con launchd a diario 9:30 am — ver `infra/launchd/README.md`.
 - [ ] Página/pestaña **Metodología y fuentes** (anti-overclaiming, cobertura por dato).
 - [ ] OG dinámico con la cifra de masa salarial + tarjeta compartible de Personal.
 - [ ] API Open Data documentada (OpenAPI): `/congresistas`, `/proyectos`, `/personal`, `/contratos`.
