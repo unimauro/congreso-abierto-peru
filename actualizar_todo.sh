@@ -14,6 +14,12 @@ cd "$(dirname "$0")"
 # launchd arranca con un PATH mínimo: agregar pyenv, homebrew y git-credential-manager.
 export PATH="$HOME/.pyenv/shims:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin"
 
+# Si el clon tiene su venv (con playwright), usarlo: el pyenv que resuelve
+# launchd puede no ser el mismo que el del shell interactivo.
+if [ -x ".venv/bin/python3" ]; then
+  export PATH="$PWD/.venv/bin:$PATH"
+fi
+
 echo "=== Refresco total $(date '+%Y-%m-%d %H:%M') ==="
 
 echo "[*] git pull..."
