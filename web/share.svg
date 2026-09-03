@@ -60,5 +60,5 @@
   <!-- Footer -->
   <line x1="80" y1="1235" x2="1000" y2="1235" stroke="#23262e" stroke-width="2"/>
   <text x="80" y="1285" fill="#e7e9ee" font-size="30" font-weight="700" font-family="Helvetica,Arial">unimauro.github.io/congreso-abierto-peru</text>
-  <text x="80" y="1320" fill="#6b7280" font-size="22" font-family="Helvetica,Arial">Fuente: api.congreso.gob.pe · actualizado 2026-09-02 · datos públicos</text>
+  <text x="80" y="1320" fill="#6b7280" font-size="22" font-family="Helvetica,Arial">Fuente: api.congreso.gob.pe · actualizado 2026-09-03 · datos públicos</text>
 </svg>
