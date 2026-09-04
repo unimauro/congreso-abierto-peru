@@ -5,11 +5,25 @@
     "descripcion": "Presupuesto del pliego 028: Congreso de la República (PIA, PIM, Devengado y avance de ejecución).",
     "serie": [
       {
-        "anio": 2019,
-        "pia": 708,
-        "pim": 708,
+        "anio": 2016,
+        "pia": 625,
+        "pim": 651,
         "devengado": 523,
-        "avance": 73.9
+        "avance": 80.2
+      },
+      {
+        "anio": 2017,
+        "pia": 617,
+        "pim": 711,
+        "devengado": 589,
+        "avance": 82.8
+      },
+      {
+        "anio": 2018,
+        "pia": 708,
+        "pim": 710,
+        "devengado": 551,
+        "avance": 77.6
       },
       {
         "anio": 2020,
@@ -17,6 +31,41 @@
         "pim": 650,
         "devengado": 476,
         "avance": 73.1
+      },
+      {
+        "anio": 2022,
+        "pia": 879,
+        "pim": 882,
+        "devengado": 805,
+        "avance": 91.3
+      },
+      {
+        "anio": 2023,
+        "pia": 880,
+        "pim": 930,
+        "devengado": 862,
+        "avance": 92.7
+      },
+      {
+        "anio": 2024,
+        "pia": 1084,
+        "pim": 1135,
+        "devengado": 943,
+        "avance": 83.1
+      },
+      {
+        "anio": 2025,
+        "pia": 1412,
+        "pim": 1413,
+        "devengado": 1258,
+        "avance": 89.0
+      },
+      {
+        "anio": 2026,
+        "pia": 1769,
+        "pim": 1887,
+        "devengado": 1023,
+        "avance": 54.2
       }
     ],
     "destacados": [
