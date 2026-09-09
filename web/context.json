@@ -26,11 +26,60 @@
         "avance": 77.6
       },
       {
+        "anio": 2019,
+        "pia": 708,
+        "pim": 708,
+        "devengado": 523,
+        "avance": 73.9
+      },
+      {
+        "anio": 2020,
+        "pia": 649,
+        "pim": 650,
+        "devengado": 476,
+        "avance": 73.1
+      },
+      {
         "anio": 2021,
         "pia": 649,
         "pim": 650,
         "devengado": 589,
         "avance": 90.6
+      },
+      {
+        "anio": 2022,
+        "pia": 879,
+        "pim": 882,
+        "devengado": 805,
+        "avance": 91.3
+      },
+      {
+        "anio": 2023,
+        "pia": 880,
+        "pim": 930,
+        "devengado": 862,
+        "avance": 92.7
+      },
+      {
+        "anio": 2024,
+        "pia": 1084,
+        "pim": 1135,
+        "devengado": 943,
+        "avance": 83.1
+      },
+      {
+        "anio": 2025,
+        "pia": 1412,
+        "pim": 1413,
+        "devengado": 1258,
+        "avance": 89.0
+      },
+      {
+        "anio": 2026,
+        "pia": 1769,
+        "pim": 1887,
+        "devengado": 1026,
+        "avance": 54.4
       }
     ],
     "destacados": [
