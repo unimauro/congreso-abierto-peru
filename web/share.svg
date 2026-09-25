@@ -51,7 +51,7 @@
     <text x="80" y="1132" fill="#c7ccd6" font-size="22" font-family="Helvetica,Arial">DICTAMEN</text>
     <rect x="80" y="1142" width="600" height="26" rx="13" fill="#1d2026"/>
     <rect x="80" y="1142" width="189" height="26" rx="13" fill="#3b82f6"/>
-    <text x="700" y="1162" fill="#e7e9ee" font-size="22" font-weight="700" font-family="Helvetica,Arial">1,876</text>
+    <text x="700" y="1162" fill="#e7e9ee" font-size="22" font-weight="700" font-family="Helvetica,Arial">1,875</text>
     <text x="80" y="1196" fill="#c7ccd6" font-size="22" font-family="Helvetica,Arial">Orden del Día</text>
     <rect x="80" y="1206" width="600" height="26" rx="13" fill="#1d2026"/>
     <rect x="80" y="1206" width="181" height="26" rx="13" fill="#3b82f6"/>
@@ -60,5 +60,5 @@
   <!-- Footer -->
   <line x1="80" y1="1235" x2="1000" y2="1235" stroke="#23262e" stroke-width="2"/>
   <text x="80" y="1285" fill="#e7e9ee" font-size="30" font-weight="700" font-family="Helvetica,Arial">unimauro.github.io/congreso-abierto-peru</text>
-  <text x="80" y="1320" fill="#6b7280" font-size="22" font-family="Helvetica,Arial">Fuente: api.congreso.gob.pe · actualizado 2026-09-24 · datos públicos</text>
+  <text x="80" y="1320" fill="#6b7280" font-size="22" font-family="Helvetica,Arial">Fuente: api.congreso.gob.pe · actualizado 2026-09-25 · datos públicos</text>
 </svg>
