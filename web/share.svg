@@ -43,7 +43,7 @@
     <text x="80" y="1004" fill="#c7ccd6" font-size="22" font-family="Helvetica,Arial">EN COMISIÓN</text>
     <rect x="80" y="1014" width="600" height="26" rx="13" fill="#1d2026"/>
     <rect x="80" y="1014" width="560" height="26" rx="13" fill="#3b82f6"/>
-    <text x="700" y="1034" fill="#e7e9ee" font-size="22" font-weight="700" font-family="Helvetica,Arial">5,545</text>
+    <text x="700" y="1034" fill="#e7e9ee" font-size="22" font-weight="700" font-family="Helvetica,Arial">5,544</text>
     <text x="80" y="1068" fill="#c7ccd6" font-size="22" font-family="Helvetica,Arial">Publicada en el Diario Ofic…</text>
     <rect x="80" y="1078" width="600" height="26" rx="13" fill="#1d2026"/>
     <rect x="80" y="1078" width="403" height="26" rx="13" fill="#3b82f6"/>
@@ -60,5 +60,5 @@
   <!-- Footer -->
   <line x1="80" y1="1235" x2="1000" y2="1235" stroke="#23262e" stroke-width="2"/>
   <text x="80" y="1285" fill="#e7e9ee" font-size="30" font-weight="700" font-family="Helvetica,Arial">unimauro.github.io/congreso-abierto-peru</text>
-  <text x="80" y="1320" fill="#6b7280" font-size="22" font-family="Helvetica,Arial">Fuente: api.congreso.gob.pe · actualizado 2026-09-29 · datos públicos</text>
+  <text x="80" y="1320" fill="#6b7280" font-size="22" font-family="Helvetica,Arial">Fuente: api.congreso.gob.pe · actualizado 2026-09-30 · datos públicos</text>
 </svg>
