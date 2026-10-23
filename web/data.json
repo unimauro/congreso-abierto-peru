@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generado": "2026-10-22",
+  "generado": "2026-10-23",
   "periodos": [
    2021
   ],
@@ -507,6 +507,10 @@
   },
   {
    "nombre": "Comisión especial multipartidaria de seguridad ciudadana, encargada del seguimiento, fiscalización, evaluación y formulación de propuestas orientadas al fortalecimiento de las políticas públicas en materia de seguridad ciudadana",
+   "proyectos": 0
+  },
+  {
+   "nombre": "Comisión Especial de Seguimiento y Fiscalización Parlamentaria de las Inversiones y Recursos Públicos Destinados a la Prevención y Atención de los Efectos del Fenómeno de El Niño de la Cámara de Diputados",
    "proyectos": 0
   }
  ],
