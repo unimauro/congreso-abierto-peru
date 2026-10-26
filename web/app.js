@@ -3,7 +3,7 @@
 const fmt = (n) => new Intl.NumberFormat("es-PE").format(n);
 const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
 let CHARTS = {};
-let DATA = null, CTX = null, PERSONAL = null;
+let DATA = null, CTX = null, PERSONAL = null, BIC = null, PLENOS = null, MOV = null;
 const soles = (n) => "S/ " + new Intl.NumberFormat("es-PE", { maximumFractionDigits: 0 }).format(n);
 const solesM = (n) => "S/ " + (n / 1e6).toFixed(1) + " M";
 
@@ -272,7 +272,9 @@ function renderPersonal() {
     `La planilla activa suma <b>${fmt(t.planilla_activa)} personas</b> y cuesta <b>${soles(t.masa_mensual_activa)} al mes</b> (≈ <b>${soles(t.masa_anual_activa_est)}</b> al año con gratificaciones).`,
     bulk ? `El grueso está en el <b>Régimen 728</b>: ${fmt(bulk.n)} personas y ${solesM(bulk.masa)} mensuales.` : "",
     `El sueldo mediano es <b>${soles(s.mediana)}</b> y el más alto <b>${soles(s.max)}</b> (${P.top_sueldos[0]?.cargo || "—"}).`,
-    `Aparte, <b>${fmt(t.pensionistas)} pensionistas</b> (cesantes, viudez y ex-presidentes) cuestan <b>${soles(t.masa_mensual_pensiones)}</b> al mes.`,
+    t.pensionistas
+      ? `Aparte, <b>${fmt(t.pensionistas)} pensionistas</b> (cesantes, viudez y ex-presidentes) cuestan <b>${soles(t.masa_mensual_pensiones)}</b> al mes.`
+      : `La planilla de <b>pensionistas</b> de ${MESES[m.mes]} aún no está publicada en el PTE (el último mes con pensiones registró ~530 personas).`,
   ].filter(Boolean).map(x => `<li>${x}</li>`).join("");
 
   document.getElementById("per-fuentes").innerHTML =
@@ -444,6 +446,19 @@ function renderEstado() {
     cards.push(estadoCard("Personal (PTE)", "—", "snapshot no disponible", "Portal de Transparencia", null));
   }
 
+  if (BIC) {
+    const t = BIC.totales;
+    cards.push(estadoCard("Bicameral 2026–31", BIC.meta.generado,
+      `${fmt(t.proyectos)} proyectos · ${fmt(t.congresistas)} congresistas (Senado + Diputados)`,
+      "API oficial (codTipoParl S/D/C) + web de cada cámara", diasDesde(BIC.meta.generado)));
+  }
+  if (PLENOS) {
+    const pl = Object.values(PLENOS.camaras);
+    cards.push(estadoCard("Pleno: asistencia y votos", PLENOS.meta.generado,
+      `${fmt(pl.reduce((a, c) => a + c.pases_lista, 0))} pases de lista · ${fmt(pl.reduce((a, c) => a + c.votaciones.length, 0))} votaciones nominales`,
+      "PDF oficiales de cada sesión (OCR cuando son escaneos)", diasDesde(PLENOS.meta.generado)));
+  }
+
   // Presupuesto (context.json)
   const pr = CTX.presupuesto || {};
   const ultAnio = (pr.serie && pr.serie.length) ? pr.serie[pr.serie.length - 1].anio : "—";
@@ -494,7 +509,7 @@ function renderInforme() {
   const parrafos = [
     `<b>Producción legislativa.</b> El periodo 2021–2026 cerró con <b>${fmt(t.proyectos)} proyectos de ley</b> presentados y <b>${fmt(t.leyes_aprobadas)} leyes publicadas</b> (tasa de aprobación de ${tasa}%). ${decl ? `El <b>${decl.pct}% de los proyectos son declarativos o simbólicos</b> (${fmt(decl.proyectos)}), y ${fmt(decl.leyes)} de ellos llegaron a ser ley: <b>1 de cada ${Math.round(t.leyes_aprobadas / decl.leyes)} leyes publicadas es simbólica</b>.` : ""} El nuevo Congreso bicameral 2026–2031 se instaló el 27-jul-2026 y aún no registra proyectos en la API oficial.`,
     `<b>Costo.</b> En ${y.anio} el Congreso tiene un presupuesto modificado (PIM) de <b>S/ ${fmt(y.pim)} M</b> — el más alto de su historia — y al corte lleva ejecutados <b>S/ ${fmt(y.devengado)} M</b> (${y.avance}%), unos <b>S/ ${gastoDia.toFixed(1)} M por día</b>. Dividiendo todo el gasto del periodo (S/ ${fmt(Math.round(gastoPeriodo))} M devengados 2021–${y.anio}) entre las ${fmt(t.leyes_aprobadas)} leyes publicadas, <b>cada ley le costó al país S/ ${costoLeyM.toFixed(2)} M en promedio</b>.`,
-    P ? `<b>Personal.</b> La planilla activa suma <b>${fmt(P.totales.planilla_activa)} personas</b> con una masa salarial de <b>${solesM(P.totales.masa_mensual_activa)} al mes</b> (≈ ${solesM(P.totales.masa_anual_activa_est)} al año, el ${(P.totales.masa_anual_activa_est / (y.pim * 1e6) * 100).toFixed(0)}% del PIM). A eso se suman <b>${fmt(P.totales.pensionistas)} pensionistas</b> por ${solesM(P.totales.masa_mensual_pensiones)}/mes. El sueldo más alto es <b>${soles(P.top_sueldos[0].total)}</b> (${P.top_sueldos[0].cargo.toLowerCase()}) y la mediana <b>${soles(P.sueldos.mediana)}</b>. Los <b>${fmt(P.totales.registros)} nombres</b> están en el <a href="#personal" onclick="activar('personal')">buscador de personal</a>.` : "",
+    P ? `<b>Personal.</b> La planilla activa suma <b>${fmt(P.totales.planilla_activa)} personas</b> con una masa salarial de <b>${solesM(P.totales.masa_mensual_activa)} al mes</b> (≈ ${solesM(P.totales.masa_anual_activa_est)} al año, el ${(P.totales.masa_anual_activa_est / (y.pim * 1e6) * 100).toFixed(0)}% del PIM). ${P.totales.pensionistas ? `A eso se suman <b>${fmt(P.totales.pensionistas)} pensionistas</b> por ${solesM(P.totales.masa_mensual_pensiones)}/mes. ` : ""}El sueldo más alto es <b>${soles(P.top_sueldos[0].total)}</b> (${P.top_sueldos[0].cargo.toLowerCase()}) y la mediana <b>${soles(P.sueldos.mediana)}</b>. Los <b>${fmt(P.totales.registros)} nombres</b> están en el <a href="#personal" onclick="activar('personal')">buscador de personal</a>.` : "",
     `<b>Proyección.</b> Al ritmo actual, el ${y.anio} cerraría en <b>S/ ${fmt(proyLineal)} M</b> (proyección lineal). Si en cambio repite el patrón de ejecución de los últimos tres años cerrados (avance promedio ${avHist.toFixed(1)}%), terminaría en <b>S/ ${fmt(proyHist)} M</b>. En ambos escenarios sería el año más caro de la historia del Congreso.`,
   ].filter(Boolean);
   document.getElementById("inf-resumen").innerHTML = parrafos.map(p => `<p>${p}</p>`).join("");
@@ -561,10 +576,212 @@ function renderInforme() {
     `Metodología: gasto = devengado MEF (Consulta Amigable, pliego 028); el costo por ley divide el gasto total del periodo entre las leyes publicadas (el gasto de 2021 incluye el primer semestre del Congreso anterior). La proyección lineal extrapola el ritmo diario al corte; el patrón histórico aplica el avance promedio de los últimos 3 años cerrados sobre el PIM. La materia se infiere por palabras clave del título. Personal: planilla nominal del PTE, último mes publicado.`;
 }
 
+// ---- Congreso bicameral 2026–2031 (Senado + Diputados) ----
+const CAM_NOMBRE = { D: "Diputados", S: "Senado", C: "Bicameral" };
+let bicCam = "D";
+let bicState = { q: "", banc: "", orden: "principal", wired: false };
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const pctTxt = (v) => v == null ? "—" : `${v}%`;
+
+// Índices de asistencia/votos y de despacho por (cámara|nombre)
+function bicIndices() {
+  const pl = {}, dp = {};
+  (PLENOS?.miembros || []).forEach(m => { pl[m.camara + "|" + m.nombre] = m; });
+  (MOV?.despachos || []).forEach(m => { dp[m.camara + "|" + m.nombre] = m; });
+  return { pl, dp };
+}
+
+function renderBicameral() {
+  if (!BIC) return;
+  const cams = BIC.camaras, C = cams[bicCam], meta = BIC.meta;
+  const { pl, dp } = bicIndices();
+
+  // Banner en Resumen
+  const bn = document.getElementById("bic-banner");
+  if (bn) {
+    bn.style.display = "";
+    document.getElementById("bic-banner-txt").innerHTML =
+      `Desde el ${fechaLarga(meta.instalacion)}: <b>${fmt(cams.D.proyectos)}</b> proyectos en Diputados y <b>${fmt(cams.S.proyectos)}</b> en el Senado. El resto de este tablero analiza el periodo 2021–2026.`;
+  }
+
+  document.getElementById("bic-sub").innerHTML =
+    `Periodo ${meta.periodo} · instalado el ${fechaLarga(meta.instalacion)} · corte ${fechaLarga(meta.generado)}. Cada cámara numera sus propios proyectos; los de presupuesto y Cuenta General son bicamerales.`;
+
+  // Selector de cámara
+  const box = document.getElementById("bic-cams");
+  box.innerHTML = "";
+  ["D", "S"].forEach(k => {
+    const b = document.createElement("button");
+    b.className = "ychip" + (k === bicCam ? " active" : "");
+    b.textContent = `${cams[k].nombre} (${fmt(cams[k].proyectos)})`;
+    b.onclick = () => { bicCam = k; bicState.banc = ""; renderBicameral(); };
+    box.appendChild(b);
+  });
+
+  // Asistencia promedio de la cámara
+  const miembrosCam = BIC.congresistas.filter(m => m.camara === bicCam);
+  const asis = miembrosCam.map(m => pl[bicCam + "|" + m.nombre]).filter(x => x && x.pases);
+  const asisProm = asis.length ? (asis.reduce((a, x) => a + x.presente, 0) / asis.reduce((a, x) => a + x.presente + x.ausente, 0) * 100).toFixed(1) : null;
+  const sinProy = miembrosCam.filter(m => !m.principal).length;
+  document.getElementById("kpis-bic").innerHTML =
+    kpiCard("Proyectos presentados", fmt(C.proyectos), `${fmt(C.actualizaciones || 0)} son re-presentados del periodo anterior`, "var(--accent)") +
+    kpiCard("Agenda de desarrollo", `${C.pct_desarrollo}%`, `economía, servicios, seguridad · <b style="color:var(--purple)">${C.pct_simbolico}%</b> simbólicos`, "var(--green)") +
+    kpiCard("Asistencia al Pleno", asisProm ? `${asisProm}%` : "—", asis.length ? `${fmt(PLENOS.camaras[bicCam]?.pases_lista || 0)} pases de lista · sin contar licencias` : "actas aún no procesadas", "var(--accent-2)") +
+    kpiCard("Sin proyecto propio", fmt(sinProy), `de ${fmt(miembrosCam.length)} ${bicCam === "D" ? "diputados" : "senadores"} (como autor principal)`, "var(--amber)");
+
+  // Agenda de desarrollo
+  const ag = Object.entries(C.agenda).sort((a, b) => b[1] - a[1]);
+  const colAg = (k) => k.startsWith("Simbólico") ? css("--purple") : k.startsWith("Actualización") || k === "Otros" || k.startsWith("Reforma") ? css("--muted") : css("--green");
+  mk("chBicAgenda", {
+    type: "bar",
+    data: { labels: ag.map(e => e[0]), datasets: [{ data: ag.map(e => e[1]), backgroundColor: ag.map(e => colAg(e[0])), borderRadius: 4 }] },
+    options: opts({ indexAxis: "y", plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => ` ${fmt(c.parsed.x)} proyectos` } } }, scales: scales(true) }),
+  });
+  document.getElementById("bic-agenda-nota").innerHTML =
+    `En verde, los ejes que empujan crecimiento, competitividad o servicios básicos (inspirados en la Política Nacional de Competitividad y Productividad y las políticas de Estado del Acuerdo Nacional). En gris, lo que no se puede atribuir (re-presentaciones del periodo anterior, reforma política, otros); en morado, lo simbólico. <b>${fmt(C.riesgo_fiscal)}</b> proyectos tienen señales de <b>riesgo fiscal</b> (exoneraciones, bonos, nombramientos, pensiones). Clasificación por palabras clave del título: es indicativa, no evalúa la calidad del proyecto.`;
+
+  // Bancadas
+  const bc = (C.bancadas || []).filter(b => b.miembros);
+  mk("chBicBancada", {
+    type: "bar",
+    data: { labels: bc.map(b => b.bancada), datasets: [
+      { label: "Proyectos", data: bc.map(b => b.proyectos), backgroundColor: css("--accent"), borderRadius: 4 },
+      { label: "Por miembro", data: bc.map(b => b.por_miembro), backgroundColor: css("--accent-2"), borderRadius: 4 },
+    ] },
+    options: opts({ scales: scales() }),
+  });
+  const asisBanc = {};
+  miembrosCam.forEach(m => { const x = pl[bicCam + "|" + m.nombre]; if (x && x.pases) { const a = asisBanc[m.bancada] ||= [0, 0]; a[0] += x.presente; a[1] += x.presente + x.ausente; } });
+  document.querySelector("#tBicBancada tbody").innerHTML = (C.bancadas || []).map(b => {
+    const a = asisBanc[b.bancada];
+    return `<tr><td>${esc(b.bancada)}</td><td class="num-r">${b.miembros || "—"}</td><td class="num-r">${fmt(b.proyectos)}</td><td class="num-r">${b.por_miembro ?? "—"}</td><td class="num-r">${pctTxt(b.pct_desarrollo)}</td><td class="num-r">${a ? (a[0] / a[1] * 100).toFixed(1) + "%" : "—"}</td></tr>`;
+  }).join("");
+
+  // Por mes
+  const pm = Object.entries(C.por_mes);
+  mk("chBicMes", {
+    type: "bar",
+    data: { labels: pm.map(e => e[0]), datasets: [{ data: pm.map(e => e[1]), backgroundColor: css("--accent"), borderRadius: 4, maxBarThickness: 60 }] },
+    options: opts({ plugins: { legend: { display: false } }, scales: scales() }),
+  });
+  document.querySelector("#tBicCom tbody").innerHTML = (C.comisiones || []).map(c =>
+    `<tr><td>${esc(c.nombre)}</td><td class="num-r"><b>${fmt(c.proyectos)}</b></td></tr>`).join("");
+
+  // Filtro de bancadas
+  const sel = document.getElementById("bic-banc");
+  sel.innerHTML = `<option value="">Todas las bancadas</option>` +
+    [...new Set(miembrosCam.map(m => m.bancada))].sort().map(b => `<option${b === bicState.banc ? " selected" : ""}>${esc(b)}</option>`).join("");
+  if (!bicState.wired) {
+    bicState.wired = true;
+    document.getElementById("bic-q").addEventListener("input", e => { bicState.q = e.target.value; renderBicMiembros(); });
+    sel.addEventListener("change", e => { bicState.banc = e.target.value; renderBicMiembros(); });
+    document.getElementById("bic-orden").addEventListener("change", e => { bicState.orden = e.target.value; renderBicMiembros(); });
+  }
+  renderBicMiembros();
+
+  // Votaciones y agenda del Pleno
+  const P = PLENOS?.camaras?.[bicCam];
+  const vots = P?.votaciones || [];
+  document.getElementById("bic-vot-hint").textContent = P ? `${fmt(vots.length)} votaciones nominales validadas` : "actas aún no procesadas";
+  document.querySelector("#tBicVot tbody").innerHTML = vots.length ? vots.map(v => {
+    const res = v.si > (v.no || 0) ? "más SI que NO" : "más NO que SI";  // algunas votaciones exigen mayoría calificada
+    return `<tr><td style="white-space:nowrap">${v.fecha}</td><td>${esc(v.asunto || "(sin asunto)")}</td>
+      <td class="num-r"><div class="votos" style="justify-content:flex-end"><span class="si">${v.si ?? "—"} SI</span><span class="no">${v.no ?? "—"} NO</span><span class="ab">${v.abst ?? "—"} Abst</span></div><span class="tag">${res}</span></td></tr>`;
+  }).join("") : `<tr><td colspan="3" class="note">Sin votaciones procesadas para esta cámara.</td></tr>`;
+
+  const DOC = { agenda: "Agenda", asistencia: "Asistencia y votos", temas: "Temas tratados", acta: "Acta" };
+  document.querySelector("#tBicSes tbody").innerHTML = (P?.sesiones || []).map(s =>
+    `<tr><td style="white-space:nowrap">${s.fecha}</td><td>${Object.entries(s.documentos).map(([k, u]) =>
+      `<a class="tag" href="${esc(u)}" target="_blank" rel="noopener">${DOC[k] || k}</a>`).join(" ")}</td></tr>`).join("")
+    || `<tr><td colspan="2" class="note">Sin sesiones registradas.</td></tr>`;
+
+  // Recientes
+  document.querySelector("#tBicRec tbody").innerHTML = BIC.recientes.map(r => {
+    const cls = r.agenda.startsWith("Simbólico") ? "sim" : (r.agenda === "Otros" || r.agenda.startsWith("Actualización") || r.agenda.startsWith("Reforma")) ? "" : "dev";
+    return `<tr><td class="code">${esc(r.codigo)}<div class="note" style="margin:2px 0 0">${CAM_NOMBRE[r.camara] || r.camara}</div></td><td style="white-space:nowrap">${r.fecha}</td>
+      <td>${esc(r.titulo)}<div class="note" style="margin:2px 0 0">${esc(r.proponente || "")} · ${esc(r.estado)}</div></td>
+      <td><span class="tag ${cls}">${esc(r.agenda)}</span>${r.riesgo_fiscal ? ` <span class="tag fis">riesgo fiscal</span>` : ""}</td></tr>`;
+  }).join("");
+
+  const calidad = PLENOS ? Object.entries(PLENOS.calidad).map(([k, q]) =>
+    `${CAM_NOMBRE[k]}: ${fmt((q.asistencia_total || 0) - (q.asistencia_descartado || 0))}/${fmt(q.asistencia_total || 0)} pases de lista y ${fmt((q.votacion_total || 0) - (q.votacion_descartado || 0))}/${fmt(q.votacion_total || 0)} votaciones validadas`).join("; ") : "";
+  document.getElementById("bic-nota").innerHTML =
+    `<b>Proyectos</b>: API oficial del Congreso (<span class="code">spley-portal-service</span>) separando cámaras con <span class="code">codTipoParl</span>; bancadas con el filtro oficial <span class="code">grupoParlamentarioId</span> (no se infieren) y autoría principal con <span class="code">congresistaId + tipoFirmanteId=1</span>. ` +
+    `<b>Padrón</b> (bancada, partido, distrito): web oficial de cada cámara. ` +
+    `<b>Pleno</b>: reportes PDF de asistencia y votación de cada sesión; los escaneados se leen con OCR y cada bloque solo se usa si coincide con el total oficial impreso al pie${calidad ? ` (${calidad})` : ""}. ` +
+    `<b>Despacho</b>: personal cuya dependencia en la planilla del PTE es el nombre del congresista${MOV ? ` (${MESES[+MOV.meta.meses.at(-1).slice(5)]} ${MOV.meta.meses.at(-1).slice(0, 4)})` : ""}. ` +
+    `<b>Agenda de desarrollo</b>: clasificación por palabras clave del título, indicativa.`;
+}
+
+function renderBicMiembros() {
+  const { pl, dp } = bicIndices();
+  const q = bicState.q.trim().toLowerCase();
+  let L = BIC.congresistas.filter(m => m.camara === bicCam &&
+    (!bicState.banc || m.bancada === bicState.banc) &&
+    (!q || (m.nombre + " " + m.distrito).toLowerCase().includes(q)));
+  const asis = (m) => pl[bicCam + "|" + m.nombre]?.pct_asistencia ?? 999;
+  const masa = (m) => dp[bicCam + "|" + m.nombre]?.masa ?? 0;
+  const ord = {
+    principal: (a, b) => b.principal - a.principal || a.nombre.localeCompare(b.nombre, "es"),
+    asistencia: (a, b) => asis(a) - asis(b),
+    masa: (a, b) => masa(b) - masa(a),
+    nombre: (a, b) => a.nombre.localeCompare(b.nombre, "es"),
+  }[bicState.orden];
+  L = L.slice().sort(ord);
+  document.getElementById("bic-count").textContent = `${fmt(L.length)} ${bicCam === "D" ? "diputados" : "senadores"}`;
+  document.querySelector("#tBicMiembros tbody").innerHTML = L.map(m => {
+    const p = pl[bicCam + "|" + m.nombre], d = dp[bicCam + "|" + m.nombre];
+    const a = p && p.pases ? `${p.pct_asistencia}%<div class="note" style="margin:0">${p.presente}/${p.pases}${p.licencia ? ` · ${p.licencia} lic.` : ""}</div>` : "—";
+    const v = p && p.votaciones ? `<span style="color:var(--green)">${p.si}</span>/<span style="color:var(--accent)">${p.no}</span>/<span style="color:var(--amber)">${p.abst}</span><div class="note" style="margin:0">${p.no_voto} sin votar</div>` : "—";
+    const eq = d ? `${d.personal} · ${soles(d.masa)}<details class="equipo"><summary>ver equipo</summary><ul>${d.equipo.map(e =>
+      `<li>${esc(e.nombre)} — ${esc(e.cargo)} · ${soles(e.total)}${e.antes ? ` <i>(antes: ${esc(e.antes)})</i>` : ""}</li>`).join("")}</ul></details>` : "—";
+    const nom = m.link ? `<a href="${esc(m.link)}" target="_blank" rel="noopener">${esc(m.nombre)}</a>` : esc(m.nombre);
+    return `<tr><td>${nom}</td><td><span class="tag">${esc(m.sigla)}</span></td><td>${esc(m.distrito)}</td>
+      <td class="num-r"><b>${fmt(m.principal)}</b><div class="note" style="margin:0">${fmt(m.firmas)} firmas</div></td>
+      <td class="num-r">${fmt(m.desarrollo)}</td><td class="num-r">${fmt(m.simbolicos)}</td>
+      <td class="num-r">${a}</td><td class="num-r">${v}</td><td class="num-r">${eq}</td></tr>`;
+  }).join("");
+}
+
+// ---- Movimientos de personal (altas/bajas entre meses publicados) ----
+function renderMovimientos() {
+  const card = document.getElementById("mov-card");
+  if (!MOV || !card) return;
+  card.style.display = "";
+  const mesTxt = (ym) => `${MESES_ABBR[+ym.slice(5)]}-${ym.slice(0, 4)}`;
+  const s = MOV.serie;
+  mk("chMovSerie", {
+    type: "bar",
+    data: { labels: s.map(x => mesTxt(x.mes)), datasets: [{ label: "Planilla activa (personas)", data: s.map(x => x.activos), backgroundColor: css("--accent-2"), borderRadius: 4, maxBarThickness: 60 }] },
+    options: opts({ plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => ` ${fmt(c.parsed.y)} personas · ${solesM(s[c.dataIndex].masa)}/mes` } } }, scales: scales() }),
+  });
+  document.querySelector("#tMov tbody").innerHTML = MOV.comparaciones.map(c =>
+    `<tr><td style="white-space:nowrap">${mesTxt(c.desde)} → ${mesTxt(c.hasta)}</td><td class="num-r" style="color:var(--green)"><b>+${fmt(c.altas)}</b></td><td class="num-r" style="color:var(--accent)"><b>−${fmt(c.bajas)}</b></td><td class="num-r">${fmt(c.cambio_dependencia)}</td><td class="num-r">${solesM(c.masa_hasta)}</td></tr>`).join("");
+
+  // El cambio de Congreso (julio → agosto 2026) es el mayor recambio
+  const big = MOV.comparaciones.slice().sort((a, b) => (b.altas + b.bajas) - (a.altas + a.bajas))[0];
+  const ult = MOV.comparaciones.at(-1);
+  const D = MOV.despachos;
+  const enDesp = D.reduce((a, x) => a + x.personal, 0), cont = D.reduce((a, x) => a + x.continuan, 0);
+  const masaDesp = D.reduce((a, x) => a + x.masa, 0);
+  document.getElementById("mov-facts").innerHTML = [
+    big ? `El mayor recambio fue <b>${mesTxt(big.desde)} → ${mesTxt(big.hasta)}</b> (instalación del Congreso bicameral): <b>${fmt(big.altas)} altas</b> y <b>${fmt(big.bajas)} bajas</b>; ${fmt(big.cambio_dependencia)} personas se quedaron pero cambiaron de oficina.` : "",
+    D.length ? `<b>${fmt(enDesp)} personas</b> trabajan en los despachos de <b>${fmt(D.length)} congresistas</b> (${solesM(masaDesp)}/mes, ~${fmt(Math.round(enDesp / D.length))} por despacho). <b>${fmt(cont)}</b> (${(cont / enDesp * 100).toFixed(0)}%) ya estaban en la planilla en ${mesTxt(MOV.meta.referencia_despachos)}, es decir, vienen del Congreso anterior. Los equipos por congresista están en la vista <a href="#bicameral" onclick="activar('bicameral')">Bicameral</a>.` : "",
+    ult ? `Último mes publicado (${mesTxt(ult.hasta)}): <b>+${fmt(ult.altas)}</b> altas y <b>−${fmt(ult.bajas)}</b> bajas frente a ${mesTxt(ult.desde)}.` : "",
+  ].filter(Boolean).map(x => `<li>${x}</li>`).join("");
+  document.getElementById("mov-altas-hint").textContent = big ? `${mesTxt(big.desde)} → ${mesTxt(big.hasta)}` : "";
+  document.querySelector("#tMovAltas tbody").innerHTML = (big?.top_altas || []).map(r =>
+    `<tr><td>${esc(r.nombre)}</td><td>${esc(r.cargo)}</td><td>${esc(r.dependencia)}</td><td class="num-r"><b>${soles(r.total)}</b></td></tr>`).join("");
+  document.querySelector("#tMovBanc tbody").innerHTML = MOV.bancadas.map(b =>
+    `<tr><td>${esc(b.grupo)}</td><td class="num-r">${fmt(b.personal)}</td><td class="num-r">${soles(b.masa)}</td></tr>`).join("");
+  document.getElementById("mov-nota").textContent = `${MOV.meta.nota} Meses disponibles: ${MOV.meta.meses.map(mesTxt).join(", ")}.`;
+}
+
 function renderAll() {
   if (!DATA || !CTX) return;
   renderResumen(); renderProyectos(); renderPresupuesto(); renderIncremento();
-  renderComisiones(); renderAnalisis(); renderPersonal(); renderEstado(); renderInforme();
+  renderComisiones(); renderAnalisis(); renderPersonal(); renderMovimientos(); renderEstado(); renderInforme();
+  renderBicameral();
 }
 
 // Revalidar con el servidor (ETag) para no servir datos viejos de caché:
@@ -574,9 +791,12 @@ Promise.all([
   fetch("data.json", nocache).then(r => r.json()),
   fetch("context.json", nocache).then(r => r.json()),
   fetch("personal.json", nocache).then(r => r.ok ? r.json() : null).catch(() => null),
+  fetch("bicameral.json", nocache).then(r => r.ok ? r.json() : null).catch(() => null),
+  fetch("plenos.json", nocache).then(r => r.ok ? r.json() : null).catch(() => null),
+  fetch("movimientos.json", nocache).then(r => r.ok ? r.json() : null).catch(() => null),
 ])
-  .then(([d, c, p]) => {
-    DATA = d; CTX = c; PERSONAL = p;
+  .then(([d, c, p, b, pl, mv]) => {
+    DATA = d; CTX = c; PERSONAL = p; BIC = b; PLENOS = pl; MOV = mv;
     document.getElementById("gen").textContent = "actualizado " + d.meta.generado;
     const ud = document.getElementById("updated-date");
     if (ud) ud.textContent = d.meta.generado;

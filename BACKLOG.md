@@ -41,24 +41,42 @@ surjan, y commitear. Prioridad de arriba hacia abajo.
   "Otros", paleta categórica validada (CVD/contraste) por tema claro/oscuro,
   tooltips con formato S/ M.
 
+- [x] **Congreso bicameral 2026–2031** (2026-10-26): vista "Bicameral 🏛️" con
+  Senado y Diputados por separado. Hallazgo técnico: la API exige `codTipoParl`
+  (S/D/C) para el nuevo periodo — sin él solo devolvía 6 proyectos "C" y el sitio
+  seguía congelado en jul-2026. `web/build_bicameral.py` (CI diario).
+- [x] **Ranking por bancada** — desbloqueado: el filtro real es
+  `grupoParlamentarioId` (el `grupParId` que usábamos se ignora). Proyectos y
+  proyectos por miembro por bancada, dato oficial.
+- [x] **Padrón de congresistas** (130 diputados + 60 senadores) con bancada,
+  partido, distrito y condición — WordPress de cada cámara (`wp-json/wp/v2/diputado|senador`).
+- [x] **Asistencia y votaciones nominales del Pleno** — `pipeline/scrapers/plenos.py`
+  lee los PDF de cada sesión (OCR con tesseract si son escaneos), valida cada
+  bloque contra el total oficial al pie y cruza con el padrón. Corre en la laptop.
+- [x] **Agenda de desarrollo**: eje por proyecto (inversión/empleo, infraestructura,
+  capital humano, seguridad, inclusión, finanzas públicas, ambiente, gestión del
+  Estado vs simbólico/re-presentado) + bandera de riesgo fiscal.
+- [x] **Asesores por congresista** — 188/190 despachos identificados en la planilla
+  (dependencia = nombre del congresista) con equipo, costo y de dónde venía cada uno.
+- [x] **Movimientos de personal** — `web/build_movimientos.py`: altas/bajas/cambios
+  entre meses usando los snapshots versionados de `personal.json`.
+
 ## 🔜 Próximo (alto valor de fiscalización)
 
 - [ ] **Contratos / proveedores del Congreso** (OCDS/SEACE) — quién le vende al
   Congreso, montos, concentración por proveedor. Fuente: bulk mensual OCDS
   (`contratacionesabiertas.oece.gob.pe/api/v1/file/seace_v3/csv/AAAA/MM/`).
   Cruzar comprador = Congreso. Sección "Contratos" en el sitio.
-- [ ] **Asesores por congresista** — la planilla PTE ya trae la dependencia; en
-  varios casos es el despacho/comisión. Cruzar con el **padrón de 130 congresistas
-  + bancada** para atribuir asesores a cada despacho y detectar contrataciones
-  polémicas (familiares, sancionados, sin perfil).
-- [ ] **Ranking por bancada / partido** — ⚠️ la API oficial NO expone el grupo
-  parlamentario por proyecto (el filtro `grupParId` se ignora). Requiere el
-  **padrón de congresistas con su bancada** (directorio oficial) cruzado con la
-  autoría. Es el bloqueante para todo ranking partidario.
-- [ ] **Padrón de congresistas** (130) con bancada, foto, votos y producción —
-  base para casi todos los cruces. Fuente: directorio oficial + SPLEY autores.
-- [ ] **Análisis del nuevo periodo 2026–2031** en cuanto la API cargue sus
-  proyectos (hoy 0). El scraper ya soporta `perParId=2026`.
+- [ ] **Contrataciones polémicas en despachos** — con los equipos ya atribuidos,
+  cruzar apellidos asesor↔congresista (posible nepotismo), sanciones RNSSC y
+  rotación entre despachos.
+- [ ] **Ranking por bancada 2021–2026** con `grupoParlamentarioId` (ahora que
+  sabemos el nombre real del filtro) — hoy solo está para el periodo nuevo.
+- [ ] **Viajes al extranjero y gastos operativos por congresista** — cada cámara
+  tiene `wp-json/wp/v2/viaje` (hoy solo un índice vacío) y `actividad_diaria`
+  (vacío). Revisar cuando publiquen.
+- [ ] **Votaciones: afinidad entre bancadas** y votaciones divididas, ya con datos.
+- [ ] **Senado**: casi todas sus actas son escaneos; vigilar calidad del OCR.
 - [ ] **Enriquecer personal con cheka** (`apicheck.tunky.net`): expediente,
   trayectoria interinstitucional, sanciones RNSSC y DJ de intereses por persona.
 

@@ -17,7 +17,8 @@ cuando hay datos nuevos.
 # solo la 1ª vez: clon + venv con playwright
 git clone https://github.com/unimauro/congreso-abierto-peru.git ~/.auto/congreso-abierto-peru
 python3 -m venv ~/.auto/congreso-abierto-peru/.venv
-~/.auto/congreso-abierto-peru/.venv/bin/pip install playwright
+~/.auto/congreso-abierto-peru/.venv/bin/pip install playwright requests
+brew install poppler tesseract tesseract-lang   # actas del Pleno (pdftotext + OCR)
 
 cp infra/launchd/pe.congresoabierto.refresco.plist ~/Library/LaunchAgents/
 launchctl bootstrap "gui/$(id -u)" ~/Library/LaunchAgents/pe.congresoabierto.refresco.plist

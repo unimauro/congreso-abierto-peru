@@ -37,6 +37,10 @@ jobs:
         run: python web/build_data.py --periodos 2021 --fecha "$(date -u +%Y-%m-%d)"
         continue-on-error: true   # si la API falla, se publica el data.json versionado
 
+      - name: Regenerar bicameral.json (Senado + Diputados 2026–2031)
+        run: python web/build_bicameral.py --fecha "$(date -u +%Y-%m-%d)"
+        continue-on-error: true   # si la API falla, se publica el bicameral.json versionado
+
       - name: Regenerar imágenes (OG + tarjeta) con datos frescos
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq librsvg2-bin
@@ -48,7 +52,7 @@ jobs:
         run: |
           git config user.name  "Congreso Abierto Perú (bot)"
           git config user.email "unimauro@gmail.com"
-          git add web/data.json web/og.png web/og.svg web/share.png web/share.svg
+          git add web/data.json web/bicameral.json web/og.png web/og.svg web/share.png web/share.svg
           if git diff --cached --quiet; then
             echo "Sin cambios en los datos — nada que commitear."
           else

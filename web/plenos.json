@@ -1,0 +1,4788 @@
+{
+ "camaras": {
+  "D": {
+   "pases_lista": 31,
+   "votaciones": [
+    {
+     "fecha": "2026-10-22",
+     "hora": "11:49AM",
+     "asunto": "TEXTO SUSTITUTORIO DE LAS PROPOSICIONES LEGISLATIVAS 12, 24 Y 121, QUE PROPONEN DEROGAR LA LEY 32645, LEY QUE CREA EL COLEGIO PROFESIONAL DE ARTISTAS DEL PERÚ.",
+     "si": 107,
+     "no": 0,
+     "abst": 0,
+     "por_bancada": {
+      "AN": {
+       "si": 8,
+       "ausente": 2
+      },
+      "FP": {
+       "ausente": 11,
+       "si": 30
+      },
+      "JP": {
+       "si": 29,
+       "ausente": 3
+      },
+      "PBG": {
+       "si": 13,
+       "ausente": 4
+      },
+      "PCO": {
+       "si": 13,
+       "ausente": 1
+      },
+      "RP": {
+       "si": 14,
+       "ausente": 1
+      }
+     }
+    },
+    {
+     "fecha": "2026-10-22",
+     "hora": "01:23PM",
+     "asunto": "TEXTO SUSTITUTORIO RECAÍDO EN LA PROPOSICIÓN LEGISLATIVA 178, QUE PROPONE LA LEY QUE INSTITUYE EL DÍA NACIONAL PARA LA SENSIBILIZACIÓN SOBRE LOS NIÑOS Y ADOLESCENTES EN SITUACIÓN DE ORFANDAD O DESPROTECCIÓN FAMILIAR EL SEGUNDO LUNES DE NOVIEMBRE DE CADA AÑO Y ESTABLECE ACCIONES DE SENSIBILIZACIÓN SOCIAL.",
+     "si": 107,
+     "no": 0,
+     "abst": 0,
+     "por_bancada": {
+      "AN": {
+       "si": 9,
+       "ausente": 1
+      },
+      "FP": {
+       "ausente": 8,
+       "si": 33
+      },
+      "JP": {
+       "si": 28,
+       "ausente": 4
+      },
+      "PBG": {
+       "si": 13,
+       "ausente": 4
+      },
+      "PCO": {
+       "si": 12,
+       "ausente": 2
+      },
+      "RP": {
+       "si": 12,
+       "ausente": 3
+      }
+     }
+    },
+    {
+     "fecha": "2026-10-06",
+     "hora": "11:13PM",
+     "asunto": "TEXTO SUSTITUTORIO DE LA PROPOSICIÓN LEGISLATIVA 98, CONTENIDO EN EL DICTAMEN EN MAYORIA DE LA COMISIÓN DE CONSTITUCIÓN, REGLAMENTO Y RELACIONES EXTERIORES, QUE PROPONE DELEGAR EN EL PODER EJECUTIVO LA FACULTAD DE LEGISLAR EN MATERIA DE SEGURIDAD CIUDADANA Y DEL FENÓMENO EL NIÑO.",
+     "si": 66,
+     "no": 33,
+     "abst": 24,
+     "por_bancada": {
+      "AN": {
+       "ausente": 1,
+       "no": 2,
+       "si": 5
+      },
+      "FP": {
+       "no": 3,
+       "si": 29
+      },
+      "JP": {
+       "no": 24,
+       "si": 1,
+       "ausente": 2
+      },
+      "PBG": {
+       "no": 4,
+       "si": 7,
+       "ausente": 1
+      },
+      "PCO": {
+       "si": 10,
+       "ausente": 2
+      },
+      "RP": {
+       "si": 14
+      }
+     }
+    },
+    {
+     "fecha": "2026-10-06",
+     "hora": "10:41PM",
+     "asunto": "RECONSIDERACIÓN RESPECTO A LA VOTACIÓN DEL TEXTO SUSTITUTORIO DE LA PROPOSICIÓN LEGISLATIVA 98, CONTENIDO EN EL DICTAMEN EN MAYORIA DE LA COMISIÓN DE CONSTITUCIÓN, REGLAMENTO Y RELACIONES EXTERIORES, QUE PROPONE DELEGAR EN EL PODER EJECUTIVO LA FACULTAD DE LEGISLAR EN MATERIA DE SEGURIDAD CIUDADANA Y DEL FENÓMENO EL NIÑO.",
+     "si": 75,
+     "no": 33,
+     "abst": 16,
+     "por_bancada": {
+      "AN": {
+       "ausente": 1,
+       "no": 2,
+       "si": 5
+      },
+      "FP": {
+       "si": 35
+      },
+      "JP": {
+       "no": 28,
+       "si": 1,
+       "ausente": 1
+      },
+      "PBG": {
+       "no": 3,
+       "si": 8,
+       "ausente": 1
+      },
+      "PCO": {
+       "si": 11,
+       "ausente": 2
+      },
+      "RP": {
+       "si": 15
+      }
+     }
+    },
+    {
+     "fecha": "2026-10-06",
+     "hora": "10:32PM",
+     "asunto": "SEGUNDO DICTAMEN EN MINORÍA, QUE PROPONE LA NO APROBACIÓN Y ENVÍO AL ARCHIVO DE LA PROPOSICIÓN LEGISLATIVA 98, PRESENTADO POR LAS DIPUTADAS MÁRQUEZ HUANCA Y CHIPANA CONDORI.",
+     "si": 49,
+     "no": 75,
+     "abst": 0,
+     "por_bancada": {
+      "AN": {
+       "ausente": 1,
+       "si": 2,
+       "no": 7
+      },
+      "FP": {
+       "no": 41
+      },
+      "JP": {
+       "si": 30,
+       "no": 1,
+       "ausente": 1
+      },
+      "PBG": {
+       "si": 16,
+       "ausente": 1
+      },
+      "PCO": {
+       "no": 11,
+       "si": 1,
+       "ausente": 2
+      },
+      "RP": {
+       "no": 15
+      }
+     }
+    },
+    {
+     "fecha": "2026-10-06",
+     "hora": "10:32AM",
+     "asunto": "NÓMINA DE INTEGRANTES DE LA COMISIÓN ESPECIAL DE SEGUIMIENTO Y FISCALIZACIÓN PARLAMENTARIA DE LAS INVERSIONES Y RECURSOS PÚBLICOS DESTINADOS A LA PREVENCIÓN Y ATENCIÓN DE LOS EFECTOS DEL FENÓMENO EL NIÑO.",
+     "si": 125,
+     "no": 0,
+     "abst": 0,
+     "por_bancada": {
+      "AN": {
+       "ausente": 1,
+       "si": 9
+      },
+      "FP": {
+       "si": 41
+      },
+      "JP": {
+       "si": 31,
+       "ausente": 1
+      },
+      "PBG": {
+       "si": 17
+      },
+      "PCO": {
+       "si": 13,
+       "ausente": 1
+      },
+      "RP": {
+       "si": 14,
+       "ausente": 1
+      }
+     }
+    },
+    {
+     "fecha": "2026-10-06",
+     "hora": "10:23PM",
+     "asunto": "DICTAMEN EN MINORÍA PRESENTADO POR LOS DIPUTADOS ABENSUR PINASCO Y ALEGRÍA GARCÍA, RECAÍDO EN LA PROPOSICIÓN LEGISLATIVA 98, QUE DELEGA EN EL PODER EJECUTIVO LA FACULTAD DELEGISLAR EN MATERIA DE SEGURIDAD CIUDADANA, FORTALECIMIENTO DE MICRO Y PEQUEÑAS EMPRESAS, PROMOCIÓN DEL EMPLEO, DESARROLLO PRODUCTIVO, RÉGIMEN TRIBUTARIO, SIMPLIFICACIÓN ADMINISTRATIVA Y OTRAS MATERIA.",
+     "si": 0,
+     "no": 64,
+     "abst": 3,
+     "por_bancada": {
+      "AN": {
+       "ausente": 1,
+       "no": 9
+      },
+      "FP": {
+       "ausente": 38,
+       "sin_resp": 1
+      },
+      "JP": {
+       "no": 30,
+       "ausente": 2
+      },
+      "PBG": {
+       "no": 15,
+       "ausente": 1
+      },
+      "PCO": {
+       "no": 10,
+       "ausente": 4
+      },
+      "RP": {
+       "ausente": 14,
+       "sin_resp": 1
+      }
+     }
+    },
+    {
+     "fecha": "2026-10-06",
+     "hora": "09:42PM",
+     "asunto": "CUESTIÓN PREVIA PARA QUE SE SOMETA A VOTACIÓN EL TEXTO DEL PRIMER DICTAMEN EN MINORÍA PRESENTADO POR LOS DIPUTADOS ABENSUR PINASCO Y ALEGRÍA GARCÍA",
+     "si": 65,
+     "no": 57,
+     "abst": 1,
+     "por_bancada": {
+      "AN": {
+       "ausente": 1,
+       "si": 9
+      },
+      "FP": {
+       "no": 40
+      },
+      "JP": {
+       "si": 30,
+       "no": 1,
+       "ausente": 1
+      },
+      "PBG": {
+       "si": 15,
+       "ausente": 2
+      },
+      "PCO": {
+       "si": 11,
+       "no": 1,
+       "ausente": 2
+      },
+      "RP": {
+       "no": 15
+      }
+     }
+    },
+    {
+     "fecha": "2026-10-06",
+     "hora": "06:51PM",
+     "asunto": "TEXTO SUSTITUTORIO DE LA PROPOSICIÓN LEGISLATIVA 98, CONTENIDO EN EL DICTAMEN EN MAYORIA DE LA COMISIÓN DE CONSTITUCIÓN, REGLAMENTO Y RELACIONES EXTERIORES, QUE PROPONE DELEGAR EN EL PODER EJECUTIVO LA FACULTAD DE LEGISLAR EN MATERIA DE SEGURIDAD CIUDADANA Y DEL FENÓMENO EL NIÑO.",
+     "si": 49,
+     "no": 73,
+     "abst": 2,
+     "por_bancada": {
+      "AN": {
+       "ausente": 1,
+       "no": 2,
+       "si": 7
+      },
+      "FP": {
+       "no": 40
+      },
+      "JP": {
+       "no": 30,
+       "ausente": 2
+      },
+      "PBG": {
+       "si": 15,
+       "ausente": 1
+      },
+      "PCO": {
+       "si": 13,
+       "no": 1
+      },
+      "RP": {
+       "si": 14,
+       "ausente": 1
+      }
+     }
+    },
+    {
+     "fecha": "2026-09-10",
+     "hora": "12:24PM",
+     "asunto": "TEXTO SUSTITUTORIO DE LAS MOCIONES DE ORDEN DEL DÍA 15, 46, 85 Y 90, QUE PROPONEN CONFORMAR LA COMISIÓN ESPECIAL DE SEGUIMIENTO YFISCALIZACIÓN PARLAMENTARIA DE LAS INVERSIONES Y RECURSOS PÚBLICOS DESTINADOS A LA PREVENCIÓN Y ATENCIÓN DE LOS EFECTOS DEL FENÓMENO EL NIÑO",
+     "si": 121,
+     "no": 0,
+     "abst": 0,
+     "por_bancada": {
+      "AN": {
+       "si": 9,
+       "ausente": 1
+      },
+      "FP": {
+       "si": 38,
+       "ausente": 3
+      },
+      "JP": {
+       "si": 32
+      },
+      "PBG": {
+       "si": 17
+      },
+      "PCO": {
+       "si": 11,
+       "ausente": 1
+      },
+      "RP": {
+       "ausente": 2,
+       "si": 13
+      }
+     }
+    },
+    {
+     "fecha": "2026-09-10",
+     "hora": "11:10AM",
+     "asunto": "ADMISIÓN A DEBATE DE LA MOCIONES DE ORDEN DEL DÍA 15, 46, 85 Y 90, QUE PROPONEN CONFORMAR LA COMISIÓN ESPECIAL MULTIPARTIDARIA DE SEGUIMIENTO Y FISCALIZACIÓN DE LAS ACCIONES DE PREVENCIÓN DE DESASTRES EN EL MARCO DEL FENÓMENO EL NIÑO 2026-2027",
+     "si": 115,
+     "no": 0,
+     "abst": 0,
+     "por_bancada": {
+      "AN": {
+       "si": 9,
+       "ausente": 1
+      },
+      "FP": {
+       "si": 37,
+       "ausente": 4
+      },
+      "JP": {
+       "si": 31,
+       "ausente": 1
+      },
+      "PBG": {
+       "si": 13,
+       "ausente": 1,
+       "sin_resp": 1
+      },
+      "PCO": {
+       "si": 11,
+       "ausente": 1
+      },
+      "RP": {
+       "si": 11,
+       "ausente": 4
+      }
+     }
+    },
+    {
+     "fecha": "2026-09-10",
+     "hora": "10:42AM",
+     "asunto": "MOCIÓN DE ORDEN DEL DÍA 186, INVITAR AL PRESIDENTE DEL CONSEJO DE MINISTROS, AL MINISTRO DEL INTERIOR Y AL MINISTRO DE DEFENSA PARA QUE CONCURRAN, CON CARÁCTER URGENTE, ANTE EL PLENO DE LA CÁMARA DE DIPUTADOS PARA QUE INFORMEN Y de CUENTAS SOBRE EL GRAVE DETERIORO DE LA SEGURIDAD CIUDADANA Y LA EXPANSIÓN DE LA CRIMINALIDAD ORGANIZADA EN",
+     "si": 71,
+     "no": 50,
+     "abst": 0,
+     "por_bancada": {
+      "AN": {
+       "si": 9,
+       "ausente": 1
+      },
+      "FP": {
+       "no": 37,
+       "ausente": 3
+      },
+      "JP": {
+       "si": 31
+      },
+      "PBG": {
+       "si": 17
+      },
+      "PCO": {
+       "si": 12,
+       "no": 1,
+       "ausente": 1
+      },
+      "RP": {
+       "ausente": 3,
+       "no": 12
+      }
+     }
+    },
+    {
+     "fecha": "2026-09-10",
+     "hora": "10:33AM",
+     "asunto": "ADMISIÓN A DEBATE DE LA MOCIÓN DE ORDEN DEL DÍA 186, QUE PROPONE INVITAR AL PRESIDENTE DEL CONSEJO DE MINISTROS, AL MINISTRO DEL INTERIOR Y AL MINISTRO DE DEFENSA PARA QUE CONCURRAN, CON CARÁCTER URGENTE, ANTE EL PLENO DE LA CÁMARA DE DIPUTADOS PARA QUE INFORMEN Y RINDAN CUENTAS SOBRE EL GRAVE DETERIORO DE LA SEGURIDAD CIUDADANA Y LA EXPANSIÓN DE LA CRIMINALIDAD ORGANIZADA EN EL PAÍS.",
+     "si": 70,
+     "no": 45,
+     "abst": 0,
+     "por_bancada": {
+      "AN": {
+       "si": 9,
+       "ausente": 1
+      },
+      "FP": {
+       "no": 34,
+       "ausente": 6,
+       "sin_resp": 1
+      },
+      "JP": {
+       "si": 32
+      },
+      "PBG": {
+       "si": 16
+      },
+      "PCO": {
+       "si": 12,
+       "ausente": 2
+      },
+      "RP": {
+       "ausente": 4,
+       "no": 11
+      }
+     }
+    },
+    {
+     "fecha": "2026-09-10",
+     "hora": "03:52PM",
+     "asunto": "PROPUESTA DE LA PRESIDENCIA PARA QUE EL MINISTRO DEL INTERIOR, SEÑOR CÉSAR AUGUSTO ASTUDILLO SALCEDO, CONCURRA AL PLENO DE LA CAMARA DE DIPUTADOS A FIN DE CONTESTAR EL PLIEGO INTERPELATORIO CONTENIDO EN LA MOCIÓN DE ORDEN DEL DÍA 256, EL 17 DE SETIEMBRE 2026, A LAS 10 DE LA MANANA",
+     "si": 66,
+     "no": 49,
+     "abst": 1,
+     "por_bancada": {
+      "AN": {
+       "ausente": 2,
+       "si": 8
+      },
+      "FP": {
+       "no": 36,
+       "ausente": 4
+      },
+      "JP": {
+       "si": 31,
+       "ausente": 1
+      },
+      "PBG": {
+       "si": 14,
+       "ausente": 1,
+       "no": 1
+      },
+      "PCO": {
+       "si": 12,
+       "ausente": 2
+      },
+      "RP": {
+       "ausente": 3,
+       "no": 12
+      }
+     }
+    },
+    {
+     "fecha": "2026-09-10",
+     "hora": "03:49PM",
+     "asunto": "ADMISIÓN DE LA MOCIÓN 256, LA CUAL PROPONE QUE LA CÁMARA DE DIPUTADOS INTERPELE AL MINISTRO DEL INTERIOR, SEÑOR CÉSAR AUGUSTO ASTUDILLO SALCEDO",
+     "si": 50,
+     "no": 65,
+     "abst": null,
+     "por_bancada": {
+      "AN": {
+       "ausente": 2,
+       "si": 8
+      },
+      "FP": {
+       "no": 36,
+       "ausente": 4
+      },
+      "JP": {
+       "si": 30,
+       "no": 1,
+       "ausente": 1
+      },
+      "PBG": {
+       "no": 15,
+       "ausente": 1
+      },
+      "PCO": {
+       "si": 12,
+       "ausente": 2
+      },
+      "RP": {
+       "ausente": 3,
+       "no": 10
+      }
+     }
+    },
+    {
+     "fecha": "2026-08-13",
+     "hora": "05:21PM",
+     "asunto": "APROBACIÓN DEL CUADRO NOMINATIVO DE LAS 16 COMISIONES ORDINARIAS LEGISLATIVAS, ASÍ COMO COMISIÓN DE ORDENAMIENTO Y SEGUIMIENTO LEGISLATIVO; Y DE LA COMISIÓN DE ACUSACIONES CONSTITUCIONALES, PARA EL PERIODO ANUAL DE SESIONES 2026 - 2027",
+     "si": 115,
+     "no": 0,
+     "abst": 1,
+     "por_bancada": {
+      "AN": {
+       "ausente": 1,
+       "si": 9
+      },
+      "FP": {
+       "si": 38,
+       "ausente": 2
+      },
+      "JP": {
+       "si": 27,
+       "ausente": 1
+      },
+      "PBG": {
+       "si": 15,
+       "ausente": 1
+      },
+      "PCO": {
+       "si": 12,
+       "ausente": 1
+      },
+      "RP": {
+       "ausente": 2,
+       "si": 10
+      }
+     }
+    },
+    {
+     "fecha": "2026-08-05",
+     "hora": "04:53PM",
+     "asunto": "APROBACIÓN DE LA NÓMINA DE INTEGRANTES DE LA COMISIÓN DE ACUSACIONES CONSTITUCIONALES DE LA CÁMARA DE DIPUTADOS PARA EL PERIODO ANUAL DE SESIONES 2026 — 2027",
+     "si": 119,
+     "no": 0,
+     "abst": 0,
+     "por_bancada": {
+      "AN": {
+       "si": 10
+      },
+      "FP": {
+       "si": 34,
+       "ausente": 5,
+       "sin_resp": 1
+      },
+      "JP": {
+       "si": 30,
+       "ausente": 1,
+       "sin_resp": 1
+      },
+      "PBG": {
+       "si": 17
+      },
+      "PCO": {
+       "si": 13
+      },
+      "RP": {
+       "si": 15
+      }
+     }
+    }
+   ],
+   "sesiones": [
+    {
+     "fecha": "2026-10-22",
+     "documentos": {
+      "temas": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/09A_ctt_22.oct_.2026.pdf",
+      "agenda": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/AGENDA-PLENO-DIPUTADOS-22-10-2026.pdf",
+      "asistencia": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/ASISTENCIA-PLENO-DIPUTADOS-20261020-vbR.pdf"
+     }
+    },
+    {
+     "fecha": "2026-10-06",
+     "documentos": {
+      "temas": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/09_ctt_06.oct_.2026.pdf",
+      "agenda": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/AGENDA-PLENO-DIPUTADOS-6-10-2026-1.pdf",
+      "asistencia": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/ASISTENCIA-PLENO-DIPUTADOS-20261006-vbR.pdf"
+     }
+    },
+    {
+     "fecha": "2026-09-17",
+     "documentos": {
+      "temas": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/09/08_ctt_17.set_.2026.pdf",
+      "agenda": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/09/AGENDA-PLENO-DIPUTADOS-17-09-2026.pdf",
+      "asistencia": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/09/ASISTENCIA-PLENO-DIPUTADOS-20260917_vbRR.pdf"
+     }
+    },
+    {
+     "fecha": "2026-09-10",
+     "documentos": {
+      "temas": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/09/06_ctt_10.set_.2026.pdf",
+      "agenda": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/09/AGENDA-PLENO-DIPUTADOS-10-09-2026.pdf",
+      "asistencia": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/09/ASISTENCIA-PLENO-DIPUTADOS-20260910-matutina_vb.pdf"
+     }
+    },
+    {
+     "fecha": "2026-08-20",
+     "documentos": {
+      "temas": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/08/05_ctt_20.ago_.2026.CD_.pdf",
+      "asistencia": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/08/ASISTENCIA-VOTACION-PLENO-DIPUTADOS-20260820_vb.pdf"
+     }
+    },
+    {
+     "fecha": "2026-08-18",
+     "documentos": {
+      "temas": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/08/04_ctt_18.ago_.2026.CD_.pdf",
+      "agenda": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/08/AGENDA-PLENO-DIPUTADOS-18-08-2026.pdf",
+      "asistencia": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/08/ASISTENCIA-VOTACION-PLENO-DIPUTADOS-20260818_vb.pdf"
+     }
+    },
+    {
+     "fecha": "2026-08-13",
+     "documentos": {
+      "temas": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/08/03_ctt_13.ago_.2026.CD_.pdf",
+      "asistencia": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/09/ASISTENCIA-VOTACION-PLENO-DIPUTADOS-20260813_vb.pdf"
+     }
+    },
+    {
+     "fecha": "2026-08-05",
+     "documentos": {
+      "temas": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/08/02_ctt_05.ago_.2026.CD_.pdf",
+      "asistencia": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/08/ASISTENCIA-VOTACION-PLENO-DIPUTADOS-20260805_vb.pdf"
+     }
+    },
+    {
+     "fecha": "2026-07-27",
+     "documentos": {
+      "temas": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/08/01_ctt_27.jul_.2026.CD_.pdf",
+      "asistencia": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/08/Asistencia_Diputado_sesion_27-7-2026_Final.pdf"
+     }
+    },
+    {
+     "fecha": "2026-07-24",
+     "documentos": {
+      "asistencia": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/08/Asistencia_Diputado_sesion_24-7-2026_Final.pdf"
+     }
+    },
+    {
+     "fecha": "2025-08-13",
+     "documentos": {
+      "agenda": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/08/AGENDA-PLENO-DIPUTADOS-13-08-2025.pdf"
+     }
+    },
+    {
+     "fecha": "2025-08-05",
+     "documentos": {
+      "agenda": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/08/AGENDA-PLENO-DIPUTADOS-05-08-2025.pdf"
+     }
+    }
+   ]
+  },
+  "S": {
+   "pases_lista": 33,
+   "votaciones": [
+    {
+     "fecha": "2026-10-21",
+     "hora": "04:28PM",
+     "asunto": "NÓMINA DE INTEGRANTES DE LA COMISIÓN ESPECIAL MULTIPARTIDARIA DE PROTECCIÓN INTEGRAL DE LA INFANCIA Y LA ADOLESCENCIA DEL SENADO DE LA REPUBLICA, ENCARGADA DE EFECTUAR EL SEGUIMIENTO Y LA EVALUACIÓN DEL CUMPLIMIENTO DE LA NORMATIVA NACIONAL, ASI COMO DE LA IMPLEMENTACION DE LAS POLÍTICAS PÚBLICAS, LOS PLANES Y LOS PROGRAMAS VINCULADOS CON LA INFANCIA Y LA ADOLESCENCIA; Y DE FISCALIZAR, EN EL MARCO DE SUS COMPETENCIAS, LA ACTUACIÓN DE LAS ENTIDADES DE LOS TRES NIVELES DE GOBIERNO EN ESTA MATERIA. (MOCIÓN 22)",
+     "si": 44,
+     "no": 1,
+     "abst": 7,
+     "por_bancada": {
+      "AN": {
+       "si": 1
+      },
+      "FP": {
+       "si": 18
+      },
+      "JP": {
+       "si": 11,
+       "sin_resp": 2,
+       "ausente": 1
+      },
+      "PBG": {
+       "si": 4,
+       "sin_resp": 1,
+       "ausente": 1,
+       "no": 1
+      },
+      "PCO": {
+       "ausente": 2,
+       "si": 2
+      },
+      "RP": {
+       "si": 7
+      }
+     }
+    },
+    {
+     "fecha": "2026-10-21",
+     "hora": "04:19PM",
+     "asunto": "APROBAR LA SOLICITUD DE PRÓRROGA DEL PLAZO DEL ESTADO DE EMERGENCIA ESTABLECIDO MEDIANTE EL DECRETO SUPREMO 120- 2026-PCM, QUE DECLARA EL ESTADO DE EMERGENCIA EN EL DISTRITO DE ENCAÑADA DE LA PROVINCIA DE CAJAMARCA; EN EL DISTRITO",
+     "si": 53,
+     "no": 0,
+     "abst": 1,
+     "por_bancada": {
+      "AN": {
+       "si": 3
+      },
+      "FP": {
+       "si": 19,
+       "ausente": 2
+      },
+      "JP": {
+       "si": 12,
+       "ausente": 1
+      },
+      "PBG": {
+       "si": 6,
+       "ausente": 1
+      },
+      "PCO": {
+       "ausente": 1,
+       "si": 4
+      },
+      "RP": {
+       "si": 7
+      }
+     }
+    },
+    {
+     "fecha": "2026-10-21",
+     "hora": "04:12PM",
+     "asunto": "PROPUESTA DE DESIGNACIÓN DEL CANDIDATO NÚMERO 5 DEL ORDEN DE MÉRITO CONTENIDO EN EL INFORME FINAL, JUAN JOSÉ MARTHANS LEÓN, COMO MIEMBRO DEL DIRECTORIO DEL BANCO CENTRAL DE RESERVA DEL PERÚ",
+     "si": 33,
+     "no": 20,
+     "abst": 1,
+     "por_bancada": {
+      "AN": {
+       "si": 1,
+       "no": 2,
+       "sin_resp": 1
+      },
+      "FP": {
+       "si": 20
+      },
+      "JP": {
+       "no": 12,
+       "ausente": 2
+      },
+      "PBG": {
+       "no": 6,
+       "si": 1
+      },
+      "PCO": {
+       "ausente": 1,
+       "si": 4
+      },
+      "RP": {
+       "ausente": 1,
+       "si": 7
+      }
+     }
+    },
+    {
+     "fecha": "2026-10-21",
+     "hora": "04:10PM",
+     "asunto": "PROPUESTA DE DESIGNACIÓN DEL CANDIDATO NÚMERO 4 DEL ORDEN DE MÉRITO CONTENIDO EN EL INFORME FINAL, SANTIAGO FRANCISCO ROCA TAVELLA, COMO MIEMBRO DEL DIRECTORIO DEL BANCO CENTRAL DE RESERVA DEL PERU",
+     "si": 23,
+     "no": 31,
+     "abst": 1,
+     "por_bancada": {
+      "AN": {
+       "si": 4
+      },
+      "FP": {
+       "no": 20
+      },
+      "JP": {
+       "si": 11,
+       "ausente": 2,
+       "no": 1
+      },
+      "PBG": {
+       "si": 7
+      },
+      "PCO": {
+       "ausente": 1,
+       "no": 3
+      },
+      "RP": {
+       "ausente": 1,
+       "no": 7
+      }
+     }
+    },
+    {
+     "fecha": "2026-10-21",
+     "hora": "04:08PM",
+     "asunto": "PROPUESTA DE DESIGNACIÓN DEL CANDIDATO NÚMERO 3 DEL ORDEN DE MÉRITO CONTENIDO EN EL INFORME FINAL, JOSÉ ANTONIO FERNÁNDEZ BACA LLAMOSAS, COMO MIEMBRO DEL DIRECTORIO DEL BANCO CENTRAL DE RESERVA DEL PERÚ",
+     "si": 22,
+     "no": 31,
+     "abst": 2,
+     "por_bancada": {
+      "AN": {
+       "si": 2,
+       "no": 1
+      },
+      "FP": {
+       "no": 20
+      },
+      "JP": {
+       "si": 12,
+       "ausente": 2
+      },
+      "PBG": {
+       "si": 7
+      },
+      "PCO": {
+       "ausente": 1,
+       "no": 3
+      },
+      "RP": {
+       "ausente": 1,
+       "no": 7
+      }
+     }
+    },
+    {
+     "fecha": "2026-10-21",
+     "hora": "04:06PM",
+     "asunto": "PROPUESTA DE DESIGNACIÓN DEL CANDIDATO NÚMERO 2 DEL ORDEN DE MÉRITO CONTENIDO EN EL INFORME FINAL, JOSÉ RICARDO STOK CAPELLA, COMO MIEMBRO DEL DIRECTORIO DEL BANCO CENTRAL DE RESERVA DEL PERU",
+     "si": 33,
+     "no": 16,
+     "abst": 6,
+     "por_bancada": {
+      "AN": {
+       "no": 2,
+       "si": 1
+      },
+      "FP": {
+       "si": 17,
+       "no": 1
+      },
+      "JP": {
+       "no": 10,
+       "ausente": 2
+      },
+      "PBG": {
+       "ausente": 1,
+       "no": 3,
+       "si": 3
+      },
+      "PCO": {
+       "ausente": 1,
+       "si": 3
+      },
+      "RP": {
+       "si": 7
+      }
+     }
+    },
+    {
+     "fecha": "2026-10-21",
+     "hora": "04:02PM",
+     "asunto": "PROPUESTA DE DESIGNACIÓN DEL CANDIDATO NÚMERO 1 DEL ORDEN DE MÉRITO CONTENIDO EN EL INFORME FINAL, OSWALDO MOLINA CAMPODÓNICO, COMO MIEMBRO DEL DIRECTORIO DEL BANCO CENTRAL DE RESERVA DEL PERU",
+     "si": 40,
+     "no": 15,
+     "abst": 0,
+     "por_bancada": {
+      "AN": {
+       "si": 1,
+       "no": 3
+      },
+      "FP": {
+       "si": 20
+      },
+      "JP": {
+       "no": 12,
+       "ausente": 2
+      },
+      "PBG": {
+       "si": 7
+      },
+      "PCO": {
+       "ausente": 1,
+       "si": 4
+      },
+      "RP": {
+       "ausente": 1,
+       "si": 7
+      }
+     }
+    },
+    {
+     "fecha": "2026-10-21",
+     "hora": "01:29PM",
+     "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 13, QUE PROPONE LA LEY QUE DELEGA EN EL PODER EJECUTIVO LA FACULTAD DE LEGISLAR EN MATERIAS DE SEGURIDAD CIUDADANA Y DEL FENOMENO EL NINO",
+     "si": 34,
+     "no": 18,
+     "abst": 6,
+     "por_bancada": {
+      "AN": {
+       "no": 3
+      },
+      "FP": {
+       "si": 18
+      },
+      "JP": {
+       "no": 13
+      },
+      "PBG": {
+       "si": 6,
+       "no": 1
+      },
+      "PCO": {
+       "ausente": 1,
+       "si": 3
+      },
+      "RP": {
+       "si": 6
+      }
+     }
+    },
+    {
+     "fecha": "2026-10-07",
+     "hora": "01:10PM",
+     "asunto": "RECONSIDERACIÓN A LA VOTACIÓN POR LA QUE NO SE APROBÓ LA MOCIÓN DE ORDEN DEL DÍA 31, QUE PROPONE CONFORMAR LA COMISIÓN ESPECIAL MULTIPARTIDARIA DEL ESTUDIO Y SEGUIMIENTO DENOMINADA: \"COMISIÓN ESPECIAL DE SEGUIMIENTO ESTRATÉGICO PARA LA PREVENCIÓN DE CONFLICTOS SOCIALES\"",
+     "si": 20,
+     "no": 28,
+     "abst": null,
+     "por_bancada": {
+      "AN": {
+       "si": 4
+      },
+      "FP": {
+       "no": 16,
+       "ausente": 5
+      },
+      "JP": {
+       "si": 9,
+       "ausente": 4
+      },
+      "PBG": {
+       "no": 5,
+       "si": 1,
+       "ausente": 1
+      },
+      "PCO": {
+       "si": 5
+      },
+      "RP": {
+       "no": 7,
+       "ausente": 1
+      }
+     }
+    },
+    {
+     "fecha": "2026-09-30",
+     "hora": "12:51PM",
+     "asunto": "ACUERDO DEL SENADO DE LA REPÚBLICA QUE APRUEBA LA SOLICITUD DE PRÓRROGA DEL PLAZO DEL ESTADO DE EMERGENCIA ESTABLECIDO MEDIANTE EL DECRETO SUPREMO 115-2026-PCM, SOLICITADA POR LA PRESIDENCIA DE LA REPUBLICA",
+     "si": 52,
+     "no": 0,
+     "abst": 0,
+     "por_bancada": {
+      "AN": {
+       "si": 4
+      },
+      "FP": {
+       "si": 16,
+       "ausente": 5
+      },
+      "JP": {
+       "si": 12,
+       "ausente": 1
+      },
+      "PBG": {
+       "si": 6,
+       "ausente": 1
+      },
+      "PCO": {
+       "si": 5
+      },
+      "RP": {
+       "si": 8
+      }
+     }
+    },
+    {
+     "fecha": "2026-09-30",
+     "hora": "12:49PM",
+     "asunto": "ACUERDO DEL SENADO DE LA REPÚBLICA QUE APRUEBA LA SOLICITUD DE PRÓRROGA DEL PLAZO DEL ESTADO DE EMERGENCIA ESTABLECIDO MEDIANTE EL DECRETO SUPREMO 114-2026-PCM, SOLICITADA POR LA PRESIDENCIA DE LA REPÚBLICA",
+     "si": 50,
+     "no": 0,
+     "abst": 2,
+     "por_bancada": {
+      "AN": {
+       "si": 4
+      },
+      "FP": {
+       "si": 16,
+       "ausente": 5
+      },
+      "JP": {
+       "si": 11,
+       "ausente": 1
+      },
+      "PBG": {
+       "si": 6,
+       "ausente": 1
+      },
+      "PCO": {
+       "si": 5
+      },
+      "RP": {
+       "si": 8
+      }
+     }
+    },
+    {
+     "fecha": "2026-09-16",
+     "hora": "07:57PM",
+     "asunto": "INFORME FINAL Y PROYECTO DE RESOLUCIÓN LEGISLATIVA 9, RESOLUCIÓN LEGISLATIVA DEL SENADO QUE RATIFICA LA DESIGNACIÓN DEL PRESIDENTE DEL DIRECTORIO DEL BANCO CENTRAL DE RESERVA DEL PERU",
+     "si": 40,
+     "no": 12,
+     "abst": 0,
+     "por_bancada": {
+      "AN": {
+       "si": 4
+      },
+      "FP": {
+       "si": 18,
+       "ausente": 3
+      },
+      "JP": {
+       "si": 1,
+       "no": 12,
+       "ausente": 1
+      },
+      "PBG": {
+       "si": 6,
+       "ausente": 1
+      },
+      "PCO": {
+       "si": 5
+      },
+      "RP": {
+       "ausente": 2,
+       "si": 6
+      }
+     }
+    },
+    {
+     "fecha": "2026-09-16",
+     "hora": "07:08PM",
+     "asunto": "ACUERDO DEL SENADO DE LA REPÚBLICA QUE APRUEBA LA PRÓRROGA DEL PLAZO DEL ESTADO DE EMERGENCIA ESTABLECIDO MEDIANTE EL DECRETO SUPREMO 109-2026-PCM, SOLICITADO POR LA PRESIDENCIA DE LA REPÚBLICA",
+     "si": 48,
+     "no": 0,
+     "abst": 1,
+     "por_bancada": {
+      "AN": {
+       "si": 3
+      },
+      "FP": {
+       "si": 17,
+       "ausente": 4
+      },
+      "JP": {
+       "si": 12,
+       "sin_resp": 1,
+       "ausente": 1
+      },
+      "PBG": {
+       "si": 6,
+       "ausente": 1
+      },
+      "PCO": {
+       "si": 5
+      },
+      "RP": {
+       "ausente": 3,
+       "si": 5
+      }
+     }
+    },
+    {
+     "fecha": "2026-09-16",
+     "hora": "07:06PM",
+     "asunto": "ACUERDO DEL SENADO DE LA REPÚBLICA QUE APRUEBA LA PRÓRROGA DEL PLAZO DEL ESTADO DE EMERGENCIA ESTABLECIDO MEDIANTE EL DECRETO SUPREMO 108-2026-PCM, SOLICITADO POR LA PRESIDENCIA DE LA REPÚBLICA",
+     "si": 38,
+     "no": 12,
+     "abst": 0,
+     "por_bancada": {
+      "AN": {
+       "si": 2,
+       "no": 2
+      },
+      "FP": {
+       "si": 16,
+       "ausente": 4
+      },
+      "JP": {
+       "si": 3,
+       "no": 10,
+       "ausente": 1
+      },
+      "PBG": {
+       "si": 6,
+       "ausente": 1
+      },
+      "PCO": {
+       "si": 4
+      },
+      "RP": {
+       "ausente": 3,
+       "si": 4
+      }
+     }
+    },
+    {
+     "fecha": "2026-09-16",
+     "hora": "07:04PM",
+     "asunto": "ACUERDO DEL SENADO DE LA REPÚBLICA QUE APRUEBA LA PRÓRROGA DEL PLAZO DEL ESTADO DE EMERGENCIA ESTABLECIDO MEDIANTE EL DECRETO SUPREMO 110-2026-PCM, SOLICITADO POR LA PRESIDENCIA DE LA REPÚBLICA",
+     "si": 34,
+     "no": 15,
+     "abst": 1,
+     "por_bancada": {
+      "AN": {
+       "si": 2,
+       "no": 2
+      },
+      "FP": {
+       "si": 16,
+       "ausente": 4
+      },
+      "JP": {
+       "no": 12,
+       "ausente": 1
+      },
+      "PBG": {
+       "si": 5,
+       "ausente": 1
+      },
+      "PCO": {
+       "si": 5
+      },
+      "RP": {
+       "ausente": 3,
+       "si": 5
+      }
+     }
+    },
+    {
+     "fecha": "2026-09-16",
+     "hora": "03:33PM",
+     "asunto": "PROYECTO DE RESOLUCIÓN LEGISLATIVA 8, RESOLUCIÓN LEGISLATIVA QUE AUTORIZA A LA SEÑORA PRESIDENTA DE LA REPÚBLICA A SALIR DEL TERRITORIO NACIONAL DEL 21 AL 25 DE SETIEMBRE DE 2026",
+     "si": 34,
+     "no": 12,
+     "abst": 3,
+     "por_bancada": {
+      "AN": {
+       "si": 2,
+       "ausente": 1
+      },
+      "FP": {
+       "si": 14,
+       "ausente": 4
+      },
+      "JP": {
+       "no": 12,
+       "ausente": 1,
+       "sin_resp": 1
+      },
+      "PBG": {
+       "si": 5,
+       "ausente": 1
+      },
+      "PCO": {
+       "si": 3
+      },
+      "RP": {
+       "sin_resp": 1,
+       "si": 7
+      }
+     }
+    },
+    {
+     "fecha": "2026-09-09",
+     "hora": "08:37PM",
+     "asunto": "ACUERDO DEL SENADO DE LA REPÚBLICA SOBRE EL DESARROLLO DE LAS SESIONES DE LOS ÓRGANOS DE LA ORGANIZACIÓN PARLAMENTARIA DEL SENADO",
+     "si": 45,
+     "no": 1,
+     "abst": 4,
+     "por_bancada": {
+      "AN": {
+       "ausente": 1,
+       "si": 1
+      },
+      "FP": {
+       "si": 15,
+       "ausente": 4
+      },
+      "JP": {
+       "si": 12,
+       "ausente": 1
+      },
+      "PBG": {
+       "si": 4,
+       "ausente": 2,
+       "no": 1
+      },
+      "PCO": {
+       "si": 5
+      },
+      "RP": {
+       "si": 7
+      }
+     }
+    },
+    {
+     "fecha": "2026-09-09",
+     "hora": "08:33PM",
+     "asunto": "PROPUESTA DE LA PRESIDENCIA PARA QUE EL MINISTRO DE RELACIONES EXTERIORES, ALFONSO CARLOS ESPÁ Y GARCÉS-ALVEAR, CONCURRA AL PLENO DEL SENADO EL 16 DE SETIEMBRE DE 2026 A LAS 15 HORAS",
+     "si": 49,
+     "no": 0,
+     "abst": 0,
+     "por_bancada": {
+      "AN": {
+       "ausente": 1,
+       "si": 3
+      },
+      "FP": {
+       "si": 16,
+       "ausente": 4
+      },
+      "JP": {
+       "si": 11,
+       "ausente": 3
+      },
+      "PBG": {
+       "si": 6,
+       "ausente": 1
+      },
+      "PCO": {
+       "si": 4
+      },
+      "RP": {
+       "si": 7,
+       "ausente": 1
+      }
+     }
+    },
+    {
+     "fecha": "2026-09-09",
+     "hora": "08:32PM",
+     "asunto": "TEXTO SUSTITUTORIO DE LA MOCIÓN 2, QUE PROPONE INVITAR AL MINISTRO DE RELACIONES EXTERIORES, ALFONSO CARLOS ESPÁ Y GARCÉSALVEAR, AL PLENO DEL SENADO DE LA REPÚBLICA, A FIN DE QUE INFORME SOBRE. LA INCORPORACIÓN DEL PERÚ AL DENOMINADO \"ESCUDO DE LAS AMÉRICAS\", PRECISANDO SU NATURALEZA JURÍDICA, ALCANCES POLÍTICOS Y OPERATIVOS, LOS COMPROMISOS ASUMIDOS POR EL ESTADO PERUANO, SU COMPATIBILIDAD CON LA SOBERANÍA NACIONAL Y LAS COMPETENCIAS CONSTITUCIONALES DEL CONGRESO DE LA REPÚBLICA, ASÍ COMO SUS IMPLICANCIAS PARA LA POLÍTICA EXTERIOR Y LAS RELACIONES INTERNACIONALES DEL PERÚ",
+     "si": 49,
+     "no": 0,
+     "abst": 0,
+     "por_bancada": {
+      "AN": {
+       "ausente": 1,
+       "si": 3
+      },
+      "FP": {
+       "si": 17,
+       "ausente": 4
+      },
+      "JP": {
+       "si": 11,
+       "ausente": 3
+      },
+      "PBG": {
+       "si": 6,
+       "ausente": 1
+      },
+      "PCO": {
+       "si": 4
+      },
+      "RP": {
+       "si": 6,
+       "ausente": 1
+      }
+     }
+    },
+    {
+     "fecha": "2026-09-09",
+     "hora": "07:58PM",
+     "asunto": "ADMISIÓN A DEBATE DE LA MOCIÓN 2, QUE PROPONE QUE EL SENADO DE LA REPÚBLICA INVITE AL SEÑOR ALFONSO CARLOS ESPÁ Y GARCÉS-ALVEAR, MINISTRO DE RELACIONES EXTERIORES, AL PLENO DEL SENADO DE LA REPÚBLICA PARA QUE INFORME SOBRE LA INCORPORACIÓN DEL PERÚ O NO AL ESCUDO DE LAS AMÉRICAS",
+     "si": 45,
+     "no": 0,
+     "abst": 0,
+     "por_bancada": {
+      "AN": {
+       "ausente": 1,
+       "si": 2
+      },
+      "FP": {
+       "si": 14,
+       "ausente": 6,
+       "sin_resp": 1
+      },
+      "JP": {
+       "si": 10,
+       "sin_resp": 1,
+       "ausente": 3
+      },
+      "PBG": {
+       "si": 6,
+       "ausente": 1
+      },
+      "PCO": {
+       "si": 5
+      },
+      "RP": {
+       "si": 7,
+       "ausente": 1
+      }
+     }
+    },
+    {
+     "fecha": "2026-09-09",
+     "hora": "07:46PM",
+     "asunto": "TEXTO SUSTITUTORIO DE LA MOCIÓN 71, QUE PROPONE CREAR LA COMISIÓN ESPECIAL MULTIPARTIDARIA DE SEGURIDAD CIUDADANA, ENCARGADA DEL SEGUIMIENTO, FISCALIZACIÓN, EVALUACIÓN Y FORMULACIÓN DE PROPUESTAS ORIENTADAS AL FORTALECIMIENTO DE LAS POLÍTICAS PÚBLICAS EN MATERIA DE SEGURIDAD CIUDADANA",
+     "si": 38,
+     "no": 9,
+     "abst": 3,
+     "por_bancada": {
+      "AN": {
+       "ausente": 3,
+       "si": 1
+      },
+      "FP": {
+       "si": 18,
+       "ausente": 3
+      },
+      "JP": {
+       "no": 9,
+       "si": 2,
+       "ausente": 2
+      },
+      "PBG": {
+       "si": 5,
+       "ausente": 1
+      },
+      "PCO": {
+       "si": 4
+      },
+      "RP": {
+       "si": 7
+      }
+     }
+    },
+    {
+     "fecha": "2026-09-09",
+     "hora": "07:31PM",
+     "asunto": "",
+     "si": 34,
+     "no": 11,
+     "abst": 0,
+     "por_bancada": {
+      "AN": {
+       "ausente": 2,
+       "no": 1
+      },
+      "FP": {
+       "si": 17,
+       "ausente": 3
+      },
+      "JP": {
+       "si": 1,
+       "no": 9,
+       "ausente": 3,
+       "sin_resp": 1
+      },
+      "PBG": {
+       "si": 5,
+       "ausente": 2
+      },
+      "PCO": {
+       "si": 4,
+       "no": 1
+      },
+      "RP": {
+       "si": 4,
+       "ausente": 3
+      }
+     }
+    },
+    {
+     "fecha": "2026-09-09",
+     "hora": "06:38PM",
+     "asunto": "ADMISIÓN A DEBATE DE LA MOCIÓN 72, QUE PROPONE QUE EL SENADO DE LA REPÚBLICA CONSTITUYA UNA COMISIÓN ESPECIAL MULTIPARTIDARIA DE TRANSFERENCIA TECNOLÓGICA E INNOVACIÓN RURAL, ENCARGADA DE ESTUDIAR, REALIZAR SEGUIMIENTO, EVALUAR Y FORMULAR PROPUESTAS LEGISLATIVAS Y RECOMENDACIONES DE POLÍTICA PÚBLICA DESTINADAS A REDUCIR LAS BRECHAS DE INNOVACIÓN, CONOCIMIENTO Y TECNOLOGÍA EN EL SECTOR RURAL; ASIMISMO, TENDRÍA POR OBJETO EVALUAR LOS MARCOS NORMATIVOS, INSTITUCIONALES Y PRESUPUESTALES VINCULADOS CON LA TRANSFERENCIA DE TECNOLOGÍAS APROPIADAS, INNOVACIÓN PRODUCTIVA Y APLICACIÓN DEL CONOCIMIENTO CIENTÍFICO EN LAS ACTIVIDADES AGRARIAS Y AGROINDUSTRIALES RURALES",
+     "si": 47,
+     "no": 0,
+     "abst": 1,
+     "por_bancada": {
+      "AN": {
+       "ausente": 1,
+       "si": 2
+      },
+      "FP": {
+       "si": 18,
+       "ausente": 3
+      },
+      "JP": {
+       "si": 12,
+       "ausente": 2
+      },
+      "PBG": {
+       "si": 6
+      },
+      "PCO": {
+       "ausente": 3,
+       "si": 2
+      },
+      "RP": {
+       "si": 6,
+       "ausente": 2
+      }
+     }
+    },
+    {
+     "fecha": "2026-09-09",
+     "hora": "06:26PM",
+     "asunto": "RECONSIDERACIÓN DE LA VOTACIÓN DE LA MOCIÓN 22",
+     "si": 27,
+     "no": 26,
+     "abst": 0,
+     "por_bancada": {
+      "AN": {
+       "ausente": 1,
+       "si": 3
+      },
+      "FP": {
+       "no": 18,
+       "ausente": 3
+      },
+      "JP": {
+       "si": 12,
+       "ausente": 2
+      },
+      "PBG": {
+       "si": 6
+      },
+      "PCO": {
+       "si": 5
+      },
+      "RP": {
+       "no": 8
+      }
+     }
+    },
+    {
+     "fecha": "2026-09-09",
+     "hora": "06:02PM",
+     "asunto": "",
+     "si": 30,
+     "no": 23,
+     "abst": 1,
+     "por_bancada": {
+      "AN": {
+       "ausente": 1,
+       "no": 2
+      },
+      "FP": {
+       "si": 16,
+       "ausente": 2
+      },
+      "JP": {
+       "no": 12,
+       "ausente": 2
+      },
+      "PBG": {
+       "no": 6,
+       "si": 1
+      },
+      "PCO": {
+       "si": 2,
+       "no": 2
+      },
+      "RP": {
+       "si": 8
+      }
+     }
+    },
+    {
+     "fecha": "2026-09-09",
+     "hora": "05:25PM",
+     "asunto": "CUESTIÓN PREVIA PARA QUE PASE A LA COMISIÓN EN ASUNTOS DE SALUD, EDUCACIÓN, CULTURA, MUJER Y DESARROLLO SOCIAL Y DIGITAL LA MOCIÓN 22",
+     "si": 23,
+     "no": 28,
+     "abst": 0,
+     "por_bancada": {
+      "AN": {
+       "ausente": 1,
+       "si": 3
+      },
+      "FP": {
+       "no": 19,
+       "ausente": 2
+      },
+      "JP": {
+       "si": 11,
+       "ausente": 2,
+       "sin_resp": 1
+      },
+      "PBG": {
+       "si": 6,
+       "sin_resp": 1
+      },
+      "PCO": {
+       "si": 3,
+       "no": 1,
+       "ausente": 1
+      },
+      "RP": {
+       "no": 8
+      }
+     }
+    },
+    {
+     "fecha": "2026-09-09",
+     "hora": "05:07PM",
+     "asunto": "ADMISIÓN A DEBATE DE LA MOCIÓN 22, QUE PROPONE QUE EL SENADO DE LA REPÚBLICA CONSTITUYA UNA COMISIÓN ESPECIAL MULTIPARTIDARIA DE PROTECCIÓN INTEGRAL DE LA INFANCIA Y LA ADOLESCENCIA DEL SENADO DE LA REPÚBLICA, ENCARGADA DE REALIZAR LABORES DE SEGUIMIENTO; EVALUACIÓN DE LA LEGISLACIÓN NACIONAL; MONITOREO DE LAS POLÍTICAS Y PROGRAMAS SOCIALES MULTISECTORIALES (SALUD, EDUCACIÓN, PROTECCIÓN FRENTE A LA VIOLENCIA Y REDUCCIÓN DE LA POBREZA INFANTIL); Y DE FISCALIZACIÓN EN LOS TRES NIVELES DE GOBIERNO, DE FORMA QUE CONTRIBUYA A GARANTIZAR EL PLENO EJERCICIO DE LOS DERECHOS DE LAS NIÑAS, NIÑOS Y ADOLESCENTES EN EL PERÚ",
+     "si": 29,
+     "no": 23,
+     "abst": 0,
+     "por_bancada": {
+      "AN": {
+       "ausente": 1,
+       "no": 3
+      },
+      "FP": {
+       "si": 17,
+       "ausente": 4
+      },
+      "JP": {
+       "no": 12,
+       "ausente": 2
+      },
+      "PBG": {
+       "no": 7
+      },
+      "PCO": {
+       "si": 4,
+       "no": 1
+      },
+      "RP": {
+       "si": 6
+      }
+     }
+    },
+    {
+     "fecha": "2026-09-09",
+     "hora": "04:39PM",
+     "asunto": "ADMISIÓN A DEBATE DE LA MOCIÓN 31, QUE PROPONE QUE EL SENADO DE LA REPÚBLICA CONSTITUYA UNA COMISIÓN ESPECIAL MULTIPARTIDARIA DE SEGUIMIENTO ESTRATÉGICO PARA LA PREVENCIÓN DE CONFLICTOS SOCIALES, ORIENTADA A LA GOBERNABILIDAD Y LA PAZ SOCIAL EN EL PERÚ",
+     "si": 51,
+     "no": 0,
+     "abst": 0,
+     "por_bancada": {
+      "AN": {
+       "ausente": 1,
+       "si": 3
+      },
+      "FP": {
+       "si": 18,
+       "ausente": 3
+      },
+      "JP": {
+       "si": 12,
+       "ausente": 2
+      },
+      "PBG": {
+       "si": 6,
+       "ausente": 1
+      },
+      "PCO": {
+       "si": 5
+      },
+      "RP": {
+       "si": 7,
+       "sin_resp": 1
+      }
+     }
+    },
+    {
+     "fecha": "2026-09-09",
+     "hora": "04:28PM",
+     "asunto": "TEXTO SUSTITUTORIO DE LAS MOCIONES DE ORDEN DEL DÍA 18, 32 Y 45, QUE PROPONE CREAR LA COMISIÓN ESPECIAL DE SEGUIMIENTO, PREVENCIÓN Y RESPUESTA ANTE EL FENÓMENO EL NIÑO Y A LA GESTIÓN DEL RIESGO DE DESASTRES, COMO ÓRGANO PARLAMENTARIO ENCARGADO DE REALIZAR EL ESTUDIO, EVALUACIÓN Y SEGUIMIENTO ESPECIAL DE LAS POLÍTICAS, PLANES, PROGRAMAS, INTERVENCIONES Y MEDIDAS ADOPTADAS POR LAS ENTIDADES PÚBLICAS COMPETENTES",
+     "si": 53,
+     "no": 0,
+     "abst": 0,
+     "por_bancada": {
+      "AN": {
+       "ausente": 1,
+       "si": 3
+      },
+      "FP": {
+       "si": 19,
+       "ausente": 2
+      },
+      "JP": {
+       "si": 12,
+       "ausente": 2
+      },
+      "PBG": {
+       "si": 6
+      },
+      "PCO": {
+       "si": 4
+      },
+      "RP": {
+       "si": 7,
+       "ausente": 1
+      }
+     }
+    },
+    {
+     "fecha": "2026-09-09",
+     "hora": "04:01PM",
+     "asunto": "ADMISIÓN A DEBATE DE LA MOCIÓN 45, QUE PROPONE QUE EL SENADO DE LA REPÚBLICA CONSTITUYA UNA COMISIÓN ESPECIAL MULTIPARTIDARIA ENCARGADA DEL SEGUIMIENTO, FISCALIZACIÓN, EVALUACIÓN Y FORMULACIÓN DE PROPUESTAS SOBRE LAS ACCIONES DE PREVENCIÓN, PREPARACIÓN, RESPUESTA, REHABILITACIÓN Y RECONSTRUCCIÓN FRENTE AL FENÓMENO EL NIÑO Y OTROS EVENTOS CLIMÁTICOS EXTREMOS",
+     "si": 51,
+     "no": 0,
+     "abst": 10,
+     "por_bancada": {
+      "AN": {
+       "ausente": 1,
+       "si": 3
+      },
+      "FP": {
+       "si": 18,
+       "ausente": 3
+      },
+      "JP": {
+       "si": 11,
+       "ausente": 2
+      },
+      "PBG": {
+       "si": 7
+      },
+      "PCO": {
+       "si": 3,
+       "ausente": 1
+      },
+      "RP": {
+       "si": 8
+      }
+     }
+    },
+    {
+     "fecha": "2026-09-09",
+     "hora": "03:59PM",
+     "asunto": "ADMISIÓN A DEBATE DE LA MOCIÓN 32, QUE PROPONE QUE EL SENADO DE LA REPÚBLICA CONSTITUYA UNA COMISIÓN ESPECIAL DE ESTUDIO Y SEGUIMIENTO DE LA EJECUCIÓN DE LOS RECURSOS PÚBLICOS DESTINADOS A LA PREVENCIÓN, REDUCCIÓN DEL RIESGO, PREPARACIÓN Y RESPUESTA FRENTE AL EVENTO EL NIÑO 2026 - 2027",
+     "si": 50,
+     "no": 0,
+     "abst": 0,
+     "por_bancada": {
+      "AN": {
+       "ausente": 1,
+       "si": 3
+      },
+      "FP": {
+       "si": 17,
+       "ausente": 4
+      },
+      "JP": {
+       "si": 10,
+       "ausente": 3,
+       "sin_resp": 1
+      },
+      "PBG": {
+       "si": 7
+      },
+      "PCO": {
+       "si": 4
+      },
+      "RP": {
+       "si": 7
+      }
+     }
+    },
+    {
+     "fecha": "2026-09-09",
+     "hora": "03:57PM",
+     "asunto": "ADMISIÓN A DEBATE DE LA MOCIÓN 18, QUE PROPONE QUE EL SENADO DE LA REPÚBLICA CONSTITUYA UNA COMISIÓN ESPECIAL DE SEGUIMIENTO, PREVENCIÓN Y RESPUESTA ANTE EL FENÓMENO EL NIÑO Y A LA GESTIÓN DEL RIESGO DE DESASTRES, ENCARGADA DE REALIZAR EL ESTUDIO, EVALUACIÓN Y SEGUIMIENTO ESPECIAL DE LAS POLÍTICAS, PLANES, PROGRAMAS, INTERVENCIONES Y MEDIDAS ADOPTADAS POR LAS ENTIDADES PÚBLICAS COMPETENTES",
+     "si": 49,
+     "no": 0,
+     "abst": 2,
+     "por_bancada": {
+      "AN": {
+       "ausente": 1,
+       "si": 3
+      },
+      "FP": {
+       "si": 15,
+       "ausente": 4
+      },
+      "JP": {
+       "si": 10,
+       "ausente": 3
+      },
+      "PBG": {
+       "si": 7
+      },
+      "PCO": {
+       "si": 4
+      },
+      "RP": {
+       "si": 8
+      }
+     }
+    },
+    {
+     "fecha": "2026-09-09",
+     "hora": "03:30PM",
+     "asunto": "PROYECTO DE RESOLUCIÓN LEGISLATIVA 7, QUE AUTORIZA EL INGRESO DE UNA UNIDAD NAVAL Y DE PERSONAL MILITAR DEL ESTADO PLURINACIONAL DE BOLIVIA AL TERRITORIO DE LA REPÚBLICA DEL PERÚ, DEL 15 AL 18 DE SETIEMBRE DE 2026",
+     "si": 49,
+     "no": 3,
+     "abst": 0,
+     "por_bancada": {
+      "AN": {
+       "ausente": 1,
+       "si": 3
+      },
+      "FP": {
+       "si": 18,
+       "ausente": 2
+      },
+      "JP": {
+       "si": 8,
+       "no": 3,
+       "ausente": 2,
+       "sin_resp": 1
+      },
+      "PBG": {
+       "si": 6,
+       "ausente": 1
+      },
+      "PCO": {
+       "si": 5
+      },
+      "RP": {
+       "si": 8
+      }
+     }
+    },
+    {
+     "fecha": "2026-09-09",
+     "hora": "03:21PM",
+     "asunto": "ACUERDO DE AUTORIZACIÓN DE LA PRÓRROGA DEL PLAZO DEL ESTADO DE EMERGENCIA ESTABLECIDO MEDIANTE EL DECRETO SUPREMO 111-2026-PCM, SOLICITADO POR LA PRESIDENCIA DE LA REPUBLICA",
+     "si": 51,
+     "no": 0,
+     "abst": 0,
+     "por_bancada": {
+      "AN": {
+       "ausente": 1,
+       "si": 2
+      },
+      "FP": {
+       "si": 18,
+       "ausente": 3
+      },
+      "JP": {
+       "si": 11,
+       "ausente": 3
+      },
+      "PBG": {
+       "si": 6,
+       "ausente": 1
+      },
+      "PCO": {
+       "si": 5
+      },
+      "RP": {
+       "si": 8
+      }
+     }
+    },
+    {
+     "fecha": "2026-09-09",
+     "hora": "03:18PM",
+     "asunto": "ACUERDO DE AUTORIZACIÓN DE LA PRÓRROGA DEL PLAZO DEL ESTADO DE EMERGENCIA ESTABLECIDO MEDIANTE EL DECRETO SUPREMO 106-2026-PCM, SOLICITADO POR LA PRESIDENCIA DE LA REPÚBLICA",
+     "si": 50,
+     "no": 0,
+     "abst": 0,
+     "por_bancada": {
+      "AN": {
+       "ausente": 1,
+       "si": 3
+      },
+      "FP": {
+       "si": 16,
+       "ausente": 3,
+       "sin_resp": 1
+      },
+      "JP": {
+       "si": 10,
+       "ausente": 3
+      },
+      "PBG": {
+       "si": 6,
+       "ausente": 1
+      },
+      "PCO": {
+       "si": 5
+      },
+      "RP": {
+       "si": 8
+      }
+     }
+    }
+   ],
+   "sesiones": [
+    {
+     "fecha": "2026-10-21",
+     "documentos": {
+      "agenda": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/AGENDA-PLENO-SENADO-21-10-2026-v3-1.pdf",
+      "asistencia": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/Asistencias_y_votaciones_sesion_del_21_10_2026_vb.pdf"
+     }
+    },
+    {
+     "fecha": "2026-10-07",
+     "documentos": {
+      "agenda": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/AGENDA-PLENO-SENADO-07-10-2026-V2.pdf",
+      "asistencia": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/Asistencia_sesion_solemne_7_10_2026_vbo.pdf"
+     }
+    },
+    {
+     "fecha": "2026-09-30",
+     "documentos": {
+      "agenda": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/AGENDA-PLENO-SENADO-30-09-2026-V3.pdf",
+      "temas": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/07_ctt_30.set_.2026Senado_.pdf",
+      "asistencia": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/Asistencias_y_votaciones_sesion_30_09_2026_vbo.pdf"
+     }
+    },
+    {
+     "fecha": "2026-09-16",
+     "documentos": {
+      "temas": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/06_ctt_16.set_.2026Senado.pdf",
+      "agenda": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/AGENDA-PLENO-SENADORES-16-09-2026-FINAL2.pdf",
+      "asistencia": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/Asistencias_y_votaciones_sesion_16_09_2026_vbo.pdf"
+     }
+    },
+    {
+     "fecha": "2026-09-09",
+     "documentos": {
+      "agenda": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/AGENDA-PLENO-SENADORES-09-09-2026.pdf",
+      "asistencia": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/Asistencias_y_votaciones_sesion_09_09_2026_vbo.pdf",
+      "temas": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/Temas-tratados-09-09-2026Senado.pdf"
+     }
+    },
+    {
+     "fecha": "2026-08-18",
+     "documentos": {
+      "temas": "https://senado.congreso.gob.pe/wp-content/uploads/2026/08/TT_04_ctt_18.ago_.2026Senado.pdf",
+      "agenda": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/AGENDA-PLENO-SENADORES-18-08-2026.pdf"
+     }
+    },
+    {
+     "fecha": "2026-08-12",
+     "documentos": {
+      "temas": "https://senado.congreso.gob.pe/wp-content/uploads/2026/08/TT_03_ctt_12.ago_.2026Senado.pdf",
+      "agenda": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/AGENDA-PLENO-SENADORES-12-08-2026.pdf"
+     }
+    },
+    {
+     "fecha": "2026-08-05",
+     "documentos": {
+      "acta": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/Acta_del_Pleno_Senado_05.ago_2026.pdf",
+      "temas": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/Temas-tratados-05-08-2026Senado.pdf"
+     }
+    },
+    {
+     "fecha": "2026-07-27",
+     "documentos": {
+      "acta": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/Acta_del_Pleno_Senado_27_jul.2026.pdf",
+      "temas": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/Temas-tratados-27-07-2026-Senado.pdf",
+      "asistencia": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/Votaciones_y_Asistencias_Senado_27-7-2026.pdf"
+     }
+    },
+    {
+     "fecha": "2026-07-26",
+     "documentos": {
+      "acta": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/Acta_del_Pleno_Senado_24_-26.julio_2026.pdf",
+      "temas": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/Temas-tratados-26-07-2026Senado.pdf",
+      "asistencia": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/Votaciones_y_Asistencias_Senado_26-7-2026.pdf"
+     }
+    },
+    {
+     "fecha": "2026-07-24",
+     "documentos": {
+      "temas": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/Temas-tratados-24-07-2026-Senado.pdf",
+      "asistencia": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/Votaciones_y_Asistencias_Senado_24-7-2026.pdf"
+     }
+    },
+    {
+     "fecha": "2025-08-05",
+     "documentos": {
+      "agenda": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/AGENDA-PLENO-SENADORES-05-08-2025.pdf"
+     }
+    }
+   ]
+  }
+ },
+ "calidad": {
+  "D": {
+   "asistencia_total": 31,
+   "nombres_sin_cruce": 11,
+   "votacion_total": 21,
+   "votacion_descartado": 4
+  },
+  "S": {
+   "asistencia_total": 33,
+   "nombres_sin_cruce": 29,
+   "votacion_total": 40,
+   "votacion_descartado": 5
+  }
+ },
+ "miembros": [
+  {
+   "camara": "D",
+   "nombre": "Abensur Pinasco, Jaime Américo",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 27,
+   "ausente": 1,
+   "licencia": 3,
+   "votaciones": 17,
+   "si": 6,
+   "no": 8,
+   "abst": 0,
+   "no_voto": 3,
+   "pct_asistencia": 96.4
+  },
+  {
+   "camara": "D",
+   "nombre": "Aguirre Ramos, Marlon Alberto",
+   "sigla": "JP",
+   "pases": 31,
+   "presente": 29,
+   "ausente": 2,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 12,
+   "no": 3,
+   "abst": 0,
+   "no_voto": 2,
+   "pct_asistencia": 93.5
+  },
+  {
+   "camara": "D",
+   "nombre": "Alayza Maccera, Rossana Herminia",
+   "sigla": "PBG",
+   "pases": 31,
+   "presente": 30,
+   "ausente": 1,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 13,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 96.8
+  },
+  {
+   "camara": "D",
+   "nombre": "Albañil Carmona, Henry Antonio",
+   "sigla": "PCO",
+   "pases": 31,
+   "presente": 28,
+   "ausente": 1,
+   "licencia": 2,
+   "votaciones": 17,
+   "si": 11,
+   "no": 3,
+   "abst": 0,
+   "no_voto": 3,
+   "pct_asistencia": 96.6
+  },
+  {
+   "camara": "D",
+   "nombre": "Alegría García, Luis Arturo",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 26,
+   "ausente": 5,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 8,
+   "no": 8,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 83.9
+  },
+  {
+   "camara": "D",
+   "nombre": "Alvaron de la Cruz, Edgar Adrián",
+   "sigla": "PCO",
+   "pases": 30,
+   "presente": 24,
+   "ausente": 6,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 14,
+   "no": 1,
+   "abst": 0,
+   "no_voto": 2,
+   "pct_asistencia": 80.0
+  },
+  {
+   "camara": "D",
+   "nombre": "Ambrosio Dominguez, Yuli Liliana",
+   "sigla": "JP",
+   "pases": 31,
+   "presente": 24,
+   "ausente": 4,
+   "licencia": 3,
+   "votaciones": 17,
+   "si": 10,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 3,
+   "pct_asistencia": 85.7
+  },
+  {
+   "camara": "D",
+   "nombre": "Andrade Salguero de Alvarez, Gladys Griselda",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 27,
+   "ausente": 4,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 9,
+   "no": 7,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 87.1
+  },
+  {
+   "camara": "D",
+   "nombre": "Aranda Vasquez, Christian",
+   "sigla": "RP",
+   "pases": 31,
+   "presente": 14,
+   "ausente": 2,
+   "licencia": 15,
+   "votaciones": 17,
+   "si": 8,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 7,
+   "pct_asistencia": 87.5
+  },
+  {
+   "camara": "D",
+   "nombre": "Arminta Valencia, Marleny Bibiana",
+   "sigla": "AN",
+   "pases": 31,
+   "presente": 16,
+   "ausente": 12,
+   "licencia": 3,
+   "votaciones": 17,
+   "si": 7,
+   "no": 0,
+   "abst": 0,
+   "no_voto": 10,
+   "pct_asistencia": 57.1
+  },
+  {
+   "camara": "D",
+   "nombre": "Avendaño Vilca, Giannina Iris",
+   "sigla": "JP",
+   "pases": 31,
+   "presente": 31,
+   "ausente": 0,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 13,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 100.0
+  },
+  {
+   "camara": "D",
+   "nombre": "Baella Malca, José Isidro",
+   "sigla": "RP",
+   "pases": 31,
+   "presente": 30,
+   "ausente": 1,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 10,
+   "no": 6,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 96.8
+  },
+  {
+   "camara": "D",
+   "nombre": "Barbaran Reyes, Rosangella Andrea",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 19,
+   "ausente": 10,
+   "licencia": 2,
+   "votaciones": 17,
+   "si": 6,
+   "no": 5,
+   "abst": 0,
+   "no_voto": 6,
+   "pct_asistencia": 65.5
+  },
+  {
+   "camara": "D",
+   "nombre": "Bazán Calderón, Diego Alonso Fernando",
+   "sigla": "RP",
+   "pases": 31,
+   "presente": 25,
+   "ausente": 6,
+   "licencia": 0,
+   "votaciones": 15,
+   "si": 7,
+   "no": 5,
+   "abst": 0,
+   "no_voto": 3,
+   "pct_asistencia": 80.6
+  },
+  {
+   "camara": "D",
+   "nombre": "Benitez Barrionuevo, Jessica",
+   "sigla": "PBG",
+   "pases": 31,
+   "presente": 27,
+   "ausente": 1,
+   "licencia": 3,
+   "votaciones": 17,
+   "si": 13,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 2,
+   "pct_asistencia": 96.4
+  },
+  {
+   "camara": "D",
+   "nombre": "Beteta Rubín, Karina Juliza",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 25,
+   "ausente": 6,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 8,
+   "no": 8,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 80.6
+  },
+  {
+   "camara": "D",
+   "nombre": "Bobadilla Galindo, Angel Bruno",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 30,
+   "ausente": 1,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 9,
+   "no": 7,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 96.8
+  },
+  {
+   "camara": "D",
+   "nombre": "Bravo Quispe, Aldo Antonio",
+   "sigla": "RP",
+   "pases": 31,
+   "presente": 30,
+   "ausente": 1,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 10,
+   "no": 6,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 96.8
+  },
+  {
+   "camara": "D",
+   "nombre": "Buitron Martínez, Freshman",
+   "sigla": "AN",
+   "pases": 31,
+   "presente": 30,
+   "ausente": 1,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 15,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 96.8
+  },
+  {
+   "camara": "D",
+   "nombre": "Cabrera Nieto, Juan César",
+   "sigla": "PCO",
+   "pases": 31,
+   "presente": 31,
+   "ausente": 0,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 14,
+   "no": 3,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 100.0
+  },
+  {
+   "camara": "D",
+   "nombre": "Cahuaza Mitivire, Oswar Elbis",
+   "sigla": "JP",
+   "pases": 31,
+   "presente": 26,
+   "ausente": 5,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 10,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 3,
+   "pct_asistencia": 83.9
+  },
+  {
+   "camara": "D",
+   "nombre": "Camargo Porta, Raúl Jesús",
+   "sigla": "PCO",
+   "pases": 31,
+   "presente": 28,
+   "ausente": 3,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 15,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 90.3
+  },
+  {
+   "camara": "D",
+   "nombre": "Castillo Rivas, Eduardo Enrique",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 25,
+   "ausente": 6,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 8,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 5,
+   "pct_asistencia": 80.6
+  },
+  {
+   "camara": "D",
+   "nombre": "Castrejón Fernández, Segundo Juan",
+   "sigla": "PBG",
+   "pases": 31,
+   "presente": 30,
+   "ausente": 1,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 13,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 96.8
+  },
+  {
+   "camara": "D",
+   "nombre": "Castro Cruz, Javier Alejandro",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 28,
+   "ausente": 3,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 8,
+   "no": 7,
+   "abst": 0,
+   "no_voto": 2,
+   "pct_asistencia": 90.3
+  },
+  {
+   "camara": "D",
+   "nombre": "Castro Grandez, Royser",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 30,
+   "ausente": 1,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 9,
+   "no": 7,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 96.8
+  },
+  {
+   "camara": "D",
+   "nombre": "Celiz Castillo, Rafael Aldo",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 26,
+   "ausente": 2,
+   "licencia": 3,
+   "votaciones": 17,
+   "si": 8,
+   "no": 7,
+   "abst": 0,
+   "no_voto": 2,
+   "pct_asistencia": 92.9
+  },
+  {
+   "camara": "D",
+   "nombre": "Chacón De Vettori, Cecilia Isabel",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 19,
+   "ausente": 12,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 7,
+   "no": 6,
+   "abst": 0,
+   "no_voto": 4,
+   "pct_asistencia": 61.3
+  },
+  {
+   "camara": "D",
+   "nombre": "Chang Apuy, Felix See Hung",
+   "sigla": "RP",
+   "pases": 31,
+   "presente": 21,
+   "ausente": 3,
+   "licencia": 7,
+   "votaciones": 17,
+   "si": 9,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 6,
+   "pct_asistencia": 87.5
+  },
+  {
+   "camara": "D",
+   "nombre": "Chipana Condori, Graciela",
+   "sigla": "JP",
+   "pases": 31,
+   "presente": 28,
+   "ausente": 0,
+   "licencia": 3,
+   "votaciones": 17,
+   "si": 11,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 2,
+   "pct_asistencia": 100.0
+  },
+  {
+   "camara": "D",
+   "nombre": "Cipriani Thorne, Javier José María",
+   "sigla": "RP",
+   "pases": 31,
+   "presente": 31,
+   "ausente": 0,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 10,
+   "no": 6,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 100.0
+  },
+  {
+   "camara": "D",
+   "nombre": "Colchado Huamani, Harvey Julio",
+   "sigla": "AN",
+   "pases": 31,
+   "presente": 30,
+   "ausente": 1,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 15,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 96.8
+  },
+  {
+   "camara": "D",
+   "nombre": "Columbus Murata, Diethell",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 21,
+   "ausente": 4,
+   "licencia": 6,
+   "votaciones": 17,
+   "si": 6,
+   "no": 7,
+   "abst": 0,
+   "no_voto": 4,
+   "pct_asistencia": 84.0
+  },
+  {
+   "camara": "D",
+   "nombre": "Condori Flores, Remigio",
+   "sigla": "JP",
+   "pases": 31,
+   "presente": 30,
+   "ausente": 1,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 13,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 96.8
+  },
+  {
+   "camara": "D",
+   "nombre": "De Paz Lancho, Leo Miguel",
+   "sigla": "RP",
+   "pases": 31,
+   "presente": 29,
+   "ausente": 2,
+   "licencia": 0,
+   "votaciones": 15,
+   "si": 8,
+   "no": 5,
+   "abst": 0,
+   "no_voto": 2,
+   "pct_asistencia": 93.5
+  },
+  {
+   "camara": "D",
+   "nombre": "Dodero Jovich, Pierangeli Daniela",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 28,
+   "ausente": 2,
+   "licencia": 1,
+   "votaciones": 17,
+   "si": 9,
+   "no": 7,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 93.3
+  },
+  {
+   "camara": "D",
+   "nombre": "Dominguez Herrera, Carlos Alberto",
+   "sigla": "FP",
+   "pases": 30,
+   "presente": 22,
+   "ausente": 8,
+   "licencia": 0,
+   "votaciones": 16,
+   "si": 7,
+   "no": 6,
+   "abst": 0,
+   "no_voto": 3,
+   "pct_asistencia": 73.3
+  },
+  {
+   "camara": "D",
+   "nombre": "Duarte, Georgina",
+   "sigla": "PBG",
+   "pases": 31,
+   "presente": 23,
+   "ausente": 5,
+   "licencia": 3,
+   "votaciones": 17,
+   "si": 13,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 2,
+   "pct_asistencia": 82.1
+  },
+  {
+   "camara": "D",
+   "nombre": "Espinoza Huillca, Edwin",
+   "sigla": "PBG",
+   "pases": 31,
+   "presente": 28,
+   "ausente": 3,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 13,
+   "no": 3,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 90.3
+  },
+  {
+   "camara": "D",
+   "nombre": "Eusebio Padilla, Arturo César",
+   "sigla": "PCO",
+   "pases": 31,
+   "presente": 17,
+   "ausente": 4,
+   "licencia": 10,
+   "votaciones": 17,
+   "si": 6,
+   "no": 0,
+   "abst": 0,
+   "no_voto": 11,
+   "pct_asistencia": 81.0
+  },
+  {
+   "camara": "D",
+   "nombre": "Fernández Gonzalez, Svieta Valia",
+   "sigla": "JP",
+   "pases": 31,
+   "presente": 24,
+   "ausente": 7,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 13,
+   "no": 3,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 77.4
+  },
+  {
+   "camara": "D",
+   "nombre": "Fernández Nina, Nery Rodolfo",
+   "sigla": "PBG",
+   "pases": 31,
+   "presente": 29,
+   "ausente": 1,
+   "licencia": 1,
+   "votaciones": 17,
+   "si": 15,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 96.7
+  },
+  {
+   "camara": "D",
+   "nombre": "Fernández de la Torre, Hilda Judit",
+   "sigla": "PBG",
+   "pases": 31,
+   "presente": 26,
+   "ausente": 1,
+   "licencia": 4,
+   "votaciones": 13,
+   "si": 10,
+   "no": 3,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 96.3
+  },
+  {
+   "camara": "D",
+   "nombre": "Figari Mendoza, Pier Paolo",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 31,
+   "ausente": 0,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 9,
+   "no": 7,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 100.0
+  },
+  {
+   "camara": "D",
+   "nombre": "Flores Valdizan, Marco Antonio",
+   "sigla": "JP",
+   "pases": 31,
+   "presente": 31,
+   "ausente": 0,
+   "licencia": 0,
+   "votaciones": 16,
+   "si": 13,
+   "no": 3,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 100.0
+  },
+  {
+   "camara": "D",
+   "nombre": "Gamarra Pita, Luzmila María del Carmen",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 28,
+   "ausente": 3,
+   "licencia": 0,
+   "votaciones": 14,
+   "si": 8,
+   "no": 6,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 90.3
+  },
+  {
+   "camara": "D",
+   "nombre": "García Huby, Fernando Alberto",
+   "sigla": "PBG",
+   "pases": 31,
+   "presente": 31,
+   "ausente": 0,
+   "licencia": 0,
+   "votaciones": 15,
+   "si": 13,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 100.0
+  },
+  {
+   "camara": "D",
+   "nombre": "Gatica Vega, Francisco Javier",
+   "sigla": "FP",
+   "pases": 30,
+   "presente": 29,
+   "ausente": 1,
+   "licencia": 0,
+   "votaciones": 14,
+   "si": 9,
+   "no": 5,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 96.7
+  },
+  {
+   "camara": "D",
+   "nombre": "Gonzales Delgado, Gabriel Robertino",
+   "sigla": "JP",
+   "pases": 31,
+   "presente": 31,
+   "ausente": 0,
+   "licencia": 0,
+   "votaciones": 16,
+   "si": 13,
+   "no": 3,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 100.0
+  },
+  {
+   "camara": "D",
+   "nombre": "Gonzales Polar, Edgar Dember",
+   "sigla": "PBG",
+   "pases": 31,
+   "presente": 28,
+   "ausente": 3,
+   "licencia": 0,
+   "votaciones": 15,
+   "si": 12,
+   "no": 1,
+   "abst": 0,
+   "no_voto": 2,
+   "pct_asistencia": 90.3
+  },
+  {
+   "camara": "D",
+   "nombre": "Guevara Ramírez, Jessica Roxana",
+   "sigla": "JP",
+   "pases": 31,
+   "presente": 31,
+   "ausente": 0,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 13,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 100.0
+  },
+  {
+   "camara": "D",
+   "nombre": "Guillen Valencia, Héctor",
+   "sigla": "JP",
+   "pases": 31,
+   "presente": 30,
+   "ausente": 1,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 13,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 96.8
+  },
+  {
+   "camara": "D",
+   "nombre": "Hancco Hancco, Dina Irene",
+   "sigla": "PCO",
+   "pases": 31,
+   "presente": 30,
+   "ausente": 1,
+   "licencia": 0,
+   "votaciones": 16,
+   "si": 15,
+   "no": 1,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 96.8
+  },
+  {
+   "camara": "D",
+   "nombre": "Hirache Pizarro, Gloria Charito",
+   "sigla": "PBG",
+   "pases": 31,
+   "presente": 30,
+   "ausente": 1,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 15,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 96.8
+  },
+  {
+   "camara": "D",
+   "nombre": "Holguin Aguirre, James Arturo",
+   "sigla": "JP",
+   "pases": 31,
+   "presente": 31,
+   "ausente": 0,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 13,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 100.0
+  },
+  {
+   "camara": "D",
+   "nombre": "Holguin Loaiza, Cesar Augusto",
+   "sigla": "AN",
+   "pases": 31,
+   "presente": 31,
+   "ausente": 0,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 13,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 100.0
+  },
+  {
+   "camara": "D",
+   "nombre": "Huamán Cornejo, Miguel Felix",
+   "sigla": "PBG",
+   "pases": 31,
+   "presente": 27,
+   "ausente": 1,
+   "licencia": 3,
+   "votaciones": 15,
+   "si": 11,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 2,
+   "pct_asistencia": 96.4
+  },
+  {
+   "camara": "D",
+   "nombre": "Huilca Flores, Indira Isabel",
+   "sigla": "AN",
+   "pases": 31,
+   "presente": 27,
+   "ausente": 4,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 13,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 87.1
+  },
+  {
+   "camara": "D",
+   "nombre": "Infantes Castañeda, Mery Eliana",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 28,
+   "ausente": 3,
+   "licencia": 0,
+   "votaciones": 15,
+   "si": 7,
+   "no": 7,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 90.3
+  },
+  {
+   "camara": "D",
+   "nombre": "Isla Rojas, Azucena",
+   "sigla": "JP",
+   "pases": 31,
+   "presente": 28,
+   "ausente": 2,
+   "licencia": 1,
+   "votaciones": 16,
+   "si": 13,
+   "no": 3,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 93.3
+  },
+  {
+   "camara": "D",
+   "nombre": "Jibaja Ramos, Luis Angel",
+   "sigla": "JP",
+   "pases": 31,
+   "presente": 30,
+   "ausente": 1,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 12,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 96.8
+  },
+  {
+   "camara": "D",
+   "nombre": "Krklec Torres, Frank",
+   "sigla": "RP",
+   "pases": 31,
+   "presente": 28,
+   "ausente": 3,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 10,
+   "no": 6,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 90.3
+  },
+  {
+   "camara": "D",
+   "nombre": "Lavado Valdivia, Marino Teofilo",
+   "sigla": "JP",
+   "pases": 31,
+   "presente": 28,
+   "ausente": 0,
+   "licencia": 3,
+   "votaciones": 17,
+   "si": 11,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 2,
+   "pct_asistencia": 100.0
+  },
+  {
+   "camara": "D",
+   "nombre": "Leiva Baylon, Leticia Maruja",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 28,
+   "ausente": 3,
+   "licencia": 0,
+   "votaciones": 16,
+   "si": 9,
+   "no": 6,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 90.3
+  },
+  {
+   "camara": "D",
+   "nombre": "Llaque Linares, Nora María",
+   "sigla": "PBG",
+   "pases": 31,
+   "presente": 30,
+   "ausente": 1,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 14,
+   "no": 3,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 96.8
+  },
+  {
+   "camara": "D",
+   "nombre": "López Letona, Heber",
+   "sigla": "PCO",
+   "pases": 31,
+   "presente": 29,
+   "ausente": 2,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 14,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 93.5
+  },
+  {
+   "camara": "D",
+   "nombre": "Manay Pillaca, Alejandro José",
+   "sigla": "JP",
+   "pases": 31,
+   "presente": 31,
+   "ausente": 0,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 12,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 100.0
+  },
+  {
+   "camara": "D",
+   "nombre": "Manrique Olivera, Bernardino Jair",
+   "sigla": "AN",
+   "pases": 31,
+   "presente": 21,
+   "ausente": 10,
+   "licencia": 0,
+   "votaciones": 15,
+   "si": 12,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 67.7
+  },
+  {
+   "camara": "D",
+   "nombre": "Marcelo Salazar, José Miguel",
+   "sigla": "AN",
+   "pases": 31,
+   "presente": 26,
+   "ausente": 5,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 15,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 83.9
+  },
+  {
+   "camara": "D",
+   "nombre": "Marquez Huanca, Analí",
+   "sigla": "JP",
+   "pases": 31,
+   "presente": 31,
+   "ausente": 0,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 13,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 100.0
+  },
+  {
+   "camara": "D",
+   "nombre": "Martínez Paitán, Paola Isabel",
+   "sigla": "RP",
+   "pases": 31,
+   "presente": 23,
+   "ausente": 5,
+   "licencia": 3,
+   "votaciones": 17,
+   "si": 9,
+   "no": 6,
+   "abst": 0,
+   "no_voto": 2,
+   "pct_asistencia": 82.1
+  },
+  {
+   "camara": "D",
+   "nombre": "Masco Cáceres, Luis Aurelio",
+   "sigla": "PCO",
+   "pases": 31,
+   "presente": 27,
+   "ausente": 1,
+   "licencia": 3,
+   "votaciones": 16,
+   "si": 13,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 96.4
+  },
+  {
+   "camara": "D",
+   "nombre": "Medina Stein, Andrea Dayna",
+   "sigla": "PCO",
+   "pases": 31,
+   "presente": 30,
+   "ausente": 1,
+   "licencia": 0,
+   "votaciones": 16,
+   "si": 14,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 96.8
+  },
+  {
+   "camara": "D",
+   "nombre": "Mendoza Bernedo, Liz Huli",
+   "sigla": "FP",
+   "pases": 30,
+   "presente": 28,
+   "ausente": 1,
+   "licencia": 1,
+   "votaciones": 17,
+   "si": 8,
+   "no": 7,
+   "abst": 0,
+   "no_voto": 2,
+   "pct_asistencia": 96.6
+  },
+  {
+   "camara": "D",
+   "nombre": "Meneses Crispin, Angel Renato",
+   "sigla": "AN",
+   "pases": 31,
+   "presente": 29,
+   "ausente": 2,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 15,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 93.5
+  },
+  {
+   "camara": "D",
+   "nombre": "Meza Rivera, Flor de Jesús",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 25,
+   "ausente": 6,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 8,
+   "no": 7,
+   "abst": 0,
+   "no_voto": 2,
+   "pct_asistencia": 80.6
+  },
+  {
+   "camara": "D",
+   "nombre": "Molina Soto, Nathaly Milagros",
+   "sigla": "PBG",
+   "pases": 31,
+   "presente": 29,
+   "ausente": 2,
+   "licencia": 0,
+   "votaciones": 16,
+   "si": 14,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 93.5
+  },
+  {
+   "camara": "D",
+   "nombre": "Muedas Balbiese, Cesar Augusto",
+   "sigla": "AN",
+   "pases": 31,
+   "presente": 27,
+   "ausente": 4,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 15,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 87.1
+  },
+  {
+   "camara": "D",
+   "nombre": "Muñoz Yurivilca, Kim Tami",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 30,
+   "ausente": 1,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 9,
+   "no": 7,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 96.8
+  },
+  {
+   "camara": "D",
+   "nombre": "Navas Sánchez, Jessica Lizbeth",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 28,
+   "ausente": 3,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 9,
+   "no": 7,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 90.3
+  },
+  {
+   "camara": "D",
+   "nombre": "Obando Morgan, Auristela Ana",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 27,
+   "ausente": 4,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 7,
+   "no": 7,
+   "abst": 0,
+   "no_voto": 3,
+   "pct_asistencia": 87.1
+  },
+  {
+   "camara": "D",
+   "nombre": "Pacheco Quispe, Marco Antonio",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 22,
+   "ausente": 1,
+   "licencia": 8,
+   "votaciones": 15,
+   "si": 5,
+   "no": 3,
+   "abst": 0,
+   "no_voto": 7,
+   "pct_asistencia": 95.7
+  },
+  {
+   "camara": "D",
+   "nombre": "Palma Mendoza, José Marvin",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 28,
+   "ausente": 3,
+   "licencia": 0,
+   "votaciones": 14,
+   "si": 6,
+   "no": 6,
+   "abst": 0,
+   "no_voto": 2,
+   "pct_asistencia": 90.3
+  },
+  {
+   "camara": "D",
+   "nombre": "Palomino Casavilca, Catherin Norma",
+   "sigla": "JP",
+   "pases": 31,
+   "presente": 31,
+   "ausente": 0,
+   "licencia": 0,
+   "votaciones": 16,
+   "si": 12,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 100.0
+  },
+  {
+   "camara": "D",
+   "nombre": "Palomino Pacheco, Amalia Emilia",
+   "sigla": "JP",
+   "pases": 31,
+   "presente": 26,
+   "ausente": 5,
+   "licencia": 0,
+   "votaciones": 15,
+   "si": 12,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 83.9
+  },
+  {
+   "camara": "D",
+   "nombre": "Paredes Navarro, Yenifer Noelia",
+   "sigla": "JP",
+   "pases": 31,
+   "presente": 29,
+   "ausente": 2,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 12,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 93.5
+  },
+  {
+   "camara": "D",
+   "nombre": "Patiño Urco, Ana Bertha",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 27,
+   "ausente": 4,
+   "licencia": 0,
+   "votaciones": 15,
+   "si": 7,
+   "no": 7,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 87.1
+  },
+  {
+   "camara": "D",
+   "nombre": "Paucara Paxi, Carmela",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 27,
+   "ausente": 3,
+   "licencia": 1,
+   "votaciones": 16,
+   "si": 6,
+   "no": 7,
+   "abst": 0,
+   "no_voto": 3,
+   "pct_asistencia": 90.0
+  },
+  {
+   "camara": "D",
+   "nombre": "Peralta Jorpa, Máximo",
+   "sigla": "PCO",
+   "pases": 31,
+   "presente": 29,
+   "ausente": 2,
+   "licencia": 0,
+   "votaciones": 16,
+   "si": 14,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 93.5
+  },
+  {
+   "camara": "D",
+   "nombre": "Perez Quispe, Jessica Sadith",
+   "sigla": "JP",
+   "pases": 31,
+   "presente": 31,
+   "ausente": 0,
+   "licencia": 0,
+   "votaciones": 16,
+   "si": 12,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 100.0
+  },
+  {
+   "camara": "D",
+   "nombre": "Peña Córdova, Olver",
+   "sigla": "JP",
+   "pases": 31,
+   "presente": 31,
+   "ausente": 0,
+   "licencia": 0,
+   "votaciones": 16,
+   "si": 12,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 100.0
+  },
+  {
+   "camara": "D",
+   "nombre": "Pinasco Montenegro, Nary Benvinda",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 28,
+   "ausente": 1,
+   "licencia": 2,
+   "votaciones": 17,
+   "si": 8,
+   "no": 7,
+   "abst": 0,
+   "no_voto": 2,
+   "pct_asistencia": 96.6
+  },
+  {
+   "camara": "D",
+   "nombre": "Piñán Mamani, Víctor Eduardo",
+   "sigla": "PCO",
+   "pases": 31,
+   "presente": 28,
+   "ausente": 3,
+   "licencia": 0,
+   "votaciones": 15,
+   "si": 13,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 90.3
+  },
+  {
+   "camara": "D",
+   "nombre": "Poma Huamaní, Haydee Celinda",
+   "sigla": "JP",
+   "pases": 31,
+   "presente": 31,
+   "ausente": 0,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 13,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 100.0
+  },
+  {
+   "camara": "D",
+   "nombre": "Prado Vallejos, Lila Marianela",
+   "sigla": "PBG",
+   "pases": 31,
+   "presente": 29,
+   "ausente": 2,
+   "licencia": 0,
+   "votaciones": 15,
+   "si": 13,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 93.5
+  },
+  {
+   "camara": "D",
+   "nombre": "Pérez Alccahuaman, Jesús",
+   "sigla": "JP",
+   "pases": 31,
+   "presente": 30,
+   "ausente": 1,
+   "licencia": 0,
+   "votaciones": 15,
+   "si": 13,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 96.8
+  },
+  {
+   "camara": "D",
+   "nombre": "Pérez Mallqui, Julián Luis",
+   "sigla": "JP",
+   "pases": 31,
+   "presente": 25,
+   "ausente": 6,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 11,
+   "no": 0,
+   "abst": 0,
+   "no_voto": 6,
+   "pct_asistencia": 80.6
+  },
+  {
+   "camara": "D",
+   "nombre": "Quezada Castro, Geanmarco Antonio",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 30,
+   "ausente": 1,
+   "licencia": 0,
+   "votaciones": 15,
+   "si": 7,
+   "no": 7,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 96.8
+  },
+  {
+   "camara": "D",
+   "nombre": "Quispe Candia, Luis Eliseo",
+   "sigla": "PBG",
+   "pases": 31,
+   "presente": 26,
+   "ausente": 5,
+   "licencia": 0,
+   "votaciones": 15,
+   "si": 12,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 83.9
+  },
+  {
+   "camara": "D",
+   "nombre": "Ramos Rosales, María Candelaria",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 22,
+   "ausente": 8,
+   "licencia": 1,
+   "votaciones": 17,
+   "si": 7,
+   "no": 5,
+   "abst": 0,
+   "no_voto": 5,
+   "pct_asistencia": 73.3
+  },
+  {
+   "camara": "D",
+   "nombre": "Reto Otero, Oscar de Jesús",
+   "sigla": "PBG",
+   "pases": 31,
+   "presente": 28,
+   "ausente": 3,
+   "licencia": 0,
+   "votaciones": 0,
+   "si": 0,
+   "no": 0,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 90.3
+  },
+  {
+   "camara": "D",
+   "nombre": "Revilla Villanueva, César Manuel",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 28,
+   "ausente": 3,
+   "licencia": 0,
+   "votaciones": 16,
+   "si": 8,
+   "no": 7,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 90.3
+  },
+  {
+   "camara": "D",
+   "nombre": "Rocha Gallegos, Roxana María",
+   "sigla": "RP",
+   "pases": 31,
+   "presente": 28,
+   "ausente": 3,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 10,
+   "no": 6,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 90.3
+  },
+  {
+   "camara": "D",
+   "nombre": "Salas Rivera, Alexander",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 26,
+   "ausente": 5,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 7,
+   "no": 5,
+   "abst": 0,
+   "no_voto": 5,
+   "pct_asistencia": 83.9
+  },
+  {
+   "camara": "D",
+   "nombre": "Samanez Gonzales Vigil, Jeenny Cristina",
+   "sigla": "PCO",
+   "pases": 31,
+   "presente": 21,
+   "ausente": 10,
+   "licencia": 0,
+   "votaciones": 16,
+   "si": 9,
+   "no": 0,
+   "abst": 0,
+   "no_voto": 7,
+   "pct_asistencia": 67.7
+  },
+  {
+   "camara": "D",
+   "nombre": "Santana Vera, Milagros Karina",
+   "sigla": "PBG",
+   "pases": 31,
+   "presente": 21,
+   "ausente": 10,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 8,
+   "no": 1,
+   "abst": 0,
+   "no_voto": 8,
+   "pct_asistencia": 67.7
+  },
+  {
+   "camara": "D",
+   "nombre": "Segura Figueroa, Gustavo Alexander",
+   "sigla": "RP",
+   "pases": 31,
+   "presente": 27,
+   "ausente": 4,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 10,
+   "no": 6,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 87.1
+  },
+  {
+   "camara": "D",
+   "nombre": "Silupu Inga, María Luisa",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 27,
+   "ausente": 1,
+   "licencia": 3,
+   "votaciones": 17,
+   "si": 7,
+   "no": 7,
+   "abst": 0,
+   "no_voto": 3,
+   "pct_asistencia": 96.4
+  },
+  {
+   "camara": "D",
+   "nombre": "Sonco Villanueva, Helard Bladimir",
+   "sigla": "AN",
+   "pases": 31,
+   "presente": 19,
+   "ausente": 9,
+   "licencia": 3,
+   "votaciones": 15,
+   "si": 5,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 8,
+   "pct_asistencia": 67.9
+  },
+  {
+   "camara": "D",
+   "nombre": "Soto Ferrari, Luz Mérida",
+   "sigla": "JP",
+   "pases": 31,
+   "presente": 30,
+   "ausente": 1,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 13,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 96.8
+  },
+  {
+   "camara": "D",
+   "nombre": "Sulca Castillo, Pilar",
+   "sigla": "JP",
+   "pases": 31,
+   "presente": 31,
+   "ausente": 0,
+   "licencia": 0,
+   "votaciones": 16,
+   "si": 12,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 100.0
+  },
+  {
+   "camara": "D",
+   "nombre": "Takayama Jimenez, Liliana Milagros",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 27,
+   "ausente": 4,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 8,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 5,
+   "pct_asistencia": 87.1
+  },
+  {
+   "camara": "D",
+   "nombre": "Tapullima Insapillo, Jacqueline Viviana",
+   "sigla": "JP",
+   "pases": 31,
+   "presente": 31,
+   "ausente": 0,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 13,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 100.0
+  },
+  {
+   "camara": "D",
+   "nombre": "Ticlla Rafael, Segundo Senovio",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 30,
+   "ausente": 1,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 9,
+   "no": 7,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 96.8
+  },
+  {
+   "camara": "D",
+   "nombre": "Tito Rojas, César Hugo",
+   "sigla": "JP",
+   "pases": 31,
+   "presente": 30,
+   "ausente": 1,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 13,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 96.8
+  },
+  {
+   "camara": "D",
+   "nombre": "Trujillo Zegarra, Gilmer",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 28,
+   "ausente": 1,
+   "licencia": 2,
+   "votaciones": 17,
+   "si": 8,
+   "no": 7,
+   "abst": 0,
+   "no_voto": 2,
+   "pct_asistencia": 96.6
+  },
+  {
+   "camara": "D",
+   "nombre": "Uribe Saenz, Romina Alejandra",
+   "sigla": "PBG",
+   "pases": 31,
+   "presente": 27,
+   "ausente": 1,
+   "licencia": 3,
+   "votaciones": 14,
+   "si": 11,
+   "no": 1,
+   "abst": 0,
+   "no_voto": 2,
+   "pct_asistencia": 96.4
+  },
+  {
+   "camara": "D",
+   "nombre": "Valqui Calderón, Demetrio Flavio",
+   "sigla": "PCO",
+   "pases": 31,
+   "presente": 27,
+   "ausente": 4,
+   "licencia": 0,
+   "votaciones": 15,
+   "si": 12,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 87.1
+  },
+  {
+   "camara": "D",
+   "nombre": "Valqui Ordoñez, Jhonn Brayam",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 27,
+   "ausente": 2,
+   "licencia": 2,
+   "votaciones": 17,
+   "si": 7,
+   "no": 7,
+   "abst": 0,
+   "no_voto": 3,
+   "pct_asistencia": 93.1
+  },
+  {
+   "camara": "D",
+   "nombre": "Varas Seguin, Daniel Jefferson",
+   "sigla": "JP",
+   "pases": 31,
+   "presente": 31,
+   "ausente": 0,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 13,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 100.0
+  },
+  {
+   "camara": "D",
+   "nombre": "Vidaurre Floridas, César Manuel",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 28,
+   "ausente": 3,
+   "licencia": 0,
+   "votaciones": 14,
+   "si": 6,
+   "no": 7,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 90.3
+  },
+  {
+   "camara": "D",
+   "nombre": "Villanueva Calderón, Juan Amilcar",
+   "sigla": "JP",
+   "pases": 31,
+   "presente": 30,
+   "ausente": 1,
+   "licencia": 0,
+   "votaciones": 16,
+   "si": 12,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 96.8
+  },
+  {
+   "camara": "D",
+   "nombre": "Yalta Sotelo, Carlos Alberto",
+   "sigla": "RP",
+   "pases": 31,
+   "presente": 30,
+   "ausente": 1,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 10,
+   "no": 6,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 96.8
+  },
+  {
+   "camara": "D",
+   "nombre": "Yarrow Lumbreras, Norma Martina",
+   "sigla": "RP",
+   "pases": 31,
+   "presente": 21,
+   "ausente": 1,
+   "licencia": 9,
+   "votaciones": 16,
+   "si": 6,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 8,
+   "pct_asistencia": 95.5
+  },
+  {
+   "camara": "D",
+   "nombre": "Yataco Torrealva, José Ricardo",
+   "sigla": "PCO",
+   "pases": 31,
+   "presente": 30,
+   "ausente": 1,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 15,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 96.8
+  },
+  {
+   "camara": "D",
+   "nombre": "Yonz Núñez, Mady Verónica",
+   "sigla": "RP",
+   "pases": 31,
+   "presente": 26,
+   "ausente": 5,
+   "licencia": 0,
+   "votaciones": 16,
+   "si": 9,
+   "no": 6,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 83.9
+  },
+  {
+   "camara": "D",
+   "nombre": "Yuffra Lugo, Ana Luisa",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 26,
+   "ausente": 5,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 9,
+   "no": 7,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 83.9
+  },
+  {
+   "camara": "D",
+   "nombre": "Zeballos Aponte, Jorge Arturo",
+   "sigla": "RP",
+   "pases": 31,
+   "presente": 15,
+   "ausente": 12,
+   "licencia": 4,
+   "votaciones": 17,
+   "si": 6,
+   "no": 5,
+   "abst": 0,
+   "no_voto": 6,
+   "pct_asistencia": 55.6
+  },
+  {
+   "camara": "D",
+   "nombre": "Zegarra Sánchez, Carlos Alberto",
+   "sigla": "FP",
+   "pases": 31,
+   "presente": 30,
+   "ausente": 1,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 9,
+   "no": 7,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 96.8
+  },
+  {
+   "camara": "D",
+   "nombre": "Zunini Yerren, Ernesto Alonzo",
+   "sigla": "JP",
+   "pases": 31,
+   "presente": 30,
+   "ausente": 1,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 13,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 96.8
+  },
+  {
+   "camara": "S",
+   "nombre": "Aguinaga Recuenco, Alejandro Aurelio",
+   "sigla": "FP",
+   "pases": 16,
+   "presente": 13,
+   "ausente": 3,
+   "licencia": 0,
+   "votaciones": 33,
+   "si": 28,
+   "no": 5,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 81.2
+  },
+  {
+   "camara": "S",
+   "nombre": "Alcorta Suero, María Lourdes Pía Luisa",
+   "sigla": "RP",
+   "pases": 33,
+   "presente": 31,
+   "ausente": 2,
+   "licencia": 0,
+   "votaciones": 34,
+   "si": 26,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 4,
+   "pct_asistencia": 93.9
+  },
+  {
+   "camara": "S",
+   "nombre": "Ampuero Meza, Katherine Milagros",
+   "sigla": "RP",
+   "pases": 33,
+   "presente": 27,
+   "ausente": 6,
+   "licencia": 0,
+   "votaciones": 35,
+   "si": 27,
+   "no": 5,
+   "abst": 0,
+   "no_voto": 3,
+   "pct_asistencia": 81.8
+  },
+  {
+   "camara": "S",
+   "nombre": "Andrés Luján, Serafín",
+   "sigla": "JP",
+   "pases": 33,
+   "presente": 29,
+   "ausente": 4,
+   "licencia": 0,
+   "votaciones": 35,
+   "si": 22,
+   "no": 8,
+   "abst": 0,
+   "no_voto": 5,
+   "pct_asistencia": 87.9
+  },
+  {
+   "camara": "S",
+   "nombre": "Arista Arbildo, José Berley",
+   "sigla": "FP",
+   "pases": 33,
+   "presente": 24,
+   "ausente": 9,
+   "licencia": 0,
+   "votaciones": 35,
+   "si": 21,
+   "no": 5,
+   "abst": 0,
+   "no_voto": 9,
+   "pct_asistencia": 72.7
+  },
+  {
+   "camara": "S",
+   "nombre": "Armacanqui Morales, Saúl Andrés",
+   "sigla": "JP",
+   "pases": 32,
+   "presente": 22,
+   "ausente": 10,
+   "licencia": 0,
+   "votaciones": 35,
+   "si": 13,
+   "no": 5,
+   "abst": 0,
+   "no_voto": 17,
+   "pct_asistencia": 68.8
+  },
+  {
+   "camara": "S",
+   "nombre": "Astucuri Laura, Roger Miguel",
+   "sigla": "PCO",
+   "pases": 33,
+   "presente": 32,
+   "ausente": 1,
+   "licencia": 0,
+   "votaciones": 33,
+   "si": 29,
+   "no": 3,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 97.0
+  },
+  {
+   "camara": "S",
+   "nombre": "Astudillo Salcedo, César Augusto",
+   "sigla": "FP",
+   "pases": 33,
+   "presente": 6,
+   "ausente": 1,
+   "licencia": 26,
+   "votaciones": 35,
+   "si": 6,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 27,
+   "pct_asistencia": 85.7
+  },
+  {
+   "camara": "S",
+   "nombre": "Barragán Coloma, Daniel Hugo",
+   "sigla": "PCO",
+   "pases": 33,
+   "presente": 30,
+   "ausente": 1,
+   "licencia": 2,
+   "votaciones": 32,
+   "si": 29,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 96.8
+  },
+  {
+   "camara": "S",
+   "nombre": "Bonifaz Carmona, Nora",
+   "sigla": "PBG",
+   "pases": 33,
+   "presente": 30,
+   "ausente": 3,
+   "licencia": 0,
+   "votaciones": 35,
+   "si": 31,
+   "no": 3,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 90.9
+  },
+  {
+   "camara": "S",
+   "nombre": "Caballero León, Carlos David",
+   "sigla": "PBG",
+   "pases": 33,
+   "presente": 29,
+   "ausente": 4,
+   "licencia": 0,
+   "votaciones": 35,
+   "si": 29,
+   "no": 5,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 87.9
+  },
+  {
+   "camara": "S",
+   "nombre": "Calisto Giampietri, Francisco José",
+   "sigla": "RP",
+   "pases": 33,
+   "presente": 33,
+   "ausente": 0,
+   "licencia": 0,
+   "votaciones": 35,
+   "si": 30,
+   "no": 5,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 100.0
+  },
+  {
+   "camara": "S",
+   "nombre": "Castillo Terrones, José Mercedes",
+   "sigla": "JP",
+   "pases": 33,
+   "presente": 32,
+   "ausente": 1,
+   "licencia": 0,
+   "votaciones": 34,
+   "si": 24,
+   "no": 10,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 97.0
+  },
+  {
+   "camara": "S",
+   "nombre": "Ccahuana Aymachoque, Hugo Isaac",
+   "sigla": "JP",
+   "pases": 33,
+   "presente": 12,
+   "ausente": 21,
+   "licencia": 0,
+   "votaciones": 35,
+   "si": 7,
+   "no": 8,
+   "abst": 0,
+   "no_voto": 20,
+   "pct_asistencia": 36.4
+  },
+  {
+   "camara": "S",
+   "nombre": "Chacón Trujillo, Nilza Merly",
+   "sigla": "FP",
+   "pases": 33,
+   "presente": 30,
+   "ausente": 1,
+   "licencia": 2,
+   "votaciones": 34,
+   "si": 28,
+   "no": 5,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 96.8
+  },
+  {
+   "camara": "S",
+   "nombre": "Chipana Chipana, José Moisés",
+   "sigla": "JP",
+   "pases": 33,
+   "presente": 31,
+   "ausente": 2,
+   "licencia": 0,
+   "votaciones": 35,
+   "si": 19,
+   "no": 13,
+   "abst": 0,
+   "no_voto": 3,
+   "pct_asistencia": 93.9
+  },
+  {
+   "camara": "S",
+   "nombre": "Chávez Cossío, Martha Gladys",
+   "sigla": "FP",
+   "pases": 33,
+   "presente": 29,
+   "ausente": 2,
+   "licencia": 2,
+   "votaciones": 35,
+   "si": 29,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 2,
+   "pct_asistencia": 93.5
+  },
+  {
+   "camara": "S",
+   "nombre": "Cutipa Ccama, Víctor Raúl",
+   "sigla": "JP",
+   "pases": 33,
+   "presente": 29,
+   "ausente": 4,
+   "licencia": 0,
+   "votaciones": 35,
+   "si": 19,
+   "no": 13,
+   "abst": 0,
+   "no_voto": 3,
+   "pct_asistencia": 87.9
+  },
+  {
+   "camara": "S",
+   "nombre": "Del Águila Cárdenas, Juan Carlos",
+   "sigla": "FP",
+   "pases": 33,
+   "presente": 29,
+   "ausente": 4,
+   "licencia": 0,
+   "votaciones": 35,
+   "si": 26,
+   "no": 5,
+   "abst": 0,
+   "no_voto": 4,
+   "pct_asistencia": 87.9
+  },
+  {
+   "camara": "S",
+   "nombre": "Delgado Zegarra, Jaime Ricardo",
+   "sigla": "AN",
+   "pases": 33,
+   "presente": 30,
+   "ausente": 3,
+   "licencia": 0,
+   "votaciones": 34,
+   "si": 28,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 2,
+   "pct_asistencia": 90.9
+  },
+  {
+   "camara": "S",
+   "nombre": "Figallo Rivadeneyra, Flavio Felipe",
+   "sigla": "PBG",
+   "pases": 33,
+   "presente": 30,
+   "ausente": 3,
+   "licencia": 0,
+   "votaciones": 34,
+   "si": 29,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 90.9
+  },
+  {
+   "camara": "S",
+   "nombre": "Flores Córdova, Agripina María del Pilar",
+   "sigla": "PCO",
+   "pases": 33,
+   "presente": 21,
+   "ausente": 7,
+   "licencia": 5,
+   "votaciones": 33,
+   "si": 24,
+   "no": 0,
+   "abst": 0,
+   "no_voto": 9,
+   "pct_asistencia": 75.0
+  },
+  {
+   "camara": "S",
+   "nombre": "Flores Ruiz, Víctor Seferino",
+   "sigla": "FP",
+   "pases": 33,
+   "presente": 30,
+   "ausente": 3,
+   "licencia": 0,
+   "votaciones": 35,
+   "si": 28,
+   "no": 5,
+   "abst": 0,
+   "no_voto": 2,
+   "pct_asistencia": 90.9
+  },
+  {
+   "camara": "S",
+   "nombre": "Flores Suárez, Juver Nilson",
+   "sigla": "PBG",
+   "pases": 33,
+   "presente": 26,
+   "ausente": 7,
+   "licencia": 0,
+   "votaciones": 34,
+   "si": 28,
+   "no": 5,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 78.8
+  },
+  {
+   "camara": "S",
+   "nombre": "Gago Rodríguez, Walter Francisco",
+   "sigla": "PCO",
+   "pases": 33,
+   "presente": 28,
+   "ausente": 5,
+   "licencia": 0,
+   "votaciones": 32,
+   "si": 27,
+   "no": 3,
+   "abst": 0,
+   "no_voto": 2,
+   "pct_asistencia": 84.8
+  },
+  {
+   "camara": "S",
+   "nombre": "Gavidia Rodríguez, Jorge Octavio",
+   "sigla": "PBG",
+   "pases": 33,
+   "presente": 33,
+   "ausente": 0,
+   "licencia": 0,
+   "votaciones": 34,
+   "si": 30,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 2,
+   "pct_asistencia": 100.0
+  },
+  {
+   "camara": "S",
+   "nombre": "Iturregui Byrne, Patricia Milagros",
+   "sigla": "PBG",
+   "pases": 33,
+   "presente": 27,
+   "ausente": 6,
+   "licencia": 0,
+   "votaciones": 33,
+   "si": 23,
+   "no": 6,
+   "abst": 0,
+   "no_voto": 4,
+   "pct_asistencia": 81.8
+  },
+  {
+   "camara": "S",
+   "nombre": "Jauregui Martínez de Aguayo, María de los Milagros Jackeline",
+   "sigla": "RP",
+   "pases": 33,
+   "presente": 29,
+   "ausente": 4,
+   "licencia": 0,
+   "votaciones": 35,
+   "si": 27,
+   "no": 5,
+   "abst": 0,
+   "no_voto": 3,
+   "pct_asistencia": 87.9
+  },
+  {
+   "camara": "S",
+   "nombre": "Jiménez Heredia, David Julio",
+   "sigla": "FP",
+   "pases": 33,
+   "presente": 27,
+   "ausente": 2,
+   "licencia": 4,
+   "votaciones": 35,
+   "si": 25,
+   "no": 5,
+   "abst": 0,
+   "no_voto": 5,
+   "pct_asistencia": 93.1
+  },
+  {
+   "camara": "S",
+   "nombre": "Juárez Gallegos, Carmen Patricia",
+   "sigla": "FP",
+   "pases": 33,
+   "presente": 32,
+   "ausente": 1,
+   "licencia": 0,
+   "votaciones": 29,
+   "si": 23,
+   "no": 5,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 97.0
+  },
+  {
+   "camara": "S",
+   "nombre": "Luque Ibarra, Ruth",
+   "sigla": "AN",
+   "pases": 33,
+   "presente": 26,
+   "ausente": 7,
+   "licencia": 0,
+   "votaciones": 32,
+   "si": 21,
+   "no": 9,
+   "abst": 0,
+   "no_voto": 2,
+   "pct_asistencia": 78.8
+  },
+  {
+   "camara": "S",
+   "nombre": "López Chau Nava, Pablo Alfonso",
+   "sigla": "AN",
+   "pases": 33,
+   "presente": 13,
+   "ausente": 20,
+   "licencia": 0,
+   "votaciones": 31,
+   "si": 12,
+   "no": 0,
+   "abst": 0,
+   "no_voto": 19,
+   "pct_asistencia": 39.4
+  },
+  {
+   "camara": "S",
+   "nombre": "Mancha Pineda, Estanislao Edgar",
+   "sigla": "RP",
+   "pases": 33,
+   "presente": 31,
+   "ausente": 2,
+   "licencia": 0,
+   "votaciones": 34,
+   "si": 28,
+   "no": 5,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 93.9
+  },
+  {
+   "camara": "S",
+   "nombre": "Maraví Olarte, Iber Antenor",
+   "sigla": "JP",
+   "pases": 33,
+   "presente": 33,
+   "ausente": 0,
+   "licencia": 0,
+   "votaciones": 31,
+   "si": 20,
+   "no": 10,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 100.0
+  },
+  {
+   "camara": "S",
+   "nombre": "Matute Charún, Susana Flor de María",
+   "sigla": "PBG",
+   "pases": 33,
+   "presente": 16,
+   "ausente": 2,
+   "licencia": 15,
+   "votaciones": 34,
+   "si": 14,
+   "no": 5,
+   "abst": 0,
+   "no_voto": 15,
+   "pct_asistencia": 88.9
+  },
+  {
+   "camara": "S",
+   "nombre": "Melgar Váldez, Elard Galo",
+   "sigla": "FP",
+   "pases": 33,
+   "presente": 29,
+   "ausente": 2,
+   "licencia": 2,
+   "votaciones": 33,
+   "si": 26,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 3,
+   "pct_asistencia": 93.5
+  },
+  {
+   "camara": "S",
+   "nombre": "Mesía Ramírez, Carlos Fernando",
+   "sigla": "FP",
+   "pases": 33,
+   "presente": 27,
+   "ausente": 6,
+   "licencia": 0,
+   "votaciones": 35,
+   "si": 30,
+   "no": 5,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 81.8
+  },
+  {
+   "camara": "S",
+   "nombre": "Miyashiro Arashiro, Marco Enrique",
+   "sigla": "FP",
+   "pases": 33,
+   "presente": 16,
+   "ausente": 17,
+   "licencia": 0,
+   "votaciones": 35,
+   "si": 12,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 19,
+   "pct_asistencia": 48.5
+  },
+  {
+   "camara": "S",
+   "nombre": "Morales Ramírez, Edyson Humberto",
+   "sigla": "JP",
+   "pases": 33,
+   "presente": 32,
+   "ausente": 1,
+   "licencia": 0,
+   "votaciones": 35,
+   "si": 22,
+   "no": 13,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 97.0
+  },
+  {
+   "camara": "S",
+   "nombre": "Moyano Delgado, Martha Lupe",
+   "sigla": "FP",
+   "pases": 33,
+   "presente": 31,
+   "ausente": 2,
+   "licencia": 0,
+   "votaciones": 32,
+   "si": 26,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 2,
+   "pct_asistencia": 93.9
+  },
+  {
+   "camara": "S",
+   "nombre": "Muñante Barrios, Alejandro",
+   "sigla": "RP",
+   "pases": 33,
+   "presente": 27,
+   "ausente": 6,
+   "licencia": 0,
+   "votaciones": 27,
+   "si": 15,
+   "no": 3,
+   "abst": 0,
+   "no_voto": 9,
+   "pct_asistencia": 81.8
+  },
+  {
+   "camara": "S",
+   "nombre": "Noriega Reátegui, Víctor Manuel",
+   "sigla": "FP",
+   "pases": 33,
+   "presente": 33,
+   "ausente": 0,
+   "licencia": 0,
+   "votaciones": 34,
+   "si": 29,
+   "no": 5,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 100.0
+  },
+  {
+   "camara": "S",
+   "nombre": "Osorio Palpán, Percy Herbert",
+   "sigla": "JP",
+   "pases": 33,
+   "presente": 31,
+   "ausente": 2,
+   "licencia": 0,
+   "votaciones": 35,
+   "si": 26,
+   "no": 9,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 93.9
+  },
+  {
+   "camara": "S",
+   "nombre": "Quito Sarmiento, Bernardo Jaime",
+   "sigla": "JP",
+   "pases": 33,
+   "presente": 30,
+   "ausente": 3,
+   "licencia": 0,
+   "votaciones": 33,
+   "si": 17,
+   "no": 12,
+   "abst": 0,
+   "no_voto": 4,
+   "pct_asistencia": 90.9
+  },
+  {
+   "camara": "S",
+   "nombre": "Ramos Huillcas, Andrés Avelino",
+   "sigla": "JP",
+   "pases": 33,
+   "presente": 29,
+   "ausente": 3,
+   "licencia": 1,
+   "votaciones": 35,
+   "si": 23,
+   "no": 10,
+   "abst": 0,
+   "no_voto": 2,
+   "pct_asistencia": 90.6
+  },
+  {
+   "camara": "S",
+   "nombre": "Robles Araujo, Silvana Emperatriz",
+   "sigla": "JP",
+   "pases": 33,
+   "presente": 12,
+   "ausente": 3,
+   "licencia": 18,
+   "votaciones": 33,
+   "si": 7,
+   "no": 7,
+   "abst": 0,
+   "no_voto": 19,
+   "pct_asistencia": 80.0
+  },
+  {
+   "camara": "S",
+   "nombre": "Rodrich Ackerman, Jacques Salomón",
+   "sigla": "FP",
+   "pases": 33,
+   "presente": 25,
+   "ausente": 4,
+   "licencia": 4,
+   "votaciones": 33,
+   "si": 25,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 4,
+   "pct_asistencia": 86.2
+  },
+  {
+   "camara": "S",
+   "nombre": "Rospigliosi Capurro, Fernando Miguel",
+   "sigla": "FP",
+   "pases": 33,
+   "presente": 27,
+   "ausente": 2,
+   "licencia": 4,
+   "votaciones": 33,
+   "si": 24,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 5,
+   "pct_asistencia": 93.1
+  },
+  {
+   "camara": "S",
+   "nombre": "Schaefer Cuculiza, Karla Melissa",
+   "sigla": "FP",
+   "pases": 33,
+   "presente": 29,
+   "ausente": 2,
+   "licencia": 2,
+   "votaciones": 33,
+   "si": 27,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 2,
+   "pct_asistencia": 93.5
+  },
+  {
+   "camara": "S",
+   "nombre": "Tapia Bernal, Segundo Leocadio",
+   "sigla": "FP",
+   "pases": 33,
+   "presente": 29,
+   "ausente": 4,
+   "licencia": 0,
+   "votaciones": 34,
+   "si": 28,
+   "no": 5,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 87.9
+  },
+  {
+   "camara": "S",
+   "nombre": "Ticona Cohaila, Juana Guisella",
+   "sigla": "PCO",
+   "pases": 33,
+   "presente": 29,
+   "ausente": 4,
+   "licencia": 0,
+   "votaciones": 29,
+   "si": 25,
+   "no": 3,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 87.9
+  },
+  {
+   "camara": "S",
+   "nombre": "Torres Morales, Miguel Ángel",
+   "sigla": "FP",
+   "pases": 33,
+   "presente": 33,
+   "ausente": 0,
+   "licencia": 0,
+   "votaciones": 0,
+   "si": 0,
+   "no": 0,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 100.0
+  },
+  {
+   "camara": "S",
+   "nombre": "Velásquez García, Miguel Angel",
+   "sigla": "RP",
+   "pases": 33,
+   "presente": 29,
+   "ausente": 4,
+   "licencia": 0,
+   "votaciones": 34,
+   "si": 23,
+   "no": 5,
+   "abst": 0,
+   "no_voto": 6,
+   "pct_asistencia": 87.9
+  },
+  {
+   "camara": "S",
+   "nombre": "Velásquez Portocarrero, Jorge",
+   "sigla": "FP",
+   "pases": 33,
+   "presente": 33,
+   "ausente": 0,
+   "licencia": 0,
+   "votaciones": 33,
+   "si": 28,
+   "no": 5,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 100.0
+  },
+  {
+   "camara": "S",
+   "nombre": "Ventura Ángel, Héctor José",
+   "sigla": "FP",
+   "pases": 33,
+   "presente": 26,
+   "ausente": 7,
+   "licencia": 0,
+   "votaciones": 35,
+   "si": 19,
+   "no": 5,
+   "abst": 0,
+   "no_voto": 11,
+   "pct_asistencia": 78.8
+  },
+  {
+   "camara": "S",
+   "nombre": "Verano Saravia, Wilfredo",
+   "sigla": "JP",
+   "pases": 33,
+   "presente": 31,
+   "ausente": 2,
+   "licencia": 0,
+   "votaciones": 33,
+   "si": 21,
+   "no": 11,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 93.9
+  },
+  {
+   "camara": "S",
+   "nombre": "Vásquez Chuquilín, Mirtha Esther",
+   "sigla": "AN",
+   "pases": 33,
+   "presente": 27,
+   "ausente": 6,
+   "licencia": 0,
+   "votaciones": 27,
+   "si": 18,
+   "no": 8,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 81.8
+  },
+  {
+   "camara": "S",
+   "nombre": "Vásquez Villanueva, Absalón",
+   "sigla": "RP",
+   "pases": 33,
+   "presente": 29,
+   "ausente": 4,
+   "licencia": 0,
+   "votaciones": 33,
+   "si": 27,
+   "no": 5,
+   "abst": 0,
+   "no_voto": 1,
+   "pct_asistencia": 87.9
+  },
+  {
+   "camara": "S",
+   "nombre": "Yamashiro Oré, Rafael Gustavo",
+   "sigla": "FP",
+   "pases": 33,
+   "presente": 30,
+   "ausente": 3,
+   "licencia": 0,
+   "votaciones": 30,
+   "si": 24,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 2,
+   "pct_asistencia": 90.9
+  },
+  {
+   "camara": "S",
+   "nombre": "Yauri Tunque, Joaquín",
+   "sigla": "JP",
+   "pases": 33,
+   "presente": 33,
+   "ausente": 0,
+   "licencia": 0,
+   "votaciones": 32,
+   "si": 20,
+   "no": 10,
+   "abst": 0,
+   "no_voto": 2,
+   "pct_asistencia": 100.0
+  }
+ ],
+ "meta": {
+  "generado": "2026-10-26",
+  "fuente": "Reportes de asistencia y votación del Pleno (PDF) · diputados/senado.congreso.gob.pe",
+  "nota": "Pases de lista y votaciones validados contra el total oficial al pie de cada bloque; los escaneos se leen con OCR. Licencias (viaje, enfermedad, oficial…) no cuentan como ausencia."
+ }
+}
