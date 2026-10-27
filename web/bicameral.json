@@ -6,33 +6,33 @@
   "fuente": "api.congreso.gob.pe/spley-portal-service (codTipoParl S/D/C) · padrón: senado/diputados.congreso.gob.pe"
  },
  "totales": {
-  "proyectos": 700,
+  "proyectos": 703,
   "leyes": 6,
   "congresistas": 190
  },
  "camaras": {
   "D": {
    "nombre": "Cámara de Diputados",
-   "proyectos": 677,
+   "proyectos": 680,
    "leyes": 0,
-   "archivados": 91,
+   "archivados": 93,
    "por_estado": {
     "EN COMISIÓN": 548,
-    "Archivado de Plano": 91,
-    "PRESENTADO": 15,
+    "Archivado de Plano": 93,
+    "PRESENTADO": 18,
     "Retirado por su Autor": 8,
     "Expediente de propuesta legislativa remitida al senado de la república": 5,
-    "ACTUALIZADA": 4,
     "CON DICTAMEN": 4,
+    "ACTUALIZADA": 2,
     "EN AGENDA DEL PLENO": 2
    },
    "por_mes": {
     "2026-08": 102,
     "2026-09": 361,
-    "2026-10": 214
+    "2026-10": 217
    },
    "por_proponente": {
-    "Cámara de Diputados": 461,
+    "Cámara de Diputados": 464,
     "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN": 185,
     "Colegios Profesionales": 18,
     "PODER EJECUTIVO": 7,
@@ -45,14 +45,14 @@
     "Otros": 126,
     "Justicia y penal": 87,
     "Transporte e infraestructura": 71,
+    "Salud": 62,
     "Economía y tributación": 62,
-    "Salud": 61,
     "Educación": 58,
     "Declarativa / simbólica": 56,
-    "Seguridad y orden": 42,
+    "Seguridad y orden": 43,
     "Trabajo y pensiones": 35,
     "Ambiente y recursos": 21,
-    "Descentralización y regiones": 18,
+    "Descentralización y regiones": 19,
     "Reforma política y electoral": 17,
     "Mujer, familia y niñez": 13,
     "Agrario, pesca y rural": 10
@@ -60,18 +60,18 @@
    "agenda": {
     "Actualización (periodo anterior)": 185,
     "Inversión, empleo y competitividad": 104,
-    "Capital humano: educación y salud": 96,
+    "Capital humano: educación y salud": 97,
     "Seguridad y Estado de derecho": 90,
     "Otros": 46,
     "Inclusión y protección social": 34,
-    "Infraestructura y conectividad": 32,
+    "Infraestructura y conectividad": 33,
     "Finanzas públicas y presupuesto": 31,
     "Reforma política e institucional": 26,
     "Simbólico / declarativo": 12,
-    "Ambiente y gestión de riesgos": 11,
-    "Gestión del Estado y simplificación": 10
+    "Gestión del Estado y simplificación": 11,
+    "Ambiente y gestión de riesgos": 11
    },
-   "pct_desarrollo": 82.9,
+   "pct_desarrollo": 83.0,
    "pct_simbolico": 2.4,
    "riesgo_fiscal": 48,
    "actualizaciones": 185,
@@ -106,10 +106,10 @@
     {
      "bancada": "Fuerza Popular",
      "miembros": 41,
-     "proyectos": 62,
+     "proyectos": 63,
      "por_miembro": 1.5,
      "actualizaciones": 0,
-     "pct_desarrollo": 90.3,
+     "pct_desarrollo": 90.5,
      "pct_simbolico": 1.6
     },
     {
@@ -124,10 +124,10 @@
     {
      "bancada": "Partido del Buen Gobierno",
      "miembros": 18,
-     "proyectos": 28,
-     "por_miembro": 1.6,
+     "proyectos": 30,
+     "por_miembro": 1.7,
      "actualizaciones": 0,
-     "pct_desarrollo": 78.6,
+     "pct_desarrollo": 80.0,
      "pct_simbolico": 0.0
     },
     {
@@ -213,10 +213,9 @@
    "leyes": 6,
    "archivados": 0,
    "por_estado": {
-    "EN COMISIÓN": 7,
+    "EN COMISIÓN": 8,
     "Publicada en el Diario Oficial El Peruano": 6,
-    "CON DICTAMEN": 3,
-    "PRESENTADO": 1
+    "CON DICTAMEN": 3
    },
    "por_mes": {
     "2026-08": 6,
@@ -292,7 +291,7 @@
     },
     {
      "nombre": "Defensa Nacional y Orden Interno",
-     "proyectos": 2
+     "proyectos": 3
     },
     {
      "nombre": "Asuntos de Desarrollo Productivo, Energía y Minas, Infraestructura y Trabajo",
@@ -1110,7 +1109,7 @@
    "condicion": "electo",
    "link": "https://diputados.congreso.gob.pe/diputado/garcia-huby-fernando-alberto/",
    "principal": 6,
-   "firmas": 26,
+   "firmas": 27,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 5,
@@ -1382,7 +1381,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/barbaran-reyes-rosangela-andrea/",
    "principal": 4,
-   "firmas": 23,
+   "firmas": 24,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 4,
@@ -1424,7 +1423,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/castro-cruz-javier-alejandro/",
    "principal": 4,
-   "firmas": 14,
+   "firmas": 15,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 4,
@@ -1496,6 +1495,27 @@
     407,
     409,
     463
+   ]
+  },
+  {
+   "camara": "D",
+   "nombre": "Huamán Cornejo, Miguel Felix",
+   "bancada": "Partido del Buen Gobierno",
+   "sigla": "PBG",
+   "distrito": "Piura",
+   "genero": "masculino",
+   "condicion": "en ejercicio",
+   "link": "https://diputados.congreso.gob.pe/diputado/huaman-cornejo-miguel-felix/",
+   "principal": 4,
+   "firmas": 18,
+   "simbolicos": 0,
+   "actualizaciones": 0,
+   "desarrollo": 4,
+   "pleys": [
+    668,
+    670,
+    671,
+    678
    ]
   },
   {
@@ -1592,7 +1612,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/alayza-maccera-rossana-herminia/",
    "principal": 3,
-   "firmas": 23,
+   "firmas": 24,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 1,
@@ -1660,6 +1680,26 @@
     64,
     471,
     580
+   ]
+  },
+  {
+   "camara": "D",
+   "nombre": "Columbus Murata, Diethell",
+   "bancada": "Fuerza Popular",
+   "sigla": "FP",
+   "distrito": "Lima Metropolitana",
+   "genero": "masculino",
+   "condicion": "en ejercicio",
+   "link": "https://diputados.congreso.gob.pe/diputado/columbus-murata-diethell/",
+   "principal": 3,
+   "firmas": 11,
+   "simbolicos": 0,
+   "actualizaciones": 0,
+   "desarrollo": 3,
+   "pleys": [
+    114,
+    184,
+    680
    ]
   },
   {
@@ -1732,7 +1772,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/hirache-pizarro-gloria-charito/",
    "principal": 3,
-   "firmas": 17,
+   "firmas": 18,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 3,
@@ -1740,26 +1780,6 @@
     111,
     460,
     654
-   ]
-  },
-  {
-   "camara": "D",
-   "nombre": "Huamán Cornejo, Miguel Felix",
-   "bancada": "Partido del Buen Gobierno",
-   "sigla": "PBG",
-   "distrito": "Piura",
-   "genero": "masculino",
-   "condicion": "en ejercicio",
-   "link": "https://diputados.congreso.gob.pe/diputado/huaman-cornejo-miguel-felix/",
-   "principal": 3,
-   "firmas": 17,
-   "simbolicos": 0,
-   "actualizaciones": 0,
-   "desarrollo": 3,
-   "pleys": [
-    668,
-    670,
-    671
    ]
   },
   {
@@ -1840,6 +1860,26 @@
     8,
     176,
     409
+   ]
+  },
+  {
+   "camara": "D",
+   "nombre": "Uribe Saenz, Romina Alejandra",
+   "bancada": "Partido del Buen Gobierno",
+   "sigla": "PBG",
+   "distrito": "Lima Metropolitana",
+   "genero": "femenino",
+   "condicion": "en ejercicio",
+   "link": "https://diputados.congreso.gob.pe/diputado/uribe-saenz-romina-alejandra/",
+   "principal": 3,
+   "firmas": 13,
+   "simbolicos": 0,
+   "actualizaciones": 0,
+   "desarrollo": 2,
+   "pleys": [
+    413,
+    676,
+    678
    ]
   },
   {
@@ -1940,25 +1980,6 @@
   },
   {
    "camara": "D",
-   "nombre": "Columbus Murata, Diethell",
-   "bancada": "Fuerza Popular",
-   "sigla": "FP",
-   "distrito": "Lima Metropolitana",
-   "genero": "masculino",
-   "condicion": "en ejercicio",
-   "link": "https://diputados.congreso.gob.pe/diputado/columbus-murata-diethell/",
-   "principal": 2,
-   "firmas": 10,
-   "simbolicos": 0,
-   "actualizaciones": 0,
-   "desarrollo": 2,
-   "pleys": [
-    114,
-    184
-   ]
-  },
-  {
-   "camara": "D",
    "nombre": "Duarte, Georgina",
    "bancada": "Partido del Buen Gobierno",
    "sigla": "PBG",
@@ -1967,7 +1988,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/duarte-georgina/",
    "principal": 2,
-   "firmas": 25,
+   "firmas": 27,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 0,
@@ -2005,7 +2026,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/meza-rivera-flor-de-jesus/",
    "principal": 2,
-   "firmas": 19,
+   "firmas": 20,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 2,
@@ -2024,7 +2045,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/prado-vallejos-lila-marianela/",
    "principal": 2,
-   "firmas": 10,
+   "firmas": 11,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 2,
@@ -2092,25 +2113,6 @@
   },
   {
    "camara": "D",
-   "nombre": "Uribe Saenz, Romina Alejandra",
-   "bancada": "Partido del Buen Gobierno",
-   "sigla": "PBG",
-   "distrito": "Lima Metropolitana",
-   "genero": "femenino",
-   "condicion": "en ejercicio",
-   "link": "https://diputados.congreso.gob.pe/diputado/uribe-saenz-romina-alejandra/",
-   "principal": 2,
-   "firmas": 12,
-   "simbolicos": 0,
-   "actualizaciones": 0,
-   "desarrollo": 1,
-   "pleys": [
-    413,
-    676
-   ]
-  },
-  {
-   "camara": "D",
    "nombre": "Yuffra Lugo, Ana Luisa",
    "bancada": "Fuerza Popular",
    "sigla": "FP",
@@ -2138,7 +2140,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/abensur-pinasco-jaime-americo/",
    "principal": 1,
-   "firmas": 5,
+   "firmas": 6,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 1,
@@ -2174,7 +2176,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/castrejon-fernandez-segundo-juan/",
    "principal": 1,
-   "firmas": 16,
+   "firmas": 18,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 1,
@@ -2246,7 +2248,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/espinoza-huillca-edwin/",
    "principal": 1,
-   "firmas": 16,
+   "firmas": 18,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 1,
@@ -2270,6 +2272,24 @@
    "desarrollo": 1,
    "pleys": [
     581
+   ]
+  },
+  {
+   "camara": "D",
+   "nombre": "Gonzales Polar, Edgar Dember",
+   "bancada": "Partido del Buen Gobierno",
+   "sigla": "PBG",
+   "distrito": "Arequipa",
+   "genero": "masculino",
+   "condicion": "en ejercicio",
+   "link": "https://diputados.congreso.gob.pe/diputado/gonzales-polar-edgar-dember/",
+   "principal": 1,
+   "firmas": 17,
+   "simbolicos": 0,
+   "actualizaciones": 0,
+   "desarrollo": 1,
+   "pleys": [
+    679
    ]
   },
   {
@@ -2336,7 +2356,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/molina-soto-nathaly-milagros/",
    "principal": 1,
-   "firmas": 15,
+   "firmas": 17,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 1,
@@ -2480,7 +2500,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/ramos-rosales-maria-candelaria/",
    "principal": 1,
-   "firmas": 4,
+   "firmas": 5,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 1,
@@ -2552,7 +2572,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/takayama-jimenez-liliana-milagros/",
    "principal": 1,
-   "firmas": 20,
+   "firmas": 21,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 1,
@@ -2622,7 +2642,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/alegria-garcia-luis-arturo/",
    "principal": 0,
-   "firmas": 14,
+   "firmas": 15,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 0,
@@ -2670,7 +2690,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/bobadilla-galindo-angel-bruno/",
    "principal": 0,
-   "firmas": 5,
+   "firmas": 6,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 0,
@@ -2758,22 +2778,6 @@
   },
   {
    "camara": "D",
-   "nombre": "Gonzales Polar, Edgar Dember",
-   "bancada": "Partido del Buen Gobierno",
-   "sigla": "PBG",
-   "distrito": "Arequipa",
-   "genero": "masculino",
-   "condicion": "en ejercicio",
-   "link": "https://diputados.congreso.gob.pe/diputado/gonzales-polar-edgar-dember/",
-   "principal": 0,
-   "firmas": 15,
-   "simbolicos": 0,
-   "actualizaciones": 0,
-   "desarrollo": 0,
-   "pleys": []
-  },
-  {
-   "camara": "D",
    "nombre": "Infantes Castañeda, Mery Eliana",
    "bancada": "Fuerza Popular",
    "sigla": "FP",
@@ -2814,7 +2818,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/llaque-linares-nora-maria/",
    "principal": 0,
-   "firmas": 14,
+   "firmas": 16,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 0,
@@ -2862,7 +2866,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/pinasco-montenegro-nary-benvinda/",
    "principal": 0,
-   "firmas": 10,
+   "firmas": 11,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 0,
@@ -2894,7 +2898,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/quispe-candia-luis-eliseo/",
    "principal": 0,
-   "firmas": 22,
+   "firmas": 24,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 0,
@@ -2958,7 +2962,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/ticlla-rafael-segundo-senovio/",
    "principal": 0,
-   "firmas": 8,
+   "firmas": 9,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 0,
@@ -4008,6 +4012,36 @@
  ],
  "recientes": [
   {
+   "codigo": "00680-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-10-27",
+   "titulo": "PROPOSICIÓN LEGISLATIVA LEY QUE MODIFICA LA LEY 27972 LEY ORGÁNICA DE MUNICIPALIDADES PARA FORTALECER LAS GARANTÍAS EN LA IMPOSICIÓN Y COBRANZA DE MULTAS ADMINISTRATIVAS Y EN LA EJECUCIÓN DE MEDIDAS MUNICIPALES.",
+   "proponente": "Cámara de Diputados",
+   "agenda": "Gestión del Estado y simplificación",
+   "riesgo_fiscal": false
+  },
+  {
+   "codigo": "00679-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-10-27",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 200 DEL CÓDIGO PENAL, DECRETO LEGISLATIVO 635, PARA ESTABLECER AGRAVANTES ESPECÍFICAS EN EL DELITO DE EXTORSIÓN VINCULADO AL SERVICIO DE TRANSPORTE PÚBLICO DE PASAJEROS.",
+   "proponente": "Cámara de Diputados",
+   "agenda": "Infraestructura y conectividad",
+   "riesgo_fiscal": false
+  },
+  {
+   "codigo": "00678-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-10-27",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 31883 PARA AMPLIAR PROGRESIVAMENTE HASTA LOS 26 AÑOS LA VACUNACIÓN CONTRA EL VIRUS DEL PAPILOMA HUMANO Y FORTALECER LA PREVENCIÓN DEL CÁNCER DE CUELLO UTERINO.",
+   "proponente": "Cámara de Diputados",
+   "agenda": "Capital humano: educación y salud",
+   "riesgo_fiscal": false
+  },
+  {
    "codigo": "00677-2026-2031-CD",
    "camara": "D",
    "estado": "PRESENTADO",
@@ -4120,7 +4154,7 @@
   {
    "codigo": "00017-2026-2031-S",
    "camara": "S",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-26",
    "titulo": "PROPOSICIÓN DE RESOLUCIÓN LEGISLATIVA QUE AUTORIZA EL INGRESO Y TRÁNSITO DE UNA UNIDAD NAVAL Y DE PERSONAL MILITAR EXTRANJERO CON ARMAS DE GUERRA AL TERRITORIO DE LA REPÚBLICA DEL PERÚ",
    "proponente": "PODER EJECUTIVO",
@@ -4375,36 +4409,6 @@
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE MEDIDAS PARA EL DESARROLLO URBANO SOSTENIBLE, LA REMEDIACIÓN AMBIENTAL Y LA MEJORA DE LA CALIDAD DE VIDA DE LA POBLACIÓN DE CERRO DE PASCO.",
    "proponente": "Cámara de Diputados",
    "agenda": "Infraestructura y conectividad",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00016-2026-2031-S",
-   "camara": "S",
-   "estado": "CON DICTAMEN",
-   "fecha": "2026-10-22",
-   "titulo": "PROPOSICIÓN DE RESOLUCIÓN LEGISLATIVA QUE APRUEBA EL REGLAMENTO PARA LA ELECCIÓN DE MAGISTRADOS DEL TRIBUNAL CONSTITUCIONAL",
-   "proponente": "Senado de la República",
-   "agenda": "Reforma política e institucional",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00641-2026-2031-CD",
-   "camara": "D",
-   "estado": "EN COMISIÓN",
-   "fecha": "2026-10-21",
-   "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 29837, LEY QUE CREA EL PROGRAMA NACIONAL DE BECAS Y CRÉDITO EDUCATIVO, PARA FORTALECER EL ACCESO DE LOS BENEFICIARIOS DE BECA 18 A LAS UNIVERSIDADES PÚBLICAS Y OPTIMIZAR EL USO DE LOS RECURSOS PÚBLICOS.",
-   "proponente": "Cámara de Diputados",
-   "agenda": "Inversión, empleo y competitividad",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00640-2026-2031-CD",
-   "camara": "D",
-   "estado": "EN COMISIÓN",
-   "fecha": "2026-10-21",
-   "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL DECRETO LEGISLATIVO 1252, DECRETO LEGISLATIVO QUE CREA EL SISTEMA NACIONAL DE PROGRAMACIÓN MULTIANUAL Y GESTIÓN DE INVERSIONES, CON EL FIN DE FORTALECER LA PLANIFICACIÓN DE LAS INVERSIONES EN LAS UNIVERSIDADES PÚBLICAS.",
-   "proponente": "Cámara de Diputados",
-   "agenda": "Inversión, empleo y competitividad",
    "riesgo_fiscal": false
   }
  ]
