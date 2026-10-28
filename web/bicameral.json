@@ -6,35 +6,35 @@
   "fuente": "api.congreso.gob.pe/spley-portal-service (codTipoParl S/D/C) · padrón: senado/diputados.congreso.gob.pe"
  },
  "totales": {
-  "proyectos": 716,
+  "proyectos": 721,
   "leyes": 6,
   "congresistas": 190
  },
  "camaras": {
   "D": {
    "nombre": "Cámara de Diputados",
-   "proyectos": 691,
+   "proyectos": 696,
    "leyes": 0,
    "archivados": 93,
    "por_estado": {
-    "EN COMISIÓN": 547,
+    "EN COMISIÓN": 551,
     "Archivado de Plano": 93,
-    "PRESENTADO": 24,
+    "PRESENTADO": 22,
     "Retirado por su Autor": 8,
+    "CON DICTAMEN": 8,
     "ACTUALIZADA": 7,
-    "CON DICTAMEN": 5,
     "Expediente de propuesta legislativa remitida al senado de la república": 5,
     "EN AGENDA DEL PLENO": 2
    },
    "por_mes": {
     "2026-08": 102,
     "2026-09": 361,
-    "2026-10": 228
+    "2026-10": 233
    },
    "por_proponente": {
-    "Cámara de Diputados": 470,
+    "Cámara de Diputados": 473,
     "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN": 190,
-    "Colegios Profesionales": 18,
+    "Colegios Profesionales": 20,
     "PODER EJECUTIVO": 7,
     "Instituciones Públicas Autónomas": 2,
     "Gobiernos Locales": 2,
@@ -42,16 +42,16 @@
     "Senado de la República": 1
    },
    "materias": {
-    "Otros": 129,
+    "Otros": 131,
     "Justicia y penal": 88,
     "Transporte e infraestructura": 71,
-    "Salud": 64,
-    "Economía y tributación": 62,
+    "Salud": 66,
+    "Economía y tributación": 61,
     "Educación": 59,
     "Declarativa / simbólica": 57,
-    "Seguridad y orden": 43,
+    "Seguridad y orden": 44,
     "Trabajo y pensiones": 35,
-    "Ambiente y recursos": 23,
+    "Ambiente y recursos": 24,
     "Descentralización y regiones": 19,
     "Reforma política y electoral": 18,
     "Mujer, familia y niñez": 13,
@@ -59,19 +59,19 @@
    },
    "agenda": {
     "Actualización (periodo anterior)": 190,
-    "Inversión, empleo y competitividad": 105,
-    "Capital humano: educación y salud": 99,
+    "Inversión, empleo y competitividad": 107,
+    "Capital humano: educación y salud": 100,
     "Seguridad y Estado de derecho": 91,
-    "Otros": 46,
+    "Otros": 48,
     "Infraestructura y conectividad": 34,
     "Inclusión y protección social": 34,
-    "Finanzas públicas y presupuesto": 31,
+    "Finanzas públicas y presupuesto": 32,
     "Reforma política e institucional": 27,
     "Simbólico / declarativo": 12,
-    "Gestión del Estado y simplificación": 11,
-    "Ambiente y gestión de riesgos": 11
+    "Ambiente y gestión de riesgos": 11,
+    "Gestión del Estado y simplificación": 10
    },
-   "pct_desarrollo": 83.0,
+   "pct_desarrollo": 82.8,
    "pct_simbolico": 2.4,
    "riesgo_fiscal": 50,
    "actualizaciones": 190,
@@ -88,11 +88,11 @@
     {
      "bancada": "Renovación Popular",
      "miembros": 15,
-     "proyectos": 120,
-     "por_miembro": 8.0,
+     "proyectos": 121,
+     "por_miembro": 8.1,
      "actualizaciones": 0,
-     "pct_desarrollo": 83.3,
-     "pct_simbolico": 4.2
+     "pct_desarrollo": 82.6,
+     "pct_simbolico": 4.1
     },
     {
      "bancada": "Ahora Nación",
@@ -106,20 +106,20 @@
     {
      "bancada": "Fuerza Popular",
      "miembros": 41,
-     "proyectos": 65,
+     "proyectos": 66,
      "por_miembro": 1.6,
      "actualizaciones": 0,
-     "pct_desarrollo": 90.8,
+     "pct_desarrollo": 90.9,
      "pct_simbolico": 1.5
     },
     {
      "bancada": "Partido Cívico Obras",
      "miembros": 14,
-     "proyectos": 41,
-     "por_miembro": 2.9,
+     "proyectos": 42,
+     "por_miembro": 3.0,
      "actualizaciones": 0,
-     "pct_desarrollo": 70.7,
-     "pct_simbolico": 4.9
+     "pct_desarrollo": 71.4,
+     "pct_simbolico": 4.8
     },
     {
      "bancada": "Partido del Buen Gobierno",
@@ -147,11 +147,11 @@
     },
     {
      "nombre": "Educación, Cultura y Deporte",
-     "proyectos": 76
+     "proyectos": 77
     },
     {
      "nombre": "Constitución, Reglamento y Relaciones Exteriores",
-     "proyectos": 70
+     "proyectos": 72
     },
     {
      "nombre": "Economía, Banca, Finanzas e Inteligencia Financiera",
@@ -159,11 +159,11 @@
     },
     {
      "nombre": "Modernización de la Gestión del Estado y Contraloría",
-     "proyectos": 57
+     "proyectos": 58
     },
     {
      "nombre": "Salud",
-     "proyectos": 41
+     "proyectos": 42
     },
     {
      "nombre": "Infraestructura, Vivienda y Transportes",
@@ -171,11 +171,11 @@
     },
     {
      "nombre": "Defensa Nacional y Orden Interno",
-     "proyectos": 37
+     "proyectos": 38
     },
     {
      "nombre": "Trabajo y Seguridad Social",
-     "proyectos": 34
+     "proyectos": 35
     },
     {
      "nombre": "Inclusión Social, Familia, Mujer y Pueblos Andinos, Amazónicos y Afroperuanos",
@@ -183,7 +183,7 @@
     },
     {
      "nombre": "Desarrollo Agrario",
-     "proyectos": 23
+     "proyectos": 24
     },
     {
      "nombre": "Energía y Minas",
@@ -326,7 +326,7 @@
    "archivados": 0,
    "por_estado": {
     "EN COMISIÓN": 4,
-    "CON DICTAMEN": 2
+    "EN AGENDA DEL PLENO": 2
    },
    "por_mes": {
     "2026-08": 4,
@@ -403,7 +403,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/arminta-valencia-marleny-bibiana/",
    "principal": 21,
-   "firmas": 50,
+   "firmas": 51,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 19,
@@ -479,7 +479,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/paz-lancho-leo-miguel-de/",
    "principal": 16,
-   "firmas": 104,
+   "firmas": 105,
    "simbolicos": 3,
    "actualizaciones": 0,
    "desarrollo": 13,
@@ -687,7 +687,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/yalta-sotelo-carlos-alberto/",
    "principal": 11,
-   "firmas": 54,
+   "firmas": 55,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 10,
@@ -770,7 +770,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/rocha-gallegos-roxana-maria/",
    "principal": 10,
-   "firmas": 101,
+   "firmas": 102,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 9,
@@ -876,7 +876,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/krklec-torres-frank/",
    "principal": 9,
-   "firmas": 52,
+   "firmas": 53,
    "simbolicos": 1,
    "actualizaciones": 0,
    "desarrollo": 6,
@@ -940,6 +940,30 @@
     545,
     546,
     587
+   ]
+  },
+  {
+   "camara": "D",
+   "nombre": "Camargo Porta, Raúl Jesús",
+   "bancada": "Partido Cívico Obras",
+   "sigla": "PCO",
+   "distrito": "Lima Metropolitana",
+   "genero": "masculino",
+   "condicion": "en ejercicio",
+   "link": "https://diputados.congreso.gob.pe/diputado/camargo-porta-raul-jesus/",
+   "principal": 7,
+   "firmas": 26,
+   "simbolicos": 0,
+   "actualizaciones": 0,
+   "desarrollo": 5,
+   "pleys": [
+    189,
+    444,
+    520,
+    566,
+    626,
+    656,
+    692
    ]
   },
   {
@@ -1048,7 +1072,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/baella-malca-jose-isidro/",
    "principal": 6,
-   "firmas": 60,
+   "firmas": 61,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 5,
@@ -1082,29 +1106,6 @@
     583,
     607,
     666
-   ]
-  },
-  {
-   "camara": "D",
-   "nombre": "Camargo Porta, Raúl Jesús",
-   "bancada": "Partido Cívico Obras",
-   "sigla": "PCO",
-   "distrito": "Lima Metropolitana",
-   "genero": "masculino",
-   "condicion": "en ejercicio",
-   "link": "https://diputados.congreso.gob.pe/diputado/camargo-porta-raul-jesus/",
-   "principal": 6,
-   "firmas": 25,
-   "simbolicos": 0,
-   "actualizaciones": 0,
-   "desarrollo": 4,
-   "pleys": [
-    189,
-    444,
-    520,
-    566,
-    626,
-    656
    ]
   },
   {
@@ -1209,7 +1210,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/martinez-paitan-paola-isabel/",
    "principal": 6,
-   "firmas": 88,
+   "firmas": 89,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 6,
@@ -1232,7 +1233,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/pinan-mamani-victor-eduardo/",
    "principal": 6,
-   "firmas": 42,
+   "firmas": 43,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 3,
@@ -1289,6 +1290,28 @@
     567,
     582,
     643
+   ]
+  },
+  {
+   "camara": "D",
+   "nombre": "Bravo Quispe, Aldo Antonio",
+   "bancada": "Renovación Popular",
+   "sigla": "RP",
+   "distrito": "Lima Metropolitana",
+   "genero": "masculino",
+   "condicion": "en ejercicio",
+   "link": "https://diputados.congreso.gob.pe/diputado/bravo-quispe-aldo-antonio/",
+   "principal": 5,
+   "firmas": 48,
+   "simbolicos": 0,
+   "actualizaciones": 0,
+   "desarrollo": 4,
+   "pleys": [
+    43,
+    208,
+    603,
+    604,
+    696
    ]
   },
   {
@@ -1402,27 +1425,6 @@
   },
   {
    "camara": "D",
-   "nombre": "Bravo Quispe, Aldo Antonio",
-   "bancada": "Renovación Popular",
-   "sigla": "RP",
-   "distrito": "Lima Metropolitana",
-   "genero": "masculino",
-   "condicion": "en ejercicio",
-   "link": "https://diputados.congreso.gob.pe/diputado/bravo-quispe-aldo-antonio/",
-   "principal": 4,
-   "firmas": 47,
-   "simbolicos": 0,
-   "actualizaciones": 0,
-   "desarrollo": 4,
-   "pleys": [
-    43,
-    208,
-    603,
-    604
-   ]
-  },
-  {
-   "camara": "D",
    "nombre": "Castro Cruz, Javier Alejandro",
    "bancada": "Fuerza Popular",
    "sigla": "FP",
@@ -1473,7 +1475,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/gamarra-pita-luzmila-maria-del-carmen/",
    "principal": 4,
-   "firmas": 12,
+   "firmas": 13,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 4,
@@ -1536,7 +1538,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/masco-caceres-luis-aurelio/",
    "principal": 4,
-   "firmas": 23,
+   "firmas": 24,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 3,
@@ -1700,7 +1702,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/cipriani-thorne-javier-jose-maria/",
    "principal": 3,
-   "firmas": 78,
+   "firmas": 79,
    "simbolicos": 1,
    "actualizaciones": 0,
    "desarrollo": 2,
@@ -1720,7 +1722,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/columbus-murata-diethell/",
    "principal": 3,
-   "firmas": 12,
+   "firmas": 13,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 3,
@@ -1740,7 +1742,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/dodero-jovich-pierangeli-daniela/",
    "principal": 3,
-   "firmas": 14,
+   "firmas": 16,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 3,
@@ -1920,7 +1922,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/zeballos-aponte-jorge-arturo/",
    "principal": 3,
-   "firmas": 56,
+   "firmas": 57,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 1,
@@ -2035,7 +2037,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/meza-rivera-flor-de-jesus/",
    "principal": 2,
-   "firmas": 21,
+   "firmas": 22,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 2,
@@ -2111,7 +2113,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/sonco-villanueva-helard-bladimir/",
    "principal": 2,
-   "firmas": 34,
+   "firmas": 35,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 2,
@@ -2196,6 +2198,24 @@
   },
   {
    "camara": "D",
+   "nombre": "Bobadilla Galindo, Angel Bruno",
+   "bancada": "Fuerza Popular",
+   "sigla": "FP",
+   "distrito": "Callao",
+   "genero": "masculino",
+   "condicion": "en ejercicio",
+   "link": "https://diputados.congreso.gob.pe/diputado/bobadilla-galindo-angel-bruno/",
+   "principal": 1,
+   "firmas": 7,
+   "simbolicos": 0,
+   "actualizaciones": 0,
+   "desarrollo": 1,
+   "pleys": [
+    694
+   ]
+  },
+  {
+   "camara": "D",
    "nombre": "Castrejón Fernández, Segundo Juan",
    "bancada": "Partido del Buen Gobierno",
    "sigla": "PBG",
@@ -2240,7 +2260,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/celiz-castillo-rafael-aldo/",
    "principal": 1,
-   "firmas": 1,
+   "firmas": 2,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 1,
@@ -2474,7 +2494,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/patino-urco-ana-bertha/",
    "principal": 1,
-   "firmas": 8,
+   "firmas": 9,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 1,
@@ -2600,7 +2620,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/valqui-ordonez-jhonn-brayam/",
    "principal": 1,
-   "firmas": 10,
+   "firmas": 11,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 1,
@@ -2652,7 +2672,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/alegria-garcia-luis-arturo/",
    "principal": 0,
-   "firmas": 15,
+   "firmas": 16,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 0,
@@ -2685,22 +2705,6 @@
    "link": "https://diputados.congreso.gob.pe/diputado/beteta-rubin-karina-juliza/",
    "principal": 0,
    "firmas": 16,
-   "simbolicos": 0,
-   "actualizaciones": 0,
-   "desarrollo": 0,
-   "pleys": []
-  },
-  {
-   "camara": "D",
-   "nombre": "Bobadilla Galindo, Angel Bruno",
-   "bancada": "Fuerza Popular",
-   "sigla": "FP",
-   "distrito": "Callao",
-   "genero": "masculino",
-   "condicion": "en ejercicio",
-   "link": "https://diputados.congreso.gob.pe/diputado/bobadilla-galindo-angel-bruno/",
-   "principal": 0,
-   "firmas": 6,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 0,
@@ -2876,7 +2880,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/pinasco-montenegro-nary-benvinda/",
    "principal": 0,
-   "firmas": 11,
+   "firmas": 10,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 0,
@@ -2892,7 +2896,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/quezada-castro-geanmarco-antonio/",
    "principal": 0,
-   "firmas": 7,
+   "firmas": 8,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 0,
@@ -3004,7 +3008,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/valqui-calderon-demetrio-flavio/",
    "principal": 0,
-   "firmas": 11,
+   "firmas": 12,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 0,
@@ -3036,7 +3040,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/yataco-torrealva-jose-ricardo/",
    "principal": 0,
-   "firmas": 11,
+   "firmas": 12,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 0,
@@ -4022,6 +4026,56 @@
  ],
  "recientes": [
   {
+   "codigo": "00696-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-10-28",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA ALERTA AMBER Y LA DIFUSIÓN DE INFORMACIÓN PARA LA BÚSQUEDA DE PERSONAS DESAPARECIDAS.",
+   "proponente": "Cámara de Diputados",
+   "agenda": "Otros",
+   "riesgo_fiscal": false
+  },
+  {
+   "codigo": "00695-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-10-28",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROPONE LA REFORMA DE LA LEY N° 30453, LEY DEL SISTEMA NACIONAL DE RESIDENTADO MÉDICO (SINAREME)",
+   "proponente": "Colegios Profesionales",
+   "agenda": "Capital humano: educación y salud",
+   "riesgo_fiscal": false
+  },
+  {
+   "codigo": "00694-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-10-28",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 29230, LEY QUE IMPULSA LA INVERSIÓN PÚBLICA REGIONAL Y LOCAL CON PARTICIPACIÓN DEL SECTOR PRIVADO, PARA PRIORIZAR EL CIERRE DE BRECHAS DE INFRAESTRUCTURA, EQUIPAMIENTO Y CAPACIDAD OPERATIVA DE LOS ESTABLECIMIENTOS PÚBLICOS DE SALUD MEDIANTE OBRAS POR IMPUESTOS.",
+   "proponente": "Cámara de Diputados",
+   "agenda": "Finanzas públicas y presupuesto",
+   "riesgo_fiscal": false
+  },
+  {
+   "codigo": "00693-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-10-28",
+   "titulo": "PROPOSICIÓN LEGISLATIVA DE LA PROFESIÓN DE CONTADOR PÚBLICO Y DE LA JUNTA DE DECANOS DE COLEGIOS DE CONTADORES PÚBLICOS DEL PERÚ",
+   "proponente": "Colegios Profesionales",
+   "agenda": "Otros",
+   "riesgo_fiscal": false
+  },
+  {
+   "codigo": "00692-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-10-28",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 6 DEL DECRETO LEGISLATIVO 1293 PARA AMPLIAR LA VIGENCIA DEL PROCESO DE FORMALIZACIÓN MINERA INTEGRAL.",
+   "proponente": "Cámara de Diputados",
+   "agenda": "Inversión, empleo y competitividad",
+   "riesgo_fiscal": false
+  },
+  {
    "codigo": "00691-2026-2031-CD",
    "camara": "D",
    "estado": "PRESENTADO",
@@ -4244,7 +4298,7 @@
   {
    "codigo": "00671-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-26",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27806, LEY DE TRANSPARENCIA Y ACCESO A LA INFORMACIÓN PÚBLICA, PARA ESTABLECER LA PUBLICACIÓN DEL ESTADO DEL EQUIPAMIENTO MÉDICO DE ALTA COMPLEJIDAD TECNOLÓGICA EN LOS PORTALES DE TRANSPARENCIA ESTÁNDAR.",
    "proponente": "Cámara de Diputados",
@@ -4254,7 +4308,7 @@
   {
    "codigo": "00670-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-26",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27806, LEY DE TRANSPARENCIA Y ACCESO A LA INFORMACIÓN PÚBLICA, PARA ESTABLECER OBLIGACIONES DE TRANSPARENCIA ACTIVA SOBRE LA DISPONIBILIDAD Y REPOSICIÓN DE MEDICAMENTOS EN EL SECTOR PÚBLICO.",
    "proponente": "Cámara de Diputados",
@@ -4264,7 +4318,7 @@
   {
    "codigo": "00669-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-26",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE UN RÉGIMEN EXCEPCIONAL Y TEMPORAL DE REGISTRO DIFERIDO AL SISTEMA DE INFORMACIÓN NACIONAL PARA LA RESPUESTA Y REHABILITACIÓN (SINPAD), EN EL MARCO DE LA LEY 29664, LEY QUE CREA EL SISTEMA NACIONAL DE GESTIÓN DEL RIESGO DE DESASTRES (SINAGERD), ANTE EL FENÓMENO EL NIÑO 2026-2027.",
    "proponente": "Cámara de Diputados",
@@ -4274,7 +4328,7 @@
   {
    "codigo": "00668-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-26",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL ARTÍCULO 4-A EN LA LEY 23330, LEY DEL SERVICIO RURAL Y URBANO MARGINAL DE SALUD, PARA RECONOCER EL SERUMS COMO EXPERIENCIA LABORAL.",
    "proponente": "Cámara de Diputados",
@@ -4284,11 +4338,11 @@
   {
    "codigo": "00667-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-26",
-   "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA INTEROPERABILIDAD DE LA INFORMACIÓN CATRASTAL Y REGISTRAL PARA PREVENIR Y GESTIONAR SUPERPOSICIONES TERRITORIALES.",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA INTEROPERABILIDAD DE LA INFORMACIÓN CATASTRAL Y REGISTRAL PARA PREVENIR Y GESTIONAR SUPERPOSICIONES TERRITORIALES.",
    "proponente": "Cámara de Diputados",
-   "agenda": "Gestión del Estado y simplificación",
+   "agenda": "Inversión, empleo y competitividad",
    "riesgo_fiscal": false
   },
   {
@@ -4304,7 +4358,7 @@
   {
    "codigo": "00666-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-23",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE DESINCENTIVA LA DEFORESTACIÓN Y PROTEGE EL DERECHO A LA CONSULTA PREVIA MEDIANTE LA DEROGACIÓN DE LA LEY N.° 31973.",
    "proponente": "Cámara de Diputados",
@@ -4314,7 +4368,7 @@
   {
    "codigo": "00665-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-23",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA DIFUSIÓN DE LA MÚSICA NACIONAL Y PROMUEVE LA PARTICIPACIÓN DEL ARTISTA NACIONAL EN EVENTOS CON ARTISTAS INTERNACIONALES.",
    "proponente": "Cámara de Diputados",
@@ -4369,56 +4423,6 @@
    "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN REALIZADA EL 8 DE SETIEMBRE DE 2026 - (ANTES PL 13905/2025-CR – AUTOR: CONGRESISTA ECHAIZ RAMOS)\nPROPOSICIÓN LEGISLATIVA QUE DISPONE LA CATEGORIZACIÓN EXTRAORDINARIA DE LOS DOCENTES NOMBRADOS DE LA ESCUELA DE EDUCACIÓN SUPERIOR PEDAGÓGICA PÚBLICA MONTERRICO, INCORPORADOS MEDIANTE LA LEY 30541 AL RÉGIMEN DE LA CARRERA PÚBLICA DOCENTE DE LA LEY 30512",
    "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
    "agenda": "Actualización (periodo anterior)",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00659-2026-2031-CD",
-   "camara": "D",
-   "estado": "EN COMISIÓN",
-   "fecha": "2026-10-23",
-   "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LOS ARTÍCULOS 98 Y 100 DE LA LEY 30220, LEY UNIVERSITARIA, PARA PROHIBIR QUE UNA PERSONA MANTENGA SIMULTÁNEAMENTE VACANTES EN MÁS DE UNA CARRERA PROFESIONAL DE PREGRADO EN UNIVERSIDADES PÚBLICAS.",
-   "proponente": "Cámara de Diputados",
-   "agenda": "Capital humano: educación y salud",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00658-2026-2031-CD",
-   "camara": "D",
-   "estado": "EN COMISIÓN",
-   "fecha": "2026-10-23",
-   "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE DISPOSICIONES PARA EL USO PRODUCTIVO TEMPORAL DE LOCALES COMUNALES EN EL MARCO DEL DESARROLLO ECONÓMICO LOCAL.",
-   "proponente": "Cámara de Diputados",
-   "agenda": "Inversión, empleo y competitividad",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00657-2026-2031-CD",
-   "camara": "D",
-   "estado": "EN COMISIÓN",
-   "fecha": "2026-10-23",
-   "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 29073, LEY DEL ARTESANO Y DEL DESARROLLO DE LA ACTIVIDAD ARTESANAL, PARA FORTALECER LA ACTIVIDAD ARTESANAL Y PROMOVER SU RESILIENCIA FRENTE A FENÓMENOS CLIMÁTICOS.",
-   "proponente": "Cámara de Diputados",
-   "agenda": "Inversión, empleo y competitividad",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00656-2026-2031-CD",
-   "camara": "D",
-   "estado": "EN COMISIÓN",
-   "fecha": "2026-10-23",
-   "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE LA TEMPORALIDAD, EVALUACIÓN Y ALTERNANCIA EN PUESTOS DE DIRECCIÓN Y JEFATURA DE ENTIDADES REGULADORAS, SUPERVISORAS Y FISCALIZADORAS DEL ESTADO.",
-   "proponente": "Cámara de Diputados",
-   "agenda": "Otros",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00655-2026-2031-CD",
-   "camara": "D",
-   "estado": "EN COMISIÓN",
-   "fecha": "2026-10-22",
-   "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 29158, LEY ORGÁNICA DEL PODER EJECUTIVO, PARA PRECISAR LA RESPONSABILIDAD POLÍTICA Y ADMINISTRATIVA POR EL INCUMPLIMIENTO INJUSTIFICADO DE LA REGLAMENTACIÓN DE LAS LEYES",
-   "proponente": "Cámara de Diputados",
-   "agenda": "Gestión del Estado y simplificación",
    "riesgo_fiscal": false
   }
  ]
