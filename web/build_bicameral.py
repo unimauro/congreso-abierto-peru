@@ -227,7 +227,7 @@ def build(fecha: str, pausa: float = 0.25) -> dict:
         print(f"[!] padrón no disponible ({e}); se reusa el anterior", file=sys.stderr)
         padron = json.load(open(OUT, encoding="utf-8"))["congresistas"] if os.path.exists(OUT) else []
         for m in padron:
-            for k in ("principal", "firmas", "pleys"):
+            for k in ("principal", "firmas", "proyectos"):
                 m.pop(k, None)
     print(f"    {len(padron)} congresistas", file=sys.stderr)
     por_clave = {(m["camara"], clave_nombre(m["nombre"])): m for m in padron}
@@ -308,7 +308,11 @@ def build(fecha: str, pausa: float = 0.25) -> dict:
                 m["simbolicos"] = ag.get(SIMBOLICO, 0)
                 m["actualizaciones"] = ag.get(ACTUALIZACION, 0)
                 m["desarrollo"] = sum(c for x, c in ag.items() if x in EJES_DESARROLLO)
-                m["pleys"] = sorted(p["pleyNum"] for p in lead)
+                m["proyectos"] = [{
+                    "codigo": p["proyectoLey"], "fecha": (p.get("fecPresentacion") or "")[:10],
+                    "titulo": re.sub(r"\s+", " ", p["titulo"]).strip(), "estado": p["desEstado"],
+                    "agenda": clasificar_agenda(p["titulo"]),
+                } for p in sorted(lead, key=lambda p: p.get("fecPresentacion") or "", reverse=True)]
             if sin_match:
                 print(f"[!] {sin_match} autores de {cam} sin cruce con el padrón", file=sys.stderr)
         camaras[cam] = info
@@ -319,7 +323,7 @@ def build(fecha: str, pausa: float = 0.25) -> dict:
         m.setdefault("simbolicos", 0)
         m.setdefault("actualizaciones", 0)
         m.setdefault("desarrollo", 0)
-        m.setdefault("pleys", [])
+        m.setdefault("proyectos", [])
 
     recientes = sorted(todos, key=lambda p: (p.get("fecPresentacion") or "", p["pleyNum"]), reverse=True)[:40]
     return {

@@ -53,8 +53,8 @@
     "ASISTENTE": 9,
     "ASESOR II": 8,
     "COORDINADOR": 5,
-    "PROFESIONAL": 1,
-    "ASESOR PRINCIPAL": 1
+    "ASESOR PRINCIPAL": 1,
+    "PROFESIONAL": 1
    },
    "bajas_por_cargo": {
     "TECNICO": 110,
@@ -92,27 +92,21 @@
      "total": 12799.4
     },
     {
-     "nombre": "GARAY GAMARRA, YURIKO TERUKO",
-     "cargo": "ASESOR",
-     "dependencia": "GRUPO PARLAMENTARIO ACCION POPULAR",
-     "total": 12740.1
-    },
-    {
-     "nombre": "FLORES PEÑA, JAKELYN",
-     "cargo": "ASESOR",
-     "dependencia": "GRUPO PARLAMENTARIO PERU LIBRE",
-     "total": 12740.1
-    },
-    {
-     "nombre": "CRUZ TEVEZ, LUZ REBECA",
-     "cargo": "ASESOR",
-     "dependencia": "GRUPO PARLAMENTARIO ALIANZA PARA EL PROGRESO",
-     "total": 12740.1
-    },
-    {
      "nombre": "CARHUAZ JERI, MALENA",
      "cargo": "ASESOR",
      "dependencia": "COMISION DE ETICA PARLAMENTARIA",
+     "total": 12740.1
+    },
+    {
+     "nombre": "BOHORQUEZ ZELADA, JESSICA SOCORRO",
+     "cargo": "ASESOR",
+     "dependencia": "GRUPO PARLAMENTARIO LEALTAD NACIONAL",
+     "total": 12740.1
+    },
+    {
+     "nombre": "GARAY GAMARRA, YURIKO TERUKO",
+     "cargo": "ASESOR",
+     "dependencia": "GRUPO PARLAMENTARIO ACCION POPULAR",
      "total": 12740.1
     },
     {
@@ -122,9 +116,15 @@
      "total": 12740.1
     },
     {
-     "nombre": "BOHORQUEZ ZELADA, JESSICA SOCORRO",
+     "nombre": "CRUZ TEVEZ, LUZ REBECA",
      "cargo": "ASESOR",
-     "dependencia": "GRUPO PARLAMENTARIO LEALTAD NACIONAL",
+     "dependencia": "GRUPO PARLAMENTARIO ALIANZA PARA EL PROGRESO",
+     "total": 12740.1
+    },
+    {
+     "nombre": "FLORES PEÑA, JAKELYN",
+     "cargo": "ASESOR",
+     "dependencia": "GRUPO PARLAMENTARIO PERU LIBRE",
      "total": 12740.1
     },
     {
@@ -140,21 +140,21 @@
      "total": 12740.1
     },
     {
-     "nombre": "BANCES FERROÑAN, CARLOS ANTONIO",
+     "nombre": "ROMERO ORTIZ, DUBERLI ALFI",
      "cargo": "ASESOR II",
      "dependencia": "COMISION DE VIVIENDA Y CONSTRUCCION",
+     "total": 10486.76
+    },
+    {
+     "nombre": "BECERRA SUAREZ, SILVIA SONIA",
+     "cargo": "ASESOR II",
+     "dependencia": "COMISION DE DEFENSA DEL CONSUMIDOR Y ORGANISMOS REGULADORES DE LOS SERVICIOS PUBLICOS",
      "total": 10486.76
     },
     {
      "nombre": "HERRERA ALEMAN, HENRY HERNAN",
      "cargo": "ASESOR II",
      "dependencia": "COMIS ESP MULT RESPONSABLE DEFINIR OBJETIVOS Y LINEAMIENTOS EN LUCHA CONTRA TERRORISMO Y CRIMEN ORGANIZADO TRASNACIONAL",
-     "total": 10486.76
-    },
-    {
-     "nombre": "ROMERO ORTIZ, DUBERLI ALFI",
-     "cargo": "ASESOR II",
-     "dependencia": "COMISION DE VIVIENDA Y CONSTRUCCION",
      "total": 10486.76
     }
    ],
@@ -327,15 +327,15 @@
      "total": 21914.58
     },
     {
-     "nombre": "MANRIQUE UGARTE, MANUEL REYNALDO JOAQUIN",
-     "cargo": "JEFE DE GABINETE",
-     "dependencia": "GRUPO PARLAMENTARIO PARTIDO CIVICO OBRAS DE LA CAMARA DE DIPUTADOS",
-     "total": 20819.04
-    },
-    {
      "nombre": "ESPINOZA TIO, MARIA CECILIA",
      "cargo": "JEFE DE GABINETE",
      "dependencia": "SEGUNDA VICEPRESIDENCIA DE LA CAMARA DE DIPUTADOS",
+     "total": 20819.04
+    },
+    {
+     "nombre": "MANRIQUE UGARTE, MANUEL REYNALDO JOAQUIN",
+     "cargo": "JEFE DE GABINETE",
+     "dependencia": "GRUPO PARLAMENTARIO PARTIDO CIVICO OBRAS DE LA CAMARA DE DIPUTADOS",
      "total": 20819.04
     },
     {
@@ -369,6 +369,12 @@
      "total": 18588.43
     },
     {
+     "nombre": "SALCEDO CUADROS, CARLO MAGNO",
+     "cargo": "ASESOR COORDINADOR",
+     "dependencia": "GRUPO PARLAMENTARIO AHORA NACION DE LA CAMARA DE DIPUTADOS",
+     "total": 17936.58
+    },
+    {
      "nombre": "VELASQUEZ GARAMBEL, JOSE LUIS",
      "cargo": "ASESOR",
      "dependencia": "TERCERA VICEPRESIDENCIA DEL SENADO",
@@ -378,12 +384,6 @@
      "nombre": "HERNANDEZ CAMBORDA, PABLO ENRIQUE",
      "cargo": "ASESOR COORDINADOR",
      "dependencia": "GRUPO PARLAMENTARIO PARTIDO CIVICO OBRAS DE LA CAMARA DE DIPUTADOS",
-     "total": 17936.58
-    },
-    {
-     "nombre": "SALCEDO CUADROS, CARLO MAGNO",
-     "cargo": "ASESOR COORDINADOR",
-     "dependencia": "GRUPO PARLAMENTARIO AHORA NACION DE LA CAMARA DE DIPUTADOS",
      "total": 17936.58
     },
     {
@@ -399,9 +399,9 @@
      "total": 17524.89
     },
     {
-     "nombre": "CARAZAS PEDREROS, MARGARITA SUSANA",
-     "cargo": "ASESOR",
-     "dependencia": "GRUPO PARLAMENTARIO PARTIDO CIVICO OBRAS DEL SENADO",
+     "nombre": "PALOMINO DE LA GALA, MIGUEL JULIAN",
+     "cargo": "ASESOR COORDINADOR",
+     "dependencia": "GRUPO PARLAMENTARIO JUNTOS POR EL PERU DEL SENADO",
      "total": 16732.9
     }
    ],
@@ -555,10 +555,10 @@
     "ASESOR II": 6,
     "AUXILIAR": 6,
     "COORDINADOR": 5,
-    "ASISTENTE": 3,
     "ASESOR PRINCIPAL": 3,
+    "ASISTENTE": 3,
     "AUXILIAR EN SERVICIOS": 1,
-    "PROFESIONAL": 1
+    "ASESOR I": 1
    },
    "top_altas": [
     {
@@ -646,25 +646,25 @@
      "total": 14717.05
     },
     {
-     "nombre": "PAREDES ORTIZ, OMAR ELMER",
+     "nombre": "MATIAS ELIAS, ISABEL LUCIA",
      "cargo": "ASESOR I",
-     "dependencia": "COMISION DE ACUSACIONES CONSTITUCIONALES DE LA CAMARA DE DIPUTADOS",
+     "dependencia": "COMISION BICAMERAL DE PRESUPUESTO Y DE LA CUENTA GENERAL DE LA REPUBLICA",
      "total": 14700.11
     }
    ],
    "top_aumentos": [
     {
-     "nombre": "GIRALDO GONZALES, MARIBEL GIOVANI",
+     "nombre": "VERA MASCARO, OSCAR RAFAEL",
      "cargo": "JEFE",
-     "dependencia": "DEPARTAMENTO DE COOPERACION INTERNACIONAL",
+     "dependencia": "DEPARTAMENTO DE ENLACE CON LOS GOBIERNOS REGIONALES Y LOCALES",
      "total": 22306.11,
      "antes": 5192.84,
      "cargo_antes": "JEFE"
     },
     {
-     "nombre": "VERA MASCARO, OSCAR RAFAEL",
+     "nombre": "GIRALDO GONZALES, MARIBEL GIOVANI",
      "cargo": "JEFE",
-     "dependencia": "DEPARTAMENTO DE ENLACE CON LOS GOBIERNOS REGIONALES Y LOCALES",
+     "dependencia": "DEPARTAMENTO DE COOPERACION INTERNACIONAL",
      "total": 22306.11,
      "antes": 5192.84,
      "cargo_antes": "JEFE"
@@ -702,17 +702,25 @@
      "cargo_antes": "ASESOR I"
     },
     {
-     "nombre": "ROMERO CASAVILCA, LENIN STIWAR",
+     "nombre": "QUINTERO PEREIRA, ZORAIMA EMPERATRIZ",
      "cargo": "ASESOR I",
-     "dependencia": "COMISION DE JUSTICIA Y DERECHOS HUMANOS DE LA CAMARA DE DIPUTADOS",
+     "dependencia": "COMISION DE ORDENAMIENTO Y SEGUIMIENTO LEGISLATIVO DE LA CAMARA DE DIPUTADOS",
      "total": 14700.11,
      "antes": 2441.5,
      "cargo_antes": "ASESOR I"
     },
     {
-     "nombre": "QUINTERO PEREIRA, ZORAIMA EMPERATRIZ",
+     "nombre": "BACA GOMEZ SANCHEZ, RODOLFO",
      "cargo": "ASESOR I",
-     "dependencia": "COMISION DE ORDENAMIENTO Y SEGUIMIENTO LEGISLATIVO DE LA CAMARA DE DIPUTADOS",
+     "dependencia": "COMISION DE ECONOMIA BANCA FINANZAS E INTELIGENCIA FINANCIERA  DE LA CAMARA DE DIPUTADOS",
+     "total": 14700.11,
+     "antes": 2441.5,
+     "cargo_antes": "ASESOR I"
+    },
+    {
+     "nombre": "ROMERO CASAVILCA, LENIN STIWAR",
+     "cargo": "ASESOR I",
+     "dependencia": "COMISION DE JUSTICIA Y DERECHOS HUMANOS DE LA CAMARA DE DIPUTADOS",
      "total": 14700.11,
      "antes": 2441.5,
      "cargo_antes": "ASESOR I"
@@ -732,14 +740,6 @@
      "total": 14700.11,
      "antes": 2441.5,
      "cargo_antes": "ASESOR PRINCIPAL"
-    },
-    {
-     "nombre": "BACA GOMEZ SANCHEZ, RODOLFO",
-     "cargo": "ASESOR I",
-     "dependencia": "COMISION DE ECONOMIA BANCA FINANZAS E INTELIGENCIA FINANCIERA  DE LA CAMARA DE DIPUTADOS",
-     "total": 14700.11,
-     "antes": 2441.5,
-     "cargo_antes": "ASESOR I"
     },
     {
      "nombre": "JIMENEZ BELMONT, PUBLIO FRANCISCO",
@@ -833,6 +833,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 8,
+     "masa": 56265.1
+    },
+    {
+     "mes": "2026-09",
+     "personal": 8,
+     "masa": 61521.83
+    }
    ]
   },
   {
@@ -891,6 +903,18 @@
      "total": 403.34,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 54476.43
+    },
+    {
+     "mes": "2026-09",
+     "personal": 8,
+     "masa": 55734.94
+    }
    ]
   },
   {
@@ -942,6 +966,18 @@
      "cargo": "COORDINADOR",
      "total": 3903.69,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 51881.48
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55734.35
     }
    ]
   },
@@ -995,6 +1031,18 @@
      "total": 3895.22,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 51066.34
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55725.88
+    }
    ]
   },
   {
@@ -1046,6 +1094,18 @@
      "cargo": "COORDINADOR",
      "total": 3878.28,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 42322.56
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55708.94
     }
    ]
   },
@@ -1099,6 +1159,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 43376.69
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55708.94
+    }
    ]
   },
   {
@@ -1151,6 +1223,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 43947.23
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55666.58
+    }
    ]
   },
   {
@@ -1202,6 +1286,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 38321.37
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55649.65
     }
    ]
   },
@@ -1261,6 +1357,18 @@
      "total": 280.34,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 45242.07
+    },
+    {
+     "mes": "2026-09",
+     "personal": 8,
+     "masa": 55594.18
+    }
    ]
   },
   {
@@ -1312,6 +1420,28 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": "ROSPIGLIOSI CAPURRO FERNANDO MIGUEL"
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-05",
+     "personal": 7,
+     "masa": 55164.26
+    },
+    {
+     "mes": "2026-07",
+     "personal": 7,
+     "masa": 47908.21
+    },
+    {
+     "mes": "2026-08",
+     "personal": 8,
+     "masa": 56838.21
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55564.94
     }
    ]
   },
@@ -1365,6 +1495,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 9,
+     "masa": 54008.98
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55556.48
+    }
    ]
   },
   {
@@ -1416,6 +1558,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 8,
+     "masa": 55150.01
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55497.18
     }
    ]
   },
@@ -1469,6 +1623,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 36100.26
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55488.71
+    }
    ]
   },
   {
@@ -1520,6 +1686,28 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": "CASTILLO RIVAS EDUARDO ENRIQUE"
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-05",
+     "personal": 7,
+     "masa": 52901.35
+    },
+    {
+     "mes": "2026-07",
+     "personal": 7,
+     "masa": 44639.97
+    },
+    {
+     "mes": "2026-08",
+     "personal": 8,
+     "masa": 48593.82
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55480.24
     }
    ]
   },
@@ -1573,6 +1761,28 @@
      "total": 3649.58,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-05",
+     "personal": 8,
+     "masa": 54487.91
+    },
+    {
+     "mes": "2026-07",
+     "personal": 7,
+     "masa": 48188.55
+    },
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 41464.85
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55480.24
+    }
    ]
   },
   {
@@ -1624,6 +1834,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 50168.16
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -1677,6 +1899,18 @@
      "total": 3641.11,
      "antes": "GRUPO PARLAMENTARIO HONOR Y DEMOCRACIA"
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 52143.9
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -1728,6 +1962,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 55288.32
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -1781,6 +2027,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 50304.03
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -1832,6 +2090,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 55176.78
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -1885,6 +2155,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 51653.36
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -1936,6 +2218,28 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": "OBANDO MORGAN AURISTELA ANA"
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-05",
+     "personal": 7,
+     "masa": 54409.06
+    },
+    {
+     "mes": "2026-07",
+     "personal": 7,
+     "masa": 46732.5
+    },
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 52454.45
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -1989,6 +2293,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 47252.73
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -2040,6 +2356,28 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": "FLORES RUIZ VICTOR SEFERINO"
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-05",
+     "personal": 7,
+     "masa": 55923.77
+    },
+    {
+     "mes": "2026-07",
+     "personal": 7,
+     "masa": 48527.55
+    },
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 53435.25
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -2093,6 +2431,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 55531.06
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -2144,6 +2494,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 54525.64
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -2197,6 +2559,18 @@
      "total": 3641.11,
      "antes": "QUISPE MAMANI WILSON RUSBEL"
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 51090.94
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -2248,6 +2622,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 55632.7
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -2301,6 +2687,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 54671.3
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -2352,6 +2750,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 51866.78
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -2405,6 +2815,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 48225.68
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -2456,6 +2878,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 53335.85
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -2509,6 +2943,28 @@
      "total": 3641.11,
      "antes": "ROBLES ARAUJO SILVANA EMPERATRIZ"
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-05",
+     "personal": 7,
+     "masa": 54160.88
+    },
+    {
+     "mes": "2026-07",
+     "personal": 7,
+     "masa": 48414.55
+    },
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 55539.24
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -2560,6 +3016,28 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": "JIMENEZ HEREDIA DAVID JULIO"
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-05",
+     "personal": 6,
+     "masa": 43217.74
+    },
+    {
+     "mes": "2026-07",
+     "personal": 7,
+     "masa": 39944.47
+    },
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 48355.89
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -2613,6 +3091,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 49831.3
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -2664,6 +3154,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 53739.16
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -2717,6 +3219,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 48293.83
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -2768,6 +3282,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 9,
+     "masa": 59883.87
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -2821,6 +3347,28 @@
      "total": 3641.11,
      "antes": "COMIS ESP DE SEGUIM PROCESO DE CREACION IMPLEMENTACION Y FUNCIONAMIENTO DE AUTORIDAD NACIONAL DE INFRAESTRUCTURA-ANIN"
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-05",
+     "personal": 7,
+     "masa": 54148.75
+    },
+    {
+     "mes": "2026-07",
+     "personal": 7,
+     "masa": 48527.55
+    },
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 42228.41
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -2872,6 +3420,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 8,
+     "masa": 55561.61
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -2925,6 +3485,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 50882.72
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -2976,6 +3548,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 54264.4
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -3029,6 +3613,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 53077.35
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -3081,6 +3677,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 48128.6
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -3132,6 +3740,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 40475.21
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -3191,6 +3811,18 @@
      "total": 831.01,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 54119.32
+    },
+    {
+     "mes": "2026-09",
+     "personal": 8,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -3242,6 +3874,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 48409.91
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -3295,6 +3939,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 54030.19
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -3346,6 +4002,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 46457.59
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -3399,6 +4067,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 47621.48
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -3450,6 +4130,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 49787.77
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -3503,6 +4195,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 37641.92
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -3554,6 +4258,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 8,
+     "masa": 54861.31
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -3607,6 +4323,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 47154.04
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -3658,6 +4386,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 50762.37
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -3711,6 +4451,28 @@
      "total": 3641.11,
      "antes": "MESA MULTIPARTIDARIA DE JOVENES PARLAMENTARIOS"
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-05",
+     "personal": 7,
+     "masa": 55205.76
+    },
+    {
+     "mes": "2026-07",
+     "personal": 7,
+     "masa": 48527.55
+    },
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 55666.58
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -3762,6 +4524,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 51773.65
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -3815,6 +4589,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 48995.54
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -3866,6 +4652,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 51193.86
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -3919,6 +4717,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 54303.86
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -3970,6 +4780,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 53314.34
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -4023,6 +4845,28 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-05",
+     "personal": 7,
+     "masa": 55697.77
+    },
+    {
+     "mes": "2026-07",
+     "personal": 7,
+     "masa": 48301.55
+    },
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 38880.61
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -4074,6 +4918,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 55305.26
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -4127,6 +4983,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 46964.61
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -4178,6 +5046,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 55573.41
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -4231,6 +5111,28 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-05",
+     "personal": 7,
+     "masa": 43484.66
+    },
+    {
+     "mes": "2026-07",
+     "personal": 7,
+     "masa": 45478.2
+    },
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 55588.82
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -4282,6 +5184,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 51884.34
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -4335,6 +5249,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 54262.6
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -4386,6 +5312,28 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": "MONTOYA MANRIQUE JORGE CARLOS"
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-05",
+     "personal": 7,
+     "masa": 55810.77
+    },
+    {
+     "mes": "2026-07",
+     "personal": 7,
+     "masa": 48414.55
+    },
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 54192.84
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -4439,6 +5387,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 55531.06
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -4490,6 +5450,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 49277.06
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -4543,6 +5515,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 55556.47
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -4594,6 +5578,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 55183.89
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -4653,6 +5649,18 @@
      "total": 490.0,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 43107.97
+    },
+    {
+     "mes": "2026-09",
+     "personal": 8,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -4704,6 +5712,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 41964.81
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -4757,6 +5777,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 55573.41
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -4808,6 +5840,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 45926.23
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -4861,6 +5905,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 39888.57
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -4912,6 +5968,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 54322.28
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -4965,6 +6033,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 55531.06
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -5016,6 +6096,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 54105.13
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -5069,6 +6161,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 51934.47
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -5120,6 +6224,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 9,
+     "masa": 57135.15
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -5173,6 +6289,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 45258.92
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -5224,6 +6352,28 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": "QUITO SARMIENTO BERNARDO JAIME"
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-05",
+     "personal": 7,
+     "masa": 55471.77
+    },
+    {
+     "mes": "2026-07",
+     "personal": 7,
+     "masa": 48075.55
+    },
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 55539.53
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -5277,6 +6427,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 36711.33
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -5328,6 +6490,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 55310.01
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -5381,6 +6555,28 @@
      "total": 3641.11,
      "antes": "AGUINAGA RECUENCO ALEJANDRO AURELIO"
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-05",
+     "personal": 7,
+     "masa": 55670.6
+    },
+    {
+     "mes": "2026-07",
+     "personal": 7,
+     "masa": 47776.85
+    },
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 55590.35
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -5432,6 +6628,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 40822.48
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -5485,6 +6693,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 54180.17
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -5536,6 +6756,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 44113.75
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -5589,6 +6821,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 54197.25
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -5641,6 +6885,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 52898.61
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -5692,6 +6948,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 54161.53
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -5751,6 +7019,18 @@
      "total": 1121.36,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 53385.22
+    },
+    {
+     "mes": "2026-09",
+     "personal": 8,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -5802,6 +7082,28 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": "ZEBALLOS APONTE JORGE ARTURO"
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-05",
+     "personal": 7,
+     "masa": 55810.77
+    },
+    {
+     "mes": "2026-07",
+     "personal": 6,
+     "masa": 35561.45
+    },
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 51921.54
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -5855,6 +7157,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 55494.39
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -5906,6 +7220,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 51349.3
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -5959,6 +7285,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 48688.9
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -6010,6 +7348,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 49946.16
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -6063,6 +7413,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 55573.41
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -6114,6 +7476,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 54404.95
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -6167,6 +7541,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 45648.17
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -6218,6 +7604,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 51981.43
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -6271,6 +7669,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 34324.63
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -6322,6 +7732,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": "BAZAN NARRO SIGRID TESORO"
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 55553.14
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -6375,6 +7797,18 @@
      "total": 3641.11,
      "antes": "TAIPE CORONADO MARIA ELIZABETH"
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 55531.06
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -6426,6 +7860,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 55615.76
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -6479,6 +7925,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 55623.94
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -6530,6 +7988,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 50750.64
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -6583,6 +8053,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 47556.86
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -6634,6 +8116,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 44691.2
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -6687,6 +8181,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 44645.98
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -6738,6 +8244,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 47133.77
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -6791,6 +8309,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 44573.76
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -6842,6 +8372,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 8,
+     "masa": 55576.03
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -6895,6 +8437,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 55587.02
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -6946,6 +8500,28 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": "YARROW LUMBRERAS NORMA MARTINA"
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-05",
+     "personal": 7,
+     "masa": 55670.6
+    },
+    {
+     "mes": "2026-07",
+     "personal": 7,
+     "masa": 47647.53
+    },
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 55598.82
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -6999,6 +8575,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 48240.03
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
+    }
    ]
   },
   {
@@ -7050,6 +8638,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 55112.35
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55471.77
     }
    ]
   },
@@ -7103,6 +8703,18 @@
      "total": 3519.74,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 8,
+     "masa": 56700.02
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55350.4
+    }
    ]
   },
   {
@@ -7155,6 +8767,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 48963.52
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55331.6
+    }
    ]
   },
   {
@@ -7206,6 +8830,18 @@
      "cargo": "COORDINADOR",
      "total": 3398.37,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 46781.34
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55229.03
     }
    ]
   },
@@ -7265,6 +8901,18 @@
      "total": 806.67,
      "antes": "TUDELA GUTIERREZ ADRIANA JOSEFINA"
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 55313.73
+    },
+    {
+     "mes": "2026-09",
+     "personal": 8,
+     "masa": 55170.43
+    }
    ]
   },
   {
@@ -7316,6 +8964,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 55641.17
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55068.43
     }
    ]
   },
@@ -7369,6 +9029,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 54968.58
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55051.26
+    }
    ]
   },
   {
@@ -7420,6 +9092,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 48442.56
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 55051.26
     }
    ]
   },
@@ -7485,6 +9169,18 @@
      "total": 420.51,
      "antes": "DEPARTAMENTO DE SEGURIDAD"
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 55313.73
+    },
+    {
+     "mes": "2026-09",
+     "personal": 9,
+     "masa": 55051.26
+    }
    ]
   },
   {
@@ -7543,6 +9239,18 @@
      "total": 3047.04,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 50757.35
+    },
+    {
+     "mes": "2026-09",
+     "personal": 8,
+     "masa": 54917.76
+    }
    ]
   },
   {
@@ -7594,6 +9302,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 48125.78
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 54911.09
     }
    ]
   },
@@ -7653,6 +9373,18 @@
      "total": 1261.53,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 9,
+     "masa": 52933.16
+    },
+    {
+     "mes": "2026-09",
+     "personal": 8,
+     "masa": 54911.08
+    }
    ]
   },
   {
@@ -7705,6 +9437,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 8,
+     "masa": 52638.74
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 54754.34
+    }
    ]
   },
   {
@@ -7756,6 +9500,18 @@
      "cargo": "COORDINADOR",
      "total": 2912.89,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 51923.83
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 54743.55
     }
    ]
   },
@@ -7815,6 +9571,18 @@
      "total": 554.01,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 48940.06
+    },
+    {
+     "mes": "2026-09",
+     "personal": 8,
+     "masa": 54640.76
+    }
    ]
   },
   {
@@ -7866,6 +9634,18 @@
      "cargo": "COORDINADOR",
      "total": 3519.74,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 52336.13
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 54529.89
     }
    ]
   },
@@ -7925,6 +9705,18 @@
      "total": 2493.03,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 48413.13
+    },
+    {
+     "mes": "2026-09",
+     "personal": 8,
+     "masa": 54363.75
+    }
    ]
   },
   {
@@ -7976,6 +9768,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 36630.85
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 54157.92
     }
    ]
   },
@@ -8029,6 +9833,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 47469.61
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 54001.76
+    }
    ]
   },
   {
@@ -8080,6 +9896,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 8,
+     "masa": 50504.87
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 53666.24
     }
    ]
   },
@@ -8133,6 +9961,18 @@
      "total": 1541.87,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 44386.19
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 52808.53
+    }
    ]
   },
   {
@@ -8184,6 +10024,28 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": "JUAREZ GALLEGOS CARMEN PATRICIA"
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-05",
+     "personal": 7,
+     "masa": 55923.77
+    },
+    {
+     "mes": "2026-07",
+     "personal": 7,
+     "masa": 48527.55
+    },
+    {
+     "mes": "2026-08",
+     "personal": 5,
+     "masa": 36600.43
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 52794.33
     }
    ]
   },
@@ -8249,6 +10111,18 @@
      "total": 831.01,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 50798.87
+    },
+    {
+     "mes": "2026-09",
+     "personal": 9,
+     "masa": 52728.14
+    }
    ]
   },
   {
@@ -8301,6 +10175,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 40267.95
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 52701.73
+    }
    ]
   },
   {
@@ -8352,6 +10238,18 @@
      "cargo": "ASISTENTE",
      "total": 2102.56,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 43383.29
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 52538.21
     }
    ]
   },
@@ -8411,6 +10309,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 54427.82
+    },
+    {
+     "mes": "2026-09",
+     "personal": 8,
+     "masa": 52475.09
+    }
    ]
   },
   {
@@ -8462,6 +10372,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 8,
+     "masa": 49772.69
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 52350.35
     }
    ]
   },
@@ -8515,6 +10437,18 @@
      "total": 364.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 52204.56
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 52194.77
+    }
    ]
   },
   {
@@ -8567,6 +10501,18 @@
      "total": 121.37,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 44513.3
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 51952.03
+    }
    ]
   },
   {
@@ -8613,6 +10559,28 @@
      "total": 4205.11,
      "antes": "VENTURA ANGEL HECTOR JOSE"
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-05",
+     "personal": 7,
+     "masa": 55810.77
+    },
+    {
+     "mes": "2026-07",
+     "personal": 7,
+     "masa": 48011.22
+    },
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 51881.48
+    },
+    {
+     "mes": "2026-09",
+     "personal": 6,
+     "masa": 51830.66
+    }
    ]
   },
   {
@@ -8658,6 +10626,18 @@
      "cargo": "AUXILIAR",
      "total": 4205.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 48773.26
+    },
+    {
+     "mes": "2026-09",
+     "personal": 6,
+     "masa": 51830.66
     }
    ]
   },
@@ -8711,6 +10691,18 @@
      "total": 420.51,
      "antes": "SALHUANA CAVIDES EDUARDO"
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 55615.76
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 51687.17
+    }
    ]
   },
   {
@@ -8762,6 +10754,18 @@
      "cargo": "AUXILIAR",
      "total": 420.51,
      "antes": "DEPARTAMENTO DE SEGURIDAD"
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 54153.44
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 51687.17
     }
    ]
   },
@@ -8815,6 +10819,18 @@
      "total": 140.17,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 50851.04
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 51406.83
+    }
    ]
   },
   {
@@ -8860,6 +10876,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 44968.35
+    },
+    {
+     "mes": "2026-09",
+     "personal": 6,
+     "masa": 51266.66
     }
    ]
   },
@@ -8907,6 +10935,28 @@
      "total": 3641.11,
      "antes": "LUQUE IBARRA RUTH"
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-05",
+     "personal": 8,
+     "masa": 55697.77
+    },
+    {
+     "mes": "2026-07",
+     "personal": 7,
+     "masa": 48301.55
+    },
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 49218.03
+    },
+    {
+     "mes": "2026-09",
+     "personal": 6,
+     "masa": 51266.66
+    }
    ]
   },
   {
@@ -8953,6 +11003,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 50242.66
+    },
+    {
+     "mes": "2026-09",
+     "personal": 6,
+     "masa": 51266.66
+    }
    ]
   },
   {
@@ -8998,6 +11060,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 48428.51
+    },
+    {
+     "mes": "2026-09",
+     "personal": 6,
+     "masa": 51266.66
     }
    ]
   },
@@ -9051,6 +11125,18 @@
      "total": 560.68,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 54279.18
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 50856.38
+    }
    ]
   },
   {
@@ -9103,6 +11189,28 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-05",
+     "personal": 7,
+     "masa": 42256.22
+    },
+    {
+     "mes": "2026-07",
+     "personal": 7,
+     "masa": 39399.03
+    },
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 40635.98
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 50810.15
+    }
    ]
   },
   {
@@ -9154,6 +11262,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 43159.09
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 50571.73
     }
    ]
   },
@@ -9213,6 +11333,18 @@
      "total": 980.01,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 54982.57
+    },
+    {
+     "mes": "2026-09",
+     "personal": 8,
+     "masa": 49591.73
+    }
    ]
   },
   {
@@ -9264,6 +11396,28 @@
      "cargo": "AUXILIAR",
      "total": 1822.22,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-05",
+     "personal": 7,
+     "masa": 55000.26
+    },
+    {
+     "mes": "2026-07",
+     "personal": 7,
+     "masa": 47911.54
+    },
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 46380.4
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 48983.88
     }
    ]
   },
@@ -9317,6 +11471,18 @@
      "total": 1108.01,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 40931.59
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 48269.67
+    }
    ]
   },
   {
@@ -9368,6 +11534,18 @@
      "cargo": "TECNICO",
      "total": 831.01,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 54951.64
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 47992.67
     }
    ]
   },
@@ -9421,6 +11599,18 @@
      "total": 831.01,
      "antes": "AREA DE ATENCION CIUDADANA"
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 54553.6
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 47992.67
+    }
    ]
   },
   {
@@ -9473,6 +11663,18 @@
      "total": 831.01,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 5,
+     "masa": 28331.22
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 47871.3
+    }
    ]
   },
   {
@@ -9512,6 +11714,18 @@
      "cargo": "AUXILIAR",
      "total": 4205.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 5,
+     "masa": 45837.21
+    },
+    {
+     "mes": "2026-09",
+     "personal": 5,
+     "masa": 47625.55
     }
    ]
   },
@@ -9559,6 +11773,28 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-05",
+     "personal": 7,
+     "masa": 50147.98
+    },
+    {
+     "mes": "2026-07",
+     "personal": 7,
+     "masa": 42737.45
+    },
+    {
+     "mes": "2026-08",
+     "personal": 5,
+     "masa": 32520.84
+    },
+    {
+     "mes": "2026-09",
+     "personal": 6,
+     "masa": 47280.24
+    }
    ]
   },
   {
@@ -9604,6 +11840,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 43282.77
+    },
+    {
+     "mes": "2026-09",
+     "personal": 6,
+     "masa": 47161.66
     }
    ]
   },
@@ -9651,6 +11899,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 44848.63
+    },
+    {
+     "mes": "2026-09",
+     "personal": 6,
+     "masa": 47161.66
+    }
    ]
   },
   {
@@ -9696,6 +11956,18 @@
      "cargo": "COORDINADOR",
      "total": 1335.07,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 42284.35
+    },
+    {
+     "mes": "2026-09",
+     "personal": 6,
+     "masa": 44855.62
     }
    ]
   },
@@ -9749,6 +12021,18 @@
      "total": 1210.01,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 55044.81
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 44581.67
+    }
    ]
   },
   {
@@ -9801,6 +12085,18 @@
      "total": 420.51,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 55548.0
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 44208.07
+    }
    ]
   },
   {
@@ -9846,6 +12142,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 23113.93
+    },
+    {
+     "mes": "2026-09",
+     "personal": 6,
+     "masa": 43371.66
     }
    ]
   },
@@ -9893,6 +12201,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 32825.67
+    },
+    {
+     "mes": "2026-09",
+     "personal": 6,
+     "masa": 43371.66
+    }
    ]
   },
   {
@@ -9939,6 +12259,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 49951.95
+    },
+    {
+     "mes": "2026-09",
+     "personal": 6,
+     "masa": 43128.28
+    }
    ]
   },
   {
@@ -9984,6 +12316,18 @@
      "cargo": "COORDINADOR",
      "total": 2912.89,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 5,
+     "masa": 36663.74
+    },
+    {
+     "mes": "2026-09",
+     "personal": 6,
+     "masa": 42643.44
     }
    ]
   },
@@ -10037,6 +12381,18 @@
      "total": 277.0,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 40260.0
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 40494.65
+    }
    ]
   },
   {
@@ -10089,6 +12445,18 @@
      "total": 420.51,
      "antes": "AREA DE ATENCION CIUDADANA"
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 5,
+     "masa": 33744.68
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 40333.87
+    }
    ]
   },
   {
@@ -10135,6 +12503,18 @@
      "total": 3641.11,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 3,
+     "masa": 15079.24
+    },
+    {
+     "mes": "2026-09",
+     "personal": 6,
+     "masa": 39914.32
+    }
    ]
   },
   {
@@ -10174,6 +12554,18 @@
      "cargo": "ASISTENTE",
      "total": 4205.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 5,
+     "masa": 30963.95
+    },
+    {
+     "mes": "2026-09",
+     "personal": 5,
+     "masa": 39557.22
     }
    ]
   },
@@ -10221,6 +12613,18 @@
      "total": 831.01,
      "antes": "OFICINA DE COMUNICACIONES E IMAGEN INSTITUCIONAL"
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 8,
+     "masa": 53052.07
+    },
+    {
+     "mes": "2026-09",
+     "personal": 6,
+     "masa": 39438.36
+    }
    ]
   },
   {
@@ -10260,6 +12664,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 5,
+     "masa": 30936.26
+    },
+    {
+     "mes": "2026-09",
+     "personal": 5,
+     "masa": 39166.55
     }
    ]
   },
@@ -10306,6 +12722,18 @@
      "cargo": "COORDINADOR",
      "total": 3641.11,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 5,
+     "masa": 23303.47
+    },
+    {
+     "mes": "2026-09",
+     "personal": 6,
+     "masa": 38471.62
     }
    ]
   },
@@ -10359,6 +12787,28 @@
      "total": 420.51,
      "antes": "MOYANO DELGADO MARTHA LUPE"
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-05",
+     "personal": 7,
+     "masa": 51794.77
+    },
+    {
+     "mes": "2026-07",
+     "personal": 7,
+     "masa": 44903.89
+    },
+    {
+     "mes": "2026-08",
+     "personal": 7,
+     "masa": 51944.64
+    },
+    {
+     "mes": "2026-09",
+     "personal": 7,
+     "masa": 38457.07
+    }
    ]
   },
   {
@@ -10398,6 +12848,18 @@
      "cargo": "ASISTENTE",
      "total": 420.51,
      "antes": null
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 6,
+     "masa": 32065.2
+    },
+    {
+     "mes": "2026-09",
+     "personal": 5,
+     "masa": 35381.95
     }
    ]
   },
@@ -10469,6 +12931,18 @@
      "total": 420.51,
      "antes": null
     }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 5,
+     "masa": 35570.5
+    },
+    {
+     "mes": "2026-09",
+     "personal": 10,
+     "masa": 32366.06
+    }
    ]
   },
   {
@@ -10496,6 +12970,18 @@
      "cargo": "TECNICO",
      "total": 1939.03,
      "antes": "MESA DE MUJERES PARLAMENTARIAS PERUANAS"
+    }
+   ],
+   "serie": [
+    {
+     "mes": "2026-08",
+     "personal": 3,
+     "masa": 20876.15
+    },
+    {
+     "mes": "2026-09",
+     "personal": 3,
+     "masa": 14454.25
     }
    ]
   }

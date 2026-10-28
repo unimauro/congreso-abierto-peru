@@ -84,8 +84,8 @@ def comparar(a: dict, b: dict) -> dict:
     }
 
 
-def despachos(d: dict, congresistas: list[dict], previo: dict | None) -> list[dict]:
-    """Personal por despacho congresal: la dependencia contiene apellidos + un nombre del congresista."""
+def por_despacho(d: dict, congresistas: list[dict]) -> dict[str, tuple[dict, list]]:
+    """{nombre congresista: (congresista, filas)}: la dependencia contiene sus apellidos + un nombre."""
     claves = []
     for m in congresistas:
         ap, _, nom = m["nombre"].partition(",")
@@ -93,15 +93,28 @@ def despachos(d: dict, congresistas: list[dict], previo: dict | None) -> list[di
     por_dep = defaultdict(list)
     for r in activos(d).values():
         por_dep[r[DEPENDENCIA]].append(r)
-    antes = activos(previo) if previo else {}
-
-    salida = []
+    salida = {}
     for dep, rs in por_dep.items():
         w = set(tokens(dep))
         hits = [m for ap, nom, m in claves if ap and ap <= w and nom & w]
-        if len(hits) != 1:
-            continue
-        m = hits[0]
+        if len(hits) == 1:
+            m, previas = hits[0], salida.get(hits[0]["nombre"], (None, []))[1]
+            salida[m["nombre"]] = (m, previas + rs)
+    return salida
+
+
+def despachos(snaps: dict, congresistas: list[dict], previo: dict | None) -> list[dict]:
+    """Personal por despacho congresal en el último mes + su costo mes a mes."""
+    meses = list(snaps)
+    serie = defaultdict(list)  # costo mensual del despacho en cada mes publicado
+    for (a, mes) in meses:
+        for nombre, (_, rs) in por_despacho(snaps[(a, mes)], congresistas).items():
+            serie[nombre].append({"mes": f"{a}-{mes:02d}", "personal": len(rs),
+                                  "masa": round(sum(r[TOTAL] for r in rs), 2)})
+    antes = activos(previo) if previo else {}
+
+    salida = []
+    for nombre, (m, rs) in por_despacho(snaps[meses[-1]], congresistas).items():
         salida.append({
             "nombre": m["nombre"], "camara": m["camara"], "sigla": m.get("sigla", "—"),
             "personal": len(rs), "masa": round(sum(r[TOTAL] for r in rs), 2),
@@ -110,6 +123,7 @@ def despachos(d: dict, congresistas: list[dict], previo: dict | None) -> list[di
             "equipo": [{"nombre": r[NOMBRE], "cargo": r[CARGO], "total": r[TOTAL],
                         "antes": antes[r[NOMBRE]][DEPENDENCIA] if r[NOMBRE] in antes else None}
                        for r in sorted(rs, key=lambda r: -r[TOTAL])],
+            "serie": serie[nombre],
         })
     return sorted(salida, key=lambda x: -x["masa"])
 
@@ -146,7 +160,7 @@ def build(fecha: str) -> dict:
         "serie": [{"mes": f"{a}-{m:02d}", "activos": len(activos(d)),
                    "masa": round(sum(r[TOTAL] for r in activos(d).values()), 2)} for (a, m), d in snaps.items()],
         "comparaciones": [comparar(snaps[x], snaps[y]) for x, y in zip(meses, meses[1:])],
-        "despachos": despachos(ultimo, congresistas, ref),
+        "despachos": despachos(snaps, congresistas, ref),
         "bancadas": bancadas(ultimo),
     }
 

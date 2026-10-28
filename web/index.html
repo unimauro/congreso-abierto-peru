@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" data-theme="dark">
+<html lang="es" data-theme="light">
 <head>
 <meta charset="UTF-8" />
 <!-- Google tag (gtag.js) -->
@@ -142,6 +142,18 @@
   .banner b{font-size:15px}
   .votos{display:flex;gap:6px;flex-wrap:wrap;font-size:12px;font-weight:700}
   .votos .si{color:var(--green)} .votos .no{color:var(--accent)} .votos .ab{color:var(--amber)}
+  th.sortable{cursor:pointer;user-select:none;white-space:nowrap}
+  th.sortable:hover{color:var(--text)}
+  th.sortable.on{color:var(--accent)}
+  .xbtn{background:none;border:1px solid var(--border);color:var(--muted);border-radius:6px;width:24px;height:24px;cursor:pointer;font-size:12px;margin-right:6px;vertical-align:middle}
+  .xbtn:hover{color:var(--text);border-color:var(--muted)}
+  tr.det>td{background:var(--panel-2);padding:16px}
+  tr.det:hover{background:none}
+  .det-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+  .det-grid h4{margin:0 0 8px;font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
+  .det-grid ul{margin:0;padding-left:16px;font-size:13px;line-height:1.55}
+  .mbar{display:grid;grid-template-columns:64px 1fr auto;align-items:center;gap:8px;font-size:12.5px;margin:4px 0}
+  .mbar .b{height:10px;border-radius:4px;background:var(--accent-2)}
   details.equipo summary{cursor:pointer;color:var(--accent-2);font-size:12.5px}
   details.equipo ul{margin:6px 0 0;padding-left:16px;font-size:12.5px;color:var(--muted)}
   .view{display:none}
@@ -263,7 +275,7 @@
       <div class="card">
         <div class="panel-head"><h3>Producción por bancada</h3><span class="hint">proyectos y proyectos por miembro</span></div>
         <div class="chart-box"><canvas id="chBicBancada"></canvas></div>
-        <div style="overflow:auto;margin-top:10px"><table id="tBicBancada"><thead><tr><th>Bancada</th><th class="num-r">Miembros</th><th class="num-r">Proyectos</th><th class="num-r">x miembro</th><th class="num-r">Desarrollo</th><th class="num-r">Asistencia</th></tr></thead><tbody></tbody></table></div>
+        <div style="overflow:auto;margin-top:10px"><table id="tBicBancada"><thead><tr></tr></thead><tbody></tbody></table></div>
       </div>
       <div class="card">
         <div class="panel-head"><h3>Proyectos por mes</h3><span class="hint">fecha de presentación</span></div>
@@ -278,20 +290,20 @@
       <div class="per-filtros">
         <input type="search" id="bic-q" placeholder="Nombre o distrito electoral…" autocomplete="off" />
         <select id="bic-banc"><option value="">Todas las bancadas</option></select>
-        <select id="bic-orden">
-          <option value="principal">Ordenar: proyectos ↓</option>
-          <option value="asistencia">Ordenar: asistencia ↑ (más faltas)</option>
-          <option value="masa">Ordenar: costo del despacho ↓</option>
-          <option value="nombre">Ordenar: A–Z</option>
+        <select id="bic-ps">
+          <option value="20">20 por página</option>
+          <option value="50">50 por página</option>
+          <option value="1000">Todos</option>
         </select>
       </div>
-      <div style="overflow:auto;max-height:620px">
+      <div style="overflow:auto">
         <table id="tBicMiembros">
-          <thead><tr><th>Congresista</th><th>Bancada</th><th>Distrito</th><th class="num-r">Proyectos</th><th class="num-r">Desarrollo</th><th class="num-r">Simból.</th><th class="num-r">Asistencia</th><th class="num-r">Votos SI/NO/Abst</th><th class="num-r">Despacho</th></tr></thead>
+          <thead><tr></tr></thead>
           <tbody></tbody>
         </table>
       </div>
-      <div class="note">Proyectos = como <b>autor principal</b> (filtro oficial de la API). Asistencia = presente en los pases de lista del Pleno; las licencias no cuentan como falta. Despacho = personal y planilla mensual atribuidos a su oficina en la planilla del PTE.</div>
+      <div class="per-pager"><button class="btn" id="bic-prev">‹ Anterior</button><span id="bic-pag"></span><button class="btn" id="bic-next">Siguiente ›</button></div>
+      <div class="note">Haz clic en un encabezado para ordenar y en <b>▸</b> para ver el detalle: gasto mensual del despacho, equipo, proyectos y votos. Proyectos = como <b>autor principal</b> (filtro oficial de la API). Asistencia = presente en los pases de lista del Pleno; las licencias no cuentan como falta. Despacho = personal y planilla mensual atribuidos a su oficina en la planilla del PTE.</div>
     </div>
 
     <div class="grid panels" style="margin-top:16px">

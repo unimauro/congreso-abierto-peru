@@ -579,9 +579,30 @@ function renderInforme() {
 // ---- Congreso bicameral 2026–2031 (Senado + Diputados) ----
 const CAM_NOMBRE = { D: "Diputados", S: "Senado", C: "Bicameral" };
 let bicCam = "D";
-let bicState = { q: "", banc: "", orden: "principal", wired: false };
+let bicState = { q: "", banc: "", k: "principal", dir: -1, pag: 0, ps: 20, abiertos: new Set(), wired: false };
+let bancSort = { k: "proyectos", dir: -1 };
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const pctTxt = (v) => v == null ? "—" : `${v}%`;
+
+// ---- Tablas ordenables: clic en el encabezado (numéricas empiezan de mayor a menor) ----
+function encabezados(tableId, cols, st, onChange) {
+  const tr = document.querySelector(`#${tableId} thead tr`);
+  tr.innerHTML = cols.map(c => c.k
+    ? `<th class="sortable${c.num ? " num-r" : ""}${st.k === c.k ? " on" : ""}" data-k="${c.k}">${c.t}${st.k === c.k ? (st.dir > 0 ? " ▲" : " ▼") : ""}</th>`
+    : `<th${c.num ? ' class="num-r"' : ""}>${c.t}</th>`).join("");
+  tr.querySelectorAll("th.sortable").forEach(th => th.onclick = () => {
+    const c = cols.find(x => x.k === th.dataset.k);
+    st.dir = st.k === c.k ? -st.dir : (c.num ? -1 : 1);
+    st.k = c.k;
+    onChange();
+  });
+}
+// Compara dejando los vacíos (sin dato) siempre al final.
+function cmp(a, b, dir) {
+  if (a == null || a === "") return b == null || b === "" ? 0 : 1;
+  if (b == null || b === "") return -1;
+  return (typeof a === "string" ? a.localeCompare(b, "es") : a - b) * dir;
+}
 
 // Índices de asistencia/votos y de despacho por (cámara|nombre)
 function bicIndices() {
@@ -614,7 +635,7 @@ function renderBicameral() {
     const b = document.createElement("button");
     b.className = "ychip" + (k === bicCam ? " active" : "");
     b.textContent = `${cams[k].nombre} (${fmt(cams[k].proyectos)})`;
-    b.onclick = () => { bicCam = k; bicState.banc = ""; renderBicameral(); };
+    b.onclick = () => { bicCam = k; bicState.banc = ""; bicState.pag = 0; renderBicameral(); };
     box.appendChild(b);
   });
 
@@ -652,10 +673,20 @@ function renderBicameral() {
   });
   const asisBanc = {};
   miembrosCam.forEach(m => { const x = pl[bicCam + "|" + m.nombre]; if (x && x.pases) { const a = asisBanc[m.bancada] ||= [0, 0]; a[0] += x.presente; a[1] += x.presente + x.ausente; } });
-  document.querySelector("#tBicBancada tbody").innerHTML = (C.bancadas || []).map(b => {
+  const filasBanc = (C.bancadas || []).map(b => {
     const a = asisBanc[b.bancada];
-    return `<tr><td>${esc(b.bancada)}</td><td class="num-r">${b.miembros || "—"}</td><td class="num-r">${fmt(b.proyectos)}</td><td class="num-r">${b.por_miembro ?? "—"}</td><td class="num-r">${pctTxt(b.pct_desarrollo)}</td><td class="num-r">${a ? (a[0] / a[1] * 100).toFixed(1) + "%" : "—"}</td></tr>`;
-  }).join("");
+    return { ...b, asistencia: a ? +(a[0] / a[1] * 100).toFixed(1) : null };
+  });
+  const pintarBanc = () => {
+    encabezados("tBicBancada", [
+      { k: "bancada", t: "Bancada" }, { k: "miembros", t: "Miembros", num: 1 }, { k: "proyectos", t: "Proyectos", num: 1 },
+      { k: "por_miembro", t: "x miembro", num: 1 }, { k: "pct_desarrollo", t: "Desarrollo", num: 1 }, { k: "asistencia", t: "Asistencia", num: 1 },
+    ], bancSort, pintarBanc);
+    document.querySelector("#tBicBancada tbody").innerHTML = filasBanc.slice()
+      .sort((x, y) => cmp(x[bancSort.k], y[bancSort.k], bancSort.dir)).map(b =>
+        `<tr><td>${esc(b.bancada)}</td><td class="num-r">${b.miembros || "—"}</td><td class="num-r">${fmt(b.proyectos)}</td><td class="num-r">${b.por_miembro ?? "—"}</td><td class="num-r">${pctTxt(b.pct_desarrollo)}</td><td class="num-r">${pctTxt(b.asistencia)}</td></tr>`).join("");
+  };
+  pintarBanc();
 
   // Por mes
   const pm = Object.entries(C.por_mes);
@@ -673,9 +704,19 @@ function renderBicameral() {
     [...new Set(miembrosCam.map(m => m.bancada))].sort().map(b => `<option${b === bicState.banc ? " selected" : ""}>${esc(b)}</option>`).join("");
   if (!bicState.wired) {
     bicState.wired = true;
-    document.getElementById("bic-q").addEventListener("input", e => { bicState.q = e.target.value; renderBicMiembros(); });
-    sel.addEventListener("change", e => { bicState.banc = e.target.value; renderBicMiembros(); });
-    document.getElementById("bic-orden").addEventListener("change", e => { bicState.orden = e.target.value; renderBicMiembros(); });
+    document.getElementById("bic-q").addEventListener("input", e => { bicState.q = e.target.value; bicState.pag = 0; renderBicMiembros(); });
+    sel.addEventListener("change", e => { bicState.banc = e.target.value; bicState.pag = 0; renderBicMiembros(); });
+    document.getElementById("bic-ps").addEventListener("change", e => { bicState.ps = +e.target.value; bicState.pag = 0; renderBicMiembros(); });
+    document.getElementById("bic-prev").addEventListener("click", () => { bicState.pag--; renderBicMiembros(); });
+    document.getElementById("bic-next").addEventListener("click", () => { bicState.pag++; renderBicMiembros(); });
+    // Desplegar / plegar el detalle de un congresista (delegado: la tabla se repinta)
+    document.querySelector("#tBicMiembros tbody").addEventListener("click", e => {
+      const btn = e.target.closest(".xbtn");
+      if (!btn) return;
+      const n = btn.dataset.n;
+      bicState.abiertos.has(n) ? bicState.abiertos.delete(n) : bicState.abiertos.add(n);
+      renderBicMiembros();
+    });
   }
   renderBicMiembros();
 
@@ -713,33 +754,73 @@ function renderBicameral() {
     `<b>Agenda de desarrollo</b>: clasificación por palabras clave del título, indicativa.`;
 }
 
+const mesTxtCorto = (ym) => `${MESES_ABBR[+ym.slice(5)]}-${ym.slice(2, 4)}`;
+
+// Detalle desplegable: gasto mensual del despacho, equipo, proyectos y Pleno.
+function detalleCongresista(m, p, d) {
+  const bloques = [];
+  if (d) {
+    const max = Math.max(...d.serie.map(x => x.masa));
+    const ult = d.serie.at(-1);
+    bloques.push(`<div><h4>💸 Gasto mensual del despacho</h4>
+      ${d.serie.map(x => `<div class="mbar"><span>${mesTxtCorto(x.mes)}</span><div class="b" style="width:${(x.masa / max * 100).toFixed(0)}%"></div><b>${soles(x.masa)}</b></div>
+        <div class="note" style="margin:-2px 0 4px 72px">${x.personal} personas</div>`).join("")}
+      <div class="note">≈ <b>${soles(ult.masa * 14)}</b> al año al ritmo de ${mesTxtCorto(ult.mes)} (14 sueldos con gratificaciones). Solo planilla del equipo: el PTE no publica por congresista su remuneración ni sus gastos operativos.${d.serie.length > 2 ? " Los meses previos a ago-26 corresponden a su despacho en el Congreso anterior." : ""}</div></div>`);
+    bloques.push(`<div><h4>👥 Equipo (${d.personal})</h4><ul>${d.equipo.map(e =>
+      `<li><b>${esc(e.nombre)}</b> — ${esc(e.cargo)} · ${soles(e.total)}${e.antes ? `<br><span class="note">antes: ${esc(e.antes)}</span>` : ""}</li>`).join("")}</ul></div>`);
+  } else {
+    bloques.push(`<div><h4>💸 Gasto del despacho</h4><div class="note">No se identificó su despacho en la planilla del PTE.</div></div>`);
+  }
+  const pr = m.proyectos || [];
+  bloques.push(`<div style="grid-column:1/-1"><h4>📄 Proyectos como autor principal (${pr.length})</h4>${pr.length ? `<ul style="max-height:240px;overflow:auto">${pr.map(x =>
+    `<li><span class="code">${esc(x.codigo)}</span> ${esc(x.fecha)} — ${esc(x.titulo.length > 140 ? x.titulo.slice(0, 140) + "…" : x.titulo)} <span class="tag">${esc(x.agenda)}</span></li>`).join("")}</ul>` : `<div class="note">Ninguno como autor principal.</div>`}</div>`);
+  if (p && p.pases) {
+    bloques.push(`<div><h4>🗳️ En el Pleno</h4><ul>
+      <li>Pases de lista: <b>${p.presente}</b> presente, <b>${p.ausente}</b> ausente, <b>${p.licencia}</b> con licencia (de ${p.pases})</li>
+      <li>Votaciones: <b style="color:var(--green)">${p.si} SI</b>, <b style="color:var(--accent)">${p.no} NO</b>, <b style="color:var(--amber)">${p.abst} Abst</b>, ${p.no_voto} sin votar (de ${p.votaciones})</li></ul></div>`);
+  }
+  return `<div class="det-grid">${bloques.join("")}</div>`;
+}
+
 function renderBicMiembros() {
   const { pl, dp } = bicIndices();
   const q = bicState.q.trim().toLowerCase();
-  let L = BIC.congresistas.filter(m => m.camara === bicCam &&
+  const filas = BIC.congresistas.filter(m => m.camara === bicCam &&
     (!bicState.banc || m.bancada === bicState.banc) &&
-    (!q || (m.nombre + " " + m.distrito).toLowerCase().includes(q)));
-  const asis = (m) => pl[bicCam + "|" + m.nombre]?.pct_asistencia ?? 999;
-  const masa = (m) => dp[bicCam + "|" + m.nombre]?.masa ?? 0;
-  const ord = {
-    principal: (a, b) => b.principal - a.principal || a.nombre.localeCompare(b.nombre, "es"),
-    asistencia: (a, b) => asis(a) - asis(b),
-    masa: (a, b) => masa(b) - masa(a),
-    nombre: (a, b) => a.nombre.localeCompare(b.nombre, "es"),
-  }[bicState.orden];
-  L = L.slice().sort(ord);
-  document.getElementById("bic-count").textContent = `${fmt(L.length)} ${bicCam === "D" ? "diputados" : "senadores"}`;
-  document.querySelector("#tBicMiembros tbody").innerHTML = L.map(m => {
-    const p = pl[bicCam + "|" + m.nombre], d = dp[bicCam + "|" + m.nombre];
-    const a = p && p.pases ? `${p.pct_asistencia}%<div class="note" style="margin:0">${p.presente}/${p.pases}${p.licencia ? ` · ${p.licencia} lic.` : ""}</div>` : "—";
+    (!q || (m.nombre + " " + m.distrito).toLowerCase().includes(q)))
+    .map(m => {
+      const p = pl[bicCam + "|" + m.nombre], d = dp[bicCam + "|" + m.nombre];
+      return { m, p, d, nombre: m.nombre, sigla: m.sigla, distrito: m.distrito, principal: m.principal,
+        desarrollo: m.desarrollo, simbolicos: m.simbolicos, asistencia: p?.pct_asistencia ?? null,
+        si: p?.votaciones ? p.si : null, masa: d?.masa ?? null };
+    });
+  encabezados("tBicMiembros", [
+    { k: "nombre", t: "Congresista" }, { k: "sigla", t: "Bancada" }, { k: "distrito", t: "Distrito" },
+    { k: "principal", t: "Proyectos", num: 1 }, { k: "desarrollo", t: "Desarrollo", num: 1 }, { k: "simbolicos", t: "Simból.", num: 1 },
+    { k: "asistencia", t: "Asistencia", num: 1 }, { k: "si", t: "Votos SI/NO/Abst", num: 1 }, { k: "masa", t: "Despacho S/ mes", num: 1 },
+  ], bicState, () => { bicState.pag = 0; renderBicMiembros(); });
+  filas.sort((x, y) => cmp(x[bicState.k], y[bicState.k], bicState.dir) || x.nombre.localeCompare(y.nombre, "es"));
+
+  const total = filas.length, paginas = Math.max(1, Math.ceil(total / bicState.ps));
+  bicState.pag = Math.min(Math.max(0, bicState.pag), paginas - 1);
+  const ini = bicState.pag * bicState.ps, pagina = filas.slice(ini, ini + bicState.ps);
+  document.getElementById("bic-count").textContent = `${fmt(total)} ${bicCam === "D" ? "diputados" : "senadores"}`;
+  document.getElementById("bic-pag").textContent = total ? `${fmt(ini + 1)}–${fmt(ini + pagina.length)} de ${fmt(total)} · página ${bicState.pag + 1} de ${paginas}` : "sin resultados";
+  document.getElementById("bic-prev").disabled = bicState.pag === 0;
+  document.getElementById("bic-next").disabled = bicState.pag >= paginas - 1;
+
+  document.querySelector("#tBicMiembros tbody").innerHTML = pagina.map(({ m, p, d }) => {
+    const abierto = bicState.abiertos.has(m.nombre);
+    const a = p && p.pases ? `${pctTxt(p.pct_asistencia)}<div class="note" style="margin:0">${p.presente}/${p.pases}${p.licencia ? ` · ${p.licencia} lic.` : ""}</div>` : "—";
     const v = p && p.votaciones ? `<span style="color:var(--green)">${p.si}</span>/<span style="color:var(--accent)">${p.no}</span>/<span style="color:var(--amber)">${p.abst}</span><div class="note" style="margin:0">${p.no_voto} sin votar</div>` : "—";
-    const eq = d ? `${d.personal} · ${soles(d.masa)}<details class="equipo"><summary>ver equipo</summary><ul>${d.equipo.map(e =>
-      `<li>${esc(e.nombre)} — ${esc(e.cargo)} · ${soles(e.total)}${e.antes ? ` <i>(antes: ${esc(e.antes)})</i>` : ""}</li>`).join("")}</ul></details>` : "—";
+    const eq = d ? `<b>${soles(d.masa)}</b><div class="note" style="margin:0">${d.personal} personas</div>` : "—";
     const nom = m.link ? `<a href="${esc(m.link)}" target="_blank" rel="noopener">${esc(m.nombre)}</a>` : esc(m.nombre);
-    return `<tr><td>${nom}</td><td><span class="tag">${esc(m.sigla)}</span></td><td>${esc(m.distrito)}</td>
+    return `<tr><td style="white-space:nowrap"><button class="xbtn" data-n="${esc(m.nombre)}" aria-expanded="${abierto}" title="Ver detalle">${abierto ? "▾" : "▸"}</button>${nom}</td>
+      <td><span class="tag">${esc(m.sigla)}</span></td><td>${esc(m.distrito)}</td>
       <td class="num-r"><b>${fmt(m.principal)}</b><div class="note" style="margin:0">${fmt(m.firmas)} firmas</div></td>
       <td class="num-r">${fmt(m.desarrollo)}</td><td class="num-r">${fmt(m.simbolicos)}</td>
-      <td class="num-r">${a}</td><td class="num-r">${v}</td><td class="num-r">${eq}</td></tr>`;
+      <td class="num-r">${a}</td><td class="num-r">${v}</td><td class="num-r">${eq}</td></tr>` +
+      (abierto ? `<tr class="det"><td colspan="9">${detalleCongresista(m, p, d)}</td></tr>` : "");
   }).join("");
 }
 
