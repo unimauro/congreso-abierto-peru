@@ -1826,6 +1826,7 @@
     {
      "fecha": "2026-10-21",
      "documentos": {
+      "temas": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/10_ctt_21.oct_.2026Senado.pdf",
       "agenda": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/AGENDA-PLENO-SENADO-21-10-2026-v3-1.pdf",
       "asistencia": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/Asistencias_y_votaciones_sesion_del_21_10_2026_vb.pdf"
      }
@@ -1833,6 +1834,7 @@
     {
      "fecha": "2026-10-07",
      "documentos": {
+      "temas": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/08_ctt_07.oct_.2026-solemneSenado.pdf",
       "agenda": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/AGENDA-PLENO-SENADO-07-10-2026-V2.pdf",
       "asistencia": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/Asistencia_sesion_solemne_7_10_2026_vbo.pdf"
      }
@@ -4781,7 +4783,7 @@
   }
  ],
  "meta": {
-  "generado": "2026-10-26",
+  "generado": "2026-10-28",
   "fuente": "Reportes de asistencia y votación del Pleno (PDF) · diputados/senado.congreso.gob.pe",
   "nota": "Pases de lista y votaciones validados contra el total oficial al pie de cada bloque; los escaneos se leen con OCR. Licencias (viaje, enfermedad, oficial…) no cuentan como ausencia."
  }
