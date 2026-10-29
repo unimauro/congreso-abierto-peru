@@ -583,6 +583,12 @@
    ],
    "sesiones": [
     {
+     "fecha": "2026-10-29",
+     "documentos": {
+      "agenda": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/AGENDA-PLENO-DIPUTADOS-29-10-2026.pdf"
+     }
+    },
+    {
      "fecha": "2026-10-22",
      "documentos": {
       "temas": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/09A_ctt_22.oct_.2026.pdf",
@@ -671,8 +677,134 @@
    ]
   },
   "S": {
-   "pases_lista": 33,
+   "pases_lista": 37,
    "votaciones": [
+    {
+     "fecha": "2026-10-28",
+     "hora": "11:14AM",
+     "asunto": "PROYECTOS DE RESOLUCIÓN LEGISLATIVA DEL SENADO 11-2026-2031-S Y 16-2026-2031-S, QUE PROPONE APROBAR EL REGLAMENTO ESPECIAL DE ELECCIÓN DE LOS MAGISTRADOS DEL TRIBUNAL CONSTITUCIONAL",
+     "si": 38,
+     "no": 12,
+     "abst": 4,
+     "por_bancada": {
+      "AN": {
+       "si": 1
+      },
+      "FP": {
+       "si": 14,
+       "ausente": 1
+      },
+      "JP": {
+       "si": 1,
+       "no": 8,
+       "ausente": 1
+      },
+      "PBG": {
+       "si": 5,
+       "ausente": 1
+      },
+      "PCO": {
+       "si": 4
+      },
+      "RP": {
+       "si": 4
+      }
+     }
+    },
+    {
+     "fecha": "2026-10-28",
+     "hora": "10:59AM",
+     "asunto": "ACUERDO DEL SENADO DE LA REPÚBLICA QUE APRUEBA LA PRÓRROGA DEL PLAZO DEL ESTADO DE EMERGENCIA ESTABLECIDO MEDIANTE EL DECRETO SUPREMO 128-2026-PCM, SOLICITADO POR LA PRESIDENCIA DE LA REPÚBLICA",
+     "si": 44,
+     "no": 6,
+     "abst": 2,
+     "por_bancada": {
+      "AN": {
+       "si": 2
+      },
+      "FP": {
+       "si": 16
+      },
+      "JP": {
+       "si": 6,
+       "no": 3,
+       "sin_resp": 1
+      },
+      "PBG": {
+       "si": 5,
+       "ausente": 1
+      },
+      "PCO": {
+       "si": 4
+      },
+      "RP": {
+       "si": 3,
+       "sin_resp": 1
+      }
+     }
+    },
+    {
+     "fecha": "2026-10-28",
+     "hora": "10:54AM",
+     "asunto": "ACUERDO DEL SENADO DE LA REPÚBLICA QUE APRUEBA LA PRÓRROGA DEL PLAZO DEL ESTADO DE EMERGENCIA ESTABLECIDO MEDIANTE EL DECRETO SUPREMO 125-2026-PCM, SOLICITADO POR LA PRESIDENCIA DE LA REPÚBLICA",
+     "si": 37,
+     "no": 13,
+     "abst": 5,
+     "por_bancada": {
+      "AN": {
+       "si": 1
+      },
+      "FP": {
+       "si": 15
+      },
+      "JP": {
+       "no": 9
+      },
+      "PBG": {
+       "si": 5,
+       "ausente": 1
+      },
+      "PCO": {
+       "si": 4
+      },
+      "RP": {
+       "si": 4
+      }
+     }
+    },
+    {
+     "fecha": "2026-10-28",
+     "hora": "09:47AM",
+     "asunto": "PROYECTO DE RESOLUCIÓN LEGISLATIVA 14-2026-2031-S, QUE PROPONE AUTORIZAR EL INGRESO Y TRÁNSITO DE UNA UNIDAD NAVAL Y DE PERSONAL MILITAR DE LA REPÚBLICA DE CHILE AL TERRITORIO DE LA REPÚBLICA DEL PERÚ. INICIATIVA. PODER EJECUTIVO.",
+     "si": 34,
+     "no": 12,
+     "abst": 0,
+     "por_bancada": {
+      "AN": {
+       "si": 2
+      },
+      "FP": {
+       "si": 12,
+       "ausente": 4
+      },
+      "JP": {
+       "no": 9,
+       "ausente": 1
+      },
+      "PBG": {
+       "si": 5,
+       "ausente": 1
+      },
+      "PCO": {
+       "ausente": 2,
+       "si": 3
+      },
+      "RP": {
+       "ausente": 2,
+       "si": 2
+      }
+     }
+    },
     {
      "fecha": "2026-10-21",
      "hora": "04:28PM",
@@ -1824,6 +1956,12 @@
    ],
    "sesiones": [
     {
+     "fecha": "2026-10-28",
+     "documentos": {
+      "asistencia": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/Asistencias_y_votaciones_PROVISIONAL_sesion_del_28_10_2026.pdf"
+     }
+    },
+    {
      "fecha": "2026-10-21",
      "documentos": {
       "temas": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/10_ctt_21.oct_.2026Senado.pdf",
@@ -1924,10 +2062,10 @@
    "votacion_descartado": 4
   },
   "S": {
-   "asistencia_total": 33,
-   "nombres_sin_cruce": 29,
-   "votacion_total": 40,
-   "votacion_descartado": 5
+   "asistencia_total": 37,
+   "nombres_sin_cruce": 97,
+   "votacion_total": 45,
+   "votacion_descartado": 6
   }
  },
  "miembros": [
@@ -3885,46 +4023,46 @@
    "camara": "S",
    "nombre": "Aguinaga Recuenco, Alejandro Aurelio",
    "sigla": "FP",
-   "pases": 16,
-   "presente": 13,
-   "ausente": 3,
+   "pases": 20,
+   "presente": 16,
+   "ausente": 4,
    "licencia": 0,
    "votaciones": 33,
    "si": 28,
    "no": 5,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 81.2
+   "pct_asistencia": 80.0
   },
   {
    "camara": "S",
    "nombre": "Alcorta Suero, María Lourdes Pía Luisa",
    "sigla": "RP",
-   "pases": 33,
-   "presente": 31,
+   "pases": 37,
+   "presente": 35,
    "ausente": 2,
    "licencia": 0,
-   "votaciones": 34,
-   "si": 26,
+   "votaciones": 38,
+   "si": 29,
    "no": 4,
    "abst": 0,
-   "no_voto": 4,
-   "pct_asistencia": 93.9
+   "no_voto": 5,
+   "pct_asistencia": 94.6
   },
   {
    "camara": "S",
    "nombre": "Ampuero Meza, Katherine Milagros",
    "sigla": "RP",
-   "pases": 33,
-   "presente": 27,
-   "ausente": 6,
+   "pases": 37,
+   "presente": 29,
+   "ausente": 8,
    "licencia": 0,
    "votaciones": 35,
    "si": 27,
    "no": 5,
    "abst": 0,
    "no_voto": 3,
-   "pct_asistencia": 81.8
+   "pct_asistencia": 78.4
   },
   {
    "camara": "S",
@@ -3934,9 +4072,9 @@
    "presente": 29,
    "ausente": 4,
    "licencia": 0,
-   "votaciones": 35,
-   "si": 22,
-   "no": 8,
+   "votaciones": 39,
+   "si": 23,
+   "no": 11,
    "abst": 0,
    "no_voto": 5,
    "pct_asistencia": 87.9
@@ -3945,16 +4083,16 @@
    "camara": "S",
    "nombre": "Arista Arbildo, José Berley",
    "sigla": "FP",
-   "pases": 33,
-   "presente": 24,
-   "ausente": 9,
+   "pases": 37,
+   "presente": 27,
+   "ausente": 10,
    "licencia": 0,
    "votaciones": 35,
    "si": 21,
    "no": 5,
    "abst": 0,
    "no_voto": 9,
-   "pct_asistencia": 72.7
+   "pct_asistencia": 73.0
   },
   {
    "camara": "S",
@@ -3964,27 +4102,27 @@
    "presente": 22,
    "ausente": 10,
    "licencia": 0,
-   "votaciones": 35,
-   "si": 13,
-   "no": 5,
+   "votaciones": 39,
+   "si": 14,
+   "no": 7,
    "abst": 0,
-   "no_voto": 17,
+   "no_voto": 18,
    "pct_asistencia": 68.8
   },
   {
    "camara": "S",
    "nombre": "Astucuri Laura, Roger Miguel",
    "sigla": "PCO",
-   "pases": 33,
-   "presente": 32,
+   "pases": 37,
+   "presente": 36,
    "ausente": 1,
    "licencia": 0,
-   "votaciones": 33,
-   "si": 29,
+   "votaciones": 37,
+   "si": 33,
    "no": 3,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 97.0
+   "pct_asistencia": 97.3
   },
   {
    "camara": "S",
@@ -4005,31 +4143,31 @@
    "camara": "S",
    "nombre": "Barragán Coloma, Daniel Hugo",
    "sigla": "PCO",
-   "pases": 33,
-   "presente": 30,
+   "pases": 37,
+   "presente": 34,
    "ausente": 1,
    "licencia": 2,
-   "votaciones": 32,
-   "si": 29,
+   "votaciones": 36,
+   "si": 33,
    "no": 2,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 96.8
+   "pct_asistencia": 97.1
   },
   {
    "camara": "S",
    "nombre": "Bonifaz Carmona, Nora",
    "sigla": "PBG",
-   "pases": 33,
-   "presente": 30,
-   "ausente": 3,
+   "pases": 37,
+   "presente": 33,
+   "ausente": 4,
    "licencia": 0,
    "votaciones": 35,
    "si": 31,
    "no": 3,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 90.9
+   "pct_asistencia": 89.2
   },
   {
    "camara": "S",
@@ -4039,19 +4177,19 @@
    "presente": 29,
    "ausente": 4,
    "licencia": 0,
-   "votaciones": 35,
-   "si": 29,
+   "votaciones": 39,
+   "si": 30,
    "no": 5,
    "abst": 0,
-   "no_voto": 1,
+   "no_voto": 4,
    "pct_asistencia": 87.9
   },
   {
    "camara": "S",
    "nombre": "Calisto Giampietri, Francisco José",
    "sigla": "RP",
-   "pases": 33,
-   "presente": 33,
+   "pases": 37,
+   "presente": 37,
    "ausente": 0,
    "licencia": 0,
    "votaciones": 35,
@@ -4095,46 +4233,46 @@
    "camara": "S",
    "nombre": "Chacón Trujillo, Nilza Merly",
    "sigla": "FP",
-   "pases": 33,
-   "presente": 30,
-   "ausente": 1,
+   "pases": 37,
+   "presente": 31,
+   "ausente": 4,
    "licencia": 2,
    "votaciones": 34,
    "si": 28,
    "no": 5,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 96.8
+   "pct_asistencia": 88.6
   },
   {
    "camara": "S",
    "nombre": "Chipana Chipana, José Moisés",
    "sigla": "JP",
-   "pases": 33,
-   "presente": 31,
+   "pases": 37,
+   "presente": 35,
    "ausente": 2,
    "licencia": 0,
-   "votaciones": 35,
+   "votaciones": 39,
    "si": 19,
-   "no": 13,
+   "no": 17,
    "abst": 0,
    "no_voto": 3,
-   "pct_asistencia": 93.9
+   "pct_asistencia": 94.6
   },
   {
    "camara": "S",
    "nombre": "Chávez Cossío, Martha Gladys",
    "sigla": "FP",
-   "pases": 33,
-   "presente": 29,
+   "pases": 37,
+   "presente": 33,
    "ausente": 2,
    "licencia": 2,
-   "votaciones": 35,
-   "si": 29,
+   "votaciones": 39,
+   "si": 33,
    "no": 4,
    "abst": 0,
    "no_voto": 2,
-   "pct_asistencia": 93.5
+   "pct_asistencia": 94.3
   },
   {
    "camara": "S",
@@ -4155,8 +4293,8 @@
    "camara": "S",
    "nombre": "Del Águila Cárdenas, Juan Carlos",
    "sigla": "FP",
-   "pases": 33,
-   "presente": 29,
+   "pases": 37,
+   "presente": 33,
    "ausente": 4,
    "licencia": 0,
    "votaciones": 35,
@@ -4164,224 +4302,224 @@
    "no": 5,
    "abst": 0,
    "no_voto": 4,
-   "pct_asistencia": 87.9
+   "pct_asistencia": 89.2
   },
   {
    "camara": "S",
    "nombre": "Delgado Zegarra, Jaime Ricardo",
    "sigla": "AN",
-   "pases": 33,
-   "presente": 30,
-   "ausente": 3,
+   "pases": 37,
+   "presente": 33,
+   "ausente": 4,
    "licencia": 0,
-   "votaciones": 34,
-   "si": 28,
+   "votaciones": 38,
+   "si": 32,
    "no": 4,
    "abst": 0,
    "no_voto": 2,
-   "pct_asistencia": 90.9
+   "pct_asistencia": 89.2
   },
   {
    "camara": "S",
    "nombre": "Figallo Rivadeneyra, Flavio Felipe",
    "sigla": "PBG",
-   "pases": 33,
-   "presente": 30,
+   "pases": 37,
+   "presente": 34,
    "ausente": 3,
    "licencia": 0,
-   "votaciones": 34,
-   "si": 29,
+   "votaciones": 38,
+   "si": 33,
    "no": 4,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 90.9
+   "pct_asistencia": 91.9
   },
   {
    "camara": "S",
    "nombre": "Flores Córdova, Agripina María del Pilar",
    "sigla": "PCO",
-   "pases": 33,
-   "presente": 21,
-   "ausente": 7,
+   "pases": 37,
+   "presente": 23,
+   "ausente": 9,
    "licencia": 5,
-   "votaciones": 33,
-   "si": 24,
+   "votaciones": 37,
+   "si": 27,
    "no": 0,
    "abst": 0,
-   "no_voto": 9,
-   "pct_asistencia": 75.0
+   "no_voto": 10,
+   "pct_asistencia": 71.9
   },
   {
    "camara": "S",
    "nombre": "Flores Ruiz, Víctor Seferino",
    "sigla": "FP",
-   "pases": 33,
-   "presente": 30,
+   "pases": 37,
+   "presente": 34,
    "ausente": 3,
    "licencia": 0,
-   "votaciones": 35,
-   "si": 28,
+   "votaciones": 39,
+   "si": 32,
    "no": 5,
    "abst": 0,
    "no_voto": 2,
-   "pct_asistencia": 90.9
+   "pct_asistencia": 91.9
   },
   {
    "camara": "S",
    "nombre": "Flores Suárez, Juver Nilson",
    "sigla": "PBG",
-   "pases": 33,
-   "presente": 26,
-   "ausente": 7,
+   "pases": 37,
+   "presente": 29,
+   "ausente": 8,
    "licencia": 0,
-   "votaciones": 34,
-   "si": 28,
+   "votaciones": 38,
+   "si": 32,
    "no": 5,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 78.8
+   "pct_asistencia": 78.4
   },
   {
    "camara": "S",
    "nombre": "Gago Rodríguez, Walter Francisco",
    "sigla": "PCO",
-   "pases": 33,
-   "presente": 28,
-   "ausente": 5,
+   "pases": 37,
+   "presente": 30,
+   "ausente": 7,
    "licencia": 0,
-   "votaciones": 32,
-   "si": 27,
+   "votaciones": 36,
+   "si": 30,
    "no": 3,
    "abst": 0,
-   "no_voto": 2,
-   "pct_asistencia": 84.8
+   "no_voto": 3,
+   "pct_asistencia": 81.1
   },
   {
    "camara": "S",
    "nombre": "Gavidia Rodríguez, Jorge Octavio",
    "sigla": "PBG",
-   "pases": 33,
-   "presente": 33,
-   "ausente": 0,
+   "pases": 37,
+   "presente": 35,
+   "ausente": 2,
    "licencia": 0,
-   "votaciones": 34,
-   "si": 30,
+   "votaciones": 38,
+   "si": 33,
    "no": 2,
    "abst": 0,
-   "no_voto": 2,
-   "pct_asistencia": 100.0
+   "no_voto": 3,
+   "pct_asistencia": 94.6
   },
   {
    "camara": "S",
    "nombre": "Iturregui Byrne, Patricia Milagros",
    "sigla": "PBG",
-   "pases": 33,
-   "presente": 27,
+   "pases": 37,
+   "presente": 31,
    "ausente": 6,
    "licencia": 0,
-   "votaciones": 33,
-   "si": 23,
+   "votaciones": 37,
+   "si": 27,
    "no": 6,
    "abst": 0,
    "no_voto": 4,
-   "pct_asistencia": 81.8
+   "pct_asistencia": 83.8
   },
   {
    "camara": "S",
    "nombre": "Jauregui Martínez de Aguayo, María de los Milagros Jackeline",
    "sigla": "RP",
-   "pases": 33,
-   "presente": 29,
-   "ausente": 4,
+   "pases": 37,
+   "presente": 31,
+   "ausente": 6,
    "licencia": 0,
-   "votaciones": 35,
-   "si": 27,
+   "votaciones": 39,
+   "si": 30,
    "no": 5,
    "abst": 0,
-   "no_voto": 3,
-   "pct_asistencia": 87.9
+   "no_voto": 4,
+   "pct_asistencia": 83.8
   },
   {
    "camara": "S",
    "nombre": "Jiménez Heredia, David Julio",
    "sigla": "FP",
-   "pases": 33,
-   "presente": 27,
-   "ausente": 2,
+   "pases": 37,
+   "presente": 29,
+   "ausente": 4,
    "licencia": 4,
-   "votaciones": 35,
-   "si": 25,
+   "votaciones": 39,
+   "si": 28,
    "no": 5,
    "abst": 0,
-   "no_voto": 5,
-   "pct_asistencia": 93.1
+   "no_voto": 6,
+   "pct_asistencia": 87.9
   },
   {
    "camara": "S",
    "nombre": "Juárez Gallegos, Carmen Patricia",
    "sigla": "FP",
-   "pases": 33,
-   "presente": 32,
+   "pases": 37,
+   "presente": 36,
    "ausente": 1,
    "licencia": 0,
-   "votaciones": 29,
-   "si": 23,
+   "votaciones": 33,
+   "si": 27,
    "no": 5,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 97.0
+   "pct_asistencia": 97.3
   },
   {
    "camara": "S",
    "nombre": "Luque Ibarra, Ruth",
    "sigla": "AN",
-   "pases": 33,
+   "pases": 37,
    "presente": 26,
-   "ausente": 7,
-   "licencia": 0,
+   "ausente": 8,
+   "licencia": 3,
    "votaciones": 32,
    "si": 21,
    "no": 9,
    "abst": 0,
    "no_voto": 2,
-   "pct_asistencia": 78.8
+   "pct_asistencia": 76.5
   },
   {
    "camara": "S",
    "nombre": "López Chau Nava, Pablo Alfonso",
    "sigla": "AN",
-   "pases": 33,
-   "presente": 13,
-   "ausente": 20,
+   "pases": 37,
+   "presente": 16,
+   "ausente": 21,
    "licencia": 0,
-   "votaciones": 31,
-   "si": 12,
+   "votaciones": 33,
+   "si": 14,
    "no": 0,
    "abst": 0,
    "no_voto": 19,
-   "pct_asistencia": 39.4
+   "pct_asistencia": 43.2
   },
   {
    "camara": "S",
    "nombre": "Mancha Pineda, Estanislao Edgar",
    "sigla": "RP",
-   "pases": 33,
-   "presente": 31,
-   "ausente": 2,
+   "pases": 37,
+   "presente": 34,
+   "ausente": 3,
    "licencia": 0,
    "votaciones": 34,
    "si": 28,
    "no": 5,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 93.9
+   "pct_asistencia": 91.9
   },
   {
    "camara": "S",
    "nombre": "Maraví Olarte, Iber Antenor",
    "sigla": "JP",
-   "pases": 33,
-   "presente": 33,
+   "pases": 37,
+   "presente": 37,
    "ausente": 0,
    "licencia": 0,
    "votaciones": 31,
@@ -4395,117 +4533,117 @@
    "camara": "S",
    "nombre": "Matute Charún, Susana Flor de María",
    "sigla": "PBG",
-   "pases": 33,
-   "presente": 16,
+   "pases": 37,
+   "presente": 20,
    "ausente": 2,
    "licencia": 15,
-   "votaciones": 34,
-   "si": 14,
+   "votaciones": 38,
+   "si": 18,
    "no": 5,
    "abst": 0,
    "no_voto": 15,
-   "pct_asistencia": 88.9
+   "pct_asistencia": 90.9
   },
   {
    "camara": "S",
    "nombre": "Melgar Váldez, Elard Galo",
    "sigla": "FP",
-   "pases": 33,
-   "presente": 29,
+   "pases": 37,
+   "presente": 33,
    "ausente": 2,
    "licencia": 2,
-   "votaciones": 33,
-   "si": 26,
+   "votaciones": 37,
+   "si": 30,
    "no": 4,
    "abst": 0,
    "no_voto": 3,
-   "pct_asistencia": 93.5
+   "pct_asistencia": 94.3
   },
   {
    "camara": "S",
    "nombre": "Mesía Ramírez, Carlos Fernando",
    "sigla": "FP",
-   "pases": 33,
-   "presente": 27,
-   "ausente": 6,
+   "pases": 37,
+   "presente": 28,
+   "ausente": 9,
    "licencia": 0,
-   "votaciones": 35,
-   "si": 30,
+   "votaciones": 39,
+   "si": 32,
    "no": 5,
    "abst": 0,
-   "no_voto": 0,
-   "pct_asistencia": 81.8
+   "no_voto": 2,
+   "pct_asistencia": 75.7
   },
   {
    "camara": "S",
    "nombre": "Miyashiro Arashiro, Marco Enrique",
    "sigla": "FP",
-   "pases": 33,
-   "presente": 16,
-   "ausente": 17,
+   "pases": 37,
+   "presente": 19,
+   "ausente": 18,
    "licencia": 0,
-   "votaciones": 35,
-   "si": 12,
+   "votaciones": 39,
+   "si": 16,
    "no": 4,
    "abst": 0,
    "no_voto": 19,
-   "pct_asistencia": 48.5
+   "pct_asistencia": 51.4
   },
   {
    "camara": "S",
    "nombre": "Morales Ramírez, Edyson Humberto",
    "sigla": "JP",
-   "pases": 33,
-   "presente": 32,
+   "pases": 37,
+   "presente": 36,
    "ausente": 1,
    "licencia": 0,
-   "votaciones": 35,
-   "si": 22,
-   "no": 13,
+   "votaciones": 39,
+   "si": 23,
+   "no": 16,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 97.0
+   "pct_asistencia": 97.3
   },
   {
    "camara": "S",
    "nombre": "Moyano Delgado, Martha Lupe",
    "sigla": "FP",
-   "pases": 33,
-   "presente": 31,
+   "pases": 37,
+   "presente": 35,
    "ausente": 2,
    "licencia": 0,
-   "votaciones": 32,
-   "si": 26,
+   "votaciones": 34,
+   "si": 28,
    "no": 4,
    "abst": 0,
    "no_voto": 2,
-   "pct_asistencia": 93.9
+   "pct_asistencia": 94.6
   },
   {
    "camara": "S",
    "nombre": "Muñante Barrios, Alejandro",
    "sigla": "RP",
-   "pases": 33,
-   "presente": 27,
-   "ausente": 6,
+   "pases": 37,
+   "presente": 29,
+   "ausente": 8,
    "licencia": 0,
-   "votaciones": 27,
-   "si": 15,
+   "votaciones": 31,
+   "si": 18,
    "no": 3,
    "abst": 0,
-   "no_voto": 9,
-   "pct_asistencia": 81.8
+   "no_voto": 10,
+   "pct_asistencia": 78.4
   },
   {
    "camara": "S",
    "nombre": "Noriega Reátegui, Víctor Manuel",
    "sigla": "FP",
-   "pases": 33,
-   "presente": 33,
+   "pases": 37,
+   "presente": 37,
    "ausente": 0,
    "licencia": 0,
-   "votaciones": 34,
-   "si": 29,
+   "votaciones": 38,
+   "si": 33,
    "no": 5,
    "abst": 0,
    "no_voto": 0,
@@ -4515,143 +4653,143 @@
    "camara": "S",
    "nombre": "Osorio Palpán, Percy Herbert",
    "sigla": "JP",
-   "pases": 33,
-   "presente": 31,
+   "pases": 37,
+   "presente": 35,
    "ausente": 2,
    "licencia": 0,
-   "votaciones": 35,
-   "si": 26,
-   "no": 9,
+   "votaciones": 38,
+   "si": 28,
+   "no": 10,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 93.9
+   "pct_asistencia": 94.6
   },
   {
    "camara": "S",
    "nombre": "Quito Sarmiento, Bernardo Jaime",
    "sigla": "JP",
-   "pases": 33,
-   "presente": 30,
-   "ausente": 3,
+   "pases": 37,
+   "presente": 33,
+   "ausente": 4,
    "licencia": 0,
-   "votaciones": 33,
+   "votaciones": 37,
    "si": 17,
-   "no": 12,
+   "no": 16,
    "abst": 0,
    "no_voto": 4,
-   "pct_asistencia": 90.9
+   "pct_asistencia": 89.2
   },
   {
    "camara": "S",
    "nombre": "Ramos Huillcas, Andrés Avelino",
    "sigla": "JP",
-   "pases": 33,
-   "presente": 29,
+   "pases": 37,
+   "presente": 33,
    "ausente": 3,
    "licencia": 1,
-   "votaciones": 35,
+   "votaciones": 39,
    "si": 23,
-   "no": 10,
+   "no": 13,
    "abst": 0,
-   "no_voto": 2,
-   "pct_asistencia": 90.6
+   "no_voto": 3,
+   "pct_asistencia": 91.7
   },
   {
    "camara": "S",
    "nombre": "Robles Araujo, Silvana Emperatriz",
    "sigla": "JP",
-   "pases": 33,
-   "presente": 12,
+   "pases": 37,
+   "presente": 16,
    "ausente": 3,
    "licencia": 18,
-   "votaciones": 33,
-   "si": 7,
-   "no": 7,
+   "votaciones": 37,
+   "si": 8,
+   "no": 10,
    "abst": 0,
    "no_voto": 19,
-   "pct_asistencia": 80.0
+   "pct_asistencia": 84.2
   },
   {
    "camara": "S",
    "nombre": "Rodrich Ackerman, Jacques Salomón",
    "sigla": "FP",
-   "pases": 33,
-   "presente": 25,
-   "ausente": 4,
+   "pases": 37,
+   "presente": 27,
+   "ausente": 6,
    "licencia": 4,
-   "votaciones": 33,
-   "si": 25,
+   "votaciones": 37,
+   "si": 28,
    "no": 4,
    "abst": 0,
-   "no_voto": 4,
-   "pct_asistencia": 86.2
+   "no_voto": 5,
+   "pct_asistencia": 81.8
   },
   {
    "camara": "S",
    "nombre": "Rospigliosi Capurro, Fernando Miguel",
    "sigla": "FP",
-   "pases": 33,
-   "presente": 27,
+   "pases": 37,
+   "presente": 31,
    "ausente": 2,
    "licencia": 4,
-   "votaciones": 33,
-   "si": 24,
+   "votaciones": 37,
+   "si": 28,
    "no": 4,
    "abst": 0,
    "no_voto": 5,
-   "pct_asistencia": 93.1
+   "pct_asistencia": 93.9
   },
   {
    "camara": "S",
    "nombre": "Schaefer Cuculiza, Karla Melissa",
    "sigla": "FP",
-   "pases": 33,
-   "presente": 29,
-   "ausente": 2,
+   "pases": 37,
+   "presente": 32,
+   "ausente": 3,
    "licencia": 2,
-   "votaciones": 33,
-   "si": 27,
+   "votaciones": 37,
+   "si": 31,
    "no": 4,
    "abst": 0,
    "no_voto": 2,
-   "pct_asistencia": 93.5
+   "pct_asistencia": 91.4
   },
   {
    "camara": "S",
    "nombre": "Tapia Bernal, Segundo Leocadio",
    "sigla": "FP",
-   "pases": 33,
-   "presente": 29,
-   "ausente": 4,
+   "pases": 37,
+   "presente": 32,
+   "ausente": 5,
    "licencia": 0,
-   "votaciones": 34,
-   "si": 28,
+   "votaciones": 38,
+   "si": 32,
    "no": 5,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 87.9
+   "pct_asistencia": 86.5
   },
   {
    "camara": "S",
    "nombre": "Ticona Cohaila, Juana Guisella",
    "sigla": "PCO",
-   "pases": 33,
-   "presente": 29,
+   "pases": 37,
+   "presente": 33,
    "ausente": 4,
    "licencia": 0,
-   "votaciones": 29,
-   "si": 25,
+   "votaciones": 30,
+   "si": 26,
    "no": 3,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 87.9
+   "pct_asistencia": 89.2
   },
   {
    "camara": "S",
    "nombre": "Torres Morales, Miguel Ángel",
    "sigla": "FP",
-   "pases": 33,
-   "presente": 33,
+   "pases": 37,
+   "presente": 37,
    "ausente": 0,
    "licencia": 0,
    "votaciones": 0,
@@ -4665,27 +4803,27 @@
    "camara": "S",
    "nombre": "Velásquez García, Miguel Angel",
    "sigla": "RP",
-   "pases": 33,
-   "presente": 29,
+   "pases": 37,
+   "presente": 33,
    "ausente": 4,
    "licencia": 0,
-   "votaciones": 34,
-   "si": 23,
+   "votaciones": 38,
+   "si": 27,
    "no": 5,
    "abst": 0,
    "no_voto": 6,
-   "pct_asistencia": 87.9
+   "pct_asistencia": 89.2
   },
   {
    "camara": "S",
    "nombre": "Velásquez Portocarrero, Jorge",
    "sigla": "FP",
-   "pases": 33,
-   "presente": 33,
+   "pases": 37,
+   "presente": 37,
    "ausente": 0,
    "licencia": 0,
-   "votaciones": 33,
-   "si": 28,
+   "votaciones": 37,
+   "si": 32,
    "no": 5,
    "abst": 0,
    "no_voto": 0,
@@ -4695,53 +4833,53 @@
    "camara": "S",
    "nombre": "Ventura Ángel, Héctor José",
    "sigla": "FP",
-   "pases": 33,
-   "presente": 26,
-   "ausente": 7,
+   "pases": 37,
+   "presente": 28,
+   "ausente": 9,
    "licencia": 0,
-   "votaciones": 35,
-   "si": 19,
+   "votaciones": 39,
+   "si": 22,
    "no": 5,
    "abst": 0,
-   "no_voto": 11,
-   "pct_asistencia": 78.8
+   "no_voto": 12,
+   "pct_asistencia": 75.7
   },
   {
    "camara": "S",
    "nombre": "Verano Saravia, Wilfredo",
    "sigla": "JP",
-   "pases": 33,
-   "presente": 31,
-   "ausente": 2,
+   "pases": 37,
+   "presente": 33,
+   "ausente": 4,
    "licencia": 0,
-   "votaciones": 33,
+   "votaciones": 37,
    "si": 21,
-   "no": 11,
+   "no": 14,
    "abst": 0,
-   "no_voto": 1,
-   "pct_asistencia": 93.9
+   "no_voto": 2,
+   "pct_asistencia": 89.2
   },
   {
    "camara": "S",
    "nombre": "Vásquez Chuquilín, Mirtha Esther",
    "sigla": "AN",
-   "pases": 33,
-   "presente": 27,
-   "ausente": 6,
+   "pases": 37,
+   "presente": 30,
+   "ausente": 7,
    "licencia": 0,
    "votaciones": 27,
    "si": 18,
    "no": 8,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 81.8
+   "pct_asistencia": 81.1
   },
   {
    "camara": "S",
    "nombre": "Vásquez Villanueva, Absalón",
    "sigla": "RP",
-   "pases": 33,
-   "presente": 29,
+   "pases": 37,
+   "presente": 33,
    "ausente": 4,
    "licencia": 0,
    "votaciones": 33,
@@ -4749,41 +4887,41 @@
    "no": 5,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 87.9
+   "pct_asistencia": 89.2
   },
   {
    "camara": "S",
    "nombre": "Yamashiro Oré, Rafael Gustavo",
    "sigla": "FP",
-   "pases": 33,
-   "presente": 30,
-   "ausente": 3,
+   "pases": 37,
+   "presente": 33,
+   "ausente": 4,
    "licencia": 0,
-   "votaciones": 30,
-   "si": 24,
+   "votaciones": 34,
+   "si": 28,
    "no": 4,
    "abst": 0,
    "no_voto": 2,
-   "pct_asistencia": 90.9
+   "pct_asistencia": 89.2
   },
   {
    "camara": "S",
    "nombre": "Yauri Tunque, Joaquín",
    "sigla": "JP",
-   "pases": 33,
-   "presente": 33,
+   "pases": 37,
+   "presente": 37,
    "ausente": 0,
    "licencia": 0,
-   "votaciones": 32,
-   "si": 20,
-   "no": 10,
+   "votaciones": 36,
+   "si": 21,
+   "no": 13,
    "abst": 0,
    "no_voto": 2,
    "pct_asistencia": 100.0
   }
  ],
  "meta": {
-  "generado": "2026-10-28",
+  "generado": "2026-10-29",
   "fuente": "Reportes de asistencia y votación del Pleno (PDF) · diputados/senado.congreso.gob.pe",
   "nota": "Pases de lista y votaciones validados contra el total oficial al pie de cada bloque; los escaneos se leen con OCR. Licencias (viaje, enfermedad, oficial…) no cuentan como ausencia."
  }
