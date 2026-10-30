@@ -1,7 +1,7 @@
 {
  "camaras": {
   "D": {
-   "pases_lista": 31,
+   "pases_lista": 34,
    "votaciones": [
     {
      "fecha": "2026-10-22",
@@ -585,7 +585,8 @@
     {
      "fecha": "2026-10-29",
      "documentos": {
-      "agenda": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/AGENDA-PLENO-DIPUTADOS-29-10-2026.pdf"
+      "agenda": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/AGENDA-PLENO-DIPUTADOS-29-10-2026.pdf",
+      "asistencia": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/ASISTENCIA-PLENO-DIPUTADOS-20261020-provisional-2.pdf"
      }
     },
     {
@@ -2056,10 +2057,10 @@
  },
  "calidad": {
   "D": {
-   "asistencia_total": 31,
-   "nombres_sin_cruce": 11,
-   "votacion_total": 21,
-   "votacion_descartado": 4
+   "asistencia_total": 34,
+   "nombres_sin_cruce": 50,
+   "votacion_total": 23,
+   "votacion_descartado": 6
   },
   "S": {
    "asistencia_total": 37,
@@ -2073,8 +2074,8 @@
    "camara": "D",
    "nombre": "Abensur Pinasco, Jaime Américo",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 27,
+   "pases": 34,
+   "presente": 30,
    "ausente": 1,
    "licencia": 3,
    "votaciones": 17,
@@ -2082,22 +2083,22 @@
    "no": 8,
    "abst": 0,
    "no_voto": 3,
-   "pct_asistencia": 96.4
+   "pct_asistencia": 96.8
   },
   {
    "camara": "D",
    "nombre": "Aguirre Ramos, Marlon Alberto",
    "sigla": "JP",
-   "pases": 31,
+   "pases": 34,
    "presente": 29,
-   "ausente": 2,
-   "licencia": 0,
+   "ausente": 3,
+   "licencia": 2,
    "votaciones": 17,
    "si": 12,
    "no": 3,
    "abst": 0,
    "no_voto": 2,
-   "pct_asistencia": 93.5
+   "pct_asistencia": 90.6
   },
   {
    "camara": "D",
@@ -2118,8 +2119,8 @@
    "camara": "D",
    "nombre": "Albañil Carmona, Henry Antonio",
    "sigla": "PCO",
-   "pases": 31,
-   "presente": 28,
+   "pases": 34,
+   "presente": 31,
    "ausente": 1,
    "licencia": 2,
    "votaciones": 17,
@@ -2127,14 +2128,14 @@
    "no": 3,
    "abst": 0,
    "no_voto": 3,
-   "pct_asistencia": 96.6
+   "pct_asistencia": 96.9
   },
   {
    "camara": "D",
    "nombre": "Alegría García, Luis Arturo",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 26,
+   "pases": 34,
+   "presente": 29,
    "ausente": 5,
    "licencia": 0,
    "votaciones": 17,
@@ -2142,7 +2143,7 @@
    "no": 8,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 83.9
+   "pct_asistencia": 85.3
   },
   {
    "camara": "D",
@@ -2178,8 +2179,8 @@
    "camara": "D",
    "nombre": "Andrade Salguero de Alvarez, Gladys Griselda",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 27,
+   "pases": 34,
+   "presente": 30,
    "ausente": 4,
    "licencia": 0,
    "votaciones": 17,
@@ -2187,16 +2188,16 @@
    "no": 7,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 87.1
+   "pct_asistencia": 88.2
   },
   {
    "camara": "D",
    "nombre": "Aranda Vasquez, Christian",
    "sigla": "RP",
-   "pases": 31,
+   "pases": 34,
    "presente": 14,
    "ausente": 2,
-   "licencia": 15,
+   "licencia": 18,
    "votaciones": 17,
    "si": 8,
    "no": 2,
@@ -2223,8 +2224,8 @@
    "camara": "D",
    "nombre": "Avendaño Vilca, Giannina Iris",
    "sigla": "JP",
-   "pases": 31,
-   "presente": 31,
+   "pases": 34,
+   "presente": 34,
    "ausente": 0,
    "licencia": 0,
    "votaciones": 17,
@@ -2238,8 +2239,8 @@
    "camara": "D",
    "nombre": "Baella Malca, José Isidro",
    "sigla": "RP",
-   "pases": 31,
-   "presente": 30,
+   "pases": 34,
+   "presente": 33,
    "ausente": 1,
    "licencia": 0,
    "votaciones": 17,
@@ -2247,14 +2248,14 @@
    "no": 6,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 96.8
+   "pct_asistencia": 97.1
   },
   {
    "camara": "D",
    "nombre": "Barbaran Reyes, Rosangella Andrea",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 19,
+   "pases": 34,
+   "presente": 22,
    "ausente": 10,
    "licencia": 2,
    "votaciones": 17,
@@ -2262,7 +2263,7 @@
    "no": 5,
    "abst": 0,
    "no_voto": 6,
-   "pct_asistencia": 65.5
+   "pct_asistencia": 68.8
   },
   {
    "camara": "D",
@@ -2283,8 +2284,8 @@
    "camara": "D",
    "nombre": "Benitez Barrionuevo, Jessica",
    "sigla": "PBG",
-   "pases": 31,
-   "presente": 27,
+   "pases": 34,
+   "presente": 30,
    "ausente": 1,
    "licencia": 3,
    "votaciones": 17,
@@ -2292,14 +2293,14 @@
    "no": 2,
    "abst": 0,
    "no_voto": 2,
-   "pct_asistencia": 96.4
+   "pct_asistencia": 96.8
   },
   {
    "camara": "D",
    "nombre": "Beteta Rubín, Karina Juliza",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 25,
+   "pases": 34,
+   "presente": 28,
    "ausente": 6,
    "licencia": 0,
    "votaciones": 17,
@@ -2307,14 +2308,14 @@
    "no": 8,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 80.6
+   "pct_asistencia": 82.4
   },
   {
    "camara": "D",
    "nombre": "Bobadilla Galindo, Angel Bruno",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 30,
+   "pases": 34,
+   "presente": 33,
    "ausente": 1,
    "licencia": 0,
    "votaciones": 17,
@@ -2322,7 +2323,7 @@
    "no": 7,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 96.8
+   "pct_asistencia": 97.1
   },
   {
    "camara": "D",
@@ -2343,8 +2344,8 @@
    "camara": "D",
    "nombre": "Buitron Martínez, Freshman",
    "sigla": "AN",
-   "pases": 31,
-   "presente": 30,
+   "pases": 34,
+   "presente": 33,
    "ausente": 1,
    "licencia": 0,
    "votaciones": 17,
@@ -2352,14 +2353,14 @@
    "no": 2,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 96.8
+   "pct_asistencia": 97.1
   },
   {
    "camara": "D",
    "nombre": "Cabrera Nieto, Juan César",
    "sigla": "PCO",
-   "pases": 31,
-   "presente": 31,
+   "pases": 34,
+   "presente": 34,
    "ausente": 0,
    "licencia": 0,
    "votaciones": 17,
@@ -2388,8 +2389,8 @@
    "camara": "D",
    "nombre": "Camargo Porta, Raúl Jesús",
    "sigla": "PCO",
-   "pases": 31,
-   "presente": 28,
+   "pases": 34,
+   "presente": 31,
    "ausente": 3,
    "licencia": 0,
    "votaciones": 17,
@@ -2397,14 +2398,14 @@
    "no": 2,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 90.3
+   "pct_asistencia": 91.2
   },
   {
    "camara": "D",
    "nombre": "Castillo Rivas, Eduardo Enrique",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 25,
+   "pases": 34,
+   "presente": 28,
    "ausente": 6,
    "licencia": 0,
    "votaciones": 17,
@@ -2412,14 +2413,14 @@
    "no": 4,
    "abst": 0,
    "no_voto": 5,
-   "pct_asistencia": 80.6
+   "pct_asistencia": 82.4
   },
   {
    "camara": "D",
    "nombre": "Castrejón Fernández, Segundo Juan",
    "sigla": "PBG",
-   "pases": 31,
-   "presente": 30,
+   "pases": 34,
+   "presente": 33,
    "ausente": 1,
    "licencia": 0,
    "votaciones": 17,
@@ -2427,7 +2428,7 @@
    "no": 4,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 96.8
+   "pct_asistencia": 97.1
   },
   {
    "camara": "D",
@@ -2448,8 +2449,8 @@
    "camara": "D",
    "nombre": "Castro Grandez, Royser",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 30,
+   "pases": 34,
+   "presente": 33,
    "ausente": 1,
    "licencia": 0,
    "votaciones": 17,
@@ -2457,16 +2458,16 @@
    "no": 7,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 96.8
+   "pct_asistencia": 97.1
   },
   {
    "camara": "D",
    "nombre": "Celiz Castillo, Rafael Aldo",
    "sigla": "FP",
-   "pases": 31,
+   "pases": 34,
    "presente": 26,
    "ausente": 2,
-   "licencia": 3,
+   "licencia": 6,
    "votaciones": 17,
    "si": 8,
    "no": 7,
@@ -2493,23 +2494,23 @@
    "camara": "D",
    "nombre": "Chang Apuy, Felix See Hung",
    "sigla": "RP",
-   "pases": 31,
+   "pases": 34,
    "presente": 21,
-   "ausente": 3,
-   "licencia": 7,
+   "ausente": 4,
+   "licencia": 9,
    "votaciones": 17,
    "si": 9,
    "no": 2,
    "abst": 0,
    "no_voto": 6,
-   "pct_asistencia": 87.5
+   "pct_asistencia": 84.0
   },
   {
    "camara": "D",
    "nombre": "Chipana Condori, Graciela",
    "sigla": "JP",
-   "pases": 31,
-   "presente": 28,
+   "pases": 34,
+   "presente": 31,
    "ausente": 0,
    "licencia": 3,
    "votaciones": 17,
@@ -2523,8 +2524,8 @@
    "camara": "D",
    "nombre": "Cipriani Thorne, Javier José María",
    "sigla": "RP",
-   "pases": 31,
-   "presente": 31,
+   "pases": 34,
+   "presente": 34,
    "ausente": 0,
    "licencia": 0,
    "votaciones": 17,
@@ -2553,8 +2554,8 @@
    "camara": "D",
    "nombre": "Columbus Murata, Diethell",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 21,
+   "pases": 34,
+   "presente": 24,
    "ausente": 4,
    "licencia": 6,
    "votaciones": 17,
@@ -2562,14 +2563,14 @@
    "no": 7,
    "abst": 0,
    "no_voto": 4,
-   "pct_asistencia": 84.0
+   "pct_asistencia": 85.7
   },
   {
    "camara": "D",
    "nombre": "Condori Flores, Remigio",
    "sigla": "JP",
-   "pases": 31,
-   "presente": 30,
+   "pases": 34,
+   "presente": 33,
    "ausente": 1,
    "licencia": 0,
    "votaciones": 17,
@@ -2577,14 +2578,14 @@
    "no": 4,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 96.8
+   "pct_asistencia": 97.1
   },
   {
    "camara": "D",
    "nombre": "De Paz Lancho, Leo Miguel",
    "sigla": "RP",
-   "pases": 31,
-   "presente": 29,
+   "pases": 34,
+   "presente": 32,
    "ausente": 2,
    "licencia": 0,
    "votaciones": 15,
@@ -2592,14 +2593,14 @@
    "no": 5,
    "abst": 0,
    "no_voto": 2,
-   "pct_asistencia": 93.5
+   "pct_asistencia": 94.1
   },
   {
    "camara": "D",
    "nombre": "Dodero Jovich, Pierangeli Daniela",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 28,
+   "pases": 34,
+   "presente": 31,
    "ausente": 2,
    "licencia": 1,
    "votaciones": 17,
@@ -2607,14 +2608,14 @@
    "no": 7,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 93.3
+   "pct_asistencia": 93.9
   },
   {
    "camara": "D",
    "nombre": "Dominguez Herrera, Carlos Alberto",
    "sigla": "FP",
-   "pases": 30,
-   "presente": 22,
+   "pases": 33,
+   "presente": 25,
    "ausente": 8,
    "licencia": 0,
    "votaciones": 16,
@@ -2622,7 +2623,7 @@
    "no": 6,
    "abst": 0,
    "no_voto": 3,
-   "pct_asistencia": 73.3
+   "pct_asistencia": 75.8
   },
   {
    "camara": "D",
@@ -2658,8 +2659,8 @@
    "camara": "D",
    "nombre": "Eusebio Padilla, Arturo César",
    "sigla": "PCO",
-   "pases": 31,
-   "presente": 17,
+   "pases": 34,
+   "presente": 20,
    "ausente": 4,
    "licencia": 10,
    "votaciones": 17,
@@ -2667,14 +2668,14 @@
    "no": 0,
    "abst": 0,
    "no_voto": 11,
-   "pct_asistencia": 81.0
+   "pct_asistencia": 83.3
   },
   {
    "camara": "D",
    "nombre": "Fernández Gonzalez, Svieta Valia",
    "sigla": "JP",
-   "pases": 31,
-   "presente": 24,
+   "pases": 34,
+   "presente": 27,
    "ausente": 7,
    "licencia": 0,
    "votaciones": 17,
@@ -2682,7 +2683,7 @@
    "no": 3,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 77.4
+   "pct_asistencia": 79.4
   },
   {
    "camara": "D",
@@ -2703,8 +2704,8 @@
    "camara": "D",
    "nombre": "Fernández de la Torre, Hilda Judit",
    "sigla": "PBG",
-   "pases": 31,
-   "presente": 26,
+   "pases": 34,
+   "presente": 29,
    "ausente": 1,
    "licencia": 4,
    "votaciones": 13,
@@ -2712,14 +2713,14 @@
    "no": 3,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 96.3
+   "pct_asistencia": 96.7
   },
   {
    "camara": "D",
    "nombre": "Figari Mendoza, Pier Paolo",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 31,
+   "pases": 34,
+   "presente": 34,
    "ausente": 0,
    "licencia": 0,
    "votaciones": 17,
@@ -2733,8 +2734,8 @@
    "camara": "D",
    "nombre": "Flores Valdizan, Marco Antonio",
    "sigla": "JP",
-   "pases": 31,
-   "presente": 31,
+   "pases": 34,
+   "presente": 34,
    "ausente": 0,
    "licencia": 0,
    "votaciones": 16,
@@ -2748,8 +2749,8 @@
    "camara": "D",
    "nombre": "Gamarra Pita, Luzmila María del Carmen",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 28,
+   "pases": 34,
+   "presente": 31,
    "ausente": 3,
    "licencia": 0,
    "votaciones": 14,
@@ -2757,14 +2758,14 @@
    "no": 6,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 90.3
+   "pct_asistencia": 91.2
   },
   {
    "camara": "D",
    "nombre": "García Huby, Fernando Alberto",
    "sigla": "PBG",
-   "pases": 31,
-   "presente": 31,
+   "pases": 34,
+   "presente": 34,
    "ausente": 0,
    "licencia": 0,
    "votaciones": 15,
@@ -2778,8 +2779,8 @@
    "camara": "D",
    "nombre": "Gatica Vega, Francisco Javier",
    "sigla": "FP",
-   "pases": 30,
-   "presente": 29,
+   "pases": 33,
+   "presente": 32,
    "ausente": 1,
    "licencia": 0,
    "votaciones": 14,
@@ -2787,29 +2788,29 @@
    "no": 5,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 96.7
+   "pct_asistencia": 97.0
   },
   {
    "camara": "D",
    "nombre": "Gonzales Delgado, Gabriel Robertino",
    "sigla": "JP",
-   "pases": 31,
-   "presente": 31,
-   "ausente": 0,
+   "pases": 34,
+   "presente": 33,
+   "ausente": 1,
    "licencia": 0,
    "votaciones": 16,
    "si": 13,
    "no": 3,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 100.0
+   "pct_asistencia": 97.1
   },
   {
    "camara": "D",
    "nombre": "Gonzales Polar, Edgar Dember",
    "sigla": "PBG",
-   "pases": 31,
-   "presente": 28,
+   "pases": 34,
+   "presente": 31,
    "ausente": 3,
    "licencia": 0,
    "votaciones": 15,
@@ -2817,29 +2818,14 @@
    "no": 1,
    "abst": 0,
    "no_voto": 2,
-   "pct_asistencia": 90.3
+   "pct_asistencia": 91.2
   },
   {
    "camara": "D",
    "nombre": "Guevara Ramírez, Jessica Roxana",
    "sigla": "JP",
-   "pases": 31,
-   "presente": 31,
-   "ausente": 0,
-   "licencia": 0,
-   "votaciones": 17,
-   "si": 13,
-   "no": 4,
-   "abst": 0,
-   "no_voto": 0,
-   "pct_asistencia": 100.0
-  },
-  {
-   "camara": "D",
-   "nombre": "Guillen Valencia, Héctor",
-   "sigla": "JP",
-   "pases": 31,
-   "presente": 30,
+   "pases": 34,
+   "presente": 33,
    "ausente": 1,
    "licencia": 0,
    "votaciones": 17,
@@ -2847,14 +2833,29 @@
    "no": 4,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 96.8
+   "pct_asistencia": 97.1
+  },
+  {
+   "camara": "D",
+   "nombre": "Guillen Valencia, Héctor",
+   "sigla": "JP",
+   "pases": 34,
+   "presente": 33,
+   "ausente": 1,
+   "licencia": 0,
+   "votaciones": 17,
+   "si": 13,
+   "no": 4,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 97.1
   },
   {
    "camara": "D",
    "nombre": "Hancco Hancco, Dina Irene",
    "sigla": "PCO",
-   "pases": 31,
-   "presente": 30,
+   "pases": 34,
+   "presente": 33,
    "ausente": 1,
    "licencia": 0,
    "votaciones": 16,
@@ -2862,14 +2863,14 @@
    "no": 1,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 96.8
+   "pct_asistencia": 97.1
   },
   {
    "camara": "D",
    "nombre": "Hirache Pizarro, Gloria Charito",
    "sigla": "PBG",
-   "pases": 31,
-   "presente": 30,
+   "pases": 34,
+   "presente": 33,
    "ausente": 1,
    "licencia": 0,
    "votaciones": 17,
@@ -2877,14 +2878,14 @@
    "no": 2,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 96.8
+   "pct_asistencia": 97.1
   },
   {
    "camara": "D",
    "nombre": "Holguin Aguirre, James Arturo",
    "sigla": "JP",
-   "pases": 31,
-   "presente": 31,
+   "pases": 34,
+   "presente": 34,
    "ausente": 0,
    "licencia": 0,
    "votaciones": 17,
@@ -2898,8 +2899,8 @@
    "camara": "D",
    "nombre": "Holguin Loaiza, Cesar Augusto",
    "sigla": "AN",
-   "pases": 31,
-   "presente": 31,
+   "pases": 34,
+   "presente": 34,
    "ausente": 0,
    "licencia": 0,
    "votaciones": 17,
@@ -2913,8 +2914,8 @@
    "camara": "D",
    "nombre": "Huamán Cornejo, Miguel Felix",
    "sigla": "PBG",
-   "pases": 31,
-   "presente": 27,
+   "pases": 34,
+   "presente": 30,
    "ausente": 1,
    "licencia": 3,
    "votaciones": 15,
@@ -2922,14 +2923,14 @@
    "no": 2,
    "abst": 0,
    "no_voto": 2,
-   "pct_asistencia": 96.4
+   "pct_asistencia": 96.8
   },
   {
    "camara": "D",
    "nombre": "Huilca Flores, Indira Isabel",
    "sigla": "AN",
-   "pases": 31,
-   "presente": 27,
+   "pases": 34,
+   "presente": 30,
    "ausente": 4,
    "licencia": 0,
    "votaciones": 17,
@@ -2937,14 +2938,14 @@
    "no": 4,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 87.1
+   "pct_asistencia": 88.2
   },
   {
    "camara": "D",
    "nombre": "Infantes Castañeda, Mery Eliana",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 28,
+   "pases": 34,
+   "presente": 31,
    "ausente": 3,
    "licencia": 0,
    "votaciones": 15,
@@ -2952,16 +2953,16 @@
    "no": 7,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 90.3
+   "pct_asistencia": 91.2
   },
   {
    "camara": "D",
    "nombre": "Isla Rojas, Azucena",
    "sigla": "JP",
-   "pases": 31,
+   "pases": 34,
    "presente": 28,
    "ausente": 2,
-   "licencia": 1,
+   "licencia": 4,
    "votaciones": 16,
    "si": 13,
    "no": 3,
@@ -2973,8 +2974,8 @@
    "camara": "D",
    "nombre": "Jibaja Ramos, Luis Angel",
    "sigla": "JP",
-   "pases": 31,
-   "presente": 30,
+   "pases": 34,
+   "presente": 33,
    "ausente": 1,
    "licencia": 0,
    "votaciones": 17,
@@ -2982,29 +2983,29 @@
    "no": 4,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 96.8
+   "pct_asistencia": 97.1
   },
   {
    "camara": "D",
    "nombre": "Krklec Torres, Frank",
    "sigla": "RP",
-   "pases": 31,
-   "presente": 28,
-   "ausente": 3,
+   "pases": 34,
+   "presente": 30,
+   "ausente": 4,
    "licencia": 0,
    "votaciones": 17,
    "si": 10,
    "no": 6,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 90.3
+   "pct_asistencia": 88.2
   },
   {
    "camara": "D",
    "nombre": "Lavado Valdivia, Marino Teofilo",
    "sigla": "JP",
-   "pases": 31,
-   "presente": 28,
+   "pases": 34,
+   "presente": 31,
    "ausente": 0,
    "licencia": 3,
    "votaciones": 17,
@@ -3018,8 +3019,8 @@
    "camara": "D",
    "nombre": "Leiva Baylon, Leticia Maruja",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 28,
+   "pases": 34,
+   "presente": 31,
    "ausente": 3,
    "licencia": 0,
    "votaciones": 16,
@@ -3027,14 +3028,14 @@
    "no": 6,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 90.3
+   "pct_asistencia": 91.2
   },
   {
    "camara": "D",
    "nombre": "Llaque Linares, Nora María",
    "sigla": "PBG",
-   "pases": 31,
-   "presente": 30,
+   "pases": 34,
+   "presente": 33,
    "ausente": 1,
    "licencia": 0,
    "votaciones": 17,
@@ -3042,14 +3043,14 @@
    "no": 3,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 96.8
+   "pct_asistencia": 97.1
   },
   {
    "camara": "D",
    "nombre": "López Letona, Heber",
    "sigla": "PCO",
-   "pases": 31,
-   "presente": 29,
+   "pases": 34,
+   "presente": 32,
    "ausente": 2,
    "licencia": 0,
    "votaciones": 17,
@@ -3057,14 +3058,14 @@
    "no": 2,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 93.5
+   "pct_asistencia": 94.1
   },
   {
    "camara": "D",
    "nombre": "Manay Pillaca, Alejandro José",
    "sigla": "JP",
-   "pases": 31,
-   "presente": 31,
+   "pases": 34,
+   "presente": 34,
    "ausente": 0,
    "licencia": 0,
    "votaciones": 17,
@@ -3078,8 +3079,8 @@
    "camara": "D",
    "nombre": "Manrique Olivera, Bernardino Jair",
    "sigla": "AN",
-   "pases": 31,
-   "presente": 21,
+   "pases": 34,
+   "presente": 24,
    "ausente": 10,
    "licencia": 0,
    "votaciones": 15,
@@ -3087,29 +3088,29 @@
    "no": 2,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 67.7
+   "pct_asistencia": 70.6
   },
   {
    "camara": "D",
    "nombre": "Marcelo Salazar, José Miguel",
    "sigla": "AN",
-   "pases": 31,
-   "presente": 26,
-   "ausente": 5,
+   "pases": 34,
+   "presente": 28,
+   "ausente": 6,
    "licencia": 0,
    "votaciones": 17,
    "si": 15,
    "no": 2,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 83.9
+   "pct_asistencia": 82.4
   },
   {
    "camara": "D",
    "nombre": "Marquez Huanca, Analí",
    "sigla": "JP",
-   "pases": 31,
-   "presente": 31,
+   "pases": 34,
+   "presente": 34,
    "ausente": 0,
    "licencia": 0,
    "votaciones": 17,
@@ -3123,8 +3124,8 @@
    "camara": "D",
    "nombre": "Martínez Paitán, Paola Isabel",
    "sigla": "RP",
-   "pases": 31,
-   "presente": 23,
+   "pases": 34,
+   "presente": 26,
    "ausente": 5,
    "licencia": 3,
    "votaciones": 17,
@@ -3132,29 +3133,29 @@
    "no": 6,
    "abst": 0,
    "no_voto": 2,
-   "pct_asistencia": 82.1
+   "pct_asistencia": 83.9
   },
   {
    "camara": "D",
    "nombre": "Masco Cáceres, Luis Aurelio",
    "sigla": "PCO",
-   "pases": 31,
-   "presente": 27,
-   "ausente": 1,
+   "pases": 34,
+   "presente": 29,
+   "ausente": 2,
    "licencia": 3,
    "votaciones": 16,
    "si": 13,
    "no": 2,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 96.4
+   "pct_asistencia": 93.5
   },
   {
    "camara": "D",
    "nombre": "Medina Stein, Andrea Dayna",
    "sigla": "PCO",
-   "pases": 31,
-   "presente": 30,
+   "pases": 34,
+   "presente": 33,
    "ausente": 1,
    "licencia": 0,
    "votaciones": 16,
@@ -3162,14 +3163,14 @@
    "no": 2,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 96.8
+   "pct_asistencia": 97.1
   },
   {
    "camara": "D",
    "nombre": "Mendoza Bernedo, Liz Huli",
    "sigla": "FP",
-   "pases": 30,
-   "presente": 28,
+   "pases": 33,
+   "presente": 31,
    "ausente": 1,
    "licencia": 1,
    "votaciones": 17,
@@ -3177,14 +3178,14 @@
    "no": 7,
    "abst": 0,
    "no_voto": 2,
-   "pct_asistencia": 96.6
+   "pct_asistencia": 96.9
   },
   {
    "camara": "D",
    "nombre": "Meneses Crispin, Angel Renato",
    "sigla": "AN",
-   "pases": 31,
-   "presente": 29,
+   "pases": 34,
+   "presente": 32,
    "ausente": 2,
    "licencia": 0,
    "votaciones": 17,
@@ -3192,14 +3193,14 @@
    "no": 2,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 93.5
+   "pct_asistencia": 94.1
   },
   {
    "camara": "D",
    "nombre": "Meza Rivera, Flor de Jesús",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 25,
+   "pases": 34,
+   "presente": 28,
    "ausente": 6,
    "licencia": 0,
    "votaciones": 17,
@@ -3207,14 +3208,14 @@
    "no": 7,
    "abst": 0,
    "no_voto": 2,
-   "pct_asistencia": 80.6
+   "pct_asistencia": 82.4
   },
   {
    "camara": "D",
    "nombre": "Molina Soto, Nathaly Milagros",
    "sigla": "PBG",
-   "pases": 31,
-   "presente": 29,
+   "pases": 34,
+   "presente": 32,
    "ausente": 2,
    "licencia": 0,
    "votaciones": 16,
@@ -3222,29 +3223,29 @@
    "no": 2,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 93.5
+   "pct_asistencia": 94.1
   },
   {
    "camara": "D",
    "nombre": "Muedas Balbiese, Cesar Augusto",
    "sigla": "AN",
-   "pases": 31,
-   "presente": 27,
-   "ausente": 4,
+   "pases": 34,
+   "presente": 29,
+   "ausente": 5,
    "licencia": 0,
    "votaciones": 17,
    "si": 15,
    "no": 2,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 87.1
+   "pct_asistencia": 85.3
   },
   {
    "camara": "D",
    "nombre": "Muñoz Yurivilca, Kim Tami",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 30,
+   "pases": 34,
+   "presente": 33,
    "ausente": 1,
    "licencia": 0,
    "votaciones": 17,
@@ -3252,14 +3253,14 @@
    "no": 7,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 96.8
+   "pct_asistencia": 97.1
   },
   {
    "camara": "D",
    "nombre": "Navas Sánchez, Jessica Lizbeth",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 28,
+   "pases": 34,
+   "presente": 31,
    "ausente": 3,
    "licencia": 0,
    "votaciones": 17,
@@ -3267,14 +3268,14 @@
    "no": 7,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 90.3
+   "pct_asistencia": 91.2
   },
   {
    "camara": "D",
    "nombre": "Obando Morgan, Auristela Ana",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 27,
+   "pases": 34,
+   "presente": 30,
    "ausente": 4,
    "licencia": 0,
    "votaciones": 17,
@@ -3282,14 +3283,14 @@
    "no": 7,
    "abst": 0,
    "no_voto": 3,
-   "pct_asistencia": 87.1
+   "pct_asistencia": 88.2
   },
   {
    "camara": "D",
    "nombre": "Pacheco Quispe, Marco Antonio",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 22,
+   "pases": 34,
+   "presente": 25,
    "ausente": 1,
    "licencia": 8,
    "votaciones": 15,
@@ -3297,14 +3298,14 @@
    "no": 3,
    "abst": 0,
    "no_voto": 7,
-   "pct_asistencia": 95.7
+   "pct_asistencia": 96.2
   },
   {
    "camara": "D",
    "nombre": "Palma Mendoza, José Marvin",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 28,
+   "pases": 34,
+   "presente": 31,
    "ausente": 3,
    "licencia": 0,
    "votaciones": 14,
@@ -3312,59 +3313,59 @@
    "no": 6,
    "abst": 0,
    "no_voto": 2,
-   "pct_asistencia": 90.3
+   "pct_asistencia": 91.2
   },
   {
    "camara": "D",
    "nombre": "Palomino Casavilca, Catherin Norma",
    "sigla": "JP",
-   "pases": 31,
-   "presente": 31,
-   "ausente": 0,
+   "pases": 34,
+   "presente": 33,
+   "ausente": 1,
    "licencia": 0,
    "votaciones": 16,
    "si": 12,
    "no": 4,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 100.0
+   "pct_asistencia": 97.1
   },
   {
    "camara": "D",
    "nombre": "Palomino Pacheco, Amalia Emilia",
    "sigla": "JP",
-   "pases": 31,
-   "presente": 26,
-   "ausente": 5,
+   "pases": 34,
+   "presente": 28,
+   "ausente": 6,
    "licencia": 0,
    "votaciones": 15,
    "si": 12,
    "no": 2,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 83.9
+   "pct_asistencia": 82.4
   },
   {
    "camara": "D",
    "nombre": "Paredes Navarro, Yenifer Noelia",
    "sigla": "JP",
-   "pases": 31,
-   "presente": 29,
-   "ausente": 2,
+   "pases": 34,
+   "presente": 31,
+   "ausente": 3,
    "licencia": 0,
    "votaciones": 17,
    "si": 12,
    "no": 4,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 93.5
+   "pct_asistencia": 91.2
   },
   {
    "camara": "D",
    "nombre": "Patiño Urco, Ana Bertha",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 27,
+   "pases": 34,
+   "presente": 30,
    "ausente": 4,
    "licencia": 0,
    "votaciones": 15,
@@ -3372,29 +3373,29 @@
    "no": 7,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 87.1
+   "pct_asistencia": 88.2
   },
   {
    "camara": "D",
    "nombre": "Paucara Paxi, Carmela",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 27,
-   "ausente": 3,
+   "pases": 34,
+   "presente": 29,
+   "ausente": 4,
    "licencia": 1,
    "votaciones": 16,
    "si": 6,
    "no": 7,
    "abst": 0,
    "no_voto": 3,
-   "pct_asistencia": 90.0
+   "pct_asistencia": 87.9
   },
   {
    "camara": "D",
    "nombre": "Peralta Jorpa, Máximo",
    "sigla": "PCO",
-   "pases": 31,
-   "presente": 29,
+   "pases": 34,
+   "presente": 32,
    "ausente": 2,
    "licencia": 0,
    "votaciones": 16,
@@ -3402,29 +3403,29 @@
    "no": 2,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 93.5
+   "pct_asistencia": 94.1
   },
   {
    "camara": "D",
    "nombre": "Perez Quispe, Jessica Sadith",
    "sigla": "JP",
-   "pases": 31,
-   "presente": 31,
-   "ausente": 0,
+   "pases": 34,
+   "presente": 33,
+   "ausente": 1,
    "licencia": 0,
    "votaciones": 16,
    "si": 12,
    "no": 4,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 100.0
+   "pct_asistencia": 97.1
   },
   {
    "camara": "D",
    "nombre": "Peña Córdova, Olver",
    "sigla": "JP",
-   "pases": 31,
-   "presente": 31,
+   "pases": 34,
+   "presente": 34,
    "ausente": 0,
    "licencia": 0,
    "votaciones": 16,
@@ -3438,8 +3439,8 @@
    "camara": "D",
    "nombre": "Pinasco Montenegro, Nary Benvinda",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 28,
+   "pases": 34,
+   "presente": 31,
    "ausente": 1,
    "licencia": 2,
    "votaciones": 17,
@@ -3447,14 +3448,14 @@
    "no": 7,
    "abst": 0,
    "no_voto": 2,
-   "pct_asistencia": 96.6
+   "pct_asistencia": 96.9
   },
   {
    "camara": "D",
    "nombre": "Piñán Mamani, Víctor Eduardo",
    "sigla": "PCO",
-   "pases": 31,
-   "presente": 28,
+   "pases": 34,
+   "presente": 31,
    "ausente": 3,
    "licencia": 0,
    "votaciones": 15,
@@ -3462,14 +3463,14 @@
    "no": 2,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 90.3
+   "pct_asistencia": 91.2
   },
   {
    "camara": "D",
    "nombre": "Poma Huamaní, Haydee Celinda",
    "sigla": "JP",
-   "pases": 31,
-   "presente": 31,
+   "pases": 34,
+   "presente": 34,
    "ausente": 0,
    "licencia": 0,
    "votaciones": 17,
@@ -3483,8 +3484,23 @@
    "camara": "D",
    "nombre": "Prado Vallejos, Lila Marianela",
    "sigla": "PBG",
-   "pases": 31,
-   "presente": 29,
+   "pases": 34,
+   "presente": 31,
+   "ausente": 3,
+   "licencia": 0,
+   "votaciones": 15,
+   "si": 13,
+   "no": 2,
+   "abst": 0,
+   "no_voto": 0,
+   "pct_asistencia": 91.2
+  },
+  {
+   "camara": "D",
+   "nombre": "Pérez Alccahuaman, Jesús",
+   "sigla": "JP",
+   "pases": 34,
+   "presente": 32,
    "ausente": 2,
    "licencia": 0,
    "votaciones": 15,
@@ -3492,44 +3508,29 @@
    "no": 2,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 93.5
-  },
-  {
-   "camara": "D",
-   "nombre": "Pérez Alccahuaman, Jesús",
-   "sigla": "JP",
-   "pases": 31,
-   "presente": 30,
-   "ausente": 1,
-   "licencia": 0,
-   "votaciones": 15,
-   "si": 13,
-   "no": 2,
-   "abst": 0,
-   "no_voto": 0,
-   "pct_asistencia": 96.8
+   "pct_asistencia": 94.1
   },
   {
    "camara": "D",
    "nombre": "Pérez Mallqui, Julián Luis",
    "sigla": "JP",
-   "pases": 31,
-   "presente": 25,
-   "ausente": 6,
+   "pases": 34,
+   "presente": 27,
+   "ausente": 7,
    "licencia": 0,
    "votaciones": 17,
    "si": 11,
    "no": 0,
    "abst": 0,
    "no_voto": 6,
-   "pct_asistencia": 80.6
+   "pct_asistencia": 79.4
   },
   {
    "camara": "D",
    "nombre": "Quezada Castro, Geanmarco Antonio",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 30,
+   "pases": 34,
+   "presente": 33,
    "ausente": 1,
    "licencia": 0,
    "votaciones": 15,
@@ -3537,14 +3538,14 @@
    "no": 7,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 96.8
+   "pct_asistencia": 97.1
   },
   {
    "camara": "D",
    "nombre": "Quispe Candia, Luis Eliseo",
    "sigla": "PBG",
-   "pases": 31,
-   "presente": 26,
+   "pases": 34,
+   "presente": 29,
    "ausente": 5,
    "licencia": 0,
    "votaciones": 15,
@@ -3552,16 +3553,16 @@
    "no": 2,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 83.9
+   "pct_asistencia": 85.3
   },
   {
    "camara": "D",
    "nombre": "Ramos Rosales, María Candelaria",
    "sigla": "FP",
-   "pases": 31,
+   "pases": 34,
    "presente": 22,
    "ausente": 8,
-   "licencia": 1,
+   "licencia": 4,
    "votaciones": 17,
    "si": 7,
    "no": 5,
@@ -3573,8 +3574,8 @@
    "camara": "D",
    "nombre": "Reto Otero, Oscar de Jesús",
    "sigla": "PBG",
-   "pases": 31,
-   "presente": 28,
+   "pases": 34,
+   "presente": 31,
    "ausente": 3,
    "licencia": 0,
    "votaciones": 0,
@@ -3582,29 +3583,29 @@
    "no": 0,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 90.3
+   "pct_asistencia": 91.2
   },
   {
    "camara": "D",
    "nombre": "Revilla Villanueva, César Manuel",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 28,
-   "ausente": 3,
+   "pases": 34,
+   "presente": 30,
+   "ausente": 4,
    "licencia": 0,
    "votaciones": 16,
    "si": 8,
    "no": 7,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 90.3
+   "pct_asistencia": 88.2
   },
   {
    "camara": "D",
    "nombre": "Rocha Gallegos, Roxana María",
    "sigla": "RP",
-   "pases": 31,
-   "presente": 28,
+   "pases": 34,
+   "presente": 31,
    "ausente": 3,
    "licencia": 0,
    "votaciones": 17,
@@ -3612,14 +3613,14 @@
    "no": 6,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 90.3
+   "pct_asistencia": 91.2
   },
   {
    "camara": "D",
    "nombre": "Salas Rivera, Alexander",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 26,
+   "pases": 34,
+   "presente": 29,
    "ausente": 5,
    "licencia": 0,
    "votaciones": 17,
@@ -3627,14 +3628,14 @@
    "no": 5,
    "abst": 0,
    "no_voto": 5,
-   "pct_asistencia": 83.9
+   "pct_asistencia": 85.3
   },
   {
    "camara": "D",
    "nombre": "Samanez Gonzales Vigil, Jeenny Cristina",
    "sigla": "PCO",
-   "pases": 31,
-   "presente": 21,
+   "pases": 34,
+   "presente": 24,
    "ausente": 10,
    "licencia": 0,
    "votaciones": 16,
@@ -3642,14 +3643,14 @@
    "no": 0,
    "abst": 0,
    "no_voto": 7,
-   "pct_asistencia": 67.7
+   "pct_asistencia": 70.6
   },
   {
    "camara": "D",
    "nombre": "Santana Vera, Milagros Karina",
    "sigla": "PBG",
-   "pases": 31,
-   "presente": 21,
+   "pases": 34,
+   "presente": 24,
    "ausente": 10,
    "licencia": 0,
    "votaciones": 17,
@@ -3657,14 +3658,14 @@
    "no": 1,
    "abst": 0,
    "no_voto": 8,
-   "pct_asistencia": 67.7
+   "pct_asistencia": 70.6
   },
   {
    "camara": "D",
    "nombre": "Segura Figueroa, Gustavo Alexander",
    "sigla": "RP",
-   "pases": 31,
-   "presente": 27,
+   "pases": 34,
+   "presente": 30,
    "ausente": 4,
    "licencia": 0,
    "votaciones": 17,
@@ -3672,14 +3673,14 @@
    "no": 6,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 87.1
+   "pct_asistencia": 88.2
   },
   {
    "camara": "D",
    "nombre": "Silupu Inga, María Luisa",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 27,
+   "pases": 34,
+   "presente": 30,
    "ausente": 1,
    "licencia": 3,
    "votaciones": 17,
@@ -3687,16 +3688,16 @@
    "no": 7,
    "abst": 0,
    "no_voto": 3,
-   "pct_asistencia": 96.4
+   "pct_asistencia": 96.8
   },
   {
    "camara": "D",
    "nombre": "Sonco Villanueva, Helard Bladimir",
    "sigla": "AN",
-   "pases": 31,
+   "pases": 34,
    "presente": 19,
    "ausente": 9,
-   "licencia": 3,
+   "licencia": 6,
    "votaciones": 15,
    "si": 5,
    "no": 2,
@@ -3708,8 +3709,8 @@
    "camara": "D",
    "nombre": "Soto Ferrari, Luz Mérida",
    "sigla": "JP",
-   "pases": 31,
-   "presente": 30,
+   "pases": 34,
+   "presente": 33,
    "ausente": 1,
    "licencia": 0,
    "votaciones": 17,
@@ -3717,29 +3718,29 @@
    "no": 4,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 96.8
+   "pct_asistencia": 97.1
   },
   {
    "camara": "D",
    "nombre": "Sulca Castillo, Pilar",
    "sigla": "JP",
-   "pases": 31,
-   "presente": 31,
-   "ausente": 0,
+   "pases": 34,
+   "presente": 33,
+   "ausente": 1,
    "licencia": 0,
    "votaciones": 16,
    "si": 12,
    "no": 4,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 100.0
+   "pct_asistencia": 97.1
   },
   {
    "camara": "D",
    "nombre": "Takayama Jimenez, Liliana Milagros",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 27,
+   "pases": 34,
+   "presente": 30,
    "ausente": 4,
    "licencia": 0,
    "votaciones": 17,
@@ -3747,14 +3748,14 @@
    "no": 4,
    "abst": 0,
    "no_voto": 5,
-   "pct_asistencia": 87.1
+   "pct_asistencia": 88.2
   },
   {
    "camara": "D",
    "nombre": "Tapullima Insapillo, Jacqueline Viviana",
    "sigla": "JP",
-   "pases": 31,
-   "presente": 31,
+   "pases": 34,
+   "presente": 34,
    "ausente": 0,
    "licencia": 0,
    "votaciones": 17,
@@ -3768,23 +3769,23 @@
    "camara": "D",
    "nombre": "Ticlla Rafael, Segundo Senovio",
    "sigla": "FP",
-   "pases": 31,
+   "pases": 34,
    "presente": 30,
-   "ausente": 1,
+   "ausente": 4,
    "licencia": 0,
    "votaciones": 17,
    "si": 9,
    "no": 7,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 96.8
+   "pct_asistencia": 88.2
   },
   {
    "camara": "D",
    "nombre": "Tito Rojas, César Hugo",
    "sigla": "JP",
-   "pases": 31,
-   "presente": 30,
+   "pases": 34,
+   "presente": 33,
    "ausente": 1,
    "licencia": 0,
    "votaciones": 17,
@@ -3792,14 +3793,14 @@
    "no": 4,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 96.8
+   "pct_asistencia": 97.1
   },
   {
    "camara": "D",
    "nombre": "Trujillo Zegarra, Gilmer",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 28,
+   "pases": 34,
+   "presente": 31,
    "ausente": 1,
    "licencia": 2,
    "votaciones": 17,
@@ -3807,44 +3808,44 @@
    "no": 7,
    "abst": 0,
    "no_voto": 2,
-   "pct_asistencia": 96.6
+   "pct_asistencia": 96.9
   },
   {
    "camara": "D",
    "nombre": "Uribe Saenz, Romina Alejandra",
    "sigla": "PBG",
-   "pases": 31,
-   "presente": 27,
-   "ausente": 1,
+   "pases": 34,
+   "presente": 29,
+   "ausente": 2,
    "licencia": 3,
    "votaciones": 14,
    "si": 11,
    "no": 1,
    "abst": 0,
    "no_voto": 2,
-   "pct_asistencia": 96.4
+   "pct_asistencia": 93.5
   },
   {
    "camara": "D",
    "nombre": "Valqui Calderón, Demetrio Flavio",
    "sigla": "PCO",
-   "pases": 31,
-   "presente": 27,
-   "ausente": 4,
+   "pases": 34,
+   "presente": 29,
+   "ausente": 5,
    "licencia": 0,
    "votaciones": 15,
    "si": 12,
    "no": 2,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 87.1
+   "pct_asistencia": 85.3
   },
   {
    "camara": "D",
    "nombre": "Valqui Ordoñez, Jhonn Brayam",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 27,
+   "pases": 34,
+   "presente": 30,
    "ausente": 2,
    "licencia": 2,
    "votaciones": 17,
@@ -3852,14 +3853,14 @@
    "no": 7,
    "abst": 0,
    "no_voto": 3,
-   "pct_asistencia": 93.1
+   "pct_asistencia": 93.8
   },
   {
    "camara": "D",
    "nombre": "Varas Seguin, Daniel Jefferson",
    "sigla": "JP",
-   "pases": 31,
-   "presente": 31,
+   "pases": 34,
+   "presente": 34,
    "ausente": 0,
    "licencia": 0,
    "votaciones": 17,
@@ -3873,8 +3874,8 @@
    "camara": "D",
    "nombre": "Vidaurre Floridas, César Manuel",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 28,
+   "pases": 34,
+   "presente": 31,
    "ausente": 3,
    "licencia": 0,
    "votaciones": 14,
@@ -3882,29 +3883,29 @@
    "no": 7,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 90.3
+   "pct_asistencia": 91.2
   },
   {
    "camara": "D",
    "nombre": "Villanueva Calderón, Juan Amilcar",
    "sigla": "JP",
-   "pases": 31,
-   "presente": 30,
-   "ausente": 1,
+   "pases": 34,
+   "presente": 32,
+   "ausente": 2,
    "licencia": 0,
    "votaciones": 16,
    "si": 12,
    "no": 4,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 96.8
+   "pct_asistencia": 94.1
   },
   {
    "camara": "D",
    "nombre": "Yalta Sotelo, Carlos Alberto",
    "sigla": "RP",
-   "pases": 31,
-   "presente": 30,
+   "pases": 34,
+   "presente": 33,
    "ausente": 1,
    "licencia": 0,
    "votaciones": 17,
@@ -3912,14 +3913,14 @@
    "no": 6,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 96.8
+   "pct_asistencia": 97.1
   },
   {
    "camara": "D",
    "nombre": "Yarrow Lumbreras, Norma Martina",
    "sigla": "RP",
-   "pases": 31,
-   "presente": 21,
+   "pases": 34,
+   "presente": 24,
    "ausente": 1,
    "licencia": 9,
    "votaciones": 16,
@@ -3927,14 +3928,14 @@
    "no": 2,
    "abst": 0,
    "no_voto": 8,
-   "pct_asistencia": 95.5
+   "pct_asistencia": 96.0
   },
   {
    "camara": "D",
    "nombre": "Yataco Torrealva, José Ricardo",
    "sigla": "PCO",
-   "pases": 31,
-   "presente": 30,
+   "pases": 34,
+   "presente": 33,
    "ausente": 1,
    "licencia": 0,
    "votaciones": 17,
@@ -3942,59 +3943,59 @@
    "no": 2,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 96.8
+   "pct_asistencia": 97.1
   },
   {
    "camara": "D",
    "nombre": "Yonz Núñez, Mady Verónica",
    "sigla": "RP",
-   "pases": 31,
-   "presente": 26,
-   "ausente": 5,
+   "pases": 34,
+   "presente": 28,
+   "ausente": 6,
    "licencia": 0,
    "votaciones": 16,
    "si": 9,
    "no": 6,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 83.9
+   "pct_asistencia": 82.4
   },
   {
    "camara": "D",
    "nombre": "Yuffra Lugo, Ana Luisa",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 26,
-   "ausente": 5,
+   "pases": 34,
+   "presente": 28,
+   "ausente": 6,
    "licencia": 0,
    "votaciones": 17,
    "si": 9,
    "no": 7,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 83.9
+   "pct_asistencia": 82.4
   },
   {
    "camara": "D",
    "nombre": "Zeballos Aponte, Jorge Arturo",
    "sigla": "RP",
-   "pases": 31,
-   "presente": 15,
-   "ausente": 12,
+   "pases": 34,
+   "presente": 17,
+   "ausente": 13,
    "licencia": 4,
    "votaciones": 17,
    "si": 6,
    "no": 5,
    "abst": 0,
    "no_voto": 6,
-   "pct_asistencia": 55.6
+   "pct_asistencia": 56.7
   },
   {
    "camara": "D",
    "nombre": "Zegarra Sánchez, Carlos Alberto",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 30,
+   "pases": 34,
+   "presente": 33,
    "ausente": 1,
    "licencia": 0,
    "votaciones": 17,
@@ -4002,14 +4003,14 @@
    "no": 7,
    "abst": 0,
    "no_voto": 1,
-   "pct_asistencia": 96.8
+   "pct_asistencia": 97.1
   },
   {
    "camara": "D",
    "nombre": "Zunini Yerren, Ernesto Alonzo",
    "sigla": "JP",
-   "pases": 31,
-   "presente": 30,
+   "pases": 34,
+   "presente": 33,
    "ausente": 1,
    "licencia": 0,
    "votaciones": 17,
@@ -4017,7 +4018,7 @@
    "no": 4,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 96.8
+   "pct_asistencia": 97.1
   },
   {
    "camara": "S",
@@ -4921,7 +4922,7 @@
   }
  ],
  "meta": {
-  "generado": "2026-10-29",
+  "generado": "2026-10-30",
   "fuente": "Reportes de asistencia y votación del Pleno (PDF) · diputados/senado.congreso.gob.pe",
   "nota": "Pases de lista y votaciones validados contra el total oficial al pie de cada bloque; los escaneos se leen con OCR. Licencias (viaje, enfermedad, oficial…) no cuentan como ausencia."
  }
