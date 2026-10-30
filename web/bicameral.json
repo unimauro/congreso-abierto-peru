@@ -1,38 +1,38 @@
 {
  "meta": {
-  "generado": "2026-10-29",
+  "generado": "2026-10-30",
   "periodo": "2026-2031",
   "instalacion": "2026-07-27",
   "fuente": "api.congreso.gob.pe/spley-portal-service (codTipoParl S/D/C) · padrón: senado/diputados.congreso.gob.pe"
  },
  "totales": {
-  "proyectos": 736,
-  "leyes": 6,
+  "proyectos": 740,
+  "leyes": 9,
   "congresistas": 190
  },
  "camaras": {
   "D": {
    "nombre": "Cámara de Diputados",
-   "proyectos": 710,
+   "proyectos": 714,
    "leyes": 0,
    "archivados": 93,
    "por_estado": {
     "EN COMISIÓN": 551,
     "Archivado de Plano": 93,
-    "PRESENTADO": 36,
+    "PRESENTADO": 40,
     "Retirado por su Autor": 8,
     "CON DICTAMEN": 8,
     "ACTUALIZADA": 7,
     "Expediente de propuesta legislativa remitida al senado de la república": 5,
-    "EN DEBATE - PLENO": 2
+    "APROBADO": 2
    },
    "por_mes": {
     "2026-08": 102,
     "2026-09": 361,
-    "2026-10": 247
+    "2026-10": 251
    },
    "por_proponente": {
-    "Cámara de Diputados": 487,
+    "Cámara de Diputados": 491,
     "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN": 190,
     "Colegios Profesionales": 20,
     "PODER EJECUTIVO": 7,
@@ -42,12 +42,12 @@
     "Senado de la República": 1
    },
    "materias": {
-    "Otros": 134,
-    "Justicia y penal": 88,
-    "Transporte e infraestructura": 72,
+    "Otros": 135,
+    "Justicia y penal": 89,
+    "Transporte e infraestructura": 73,
     "Salud": 67,
+    "Educación": 63,
     "Economía y tributación": 63,
-    "Educación": 62,
     "Declarativa / simbólica": 57,
     "Seguridad y orden": 46,
     "Trabajo y pensiones": 35,
@@ -59,10 +59,10 @@
    },
    "agenda": {
     "Actualización (periodo anterior)": 190,
-    "Inversión, empleo y competitividad": 112,
-    "Capital humano: educación y salud": 103,
+    "Inversión, empleo y competitividad": 113,
+    "Capital humano: educación y salud": 104,
     "Seguridad y Estado de derecho": 93,
-    "Otros": 49,
+    "Otros": 51,
     "Infraestructura y conectividad": 35,
     "Inclusión y protección social": 34,
     "Finanzas públicas y presupuesto": 32,
@@ -71,7 +71,7 @@
     "Gestión del Estado y simplificación": 11,
     "Ambiente y gestión de riesgos": 11
    },
-   "pct_desarrollo": 82.9,
+   "pct_desarrollo": 82.6,
    "pct_simbolico": 2.3,
    "riesgo_fiscal": 51,
    "actualizaciones": 190,
@@ -79,19 +79,19 @@
     {
      "bancada": "Juntos por el Perú",
      "miembros": 32,
-     "proyectos": 137,
-     "por_miembro": 4.3,
+     "proyectos": 140,
+     "por_miembro": 4.4,
      "actualizaciones": 0,
-     "pct_desarrollo": 81.8,
+     "pct_desarrollo": 80.7,
      "pct_simbolico": 0.7
     },
     {
      "bancada": "Renovación Popular",
      "miembros": 15,
-     "proyectos": 124,
+     "proyectos": 125,
      "por_miembro": 8.3,
      "actualizaciones": 0,
-     "pct_desarrollo": 83.1,
+     "pct_desarrollo": 83.2,
      "pct_simbolico": 4.0
     },
     {
@@ -210,13 +210,14 @@
   "S": {
    "nombre": "Senado",
    "proyectos": 20,
-   "leyes": 6,
+   "leyes": 7,
    "archivados": 0,
    "por_estado": {
-    "EN COMISIÓN": 8,
+    "EN COMISIÓN": 10,
     "Publicada en el Diario Oficial El Peruano": 6,
-    "PRESENTADO": 3,
-    "EN AGENDA DEL PLENO": 3
+    "APROBADO": 2,
+    "PRESENTADO": 1,
+    "AUTÓGRAFA": 1
    },
    "por_mes": {
     "2026-08": 6,
@@ -298,15 +299,15 @@
      "proyectos": 3
     },
     {
+     "nombre": "Asuntos de Salud, Educación, Cultura, Mujer y Desarrollo Social y Digital",
+     "proyectos": 2
+    },
+    {
      "nombre": "Asuntos de Desarrollo Productivo, Energía y Minas, Infraestructura y Trabajo",
      "proyectos": 0
     },
     {
      "nombre": "Asuntos de Gestión del Estado y Contraloría",
-     "proyectos": 0
-    },
-    {
-     "nombre": "Asuntos de Salud, Educación, Cultura, Mujer y Desarrollo Social y Digital",
      "proyectos": 0
     },
     {
@@ -322,11 +323,11 @@
   "C": {
    "nombre": "Congreso (bicameral)",
    "proyectos": 6,
-   "leyes": 0,
+   "leyes": 2,
    "archivados": 0,
    "por_estado": {
     "EN COMISIÓN": 4,
-    "APROBADO": 2
+    "AUTÓGRAFA": 2
    },
    "por_mes": {
     "2026-08": 4,
@@ -363,7 +364,7 @@
    "condicion": "",
    "link": "https://diputados.congreso.gob.pe/diputado/zunini-yerren-ernesto-alonzo/",
    "principal": 23,
-   "firmas": 99,
+   "firmas": 100,
    "simbolicos": 1,
    "actualizaciones": 0,
    "desarrollo": 20,
@@ -521,6 +522,177 @@
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 31751 Y LA LEY 32104, QUE MODIFICAN LA SUSPENSIÓN DEL PLAZO DE PRESCRIPCIÓN DE LA ACCIÓN PENAL",
      "estado": "EN COMISIÓN",
      "agenda": "Inclusión y protección social"
+    },
+    {
+     "codigo": "00008-2026-2031-CD",
+     "fecha": "2026-08-10",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32108 Y LA LEY 32138, SOBRE EL CRIMEN ORGANIZADO",
+     "estado": "EN COMISIÓN",
+     "agenda": "Seguridad y Estado de derecho"
+    }
+   ]
+  },
+  {
+   "camara": "D",
+   "nombre": "Villanueva Calderón, Juan Amilcar",
+   "bancada": "Juntos por el Perú",
+   "sigla": "JP",
+   "distrito": "Cajamarca",
+   "genero": "masculino",
+   "condicion": "en ejercicio",
+   "link": "https://diputados.congreso.gob.pe/diputado/villanueva-calderon-juan-amilcar/",
+   "principal": 22,
+   "firmas": 46,
+   "simbolicos": 0,
+   "actualizaciones": 0,
+   "desarrollo": 16,
+   "proyectos": [
+    {
+     "codigo": "00711-2026-2031-CD",
+     "fecha": "2026-10-29",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LOS ARTÍCULOS 66 Y 71 DE LA LEY 30220, LEY UNIVERSITARIA, PARA ESTABLECER LA VOTACIÓN PARITARIA DE DOCENTES Y ESTUDIANTES EN LA ELECCIÓN DE AUTORIDADES DE LAS UNIVERSIDADES PÚBLICAS.",
+     "estado": "PRESENTADO",
+     "agenda": "Capital humano: educación y salud"
+    },
+    {
+     "codigo": "00659-2026-2031-CD",
+     "fecha": "2026-10-23",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LOS ARTÍCULOS 98 Y 100 DE LA LEY 30220, LEY UNIVERSITARIA, PARA PROHIBIR QUE UNA PERSONA MANTENGA SIMULTÁNEAMENTE VACANTES EN MÁS DE UNA CARRERA PROFESIONAL DE PREGRADO EN UNIVERSIDADES PÚBLICAS.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Capital humano: educación y salud"
+    },
+    {
+     "codigo": "00646-2026-2031-CD",
+     "fecha": "2026-10-22",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL VOLUNTARIADO PROFESIONAL EN LA LEY 28238, LEY GENERAL DEL VOLUNTARIADO, Y LO RECONOCE COMO EXPERIENCIA LABORAL.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Inversión, empleo y competitividad"
+    },
+    {
+     "codigo": "00645-2026-2031-CD",
+     "fecha": "2026-10-22",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL LITERAL D) DEL NUMERAL 1 DEL ARTÍCULO 242 DEL CÓDIGO PROCESAL PENAL Y EL ARTÍCULO 19 DE LA LEY 30364 PARA GARANTIZAR LA REALIZACIÓN OPORTUNA E INAPLAZABLE DE LA ENTREVISTA ÚNICA EN CASOS DE VIOLENCIA SEXUAL.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Inclusión y protección social"
+    },
+    {
+     "codigo": "00644-2026-2031-CD",
+     "fecha": "2026-10-22",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 46 DEL TEXTO ÚNICO ORDENADO DE LA LEY DEL IMPUESTO A LA RENTA, PARA ESTABLECER LA DEDUCCIÓN DE GASTOS POR SERVICIOS DE SALUD Y POR EL EJERCICIO DE PROFESIONES, ARTES, CIENCIAS U OFICIOS SUSTENTADOS EN COMPROBANTES DE PAGO ELECTRÓNICOS.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Finanzas públicas y presupuesto"
+    },
+    {
+     "codigo": "00615-2026-2031-CD",
+     "fecha": "2026-10-19",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 84 DE LA LEY 30220, LEY UNIVERSITARIA, PARA RESTABLECER LA EDAD LÍMITE PARA EL EJERCICIO DE LA DOCENCIA ORDINARIA Y FIJAR UN RÉGIMEN DE CONTINUIDAD INSTITUCIONAL DEL DOCENTE MEDIANTE CONTRATACIÓN EN FUNCIONES ADMINISTRATIVAS, DE TUTORÍA ACADÉMICA Y DE ASESORÍA EN INVESTIGACIÓN.",
+     "estado": "Retirado por su Autor",
+     "agenda": "Capital humano: educación y salud"
+    },
+    {
+     "codigo": "00614-2026-2031-CD",
+     "fecha": "2026-10-19",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27933, LEY DEL SISTEMA NACIONAL DE SEGURIDAD CIUDADANA, PARA CREAR Y REGULAR LAS RONDAS URBANAS COMO ORGANIZACIONES SOCIALES DE COLABORACIÓN VECINAL EN LA PREVENCIÓN DEL DELITO, Y MODIFICA LOS ARTICULOS 121, 122 Y367 DEL CÓDIGO PENAL PARA BRINDARLES PROTECCIÓN PENAL REFORZADA.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Seguridad y Estado de derecho"
+    },
+    {
+     "codigo": "00613-2026-2031-CD",
+     "fecha": "2026-10-19",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL NUMERAL 100.6 DEL ARTÍCULO 100 E INCORPORA EL ARTÍCULO 100-A A LA LEY 302220, LEY UNIVERSITARIA, PARA PRECISAR LOS ALCANCES DEL DERECHO DE ASOCIACIÓN DE LOS ESTUDIANTES Y GARANTIZAR SU EJERCICIO.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Capital humano: educación y salud"
+    },
+    {
+     "codigo": "00529-2026-2031-CD",
+     "fecha": "2026-10-06",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EN EL NUMERAL 45.2 DEL ARTÍCULO 45 DE LA LEY 30220, LEY UNIVERSITARIA, NUEVAS MODALIDADES DE OBTENCIÓN DEL TÍTULO PROFESIONAL.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Otros"
+    },
+    {
+     "codigo": "00367-2026-2031-CD",
+     "fecha": "2026-09-18",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 2 DE LA LEY 29719, PARA FORTALECER LA PREVENCIÓN, ATENCIÓN Y ERRADICACIÓN DEL CIBERACOSO ESCOLAR.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Capital humano: educación y salud"
+    },
+    {
+     "codigo": "00195-2026-2031-CD",
+     "fecha": "2026-09-10",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 29944, LEY DE LA REFORMA MAGISTERIAL PARA FORTALECER EL RÉGIMEN ADMINISTRATIVO DISCIPLINARIO DEL SECTOR EDUCACIÓN, FRENTE A CASOS DE VIOLENCIA SEXUAL CONTRA NIÑAS, NIÑOS Y ADOLESCENTES EN INSTITUCIONES EDUCATIVAS PÚBLICAS.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Capital humano: educación y salud"
+    },
+    {
+     "codigo": "00194-2026-2031-CD",
+     "fecha": "2026-09-10",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL ARTÍCULO 79-A y 79-B A LA LEY 30220, LEY UNIVERSITARIA, CORRESPONDENCIA ENTRE LA ESPECIALIDAD DEL DOCENTE Y LA ASIGNATURA QUE DICTA, Y LOS REQUISITOS MÍNIMOS PARA EL DICTADO DE LOS CURSOS DE INVESTIGACIÓN",
+     "estado": "EN COMISIÓN",
+     "agenda": "Capital humano: educación y salud"
+    },
+    {
+     "codigo": "00193-2026-2031-CD",
+     "fecha": "2026-09-10",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL ARTÍCULO 29-A A LA LEY 30220, LEY UNIVERSITARIA, PARA ESTABLECER EL PLAZO MÁXIMO DE VIGENCIA DE LA COMISIÓN ORGANIZADORA.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Otros"
+    },
+    {
+     "codigo": "00192-2026-2031-CD",
+     "fecha": "2026-09-10",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL NUMERAL 69.3 DEL ARTÍCULO 69 DE LA LEY 30220, LEY UNIVERSITARIA, PARA EXIGIR EL GRADO DE DOCTOR COMO REQUISITO PARA SER DECANO",
+     "estado": "EN COMISIÓN",
+     "agenda": "Otros"
+    },
+    {
+     "codigo": "00149-2026-2031-CD",
+     "fecha": "2026-09-07",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30220, LEY UNIVERSITARIA, PARA ESTABLECER UN PROCEDIMIENTO MERITOCRÁTICO, PARTICIPATIVO E INDEPENDIENTE PARA LA SELECCIÓN Y DESIGNACIÓN DEL DEFENSOR UNIVERSITARIO.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Reforma política e institucional"
+    },
+    {
+     "codigo": "00148-2026-2031-CD",
+     "fecha": "2026-09-07",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 46 DEL TEXTO ÚNICO ORDENADO DE LA LEY DEL IMPUESTO A LA RENTA, PARA INCORPORAR LA DEDUCCIÓN DEL 10% DE LOS GASTOS POR SERVICIOS EDUCATIVOS DENTRO DEL LÍMITE DE LAS 3 UIT.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Finanzas públicas y presupuesto"
+    },
+    {
+     "codigo": "00147-2026-2031-CD",
+     "fecha": "2026-09-07",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LOS ARTÍCULOS 185, 186 Y 187 DE LA LEY 26859, LEY ORGÁNICA DE ELECCIONES, PARA PROHIBIR LA INSTALACIÓN Y DISTRIBUCIÓN DE PUBLICIDAD ELECTORAL EN SOPORTES FÍSICOS Y REDUCIR LA CONTAMINACIÓN VISUAL Y AMBIENTAL DURANTE LOS PROCESOS ELECTORALES.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Ambiente y gestión de riesgos"
+    },
+    {
+     "codigo": "00056-2026-2031-CD",
+     "fecha": "2026-08-19",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL NUMERAL 45.2 DEL ARTÍCULO 45 DE LA LEY 30220, LEY UNIVERSITARIA, PARA GARANTIZAR LA SUSTENCTACIÓN OPORTUNA DE LA TESIS O DESARROLLAR UN TRABAJO DE SUFICIENCIA PROFESIONAL PARA ACCEDER AL TÍTULO PROFESIONAL.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Inversión, empleo y competitividad"
+    },
+    {
+     "codigo": "00055-2026-2031-CD",
+     "fecha": "2026-08-19",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE UN PERIODO DE CINCO AÑOS PARA EL LICENCIAMIENTO INSTITTUCIONAL, RENOVABLE PREVIO AL CUMPLIMIENTO DE LAS CONDICIONES BÁSICAS DE CALIDAD",
+     "estado": "EN COMISIÓN",
+     "agenda": "Otros"
+    },
+    {
+     "codigo": "00053-2026-2031-CD",
+     "fecha": "2026-08-18",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA LOS ARTÍCULOS 56.9, 58.7, 96-A, A LA LEY 30220, LEY UNIVERSITARIA, PARA GARANTIZAR LA PARTICIPACIÓN Y REPRESENTACIÓN SINDICAL DE LOS DOCENTES EN LAS UNIVERSIDADES PÚBLICAS Y PRIVADAS",
+     "estado": "Retirado por su Autor",
+     "agenda": "Capital humano: educación y salud"
+    },
+    {
+     "codigo": "00050-2026-2031-CD",
+     "fecha": "2026-08-18",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA LOS CURSOS COMPLEMENTARIOS DENTRO DEL PLAN DE ESTUDIOS DE LAS CARRERAS UNIVERSITARIAS",
+     "estado": "EN COMISIÓN",
+     "agenda": "Otros"
     },
     {
      "codigo": "00008-2026-2031-CD",
@@ -697,170 +869,6 @@
   },
   {
    "camara": "D",
-   "nombre": "Villanueva Calderón, Juan Amilcar",
-   "bancada": "Juntos por el Perú",
-   "sigla": "JP",
-   "distrito": "Cajamarca",
-   "genero": "masculino",
-   "condicion": "en ejercicio",
-   "link": "https://diputados.congreso.gob.pe/diputado/villanueva-calderon-juan-amilcar/",
-   "principal": 21,
-   "firmas": 45,
-   "simbolicos": 0,
-   "actualizaciones": 0,
-   "desarrollo": 15,
-   "proyectos": [
-    {
-     "codigo": "00659-2026-2031-CD",
-     "fecha": "2026-10-23",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LOS ARTÍCULOS 98 Y 100 DE LA LEY 30220, LEY UNIVERSITARIA, PARA PROHIBIR QUE UNA PERSONA MANTENGA SIMULTÁNEAMENTE VACANTES EN MÁS DE UNA CARRERA PROFESIONAL DE PREGRADO EN UNIVERSIDADES PÚBLICAS.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Capital humano: educación y salud"
-    },
-    {
-     "codigo": "00646-2026-2031-CD",
-     "fecha": "2026-10-22",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL VOLUNTARIADO PROFESIONAL EN LA LEY 28238, LEY GENERAL DEL VOLUNTARIADO, Y LO RECONOCE COMO EXPERIENCIA LABORAL.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Inversión, empleo y competitividad"
-    },
-    {
-     "codigo": "00645-2026-2031-CD",
-     "fecha": "2026-10-22",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL LITERAL D) DEL NUMERAL 1 DEL ARTÍCULO 242 DEL CÓDIGO PROCESAL PENAL Y EL ARTÍCULO 19 DE LA LEY 30364 PARA GARANTIZAR LA REALIZACIÓN OPORTUNA E INAPLAZABLE DE LA ENTREVISTA ÚNICA EN CASOS DE VIOLENCIA SEXUAL.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Inclusión y protección social"
-    },
-    {
-     "codigo": "00644-2026-2031-CD",
-     "fecha": "2026-10-22",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 46 DEL TEXTO ÚNICO ORDENADO DE LA LEY DEL IMPUESTO A LA RENTA, PARA ESTABLECER LA DEDUCCIÓN DE GASTOS POR SERVICIOS DE SALUD Y POR EL EJERCICIO DE PROFESIONES, ARTES, CIENCIAS U OFICIOS SUSTENTADOS EN COMPROBANTES DE PAGO ELECTRÓNICOS.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Finanzas públicas y presupuesto"
-    },
-    {
-     "codigo": "00615-2026-2031-CD",
-     "fecha": "2026-10-19",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 84 DE LA LEY 30220, LEY UNIVERSITARIA, PARA RESTABLECER LA EDAD LÍMITE PARA EL EJERCICIO DE LA DOCENCIA ORDINARIA Y FIJAR UN RÉGIMEN DE CONTINUIDAD INSTITUCIONAL DEL DOCENTE MEDIANTE CONTRATACIÓN EN FUNCIONES ADMINISTRATIVAS, DE TUTORÍA ACADÉMICA Y DE ASESORÍA EN INVESTIGACIÓN.",
-     "estado": "Retirado por su Autor",
-     "agenda": "Capital humano: educación y salud"
-    },
-    {
-     "codigo": "00614-2026-2031-CD",
-     "fecha": "2026-10-19",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27933, LEY DEL SISTEMA NACIONAL DE SEGURIDAD CIUDADANA, PARA CREAR Y REGULAR LAS RONDAS URBANAS COMO ORGANIZACIONES SOCIALES DE COLABORACIÓN VECINAL EN LA PREVENCIÓN DEL DELITO, Y MODIFICA LOS ARTICULOS 121, 122 Y367 DEL CÓDIGO PENAL PARA BRINDARLES PROTECCIÓN PENAL REFORZADA.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Seguridad y Estado de derecho"
-    },
-    {
-     "codigo": "00613-2026-2031-CD",
-     "fecha": "2026-10-19",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL NUMERAL 100.6 DEL ARTÍCULO 100 E INCORPORA EL ARTÍCULO 100-A A LA LEY 302220, LEY UNIVERSITARIA, PARA PRECISAR LOS ALCANCES DEL DERECHO DE ASOCIACIÓN DE LOS ESTUDIANTES Y GARANTIZAR SU EJERCICIO.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Capital humano: educación y salud"
-    },
-    {
-     "codigo": "00529-2026-2031-CD",
-     "fecha": "2026-10-06",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EN EL NUMERAL 45.2 DEL ARTÍCULO 45 DE LA LEY 30220, LEY UNIVERSITARIA, NUEVAS MODALIDADES DE OBTENCIÓN DEL TÍTULO PROFESIONAL.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Otros"
-    },
-    {
-     "codigo": "00367-2026-2031-CD",
-     "fecha": "2026-09-18",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 2 DE LA LEY 29719, PARA FORTALECER LA PREVENCIÓN, ATENCIÓN Y ERRADICACIÓN DEL CIBERACOSO ESCOLAR.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Capital humano: educación y salud"
-    },
-    {
-     "codigo": "00195-2026-2031-CD",
-     "fecha": "2026-09-10",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 29944, LEY DE LA REFORMA MAGISTERIAL PARA FORTALECER EL RÉGIMEN ADMINISTRATIVO DISCIPLINARIO DEL SECTOR EDUCACIÓN, FRENTE A CASOS DE VIOLENCIA SEXUAL CONTRA NIÑAS, NIÑOS Y ADOLESCENTES EN INSTITUCIONES EDUCATIVAS PÚBLICAS.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Capital humano: educación y salud"
-    },
-    {
-     "codigo": "00194-2026-2031-CD",
-     "fecha": "2026-09-10",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL ARTÍCULO 79-A y 79-B A LA LEY 30220, LEY UNIVERSITARIA, CORRESPONDENCIA ENTRE LA ESPECIALIDAD DEL DOCENTE Y LA ASIGNATURA QUE DICTA, Y LOS REQUISITOS MÍNIMOS PARA EL DICTADO DE LOS CURSOS DE INVESTIGACIÓN",
-     "estado": "EN COMISIÓN",
-     "agenda": "Capital humano: educación y salud"
-    },
-    {
-     "codigo": "00193-2026-2031-CD",
-     "fecha": "2026-09-10",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL ARTÍCULO 29-A A LA LEY 30220, LEY UNIVERSITARIA, PARA ESTABLECER EL PLAZO MÁXIMO DE VIGENCIA DE LA COMISIÓN ORGANIZADORA.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Otros"
-    },
-    {
-     "codigo": "00192-2026-2031-CD",
-     "fecha": "2026-09-10",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL NUMERAL 69.3 DEL ARTÍCULO 69 DE LA LEY 30220, LEY UNIVERSITARIA, PARA EXIGIR EL GRADO DE DOCTOR COMO REQUISITO PARA SER DECANO",
-     "estado": "EN COMISIÓN",
-     "agenda": "Otros"
-    },
-    {
-     "codigo": "00149-2026-2031-CD",
-     "fecha": "2026-09-07",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30220, LEY UNIVERSITARIA, PARA ESTABLECER UN PROCEDIMIENTO MERITOCRÁTICO, PARTICIPATIVO E INDEPENDIENTE PARA LA SELECCIÓN Y DESIGNACIÓN DEL DEFENSOR UNIVERSITARIO.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Reforma política e institucional"
-    },
-    {
-     "codigo": "00148-2026-2031-CD",
-     "fecha": "2026-09-07",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 46 DEL TEXTO ÚNICO ORDENADO DE LA LEY DEL IMPUESTO A LA RENTA, PARA INCORPORAR LA DEDUCCIÓN DEL 10% DE LOS GASTOS POR SERVICIOS EDUCATIVOS DENTRO DEL LÍMITE DE LAS 3 UIT.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Finanzas públicas y presupuesto"
-    },
-    {
-     "codigo": "00147-2026-2031-CD",
-     "fecha": "2026-09-07",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LOS ARTÍCULOS 185, 186 Y 187 DE LA LEY 26859, LEY ORGÁNICA DE ELECCIONES, PARA PROHIBIR LA INSTALACIÓN Y DISTRIBUCIÓN DE PUBLICIDAD ELECTORAL EN SOPORTES FÍSICOS Y REDUCIR LA CONTAMINACIÓN VISUAL Y AMBIENTAL DURANTE LOS PROCESOS ELECTORALES.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Ambiente y gestión de riesgos"
-    },
-    {
-     "codigo": "00056-2026-2031-CD",
-     "fecha": "2026-08-19",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL NUMERAL 45.2 DEL ARTÍCULO 45 DE LA LEY 30220, LEY UNIVERSITARIA, PARA GARANTIZAR LA SUSTENCTACIÓN OPORTUNA DE LA TESIS O DESARROLLAR UN TRABAJO DE SUFICIENCIA PROFESIONAL PARA ACCEDER AL TÍTULO PROFESIONAL.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Inversión, empleo y competitividad"
-    },
-    {
-     "codigo": "00055-2026-2031-CD",
-     "fecha": "2026-08-19",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE UN PERIODO DE CINCO AÑOS PARA EL LICENCIAMIENTO INSTITTUCIONAL, RENOVABLE PREVIO AL CUMPLIMIENTO DE LAS CONDICIONES BÁSICAS DE CALIDAD",
-     "estado": "EN COMISIÓN",
-     "agenda": "Otros"
-    },
-    {
-     "codigo": "00053-2026-2031-CD",
-     "fecha": "2026-08-18",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA LOS ARTÍCULOS 56.9, 58.7, 96-A, A LA LEY 30220, LEY UNIVERSITARIA, PARA GARANTIZAR LA PARTICIPACIÓN Y REPRESENTACIÓN SINDICAL DE LOS DOCENTES EN LAS UNIVERSIDADES PÚBLICAS Y PRIVADAS",
-     "estado": "Retirado por su Autor",
-     "agenda": "Capital humano: educación y salud"
-    },
-    {
-     "codigo": "00050-2026-2031-CD",
-     "fecha": "2026-08-18",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA LOS CURSOS COMPLEMENTARIOS DENTRO DEL PLAN DE ESTUDIOS DE LAS CARRERAS UNIVERSITARIAS",
-     "estado": "EN COMISIÓN",
-     "agenda": "Otros"
-    },
-    {
-     "codigo": "00008-2026-2031-CD",
-     "fecha": "2026-08-10",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32108 Y LA LEY 32138, SOBRE EL CRIMEN ORGANIZADO",
-     "estado": "EN COMISIÓN",
-     "agenda": "Seguridad y Estado de derecho"
-    }
-   ]
-  },
-  {
-   "camara": "D",
    "nombre": "De Paz Lancho, Leo Miguel",
    "bancada": "Renovación Popular",
    "sigla": "RP",
@@ -869,7 +877,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/paz-lancho-leo-miguel-de/",
    "principal": 16,
-   "firmas": 109,
+   "firmas": 110,
    "simbolicos": 3,
    "actualizaciones": 0,
    "desarrollo": 13,
@@ -1120,7 +1128,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/marquez-huanca-anali/",
    "principal": 14,
-   "firmas": 27,
+   "firmas": 28,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 12,
@@ -1342,12 +1350,19 @@
    "genero": "femenino",
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/isla-rojas-azucena/",
-   "principal": 12,
-   "firmas": 49,
+   "principal": 13,
+   "firmas": 50,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 11,
    "proyectos": [
+    {
+     "codigo": "00712-2026-2031-CD",
+     "fecha": "2026-10-29",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA GESTIÓN DEL CHATARREO VEHICULAR Y DE LOS DEPÓSITOS VEHICULARES, Y MODIFICA LOS DECRETOS DE URGENCIA 029-2019 Y 019-2020.",
+     "estado": "PRESENTADO",
+     "agenda": "Otros"
+    },
     {
      "codigo": "00675-2026-2031-CD",
      "fecha": "2026-10-26",
@@ -1538,7 +1553,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/palomino-casavilca-catherin-norma/",
    "principal": 11,
-   "firmas": 47,
+   "firmas": 50,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 9,
@@ -1632,7 +1647,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/segura-figueroa-gustavo-alexander/",
    "principal": 11,
-   "firmas": 47,
+   "firmas": 48,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 11,
@@ -1726,7 +1741,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/yalta-sotelo-carlos-alberto/",
    "principal": 11,
-   "firmas": 57,
+   "firmas": 58,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 10,
@@ -1906,6 +1921,93 @@
   },
   {
    "camara": "D",
+   "nombre": "Aranda Vasquez, Christian",
+   "bancada": "Renovación Popular",
+   "sigla": "RP",
+   "distrito": "Arequipa",
+   "genero": "masculino",
+   "condicion": "en ejercicio",
+   "link": "https://diputados.congreso.gob.pe/diputado/aranda-vasquez-christian/",
+   "principal": 10,
+   "firmas": 58,
+   "simbolicos": 0,
+   "actualizaciones": 0,
+   "desarrollo": 10,
+   "proyectos": [
+    {
+     "codigo": "00714-2026-2031-CD",
+     "fecha": "2026-10-29",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA RECUPERACIÓN EXTRAJUDICIAL Y JUDICIAL DE PREDIOS DE PROPIEDAD ESTATAL FRENTE A INVASIONES, ESPECIALMENTE EN ZONAS DE RIESGO, Y ESTABLECE RESPONSABILIDAD PENAL Y DISCIPLINARIA POR LA OMISIÓN FUNCIONARIAL EN SU EJECUCIÓN.",
+     "estado": "PRESENTADO",
+     "agenda": "Inversión, empleo y competitividad"
+    },
+    {
+     "codigo": "00687-2026-2031-CD",
+     "fecha": "2026-10-27",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 30 DE LA LEY 28044, LEY GENERAL DE EDUCACIÓN, PARA ESTABLECER LA EXPRESIÓN NUMÉRICA DE LOS RESULTADOS DE LA EVALUACIÓN DE LOS APRENDIZAJES EN LA EDUCACIÓN PRIMARIA Y SECUNDARIA.",
+     "estado": "PRESENTADO",
+     "agenda": "Capital humano: educación y salud"
+    },
+    {
+     "codigo": "00673-2026-2031-CD",
+     "fecha": "2026-10-26",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 28044, LEY GENERAL DE EDUCACIÓN, PARA ESTABLECER EL RÉGIMEN DISCIPLINARIO DE LOS ESTUDIANTES EN LAS INSTITUCIONES EDUCATIVAS",
+     "estado": "PRESENTADO",
+     "agenda": "Capital humano: educación y salud"
+    },
+    {
+     "codigo": "00672-2026-2031-CD",
+     "fecha": "2026-10-26",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 26549, LEY DE LOS CENTROS EDUCATIVOS PRIVADOS, PARA INCORPORAR UN SUBREGISTRO DE DEUDAS POR PENSIONES ESCOLARES EN EL SISTEMA DE INFORMACIÓN DE APOYO A LA GESTIÓN DE LA INSTITUCIÓN EDUCATIVA (SIAGIE).",
+     "estado": "PRESENTADO",
+     "agenda": "Capital humano: educación y salud"
+    },
+    {
+     "codigo": "00622-2026-2031-CD",
+     "fecha": "2026-10-20",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE REGULA LA VIGILANCIA DE LAS ASOCIACIONES DE PADRES DE FAMILIA SOBRE LOS ALIMENTOS DE LOS PROGRAMAS SOCIALES DE ALIMENTACIÓN ESCOLAR PREPARADOS POR TERCEROS.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Capital humano: educación y salud"
+    },
+    {
+     "codigo": "00609-2026-2031-CD",
+     "fecha": "2026-10-19",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 2 DE LA LEY 29409, LEY QUE CONCEDE EL DERECHO DE LICENCIA POR PATERNIDAD A LOS TRABAJADORES DE LA ACTIVIDAD PÚBLICA Y PRIVADA, PARA AMPLIAR A VEINTIOCHO (28) DÍAS CALENDARIO EL PLAZO DE LA LICENCIA POR PATERNIDAD",
+     "estado": "EN COMISIÓN",
+     "agenda": "Inversión, empleo y competitividad"
+    },
+    {
+     "codigo": "00548-2026-2031-CD",
+     "fecha": "2026-10-07",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE CREA LA ZONA FRANCA DE DESARROLLO INTEGRAL DEL SUR ANDINO (ZOFRASUR)",
+     "estado": "EN COMISIÓN",
+     "agenda": "Inversión, empleo y competitividad"
+    },
+    {
+     "codigo": "00511-2026-2031-CD",
+     "fecha": "2026-10-05",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32680, LEY QUE MODIFICA LA LEY 30220, LEY UNIVERSITARIA, PARA INCORPORAR AL JEFE DE PRÁCTICA EN LA CARRERA DOCENTE UNIVERSITARIA Y DISPONER SU NOMBRAMIENTO EXCEPCIONAL, Y PARA REGULAR LA PROMOCIÓN DEL DOCENTE UNIVERSITARIO; Y RESTITUYE LA VIGENCIA DE LOS ARTÍCULOS 81, 82 Y 84 DE LA LEY 30220.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Capital humano: educación y salud"
+    },
+    {
+     "codigo": "00122-2026-2031-CD",
+     "fecha": "2026-09-02",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL ARTÍCULO 150-A AL CÓDIGO PENAL, DECRETO LEGISLATIVO 635, TIPIFICANDO EL DELITO DE ABANDONO Y DESAMPARO DEL ADULTO MAYOR.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Inclusión y protección social"
+    },
+    {
+     "codigo": "00031-2026-2031-CD",
+     "fecha": "2026-08-13",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LOS ARTÍCULOS 1, 2 Y 3 DE LA LEY 30012, LEY QUE CONCEDE EL DERECHO DE LICENCIA A TRABAJADORES CON FAMILIARES DIRECTOS QUE SE ENCUENTRAN CON ENFERMEDAD GRAVE O TERMINAL O SUFRAN ACCIDENTE GRAVE, PARA AMPLIAR LA COBERTURA DE LA LICENCIA A TODA ATENCIÓN DE SALUD DEL FAMILIAR DIRECTO",
+     "estado": "EN COMISIÓN",
+     "agenda": "Inversión, empleo y competitividad"
+    }
+   ]
+  },
+  {
+   "camara": "D",
    "nombre": "Dominguez Herrera, Carlos Alberto",
    "bancada": "Fuerza Popular",
    "sigla": "FP",
@@ -2001,7 +2103,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/rocha-gallegos-roxana-maria/",
    "principal": 10,
-   "firmas": 105,
+   "firmas": 106,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 9,
@@ -2073,86 +2175,6 @@
      "codigo": "00027-2026-2031-CD",
      "fecha": "2026-08-12",
      "titulo": "PROPOSICIÓN LEGISLATIVA MI PRIMERA EMPRESA",
-     "estado": "EN COMISIÓN",
-     "agenda": "Inversión, empleo y competitividad"
-    }
-   ]
-  },
-  {
-   "camara": "D",
-   "nombre": "Aranda Vasquez, Christian",
-   "bancada": "Renovación Popular",
-   "sigla": "RP",
-   "distrito": "Arequipa",
-   "genero": "masculino",
-   "condicion": "en ejercicio",
-   "link": "https://diputados.congreso.gob.pe/diputado/aranda-vasquez-christian/",
-   "principal": 9,
-   "firmas": 57,
-   "simbolicos": 0,
-   "actualizaciones": 0,
-   "desarrollo": 9,
-   "proyectos": [
-    {
-     "codigo": "00687-2026-2031-CD",
-     "fecha": "2026-10-27",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 30 DE LA LEY 28044, LEY GENERAL DE EDUCACIÓN, PARA ESTABLECER LA EXPRESIÓN NUMÉRICA DE LOS RESULTADOS DE LA EVALUACIÓN DE LOS APRENDIZAJES EN LA EDUCACIÓN PRIMARIA Y SECUNDARIA.",
-     "estado": "PRESENTADO",
-     "agenda": "Capital humano: educación y salud"
-    },
-    {
-     "codigo": "00673-2026-2031-CD",
-     "fecha": "2026-10-26",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 28044, LEY GENERAL DE EDUCACIÓN, PARA ESTABLECER EL RÉGIMEN DISCIPLINARIO DE LOS ESTUDIANTES EN LAS INSTITUCIONES EDUCATIVAS",
-     "estado": "PRESENTADO",
-     "agenda": "Capital humano: educación y salud"
-    },
-    {
-     "codigo": "00672-2026-2031-CD",
-     "fecha": "2026-10-26",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 26549, LEY DE LOS CENTROS EDUCATIVOS PRIVADOS, PARA INCORPORAR UN SUBREGISTRO DE DEUDAS POR PENSIONES ESCOLARES EN EL SISTEMA DE INFORMACIÓN DE APOYO A LA GESTIÓN DE LA INSTITUCIÓN EDUCATIVA (SIAGIE).",
-     "estado": "PRESENTADO",
-     "agenda": "Capital humano: educación y salud"
-    },
-    {
-     "codigo": "00622-2026-2031-CD",
-     "fecha": "2026-10-20",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE REGULA LA VIGILANCIA DE LAS ASOCIACIONES DE PADRES DE FAMILIA SOBRE LOS ALIMENTOS DE LOS PROGRAMAS SOCIALES DE ALIMENTACIÓN ESCOLAR PREPARADOS POR TERCEROS.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Capital humano: educación y salud"
-    },
-    {
-     "codigo": "00609-2026-2031-CD",
-     "fecha": "2026-10-19",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 2 DE LA LEY 29409, LEY QUE CONCEDE EL DERECHO DE LICENCIA POR PATERNIDAD A LOS TRABAJADORES DE LA ACTIVIDAD PÚBLICA Y PRIVADA, PARA AMPLIAR A VEINTIOCHO (28) DÍAS CALENDARIO EL PLAZO DE LA LICENCIA POR PATERNIDAD",
-     "estado": "EN COMISIÓN",
-     "agenda": "Inversión, empleo y competitividad"
-    },
-    {
-     "codigo": "00548-2026-2031-CD",
-     "fecha": "2026-10-07",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE CREA LA ZONA FRANCA DE DESARROLLO INTEGRAL DEL SUR ANDINO (ZOFRASUR)",
-     "estado": "EN COMISIÓN",
-     "agenda": "Inversión, empleo y competitividad"
-    },
-    {
-     "codigo": "00511-2026-2031-CD",
-     "fecha": "2026-10-05",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32680, LEY QUE MODIFICA LA LEY 30220, LEY UNIVERSITARIA, PARA INCORPORAR AL JEFE DE PRÁCTICA EN LA CARRERA DOCENTE UNIVERSITARIA Y DISPONER SU NOMBRAMIENTO EXCEPCIONAL, Y PARA REGULAR LA PROMOCIÓN DEL DOCENTE UNIVERSITARIO; Y RESTITUYE LA VIGENCIA DE LOS ARTÍCULOS 81, 82 Y 84 DE LA LEY 30220.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Capital humano: educación y salud"
-    },
-    {
-     "codigo": "00122-2026-2031-CD",
-     "fecha": "2026-09-02",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL ARTÍCULO 150-A AL CÓDIGO PENAL, DECRETO LEGISLATIVO 635, TIPIFICANDO EL DELITO DE ABANDONO Y DESAMPARO DEL ADULTO MAYOR.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Inclusión y protección social"
-    },
-    {
-     "codigo": "00031-2026-2031-CD",
-     "fecha": "2026-08-13",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LOS ARTÍCULOS 1, 2 Y 3 DE LA LEY 30012, LEY QUE CONCEDE EL DERECHO DE LICENCIA A TRABAJADORES CON FAMILIARES DIRECTOS QUE SE ENCUENTRAN CON ENFERMEDAD GRAVE O TERMINAL O SUFRAN ACCIDENTE GRAVE, PARA AMPLIAR LA COBERTURA DE LA LICENCIA A TODA ATENCIÓN DE SALUD DEL FAMILIAR DIRECTO",
      "estado": "EN COMISIÓN",
      "agenda": "Inversión, empleo y competitividad"
     }
@@ -2248,7 +2270,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/krklec-torres-frank/",
    "principal": 9,
-   "firmas": 55,
+   "firmas": 56,
    "simbolicos": 1,
    "actualizaciones": 0,
    "desarrollo": 6,
@@ -2672,7 +2694,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/gonzales-delgado-gabriel-robertino/",
    "principal": 7,
-   "firmas": 50,
+   "firmas": 51,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 7,
@@ -2738,7 +2760,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/guillen-valencia-hector/",
    "principal": 7,
-   "firmas": 29,
+   "firmas": 30,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 6,
@@ -2870,7 +2892,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/baella-malca-jose-isidro/",
    "principal": 6,
-   "firmas": 62,
+   "firmas": 63,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 5,
@@ -3202,7 +3224,7 @@
      "codigo": "00091-2026-2031-CD",
      "fecha": "2026-08-24",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27669, LEY DEL TRABAJO DE LA ENFERMERA(O), PARA FORTALECER LA AUTONOMÍA PROFESIONAL DE ENFERMERÍA",
-     "estado": "EN DEBATE - PLENO",
+     "estado": "APROBADO",
      "agenda": "Inversión, empleo y competitividad"
     },
     {
@@ -3505,7 +3527,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/guevara-ramirez-jessica-roxana/",
    "principal": 5,
-   "firmas": 53,
+   "firmas": 55,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 4,
@@ -3557,7 +3579,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/holguin-aguirre-james-arturo/",
    "principal": 5,
-   "firmas": 30,
+   "firmas": 32,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 3,
@@ -4177,7 +4199,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/perez-mallqui-julian-luis/",
    "principal": 4,
-   "firmas": 26,
+   "firmas": 27,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 2,
@@ -4374,7 +4396,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/cipriani-thorne-javier-jose-maria/",
    "principal": 3,
-   "firmas": 80,
+   "firmas": 81,
    "simbolicos": 1,
    "actualizaciones": 0,
    "desarrollo": 2,
@@ -4640,7 +4662,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/perez-alccahuaman-jesus/",
    "principal": 3,
-   "firmas": 30,
+   "firmas": 31,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 3,
@@ -4792,7 +4814,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/ambrosio-dominguez-yuli-liliana/",
    "principal": 2,
-   "firmas": 13,
+   "firmas": 15,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 2,
@@ -4939,6 +4961,37 @@
   },
   {
    "camara": "D",
+   "nombre": "Jibaja Ramos, Luis Angel",
+   "bancada": "Juntos por el Perú",
+   "sigla": "JP",
+   "distrito": "Cajamarca",
+   "genero": "masculino",
+   "condicion": "en ejercicio",
+   "link": "https://diputados.congreso.gob.pe/diputado/jibaja-ramos-luis-angel/",
+   "principal": 2,
+   "firmas": 60,
+   "simbolicos": 0,
+   "actualizaciones": 0,
+   "desarrollo": 1,
+   "proyectos": [
+    {
+     "codigo": "00713-2026-2031-CD",
+     "fecha": "2026-10-29",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE CREA EL REGISTRO DE PUEBLOS EN EL SISTEMA NACIONAL DE LOS REGISTROS PUBLICOS DE SUNARP",
+     "estado": "PRESENTADO",
+     "agenda": "Otros"
+    },
+    {
+     "codigo": "00569-2026-2031-CD",
+     "fecha": "2026-10-12",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE IMPLEMENTA LA ALFABETIZACIÓN DIGITAL Y LA FORMACIÓN EN INTELIGENCIA ARTIFICIAL EN LA EDUCACIÓN BÁSICA.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Capital humano: educación y salud"
+    }
+   ]
+  },
+  {
+   "camara": "D",
    "nombre": "Marcelo Salazar, José Miguel",
    "bancada": "Ahora Nación",
    "sigla": "AN",
@@ -5063,6 +5116,37 @@
   },
   {
    "camara": "D",
+   "nombre": "Peña Córdova, Olver",
+   "bancada": "Juntos por el Perú",
+   "sigla": "JP",
+   "distrito": "San Martin",
+   "genero": "masculino",
+   "condicion": "en ejercicio",
+   "link": "https://diputados.congreso.gob.pe/diputado/pena-cordova-olver/",
+   "principal": 2,
+   "firmas": 34,
+   "simbolicos": 0,
+   "actualizaciones": 0,
+   "desarrollo": 1,
+   "proyectos": [
+    {
+     "codigo": "00713-2026-2031-CD",
+     "fecha": "2026-10-29",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE CREA EL REGISTRO DE PUEBLOS EN EL SISTEMA NACIONAL DE LOS REGISTROS PUBLICOS DE SUNARP",
+     "estado": "PRESENTADO",
+     "agenda": "Otros"
+    },
+    {
+     "codigo": "00130-2026-2031-CD",
+     "fecha": "2026-09-04",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROTEGE LA PRODUCCIÓN Y COMERCIALIZACIÓN DEL ARROZ EN EL PERÚ",
+     "estado": "EN COMISIÓN",
+     "agenda": "Inversión, empleo y competitividad"
+    }
+   ]
+  },
+  {
+   "camara": "D",
    "nombre": "Prado Vallejos, Lila Marianela",
    "bancada": "Partido del Buen Gobierno",
    "sigla": "PBG",
@@ -5133,7 +5217,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/tapullima-insapillo-jacqueline-viviana/",
    "principal": 2,
-   "firmas": 17,
+   "firmas": 18,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 1,
@@ -5403,30 +5487,6 @@
   },
   {
    "camara": "D",
-   "nombre": "Jibaja Ramos, Luis Angel",
-   "bancada": "Juntos por el Perú",
-   "sigla": "JP",
-   "distrito": "Cajamarca",
-   "genero": "masculino",
-   "condicion": "en ejercicio",
-   "link": "https://diputados.congreso.gob.pe/diputado/jibaja-ramos-luis-angel/",
-   "principal": 1,
-   "firmas": 58,
-   "simbolicos": 0,
-   "actualizaciones": 0,
-   "desarrollo": 1,
-   "proyectos": [
-    {
-     "codigo": "00569-2026-2031-CD",
-     "fecha": "2026-10-12",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE IMPLEMENTA LA ALFABETIZACIÓN DIGITAL Y LA FORMACIÓN EN INTELIGENCIA ARTIFICIAL EN LA EDUCACIÓN BÁSICA.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Capital humano: educación y salud"
-    }
-   ]
-  },
-  {
-   "camara": "D",
    "nombre": "Manay Pillaca, Alejandro José",
    "bancada": "Juntos por el Perú",
    "sigla": "JP",
@@ -5579,7 +5639,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/paredes-navarro-yenifer-noelia/",
    "principal": 1,
-   "firmas": 33,
+   "firmas": 34,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 1,
@@ -5590,30 +5650,6 @@
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32108 Y LA LEY 32138, SOBRE EL CRIMEN ORGANIZADO",
      "estado": "EN COMISIÓN",
      "agenda": "Seguridad y Estado de derecho"
-    }
-   ]
-  },
-  {
-   "camara": "D",
-   "nombre": "Peña Córdova, Olver",
-   "bancada": "Juntos por el Perú",
-   "sigla": "JP",
-   "distrito": "San Martin",
-   "genero": "masculino",
-   "condicion": "en ejercicio",
-   "link": "https://diputados.congreso.gob.pe/diputado/pena-cordova-olver/",
-   "principal": 1,
-   "firmas": 33,
-   "simbolicos": 0,
-   "actualizaciones": 0,
-   "desarrollo": 1,
-   "proyectos": [
-    {
-     "codigo": "00130-2026-2031-CD",
-     "fecha": "2026-09-04",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROTEGE LA PRODUCCIÓN Y COMERCIALIZACIÓN DEL ARROZ EN EL PERÚ",
-     "estado": "EN COMISIÓN",
-     "agenda": "Inversión, empleo y competitividad"
     }
    ]
   },
@@ -5723,7 +5759,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/soto-ferrari-luz-merida/",
    "principal": 1,
-   "firmas": 14,
+   "firmas": 16,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 1,
@@ -5883,7 +5919,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/cahuaza-mitivire-oswar-elbis/",
    "principal": 0,
-   "firmas": 14,
+   "firmas": 15,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 0,
@@ -6298,7 +6334,7 @@
      "codigo": "00016-2026-2031-S",
      "fecha": "2026-10-22",
      "titulo": "PROPOSICIÓN DE RESOLUCIÓN LEGISLATIVA QUE APRUEBA EL REGLAMENTO PARA LA ELECCIÓN DE MAGISTRADOS DEL TRIBUNAL CONSTITUCIONAL",
-     "estado": "EN AGENDA DEL PLENO",
+     "estado": "APROBADO",
      "agenda": "Reforma política e institucional"
     }
    ]
@@ -6322,7 +6358,7 @@
      "codigo": "00011-2026-2031-S",
      "fecha": "2026-10-02",
      "titulo": "PROPOSICIÓN DE RESOLUCIÓN LEGISLATIVA DEL SENADO QUE APRUEBA EL REGLAMENTO ESPECIAL DE ELECCIÓN DE LOS MAGISTRADOS DEL TRIBUNAL CONSTITUCIONAL",
-     "estado": "EN AGENDA DEL PLENO",
+     "estado": "APROBADO",
      "agenda": "Reforma política e institucional"
     }
    ]
@@ -7234,6 +7270,46 @@
  ],
  "recientes": [
   {
+   "codigo": "00714-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-10-29",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA RECUPERACIÓN EXTRAJUDICIAL Y JUDICIAL DE PREDIOS DE PROPIEDAD ESTATAL FRENTE A INVASIONES, ESPECIALMENTE EN ZONAS DE RIESGO, Y ESTABLECE RESPONSABILIDAD PENAL Y DISCIPLINARIA POR LA OMISIÓN FUNCIONARIAL EN SU EJECUCIÓN.",
+   "proponente": "Cámara de Diputados",
+   "agenda": "Inversión, empleo y competitividad",
+   "riesgo_fiscal": false
+  },
+  {
+   "codigo": "00713-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-10-29",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE CREA EL REGISTRO DE PUEBLOS EN EL SISTEMA NACIONAL DE LOS REGISTROS PUBLICOS DE SUNARP",
+   "proponente": "Cámara de Diputados",
+   "agenda": "Otros",
+   "riesgo_fiscal": false
+  },
+  {
+   "codigo": "00712-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-10-29",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA GESTIÓN DEL CHATARREO VEHICULAR Y DE LOS DEPÓSITOS VEHICULARES, Y MODIFICA LOS DECRETOS DE URGENCIA 029-2019 Y 019-2020.",
+   "proponente": "Cámara de Diputados",
+   "agenda": "Otros",
+   "riesgo_fiscal": false
+  },
+  {
+   "codigo": "00711-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-10-29",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LOS ARTÍCULOS 66 Y 71 DE LA LEY 30220, LEY UNIVERSITARIA, PARA ESTABLECER LA VOTACIÓN PARITARIA DE DOCENTES Y ESTUDIANTES EN LA ELECCIÓN DE AUTORIDADES DE LAS UNIVERSIDADES PÚBLICAS.",
+   "proponente": "Cámara de Diputados",
+   "agenda": "Capital humano: educación y salud",
+   "riesgo_fiscal": false
+  },
+  {
    "codigo": "00710-2026-2031-CD",
    "camara": "D",
    "estado": "PRESENTADO",
@@ -7586,51 +7662,11 @@
   {
    "codigo": "00019-2026-2031-S",
    "camara": "S",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-27",
    "titulo": "PROPUESTA LEGISLATIVA REMITIDA POR LA CÁMARA DE DIPUTADOS - PROYECTO DE LEY QUE INSTITUYE EL DÍA NACIONAL PARA LA SENSIBILIZACIÓN SOBRE LOS NIÑOS Y ADOLESCENTES EN SITUACIÓN DE ORFANDAD O DESPROTECCIÓN FAMILIAR EL SEGUNDO LUNES DE NOVIEMBRE DE CADA AÑO Y ESTABLECE ACCIONES DE SENSIBILIZACIÓN SOCIAL",
    "proponente": "Cámara de Diputados",
    "agenda": "Simbólico / declarativo",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00018-2026-2031-S",
-   "camara": "S",
-   "estado": "PRESENTADO",
-   "fecha": "2026-10-27",
-   "titulo": "PROPUESTA LEGISLATIVA REMITIDA POR LA CÁMARA DE DIPUTADOS –                        PROYECTO DE LEY QUE DEROGA LA LEY 32645, LEY QUE CREA EL COLEGIO PROFESIONAL DE ARTISTAS DEL PERÚ (CPAP)",
-   "proponente": "Cámara de Diputados",
-   "agenda": "Otros",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00676-2026-2031-CD",
-   "camara": "D",
-   "estado": "PRESENTADO",
-   "fecha": "2026-10-26",
-   "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32301 Y RESTITUYE EL MARCO LEGAL ANTERIOR DE LA AGENCIA DE COOPERACIÓN INTERNACIONAL (APCI).",
-   "proponente": "Cámara de Diputados",
-   "agenda": "Otros",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00675-2026-2031-CD",
-   "camara": "D",
-   "estado": "PRESENTADO",
-   "fecha": "2026-10-26",
-   "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30407, LEY DE PROTECCIÓN Y BIENESTAR ANIMAL, PARA PROHIBIR EL MALTRATO ANIMAL EN LOS ESPECTÁCULOS DE CORRIDAS DE TOROS Y PELEAS DE GALLOS",
-   "proponente": "Cámara de Diputados",
-   "agenda": "Otros",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00674-2026-2031-CD",
-   "camara": "D",
-   "estado": "PRESENTADO",
-   "fecha": "2026-10-26",
-   "titulo": "PROPOSICIÓN LEGISLATIVA QUE REIVINDICA EL VALOR DEL TIEMPO DE LOS PASAJEROS Y FORTALECE SUS DERECHOS FRENTE A LOS RETRASOS AÉREOS INJUSTIFICADOS",
-   "proponente": "Cámara de Diputados",
-   "agenda": "Infraestructura y conectividad",
    "riesgo_fiscal": false
   }
  ]
