@@ -585,6 +585,7 @@
     {
      "fecha": "2026-10-29",
      "documentos": {
+      "temas": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/10_ctt_29.oct_.2026.pdf",
       "agenda": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/AGENDA-PLENO-DIPUTADOS-29-10-2026.pdf",
       "asistencia": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/ASISTENCIA-PLENO-DIPUTADOS-20261020-provisional-2.pdf"
      }
@@ -689,26 +690,28 @@
      "abst": 4,
      "por_bancada": {
       "AN": {
+       "ausente": 1,
        "si": 1
       },
       "FP": {
-       "si": 14,
+       "si": 19,
        "ausente": 1
       },
       "JP": {
        "si": 1,
-       "no": 8,
+       "no": 11,
        "ausente": 1
       },
       "PBG": {
-       "si": 5,
+       "si": 6,
        "ausente": 1
       },
       "PCO": {
        "si": 4
       },
       "RP": {
-       "si": 4
+       "si": 7,
+       "ausente": 1
       }
      }
     },
@@ -724,23 +727,56 @@
        "si": 2
       },
       "FP": {
-       "si": 16
+       "si": 19,
+       "ausente": 2
       },
       "JP": {
-       "si": 6,
-       "no": 3,
+       "si": 7,
+       "no": 5,
        "sin_resp": 1
       },
       "PBG": {
-       "si": 5,
+       "si": 6,
        "ausente": 1
       },
       "PCO": {
        "si": 4
       },
       "RP": {
-       "si": 3,
-       "sin_resp": 1
+       "si": 5,
+       "sin_resp": 2
+      }
+     }
+    },
+    {
+     "fecha": "2026-10-28",
+     "hora": "10:57AM",
+     "asunto": "ACUERDO DEL SENADO DE LA REPÚBLICA QUE APRUEBA LA PRÓRROGA DEL PLAZO DEL ESTADO DE EMERGENCIA ESTABLECIDO MEDIANTE EL DECRETO SUPREMO 126-2026-PCM, SOLICITADO POR LA PRESIDENCIA DE LA REPÚBLICA",
+     "si": 50,
+     "no": 0,
+     "abst": 3,
+     "por_bancada": {
+      "AN": {
+       "si": 2,
+       "ausente": 1
+      },
+      "FP": {
+       "si": 18,
+       "ausente": 2
+      },
+      "JP": {
+       "si": 12,
+       "sin_resp": 2
+      },
+      "PBG": {
+       "si": 6,
+       "ausente": 1
+      },
+      "PCO": {
+       "si": 4
+      },
+      "RP": {
+       "si": 8
       }
      }
     },
@@ -753,23 +789,25 @@
      "abst": 5,
      "por_bancada": {
       "AN": {
+       "ausente": 1,
        "si": 1
       },
       "FP": {
-       "si": 15
+       "si": 17,
+       "ausente": 2
       },
       "JP": {
-       "no": 9
+       "no": 12
       },
       "PBG": {
-       "si": 5,
+       "si": 6,
        "ausente": 1
       },
       "PCO": {
        "si": 4
       },
       "RP": {
-       "si": 4
+       "si": 8
       }
      }
     },
@@ -782,18 +820,19 @@
      "abst": 0,
      "por_bancada": {
       "AN": {
-       "si": 2
-      },
-      "FP": {
-       "si": 12,
-       "ausente": 4
-      },
-      "JP": {
-       "no": 9,
+       "si": 3,
        "ausente": 1
       },
+      "FP": {
+       "si": 15,
+       "ausente": 5
+      },
+      "JP": {
+       "no": 12,
+       "ausente": 2
+      },
       "PBG": {
-       "si": 5,
+       "si": 6,
        "ausente": 1
       },
       "PCO": {
@@ -801,8 +840,8 @@
        "si": 3
       },
       "RP": {
-       "ausente": 2,
-       "si": 2
+       "ausente": 1,
+       "si": 7
       }
      }
     },
@@ -1959,7 +1998,9 @@
     {
      "fecha": "2026-10-28",
      "documentos": {
-      "asistencia": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/Asistencias_y_votaciones_PROVISIONAL_sesion_del_28_10_2026.pdf"
+      "temas": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/11_ctt_28.oct_.2026Senado-1.pdf",
+      "agenda": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/AGENDA-PLENO-SENADO-28-10-2026-V6.pdf",
+      "asistencia": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/Asistencias_y_votaciones_senado_sesion_del_28_10_2026_vb.pdf"
      }
     },
     {
@@ -2064,9 +2105,9 @@
   },
   "S": {
    "asistencia_total": 37,
-   "nombres_sin_cruce": 97,
+   "nombres_sin_cruce": 29,
    "votacion_total": 45,
-   "votacion_descartado": 6
+   "votacion_descartado": 5
   }
  },
  "miembros": [
@@ -4028,8 +4069,8 @@
    "presente": 16,
    "ausente": 4,
    "licencia": 0,
-   "votaciones": 33,
-   "si": 28,
+   "votaciones": 38,
+   "si": 33,
    "no": 5,
    "abst": 0,
    "no_voto": 0,
@@ -4043,8 +4084,8 @@
    "presente": 35,
    "ausente": 2,
    "licencia": 0,
-   "votaciones": 38,
-   "si": 29,
+   "votaciones": 39,
+   "si": 30,
    "no": 4,
    "abst": 0,
    "no_voto": 5,
@@ -4058,27 +4099,27 @@
    "presente": 29,
    "ausente": 8,
    "licencia": 0,
-   "votaciones": 35,
-   "si": 27,
+   "votaciones": 40,
+   "si": 30,
    "no": 5,
    "abst": 0,
-   "no_voto": 3,
+   "no_voto": 5,
    "pct_asistencia": 78.4
   },
   {
    "camara": "S",
    "nombre": "Andrés Luján, Serafín",
    "sigla": "JP",
-   "pases": 33,
-   "presente": 29,
+   "pases": 37,
+   "presente": 33,
    "ausente": 4,
    "licencia": 0,
-   "votaciones": 39,
-   "si": 23,
+   "votaciones": 40,
+   "si": 24,
    "no": 11,
    "abst": 0,
    "no_voto": 5,
-   "pct_asistencia": 87.9
+   "pct_asistencia": 89.2
   },
   {
    "camara": "S",
@@ -4088,8 +4129,8 @@
    "presente": 27,
    "ausente": 10,
    "licencia": 0,
-   "votaciones": 35,
-   "si": 21,
+   "votaciones": 40,
+   "si": 26,
    "no": 5,
    "abst": 0,
    "no_voto": 9,
@@ -4099,16 +4140,16 @@
    "camara": "S",
    "nombre": "Armacanqui Morales, Saúl Andrés",
    "sigla": "JP",
-   "pases": 32,
-   "presente": 22,
-   "ausente": 10,
+   "pases": 36,
+   "presente": 24,
+   "ausente": 12,
    "licencia": 0,
-   "votaciones": 39,
-   "si": 14,
+   "votaciones": 40,
+   "si": 15,
    "no": 7,
    "abst": 0,
    "no_voto": 18,
-   "pct_asistencia": 68.8
+   "pct_asistencia": 66.7
   },
   {
    "camara": "S",
@@ -4118,8 +4159,8 @@
    "presente": 36,
    "ausente": 1,
    "licencia": 0,
-   "votaciones": 37,
-   "si": 33,
+   "votaciones": 38,
+   "si": 34,
    "no": 3,
    "abst": 0,
    "no_voto": 1,
@@ -4129,16 +4170,16 @@
    "camara": "S",
    "nombre": "Astudillo Salcedo, César Augusto",
    "sigla": "FP",
-   "pases": 33,
-   "presente": 6,
+   "pases": 37,
+   "presente": 8,
    "ausente": 1,
-   "licencia": 26,
-   "votaciones": 35,
-   "si": 6,
+   "licencia": 28,
+   "votaciones": 40,
+   "si": 8,
    "no": 2,
    "abst": 0,
-   "no_voto": 27,
-   "pct_asistencia": 85.7
+   "no_voto": 30,
+   "pct_asistencia": 88.9
   },
   {
    "camara": "S",
@@ -4148,8 +4189,8 @@
    "presente": 34,
    "ausente": 1,
    "licencia": 2,
-   "votaciones": 36,
-   "si": 33,
+   "votaciones": 37,
+   "si": 34,
    "no": 2,
    "abst": 0,
    "no_voto": 1,
@@ -4163,8 +4204,8 @@
    "presente": 33,
    "ausente": 4,
    "licencia": 0,
-   "votaciones": 35,
-   "si": 31,
+   "votaciones": 40,
+   "si": 36,
    "no": 3,
    "abst": 0,
    "no_voto": 1,
@@ -4174,16 +4215,16 @@
    "camara": "S",
    "nombre": "Caballero León, Carlos David",
    "sigla": "PBG",
-   "pases": 33,
-   "presente": 29,
-   "ausente": 4,
+   "pases": 37,
+   "presente": 31,
+   "ausente": 6,
    "licencia": 0,
-   "votaciones": 39,
+   "votaciones": 40,
    "si": 30,
    "no": 5,
    "abst": 0,
-   "no_voto": 4,
-   "pct_asistencia": 87.9
+   "no_voto": 5,
+   "pct_asistencia": 83.8
   },
   {
    "camara": "S",
@@ -4193,8 +4234,8 @@
    "presente": 37,
    "ausente": 0,
    "licencia": 0,
-   "votaciones": 35,
-   "si": 30,
+   "votaciones": 39,
+   "si": 34,
    "no": 5,
    "abst": 0,
    "no_voto": 0,
@@ -4204,31 +4245,31 @@
    "camara": "S",
    "nombre": "Castillo Terrones, José Mercedes",
    "sigla": "JP",
-   "pases": 33,
-   "presente": 32,
+   "pases": 37,
+   "presente": 36,
    "ausente": 1,
    "licencia": 0,
-   "votaciones": 34,
-   "si": 24,
-   "no": 10,
+   "votaciones": 39,
+   "si": 25,
+   "no": 14,
    "abst": 0,
    "no_voto": 0,
-   "pct_asistencia": 97.0
+   "pct_asistencia": 97.3
   },
   {
    "camara": "S",
    "nombre": "Ccahuana Aymachoque, Hugo Isaac",
    "sigla": "JP",
-   "pases": 33,
-   "presente": 12,
-   "ausente": 21,
+   "pases": 37,
+   "presente": 14,
+   "ausente": 23,
    "licencia": 0,
-   "votaciones": 35,
-   "si": 7,
-   "no": 8,
+   "votaciones": 40,
+   "si": 8,
+   "no": 11,
    "abst": 0,
-   "no_voto": 20,
-   "pct_asistencia": 36.4
+   "no_voto": 21,
+   "pct_asistencia": 37.8
   },
   {
    "camara": "S",
@@ -4238,11 +4279,11 @@
    "presente": 31,
    "ausente": 4,
    "licencia": 2,
-   "votaciones": 34,
-   "si": 28,
+   "votaciones": 39,
+   "si": 29,
    "no": 5,
    "abst": 0,
-   "no_voto": 1,
+   "no_voto": 5,
    "pct_asistencia": 88.6
   },
   {
@@ -4253,8 +4294,8 @@
    "presente": 35,
    "ausente": 2,
    "licencia": 0,
-   "votaciones": 39,
-   "si": 19,
+   "votaciones": 40,
+   "si": 20,
    "no": 17,
    "abst": 0,
    "no_voto": 3,
@@ -4268,8 +4309,8 @@
    "presente": 33,
    "ausente": 2,
    "licencia": 2,
-   "votaciones": 39,
-   "si": 33,
+   "votaciones": 40,
+   "si": 34,
    "no": 4,
    "abst": 0,
    "no_voto": 2,
@@ -4279,16 +4320,16 @@
    "camara": "S",
    "nombre": "Cutipa Ccama, Víctor Raúl",
    "sigla": "JP",
-   "pases": 33,
-   "presente": 29,
+   "pases": 37,
+   "presente": 33,
    "ausente": 4,
    "licencia": 0,
-   "votaciones": 35,
-   "si": 19,
-   "no": 13,
+   "votaciones": 40,
+   "si": 21,
+   "no": 16,
    "abst": 0,
    "no_voto": 3,
-   "pct_asistencia": 87.9
+   "pct_asistencia": 89.2
   },
   {
    "camara": "S",
@@ -4298,8 +4339,8 @@
    "presente": 33,
    "ausente": 4,
    "licencia": 0,
-   "votaciones": 35,
-   "si": 26,
+   "votaciones": 40,
+   "si": 31,
    "no": 5,
    "abst": 0,
    "no_voto": 4,
@@ -4313,8 +4354,8 @@
    "presente": 33,
    "ausente": 4,
    "licencia": 0,
-   "votaciones": 38,
-   "si": 32,
+   "votaciones": 39,
+   "si": 33,
    "no": 4,
    "abst": 0,
    "no_voto": 2,
@@ -4328,8 +4369,8 @@
    "presente": 34,
    "ausente": 3,
    "licencia": 0,
-   "votaciones": 38,
-   "si": 33,
+   "votaciones": 39,
+   "si": 34,
    "no": 4,
    "abst": 0,
    "no_voto": 1,
@@ -4343,8 +4384,8 @@
    "presente": 23,
    "ausente": 9,
    "licencia": 5,
-   "votaciones": 37,
-   "si": 27,
+   "votaciones": 38,
+   "si": 28,
    "no": 0,
    "abst": 0,
    "no_voto": 10,
@@ -4358,8 +4399,8 @@
    "presente": 34,
    "ausente": 3,
    "licencia": 0,
-   "votaciones": 39,
-   "si": 32,
+   "votaciones": 40,
+   "si": 33,
    "no": 5,
    "abst": 0,
    "no_voto": 2,
@@ -4373,8 +4414,8 @@
    "presente": 29,
    "ausente": 8,
    "licencia": 0,
-   "votaciones": 38,
-   "si": 32,
+   "votaciones": 39,
+   "si": 33,
    "no": 5,
    "abst": 0,
    "no_voto": 1,
@@ -4388,8 +4429,8 @@
    "presente": 30,
    "ausente": 7,
    "licencia": 0,
-   "votaciones": 36,
-   "si": 30,
+   "votaciones": 37,
+   "si": 31,
    "no": 3,
    "abst": 0,
    "no_voto": 3,
@@ -4403,8 +4444,8 @@
    "presente": 35,
    "ausente": 2,
    "licencia": 0,
-   "votaciones": 38,
-   "si": 33,
+   "votaciones": 39,
+   "si": 34,
    "no": 2,
    "abst": 0,
    "no_voto": 3,
@@ -4418,8 +4459,8 @@
    "presente": 31,
    "ausente": 6,
    "licencia": 0,
-   "votaciones": 37,
-   "si": 27,
+   "votaciones": 38,
+   "si": 28,
    "no": 6,
    "abst": 0,
    "no_voto": 4,
@@ -4433,11 +4474,11 @@
    "presente": 31,
    "ausente": 6,
    "licencia": 0,
-   "votaciones": 39,
-   "si": 30,
+   "votaciones": 40,
+   "si": 32,
    "no": 5,
    "abst": 0,
-   "no_voto": 4,
+   "no_voto": 3,
    "pct_asistencia": 83.8
   },
   {
@@ -4448,8 +4489,8 @@
    "presente": 29,
    "ausente": 4,
    "licencia": 4,
-   "votaciones": 39,
-   "si": 28,
+   "votaciones": 40,
+   "si": 29,
    "no": 5,
    "abst": 0,
    "no_voto": 6,
@@ -4463,8 +4504,8 @@
    "presente": 36,
    "ausente": 1,
    "licencia": 0,
-   "votaciones": 33,
-   "si": 27,
+   "votaciones": 34,
+   "si": 28,
    "no": 5,
    "abst": 0,
    "no_voto": 1,
@@ -4478,11 +4519,11 @@
    "presente": 26,
    "ausente": 8,
    "licencia": 3,
-   "votaciones": 32,
+   "votaciones": 36,
    "si": 21,
    "no": 9,
    "abst": 0,
-   "no_voto": 2,
+   "no_voto": 6,
    "pct_asistencia": 76.5
   },
   {
@@ -4493,8 +4534,8 @@
    "presente": 16,
    "ausente": 21,
    "licencia": 0,
-   "votaciones": 33,
-   "si": 14,
+   "votaciones": 34,
+   "si": 15,
    "no": 0,
    "abst": 0,
    "no_voto": 19,
@@ -4508,8 +4549,8 @@
    "presente": 34,
    "ausente": 3,
    "licencia": 0,
-   "votaciones": 34,
-   "si": 28,
+   "votaciones": 39,
+   "si": 33,
    "no": 5,
    "abst": 0,
    "no_voto": 1,
@@ -4523,9 +4564,9 @@
    "presente": 37,
    "ausente": 0,
    "licencia": 0,
-   "votaciones": 31,
-   "si": 20,
-   "no": 10,
+   "votaciones": 33,
+   "si": 21,
+   "no": 11,
    "abst": 0,
    "no_voto": 1,
    "pct_asistencia": 100.0
@@ -4538,8 +4579,8 @@
    "presente": 20,
    "ausente": 2,
    "licencia": 15,
-   "votaciones": 38,
-   "si": 18,
+   "votaciones": 39,
+   "si": 19,
    "no": 5,
    "abst": 0,
    "no_voto": 15,
@@ -4553,8 +4594,8 @@
    "presente": 33,
    "ausente": 2,
    "licencia": 2,
-   "votaciones": 37,
-   "si": 30,
+   "votaciones": 38,
+   "si": 31,
    "no": 4,
    "abst": 0,
    "no_voto": 3,
@@ -4568,8 +4609,8 @@
    "presente": 28,
    "ausente": 9,
    "licencia": 0,
-   "votaciones": 39,
-   "si": 32,
+   "votaciones": 40,
+   "si": 33,
    "no": 5,
    "abst": 0,
    "no_voto": 2,
@@ -4583,8 +4624,8 @@
    "presente": 19,
    "ausente": 18,
    "licencia": 0,
-   "votaciones": 39,
-   "si": 16,
+   "votaciones": 40,
+   "si": 17,
    "no": 4,
    "abst": 0,
    "no_voto": 19,
@@ -4598,8 +4639,8 @@
    "presente": 36,
    "ausente": 1,
    "licencia": 0,
-   "votaciones": 39,
-   "si": 23,
+   "votaciones": 40,
+   "si": 24,
    "no": 16,
    "abst": 0,
    "no_voto": 0,
@@ -4628,8 +4669,8 @@
    "presente": 29,
    "ausente": 8,
    "licencia": 0,
-   "votaciones": 31,
-   "si": 18,
+   "votaciones": 32,
+   "si": 19,
    "no": 3,
    "abst": 0,
    "no_voto": 10,
@@ -4643,8 +4684,8 @@
    "presente": 37,
    "ausente": 0,
    "licencia": 0,
-   "votaciones": 38,
-   "si": 33,
+   "votaciones": 39,
+   "si": 34,
    "no": 5,
    "abst": 0,
    "no_voto": 0,
@@ -4658,8 +4699,8 @@
    "presente": 35,
    "ausente": 2,
    "licencia": 0,
-   "votaciones": 38,
-   "si": 28,
+   "votaciones": 39,
+   "si": 29,
    "no": 10,
    "abst": 0,
    "no_voto": 0,
@@ -4673,11 +4714,11 @@
    "presente": 33,
    "ausente": 4,
    "licencia": 0,
-   "votaciones": 37,
+   "votaciones": 38,
    "si": 17,
    "no": 16,
    "abst": 0,
-   "no_voto": 4,
+   "no_voto": 5,
    "pct_asistencia": 89.2
   },
   {
@@ -4688,8 +4729,8 @@
    "presente": 33,
    "ausente": 3,
    "licencia": 1,
-   "votaciones": 39,
-   "si": 23,
+   "votaciones": 40,
+   "si": 24,
    "no": 13,
    "abst": 0,
    "no_voto": 3,
@@ -4703,8 +4744,8 @@
    "presente": 16,
    "ausente": 3,
    "licencia": 18,
-   "votaciones": 37,
-   "si": 8,
+   "votaciones": 38,
+   "si": 9,
    "no": 10,
    "abst": 0,
    "no_voto": 19,
@@ -4718,8 +4759,8 @@
    "presente": 27,
    "ausente": 6,
    "licencia": 4,
-   "votaciones": 37,
-   "si": 28,
+   "votaciones": 38,
+   "si": 29,
    "no": 4,
    "abst": 0,
    "no_voto": 5,
@@ -4763,8 +4804,8 @@
    "presente": 32,
    "ausente": 5,
    "licencia": 0,
-   "votaciones": 38,
-   "si": 32,
+   "votaciones": 39,
+   "si": 33,
    "no": 5,
    "abst": 0,
    "no_voto": 1,
@@ -4808,8 +4849,8 @@
    "presente": 33,
    "ausente": 4,
    "licencia": 0,
-   "votaciones": 38,
-   "si": 27,
+   "votaciones": 39,
+   "si": 28,
    "no": 5,
    "abst": 0,
    "no_voto": 6,
@@ -4823,8 +4864,8 @@
    "presente": 37,
    "ausente": 0,
    "licencia": 0,
-   "votaciones": 37,
-   "si": 32,
+   "votaciones": 38,
+   "si": 33,
    "no": 5,
    "abst": 0,
    "no_voto": 0,
@@ -4838,8 +4879,8 @@
    "presente": 28,
    "ausente": 9,
    "licencia": 0,
-   "votaciones": 39,
-   "si": 22,
+   "votaciones": 40,
+   "si": 23,
    "no": 5,
    "abst": 0,
    "no_voto": 12,
@@ -4853,11 +4894,11 @@
    "presente": 33,
    "ausente": 4,
    "licencia": 0,
-   "votaciones": 37,
+   "votaciones": 38,
    "si": 21,
    "no": 14,
    "abst": 0,
-   "no_voto": 2,
+   "no_voto": 3,
    "pct_asistencia": 89.2
   },
   {
@@ -4868,8 +4909,8 @@
    "presente": 30,
    "ausente": 7,
    "licencia": 0,
-   "votaciones": 27,
-   "si": 18,
+   "votaciones": 28,
+   "si": 19,
    "no": 8,
    "abst": 0,
    "no_voto": 1,
@@ -4883,8 +4924,8 @@
    "presente": 33,
    "ausente": 4,
    "licencia": 0,
-   "votaciones": 33,
-   "si": 27,
+   "votaciones": 38,
+   "si": 32,
    "no": 5,
    "abst": 0,
    "no_voto": 1,
@@ -4898,8 +4939,8 @@
    "presente": 33,
    "ausente": 4,
    "licencia": 0,
-   "votaciones": 34,
-   "si": 28,
+   "votaciones": 35,
+   "si": 29,
    "no": 4,
    "abst": 0,
    "no_voto": 2,
@@ -4913,8 +4954,8 @@
    "presente": 37,
    "ausente": 0,
    "licencia": 0,
-   "votaciones": 36,
-   "si": 21,
+   "votaciones": 37,
+   "si": 22,
    "no": 13,
    "abst": 0,
    "no_voto": 2,
@@ -4922,7 +4963,7 @@
   }
  ],
  "meta": {
-  "generado": "2026-10-30",
+  "generado": "2026-10-31",
   "fuente": "Reportes de asistencia y votación del Pleno (PDF) · diputados/senado.congreso.gob.pe",
   "nota": "Pases de lista y votaciones validados contra el total oficial al pie de cada bloque; los escaneos se leen con OCR. Licencias (viaje, enfermedad, oficial…) no cuentan como ausencia."
  }

@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generado": "2026-10-30",
+  "generado": "2026-10-31",
   "meses": [
    "2026-05",
    "2026-07",
@@ -53,8 +53,8 @@
     "ASISTENTE": 9,
     "ASESOR II": 8,
     "COORDINADOR": 5,
-    "PROFESIONAL": 1,
-    "ASESOR PRINCIPAL": 1
+    "ASESOR PRINCIPAL": 1,
+    "JEFE": 1
    },
    "bajas_por_cargo": {
     "TECNICO": 110,
@@ -92,15 +92,27 @@
      "total": 12799.4
     },
     {
-     "nombre": "GARAY GAMARRA, YURIKO TERUKO",
+     "nombre": "BOHORQUEZ ZELADA, JESSICA SOCORRO",
      "cargo": "ASESOR",
-     "dependencia": "GRUPO PARLAMENTARIO ACCION POPULAR",
+     "dependencia": "GRUPO PARLAMENTARIO LEALTAD NACIONAL",
+     "total": 12740.1
+    },
+    {
+     "nombre": "CRUZ TEVEZ, LUZ REBECA",
+     "cargo": "ASESOR",
+     "dependencia": "GRUPO PARLAMENTARIO ALIANZA PARA EL PROGRESO",
      "total": 12740.1
     },
     {
      "nombre": "CARHUAZ JERI, MALENA",
      "cargo": "ASESOR",
      "dependencia": "COMISION DE ETICA PARLAMENTARIA",
+     "total": 12740.1
+    },
+    {
+     "nombre": "GUTIERREZ CUBA, SANDRA LIZ",
+     "cargo": "ASESOR",
+     "dependencia": "COMISION DE DESCENTRALIZACION, REGIONALIZACION, GOBIERNOS LOCALES Y MODERNIZACION DE LA GESTION DEL ESTADO",
      "total": 12740.1
     },
     {
@@ -122,28 +134,10 @@
      "total": 12740.1
     },
     {
-     "nombre": "BOHORQUEZ ZELADA, JESSICA SOCORRO",
+     "nombre": "GARAY GAMARRA, YURIKO TERUKO",
      "cargo": "ASESOR",
-     "dependencia": "GRUPO PARLAMENTARIO LEALTAD NACIONAL",
+     "dependencia": "GRUPO PARLAMENTARIO ACCION POPULAR",
      "total": 12740.1
-    },
-    {
-     "nombre": "CRUZ TEVEZ, LUZ REBECA",
-     "cargo": "ASESOR",
-     "dependencia": "GRUPO PARLAMENTARIO ALIANZA PARA EL PROGRESO",
-     "total": 12740.1
-    },
-    {
-     "nombre": "GUTIERREZ CUBA, SANDRA LIZ",
-     "cargo": "ASESOR",
-     "dependencia": "COMISION DE DESCENTRALIZACION, REGIONALIZACION, GOBIERNOS LOCALES Y MODERNIZACION DE LA GESTION DEL ESTADO",
-     "total": 12740.1
-    },
-    {
-     "nombre": "BANCES FERROÑAN, CARLOS ANTONIO",
-     "cargo": "ASESOR II",
-     "dependencia": "COMISION DE VIVIENDA Y CONSTRUCCION",
-     "total": 10486.76
     },
     {
      "nombre": "ELERA RUIZ, MARIA YVETTE",
@@ -152,9 +146,15 @@
      "total": 10486.76
     },
     {
-     "nombre": "HERRERA ALEMAN, HENRY HERNAN",
+     "nombre": "ROMERO ORTIZ, DUBERLI ALFI",
      "cargo": "ASESOR II",
-     "dependencia": "COMIS ESP MULT RESPONSABLE DEFINIR OBJETIVOS Y LINEAMIENTOS EN LUCHA CONTRA TERRORISMO Y CRIMEN ORGANIZADO TRASNACIONAL",
+     "dependencia": "COMISION DE VIVIENDA Y CONSTRUCCION",
+     "total": 10486.76
+    },
+    {
+     "nombre": "BANCES FERROÑAN, CARLOS ANTONIO",
+     "cargo": "ASESOR II",
+     "dependencia": "COMISION DE VIVIENDA Y CONSTRUCCION",
      "total": 10486.76
     }
    ],
@@ -327,15 +327,15 @@
      "total": 21914.58
     },
     {
-     "nombre": "ESPINOZA TIO, MARIA CECILIA",
-     "cargo": "JEFE DE GABINETE",
-     "dependencia": "SEGUNDA VICEPRESIDENCIA DE LA CAMARA DE DIPUTADOS",
-     "total": 20819.04
-    },
-    {
      "nombre": "MANRIQUE UGARTE, MANUEL REYNALDO JOAQUIN",
      "cargo": "JEFE DE GABINETE",
      "dependencia": "GRUPO PARLAMENTARIO PARTIDO CIVICO OBRAS DE LA CAMARA DE DIPUTADOS",
+     "total": 20819.04
+    },
+    {
+     "nombre": "ESPINOZA TIO, MARIA CECILIA",
+     "cargo": "JEFE DE GABINETE",
+     "dependencia": "SEGUNDA VICEPRESIDENCIA DE LA CAMARA DE DIPUTADOS",
      "total": 20819.04
     },
     {
@@ -351,15 +351,15 @@
      "total": 20075.5
     },
     {
-     "nombre": "REYES MARTINEZ, ALVARO JAVIER",
-     "cargo": "ASESOR COORDINADOR",
-     "dependencia": "TERCERA VICEPRESIDENCIA DE LA CAMARA DE DIPUTADOS",
-     "total": 18985.3
-    },
-    {
      "nombre": "LADRON DE GUEVARA BOZA, CHRISTIAN MANUEL",
      "cargo": "ASESOR COORDINADOR",
      "dependencia": "TERCERA VICEPRESIDENCIA DEL SENADO",
+     "total": 18985.3
+    },
+    {
+     "nombre": "REYES MARTINEZ, ALVARO JAVIER",
+     "cargo": "ASESOR COORDINADOR",
+     "dependencia": "TERCERA VICEPRESIDENCIA DE LA CAMARA DE DIPUTADOS",
      "total": 18985.3
     },
     {
@@ -369,15 +369,15 @@
      "total": 18588.43
     },
     {
-     "nombre": "HERNANDEZ CAMBORDA, PABLO ENRIQUE",
-     "cargo": "ASESOR COORDINADOR",
-     "dependencia": "GRUPO PARLAMENTARIO PARTIDO CIVICO OBRAS DE LA CAMARA DE DIPUTADOS",
-     "total": 17936.58
-    },
-    {
      "nombre": "SALCEDO CUADROS, CARLO MAGNO",
      "cargo": "ASESOR COORDINADOR",
      "dependencia": "GRUPO PARLAMENTARIO AHORA NACION DE LA CAMARA DE DIPUTADOS",
+     "total": 17936.58
+    },
+    {
+     "nombre": "HERNANDEZ CAMBORDA, PABLO ENRIQUE",
+     "cargo": "ASESOR COORDINADOR",
+     "dependencia": "GRUPO PARLAMENTARIO PARTIDO CIVICO OBRAS DE LA CAMARA DE DIPUTADOS",
      "total": 17936.58
     },
     {
@@ -399,9 +399,9 @@
      "total": 17524.89
     },
     {
-     "nombre": "HUACCHILLO GONZALES, MANUEL CEFERINO",
-     "cargo": "ASESOR",
-     "dependencia": "PRIMERA VICEPRESIDENCIA DEL SENADO",
+     "nombre": "PALOMINO DE LA GALA, MIGUEL JULIAN",
+     "cargo": "ASESOR COORDINADOR",
+     "dependencia": "GRUPO PARLAMENTARIO JUNTOS POR EL PERU DEL SENADO",
      "total": 16732.9
     }
    ],
@@ -552,13 +552,13 @@
    },
    "bajas_por_cargo": {
     "TECNICO": 10,
-    "AUXILIAR": 6,
     "ASESOR II": 6,
+    "AUXILIAR": 6,
     "COORDINADOR": 5,
-    "ASISTENTE": 3,
     "ASESOR PRINCIPAL": 3,
-    "TECNICO EN CONTABILIDAD": 1,
-    "AUXILIAR EN SERVICIOS": 1
+    "ASISTENTE": 3,
+    "PROFESIONAL": 1,
+    "ASESOR I": 1
    },
    "top_altas": [
     {
@@ -586,15 +586,15 @@
      "total": 17970.46
     },
     {
-     "nombre": "FLORES ESTRADA, FLOR PATRICIA",
-     "cargo": "JEFE",
-     "dependencia": "DEPARTAMENTO DE CALIDAD LEGISLATIVA",
-     "total": 17844.89
-    },
-    {
      "nombre": "CALDERON MERCADO, JAVIER",
      "cargo": "JEFE",
      "dependencia": "FONDO EDITORIAL",
+     "total": 17844.89
+    },
+    {
+     "nombre": "FLORES ESTRADA, FLOR PATRICIA",
+     "cargo": "JEFE",
+     "dependencia": "DEPARTAMENTO DE CALIDAD LEGISLATIVA",
      "total": 17844.89
     },
     {
@@ -616,15 +616,15 @@
      "total": 14877.99
     },
     {
-     "nombre": "DE LA CRUZ PALOMINO, BETTY MARITSABEL",
-     "cargo": "JEFE",
-     "dependencia": "DEPARTAMENTO DE ASESORAMIENTO CIENTIFICO",
-     "total": 14870.73
-    },
-    {
      "nombre": "HANANEL GARCIA, MENAHEM GUSTAVO",
      "cargo": "JEFE",
      "dependencia": "DEPARTAMENTO DE SEGURIDAD",
+     "total": 14870.73
+    },
+    {
+     "nombre": "DE LA CRUZ PALOMINO, BETTY MARITSABEL",
+     "cargo": "JEFE",
+     "dependencia": "DEPARTAMENTO DE ASESORAMIENTO CIENTIFICO",
      "total": 14870.73
     },
     {
@@ -646,25 +646,25 @@
      "total": 14717.05
     },
     {
-     "nombre": "MATIAS ELIAS, ISABEL LUCIA",
-     "cargo": "ASESOR I",
-     "dependencia": "COMISION BICAMERAL DE PRESUPUESTO Y DE LA CUENTA GENERAL DE LA REPUBLICA",
+     "nombre": "PINARES PAYNE, GABRIELA FERNANDA",
+     "cargo": "ASESOR PRINCIPAL",
+     "dependencia": "LOPEZ LETONA HEBER",
      "total": 14700.11
     }
    ],
    "top_aumentos": [
     {
-     "nombre": "GIRALDO GONZALES, MARIBEL GIOVANI",
+     "nombre": "VERA MASCARO, OSCAR RAFAEL",
      "cargo": "JEFE",
-     "dependencia": "DEPARTAMENTO DE COOPERACION INTERNACIONAL",
+     "dependencia": "DEPARTAMENTO DE ENLACE CON LOS GOBIERNOS REGIONALES Y LOCALES",
      "total": 22306.11,
      "antes": 5192.84,
      "cargo_antes": "JEFE"
     },
     {
-     "nombre": "VERA MASCARO, OSCAR RAFAEL",
+     "nombre": "GIRALDO GONZALES, MARIBEL GIOVANI",
      "cargo": "JEFE",
-     "dependencia": "DEPARTAMENTO DE ENLACE CON LOS GOBIERNOS REGIONALES Y LOCALES",
+     "dependencia": "DEPARTAMENTO DE COOPERACION INTERNACIONAL",
      "total": 22306.11,
      "antes": 5192.84,
      "cargo_antes": "JEFE"
@@ -686,14 +686,6 @@
      "cargo_antes": "DIRECTOR"
     },
     {
-     "nombre": "FLORES LUCAR, OSKAR RODOMYR",
-     "cargo": "ASESOR I",
-     "dependencia": "COMISION DE DESARROLLO AGRARIO DE LA CAMARA DE DIPUTADOS",
-     "total": 14700.11,
-     "antes": 1953.2,
-     "cargo_antes": "ASESOR I"
-    },
-    {
      "nombre": "ORTIZ AGUILAR, ISMAEL",
      "cargo": "ASESOR I",
      "dependencia": "COMISION DE DESARROLLO AGRARIO DE LA CAMARA DE DIPUTADOS",
@@ -702,11 +694,11 @@
      "cargo_antes": "ASESOR I"
     },
     {
-     "nombre": "QUINTERO PEREIRA, ZORAIMA EMPERATRIZ",
+     "nombre": "FLORES LUCAR, OSKAR RODOMYR",
      "cargo": "ASESOR I",
-     "dependencia": "COMISION DE ORDENAMIENTO Y SEGUIMIENTO LEGISLATIVO DE LA CAMARA DE DIPUTADOS",
+     "dependencia": "COMISION DE DESARROLLO AGRARIO DE LA CAMARA DE DIPUTADOS",
      "total": 14700.11,
-     "antes": 2441.5,
+     "antes": 1953.2,
      "cargo_antes": "ASESOR I"
     },
     {
@@ -726,9 +718,9 @@
      "cargo_antes": "ASESOR PRINCIPAL"
     },
     {
-     "nombre": "ROMERO CASAVILCA, LENIN STIWAR",
+     "nombre": "QUINTERO PEREIRA, ZORAIMA EMPERATRIZ",
      "cargo": "ASESOR I",
-     "dependencia": "COMISION DE JUSTICIA Y DERECHOS HUMANOS DE LA CAMARA DE DIPUTADOS",
+     "dependencia": "COMISION DE ORDENAMIENTO Y SEGUIMIENTO LEGISLATIVO DE LA CAMARA DE DIPUTADOS",
      "total": 14700.11,
      "antes": 2441.5,
      "cargo_antes": "ASESOR I"
@@ -742,11 +734,27 @@
      "cargo_antes": "ASESOR I"
     },
     {
+     "nombre": "ROMERO CASAVILCA, LENIN STIWAR",
+     "cargo": "ASESOR I",
+     "dependencia": "COMISION DE JUSTICIA Y DERECHOS HUMANOS DE LA CAMARA DE DIPUTADOS",
+     "total": 14700.11,
+     "antes": 2441.5,
+     "cargo_antes": "ASESOR I"
+    },
+    {
      "nombre": "JIMENEZ BELMONT, PUBLIO FRANCISCO",
      "cargo": "ASESOR I",
      "dependencia": "COMISION DE CONSTITUCION REGLAMENTO Y RELACIONES EXTERIORES DEL SENADO",
      "total": 14700.11,
      "antes": 2929.8,
+     "cargo_antes": "ASESOR I"
+    },
+    {
+     "nombre": "MELGAREJO PAUCAR, MARIA CRISTINA",
+     "cargo": "ASESOR I",
+     "dependencia": "COMISION DE ORDENAMIENTO Y SEGUIMIENTO LEGISLATIVO DE LA CAMARA DE DIPUTADOS",
+     "total": 14700.11,
+     "antes": 3418.1,
      "cargo_antes": "ASESOR I"
     },
     {
@@ -764,14 +772,6 @@
      "total": 14700.11,
      "antes": 3418.1,
      "cargo_antes": "ASESOR PRINCIPAL"
-    },
-    {
-     "nombre": "MELGAREJO PAUCAR, MARIA CRISTINA",
-     "cargo": "ASESOR I",
-     "dependencia": "COMISION DE ORDENAMIENTO Y SEGUIMIENTO LEGISLATIVO DE LA CAMARA DE DIPUTADOS",
-     "total": 14700.11,
-     "antes": 3418.1,
-     "cargo_antes": "ASESOR I"
     }
    ]
   }
