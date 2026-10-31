@@ -1,38 +1,37 @@
 {
  "meta": {
-  "generado": "2026-10-30",
+  "generado": "2026-10-31",
   "periodo": "2026-2031",
   "instalacion": "2026-07-27",
   "fuente": "api.congreso.gob.pe/spley-portal-service (codTipoParl S/D/C) · padrón: senado/diputados.congreso.gob.pe"
  },
  "totales": {
-  "proyectos": 744,
+  "proyectos": 752,
   "leyes": 9,
   "congresistas": 190
  },
  "camaras": {
   "D": {
    "nombre": "Cámara de Diputados",
-   "proyectos": 718,
+   "proyectos": 726,
    "leyes": 0,
    "archivados": 93,
    "por_estado": {
-    "EN COMISIÓN": 572,
+    "EN COMISIÓN": 571,
     "Archivado de Plano": 93,
-    "PRESENTADO": 27,
+    "PRESENTADO": 29,
+    "CON DICTAMEN": 15,
     "Retirado por su Autor": 9,
-    "CON DICTAMEN": 8,
-    "Expediente de propuesta legislativa remitida al senado de la república": 5,
-    "ACTUALIZADA": 2,
-    "APROBADO": 2
+    "Expediente de propuesta legislativa remitida al senado de la república": 7,
+    "ACTUALIZADA": 2
    },
    "por_mes": {
     "2026-08": 102,
     "2026-09": 361,
-    "2026-10": 255
+    "2026-10": 263
    },
    "por_proponente": {
-    "Cámara de Diputados": 495,
+    "Cámara de Diputados": 503,
     "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN": 190,
     "Colegios Profesionales": 20,
     "PODER EJECUTIVO": 7,
@@ -42,15 +41,15 @@
     "Senado de la República": 1
    },
    "materias": {
-    "Otros": 135,
+    "Otros": 138,
     "Justicia y penal": 89,
     "Transporte e infraestructura": 73,
     "Salud": 68,
-    "Educación": 63,
+    "Educación": 64,
     "Economía y tributación": 63,
     "Declarativa / simbólica": 58,
-    "Seguridad y orden": 47,
-    "Trabajo y pensiones": 35,
+    "Seguridad y orden": 48,
+    "Trabajo y pensiones": 38,
     "Ambiente y recursos": 24,
     "Reforma política y electoral": 20,
     "Descentralización y regiones": 19,
@@ -59,48 +58,48 @@
    },
    "agenda": {
     "Actualización (periodo anterior)": 190,
-    "Inversión, empleo y competitividad": 113,
-    "Capital humano: educación y salud": 105,
-    "Seguridad y Estado de derecho": 94,
-    "Otros": 51,
+    "Inversión, empleo y competitividad": 116,
+    "Capital humano: educación y salud": 106,
+    "Seguridad y Estado de derecho": 96,
+    "Otros": 52,
     "Infraestructura y conectividad": 35,
     "Inclusión y protección social": 34,
     "Finanzas públicas y presupuesto": 32,
     "Reforma política e institucional": 29,
     "Simbólico / declarativo": 13,
-    "Gestión del Estado y simplificación": 11,
+    "Gestión del Estado y simplificación": 12,
     "Ambiente y gestión de riesgos": 11
    },
-   "pct_desarrollo": 82.4,
-   "pct_simbolico": 2.5,
-   "riesgo_fiscal": 51,
+   "pct_desarrollo": 82.5,
+   "pct_simbolico": 2.4,
+   "riesgo_fiscal": 52,
    "actualizaciones": 190,
    "bancadas": [
     {
      "bancada": "Juntos por el Perú",
      "miembros": 32,
-     "proyectos": 140,
-     "por_miembro": 4.4,
+     "proyectos": 144,
+     "por_miembro": 4.5,
      "actualizaciones": 0,
-     "pct_desarrollo": 80.7,
+     "pct_desarrollo": 81.2,
      "pct_simbolico": 0.7
     },
     {
      "bancada": "Renovación Popular",
      "miembros": 15,
-     "proyectos": 125,
-     "por_miembro": 8.3,
+     "proyectos": 126,
+     "por_miembro": 8.4,
      "actualizaciones": 0,
-     "pct_desarrollo": 83.2,
+     "pct_desarrollo": 83.3,
      "pct_simbolico": 4.0
     },
     {
      "bancada": "Ahora Nación",
      "miembros": 10,
-     "proyectos": 78,
-     "por_miembro": 7.8,
+     "proyectos": 80,
+     "por_miembro": 8.0,
      "actualizaciones": 0,
-     "pct_desarrollo": 80.8,
+     "pct_desarrollo": 81.2,
      "pct_simbolico": 3.8
     },
     {
@@ -133,21 +132,21 @@
     {
      "bancada": "Multipartidario",
      "miembros": 0,
-     "proyectos": 5,
+     "proyectos": 6,
      "por_miembro": null,
      "actualizaciones": 0,
-     "pct_desarrollo": 60.0,
+     "pct_desarrollo": 50.0,
      "pct_simbolico": 0.0
     }
    ],
    "comisiones": [
     {
      "nombre": "Justicia y Derechos Humanos",
-     "proyectos": 117
+     "proyectos": 118
     },
     {
      "nombre": "Educación, Cultura y Deporte",
-     "proyectos": 81
+     "proyectos": 82
     },
     {
      "nombre": "Constitución, Reglamento y Relaciones Exteriores",
@@ -155,7 +154,7 @@
     },
     {
      "nombre": "Economía, Banca, Finanzas e Inteligencia Financiera",
-     "proyectos": 64
+     "proyectos": 66
     },
     {
      "nombre": "Modernización de la Gestión del Estado y Contraloría",
@@ -163,7 +162,7 @@
     },
     {
      "nombre": "Salud",
-     "proyectos": 43
+     "proyectos": 44
     },
     {
      "nombre": "Infraestructura, Vivienda y Transportes",
@@ -171,7 +170,7 @@
     },
     {
      "nombre": "Defensa Nacional y Orden Interno",
-     "proyectos": 39
+     "proyectos": 40
     },
     {
      "nombre": "Trabajo y Seguridad Social",
@@ -362,12 +361,26 @@
    "genero": "",
    "condicion": "",
    "link": "https://diputados.congreso.gob.pe/diputado/zunini-yerren-ernesto-alonzo/",
-   "principal": 23,
-   "firmas": 101,
+   "principal": 25,
+   "firmas": 104,
    "simbolicos": 1,
    "actualizaciones": 0,
-   "desarrollo": 20,
+   "desarrollo": 22,
    "proyectos": [
+    {
+     "codigo": "00723-2026-2031-CD",
+     "fecha": "2026-10-30",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA LEY 30024 PARA GARANTIZAR LA CONTINUIDAD DE LA ATENCIÓN MEDIANTE HISTORIAS CLÍNICAS ELECTRÓNICAS INTEROPERABLES, ACCESIBLES Y SEGURAS.",
+     "estado": "PRESENTADO",
+     "agenda": "Gestión del Estado y simplificación"
+    },
+    {
+     "codigo": "00720-2026-2031-CD",
+     "fecha": "2026-10-30",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE MEDIDAS EXCEPCIONALES PARA LA INCORPORACIÓN LABORAL DE LOS PROFESIONALES, TÉCNICOS Y PERSONAL ADMINISTRATIVO QUE PRESTARON SERVICIOS EN ESSALUD DURANTE LA EMERGENCIA SANITARIA POR LA COVID-19 BAJO LA MODALIDAD DE LOCACIÓN DE SERVICIOS.",
+     "estado": "PRESENTADO",
+     "agenda": "Inversión, empleo y competitividad"
+    },
     {
      "codigo": "00552-2026-2031-CD",
      "fecha": "2026-10-07",
@@ -519,7 +532,7 @@
      "codigo": "00009-2026-2031-CD",
      "fecha": "2026-08-10",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 31751 Y LA LEY 32104, QUE MODIFICAN LA SUSPENSIÓN DEL PLAZO DE PRESCRIPCIÓN DE LA ACCIÓN PENAL",
-     "estado": "EN COMISIÓN",
+     "estado": "CON DICTAMEN",
      "agenda": "Inclusión y protección social"
     },
     {
@@ -541,7 +554,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/villanueva-calderon-juan-amilcar/",
    "principal": 22,
-   "firmas": 46,
+   "firmas": 47,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 16,
@@ -1127,7 +1140,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/marquez-huanca-anali/",
    "principal": 14,
-   "firmas": 28,
+   "firmas": 29,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 12,
@@ -1242,7 +1255,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/holguin-loaiza-cesar-augusto/",
    "principal": 13,
-   "firmas": 83,
+   "firmas": 86,
    "simbolicos": 1,
    "actualizaciones": 0,
    "desarrollo": 9,
@@ -1335,7 +1348,7 @@
      "codigo": "00002-2026-2031-CD",
      "fecha": "2026-08-04",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA EL MARCO NORMATIVO CONOCIDO COMO LEYES PRO CRIMEN Y RESTABLECE LAS CAPACIDADES DEL ESTADO PARA LA INVESTIGACIÓN Y PERSECUCIÓN DEL CRIMEN ORGANIZADO, LA CORRUPCIÓN Y LAS GRAVES VIOLACIONES A LOS DERECHOS HUMANOS.",
-     "estado": "EN COMISIÓN",
+     "estado": "CON DICTAMEN",
      "agenda": "Seguridad y Estado de derecho"
     }
    ]
@@ -1450,100 +1463,6 @@
   },
   {
    "camara": "D",
-   "nombre": "Colchado Huamani, Harvey Julio",
-   "bancada": "Ahora Nación",
-   "sigla": "AN",
-   "distrito": "Lima Metropolitana",
-   "genero": "masculino",
-   "condicion": "en ejercicio",
-   "link": "https://diputados.congreso.gob.pe/diputado/colchado-huamani-harvey-julio/",
-   "principal": 11,
-   "firmas": 46,
-   "simbolicos": 0,
-   "actualizaciones": 0,
-   "desarrollo": 11,
-   "proyectos": [
-    {
-     "codigo": "00541-2026-2031-CD",
-     "fecha": "2026-10-06",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LAS DISPOSICIONES INCORPORADAS POR LA LEY 32054 EN EL CÓDIGO PENAL, DECRETO LEGISLATIVO 635, Y EN LA LEY 30424, LEY QUE REGULA LA RESPONSABILIDAD ADMINISTRATIVA DE LAS PERSONAS JURÍDICAS EN EL PROCESO PENAL, A FIN DE QUE LOS PARTIDOS POLÍTICOS QUEDEN SUJETOS AL RÉGIMEN GENERAL DE LAS PERSONAS JURÍDICAS.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Seguridad y Estado de derecho"
-    },
-    {
-     "codigo": "00540-2026-2031-CD",
-     "fecha": "2026-10-06",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL DECRETO LEGISLATIVO 1373 PARA FORTALECER LA AUTONOMÍA, EFICACIA Y GARANTÍAS DEL PROCESO DE EXTINCIÓN DE DOMINIO.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Seguridad y Estado de derecho"
-    },
-    {
-     "codigo": "00539-2026-2031-CD",
-     "fecha": "2026-10-06",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL CÓDIGO PROCESAL PENAL PARA RESTABLECER LA FUNCIONALIDAD DEL PROCESO ESPECIAL POR COLABORACIÓN EFICAZ.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Seguridad y Estado de derecho"
-    },
-    {
-     "codigo": "00538-2026-2031-CD",
-     "fecha": "2026-10-06",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 84 DEL CÓDIGO PENAL PARA REGULAR LA SUSPENSIÓN DE LA PRESCRIPCIÓN DE LA ACCIÓN PENAL.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Inclusión y protección social"
-    },
-    {
-     "codigo": "00535-2026-2031-CD",
-     "fecha": "2026-10-06",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LOS ARTÍCULOS 2 Y 3 DE LA LEY N.° 32712 PARA AMPLIAR EL ÁMBITO DE COLABORACIÓN DE LOS GOBIERNOS REGIONALES Y LOCALES EN FAVOR DE LA POLICÍA NACIONAL DEL PERÚ Y LA AUTORIDAD MARÍTIMA NACIONAL; Y GARANTIZAR LA CONTINUIDAD DE LAS INVERSIONES, CONVENIOS Y PROCEDIMIENTOS ADMINISTRATIVOS EN TRÁMITE",
-     "estado": "EN COMISIÓN",
-     "agenda": "Inversión, empleo y competitividad"
-    },
-    {
-     "codigo": "00436-2026-2031-CD",
-     "fecha": "2026-09-25",
-     "titulo": "PROPOSICIÓN LEGISLATIVA DE RESOLUCIÓN LEGISLATIVA QUE MODIFICA EL REGLAMENTO DE LA CÁMARA DE DIPUTADOS Y CREA LA COMISIÓN DE INTELIGENCIA DE LA CÁMARA DE DIPUTADOS.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Seguridad y Estado de derecho"
-    },
-    {
-     "codigo": "00411-2026-2031-CD",
-     "fecha": "2026-09-22",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY Nº 30714 Y FORTALECE LA IMPARCIALIDAD, INDEPENDENCIA E IDONEIDAD DE LOS VOCALES DEL TRIBUNAL DE DISCIPLINA POLICIAL DISPONIENDO SU ELECCIÓN POR CONCURSO PÚBLICO DE MERITOS.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Seguridad y Estado de derecho"
-    },
-    {
-     "codigo": "00191-2026-2031-CD",
-     "fecha": "2026-09-10",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 31473 Y SUSPENDE LA PERCEPCIÓN DE LA PENSIÓN DE JUBILACIÓN PARA MIEMBROS DE LAS FUERZAS ARMADAS Y POLICÍA NACIONAL DEL PERÚ QUE OCUPEN CARGOS DE ELECCIÓN POPULAR EN LA PARTE QUE EXCEDA EL TOPE REMUNERATIVO ESTABLECIDO POR LEY.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Inclusión y protección social"
-    },
-    {
-     "codigo": "00124-2026-2031-CD",
-     "fecha": "2026-09-03",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 8 DEL DECRETO LEGISLATIVO 1267, LEY DE LA POLICÍA NACIONAL DEL PERÚ E INCORPORA CAUSALES DE CESE ANTICIPADO DEL COMANDANTE GENERAL DE LA POLICÍA NACIONAL DEL PERÚ.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Seguridad y Estado de derecho"
-    },
-    {
-     "codigo": "00029-2026-2031-CD",
-     "fecha": "2026-08-13",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 230 DEL CODIGO PROCESAL PENAL, CON EL FIN DE AMPLIAR EL PLAZO DE INTERVENCIÓN DE LAS COMUNICACIONES TELEFÓNICA",
-     "estado": "EN COMISIÓN",
-     "agenda": "Seguridad y Estado de derecho"
-    },
-    {
-     "codigo": "00028-2026-2031-CD",
-     "fecha": "2026-08-12",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL DECRETO LEGISLATIVO 1731, DECRETO LEGISLATIVO QUE INCORPORA EL ARTÍCULO 200-A AL CÓDIGO PENAL, PARA FORTALECER LA PREVENCIÓN Y SANCIÓN DEL DELITO DE EXIGENCIA O REQUERIMIENTO EXTORSIVO",
-     "estado": "EN COMISIÓN",
-     "agenda": "Seguridad y Estado de derecho"
-    }
-   ]
-  },
-  {
-   "camara": "D",
    "nombre": "Palomino Casavilca, Catherin Norma",
    "bancada": "Juntos por el Perú",
    "sigla": "JP",
@@ -1551,12 +1470,19 @@
    "genero": "femenino",
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/palomino-casavilca-catherin-norma/",
-   "principal": 11,
-   "firmas": 51,
+   "principal": 12,
+   "firmas": 52,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 9,
    "proyectos": [
+    {
+     "codigo": "00719-2026-2031-CD",
+     "fecha": "2026-10-30",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
+     "estado": "PRESENTADO",
+     "agenda": "Otros"
+    },
     {
      "codigo": "00469-2026-2031-CD",
      "fecha": "2026-10-01",
@@ -1631,6 +1557,100 @@
      "codigo": "00007-2026-2031-CD",
      "fecha": "2026-08-07",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA DIVERSAS REFORMAS LEGISLATIVAS QUE HAN GENERADO RETROCESOS NORMATIVOS EN LA LUCHA CONTRA EL CRIMEN ORGANIZADO",
+     "estado": "CON DICTAMEN",
+     "agenda": "Seguridad y Estado de derecho"
+    }
+   ]
+  },
+  {
+   "camara": "D",
+   "nombre": "Colchado Huamani, Harvey Julio",
+   "bancada": "Ahora Nación",
+   "sigla": "AN",
+   "distrito": "Lima Metropolitana",
+   "genero": "masculino",
+   "condicion": "en ejercicio",
+   "link": "https://diputados.congreso.gob.pe/diputado/colchado-huamani-harvey-julio/",
+   "principal": 11,
+   "firmas": 46,
+   "simbolicos": 0,
+   "actualizaciones": 0,
+   "desarrollo": 11,
+   "proyectos": [
+    {
+     "codigo": "00541-2026-2031-CD",
+     "fecha": "2026-10-06",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LAS DISPOSICIONES INCORPORADAS POR LA LEY 32054 EN EL CÓDIGO PENAL, DECRETO LEGISLATIVO 635, Y EN LA LEY 30424, LEY QUE REGULA LA RESPONSABILIDAD ADMINISTRATIVA DE LAS PERSONAS JURÍDICAS EN EL PROCESO PENAL, A FIN DE QUE LOS PARTIDOS POLÍTICOS QUEDEN SUJETOS AL RÉGIMEN GENERAL DE LAS PERSONAS JURÍDICAS.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Seguridad y Estado de derecho"
+    },
+    {
+     "codigo": "00540-2026-2031-CD",
+     "fecha": "2026-10-06",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL DECRETO LEGISLATIVO 1373 PARA FORTALECER LA AUTONOMÍA, EFICACIA Y GARANTÍAS DEL PROCESO DE EXTINCIÓN DE DOMINIO.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Seguridad y Estado de derecho"
+    },
+    {
+     "codigo": "00539-2026-2031-CD",
+     "fecha": "2026-10-06",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL CÓDIGO PROCESAL PENAL PARA RESTABLECER LA FUNCIONALIDAD DEL PROCESO ESPECIAL POR COLABORACIÓN EFICAZ.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Seguridad y Estado de derecho"
+    },
+    {
+     "codigo": "00538-2026-2031-CD",
+     "fecha": "2026-10-06",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 84 DEL CÓDIGO PENAL PARA REGULAR LA SUSPENSIÓN DE LA PRESCRIPCIÓN DE LA ACCIÓN PENAL.",
+     "estado": "CON DICTAMEN",
+     "agenda": "Inclusión y protección social"
+    },
+    {
+     "codigo": "00535-2026-2031-CD",
+     "fecha": "2026-10-06",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LOS ARTÍCULOS 2 Y 3 DE LA LEY N.° 32712 PARA AMPLIAR EL ÁMBITO DE COLABORACIÓN DE LOS GOBIERNOS REGIONALES Y LOCALES EN FAVOR DE LA POLICÍA NACIONAL DEL PERÚ Y LA AUTORIDAD MARÍTIMA NACIONAL; Y GARANTIZAR LA CONTINUIDAD DE LAS INVERSIONES, CONVENIOS Y PROCEDIMIENTOS ADMINISTRATIVOS EN TRÁMITE",
+     "estado": "EN COMISIÓN",
+     "agenda": "Inversión, empleo y competitividad"
+    },
+    {
+     "codigo": "00436-2026-2031-CD",
+     "fecha": "2026-09-25",
+     "titulo": "PROPOSICIÓN LEGISLATIVA DE RESOLUCIÓN LEGISLATIVA QUE MODIFICA EL REGLAMENTO DE LA CÁMARA DE DIPUTADOS Y CREA LA COMISIÓN DE INTELIGENCIA DE LA CÁMARA DE DIPUTADOS.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Seguridad y Estado de derecho"
+    },
+    {
+     "codigo": "00411-2026-2031-CD",
+     "fecha": "2026-09-22",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY Nº 30714 Y FORTALECE LA IMPARCIALIDAD, INDEPENDENCIA E IDONEIDAD DE LOS VOCALES DEL TRIBUNAL DE DISCIPLINA POLICIAL DISPONIENDO SU ELECCIÓN POR CONCURSO PÚBLICO DE MERITOS.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Seguridad y Estado de derecho"
+    },
+    {
+     "codigo": "00191-2026-2031-CD",
+     "fecha": "2026-09-10",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 31473 Y SUSPENDE LA PERCEPCIÓN DE LA PENSIÓN DE JUBILACIÓN PARA MIEMBROS DE LAS FUERZAS ARMADAS Y POLICÍA NACIONAL DEL PERÚ QUE OCUPEN CARGOS DE ELECCIÓN POPULAR EN LA PARTE QUE EXCEDA EL TOPE REMUNERATIVO ESTABLECIDO POR LEY.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Inclusión y protección social"
+    },
+    {
+     "codigo": "00124-2026-2031-CD",
+     "fecha": "2026-09-03",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 8 DEL DECRETO LEGISLATIVO 1267, LEY DE LA POLICÍA NACIONAL DEL PERÚ E INCORPORA CAUSALES DE CESE ANTICIPADO DEL COMANDANTE GENERAL DE LA POLICÍA NACIONAL DEL PERÚ.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Seguridad y Estado de derecho"
+    },
+    {
+     "codigo": "00029-2026-2031-CD",
+     "fecha": "2026-08-13",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 230 DEL CODIGO PROCESAL PENAL, CON EL FIN DE AMPLIAR EL PLAZO DE INTERVENCIÓN DE LAS COMUNICACIONES TELEFÓNICA",
+     "estado": "EN COMISIÓN",
+     "agenda": "Seguridad y Estado de derecho"
+    },
+    {
+     "codigo": "00028-2026-2031-CD",
+     "fecha": "2026-08-12",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL DECRETO LEGISLATIVO 1731, DECRETO LEGISLATIVO QUE INCORPORA EL ARTÍCULO 200-A AL CÓDIGO PENAL, PARA FORTALECER LA PREVENCIÓN Y SANCIÓN DEL DELITO DE EXIGENCIA O REQUERIMIENTO EXTORSIVO",
      "estado": "EN COMISIÓN",
      "agenda": "Seguridad y Estado de derecho"
     }
@@ -1834,7 +1854,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/yarrow-lumbreras-norma-martina/",
    "principal": 11,
-   "firmas": 37,
+   "firmas": 38,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 7,
@@ -1928,7 +1948,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/aranda-vasquez-christian/",
    "principal": 10,
-   "firmas": 58,
+   "firmas": 59,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 10,
@@ -2189,7 +2209,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/rocha-gallegos-roxana-maria/",
    "principal": 10,
-   "firmas": 106,
+   "firmas": 107,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 9,
@@ -2276,7 +2296,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/hancco-hancco-dina-irene/",
    "principal": 9,
-   "firmas": 18,
+   "firmas": 19,
    "simbolicos": 1,
    "actualizaciones": 0,
    "desarrollo": 6,
@@ -2348,6 +2368,86 @@
   },
   {
    "camara": "D",
+   "nombre": "Huilca Flores, Indira Isabel",
+   "bancada": "Ahora Nación",
+   "sigla": "AN",
+   "distrito": "Lima Metropolitana",
+   "genero": "femenino",
+   "condicion": "en ejercicio",
+   "link": "https://diputados.congreso.gob.pe/diputado/huilca-flores-indira-isabel/",
+   "principal": 9,
+   "firmas": 56,
+   "simbolicos": 0,
+   "actualizaciones": 0,
+   "desarrollo": 8,
+   "proyectos": [
+    {
+     "codigo": "00722-2026-2031-CD",
+     "fecha": "2026-10-30",
+     "titulo": "PROPOSICIÓN LEGISLATIVA PARA GARANTIZAR LOS DERECHOS DE LOS TRABAJADORES DE SEGURIDAD DE ESSALUD.",
+     "estado": "PRESENTADO",
+     "agenda": "Inversión, empleo y competitividad"
+    },
+    {
+     "codigo": "00721-2026-2031-CD",
+     "fecha": "2026-10-30",
+     "titulo": "PROPOSICIÓN LEGISLATIVA PARA GARANTIZAR LOS DERECHOS DE TRABAJADORES DE LAS EMPRESAS PRESTADORAS DE SERVICIOS DE AGUA POTABLE Y SANEAMIENTO PÚBLICAS DE ACCIONARIADO MUNICIPAL.",
+     "estado": "PRESENTADO",
+     "agenda": "Inversión, empleo y competitividad"
+    },
+    {
+     "codigo": "00716-2026-2031-CD",
+     "fecha": "2026-10-30",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE GARANTIZA EL DERECHO A LA ALIMENTACIÓN SALUDABLE Y LA SEGURIDAD ALIMENTARIA Y NUTRICIONAL DE LAS NIÑAS, NIÑOS Y ADOLESCENTES DE LA EDUCACIÓN BÁSICA REGULAR, EDUCACIÓN BÁSICA ALTERNATIVA Y EDUCACIÓN BÁSICA ESPECIAL DEL PERÚ Y CREA EL SISTEMA NACIONAL DE ALIMENTACIÓN ESCOLAR {SINAES-PE)",
+     "estado": "PRESENTADO",
+     "agenda": "Capital humano: educación y salud"
+    },
+    {
+     "codigo": "00662-2026-2031-CD",
+     "fecha": "2026-10-23",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE CREA EL SISTEMA NACIONAL DE CUIDADOS.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Inclusión y protección social"
+    },
+    {
+     "codigo": "00533-2026-2031-CD",
+     "fecha": "2026-10-06",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32107, LEY QUE PRECISA LA APLICACIÓN Y LOS ALCANCES DEL DELITO DE LESA HUMANIDAD Y CRÍMENES DE GUERRA EN LA LEGISLACIÓN PERUANA.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Seguridad y Estado de derecho"
+    },
+    {
+     "codigo": "00175-2026-2031-CD",
+     "fecha": "2026-09-09",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32419, LEY QUE CONCEDE AMNISTÍA A LOS MIEMBROS DE LAS FUERZAS ARMADAS, DE LA POLICÍA NACIONAL DEL PERÚ Y DE LOS COMITÉS DE AUTODEFENSA QUE PARTICIPARON EN LA LUCHA CONTRA EL TERRORISMO ENTRE LOS AÑOS 1980 Y 2000.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Seguridad y Estado de derecho"
+    },
+    {
+     "codigo": "00075-2026-2031-CD",
+     "fecha": "2026-08-20",
+     "titulo": "PROPOSICIÓN DE RESOLUCIÓN LEGISLATIVA QUE MODIFICA EL REGLAMENTO DEL CONGRESO PARA GARANTIZAR EL TRABAJO PRESENCIAL",
+     "estado": "EN COMISIÓN",
+     "agenda": "Inversión, empleo y competitividad"
+    },
+    {
+     "codigo": "00024-2026-2031-CD",
+     "fecha": "2026-08-12",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32645, LEY QUE CREA EL COLEGIO PROFESIONAL DE ARTISTAS DEL PERÚ (CPAP)",
+     "estado": "Expediente de propuesta legislativa remitida al senado de la república",
+     "agenda": "Otros"
+    },
+    {
+     "codigo": "00001-2026-2031-CD",
+     "fecha": "2026-08-04",
+     "titulo": "PROPOSICIÓN DE RESOLUCIÓN LEGISLATIVA QUE MODIFICA LOS REGLAMENTOS PARLAMENTARIOS PARA GARANTIZAR EL TRABAJO PRESENCIAL.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Inversión, empleo y competitividad"
+    }
+   ]
+  },
+  {
+   "camara": "D",
    "nombre": "Krklec Torres, Frank",
    "bancada": "Renovación Popular",
    "sigla": "RP",
@@ -2356,7 +2456,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/krklec-torres-frank/",
    "principal": 9,
-   "firmas": 56,
+   "firmas": 57,
    "simbolicos": 1,
    "actualizaciones": 0,
    "desarrollo": 6,
@@ -2501,6 +2601,72 @@
   },
   {
    "camara": "D",
+   "nombre": "Baella Malca, José Isidro",
+   "bancada": "Renovación Popular",
+   "sigla": "RP",
+   "distrito": "Lima Metropolitana",
+   "genero": "masculino",
+   "condicion": "en ejercicio",
+   "link": "https://diputados.congreso.gob.pe/diputado/baella-malca-jose-isidro/",
+   "principal": 7,
+   "firmas": 64,
+   "simbolicos": 0,
+   "actualizaciones": 0,
+   "desarrollo": 6,
+   "proyectos": [
+    {
+     "codigo": "00726-2026-2031-CD",
+     "fecha": "2026-10-30",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LOS ARTÍCULOS 279-A, 279-B, 279-F Y 279-G DEL CÓDIGO PENAL, PARA FORTALECER LA RESPUESTA DEL ESTADO FRENTE A LOS DELITOS RELACIONADOS CON ARMAS DE FUEGO, MUNICIONES, EXPLOSIVOS Y OTROS MATERIALES RELACIONADOS, A FIN DE CONTRIBUIR A LA SEGURIDAD CIUDADANA Y LA LUCHA CONTRA LA CRIMINALIDAD.",
+     "estado": "PRESENTADO",
+     "agenda": "Seguridad y Estado de derecho"
+    },
+    {
+     "codigo": "00513-2026-2031-CD",
+     "fecha": "2026-10-06",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE EL FORTALECIMIENTO DE LA MEMORIA HISTÓRICA DEMOCRÁTICA Y EL CONOCIMIENTO DE LA LUCHA CONTRA EL TERRORISMO EN LA EDUCACIÓN SUPERIOR Y EN LAS ESCUELAS DE FORMACIÓN DE LAS FUERZAS ARMADAS Y DE LA POLICÍA NACIONAL DEL PERÚ",
+     "estado": "EN COMISIÓN",
+     "agenda": "Capital humano: educación y salud"
+    },
+    {
+     "codigo": "00289-2026-2031-CD",
+     "fecha": "2026-09-17",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE REGULA EL DERECHO A LA DEFENSA JURÍDICA DE LOS FUNCIONARIOS Y SERVIDORES PÚBLICOS POR ACTOS DERIVADOS DEL EJERCICIO DE LA FUNCIÓN PÚBLICA.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Otros"
+    },
+    {
+     "codigo": "00202-2026-2031-CD",
+     "fecha": "2026-09-11",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE MEDIDAS TEMPORALES PARA PROMOVER LA ENTREGA VOLUNTARIA, ANÓNIMA Y CON INCENTIVO ECONÓMICO, DE ARMAS DE FUEGO, MUNICIONES, GRANADAS DE GUERRA, EXPLOSIVOS, DINAMITA Y OTRAS ESPECIES SIMILARES DE PROCEDENCIA ILÍCITA O IRREGULAR, POR UN PLAZO DE 60 DÍAS, PARA CONTRIBUIR AL FORTALECIMIENTO DE LA SEGURIDAD CIUDADANA Y LA LUCHA CONTRA LA CRIMINALIDAD.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Inversión, empleo y competitividad"
+    },
+    {
+     "codigo": "00174-2026-2031-CD",
+     "fecha": "2026-09-09",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL DECRETO LEGISLATIVO 1180 PARA FORTALECER EL SISTEMA DE RECOMPENSAS CONTRA LA CRIMINALIDAD MEDIANTE EL OTORGAMIENTO DE BENEFICIOS POR INFORMACIÓN RELEVANTE.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Seguridad y Estado de derecho"
+    },
+    {
+     "codigo": "00162-2026-2031-CD",
+     "fecha": "2026-09-08",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE SALUDPOL Y GARANTIZA UNA ATENCIÓN OPORTUNA Y DE CALIDAD PARA LA FAMILIA POLICIAL",
+     "estado": "EN COMISIÓN",
+     "agenda": "Capital humano: educación y salud"
+    },
+    {
+     "codigo": "00046-2026-2031-CD",
+     "fecha": "2026-08-18",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA ARTÍCULOS DEL CÓDIGO PENAL, SANCIONANDO CON CADENA PERPETUA LOS TIPOS PENALES DE SICARIATO (ART. 108-C y 108-D); VIOLACIÓN SEXUAL (ART. 171, 172 Y 174) CON CIRCUNSTANCIAS AGRAVANTES; EXTORSIÓN (ART. 200 NUMERAL 200.9) INCORPORANDO EL LITERAL F; Y CORRUPCIÓN DE FUNCIONARIOS –COLUSIÓN AGRAVADA (ART. 384) CUYAS CONDUCTAS CONSTITUYAN CIRCUNSTANCIAS AGRAVADAS.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Seguridad y Estado de derecho"
+    }
+   ]
+  },
+  {
+   "camara": "D",
    "nombre": "Camargo Porta, Raúl Jesús",
    "bancada": "Partido Cívico Obras",
    "sigla": "PCO",
@@ -2509,7 +2675,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/camargo-porta-raul-jesus/",
    "principal": 7,
-   "firmas": 30,
+   "firmas": 31,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 5,
@@ -2575,7 +2741,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/chipana-condori-graciela/",
    "principal": 7,
-   "firmas": 34,
+   "firmas": 35,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 6,
@@ -2650,7 +2816,7 @@
      "codigo": "00698-2026-2031-CD",
      "fecha": "2026-10-28",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE EL CONTENIDO DEL NUEVO CÓDIGO PROCESAL PENAL, DECRETO LEGISLATIVO 957, CON EL OBJETIVO DE RESTITUIR LOS PRINCIPIOS DE LA INVESTIGACIÓN FISCAL, LUCHA CONTRA LA INSEGURIDAD CIUDADANA Y LA CRIMINALIDAD ORGANIZADA.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Seguridad y Estado de derecho"
     },
     {
@@ -2671,7 +2837,7 @@
      "codigo": "00494-2026-2031-CD",
      "fecha": "2026-10-02",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE EL CONTENIDO DEL DECRETO LEGISLATIVO N° 635 CÓDIGO PENAL, DEROGA LA LEY 32104 Y MODIFICA LA LEY 30424, CON EL OBJETIVO DE REFORZAR LA LUCHA CONTRA LA INSEGURIDAD CIUDADANA Y LA CRIMINALIDAD ORGANIZADA",
-     "estado": "EN COMISIÓN",
+     "estado": "CON DICTAMEN",
      "agenda": "Seguridad y Estado de derecho"
     },
     {
@@ -2707,7 +2873,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/gonzales-delgado-gabriel-robertino/",
    "principal": 7,
-   "firmas": 51,
+   "firmas": 54,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 7,
@@ -2773,7 +2939,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/guillen-valencia-hector/",
    "principal": 7,
-   "firmas": 30,
+   "firmas": 33,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 6,
@@ -2826,72 +2992,6 @@
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL CÓDIGO PENAL, DECRETO LEGISLATIVO 635, Y LA LEY 30424, LEY QUE REGULA LA RESPONSABILIDAD ADMINISTRATIVA DE LAS PERSONAS JURÍDICAS EN EL PROCESO PENAL, A FIN DE OPTIMIZAR LA DEMOCRACIA REPRESENTATIVA Y ESTABLECER MEDIDAS PARA LA LUCHA CONTRA LA CORRUPCIÓN EN LAS ORGANIZACIONES POLÍTICAS.",
      "estado": "EN COMISIÓN",
      "agenda": "Seguridad y Estado de derecho"
-    }
-   ]
-  },
-  {
-   "camara": "D",
-   "nombre": "Huilca Flores, Indira Isabel",
-   "bancada": "Ahora Nación",
-   "sigla": "AN",
-   "distrito": "Lima Metropolitana",
-   "genero": "femenino",
-   "condicion": "en ejercicio",
-   "link": "https://diputados.congreso.gob.pe/diputado/huilca-flores-indira-isabel/",
-   "principal": 7,
-   "firmas": 54,
-   "simbolicos": 0,
-   "actualizaciones": 0,
-   "desarrollo": 6,
-   "proyectos": [
-    {
-     "codigo": "00716-2026-2031-CD",
-     "fecha": "2026-10-30",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE GARANTIZA EL DERECHO A LA ALIMENTACIÓN SALUDABLE Y LA SEGURIDAD ALIMENTARIA Y NUTRICIONAL DE LAS NIÑAS, NIÑOS Y ADOLESCENTES DE LA EDUCACIÓN BÁSICA REGULAR, EDUCACIÓN BÁSICA ALTERNATIVA Y EDUCACIÓN BÁSICA ESPECIAL DEL PERÚ Y CREA EL SISTEMA NACIONAL DE ALIMENTACIÓN ESCOLAR {SINAES-PE)",
-     "estado": "PRESENTADO",
-     "agenda": "Capital humano: educación y salud"
-    },
-    {
-     "codigo": "00662-2026-2031-CD",
-     "fecha": "2026-10-23",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE CREA EL SISTEMA NACIONAL DE CUIDADOS.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Inclusión y protección social"
-    },
-    {
-     "codigo": "00533-2026-2031-CD",
-     "fecha": "2026-10-06",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32107, LEY QUE PRECISA LA APLICACIÓN Y LOS ALCANCES DEL DELITO DE LESA HUMANIDAD Y CRÍMENES DE GUERRA EN LA LEGISLACIÓN PERUANA.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Seguridad y Estado de derecho"
-    },
-    {
-     "codigo": "00175-2026-2031-CD",
-     "fecha": "2026-09-09",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32419, LEY QUE CONCEDE AMNISTÍA A LOS MIEMBROS DE LAS FUERZAS ARMADAS, DE LA POLICÍA NACIONAL DEL PERÚ Y DE LOS COMITÉS DE AUTODEFENSA QUE PARTICIPARON EN LA LUCHA CONTRA EL TERRORISMO ENTRE LOS AÑOS 1980 Y 2000.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Seguridad y Estado de derecho"
-    },
-    {
-     "codigo": "00075-2026-2031-CD",
-     "fecha": "2026-08-20",
-     "titulo": "PROPOSICIÓN DE RESOLUCIÓN LEGISLATIVA QUE MODIFICA EL REGLAMENTO DEL CONGRESO PARA GARANTIZAR EL TRABAJO PRESENCIAL",
-     "estado": "EN COMISIÓN",
-     "agenda": "Inversión, empleo y competitividad"
-    },
-    {
-     "codigo": "00024-2026-2031-CD",
-     "fecha": "2026-08-12",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32645, LEY QUE CREA EL COLEGIO PROFESIONAL DE ARTISTAS DEL PERÚ (CPAP)",
-     "estado": "Expediente de propuesta legislativa remitida al senado de la república",
-     "agenda": "Otros"
-    },
-    {
-     "codigo": "00001-2026-2031-CD",
-     "fecha": "2026-08-04",
-     "titulo": "PROPOSICIÓN DE RESOLUCIÓN LEGISLATIVA QUE MODIFICA LOS REGLAMENTOS PARLAMENTARIOS PARA GARANTIZAR EL TRABAJO PRESENCIAL.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Inversión, empleo y competitividad"
     }
    ]
   },
@@ -2963,65 +3063,6 @@
   },
   {
    "camara": "D",
-   "nombre": "Baella Malca, José Isidro",
-   "bancada": "Renovación Popular",
-   "sigla": "RP",
-   "distrito": "Lima Metropolitana",
-   "genero": "masculino",
-   "condicion": "en ejercicio",
-   "link": "https://diputados.congreso.gob.pe/diputado/baella-malca-jose-isidro/",
-   "principal": 6,
-   "firmas": 63,
-   "simbolicos": 0,
-   "actualizaciones": 0,
-   "desarrollo": 5,
-   "proyectos": [
-    {
-     "codigo": "00513-2026-2031-CD",
-     "fecha": "2026-10-06",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE EL FORTALECIMIENTO DE LA MEMORIA HISTÓRICA DEMOCRÁTICA Y EL CONOCIMIENTO DE LA LUCHA CONTRA EL TERRORISMO EN LA EDUCACIÓN SUPERIOR Y EN LAS ESCUELAS DE FORMACIÓN DE LAS FUERZAS ARMADAS Y DE LA POLICÍA NACIONAL DEL PERÚ",
-     "estado": "EN COMISIÓN",
-     "agenda": "Capital humano: educación y salud"
-    },
-    {
-     "codigo": "00289-2026-2031-CD",
-     "fecha": "2026-09-17",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE REGULA EL DERECHO A LA DEFENSA JURÍDICA DE LOS FUNCIONARIOS Y SERVIDORES PÚBLICOS POR ACTOS DERIVADOS DEL EJERCICIO DE LA FUNCIÓN PÚBLICA.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Otros"
-    },
-    {
-     "codigo": "00202-2026-2031-CD",
-     "fecha": "2026-09-11",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE MEDIDAS TEMPORALES PARA PROMOVER LA ENTREGA VOLUNTARIA, ANÓNIMA Y CON INCENTIVO ECONÓMICO, DE ARMAS DE FUEGO, MUNICIONES, GRANADAS DE GUERRA, EXPLOSIVOS, DINAMITA Y OTRAS ESPECIES SIMILARES DE PROCEDENCIA ILÍCITA O IRREGULAR, POR UN PLAZO DE 60 DÍAS, PARA CONTRIBUIR AL FORTALECIMIENTO DE LA SEGURIDAD CIUDADANA Y LA LUCHA CONTRA LA CRIMINALIDAD.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Inversión, empleo y competitividad"
-    },
-    {
-     "codigo": "00174-2026-2031-CD",
-     "fecha": "2026-09-09",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL DECRETO LEGISLATIVO 1180 PARA FORTALECER EL SISTEMA DE RECOMPENSAS CONTRA LA CRIMINALIDAD MEDIANTE EL OTORGAMIENTO DE BENEFICIOS POR INFORMACIÓN RELEVANTE.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Seguridad y Estado de derecho"
-    },
-    {
-     "codigo": "00162-2026-2031-CD",
-     "fecha": "2026-09-08",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE SALUDPOL Y GARANTIZA UNA ATENCIÓN OPORTUNA Y DE CALIDAD PARA LA FAMILIA POLICIAL",
-     "estado": "EN COMISIÓN",
-     "agenda": "Capital humano: educación y salud"
-    },
-    {
-     "codigo": "00046-2026-2031-CD",
-     "fecha": "2026-08-18",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA ARTÍCULOS DEL CÓDIGO PENAL, SANCIONANDO CON CADENA PERPETUA LOS TIPOS PENALES DE SICARIATO (ART. 108-C y 108-D); VIOLACIÓN SEXUAL (ART. 171, 172 Y 174) CON CIRCUNSTANCIAS AGRAVANTES; EXTORSIÓN (ART. 200 NUMERAL 200.9) INCORPORANDO EL LITERAL F; Y CORRUPCIÓN DE FUNCIONARIOS –COLUSIÓN AGRAVADA (ART. 384) CUYAS CONDUCTAS CONSTITUYAN CIRCUNSTANCIAS AGRAVADAS.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Seguridad y Estado de derecho"
-    }
-   ]
-  },
-  {
-   "camara": "D",
    "nombre": "Buitron Martínez, Freshman",
    "bancada": "Ahora Nación",
    "sigla": "AN",
@@ -3030,7 +3071,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/buitron-martinez-freshman/",
    "principal": 6,
-   "firmas": 70,
+   "firmas": 72,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 5,
@@ -3089,7 +3130,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/fernandez-gonzalez-svieta-valia/",
    "principal": 6,
-   "firmas": 53,
+   "firmas": 54,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 5,
@@ -3148,7 +3189,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/manrique-olivera-bernardino-jair/",
    "principal": 6,
-   "firmas": 45,
+   "firmas": 47,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 3,
@@ -3207,7 +3248,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/martinez-paitan-paola-isabel/",
    "principal": 6,
-   "firmas": 91,
+   "firmas": 92,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 6,
@@ -3244,7 +3285,7 @@
      "codigo": "00091-2026-2031-CD",
      "fecha": "2026-08-24",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27669, LEY DEL TRABAJO DE LA ENFERMERA(O), PARA FORTALECER LA AUTONOMÍA PROFESIONAL DE ENFERMERÍA",
-     "estado": "APROBADO",
+     "estado": "Expediente de propuesta legislativa remitida al senado de la república",
      "agenda": "Inversión, empleo y competitividad"
     },
     {
@@ -3253,6 +3294,65 @@
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL DECRETO LEGISLATIVO 1153, DECRETO LEGISLATIVO QUE REGULA LA POLÍTICA INTEGRAL DE COMPENSACIONES Y ENTREGAS ECONÓMICAS DEL PERSONAL DE LA SALUD AL SERVICIO DEL ESTADO, PARA INCORPORAR A PROFESIONALES EN FORMACIÓN ESPECIALIZADA MEDIANTE RESIDENTADO.",
      "estado": "EN COMISIÓN",
      "agenda": "Inversión, empleo y competitividad"
+    }
+   ]
+  },
+  {
+   "camara": "D",
+   "nombre": "Palomino Pacheco, Amalia Emilia",
+   "bancada": "Juntos por el Perú",
+   "sigla": "JP",
+   "distrito": "Arequipa",
+   "genero": "femenino",
+   "condicion": "en ejercicio",
+   "link": "https://diputados.congreso.gob.pe/diputado/palomino-pacheco-amalia-emilia/",
+   "principal": 6,
+   "firmas": 27,
+   "simbolicos": 0,
+   "actualizaciones": 0,
+   "desarrollo": 6,
+   "proyectos": [
+    {
+     "codigo": "00725-2026-2031-CD",
+     "fecha": "2026-10-30",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE AUTORIZA LA DESIGNACIÓN EXCEPCIONAL DE DOCENTES A CARGOS DIRECTIVOS EN INSTITUCIONES EDUCATIVAS PÚBLICAS DE EDUCACIÓN BÁSICA REGULAR PARA FORTALECER LA GESTIÓN EDUCATIVA.",
+     "estado": "PRESENTADO",
+     "agenda": "Capital humano: educación y salud"
+    },
+    {
+     "codigo": "00724-2026-2031-CD",
+     "fecha": "2026-10-30",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 29 DE LA LEY 27785, LEY ORGÁNICA DEL SISTEMA NACIONAL DE CONTROL Y DE LA CONTRALORÍA GENERAL DE LA REPÚBLICA.",
+     "estado": "PRESENTADO",
+     "agenda": "Seguridad y Estado de derecho"
+    },
+    {
+     "codigo": "00576-2026-2031-CD",
+     "fecha": "2026-10-13",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE AUTORIZA EXCEPCIONALMENTE EL NOMBRAMIENTO DE DOCENTES DE EDUCACIÓN BÁSICA QUE APROBARON LOS CONCURSOS PÚBLICOS DE INGRESO A LA CARRERA PÚBLICA MAGISTERIAL DE LOS AÑOS 2022 Y 2024 Y NO FUERON ADJUDICADOS EN UNA PLAZA.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Capital humano: educación y salud"
+    },
+    {
+     "codigo": "00409-2026-2031-CD",
+     "fecha": "2026-09-21",
+     "titulo": "PROPOSICIÓN LEGISLATIVA DE PREVENCIÓN DEL RECLUTAMIENTO Y LA UTILIZACIÓN DE NIÑAS, NIÑOS Y ADOLECENTES POR ORGANIZACIONES Y BANDAS CRIMINALES.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Inclusión y protección social"
+    },
+    {
+     "codigo": "00407-2026-2031-CD",
+     "fecha": "2026-09-21",
+     "titulo": "PROPOSICIÓN LEGISLATIVA DE LEY DE ASFIXIA FINANCIERA DE LA EXTORSIÓN Y DE LA PROTECCIÓN DE LAS VICTIMAS QUE DENUNCIAN.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Inversión, empleo y competitividad"
+    },
+    {
+     "codigo": "00223-2026-2031-CD",
+     "fecha": "2026-09-15",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 283 Y 315 DEL CÓDIGO PENAL QUE GARANTIZA EL EJERCICIO DEL DERECHO FUNDAMENTAL A LA PROTESTA.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Seguridad y Estado de derecho"
     }
    ]
   },
@@ -3325,7 +3425,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/sulca-castillo-pilar/",
    "principal": 6,
-   "firmas": 21,
+   "firmas": 24,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 5,
@@ -3452,7 +3552,7 @@
      "codigo": "00696-2026-2031-CD",
      "fecha": "2026-10-28",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA ALERTA AMBER Y LA DIFUSIÓN DE INFORMACIÓN PARA LA BÚSQUEDA DE PERSONAS DESAPARECIDAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
@@ -3495,7 +3595,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/eusebio-padilla-arturo-cesar/",
    "principal": 5,
-   "firmas": 16,
+   "firmas": 17,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 5,
@@ -3532,7 +3632,7 @@
      "codigo": "00611-2026-2031-CD",
      "fecha": "2026-10-19",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE RESTABLECE EL RÉGIMEN DE SUSPENSIÓN DE LA PRESCRIPCIÓN DE LA ACCIÓN PENAL Y DEROGA LAS LEYES PROCRIMEN 31751 Y 32104.",
-     "estado": "EN COMISIÓN",
+     "estado": "CON DICTAMEN",
      "agenda": "Inclusión y protección social"
     }
    ]
@@ -3547,7 +3647,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/guevara-ramirez-jessica-roxana/",
    "principal": 5,
-   "firmas": 55,
+   "firmas": 56,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 4,
@@ -3599,7 +3699,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/holguin-aguirre-james-arturo/",
    "principal": 5,
-   "firmas": 32,
+   "firmas": 34,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 3,
@@ -3651,7 +3751,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/lavado-valdivia-marino-teofilo/",
    "principal": 5,
-   "firmas": 34,
+   "firmas": 35,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 4,
@@ -3703,7 +3803,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/lopez-letona-heber/",
    "principal": 5,
-   "firmas": 24,
+   "firmas": 25,
    "simbolicos": 1,
    "actualizaciones": 0,
    "desarrollo": 4,
@@ -3755,7 +3855,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/peralta-jorpa-maximo/",
    "principal": 5,
-   "firmas": 31,
+   "firmas": 32,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 5,
@@ -3807,7 +3907,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/tito-rojas-cesar-hugo/",
    "principal": 5,
-   "firmas": 43,
+   "firmas": 44,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 4,
@@ -3904,7 +4004,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/cabrera-nieto-juan-cesar/",
    "principal": 4,
-   "firmas": 20,
+   "firmas": 21,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 3,
@@ -4003,7 +4103,7 @@
      "codigo": "00697-2026-2031-CD",
      "fecha": "2026-10-28",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 29944, LEY DE REFORMA MAGISTERIAL, PARA FORTALECER LA FORMACIÓN DOCENTE MEDIANTE LAS CIENCIAS DEL APRENDIZAJE Y LA NEUROEDUCACIÓN BASADA EN EVIDENCIA.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Capital humano: educación y salud"
     },
     {
@@ -4129,7 +4229,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/masco-caceres-luis-aurelio/",
    "principal": 4,
-   "firmas": 25,
+   "firmas": 26,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 3,
@@ -4166,51 +4266,6 @@
   },
   {
    "camara": "D",
-   "nombre": "Palomino Pacheco, Amalia Emilia",
-   "bancada": "Juntos por el Perú",
-   "sigla": "JP",
-   "distrito": "Arequipa",
-   "genero": "femenino",
-   "condicion": "en ejercicio",
-   "link": "https://diputados.congreso.gob.pe/diputado/palomino-pacheco-amalia-emilia/",
-   "principal": 4,
-   "firmas": 24,
-   "simbolicos": 0,
-   "actualizaciones": 0,
-   "desarrollo": 4,
-   "proyectos": [
-    {
-     "codigo": "00576-2026-2031-CD",
-     "fecha": "2026-10-13",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE AUTORIZA EXCEPCIONALMENTE EL NOMBRAMIENTO DE DOCENTES DE EDUCACIÓN BÁSICA QUE APROBARON LOS CONCURSOS PÚBLICOS DE INGRESO A LA CARRERA PÚBLICA MAGISTERIAL DE LOS AÑOS 2022 Y 2024 Y NO FUERON ADJUDICADOS EN UNA PLAZA.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Capital humano: educación y salud"
-    },
-    {
-     "codigo": "00409-2026-2031-CD",
-     "fecha": "2026-09-21",
-     "titulo": "PROPOSICIÓN LEGISLATIVA DE PREVENCIÓN DEL RECLUTAMIENTO Y LA UTILIZACIÓN DE NIÑAS, NIÑOS Y ADOLECENTES POR ORGANIZACIONES Y BANDAS CRIMINALES.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Inclusión y protección social"
-    },
-    {
-     "codigo": "00407-2026-2031-CD",
-     "fecha": "2026-09-21",
-     "titulo": "PROPOSICIÓN LEGISLATIVA DE LEY DE ASFIXIA FINANCIERA DE LA EXTORSIÓN Y DE LA PROTECCIÓN DE LAS VICTIMAS QUE DENUNCIAN.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Inversión, empleo y competitividad"
-    },
-    {
-     "codigo": "00223-2026-2031-CD",
-     "fecha": "2026-09-15",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 283 Y 315 DEL CÓDIGO PENAL QUE GARANTIZA EL EJERCICIO DEL DERECHO FUNDAMENTAL A LA PROTESTA.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Seguridad y Estado de derecho"
-    }
-   ]
-  },
-  {
-   "camara": "D",
    "nombre": "Perez Quispe, Jessica Sadith",
    "bancada": "Juntos por el Perú",
    "sigla": "JP",
@@ -4219,7 +4274,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/perez-quispe-jessica-sadith/",
    "principal": 4,
-   "firmas": 30,
+   "firmas": 33,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 4,
@@ -4264,7 +4319,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/perez-mallqui-julian-luis/",
    "principal": 4,
-   "firmas": 27,
+   "firmas": 28,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 2,
@@ -4347,7 +4402,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/alvaron-de-la-cruz-edgar-adrian/",
    "principal": 3,
-   "firmas": 7,
+   "firmas": 8,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 2,
@@ -4423,7 +4478,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/cipriani-thorne-javier-jose-maria/",
    "principal": 3,
-   "firmas": 81,
+   "firmas": 82,
    "simbolicos": 1,
    "actualizaciones": 0,
    "desarrollo": 2,
@@ -4439,7 +4494,7 @@
      "codigo": "00471-2026-2031-CD",
      "fecha": "2026-10-01",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL CÓDIGO PENAL Y EL CÓDIGO PROCESAL PENAL PARA IMPEDIR LA IMPUNIDAD.",
-     "estado": "EN COMISIÓN",
+     "estado": "CON DICTAMEN",
      "agenda": "Seguridad y Estado de derecho"
     },
     {
@@ -4651,7 +4706,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/poma-huamani-haydee-celinda/",
    "principal": 3,
-   "firmas": 50,
+   "firmas": 53,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 3,
@@ -4689,7 +4744,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/perez-alccahuaman-jesus/",
    "principal": 3,
-   "firmas": 32,
+   "firmas": 35,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 3,
@@ -4841,7 +4896,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/ambrosio-dominguez-yuli-liliana/",
    "principal": 2,
-   "firmas": 15,
+   "firmas": 16,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 2,
@@ -4996,7 +5051,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/jibaja-ramos-luis-angel/",
    "principal": 2,
-   "firmas": 60,
+   "firmas": 63,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 1,
@@ -5151,7 +5206,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/pena-cordova-olver/",
    "principal": 2,
-   "firmas": 34,
+   "firmas": 35,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 1,
@@ -5213,7 +5268,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/sonco-villanueva-helard-bladimir/",
    "principal": 2,
-   "firmas": 36,
+   "firmas": 38,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 2,
@@ -5244,7 +5299,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/tapullima-insapillo-jacqueline-viviana/",
    "principal": 2,
-   "firmas": 18,
+   "firmas": 19,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 1,
@@ -5330,7 +5385,7 @@
    "condicion": "electo",
    "link": "https://diputados.congreso.gob.pe/diputado/albanil-carmona-henry-antonio/",
    "principal": 1,
-   "firmas": 8,
+   "firmas": 9,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 1,
@@ -5522,7 +5577,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/manay-pillaca-alejandro-jose/",
    "principal": 1,
-   "firmas": 11,
+   "firmas": 14,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 1,
@@ -5666,7 +5721,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/paredes-navarro-yenifer-noelia/",
    "principal": 1,
-   "firmas": 34,
+   "firmas": 35,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 1,
@@ -5699,7 +5754,7 @@
      "codigo": "00699-2026-2031-CD",
      "fecha": "2026-10-28",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30897, LEY DE PROMOCIÓN DE LA INVERSIÓN Y DESARROLLO DEL DEPARTAMENTO DE LORETO.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Inversión, empleo y competitividad"
     }
    ]
@@ -5786,7 +5841,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/soto-ferrari-luz-merida/",
    "principal": 1,
-   "firmas": 16,
+   "firmas": 19,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 1,
@@ -5858,7 +5913,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/varas-seguin-daniel-jefferson/",
    "principal": 1,
-   "firmas": 30,
+   "firmas": 31,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 1,
@@ -5882,7 +5937,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/aguirre-ramos-marlon-alberto/",
    "principal": 0,
-   "firmas": 3,
+   "firmas": 4,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 0,
@@ -5914,7 +5969,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/avendano-vilca-giannina-iris/",
    "principal": 0,
-   "firmas": 12,
+   "firmas": 13,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 0,
@@ -5946,7 +6001,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/cahuaza-mitivire-oswar-elbis/",
    "principal": 0,
-   "firmas": 15,
+   "firmas": 18,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 0,
@@ -5978,7 +6033,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/condori-flores-remigio/",
    "principal": 0,
-   "firmas": 9,
+   "firmas": 10,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 0,
@@ -6010,7 +6065,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/flores-valdizan-marco-antonio/",
    "principal": 0,
-   "firmas": 25,
+   "firmas": 26,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 0,
@@ -6074,7 +6129,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/medina-stein-andrea-dayna/",
    "principal": 0,
-   "firmas": 13,
+   "firmas": 14,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 0,
@@ -6154,7 +6209,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/samanez-gonzales-vigil-jeenny-cristina/",
    "principal": 0,
-   "firmas": 3,
+   "firmas": 4,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 0,
@@ -6218,7 +6273,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/valqui-calderon-demetrio-flavio/",
    "principal": 0,
-   "firmas": 13,
+   "firmas": 14,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 0,
@@ -6250,7 +6305,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/yataco-torrealva-jose-ricardo/",
    "principal": 0,
-   "firmas": 12,
+   "firmas": 13,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 0,
@@ -7297,6 +7352,86 @@
  ],
  "recientes": [
   {
+   "codigo": "00726-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-10-30",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LOS ARTÍCULOS 279-A, 279-B, 279-F Y 279-G DEL CÓDIGO PENAL, PARA FORTALECER LA RESPUESTA DEL ESTADO FRENTE A LOS DELITOS RELACIONADOS CON ARMAS DE FUEGO, MUNICIONES, EXPLOSIVOS Y OTROS MATERIALES RELACIONADOS, A FIN DE CONTRIBUIR A LA SEGURIDAD CIUDADANA Y LA LUCHA CONTRA LA CRIMINALIDAD.",
+   "proponente": "Cámara de Diputados",
+   "agenda": "Seguridad y Estado de derecho",
+   "riesgo_fiscal": false
+  },
+  {
+   "codigo": "00725-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-10-30",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE AUTORIZA LA DESIGNACIÓN EXCEPCIONAL DE DOCENTES A CARGOS DIRECTIVOS EN INSTITUCIONES EDUCATIVAS PÚBLICAS DE EDUCACIÓN BÁSICA REGULAR PARA FORTALECER LA GESTIÓN EDUCATIVA.",
+   "proponente": "Cámara de Diputados",
+   "agenda": "Capital humano: educación y salud",
+   "riesgo_fiscal": false
+  },
+  {
+   "codigo": "00724-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-10-30",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 29 DE LA LEY 27785, LEY ORGÁNICA DEL SISTEMA NACIONAL DE CONTROL Y DE LA CONTRALORÍA GENERAL DE LA REPÚBLICA.",
+   "proponente": "Cámara de Diputados",
+   "agenda": "Seguridad y Estado de derecho",
+   "riesgo_fiscal": false
+  },
+  {
+   "codigo": "00723-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-10-30",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA LEY 30024 PARA GARANTIZAR LA CONTINUIDAD DE LA ATENCIÓN MEDIANTE HISTORIAS CLÍNICAS ELECTRÓNICAS INTEROPERABLES, ACCESIBLES Y SEGURAS.",
+   "proponente": "Cámara de Diputados",
+   "agenda": "Gestión del Estado y simplificación",
+   "riesgo_fiscal": false
+  },
+  {
+   "codigo": "00722-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-10-30",
+   "titulo": "PROPOSICIÓN LEGISLATIVA PARA GARANTIZAR LOS DERECHOS DE LOS TRABAJADORES DE SEGURIDAD DE ESSALUD.",
+   "proponente": "Cámara de Diputados",
+   "agenda": "Inversión, empleo y competitividad",
+   "riesgo_fiscal": false
+  },
+  {
+   "codigo": "00721-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-10-30",
+   "titulo": "PROPOSICIÓN LEGISLATIVA PARA GARANTIZAR LOS DERECHOS DE TRABAJADORES DE LAS EMPRESAS PRESTADORAS DE SERVICIOS DE AGUA POTABLE Y SANEAMIENTO PÚBLICAS DE ACCIONARIADO MUNICIPAL.",
+   "proponente": "Cámara de Diputados",
+   "agenda": "Inversión, empleo y competitividad",
+   "riesgo_fiscal": false
+  },
+  {
+   "codigo": "00720-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-10-30",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE MEDIDAS EXCEPCIONALES PARA LA INCORPORACIÓN LABORAL DE LOS PROFESIONALES, TÉCNICOS Y PERSONAL ADMINISTRATIVO QUE PRESTARON SERVICIOS EN ESSALUD DURANTE LA EMERGENCIA SANITARIA POR LA COVID-19 BAJO LA MODALIDAD DE LOCACIÓN DE SERVICIOS.",
+   "proponente": "Cámara de Diputados",
+   "agenda": "Inversión, empleo y competitividad",
+   "riesgo_fiscal": false
+  },
+  {
+   "codigo": "00719-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-10-30",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
+   "proponente": "Cámara de Diputados",
+   "agenda": "Otros",
+   "riesgo_fiscal": true
+  },
+  {
    "codigo": "00718-2026-2031-CD",
    "camara": "D",
    "estado": "PRESENTADO",
@@ -7499,7 +7634,7 @@
   {
    "codigo": "00699-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-28",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30897, LEY DE PROMOCIÓN DE LA INVERSIÓN Y DESARROLLO DEL DEPARTAMENTO DE LORETO.",
    "proponente": "Cámara de Diputados",
@@ -7509,7 +7644,7 @@
   {
    "codigo": "00698-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-28",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE EL CONTENIDO DEL NUEVO CÓDIGO PROCESAL PENAL, DECRETO LEGISLATIVO 957, CON EL OBJETIVO DE RESTITUIR LOS PRINCIPIOS DE LA INVESTIGACIÓN FISCAL, LUCHA CONTRA LA INSEGURIDAD CIUDADANA Y LA CRIMINALIDAD ORGANIZADA.",
    "proponente": "Cámara de Diputados",
@@ -7519,7 +7654,7 @@
   {
    "codigo": "00697-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-28",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 29944, LEY DE REFORMA MAGISTERIAL, PARA FORTALECER LA FORMACIÓN DOCENTE MEDIANTE LAS CIENCIAS DEL APRENDIZAJE Y LA NEUROEDUCACIÓN BASADA EN EVIDENCIA.",
    "proponente": "Cámara de Diputados",
@@ -7529,7 +7664,7 @@
   {
    "codigo": "00696-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-28",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA ALERTA AMBER Y LA DIFUSIÓN DE INFORMACIÓN PARA LA BÚSQUEDA DE PERSONAS DESAPARECIDAS.",
    "proponente": "Cámara de Diputados",
@@ -7539,7 +7674,7 @@
   {
    "codigo": "00695-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-28",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROPONE LA REFORMA DE LA LEY N° 30453, LEY DEL SISTEMA NACIONAL DE RESIDENTADO MÉDICO (SINAREME)",
    "proponente": "Colegios Profesionales",
@@ -7549,7 +7684,7 @@
   {
    "codigo": "00694-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-28",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 29230, LEY QUE IMPULSA LA INVERSIÓN PÚBLICA REGIONAL Y LOCAL CON PARTICIPACIÓN DEL SECTOR PRIVADO, PARA PRIORIZAR EL CIERRE DE BRECHAS DE INFRAESTRUCTURA, EQUIPAMIENTO Y CAPACIDAD OPERATIVA DE LOS ESTABLECIMIENTOS PÚBLICOS DE SALUD MEDIANTE OBRAS POR IMPUESTOS.",
    "proponente": "Cámara de Diputados",
@@ -7614,86 +7749,6 @@
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE RECONOCE EL TIEMPO DE SERVICIO MILITAR VOLUNTARIO COMO EXPERIENCIA FORMATIVA VALORABLE PARA EL ACCESO AL EMPLEO.",
    "proponente": "Cámara de Diputados",
    "agenda": "Inversión, empleo y competitividad",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00687-2026-2031-CD",
-   "camara": "D",
-   "estado": "EN COMISIÓN",
-   "fecha": "2026-10-27",
-   "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 30 DE LA LEY 28044, LEY GENERAL DE EDUCACIÓN, PARA ESTABLECER LA EXPRESIÓN NUMÉRICA DE LOS RESULTADOS DE LA EVALUACIÓN DE LOS APRENDIZAJES EN LA EDUCACIÓN PRIMARIA Y SECUNDARIA.",
-   "proponente": "Cámara de Diputados",
-   "agenda": "Capital humano: educación y salud",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00686-2026-2031-CD",
-   "camara": "D",
-   "estado": "EN COMISIÓN",
-   "fecha": "2026-10-27",
-   "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 3934/2022-CR, AUTOR: ALEGRÍA GARCIA).  \nPROPOSICIÓN LEGISLATIVA QUE ELIMINA EL USO DE PAPEL BOND EN EL ESTADO Y ESTABLECE MEDIDAS DE ECOEFICIENCIA.",
-   "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
-   "agenda": "Actualización (periodo anterior)",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00685-2026-2031-CD",
-   "camara": "D",
-   "estado": "EN COMISIÓN",
-   "fecha": "2026-10-27",
-   "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 6474/2023-CR, AUTOR: ALEGRÍA GARCIA).  \nPROPOSICIÓN LEGISLATIVA QUE MODIFICA LA DENOMINACIÓN ÁREA DE CONSERVACIÓN PRIVADA POR ÁREA DE CONSERVACIÓN VOLUNTARIA Y RECONOCE EL DÍA DE LA CONSERVACIÓN VOLUNTARIA EN EL PERÚ.",
-   "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
-   "agenda": "Actualización (periodo anterior)",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00684-2026-2031-CD",
-   "camara": "D",
-   "estado": "EN COMISIÓN",
-   "fecha": "2026-10-27",
-   "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 10161/2024-CR, AUTOR: ALEGRÍA GARCIA).  \nPROPOSICIÓN LEGISLATIVA QUE PROMUEVE LA AGRICULTURA SOSTENIBLE Y REGENERATIVA EN EL PERÚ.",
-   "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
-   "agenda": "Actualización (periodo anterior)",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00683-2026-2031-CD",
-   "camara": "D",
-   "estado": "EN COMISIÓN",
-   "fecha": "2026-10-27",
-   "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 08968/2024-CR, AUTOR: ALEGRÍA GARCIA).  \nPROPOSICIÓN LEGISLATIVA PARA LA PREVENCIÓN Y GESTIÓN DE INCENDIOS FORESTALES EN EL PERÚ.",
-   "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
-   "agenda": "Actualización (periodo anterior)",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00682-2026-2031-CD",
-   "camara": "D",
-   "estado": "EN COMISIÓN",
-   "fecha": "2026-10-27",
-   "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 11305/2024-CR, AUTOR: ALEGRÍA GARCIA). \nPROPOSICIÓN LEGISLATIVA QUE INCORPORA A SERFOR EN EL SISTEMA NACIONAL DE ORDENAMIENTO TERRITORIAL PARA ASEGURAR LA SOSTENIBILIDAD FORESTAL EN EL PERÚ.",
-   "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
-   "agenda": "Actualización (periodo anterior)",
-   "riesgo_fiscal": true
-  },
-  {
-   "codigo": "00681-2026-2031-CD",
-   "camara": "D",
-   "estado": "EN COMISIÓN",
-   "fecha": "2026-10-27",
-   "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 29230 PARA FORTALECER LA ESTRUCTURACIÓN INTEGRAL DE LAS INTERVENCIONES, LA GESTIÓN PREDIAL TEMPRANA Y LA PRIORIZACIÓN DE INFRAESTRUCTURA Y SERVICIOS PÚBLICOS DE SALUD Y EDUCACIÓN.",
-   "proponente": "Cámara de Diputados",
-   "agenda": "Infraestructura y conectividad",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00680-2026-2031-CD",
-   "camara": "D",
-   "estado": "EN COMISIÓN",
-   "fecha": "2026-10-27",
-   "titulo": "PROPOSICIÓN LEGISLATIVA LEY QUE MODIFICA LA LEY 27972 LEY ORGÁNICA DE MUNICIPALIDADES PARA FORTALECER LAS GARANTÍAS EN LA IMPOSICIÓN Y COBRANZA DE MULTAS ADMINISTRATIVAS Y EN LA EJECUCIÓN DE MEDIDAS MUNICIPALES.",
-   "proponente": "Cámara de Diputados",
-   "agenda": "Gestión del Estado y simplificación",
    "riesgo_fiscal": false
   }
  ]
