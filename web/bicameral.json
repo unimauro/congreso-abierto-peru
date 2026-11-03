@@ -1,26 +1,26 @@
 {
  "meta": {
-  "generado": "2026-11-02",
+  "generado": "2026-11-03",
   "periodo": "2026-2031",
   "instalacion": "2026-07-27",
   "fuente": "api.congreso.gob.pe/spley-portal-service (codTipoParl S/D/C) · padrón: senado/diputados.congreso.gob.pe"
  },
  "totales": {
-  "proyectos": 758,
-  "leyes": 9,
+  "proyectos": 759,
+  "leyes": 11,
   "congresistas": 190
  },
  "camaras": {
   "D": {
    "nombre": "Cámara de Diputados",
-   "proyectos": 732,
+   "proyectos": 733,
    "leyes": 0,
    "archivados": 93,
    "por_estado": {
-    "EN COMISIÓN": 569,
+    "EN COMISIÓN": 584,
     "Archivado de Plano": 93,
-    "PRESENTADO": 34,
-    "CON DICTAMEN": 17,
+    "CON DICTAMEN": 22,
+    "PRESENTADO": 15,
     "Retirado por su Autor": 9,
     "Expediente de propuesta legislativa remitida al senado de la república": 7,
     "ACTUALIZADA": 2,
@@ -30,16 +30,15 @@
     "2026-08": 102,
     "2026-09": 361,
     "2026-10": 264,
-    "2026-11": 5
+    "2026-11": 6
    },
    "por_proponente": {
-    "Cámara de Diputados": 509,
+    "Cámara de Diputados": 510,
     "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN": 190,
     "Colegios Profesionales": 20,
     "PODER EJECUTIVO": 7,
+    "Gobiernos Locales": 3,
     "Instituciones Públicas Autónomas": 2,
-    "Gobiernos Locales": 2,
-    "Otros Poderes del Estado": 1,
     "Senado de la República": 1
    },
    "materias": {
@@ -51,7 +50,7 @@
     "Economía y tributación": 64,
     "Declarativa / simbólica": 58,
     "Seguridad y orden": 48,
-    "Trabajo y pensiones": 38,
+    "Trabajo y pensiones": 39,
     "Ambiente y recursos": 25,
     "Reforma política y electoral": 20,
     "Descentralización y regiones": 19,
@@ -60,7 +59,7 @@
    },
    "agenda": {
     "Actualización (periodo anterior)": 190,
-    "Inversión, empleo y competitividad": 116,
+    "Inversión, empleo y competitividad": 117,
     "Capital humano: educación y salud": 107,
     "Seguridad y Estado de derecho": 96,
     "Otros": 53,
@@ -80,10 +79,10 @@
     {
      "bancada": "Juntos por el Perú",
      "miembros": 32,
-     "proyectos": 147,
+     "proyectos": 148,
      "por_miembro": 4.6,
      "actualizaciones": 0,
-     "pct_desarrollo": 81.6,
+     "pct_desarrollo": 81.8,
      "pct_simbolico": 0.7
     },
     {
@@ -144,15 +143,15 @@
    "comisiones": [
     {
      "nombre": "Justicia y Derechos Humanos",
-     "proyectos": 118
+     "proyectos": 121
     },
     {
      "nombre": "Educación, Cultura y Deporte",
-     "proyectos": 82
+     "proyectos": 87
     },
     {
      "nombre": "Constitución, Reglamento y Relaciones Exteriores",
-     "proyectos": 74
+     "proyectos": 76
     },
     {
      "nombre": "Economía, Banca, Finanzas e Inteligencia Financiera",
@@ -160,19 +159,19 @@
     },
     {
      "nombre": "Modernización de la Gestión del Estado y Contraloría",
-     "proyectos": 62
-    },
-    {
-     "nombre": "Salud",
-     "proyectos": 44
+     "proyectos": 65
     },
     {
      "nombre": "Infraestructura, Vivienda y Transportes",
-     "proyectos": 42
+     "proyectos": 45
+    },
+    {
+     "nombre": "Salud",
+     "proyectos": 45
     },
     {
      "nombre": "Defensa Nacional y Orden Interno",
-     "proyectos": 40
+     "proyectos": 42
     },
     {
      "nombre": "Trabajo y Seguridad Social",
@@ -180,11 +179,11 @@
     },
     {
      "nombre": "Inclusión Social, Familia, Mujer y Pueblos Andinos, Amazónicos y Afroperuanos",
-     "proyectos": 32
+     "proyectos": 33
     },
     {
      "nombre": "Desarrollo Agrario",
-     "proyectos": 27
+     "proyectos": 28
     },
     {
      "nombre": "Energía y Minas",
@@ -196,7 +195,7 @@
     },
     {
      "nombre": "Producción, Comercio Exterior y Turismo",
-     "proyectos": 11
+     "proyectos": 12
     },
     {
      "nombre": "Defensa del Consumidor y Regulación de los Servicios Públicos",
@@ -211,14 +210,13 @@
   "S": {
    "nombre": "Senado",
    "proyectos": 20,
-   "leyes": 7,
+   "leyes": 9,
    "archivados": 0,
    "por_estado": {
     "EN COMISIÓN": 10,
     "Publicada en el Diario Oficial El Peruano": 6,
-    "APROBADO": 2,
-    "CON DICTAMEN": 1,
-    "AUTÓGRAFA": 1
+    "AUTÓGRAFA": 3,
+    "CON DICTAMEN": 1
    },
    "por_mes": {
     "2026-08": 6,
@@ -365,7 +363,7 @@
    "condicion": "",
    "link": "https://diputados.congreso.gob.pe/diputado/zunini-yerren-ernesto-alonzo/",
    "principal": 30,
-   "firmas": 108,
+   "firmas": 109,
    "simbolicos": 1,
    "actualizaciones": 0,
    "desarrollo": 25,
@@ -409,7 +407,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
@@ -549,7 +547,7 @@
      "codigo": "00017-2026-2031-CD",
      "fecha": "2026-08-11",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL DECRETO LEGISLATIVO 1373, DECRETO LEGISLATIVO SOBRE EXTINCIÓN DE DOMINIO, PARA RESTABLECER LA AUTONOMÍA DEL PROCESO DE EXTINCIÓN DE DOMINIO, Y DEROGA LA LEY 32326",
-     "estado": "EN COMISIÓN",
+     "estado": "CON DICTAMEN",
      "agenda": "Seguridad y Estado de derecho"
     },
     {
@@ -601,14 +599,14 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
      "codigo": "00711-2026-2031-CD",
      "fecha": "2026-10-29",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LOS ARTÍCULOS 66 Y 71 DE LA LEY 30220, LEY UNIVERSITARIA, PARA ESTABLECER LA VOTACIÓN PARITARIA DE DOCENTES Y ESTUDIANTES EN LA ELECCIÓN DE AUTORIDADES DE LAS UNIVERSIDADES PÚBLICAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Capital humano: educación y salud"
     },
     {
@@ -905,7 +903,7 @@
      "codigo": "00013-2026-2031-CD",
      "fecha": "2026-08-10",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL DECRETO LEGISLATIVO 1373 SOBRE EXTINCIÓN DE DOMINIO",
-     "estado": "EN COMISIÓN",
+     "estado": "CON DICTAMEN",
      "agenda": "Seguridad y Estado de derecho"
     },
     {
@@ -1072,7 +1070,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
@@ -1194,14 +1192,14 @@
      "codigo": "00707-2026-2031-CD",
      "fecha": "2026-10-29",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 2 E INCORPORA EL ARTÍCULO 7 EN LA LEY 29159, PARA PROMOVER LA CONECTIVIDAD AÉREA INTERREGIONAL Y EL APROVECHAMIENTO DE LA INFRAESTRUCTURA AEROPORTUARIA.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Infraestructura y conectividad"
     },
     {
      "codigo": "00706-2026-2031-CD",
      "fecha": "2026-10-29",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA INVESTIGACIÓN POLICIAL Y LA LUCHA CONTRA LA DELINCUENCIA MEDIANTE LA COLABORACIÓN DE LOS GOBIERNOS REGIONALES Y LOCALES.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Seguridad y Estado de derecho"
     },
     {
@@ -1323,7 +1321,7 @@
      "codigo": "00705-2026-2031-CD",
      "fecha": "2026-10-29",
      "titulo": "PROPOSICIÓN LEGISLATIVA DE REFORMA CONSTITUCIONAL DE LOS ARTÍCULOS 113 Y 134 DE LA CONSTITUCIÓN POLÍTICA DEL PERÚ PARA GARANTIZAR LA ESTABILIDAD POLÍTICA DEL PAÍS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Reforma política e institucional"
     },
     {
@@ -1344,7 +1342,7 @@
      "codigo": "00612-2026-2031-CD",
      "fecha": "2026-10-19",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32326, LEY QUE MODIFICA EL DECRETO LEGISLATIVO 1373, DECRETO LEGISLATIVO SOBRE EXTINCIÓN DE DOMINIO, A FIN DE PERFECCIONAR EL PROCESO DE EXTINCIÓN DE DOMINIO.",
-     "estado": "EN COMISIÓN",
+     "estado": "CON DICTAMEN",
      "agenda": "Seguridad y Estado de derecho"
     },
     {
@@ -1431,7 +1429,7 @@
      "codigo": "00712-2026-2031-CD",
      "fecha": "2026-10-29",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA GESTIÓN DEL CHATARREO VEHICULAR Y DE LOS DEPÓSITOS VEHICULARES, Y MODIFICA LOS DECRETOS DE URGENCIA 029-2019 Y 019-2020.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
@@ -1530,7 +1528,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/palomino-casavilca-catherin-norma/",
    "principal": 12,
-   "firmas": 52,
+   "firmas": 53,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 9,
@@ -1539,7 +1537,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
@@ -1748,7 +1746,7 @@
      "codigo": "00540-2026-2031-CD",
      "fecha": "2026-10-06",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL DECRETO LEGISLATIVO 1373 PARA FORTALECER LA AUTONOMÍA, EFICACIA Y GARANTÍAS DEL PROCESO DE EXTINCIÓN DE DOMINIO.",
-     "estado": "EN COMISIÓN",
+     "estado": "CON DICTAMEN",
      "agenda": "Seguridad y Estado de derecho"
     },
     {
@@ -1929,7 +1927,7 @@
      "codigo": "00702-2026-2031-CD",
      "fecha": "2026-10-28",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE PRORROGA LAS AUTORIZACIONES OPERATIVAS DE LA COMISIÓN NACIONAL PARA EL DESARROLLO Y VIDA SIN DROGAS (DEVIDA) Y ESTABLECE DISPOSICIONES SOBRE INFORMACIÓN Y TRANSPARENCIA.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Gestión del Estado y simplificación"
     },
     {
@@ -2117,7 +2115,7 @@
      "codigo": "00714-2026-2031-CD",
      "fecha": "2026-10-29",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA RECUPERACIÓN EXTRAJUDICIAL Y JUDICIAL DE PREDIOS DE PROPIEDAD ESTATAL FRENTE A INVASIONES, ESPECIALMENTE EN ZONAS DE RIESGO, Y ESTABLECE RESPONSABILIDAD PENAL Y DISCIPLINARIA POR LA OMISIÓN FUNCIONARIAL EN SU EJECUCIÓN.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Inversión, empleo y competitividad"
     },
     {
@@ -2291,7 +2289,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
@@ -2378,14 +2376,14 @@
      "codigo": "00717-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE EL CONTEO RÁPIDO DE VOTOS OFICIAL A CARGO DE LA OFICINA NACIONAL DE PROCESOS ELECTORALES PARA LAS ELECCIONES GENERALES.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Reforma política e institucional"
     },
     {
      "codigo": "00715-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CREA LA COMISIÓN MULTISECTORIAL PARA EL REGISTRO COMO PATRIMONIO CULTURAL INMATERIAL DE LA DANZA DE LOS CHINCHILPOS Y GAMONALES EN HONOR AL TAYTA NIÑO, EN EL DISTRITO DE HUAYUCACHI, PROVINCIA DE HUANCAYO, DEPARTAMENTO DE JUNÍN.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Simbólico / declarativo"
     },
     {
@@ -2479,7 +2477,7 @@
      "codigo": "00716-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE GARANTIZA EL DERECHO A LA ALIMENTACIÓN SALUDABLE Y LA SEGURIDAD ALIMENTARIA Y NUTRICIONAL DE LAS NIÑAS, NIÑOS Y ADOLESCENTES DE LA EDUCACIÓN BÁSICA REGULAR, EDUCACIÓN BÁSICA ALTERNATIVA Y EDUCACIÓN BÁSICA ESPECIAL DEL PERÚ Y CREA EL SISTEMA NACIONAL DE ALIMENTACIÓN ESCOLAR {SINAES-PE)",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Capital humano: educación y salud"
     },
     {
@@ -2698,7 +2696,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
@@ -2771,7 +2769,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
@@ -2835,7 +2833,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/gonzales-delgado-gabriel-robertino/",
    "principal": 8,
-   "firmas": 57,
+   "firmas": 58,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 7,
@@ -2844,7 +2842,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
@@ -2917,7 +2915,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
@@ -3056,7 +3054,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
@@ -3150,7 +3148,7 @@
      "codigo": "00477-2026-2031-CD",
      "fecha": "2026-10-01",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA FIGURA DE LA EXTINCIÓN DE DOMINIO, CON EL OBJETIVO DE LUCHAR FRONTALMENTE CONTRA EL CRIMEN ORGANIZADO Y EL LAVADO DE ACTIVOS.",
-     "estado": "EN COMISIÓN",
+     "estado": "CON DICTAMEN",
      "agenda": "Seguridad y Estado de derecho"
     },
     {
@@ -3166,6 +3164,72 @@
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 31810, LEY QUE MODIFICA LA LEY 29158 RESPECTO AL ENCARGO DEL DESPACHO DE LA PRESIDENCIA DE LA REPÚBLICA Y DE SU GESTIÓN A TRAVÉS DE TECNOLOGIAS DIGITALES.",
      "estado": "EN COMISIÓN",
      "agenda": "Capital humano: educación y salud"
+    }
+   ]
+  },
+  {
+   "camara": "D",
+   "nombre": "Lavado Valdivia, Marino Teofilo",
+   "bancada": "Juntos por el Perú",
+   "sigla": "JP",
+   "distrito": "La Libertad",
+   "genero": "masculino",
+   "condicion": "en ejercicio",
+   "link": "https://diputados.congreso.gob.pe/diputado/lavado-valdivia-marino-teofilo/",
+   "principal": 7,
+   "firmas": 36,
+   "simbolicos": 0,
+   "actualizaciones": 0,
+   "desarrollo": 5,
+   "proyectos": [
+    {
+     "codigo": "00733-2026-2031-CD",
+     "fecha": "2026-11-02",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 10 DE LA LEY N.° 27282, LEY DE FOMENTO DE LA DONACIÓN DE ÓRGANOS Y TEJIDOS HUMANOS, PARA PROMOVER LA DONACIÓN VOLUNTARIA DE SANGRE MEDIANTE LICENCIA LABORAL REMUNERADA.",
+     "estado": "PRESENTADO",
+     "agenda": "Inversión, empleo y competitividad"
+    },
+    {
+     "codigo": "00719-2026-2031-CD",
+     "fecha": "2026-10-30",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Otros"
+    },
+    {
+     "codigo": "00619-2026-2031-CD",
+     "fecha": "2026-10-20",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE REGULA LA APOLOGÍA DE LA ORGANIZACIÓN CRIMINAL Y DE LA BANDA CRIMINAL.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Seguridad y Estado de derecho"
+    },
+    {
+     "codigo": "00553-2026-2031-CD",
+     "fecha": "2026-10-07",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DISPONE LA INCORPORACIÓN PROGRESIVA DEL PERSONAL DEL PROGRAMA NACIONAL DE CENTROS JUVENILES (PRONACEJ) SUJETO AL DECRETO LEGISLATIVO N.° 1057 AL RÉGIMEN DEL DECRETO LEGISLATIVO N.° 728.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Otros"
+    },
+    {
+     "codigo": "00498-2026-2031-CD",
+     "fecha": "2026-10-02",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE MEDIDAS DE PROTECCIÓN Y UNA EDAD MÍNIMA PARA EL USO DE CUENTAS EN REDES SOCIALES POR NIÑAS, NIÑOS Y ADOLESCENTES.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Inclusión y protección social"
+    },
+    {
+     "codigo": "00364-2026-2031-CD",
+     "fecha": "2026-09-18",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LOS ARTÍCULOS 121 Y 122 DEL CÓDIGO PENAL Y OTRAS DISPOSICIONES PARA LA PROTECCIÓN DEL PERSONAL DE LAS INSTITUCIONES EDUCATIVAS.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Seguridad y Estado de derecho"
+    },
+    {
+     "codigo": "00008-2026-2031-CD",
+     "fecha": "2026-08-10",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32108 Y LA LEY 32138, SOBRE EL CRIMEN ORGANIZADO",
+     "estado": "EN COMISIÓN",
+     "agenda": "Seguridad y Estado de derecho"
     }
    ]
   },
@@ -3268,7 +3332,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
@@ -3386,7 +3450,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
@@ -3511,14 +3575,14 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
      "codigo": "00703-2026-2031-CD",
      "fecha": "2026-10-28",
      "titulo": "PROPOSICIÓN LEGISLATIVA PARA EL FOMENTO Y LA MODERNIZACIÓN DE LOS MERCADOS DE ABASTOS DEL PERÚ.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Inversión, empleo y competitividad"
     },
     {
@@ -3570,7 +3634,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
@@ -3629,14 +3693,14 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
      "codigo": "00700-2026-2031-CD",
      "fecha": "2026-10-28",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE GARANTIZA LA ACREDITACIÓN PLURAL Y EL ACCESO DE LA PRENSA A LOS EVENTOS DEPORTIVOS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
@@ -3671,65 +3735,6 @@
   },
   {
    "camara": "D",
-   "nombre": "Lavado Valdivia, Marino Teofilo",
-   "bancada": "Juntos por el Perú",
-   "sigla": "JP",
-   "distrito": "La Libertad",
-   "genero": "masculino",
-   "condicion": "en ejercicio",
-   "link": "https://diputados.congreso.gob.pe/diputado/lavado-valdivia-marino-teofilo/",
-   "principal": 6,
-   "firmas": 35,
-   "simbolicos": 0,
-   "actualizaciones": 0,
-   "desarrollo": 4,
-   "proyectos": [
-    {
-     "codigo": "00719-2026-2031-CD",
-     "fecha": "2026-10-30",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
-     "agenda": "Otros"
-    },
-    {
-     "codigo": "00619-2026-2031-CD",
-     "fecha": "2026-10-20",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE REGULA LA APOLOGÍA DE LA ORGANIZACIÓN CRIMINAL Y DE LA BANDA CRIMINAL.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Seguridad y Estado de derecho"
-    },
-    {
-     "codigo": "00553-2026-2031-CD",
-     "fecha": "2026-10-07",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DISPONE LA INCORPORACIÓN PROGRESIVA DEL PERSONAL DEL PROGRAMA NACIONAL DE CENTROS JUVENILES (PRONACEJ) SUJETO AL DECRETO LEGISLATIVO N.° 1057 AL RÉGIMEN DEL DECRETO LEGISLATIVO N.° 728.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Otros"
-    },
-    {
-     "codigo": "00498-2026-2031-CD",
-     "fecha": "2026-10-02",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE MEDIDAS DE PROTECCIÓN Y UNA EDAD MÍNIMA PARA EL USO DE CUENTAS EN REDES SOCIALES POR NIÑAS, NIÑOS Y ADOLESCENTES.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Inclusión y protección social"
-    },
-    {
-     "codigo": "00364-2026-2031-CD",
-     "fecha": "2026-09-18",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LOS ARTÍCULOS 121 Y 122 DEL CÓDIGO PENAL Y OTRAS DISPOSICIONES PARA LA PROTECCIÓN DEL PERSONAL DE LAS INSTITUCIONES EDUCATIVAS.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Seguridad y Estado de derecho"
-    },
-    {
-     "codigo": "00008-2026-2031-CD",
-     "fecha": "2026-08-10",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32108 Y LA LEY 32138, SOBRE EL CRIMEN ORGANIZADO",
-     "estado": "EN COMISIÓN",
-     "agenda": "Seguridad y Estado de derecho"
-    }
-   ]
-  },
-  {
-   "camara": "D",
    "nombre": "López Letona, Heber",
    "bancada": "Partido Cívico Obras",
    "sigla": "PCO",
@@ -3747,7 +3752,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
@@ -3924,14 +3929,14 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
      "codigo": "00710-2026-2031-CD",
      "fecha": "2026-10-29",
      "titulo": "PROPOSICIÓN LEGISLATIVA DE ARTICULACIÓN INTERINSTITUCIONAL Y TRAZABILIDAD DE LA CADENA PRODUCTIVA DEL CAFÉ PERUANO.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Inversión, empleo y competitividad"
     },
     {
@@ -3983,7 +3988,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
@@ -4153,14 +4158,14 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
      "codigo": "00718-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE REGULA EL USO DE AERONAVES PILOTADAS A DISTANCIA (DRONES) PARA LA SEGURIDAD CIUDADANA Y LA LUCHA CONTRA LA DELINCUENCIA COMÚN Y EL CRIMEN ORGANIZADO.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Seguridad y Estado de derecho"
     },
     {
@@ -4205,7 +4210,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
@@ -4257,14 +4262,14 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
      "codigo": "00704-2026-2031-CD",
      "fecha": "2026-10-28",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE RESTABLECE EL BACHILLERATO AUTOMÁTICO HASTA EL AÑO ACADÉMICO 2027 PARA LOS EGRESADOS DE UNIVERSIDADES Y DE ESCUELAS DE EDUCACIÓN SUPERIOR.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Capital humano: educación y salud"
     },
     {
@@ -4309,7 +4314,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
@@ -4361,7 +4366,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
@@ -4721,7 +4726,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
@@ -4766,7 +4771,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
@@ -4849,7 +4854,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
@@ -5039,14 +5044,14 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
      "codigo": "00713-2026-2031-CD",
      "fecha": "2026-10-29",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CREA EL REGISTRO DE PUEBLOS EN EL SISTEMA NACIONAL DE LOS REGISTROS PUBLICOS DE SUNARP",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
@@ -5115,14 +5120,14 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
      "codigo": "00713-2026-2031-CD",
      "fecha": "2026-10-29",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CREA EL REGISTRO DE PUEBLOS EN EL SISTEMA NACIONAL DE LOS REGISTROS PUBLICOS DE SUNARP",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
@@ -5153,7 +5158,7 @@
      "codigo": "00701-2026-2031-CD",
      "fecha": "2026-10-28",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30947, LEY DE SALUD MENTAL, PARA FORTALECER LAS GARANTÍAS FRENTE AL INTERNAMIENTO Y LA HOSPITALIZACIÓN SIN CONSENTIMIENTO, LA DETECCIÓN TEMPRANA DEL RIESGO SUICIDA Y LA TRANSPARENCIA Y FISCALIZACIÓN DE RESULTADOS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Capital humano: educación y salud"
     },
     {
@@ -5182,7 +5187,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/tapullima-insapillo-jacqueline-viviana/",
    "principal": 3,
-   "firmas": 19,
+   "firmas": 20,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 1,
@@ -5191,7 +5196,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
@@ -5305,7 +5310,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
@@ -5429,7 +5434,7 @@
      "codigo": "00708-2026-2031-CD",
      "fecha": "2026-10-29",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE UN RÉGIMEN EXCEPCIONAL Y TEMPORAL DE FORMALIZACIÓN DE LA POSESIÓN SOBRE BIENES ESTATALES DE DOMINIO PRIVADO A FAVOR DE PERSONAS DE BAJOS RECURSOS",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Inversión, empleo y competitividad"
     },
     {
@@ -5460,7 +5465,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
@@ -5584,7 +5589,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
@@ -5615,7 +5620,7 @@
      "codigo": "00709-2026-2031-CD",
      "fecha": "2026-10-29",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 15129, ADJUDICANDO A LA UNIVERSIDAD NACIONAL DEL CENTRO DEL PERÚ, CON SEDE EN LA CIUDAD DE HUANCAYO LOS TERRENOS QUE SE INDICA, PARA INCLUIR LA FACULTAD DE CIENCIAS AGRARIAS DE LA SEDE EN SATIPO EN SUS ALCANCES.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Inversión, empleo y competitividad"
     },
     {
@@ -5684,7 +5689,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     }
    ]
@@ -5739,7 +5744,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
@@ -5770,7 +5775,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
@@ -5856,7 +5861,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     }
    ]
@@ -5880,7 +5885,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     }
    ]
@@ -5928,7 +5933,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     }
    ]
@@ -6048,7 +6053,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     }
    ]
@@ -6096,7 +6101,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     }
    ]
@@ -6144,7 +6149,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     }
    ]
@@ -6408,7 +6413,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     }
    ]
@@ -6456,7 +6461,7 @@
      "codigo": "00719-2026-2031-CD",
      "fecha": "2026-10-30",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     }
    ]
@@ -6806,7 +6811,7 @@
      "codigo": "00016-2026-2031-S",
      "fecha": "2026-10-22",
      "titulo": "PROPOSICIÓN DE RESOLUCIÓN LEGISLATIVA QUE APRUEBA EL REGLAMENTO PARA LA ELECCIÓN DE MAGISTRADOS DEL TRIBUNAL CONSTITUCIONAL",
-     "estado": "APROBADO",
+     "estado": "AUTÓGRAFA",
      "agenda": "Reforma política e institucional"
     }
    ]
@@ -6830,7 +6835,7 @@
      "codigo": "00011-2026-2031-S",
      "fecha": "2026-10-02",
      "titulo": "PROPOSICIÓN DE RESOLUCIÓN LEGISLATIVA DEL SENADO QUE APRUEBA EL REGLAMENTO ESPECIAL DE ELECCIÓN DE LOS MAGISTRADOS DEL TRIBUNAL CONSTITUCIONAL",
-     "estado": "APROBADO",
+     "estado": "AUTÓGRAFA",
      "agenda": "Reforma política e institucional"
     }
    ]
@@ -7742,6 +7747,16 @@
  ],
  "recientes": [
   {
+   "codigo": "00733-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-11-02",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 10 DE LA LEY N.° 27282, LEY DE FOMENTO DE LA DONACIÓN DE ÓRGANOS Y TEJIDOS HUMANOS, PARA PROMOVER LA DONACIÓN VOLUNTARIA DE SANGRE MEDIANTE LICENCIA LABORAL REMUNERADA.",
+   "proponente": "Cámara de Diputados",
+   "agenda": "Inversión, empleo y competitividad",
+   "riesgo_fiscal": false
+  },
+  {
    "codigo": "00732-2026-2031-CD",
    "camara": "D",
    "estado": "PRESENTADO",
@@ -7864,7 +7879,7 @@
   {
    "codigo": "00719-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-30",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
    "proponente": "Cámara de Diputados",
@@ -7874,7 +7889,7 @@
   {
    "codigo": "00718-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-30",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE REGULA EL USO DE AERONAVES PILOTADAS A DISTANCIA (DRONES) PARA LA SEGURIDAD CIUDADANA Y LA LUCHA CONTRA LA DELINCUENCIA COMÚN Y EL CRIMEN ORGANIZADO.",
    "proponente": "Cámara de Diputados",
@@ -7884,7 +7899,7 @@
   {
    "codigo": "00717-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-30",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE EL CONTEO RÁPIDO DE VOTOS OFICIAL A CARGO DE LA OFICINA NACIONAL DE PROCESOS ELECTORALES PARA LAS ELECCIONES GENERALES.",
    "proponente": "Cámara de Diputados",
@@ -7894,7 +7909,7 @@
   {
    "codigo": "00716-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-30",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE GARANTIZA EL DERECHO A LA ALIMENTACIÓN SALUDABLE Y LA SEGURIDAD ALIMENTARIA Y NUTRICIONAL DE LAS NIÑAS, NIÑOS Y ADOLESCENTES DE LA EDUCACIÓN BÁSICA REGULAR, EDUCACIÓN BÁSICA ALTERNATIVA Y EDUCACIÓN BÁSICA ESPECIAL DEL PERÚ Y CREA EL SISTEMA NACIONAL DE ALIMENTACIÓN ESCOLAR {SINAES-PE)",
    "proponente": "Cámara de Diputados",
@@ -7904,7 +7919,7 @@
   {
    "codigo": "00715-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-30",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE CREA LA COMISIÓN MULTISECTORIAL PARA EL REGISTRO COMO PATRIMONIO CULTURAL INMATERIAL DE LA DANZA DE LOS CHINCHILPOS Y GAMONALES EN HONOR AL TAYTA NIÑO, EN EL DISTRITO DE HUAYUCACHI, PROVINCIA DE HUANCAYO, DEPARTAMENTO DE JUNÍN.",
    "proponente": "Cámara de Diputados",
@@ -7924,7 +7939,7 @@
   {
    "codigo": "00714-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-29",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA RECUPERACIÓN EXTRAJUDICIAL Y JUDICIAL DE PREDIOS DE PROPIEDAD ESTATAL FRENTE A INVASIONES, ESPECIALMENTE EN ZONAS DE RIESGO, Y ESTABLECE RESPONSABILIDAD PENAL Y DISCIPLINARIA POR LA OMISIÓN FUNCIONARIAL EN SU EJECUCIÓN.",
    "proponente": "Cámara de Diputados",
@@ -7934,7 +7949,7 @@
   {
    "codigo": "00713-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-29",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE CREA EL REGISTRO DE PUEBLOS EN EL SISTEMA NACIONAL DE LOS REGISTROS PUBLICOS DE SUNARP",
    "proponente": "Cámara de Diputados",
@@ -7944,7 +7959,7 @@
   {
    "codigo": "00712-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-29",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA GESTIÓN DEL CHATARREO VEHICULAR Y DE LOS DEPÓSITOS VEHICULARES, Y MODIFICA LOS DECRETOS DE URGENCIA 029-2019 Y 019-2020.",
    "proponente": "Cámara de Diputados",
@@ -7954,7 +7969,7 @@
   {
    "codigo": "00711-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-29",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LOS ARTÍCULOS 66 Y 71 DE LA LEY 30220, LEY UNIVERSITARIA, PARA ESTABLECER LA VOTACIÓN PARITARIA DE DOCENTES Y ESTUDIANTES EN LA ELECCIÓN DE AUTORIDADES DE LAS UNIVERSIDADES PÚBLICAS.",
    "proponente": "Cámara de Diputados",
@@ -7964,7 +7979,7 @@
   {
    "codigo": "00710-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-29",
    "titulo": "PROPOSICIÓN LEGISLATIVA DE ARTICULACIÓN INTERINSTITUCIONAL Y TRAZABILIDAD DE LA CADENA PRODUCTIVA DEL CAFÉ PERUANO.",
    "proponente": "Cámara de Diputados",
@@ -7974,7 +7989,7 @@
   {
    "codigo": "00709-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-29",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 15129, ADJUDICANDO A LA UNIVERSIDAD NACIONAL DEL CENTRO DEL PERÚ, CON SEDE EN LA CIUDAD DE HUANCAYO LOS TERRENOS QUE SE INDICA, PARA INCLUIR LA FACULTAD DE CIENCIAS AGRARIAS DE LA SEDE EN SATIPO EN SUS ALCANCES.",
    "proponente": "Cámara de Diputados",
@@ -7984,7 +7999,7 @@
   {
    "codigo": "00708-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-29",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE UN RÉGIMEN EXCEPCIONAL Y TEMPORAL DE FORMALIZACIÓN DE LA POSESIÓN SOBRE BIENES ESTATALES DE DOMINIO PRIVADO A FAVOR DE PERSONAS DE BAJOS RECURSOS",
    "proponente": "Cámara de Diputados",
@@ -7994,7 +8009,7 @@
   {
    "codigo": "00707-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-29",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 2 E INCORPORA EL ARTÍCULO 7 EN LA LEY 29159, PARA PROMOVER LA CONECTIVIDAD AÉREA INTERREGIONAL Y EL APROVECHAMIENTO DE LA INFRAESTRUCTURA AEROPORTUARIA.",
    "proponente": "Cámara de Diputados",
@@ -8004,7 +8019,7 @@
   {
    "codigo": "00706-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-29",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA INVESTIGACIÓN POLICIAL Y LA LUCHA CONTRA LA DELINCUENCIA MEDIANTE LA COLABORACIÓN DE LOS GOBIERNOS REGIONALES Y LOCALES.",
    "proponente": "Cámara de Diputados",
@@ -8014,7 +8029,7 @@
   {
    "codigo": "00705-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-29",
    "titulo": "PROPOSICIÓN LEGISLATIVA DE REFORMA CONSTITUCIONAL DE LOS ARTÍCULOS 113 Y 134 DE LA CONSTITUCIÓN POLÍTICA DEL PERÚ PARA GARANTIZAR LA ESTABILIDAD POLÍTICA DEL PAÍS.",
    "proponente": "Cámara de Diputados",
@@ -8034,7 +8049,7 @@
   {
    "codigo": "00704-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-28",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE RESTABLECE EL BACHILLERATO AUTOMÁTICO HASTA EL AÑO ACADÉMICO 2027 PARA LOS EGRESADOS DE UNIVERSIDADES Y DE ESCUELAS DE EDUCACIÓN SUPERIOR.",
    "proponente": "Cámara de Diputados",
@@ -8044,7 +8059,7 @@
   {
    "codigo": "00703-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-28",
    "titulo": "PROPOSICIÓN LEGISLATIVA PARA EL FOMENTO Y LA MODERNIZACIÓN DE LOS MERCADOS DE ABASTOS DEL PERÚ.",
    "proponente": "Cámara de Diputados",
@@ -8054,7 +8069,7 @@
   {
    "codigo": "00702-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-28",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PRORROGA LAS AUTORIZACIONES OPERATIVAS DE LA COMISIÓN NACIONAL PARA EL DESARROLLO Y VIDA SIN DROGAS (DEVIDA) Y ESTABLECE DISPOSICIONES SOBRE INFORMACIÓN Y TRANSPARENCIA.",
    "proponente": "Cámara de Diputados",
@@ -8064,7 +8079,7 @@
   {
    "codigo": "00701-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-28",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30947, LEY DE SALUD MENTAL, PARA FORTALECER LAS GARANTÍAS FRENTE AL INTERNAMIENTO Y LA HOSPITALIZACIÓN SIN CONSENTIMIENTO, LA DETECCIÓN TEMPRANA DEL RIESGO SUICIDA Y LA TRANSPARENCIA Y FISCALIZACIÓN DE RESULTADOS.",
    "proponente": "Cámara de Diputados",
@@ -8074,7 +8089,7 @@
   {
    "codigo": "00700-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-10-28",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE GARANTIZA LA ACREDITACIÓN PLURAL Y EL ACCESO DE LA PRENSA A LOS EVENTOS DEPORTIVOS.",
    "proponente": "Cámara de Diputados",
@@ -8129,16 +8144,6 @@
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROPONE LA REFORMA DE LA LEY N° 30453, LEY DEL SISTEMA NACIONAL DE RESIDENTADO MÉDICO (SINAREME)",
    "proponente": "Colegios Profesionales",
    "agenda": "Capital humano: educación y salud",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00694-2026-2031-CD",
-   "camara": "D",
-   "estado": "EN COMISIÓN",
-   "fecha": "2026-10-28",
-   "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 29230, LEY QUE IMPULSA LA INVERSIÓN PÚBLICA REGIONAL Y LOCAL CON PARTICIPACIÓN DEL SECTOR PRIVADO, PARA PRIORIZAR EL CIERRE DE BRECHAS DE INFRAESTRUCTURA, EQUIPAMIENTO Y CAPACIDAD OPERATIVA DE LOS ESTABLECIMIENTOS PÚBLICOS DE SALUD MEDIANTE OBRAS POR IMPUESTOS.",
-   "proponente": "Cámara de Diputados",
-   "agenda": "Finanzas públicas y presupuesto",
    "riesgo_fiscal": false
   }
  ]
