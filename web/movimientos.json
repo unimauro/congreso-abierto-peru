@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generado": "2026-11-01",
+  "generado": "2026-11-03",
   "meses": [
    "2026-05",
    "2026-07",
@@ -92,13 +92,25 @@
      "total": 12799.4
     },
     {
-     "nombre": "GARAY GAMARRA, YURIKO TERUKO",
+     "nombre": "CRUZ TEVEZ, LUZ REBECA",
      "cargo": "ASESOR",
-     "dependencia": "GRUPO PARLAMENTARIO ACCION POPULAR",
+     "dependencia": "GRUPO PARLAMENTARIO ALIANZA PARA EL PROGRESO",
      "total": 12740.1
     },
     {
      "nombre": "RAMOS APAZA, ESTHER GIOVANNA",
+     "cargo": "ASESOR",
+     "dependencia": "GRUPO PARLAMENTARIO LEALTAD NACIONAL",
+     "total": 12740.1
+    },
+    {
+     "nombre": "FLORES PEÑA, JAKELYN",
+     "cargo": "ASESOR",
+     "dependencia": "GRUPO PARLAMENTARIO PERU LIBRE",
+     "total": 12740.1
+    },
+    {
+     "nombre": "YARANGA CAHUANA, YANINA",
      "cargo": "ASESOR",
      "dependencia": "GRUPO PARLAMENTARIO LEALTAD NACIONAL",
      "total": 12740.1
@@ -110,15 +122,9 @@
      "total": 12740.1
     },
     {
-     "nombre": "CRUZ TEVEZ, LUZ REBECA",
+     "nombre": "GUTIERREZ CUBA, SANDRA LIZ",
      "cargo": "ASESOR",
-     "dependencia": "GRUPO PARLAMENTARIO ALIANZA PARA EL PROGRESO",
-     "total": 12740.1
-    },
-    {
-     "nombre": "YARANGA CAHUANA, YANINA",
-     "cargo": "ASESOR",
-     "dependencia": "GRUPO PARLAMENTARIO LEALTAD NACIONAL",
+     "dependencia": "COMISION DE DESCENTRALIZACION, REGIONALIZACION, GOBIERNOS LOCALES Y MODERNIZACION DE LA GESTION DEL ESTADO",
      "total": 12740.1
     },
     {
@@ -128,19 +134,19 @@
      "total": 12740.1
     },
     {
-     "nombre": "GUTIERREZ CUBA, SANDRA LIZ",
+     "nombre": "GARAY GAMARRA, YURIKO TERUKO",
      "cargo": "ASESOR",
-     "dependencia": "COMISION DE DESCENTRALIZACION, REGIONALIZACION, GOBIERNOS LOCALES Y MODERNIZACION DE LA GESTION DEL ESTADO",
+     "dependencia": "GRUPO PARLAMENTARIO ACCION POPULAR",
      "total": 12740.1
     },
     {
-     "nombre": "FLORES PEÑA, JAKELYN",
-     "cargo": "ASESOR",
-     "dependencia": "GRUPO PARLAMENTARIO PERU LIBRE",
-     "total": 12740.1
+     "nombre": "BECERRA SUAREZ, SILVIA SONIA",
+     "cargo": "ASESOR II",
+     "dependencia": "COMISION DE DEFENSA DEL CONSUMIDOR Y ORGANISMOS REGULADORES DE LOS SERVICIOS PUBLICOS",
+     "total": 10486.76
     },
     {
-     "nombre": "ROMERO ORTIZ, DUBERLI ALFI",
+     "nombre": "BANCES FERROÑAN, CARLOS ANTONIO",
      "cargo": "ASESOR II",
      "dependencia": "COMISION DE VIVIENDA Y CONSTRUCCION",
      "total": 10486.76
@@ -149,12 +155,6 @@
      "nombre": "ELERA RUIZ, MARIA YVETTE",
      "cargo": "ASESOR II",
      "dependencia": "LAURA ROJAS JUDITH",
-     "total": 10486.76
-    },
-    {
-     "nombre": "BANCES FERROÑAN, CARLOS ANTONIO",
-     "cargo": "ASESOR II",
-     "dependencia": "COMISION DE VIVIENDA Y CONSTRUCCION",
      "total": 10486.76
     }
    ],
@@ -351,15 +351,15 @@
      "total": 20075.5
     },
     {
-     "nombre": "LADRON DE GUEVARA BOZA, CHRISTIAN MANUEL",
-     "cargo": "ASESOR COORDINADOR",
-     "dependencia": "TERCERA VICEPRESIDENCIA DEL SENADO",
-     "total": 18985.3
-    },
-    {
      "nombre": "REYES MARTINEZ, ALVARO JAVIER",
      "cargo": "ASESOR COORDINADOR",
      "dependencia": "TERCERA VICEPRESIDENCIA DE LA CAMARA DE DIPUTADOS",
+     "total": 18985.3
+    },
+    {
+     "nombre": "LADRON DE GUEVARA BOZA, CHRISTIAN MANUEL",
+     "cargo": "ASESOR COORDINADOR",
+     "dependencia": "TERCERA VICEPRESIDENCIA DEL SENADO",
      "total": 18985.3
     },
     {
@@ -399,9 +399,9 @@
      "total": 17524.89
     },
     {
-     "nombre": "HUACCHILLO GONZALES, MANUEL CEFERINO",
-     "cargo": "ASESOR",
-     "dependencia": "PRIMERA VICEPRESIDENCIA DEL SENADO",
+     "nombre": "PALOMINO DE LA GALA, MIGUEL JULIAN",
+     "cargo": "ASESOR COORDINADOR",
+     "dependencia": "GRUPO PARLAMENTARIO JUNTOS POR EL PERU DEL SENADO",
      "total": 16732.9
     }
    ],
@@ -557,8 +557,8 @@
     "COORDINADOR": 5,
     "ASISTENTE": 3,
     "ASESOR PRINCIPAL": 3,
-    "ASESOR I": 1,
-    "TECNICO EN CONTABILIDAD": 1
+    "TECNICO EN TRANSCRIPCIONES": 1,
+    "JEFE": 1
    },
    "top_altas": [
     {
@@ -616,15 +616,15 @@
      "total": 14877.99
     },
     {
-     "nombre": "HANANEL GARCIA, MENAHEM GUSTAVO",
-     "cargo": "JEFE",
-     "dependencia": "DEPARTAMENTO DE SEGURIDAD",
-     "total": 14870.73
-    },
-    {
      "nombre": "DE LA CRUZ PALOMINO, BETTY MARITSABEL",
      "cargo": "JEFE",
      "dependencia": "DEPARTAMENTO DE ASESORAMIENTO CIENTIFICO",
+     "total": 14870.73
+    },
+    {
+     "nombre": "HANANEL GARCIA, MENAHEM GUSTAVO",
+     "cargo": "JEFE",
+     "dependencia": "DEPARTAMENTO DE SEGURIDAD",
      "total": 14870.73
     },
     {
@@ -646,9 +646,9 @@
      "total": 14717.05
     },
     {
-     "nombre": "VIDAL CAYCHO, RENZO JAIR",
-     "cargo": "ASESOR",
-     "dependencia": "GRUPO PARLAMENTARIO RENOVACION POPULAR DEL SENADO",
+     "nombre": "PINARES PAYNE, GABRIELA FERNANDA",
+     "cargo": "ASESOR PRINCIPAL",
+     "dependencia": "LOPEZ LETONA HEBER",
      "total": 14700.11
     }
    ],
@@ -702,20 +702,20 @@
      "cargo_antes": "ASESOR I"
     },
     {
-     "nombre": "ROMERO CASAVILCA, LENIN STIWAR",
-     "cargo": "ASESOR I",
-     "dependencia": "COMISION DE JUSTICIA Y DERECHOS HUMANOS DE LA CAMARA DE DIPUTADOS",
-     "total": 14700.11,
-     "antes": 2441.5,
-     "cargo_antes": "ASESOR I"
-    },
-    {
      "nombre": "ZELADA RABANAL, ENVER THOMAS",
      "cargo": "ASESOR PRINCIPAL",
      "dependencia": "PALOMINO CASAVILCA CATHERIN NORMA",
      "total": 14700.11,
      "antes": 2441.5,
      "cargo_antes": "ASESOR PRINCIPAL"
+    },
+    {
+     "nombre": "ROMERO CASAVILCA, LENIN STIWAR",
+     "cargo": "ASESOR I",
+     "dependencia": "COMISION DE JUSTICIA Y DERECHOS HUMANOS DE LA CAMARA DE DIPUTADOS",
+     "total": 14700.11,
+     "antes": 2441.5,
+     "cargo_antes": "ASESOR I"
     },
     {
      "nombre": "BACA GOMEZ SANCHEZ, RODOLFO",
@@ -758,17 +758,17 @@
      "cargo_antes": "ASESOR I"
     },
     {
-     "nombre": "CACCHA BUSTOS, MIGUEL ANGEL",
+     "nombre": "BURGA CARBAJAL, JOSE FRANCISCO",
      "cargo": "ASESOR PRINCIPAL",
-     "dependencia": "MUÑANTE BARRIOS ALEJANDRO",
+     "dependencia": "CHIPANA CONDORI GRACIELA",
      "total": 14700.11,
      "antes": 3418.1,
      "cargo_antes": "ASESOR PRINCIPAL"
     },
     {
-     "nombre": "BURGA CARBAJAL, JOSE FRANCISCO",
+     "nombre": "CACCHA BUSTOS, MIGUEL ANGEL",
      "cargo": "ASESOR PRINCIPAL",
-     "dependencia": "CHIPANA CONDORI GRACIELA",
+     "dependencia": "MUÑANTE BARRIOS ALEJANDRO",
      "total": 14700.11,
      "antes": 3418.1,
      "cargo_antes": "ASESOR PRINCIPAL"
