@@ -2527,7 +2527,7 @@
   },
   {
    "camara": "D",
-   "nombre": "Castrejón Fernández, Segundo Juan",
+   "nombre": "Castrejon Fernandez, Segundo Juan",
    "sigla": "PBG",
    "pases": 34,
    "presente": 33,
@@ -5032,7 +5032,7 @@
   }
  ],
  "meta": {
-  "generado": "2026-11-03",
+  "generado": "2026-11-05",
   "fuente": "Reportes de asistencia y votación del Pleno (PDF) · diputados/senado.congreso.gob.pe",
   "nota": "Pases de lista y votaciones validados contra el total oficial al pie de cada bloque; los escaneos se leen con OCR. Licencias (viaje, enfermedad, oficial…) no cuentan como ausencia."
  }
