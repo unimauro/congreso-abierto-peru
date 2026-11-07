@@ -35,6 +35,14 @@
        "ausente": 2,
        "si": 13
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -70,6 +78,14 @@
        "ausente": 2,
        "si": 13
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -104,6 +120,14 @@
        "si": 14,
        "ausente": 1
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -138,6 +162,14 @@
        "si": 12,
        "ausente": 3
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -174,6 +206,14 @@
       "RP": {
        "si": 14
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "no",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -209,6 +249,14 @@
       "RP": {
        "si": 15
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "no",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -244,6 +292,14 @@
       "RP": {
        "no": 15
       }
+     },
+     "posicion": {
+      "AN": "no",
+      "FP": "no",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "no",
+      "RP": "no"
      }
     },
     {
@@ -276,6 +332,14 @@
        "si": 14,
        "ausente": 1
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -310,6 +374,12 @@
        "ausente": 14,
        "sin_resp": 1
       }
+     },
+     "posicion": {
+      "AN": "no",
+      "JP": "no",
+      "PBG": "no",
+      "PCO": "no"
      }
     },
     {
@@ -344,6 +414,14 @@
       "RP": {
        "no": 15
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "no",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "no"
      }
     },
     {
@@ -378,6 +456,14 @@
        "si": 14,
        "ausente": 1
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "no",
+      "JP": "no",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -410,6 +496,14 @@
        "ausente": 2,
        "si": 13
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -445,6 +539,14 @@
        "si": 11,
        "ausente": 4
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -478,6 +580,14 @@
        "ausente": 3,
        "no": 12
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "no",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "no"
      }
     },
     {
@@ -511,6 +621,14 @@
        "ausente": 4,
        "no": 11
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "no",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "no"
      }
     },
     {
@@ -546,6 +664,14 @@
        "ausente": 3,
        "no": 12
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "no",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "no"
      }
     },
     {
@@ -581,6 +707,14 @@
        "ausente": 3,
        "no": 10
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "no",
+      "JP": "si",
+      "PBG": "no",
+      "PCO": "si",
+      "RP": "no"
      }
     },
     {
@@ -615,6 +749,14 @@
        "ausente": 2,
        "si": 10
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -647,6 +789,14 @@
       "RP": {
        "si": 15
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     }
    ],
@@ -772,6 +922,14 @@
        "si": 7,
        "ausente": 1
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "no",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -805,6 +963,14 @@
        "si": 5,
        "sin_resp": 2
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -837,6 +1003,14 @@
       "RP": {
        "si": 8
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -868,6 +1042,14 @@
       "RP": {
        "si": 8
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "no",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -902,6 +1084,14 @@
        "ausente": 1,
        "si": 7
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "no",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -936,6 +1126,14 @@
       "RP": {
        "si": 7
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -968,6 +1166,14 @@
       "RP": {
        "si": 7
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -1002,6 +1208,14 @@
        "ausente": 1,
        "si": 7
       }
+     },
+     "posicion": {
+      "AN": "no",
+      "FP": "si",
+      "JP": "no",
+      "PBG": "no",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -1034,6 +1248,14 @@
        "ausente": 1,
        "no": 7
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "no",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "no",
+      "RP": "no"
      }
     },
     {
@@ -1066,6 +1288,14 @@
        "ausente": 1,
        "no": 7
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "no",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "no",
+      "RP": "no"
      }
     },
     {
@@ -1100,6 +1330,13 @@
       "RP": {
        "si": 7
       }
+     },
+     "posicion": {
+      "AN": "no",
+      "FP": "si",
+      "JP": "no",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -1132,6 +1369,14 @@
        "ausente": 1,
        "si": 7
       }
+     },
+     "posicion": {
+      "AN": "no",
+      "FP": "si",
+      "JP": "no",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -1162,6 +1407,14 @@
       "RP": {
        "si": 6
       }
+     },
+     "posicion": {
+      "AN": "no",
+      "FP": "si",
+      "JP": "no",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -1195,6 +1448,14 @@
        "no": 7,
        "ausente": 1
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "no",
+      "JP": "si",
+      "PBG": "no",
+      "PCO": "si",
+      "RP": "no"
      }
     },
     {
@@ -1226,6 +1487,14 @@
       "RP": {
        "si": 8
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -1257,6 +1526,14 @@
       "RP": {
        "si": 8
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -1290,6 +1567,14 @@
        "ausente": 2,
        "si": 6
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "no",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -1323,6 +1608,14 @@
        "ausente": 3,
        "si": 5
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -1357,6 +1650,13 @@
        "ausente": 3,
        "si": 4
       }
+     },
+     "posicion": {
+      "FP": "si",
+      "JP": "no",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -1390,6 +1690,13 @@
        "ausente": 3,
        "si": 5
       }
+     },
+     "posicion": {
+      "FP": "si",
+      "JP": "no",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -1424,6 +1731,14 @@
        "sin_resp": 1,
        "si": 7
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "no",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -1457,6 +1772,14 @@
       "RP": {
        "si": 7
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -1490,6 +1813,14 @@
        "si": 7,
        "ausente": 1
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -1523,6 +1854,14 @@
        "si": 6,
        "ausente": 1
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -1558,6 +1897,14 @@
        "si": 7,
        "ausente": 1
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -1591,6 +1938,14 @@
       "RP": {
        "si": 7
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "no",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -1627,6 +1982,14 @@
        "si": 4,
        "ausente": 3
       }
+     },
+     "posicion": {
+      "AN": "no",
+      "FP": "si",
+      "JP": "no",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -1660,6 +2023,14 @@
        "si": 6,
        "ausente": 2
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -1691,6 +2062,14 @@
       "RP": {
        "no": 8
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "no",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "no"
      }
     },
     {
@@ -1724,6 +2103,13 @@
       "RP": {
        "si": 8
       }
+     },
+     "posicion": {
+      "AN": "no",
+      "FP": "si",
+      "JP": "no",
+      "PBG": "no",
+      "RP": "si"
      }
     },
     {
@@ -1759,6 +2145,14 @@
       "RP": {
        "no": 8
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "no",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "no"
      }
     },
     {
@@ -1791,6 +2185,14 @@
       "RP": {
        "si": 6
       }
+     },
+     "posicion": {
+      "AN": "no",
+      "FP": "si",
+      "JP": "no",
+      "PBG": "no",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -1824,6 +2226,14 @@
        "si": 7,
        "sin_resp": 1
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -1856,6 +2266,14 @@
        "si": 7,
        "ausente": 1
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -1888,6 +2306,14 @@
       "RP": {
        "si": 8
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -1920,6 +2346,14 @@
       "RP": {
        "si": 7
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -1951,6 +2385,14 @@
       "RP": {
        "si": 8
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -1985,6 +2427,14 @@
       "RP": {
        "si": 8
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -2017,6 +2467,14 @@
       "RP": {
        "si": 8
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     },
     {
@@ -2050,6 +2508,14 @@
       "RP": {
        "si": 8
       }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "si",
+      "PBG": "si",
+      "PCO": "si",
+      "RP": "si"
      }
     }
    ],
@@ -2178,6 +2644,8 @@
    "no": 8,
    "abst": 0,
    "no_voto": 3,
+   "con_bancada": 15,
+   "contra_bancada": 1,
    "pct_asistencia": 96.8
   },
   {
@@ -2193,6 +2661,8 @@
    "no": 3,
    "abst": 0,
    "no_voto": 4,
+   "con_bancada": 10,
+   "contra_bancada": 5,
    "pct_asistencia": 90.6
   },
   {
@@ -2208,6 +2678,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 17,
+   "contra_bancada": 2,
    "pct_asistencia": 97.1
   },
   {
@@ -2223,6 +2695,8 @@
    "no": 3,
    "abst": 0,
    "no_voto": 3,
+   "con_bancada": 14,
+   "contra_bancada": 2,
    "pct_asistencia": 96.9
   },
   {
@@ -2238,6 +2712,8 @@
    "no": 8,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 17,
+   "contra_bancada": 1,
    "pct_asistencia": 85.3
   },
   {
@@ -2253,6 +2729,8 @@
    "no": 1,
    "abst": 0,
    "no_voto": 2,
+   "con_bancada": 17,
+   "contra_bancada": 0,
    "pct_asistencia": 81.8
   },
   {
@@ -2268,6 +2746,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 3,
+   "con_bancada": 16,
+   "contra_bancada": 0,
    "pct_asistencia": 87.1
   },
   {
@@ -2283,6 +2763,8 @@
    "no": 7,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 16,
+   "contra_bancada": 0,
    "pct_asistencia": 87.1
   },
   {
@@ -2298,6 +2780,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 9,
+   "con_bancada": 10,
+   "contra_bancada": 0,
    "pct_asistencia": 87.5
   },
   {
@@ -2313,6 +2797,8 @@
    "no": 0,
    "abst": 0,
    "no_voto": 10,
+   "con_bancada": 7,
+   "contra_bancada": 0,
    "pct_asistencia": 61.3
   },
   {
@@ -2328,6 +2814,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 19,
+   "contra_bancada": 0,
    "pct_asistencia": 100.0
   },
   {
@@ -2343,6 +2831,8 @@
    "no": 6,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 18,
+   "contra_bancada": 0,
    "pct_asistencia": 97.1
   },
   {
@@ -2358,6 +2848,8 @@
    "no": 5,
    "abst": 0,
    "no_voto": 6,
+   "con_bancada": 13,
+   "contra_bancada": 0,
    "pct_asistencia": 68.8
   },
   {
@@ -2373,6 +2865,8 @@
    "no": 5,
    "abst": 0,
    "no_voto": 3,
+   "con_bancada": 14,
+   "contra_bancada": 0,
    "pct_asistencia": 82.4
   },
   {
@@ -2388,6 +2882,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 2,
+   "con_bancada": 17,
+   "contra_bancada": 0,
    "pct_asistencia": 96.4
   },
   {
@@ -2403,6 +2899,8 @@
    "no": 8,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 17,
+   "contra_bancada": 1,
    "pct_asistencia": 82.4
   },
   {
@@ -2418,6 +2916,8 @@
    "no": 7,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 16,
+   "contra_bancada": 0,
    "pct_asistencia": 97.1
   },
   {
@@ -2433,6 +2933,8 @@
    "no": 6,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 18,
+   "contra_bancada": 0,
    "pct_asistencia": 97.1
   },
   {
@@ -2448,6 +2950,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 19,
+   "contra_bancada": 0,
    "pct_asistencia": 97.1
   },
   {
@@ -2463,6 +2967,8 @@
    "no": 3,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 18,
+   "contra_bancada": 1,
    "pct_asistencia": 100.0
   },
   {
@@ -2478,6 +2984,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 3,
+   "con_bancada": 16,
+   "contra_bancada": 0,
    "pct_asistencia": 82.4
   },
   {
@@ -2493,6 +3001,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 19,
+   "contra_bancada": 0,
    "pct_asistencia": 91.2
   },
   {
@@ -2508,6 +3018,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 5,
+   "con_bancada": 14,
+   "contra_bancada": 0,
    "pct_asistencia": 80.6
   },
   {
@@ -2523,6 +3035,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 16,
+   "contra_bancada": 2,
    "pct_asistencia": 97.1
   },
   {
@@ -2538,6 +3052,8 @@
    "no": 7,
    "abst": 0,
    "no_voto": 2,
+   "con_bancada": 15,
+   "contra_bancada": 0,
    "pct_asistencia": 91.2
   },
   {
@@ -2553,6 +3069,8 @@
    "no": 7,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 18,
+   "contra_bancada": 0,
    "pct_asistencia": 97.1
   },
   {
@@ -2568,6 +3086,8 @@
    "no": 7,
    "abst": 0,
    "no_voto": 4,
+   "con_bancada": 15,
+   "contra_bancada": 0,
    "pct_asistencia": 92.9
   },
   {
@@ -2583,6 +3103,8 @@
    "no": 6,
    "abst": 0,
    "no_voto": 4,
+   "con_bancada": 15,
+   "contra_bancada": 0,
    "pct_asistencia": 64.7
   },
   {
@@ -2598,6 +3120,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 8,
+   "con_bancada": 11,
+   "contra_bancada": 0,
    "pct_asistencia": 84.0
   },
   {
@@ -2613,6 +3137,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 2,
+   "con_bancada": 17,
+   "contra_bancada": 0,
    "pct_asistencia": 100.0
   },
   {
@@ -2628,6 +3154,8 @@
    "no": 6,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 18,
+   "contra_bancada": 0,
    "pct_asistencia": 100.0
   },
   {
@@ -2643,6 +3171,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 19,
+   "contra_bancada": 0,
    "pct_asistencia": 97.1
   },
   {
@@ -2658,6 +3188,8 @@
    "no": 7,
    "abst": 0,
    "no_voto": 4,
+   "con_bancada": 15,
+   "contra_bancada": 0,
    "pct_asistencia": 85.7
   },
   {
@@ -2673,6 +3205,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 19,
+   "contra_bancada": 0,
    "pct_asistencia": 97.1
   },
   {
@@ -2688,6 +3222,8 @@
    "no": 5,
    "abst": 0,
    "no_voto": 2,
+   "con_bancada": 15,
+   "contra_bancada": 0,
    "pct_asistencia": 94.1
   },
   {
@@ -2703,6 +3239,8 @@
    "no": 7,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 18,
+   "contra_bancada": 0,
    "pct_asistencia": 93.9
   },
   {
@@ -2718,6 +3256,8 @@
    "no": 6,
    "abst": 0,
    "no_voto": 3,
+   "con_bancada": 15,
+   "contra_bancada": 0,
    "pct_asistencia": 75.8
   },
   {
@@ -2733,6 +3273,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 4,
+   "con_bancada": 15,
+   "contra_bancada": 0,
    "pct_asistencia": 82.1
   },
   {
@@ -2748,6 +3290,8 @@
    "no": 3,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 17,
+   "contra_bancada": 1,
    "pct_asistencia": 91.2
   },
   {
@@ -2763,6 +3307,8 @@
    "no": 0,
    "abst": 0,
    "no_voto": 11,
+   "con_bancada": 8,
+   "contra_bancada": 0,
    "pct_asistencia": 83.3
   },
   {
@@ -2778,6 +3324,8 @@
    "no": 3,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 18,
+   "contra_bancada": 0,
    "pct_asistencia": 79.4
   },
   {
@@ -2793,6 +3341,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 19,
+   "contra_bancada": 0,
    "pct_asistencia": 97.0
   },
   {
@@ -2808,6 +3358,8 @@
    "no": 3,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 13,
+   "contra_bancada": 2,
    "pct_asistencia": 96.7
   },
   {
@@ -2823,6 +3375,8 @@
    "no": 7,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 18,
+   "contra_bancada": 0,
    "pct_asistencia": 100.0
   },
   {
@@ -2838,6 +3392,8 @@
    "no": 3,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 18,
+   "contra_bancada": 0,
    "pct_asistencia": 100.0
   },
   {
@@ -2853,6 +3409,8 @@
    "no": 6,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 16,
+   "contra_bancada": 0,
    "pct_asistencia": 91.2
   },
   {
@@ -2868,6 +3426,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 17,
+   "contra_bancada": 0,
    "pct_asistencia": 100.0
   },
   {
@@ -2883,6 +3443,8 @@
    "no": 5,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 16,
+   "contra_bancada": 0,
    "pct_asistencia": 97.0
   },
   {
@@ -2898,6 +3460,8 @@
    "no": 3,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 17,
+   "contra_bancada": 0,
    "pct_asistencia": 97.1
   },
   {
@@ -2913,6 +3477,8 @@
    "no": 1,
    "abst": 0,
    "no_voto": 2,
+   "con_bancada": 15,
+   "contra_bancada": 0,
    "pct_asistencia": 91.2
   },
   {
@@ -2928,6 +3494,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 18,
+   "contra_bancada": 0,
    "pct_asistencia": 97.1
   },
   {
@@ -2943,6 +3511,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 19,
+   "contra_bancada": 0,
    "pct_asistencia": 97.1
   },
   {
@@ -2958,6 +3528,8 @@
    "no": 1,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 17,
+   "contra_bancada": 1,
    "pct_asistencia": 97.1
   },
   {
@@ -2973,6 +3545,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 19,
+   "contra_bancada": 0,
    "pct_asistencia": 97.1
   },
   {
@@ -2988,6 +3562,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 19,
+   "contra_bancada": 0,
    "pct_asistencia": 100.0
   },
   {
@@ -3003,6 +3579,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 15,
+   "contra_bancada": 4,
    "pct_asistencia": 100.0
   },
   {
@@ -3018,6 +3596,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 2,
+   "con_bancada": 15,
+   "contra_bancada": 0,
    "pct_asistencia": 96.8
   },
   {
@@ -3033,6 +3613,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 15,
+   "contra_bancada": 4,
    "pct_asistencia": 88.2
   },
   {
@@ -3048,6 +3630,8 @@
    "no": 7,
    "abst": 0,
    "no_voto": 2,
+   "con_bancada": 15,
+   "contra_bancada": 0,
    "pct_asistencia": 91.2
   },
   {
@@ -3063,6 +3647,8 @@
    "no": 3,
    "abst": 0,
    "no_voto": 2,
+   "con_bancada": 16,
+   "contra_bancada": 0,
    "pct_asistencia": 93.3
   },
   {
@@ -3078,6 +3664,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 18,
+   "contra_bancada": 0,
    "pct_asistencia": 97.1
   },
   {
@@ -3093,6 +3681,8 @@
    "no": 6,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 18,
+   "contra_bancada": 0,
    "pct_asistencia": 88.2
   },
   {
@@ -3108,6 +3698,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 2,
+   "con_bancada": 17,
+   "contra_bancada": 0,
    "pct_asistencia": 100.0
   },
   {
@@ -3123,6 +3715,8 @@
    "no": 6,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 17,
+   "contra_bancada": 0,
    "pct_asistencia": 91.2
   },
   {
@@ -3138,6 +3732,8 @@
    "no": 3,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 18,
+   "contra_bancada": 1,
    "pct_asistencia": 97.1
   },
   {
@@ -3153,6 +3749,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 18,
+   "contra_bancada": 0,
    "pct_asistencia": 94.1
   },
   {
@@ -3168,6 +3766,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 18,
+   "contra_bancada": 0,
    "pct_asistencia": 100.0
   },
   {
@@ -3183,6 +3783,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 16,
+   "contra_bancada": 0,
    "pct_asistencia": 70.6
   },
   {
@@ -3198,6 +3800,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 19,
+   "contra_bancada": 0,
    "pct_asistencia": 82.4
   },
   {
@@ -3213,6 +3817,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 19,
+   "contra_bancada": 0,
    "pct_asistencia": 100.0
   },
   {
@@ -3228,6 +3834,8 @@
    "no": 6,
    "abst": 0,
    "no_voto": 2,
+   "con_bancada": 17,
+   "contra_bancada": 0,
    "pct_asistencia": 83.9
   },
   {
@@ -3243,6 +3851,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 2,
+   "con_bancada": 16,
+   "contra_bancada": 0,
    "pct_asistencia": 93.5
   },
   {
@@ -3258,6 +3868,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 18,
+   "contra_bancada": 0,
    "pct_asistencia": 97.1
   },
   {
@@ -3273,6 +3885,8 @@
    "no": 7,
    "abst": 0,
    "no_voto": 2,
+   "con_bancada": 17,
+   "contra_bancada": 0,
    "pct_asistencia": 96.9
   },
   {
@@ -3288,6 +3902,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 19,
+   "contra_bancada": 0,
    "pct_asistencia": 94.1
   },
   {
@@ -3303,6 +3919,8 @@
    "no": 7,
    "abst": 0,
    "no_voto": 2,
+   "con_bancada": 17,
+   "contra_bancada": 0,
    "pct_asistencia": 82.4
   },
   {
@@ -3318,6 +3936,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 18,
+   "contra_bancada": 0,
    "pct_asistencia": 94.1
   },
   {
@@ -3333,6 +3953,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 19,
+   "contra_bancada": 0,
    "pct_asistencia": 85.3
   },
   {
@@ -3348,6 +3970,8 @@
    "no": 7,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 18,
+   "contra_bancada": 0,
    "pct_asistencia": 97.1
   },
   {
@@ -3363,6 +3987,8 @@
    "no": 7,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 18,
+   "contra_bancada": 0,
    "pct_asistencia": 91.2
   },
   {
@@ -3378,6 +4004,8 @@
    "no": 7,
    "abst": 0,
    "no_voto": 3,
+   "con_bancada": 16,
+   "contra_bancada": 0,
    "pct_asistencia": 88.2
   },
   {
@@ -3393,6 +4021,8 @@
    "no": 3,
    "abst": 0,
    "no_voto": 7,
+   "con_bancada": 10,
+   "contra_bancada": 0,
    "pct_asistencia": 96.2
   },
   {
@@ -3408,6 +4038,8 @@
    "no": 6,
    "abst": 0,
    "no_voto": 2,
+   "con_bancada": 14,
+   "contra_bancada": 0,
    "pct_asistencia": 91.2
   },
   {
@@ -3423,6 +4055,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 17,
+   "contra_bancada": 0,
    "pct_asistencia": 97.1
   },
   {
@@ -3438,6 +4072,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 2,
+   "con_bancada": 15,
+   "contra_bancada": 0,
    "pct_asistencia": 82.4
   },
   {
@@ -3453,6 +4089,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 2,
+   "con_bancada": 17,
+   "contra_bancada": 0,
    "pct_asistencia": 91.2
   },
   {
@@ -3468,6 +4106,8 @@
    "no": 7,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 16,
+   "contra_bancada": 0,
    "pct_asistencia": 88.2
   },
   {
@@ -3483,6 +4123,8 @@
    "no": 7,
    "abst": 0,
    "no_voto": 3,
+   "con_bancada": 15,
+   "contra_bancada": 0,
    "pct_asistencia": 87.9
   },
   {
@@ -3498,6 +4140,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 18,
+   "contra_bancada": 0,
    "pct_asistencia": 94.1
   },
   {
@@ -3513,6 +4157,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 18,
+   "contra_bancada": 0,
    "pct_asistencia": 97.1
   },
   {
@@ -3528,6 +4174,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 16,
+   "contra_bancada": 0,
    "pct_asistencia": 100.0
   },
   {
@@ -3543,6 +4191,8 @@
    "no": 7,
    "abst": 0,
    "no_voto": 2,
+   "con_bancada": 17,
+   "contra_bancada": 0,
    "pct_asistencia": 96.9
   },
   {
@@ -3558,6 +4208,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 17,
+   "contra_bancada": 0,
    "pct_asistencia": 91.2
   },
   {
@@ -3573,6 +4225,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 19,
+   "contra_bancada": 0,
    "pct_asistencia": 100.0
   },
   {
@@ -3588,6 +4242,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 17,
+   "contra_bancada": 0,
    "pct_asistencia": 91.2
   },
   {
@@ -3603,6 +4259,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 16,
+   "contra_bancada": 0,
    "pct_asistencia": 94.1
   },
   {
@@ -3618,6 +4276,8 @@
    "no": 0,
    "abst": 0,
    "no_voto": 6,
+   "con_bancada": 13,
+   "contra_bancada": 0,
    "pct_asistencia": 79.4
   },
   {
@@ -3633,6 +4293,8 @@
    "no": 7,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 14,
+   "contra_bancada": 0,
    "pct_asistencia": 96.8
   },
   {
@@ -3648,6 +4310,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 16,
+   "contra_bancada": 0,
    "pct_asistencia": 85.3
   },
   {
@@ -3663,6 +4327,8 @@
    "no": 5,
    "abst": 0,
    "no_voto": 7,
+   "con_bancada": 12,
+   "contra_bancada": 0,
    "pct_asistencia": 73.3
   },
   {
@@ -3678,6 +4344,8 @@
    "no": 0,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 0,
+   "contra_bancada": 0,
    "pct_asistencia": 91.2
   },
   {
@@ -3693,6 +4361,8 @@
    "no": 7,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 17,
+   "contra_bancada": 0,
    "pct_asistencia": 88.2
   },
   {
@@ -3708,6 +4378,8 @@
    "no": 6,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 18,
+   "contra_bancada": 0,
    "pct_asistencia": 91.2
   },
   {
@@ -3723,6 +4395,8 @@
    "no": 5,
    "abst": 0,
    "no_voto": 5,
+   "con_bancada": 14,
+   "contra_bancada": 0,
    "pct_asistencia": 85.3
   },
   {
@@ -3738,6 +4412,8 @@
    "no": 0,
    "abst": 0,
    "no_voto": 7,
+   "con_bancada": 9,
+   "contra_bancada": 0,
    "pct_asistencia": 67.7
   },
   {
@@ -3753,6 +4429,8 @@
    "no": 1,
    "abst": 0,
    "no_voto": 8,
+   "con_bancada": 11,
+   "contra_bancada": 0,
    "pct_asistencia": 70.6
   },
   {
@@ -3768,6 +4446,8 @@
    "no": 6,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 18,
+   "contra_bancada": 0,
    "pct_asistencia": 88.2
   },
   {
@@ -3783,6 +4463,8 @@
    "no": 7,
    "abst": 0,
    "no_voto": 3,
+   "con_bancada": 16,
+   "contra_bancada": 0,
    "pct_asistencia": 96.8
   },
   {
@@ -3798,6 +4480,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 10,
+   "con_bancada": 7,
+   "contra_bancada": 0,
    "pct_asistencia": 67.9
   },
   {
@@ -3813,6 +4497,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 19,
+   "contra_bancada": 0,
    "pct_asistencia": 97.1
   },
   {
@@ -3828,6 +4514,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 17,
+   "contra_bancada": 0,
    "pct_asistencia": 97.1
   },
   {
@@ -3843,6 +4531,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 5,
+   "con_bancada": 14,
+   "contra_bancada": 0,
    "pct_asistencia": 88.2
   },
   {
@@ -3858,6 +4548,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 17,
+   "contra_bancada": 0,
    "pct_asistencia": 100.0
   },
   {
@@ -3873,6 +4565,8 @@
    "no": 7,
    "abst": 0,
    "no_voto": 3,
+   "con_bancada": 16,
+   "contra_bancada": 0,
    "pct_asistencia": 88.2
   },
   {
@@ -3888,6 +4582,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 19,
+   "contra_bancada": 0,
    "pct_asistencia": 97.1
   },
   {
@@ -3903,6 +4599,8 @@
    "no": 7,
    "abst": 0,
    "no_voto": 2,
+   "con_bancada": 17,
+   "contra_bancada": 0,
    "pct_asistencia": 96.9
   },
   {
@@ -3918,6 +4616,8 @@
    "no": 1,
    "abst": 0,
    "no_voto": 2,
+   "con_bancada": 14,
+   "contra_bancada": 0,
    "pct_asistencia": 93.5
   },
   {
@@ -3933,6 +4633,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 16,
+   "contra_bancada": 0,
    "pct_asistencia": 85.3
   },
   {
@@ -3948,6 +4650,8 @@
    "no": 7,
    "abst": 0,
    "no_voto": 3,
+   "con_bancada": 16,
+   "contra_bancada": 0,
    "pct_asistencia": 93.8
   },
   {
@@ -3963,6 +4667,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 19,
+   "contra_bancada": 0,
    "pct_asistencia": 100.0
   },
   {
@@ -3978,6 +4684,8 @@
    "no": 7,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 15,
+   "contra_bancada": 0,
    "pct_asistencia": 91.2
   },
   {
@@ -3993,6 +4701,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 17,
+   "contra_bancada": 0,
    "pct_asistencia": 94.1
   },
   {
@@ -4008,6 +4718,8 @@
    "no": 6,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 18,
+   "contra_bancada": 0,
    "pct_asistencia": 97.1
   },
   {
@@ -4023,6 +4735,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 8,
+   "con_bancada": 10,
+   "contra_bancada": 0,
    "pct_asistencia": 96.0
   },
   {
@@ -4038,6 +4752,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 19,
+   "contra_bancada": 0,
    "pct_asistencia": 97.1
   },
   {
@@ -4053,6 +4769,8 @@
    "no": 6,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 17,
+   "contra_bancada": 0,
    "pct_asistencia": 82.4
   },
   {
@@ -4068,6 +4786,8 @@
    "no": 7,
    "abst": 0,
    "no_voto": 2,
+   "con_bancada": 17,
+   "contra_bancada": 0,
    "pct_asistencia": 82.4
   },
   {
@@ -4083,6 +4803,8 @@
    "no": 5,
    "abst": 0,
    "no_voto": 6,
+   "con_bancada": 13,
+   "contra_bancada": 0,
    "pct_asistencia": 56.7
   },
   {
@@ -4098,6 +4820,8 @@
    "no": 7,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 18,
+   "contra_bancada": 0,
    "pct_asistencia": 97.1
   },
   {
@@ -4113,6 +4837,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 19,
+   "contra_bancada": 0,
    "pct_asistencia": 97.1
   },
   {
@@ -4128,6 +4854,8 @@
    "no": 5,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 38,
+   "contra_bancada": 0,
    "pct_asistencia": 80.0
   },
   {
@@ -4143,6 +4871,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 5,
+   "con_bancada": 34,
+   "contra_bancada": 0,
    "pct_asistencia": 94.6
   },
   {
@@ -4158,6 +4888,8 @@
    "no": 5,
    "abst": 0,
    "no_voto": 5,
+   "con_bancada": 35,
+   "contra_bancada": 0,
    "pct_asistencia": 78.4
   },
   {
@@ -4173,6 +4905,8 @@
    "no": 11,
    "abst": 0,
    "no_voto": 5,
+   "con_bancada": 34,
+   "contra_bancada": 1,
    "pct_asistencia": 89.2
   },
   {
@@ -4188,6 +4922,8 @@
    "no": 5,
    "abst": 0,
    "no_voto": 9,
+   "con_bancada": 31,
+   "contra_bancada": 0,
    "pct_asistencia": 73.0
   },
   {
@@ -4203,6 +4939,8 @@
    "no": 7,
    "abst": 0,
    "no_voto": 18,
+   "con_bancada": 22,
+   "contra_bancada": 0,
    "pct_asistencia": 66.7
   },
   {
@@ -4218,6 +4956,8 @@
    "no": 3,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 35,
+   "contra_bancada": 1,
    "pct_asistencia": 97.3
   },
   {
@@ -4233,6 +4973,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 30,
+   "con_bancada": 10,
+   "contra_bancada": 0,
    "pct_asistencia": 88.9
   },
   {
@@ -4248,6 +4990,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 36,
+   "contra_bancada": 0,
    "pct_asistencia": 97.1
   },
   {
@@ -4263,6 +5007,8 @@
    "no": 3,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 37,
+   "contra_bancada": 1,
    "pct_asistencia": 89.2
   },
   {
@@ -4278,6 +5024,8 @@
    "no": 5,
    "abst": 0,
    "no_voto": 5,
+   "con_bancada": 33,
+   "contra_bancada": 1,
    "pct_asistencia": 83.8
   },
   {
@@ -4293,6 +5041,8 @@
    "no": 5,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 39,
+   "contra_bancada": 0,
    "pct_asistencia": 100.0
   },
   {
@@ -4308,6 +5058,8 @@
    "no": 14,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 36,
+   "contra_bancada": 3,
    "pct_asistencia": 97.3
   },
   {
@@ -4323,6 +5075,8 @@
    "no": 11,
    "abst": 0,
    "no_voto": 21,
+   "con_bancada": 18,
+   "contra_bancada": 1,
    "pct_asistencia": 37.8
   },
   {
@@ -4338,6 +5092,8 @@
    "no": 5,
    "abst": 0,
    "no_voto": 5,
+   "con_bancada": 34,
+   "contra_bancada": 0,
    "pct_asistencia": 88.6
   },
   {
@@ -4353,6 +5109,8 @@
    "no": 17,
    "abst": 0,
    "no_voto": 3,
+   "con_bancada": 35,
+   "contra_bancada": 2,
    "pct_asistencia": 94.6
   },
   {
@@ -4368,6 +5126,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 2,
+   "con_bancada": 38,
+   "contra_bancada": 0,
    "pct_asistencia": 94.3
   },
   {
@@ -4383,6 +5143,8 @@
    "no": 16,
    "abst": 0,
    "no_voto": 3,
+   "con_bancada": 36,
+   "contra_bancada": 1,
    "pct_asistencia": 89.2
   },
   {
@@ -4398,6 +5160,8 @@
    "no": 5,
    "abst": 0,
    "no_voto": 4,
+   "con_bancada": 36,
+   "contra_bancada": 0,
    "pct_asistencia": 89.2
   },
   {
@@ -4413,6 +5177,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 2,
+   "con_bancada": 33,
+   "contra_bancada": 2,
    "pct_asistencia": 89.2
   },
   {
@@ -4428,6 +5194,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 38,
+   "contra_bancada": 0,
    "pct_asistencia": 91.9
   },
   {
@@ -4443,6 +5211,8 @@
    "no": 0,
    "abst": 0,
    "no_voto": 10,
+   "con_bancada": 27,
+   "contra_bancada": 0,
    "pct_asistencia": 71.9
   },
   {
@@ -4458,6 +5228,8 @@
    "no": 5,
    "abst": 0,
    "no_voto": 2,
+   "con_bancada": 38,
+   "contra_bancada": 0,
    "pct_asistencia": 91.9
   },
   {
@@ -4473,6 +5245,8 @@
    "no": 5,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 37,
+   "contra_bancada": 0,
    "pct_asistencia": 78.4
   },
   {
@@ -4488,6 +5262,8 @@
    "no": 3,
    "abst": 0,
    "no_voto": 3,
+   "con_bancada": 33,
+   "contra_bancada": 0,
    "pct_asistencia": 81.1
   },
   {
@@ -4503,6 +5279,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 3,
+   "con_bancada": 33,
+   "contra_bancada": 2,
    "pct_asistencia": 94.6
   },
   {
@@ -4518,6 +5296,8 @@
    "no": 6,
    "abst": 0,
    "no_voto": 4,
+   "con_bancada": 32,
+   "contra_bancada": 1,
    "pct_asistencia": 83.8
   },
   {
@@ -4533,6 +5313,8 @@
    "no": 5,
    "abst": 0,
    "no_voto": 3,
+   "con_bancada": 37,
+   "contra_bancada": 0,
    "pct_asistencia": 83.8
   },
   {
@@ -4548,6 +5330,8 @@
    "no": 5,
    "abst": 0,
    "no_voto": 6,
+   "con_bancada": 34,
+   "contra_bancada": 0,
    "pct_asistencia": 87.9
   },
   {
@@ -4563,6 +5347,8 @@
    "no": 5,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 33,
+   "contra_bancada": 0,
    "pct_asistencia": 97.3
   },
   {
@@ -4578,6 +5364,8 @@
    "no": 9,
    "abst": 0,
    "no_voto": 6,
+   "con_bancada": 28,
+   "contra_bancada": 0,
    "pct_asistencia": 76.5
   },
   {
@@ -4593,6 +5381,8 @@
    "no": 0,
    "abst": 0,
    "no_voto": 19,
+   "con_bancada": 11,
+   "contra_bancada": 2,
    "pct_asistencia": 43.2
   },
   {
@@ -4608,6 +5398,8 @@
    "no": 5,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 38,
+   "contra_bancada": 0,
    "pct_asistencia": 91.9
   },
   {
@@ -4623,6 +5415,8 @@
    "no": 11,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 32,
+   "contra_bancada": 0,
    "pct_asistencia": 100.0
   },
   {
@@ -4638,6 +5432,8 @@
    "no": 5,
    "abst": 0,
    "no_voto": 15,
+   "con_bancada": 22,
+   "contra_bancada": 1,
    "pct_asistencia": 90.9
   },
   {
@@ -4653,6 +5449,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 3,
+   "con_bancada": 35,
+   "contra_bancada": 0,
    "pct_asistencia": 94.3
   },
   {
@@ -4668,6 +5466,8 @@
    "no": 5,
    "abst": 0,
    "no_voto": 2,
+   "con_bancada": 38,
+   "contra_bancada": 0,
    "pct_asistencia": 75.7
   },
   {
@@ -4683,6 +5483,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 19,
+   "con_bancada": 20,
+   "contra_bancada": 1,
    "pct_asistencia": 51.4
   },
   {
@@ -4698,6 +5500,8 @@
    "no": 16,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 39,
+   "contra_bancada": 1,
    "pct_asistencia": 97.3
   },
   {
@@ -4713,6 +5517,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 2,
+   "con_bancada": 32,
+   "contra_bancada": 0,
    "pct_asistencia": 94.6
   },
   {
@@ -4728,6 +5534,8 @@
    "no": 3,
    "abst": 0,
    "no_voto": 10,
+   "con_bancada": 22,
+   "contra_bancada": 0,
    "pct_asistencia": 78.4
   },
   {
@@ -4743,6 +5551,8 @@
    "no": 5,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 39,
+   "contra_bancada": 0,
    "pct_asistencia": 100.0
   },
   {
@@ -4758,6 +5568,8 @@
    "no": 10,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 35,
+   "contra_bancada": 4,
    "pct_asistencia": 94.6
   },
   {
@@ -4773,6 +5585,8 @@
    "no": 16,
    "abst": 0,
    "no_voto": 5,
+   "con_bancada": 31,
+   "contra_bancada": 2,
    "pct_asistencia": 89.2
   },
   {
@@ -4788,6 +5602,8 @@
    "no": 13,
    "abst": 0,
    "no_voto": 3,
+   "con_bancada": 36,
+   "contra_bancada": 1,
    "pct_asistencia": 91.7
   },
   {
@@ -4803,6 +5619,8 @@
    "no": 10,
    "abst": 0,
    "no_voto": 19,
+   "con_bancada": 19,
+   "contra_bancada": 0,
    "pct_asistencia": 84.2
   },
   {
@@ -4818,6 +5636,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 5,
+   "con_bancada": 33,
+   "contra_bancada": 0,
    "pct_asistencia": 81.8
   },
   {
@@ -4833,6 +5653,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 5,
+   "con_bancada": 32,
+   "contra_bancada": 0,
    "pct_asistencia": 93.9
   },
   {
@@ -4848,6 +5670,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 2,
+   "con_bancada": 35,
+   "contra_bancada": 0,
    "pct_asistencia": 91.4
   },
   {
@@ -4863,6 +5687,8 @@
    "no": 5,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 38,
+   "contra_bancada": 0,
    "pct_asistencia": 86.5
   },
   {
@@ -4878,6 +5704,8 @@
    "no": 3,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 26,
+   "contra_bancada": 2,
    "pct_asistencia": 89.2
   },
   {
@@ -4893,6 +5721,8 @@
    "no": 0,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 0,
+   "contra_bancada": 0,
    "pct_asistencia": 100.0
   },
   {
@@ -4908,6 +5738,8 @@
    "no": 5,
    "abst": 0,
    "no_voto": 6,
+   "con_bancada": 33,
+   "contra_bancada": 0,
    "pct_asistencia": 89.2
   },
   {
@@ -4923,6 +5755,8 @@
    "no": 5,
    "abst": 0,
    "no_voto": 0,
+   "con_bancada": 38,
+   "contra_bancada": 0,
    "pct_asistencia": 100.0
   },
   {
@@ -4938,6 +5772,8 @@
    "no": 5,
    "abst": 0,
    "no_voto": 12,
+   "con_bancada": 28,
+   "contra_bancada": 0,
    "pct_asistencia": 75.7
   },
   {
@@ -4953,6 +5789,8 @@
    "no": 14,
    "abst": 0,
    "no_voto": 3,
+   "con_bancada": 34,
+   "contra_bancada": 1,
    "pct_asistencia": 89.2
   },
   {
@@ -4968,6 +5806,8 @@
    "no": 8,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 25,
+   "contra_bancada": 0,
    "pct_asistencia": 81.1
   },
   {
@@ -4983,6 +5823,8 @@
    "no": 5,
    "abst": 0,
    "no_voto": 1,
+   "con_bancada": 37,
+   "contra_bancada": 0,
    "pct_asistencia": 89.2
   },
   {
@@ -4998,6 +5840,8 @@
    "no": 4,
    "abst": 0,
    "no_voto": 2,
+   "con_bancada": 33,
+   "contra_bancada": 0,
    "pct_asistencia": 89.2
   },
   {
@@ -5013,6 +5857,8 @@
    "no": 13,
    "abst": 0,
    "no_voto": 2,
+   "con_bancada": 35,
+   "contra_bancada": 0,
    "pct_asistencia": 100.0
   }
  ],

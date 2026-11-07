@@ -723,10 +723,16 @@ function renderBicameral() {
   // Votaciones y agenda del Pleno
   const P = PLENOS?.camaras?.[bicCam];
   const vots = P?.votaciones || [];
-  document.getElementById("bic-vot-hint").textContent = P ? `${fmt(vots.length)} votaciones nominales validadas` : "actas aún no procesadas";
+  const nDiv = vots.filter(v => new Set(Object.values(v.posicion || {})).size > 1).length;
+  document.getElementById("bic-vot-hint").textContent = P ? `${fmt(vots.length)} votaciones nominales validadas · ${fmt(nDiv)} divididas` : "actas aún no procesadas";
+  renderAfinidad(vots);
   document.querySelector("#tBicVot tbody").innerHTML = vots.length ? vots.map(v => {
     const res = v.si > (v.no || 0) ? "más SI que NO" : "más NO que SI";  // algunas votaciones exigen mayoría calificada
-    return `<tr><td style="white-space:nowrap">${v.fecha}</td><td>${esc(v.asunto || "(sin asunto)")}</td>
+    const pos = Object.entries(v.posicion || {});
+    const dividida = new Set(pos.map(e => e[1])).size > 1;
+    const POS = { si: ["SI", "si"], no: ["NO", "no"], abst: ["Abst", "ab"] };
+    const bancTxt = pos.length ? `<div class="votos" style="margin-top:4px;font-weight:600">${pos.map(([b, x]) => `<span class="${POS[x][1]}">${esc(b)} ${POS[x][0]}</span>`).join("")}</div>` : "";
+    return `<tr><td style="white-space:nowrap">${v.fecha}</td><td>${esc(v.asunto || "(sin asunto)")}${dividida ? ` <span class="tag fis">dividida</span>` : ""}${bancTxt}</td>
       <td class="num-r"><div class="votos" style="justify-content:flex-end"><span class="si">${v.si ?? "—"} SI</span><span class="no">${v.no ?? "—"} NO</span><span class="ab">${v.abst ?? "—"} Abst</span></div><span class="tag">${res}</span></td></tr>`;
   }).join("") : `<tr><td colspan="3" class="note">Sin votaciones procesadas para esta cámara.</td></tr>`;
 
@@ -754,6 +760,32 @@ function renderBicameral() {
     `<b>Agenda de desarrollo</b>: clasificación por palabras clave del título, indicativa.`;
 }
 
+// Matriz: % de votaciones en que dos bancadas tomaron la misma posición mayoritaria.
+function renderAfinidad(vots) {
+  const box = document.getElementById("bic-afin");
+  if (!box) return;
+  const bs = [...new Set(vots.flatMap(v => Object.keys(v.posicion || {})))].sort();
+  if (bs.length < 2) { box.innerHTML = `<div class="note">Aún no hay suficientes votaciones procesadas.</div>`; return; }
+  const celda = (a, b) => {
+    let igual = 0, n = 0;
+    vots.forEach(v => { const pa = v.posicion?.[a], pb = v.posicion?.[b]; if (pa && pb) { n++; if (pa === pb) igual++; } });
+    return n ? igual / n * 100 : null;
+  };
+  const cohesion = (b) => {
+    let con = 0, tot = 0;
+    vots.forEach(v => { const pos = v.posicion?.[b], c = v.por_bancada?.[b]; if (!pos || !c) return;
+      const e = (c.si || 0) + (c.no || 0) + (c.abst || 0); tot += e; con += c[pos] || 0; });
+    return tot ? con / tot * 100 : null;
+  };
+  const color = (x) => x == null ? "transparent" : `color-mix(in srgb, var(--green) ${Math.round(Math.max(0, x - 40) / 60 * 70)}%, transparent)`;
+  box.innerHTML = `<table class="afin"><thead><tr><th></th>${bs.map(b => `<th class="num-r">${esc(b)}</th>`).join("")}<th class="num-r" title="% de sus miembros que votaron con la posición de la bancada">Cohesión</th></tr></thead><tbody>${
+    bs.map(a => `<tr><th>${esc(a)}</th>${bs.map(b => {
+      if (a === b) return `<td class="num-r note">—</td>`;
+      const x = celda(a, b);
+      return `<td class="num-r" style="background:${color(x)}">${x == null ? "—" : Math.round(x) + "%"}</td>`;
+    }).join("")}<td class="num-r"><b>${pctTxt(cohesion(a) == null ? null : +cohesion(a).toFixed(1))}</b></td></tr>`).join("")}</tbody></table>`;
+}
+
 const mesTxtCorto = (ym) => `${MESES_ABBR[+ym.slice(5)]}-${ym.slice(2, 4)}`;
 
 // Detalle desplegable: gasto mensual del despacho, equipo, proyectos y Pleno.
@@ -777,10 +809,15 @@ function detalleCongresista(m, p, d) {
   if (p && p.pases) {
     bloques.push(`<div><h4>🗳️ En el Pleno</h4><ul>
       <li>Pases de lista: <b>${p.presente}</b> presente, <b>${p.ausente}</b> ausente, <b>${p.licencia}</b> con licencia (de ${p.pases})</li>
-      <li>Votaciones: <b style="color:var(--green)">${p.si} SI</b>, <b style="color:var(--accent)">${p.no} NO</b>, <b style="color:var(--amber)">${p.abst} Abst</b>, ${p.no_voto} sin votar (de ${p.votaciones})</li></ul></div>`);
+      <li>Votaciones: <b style="color:var(--green)">${p.si} SI</b>, <b style="color:var(--accent)">${p.no} NO</b>, <b style="color:var(--amber)">${p.abst} Abst</b>, ${p.no_voto} sin votar (de ${p.votaciones})</li>
+      ${disciplina(p) != null ? `<li>Votó igual que su bancada en el <b>${pctTxt(disciplina(p))}</b> de los casos (${p.con_bancada} a favor de la línea, <b>${p.contra_bancada}</b> en contra)</li>` : ""}</ul></div>`);
   }
   return `<div class="det-grid">${bloques.join("")}</div>`;
 }
+
+// % de votos emitidos (SI/NO/Abst) iguales a la posición mayoritaria de su bancada.
+const disciplina = (p) => { const n = (p?.con_bancada || 0) + (p?.contra_bancada || 0); return n ? +(p.con_bancada / n * 100).toFixed(1) : null; };
+const discTxt = (p) => { const x = disciplina(p); return x == null ? "—" : `${pctTxt(x)}<div class="note" style="margin:0">${p.contra_bancada} en contra</div>`; };
 
 function renderBicMiembros() {
   const { pl, dp } = bicIndices();
@@ -792,12 +829,12 @@ function renderBicMiembros() {
       const p = pl[bicCam + "|" + m.nombre], d = dp[bicCam + "|" + m.nombre];
       return { m, p, d, nombre: m.nombre, sigla: m.sigla, distrito: m.distrito, principal: m.principal,
         desarrollo: m.desarrollo, simbolicos: m.simbolicos, asistencia: p?.pct_asistencia ?? null,
-        si: p?.votaciones ? p.si : null, masa: d?.masa ?? null };
+        si: p?.votaciones ? p.si : null, masa: d?.masa ?? null, disciplina: disciplina(p) };
     });
   encabezados("tBicMiembros", [
     { k: "nombre", t: "Congresista" }, { k: "sigla", t: "Bancada" }, { k: "distrito", t: "Distrito" },
     { k: "principal", t: "Proyectos", num: 1 }, { k: "desarrollo", t: "Desarrollo", num: 1 }, { k: "simbolicos", t: "Simból.", num: 1 },
-    { k: "asistencia", t: "Asistencia", num: 1 }, { k: "si", t: "Votos SI/NO/Abst", num: 1 }, { k: "masa", t: "Despacho S/ mes", num: 1 },
+    { k: "asistencia", t: "Asistencia", num: 1 }, { k: "si", t: "Votos SI/NO/Abst", num: 1 }, { k: "disciplina", t: "Con su bancada", num: 1 }, { k: "masa", t: "Despacho S/ mes", num: 1 },
   ], bicState, () => { bicState.pag = 0; renderBicMiembros(); });
   filas.sort((x, y) => cmp(x[bicState.k], y[bicState.k], bicState.dir) || x.nombre.localeCompare(y.nombre, "es"));
 
@@ -819,8 +856,8 @@ function renderBicMiembros() {
       <td><span class="tag">${esc(m.sigla)}</span></td><td>${esc(m.distrito)}</td>
       <td class="num-r"><b>${fmt(m.principal)}</b><div class="note" style="margin:0">${fmt(m.firmas)} firmas</div></td>
       <td class="num-r">${fmt(m.desarrollo)}</td><td class="num-r">${fmt(m.simbolicos)}</td>
-      <td class="num-r">${a}</td><td class="num-r">${v}</td><td class="num-r">${eq}</td></tr>` +
-      (abierto ? `<tr class="det"><td colspan="9">${detalleCongresista(m, p, d)}</td></tr>` : "");
+      <td class="num-r">${a}</td><td class="num-r">${v}</td><td class="num-r">${discTxt(p)}</td><td class="num-r">${eq}</td></tr>` +
+      (abierto ? `<tr class="det"><td colspan="10">${detalleCongresista(m, p, d)}</td></tr>` : "");
   }).join("");
 }
 

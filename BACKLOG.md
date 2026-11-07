@@ -75,7 +75,7 @@ surjan, y commitear. Prioridad de arriba hacia abajo.
 - [ ] **Viajes al extranjero y gastos operativos por congresista** — cada cámara
   tiene `wp-json/wp/v2/viaje` (hoy solo un índice vacío) y `actividad_diaria`
   (vacío). Revisar cuando publiquen.
-- [ ] **Votaciones: afinidad entre bancadas** y votaciones divididas, ya con datos.
+- [x] **Votaciones: afinidad entre bancadas** y votaciones divididas, ya con datos.
 - [ ] **Senado**: casi todas sus actas son escaneos; vigilar calidad del OCR.
 - [ ] **Enriquecer personal con cheka** (`apicheck.tunky.net`): expediente,
   trayectoria interinstitucional, sanciones RNSSC y DJ de intereses por persona.

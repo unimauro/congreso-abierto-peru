@@ -140,6 +140,8 @@
   .num-r{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
   .banner{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;border-left:3px solid var(--accent)}
   .banner b{font-size:15px}
+  table.afin th,table.afin td{padding:6px 10px;text-align:center}
+  table.afin tbody th{text-align:left}
   .votos{display:flex;gap:6px;flex-wrap:wrap;font-size:12px;font-weight:700}
   .votos .si{color:var(--green)} .votos .no{color:var(--accent)} .votos .ab{color:var(--amber)}
   th.sortable{cursor:pointer;user-select:none;white-space:nowrap}
@@ -315,6 +317,12 @@
         <div class="panel-head"><h3>📅 Agenda del Pleno</h3><span class="hint">sesiones y documentos oficiales</span></div>
         <div style="overflow:auto;max-height:520px"><table id="tBicSes"><thead><tr><th>Fecha</th><th>Documentos</th></tr></thead><tbody></tbody></table></div>
       </div>
+    </div>
+
+    <div class="card full" style="margin-top:16px">
+      <div class="panel-head"><h3>🤝 ¿Quién vota con quién?</h3><span class="hint">afinidad entre bancadas en el Pleno</span></div>
+      <div style="overflow:auto" id="bic-afin"></div>
+      <div class="note">Cada celda = % de votaciones en que ambas bancadas tomaron la misma posición (la de la mayoría de sus miembros: SI, NO o abstención). <b>Cohesión</b> = % de los votos de sus miembros que siguieron esa posición. Una votación es <b>dividida</b> cuando al menos dos bancadas tomaron posiciones distintas. La columna <b>Con su bancada</b> de la tabla de congresistas mide lo mismo por persona.</div>
     </div>
 
     <div class="card full" style="margin-top:16px">

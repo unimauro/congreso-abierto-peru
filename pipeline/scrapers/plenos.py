@@ -246,6 +246,7 @@ def build() -> dict:
             "camara": m["camara"], "nombre": m["nombre"], "sigla": m.get("sigla", "—"),
             "pases": 0, "presente": 0, "ausente": 0, "licencia": 0,
             "votaciones": 0, "si": 0, "no": 0, "abst": 0, "no_voto": 0,
+            "con_bancada": 0, "contra_bancada": 0,
         }
 
     salida = {"camaras": {}, "calidad": {}}
@@ -278,6 +279,7 @@ def build() -> dict:
                 sin = 0
                 vistos = set()  # un congresista cuenta una sola vez por bloque
                 por_bancada = defaultdict(Counter)
+                emitidos = []  # (registro, sigla, voto) para medir disciplina de bancada
                 for sigla, nombre, st in b["entradas"]:
                     m = padron.buscar(cam, sigla, nombre)
                     if not m or m["nombre"] in vistos:
@@ -292,8 +294,19 @@ def build() -> dict:
                         r["votaciones"] += 1
                         v = VOTO.get(st)
                         r[v if v in ("si", "no", "abst") else "no_voto"] += 1
+                        if v in ("si", "no", "abst"):
+                            emitidos.append((r, m.get("sigla", "—"), v))
                         por_bancada[m.get("sigla", "—")][v or "ausente"] += 1
                 cal["nombres_sin_cruce"] += sin
+                # Posición de cada bancada = voto mayoritario de sus miembros (si/no/abst).
+                posicion = {}
+                for sg, c in por_bancada.items():
+                    top = sorted(((c.get(k, 0), k) for k in ("si", "no", "abst")), reverse=True)
+                    if top[0][0] and top[0][0] > top[1][0]:
+                        posicion[sg] = top[0][1]
+                for r, sg, v in emitidos:
+                    if sg in posicion:
+                        r["con_bancada" if v == posicion[sg] else "contra_bancada"] += 1
                 if b["tipo"] == "asistencia":
                     pases += 1
                 else:
@@ -302,6 +315,7 @@ def build() -> dict:
                         "fecha": b["fecha"], "hora": b["hora"], "asunto": b["asunto"],
                         "si": o["si"], "no": o["no"], "abst": o["abst"],
                         "por_bancada": {k: dict(v) for k, v in sorted(por_bancada.items())},
+                        "posicion": dict(sorted(posicion.items())),
                     })
         salida["camaras"][cam] = {
             "pases_lista": pases,
