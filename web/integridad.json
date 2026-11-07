@@ -1,0 +1,858 @@
+{
+ "meta": {
+  "generado": "2026-11-07",
+  "fechas": {
+   "sancionados.csv": "2026-10-31",
+   "sancionados_multa.csv": "2024-05-18",
+   "penalidades.csv": "2021-09-29",
+   "Socios.csv": "2021-09-29",
+   "representantes.csv": "2021-09-29",
+   "organos.csv": "2021-09-29"
+  },
+  "fuente": "OECE · datos abiertos: proveedores sancionados (inhabilitación y multa), penalidades, socios, representantes y órganos de administración del RNP",
+  "url": "https://www.datosabiertos.gob.pe/dataset/proveedores-sancionados-con-inhabilitaci%C3%B3n-vigente-organismo-especializado-para-las",
+  "nota": "Las coincidencias de personas son por nombre completo exacto (sin DNI en la planilla): pueden ser homónimos y deben verificarse. Una sanción pasada no impide contratar una vez cumplida."
+ },
+ "totales": {
+  "proveedores_revisados": 179,
+  "con_sancion": 31,
+  "vigentes": 9,
+  "contratados_durante_sancion": 0,
+  "con_penalidades": 6,
+  "vinculos": 0
+ },
+ "proveedores": [
+  {
+   "ruc": "20261898706",
+   "nombre": "ADEXUS PERU SA",
+   "procesos_congreso": 6,
+   "monto_congreso": 4625935.34,
+   "vigente": true,
+   "sanciones": [
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2026-08-04",
+     "fin": "2026-12-04",
+     "resolucion": "7731-2026-TCP-S3",
+     "motivo": "Ocasionar que la Entidad resuelva el contrato, incluido Acuerdos Marco, siempre que dicha resolución haya quedado consentida o firme en vía conciliatoria o arbitral."
+    },
+    {
+     "tipo": "multa",
+     "inicio": "2022-11-30",
+     "fin": "2022-12-01",
+     "resolucion": "3871-2022-TCE-S5",
+     "motivo": "Incumplir injustificadamente con su obligación de perfeccionar el contrato o de formalizar Acuerdos Marco.",
+     "monto": 23000.0
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20600007174",
+   "nombre": "CONTROLES EMPRESARIALES PERU S.A.C. - COEM SAC",
+   "procesos_congreso": 2,
+   "monto_congreso": 1132200.0,
+   "vigente": true,
+   "sanciones": [
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2025-03-26",
+     "fin": "2027-03-26",
+     "resolucion": "2119-2025-TCE-S5",
+     "motivo": "Presentar documentos falsos o adulterados a las Entidades, al Tribunal de Contrataciones del Estado, al Registro Nacional de Proveedores (RNP), al Organismo Supervisor de las Contrataciones del Estado (OSCE), o a la Central de Compras Públicas– Perú Compras."
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "10448650044",
+   "nombre": "SANTIAGO ATENCIO ELIZABETH CAROLINA",
+   "procesos_congreso": 1,
+   "monto_congreso": 323421.0,
+   "vigente": true,
+   "sanciones": [
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2026-08-24",
+     "fin": "2026-11-24",
+     "resolucion": "7256-2026-TCP-S1",
+     "motivo": "Ocasionar que la Entidad resuelva el contrato, incluido Acuerdos Marco, siempre que dicha resolución haya quedado consentida o firme en vía conciliatoria o arbitral."
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20606396997",
+   "nombre": "EJP INGENIERIA & PROYECTOS SAC",
+   "procesos_congreso": 1,
+   "monto_congreso": 303750.0,
+   "vigente": true,
+   "sanciones": [
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2025-07-02",
+     "fin": "2027-07-02",
+     "resolucion": "4136-2025-TCP-S5",
+     "motivo": "Presentar documentos falsos o adulterados a las Entidades, al Tribunal de Contrataciones del Estado, al Registro Nacional de Proveedores (RNP), al Organismo Supervisor de las Contrataciones del Estado (OSCE), o a la Central de Compras Públicas– Perú Compras."
+    },
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2025-06-23",
+     "fin": "2027-06-23",
+     "resolucion": "3994-2025-TCP-S1",
+     "motivo": "Presentar información inexacta a las Entidades, al Tribunal de Contrataciones del Estado, al Registro Nacional de Proveedores (RNP), al Organismo Supervisor de las Contrataciones del Estado (OSCE) y a la Central de Compras Públicas–Perú Compras."
+    },
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2025-06-23",
+     "fin": "2025-09-23",
+     "resolucion": "4066-2025-TCE-S6",
+     "motivo": "Presentar información inexacta a las Entidades, al Tribunal de Contrataciones del Estado, al Registro Nacional de Proveedores (RNP), al Organismo Supervisor de las Contrataciones del Estado (OSCE) y a la Central de Compras Públicas–Perú Compras."
+    },
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2025-06-23",
+     "fin": "2027-09-23",
+     "resolucion": "4118-2025-TCP-S2",
+     "motivo": "Presentar información inexacta a las Entidades, al Tribunal de Contrataciones del Estado, al Registro Nacional de Proveedores (RNP), al Organismo Supervisor de las Contrataciones del Estado (OSCE) y a la Central de Compras Públicas–Perú Compras."
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20601548730",
+   "nombre": "VADIEL INGENIEROS S.A.C-VADIEL S.A.C.",
+   "procesos_congreso": 3,
+   "monto_congreso": 266124.0,
+   "vigente": true,
+   "sanciones": [
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2025-03-26",
+     "fin": "2028-04-26",
+     "resolucion": "1937-2025-TCE-S2",
+     "motivo": "Presentar información inexacta a las Entidades, al Tribunal de Contrataciones del Estado, al Registro Nacional de Proveedores (RNP), al Organismo Supervisor de las Contrataciones del Estado (OSCE) y a la Central de Compras Públicas–Perú Compras."
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20601590221",
+   "nombre": "ROMA SOLUCIONES INTEGRALES E.I.R.L.",
+   "procesos_congreso": 2,
+   "monto_congreso": 250860.0,
+   "vigente": true,
+   "sanciones": [
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2026-10-28",
+     "fin": "2028-10-28",
+     "resolucion": "8828-2026-TCP-S1",
+     "motivo": "Presentar documentos falsos o adulterados a las Entidades, al Tribunal de Contrataciones del Estado, al Registro Nacional de Proveedores (RNP), al Organismo Supervisor de las Contrataciones del Estado (OSCE), o a la Central de Compras Públicas– Perú Compras."
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20521684497",
+   "nombre": "AIR CONDITIONING TECHNOLOGY SISTEM SAC",
+   "procesos_congreso": 2,
+   "monto_congreso": 198790.9,
+   "vigente": true,
+   "sanciones": [
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2026-09-23",
+     "fin": "2028-11-23",
+     "resolucion": "8434-2026-TCP-S5",
+     "motivo": "Presentar información inexacta a las entidades contratantes, al Tribunal de Contrataciones Públicas, al RNP, al OECE o a Perú Compras. [. . .]."
+    },
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2026-08-29",
+     "fin": "2027-01-29",
+     "resolucion": "8391-2026-TCP-S5",
+     "motivo": "Ocasionar que la Entidad resuelva el contrato, incluido Acuerdos Marco, siempre que dicha resolución haya quedado consentida o firme en vía conciliatoria o arbitral."
+    },
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2026-03-07",
+     "fin": "2026-06-07",
+     "resolucion": "2319-2026-TCP-S6",
+     "motivo": "Ocasionar que la Entidad resuelva el contrato, incluido Acuerdos Marco, siempre que dicha resolución haya quedado consentida o firme en vía conciliatoria o arbitral."
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20603013639",
+   "nombre": "INTELLIGENIO SOCIEDAD ANONIMA CERRADA",
+   "procesos_congreso": 1,
+   "monto_congreso": 193997.0,
+   "vigente": true,
+   "sanciones": [
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2026-06-17",
+     "fin": "2028-06-17",
+     "resolucion": "4855-2026-TCP-S3",
+     "motivo": "Presentar documentos falsos o adulterados a las entidades contratantes, al Tribunal de Contrataciones Públicas, al RNP, al OECE o a Perú Compras."
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20545792177",
+   "nombre": "CHAPOLAB SAC",
+   "procesos_congreso": 1,
+   "monto_congreso": 64544.16,
+   "vigente": true,
+   "sanciones": [
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2026-06-20",
+     "fin": "2027-01-20",
+     "resolucion": "6245-2026-TCP-S6",
+     "motivo": "Ocasionar que la Entidad resuelva el contrato, incluido Acuerdos Marco, siempre que dicha resolución haya quedado consentida o firme en vía conciliatoria o arbitral."
+    },
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2025-03-21",
+     "fin": "2025-10-21",
+     "resolucion": "1726-2025-TCE-S1",
+     "motivo": "Ocasionar que la Entidad resuelva el contrato, incluido Acuerdos Marco, siempre que dicha resolución haya quedado consentida o firme en vía conciliatoria o arbitral."
+    },
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2024-05-31",
+     "fin": "2024-11-30",
+     "resolucion": "1951-2024-TCE-S4",
+     "motivo": "Ocasionar que la Entidad resuelva el contrato, incluido Acuerdos Marco, siempre que dicha resolución haya quedado consentida o firme en vía conciliatoria o arbitral."
+    },
+    {
+     "tipo": "multa",
+     "inicio": "2024-01-17",
+     "fin": "2024-05-17",
+     "resolucion": "4826-2023-TCE-S6",
+     "motivo": "Incumplir injustificadamente con su obligación de perfeccionar el contrato o de formalizar Acuerdos Marco.",
+     "monto": 5200.0
+    },
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2023-11-01",
+     "fin": "2024-05-01",
+     "resolucion": "4213-2023-TCE-S6",
+     "motivo": "Ocasionar que la Entidad resuelva el contrato, incluido Acuerdos Marco, siempre que dicha resolución haya quedado consentida o firme en vía conciliatoria o arbitral."
+    }
+   ],
+   "penalidades": [
+    {
+     "entidad": "AUTORIDAD DE TRANSPORTE URBANO PARA LIMA Y CALLAO",
+     "fecha": "2020-12-01",
+     "motivo": "Penalidad aplicada por 3 días de atraso ",
+     "monto": 7020.0
+    },
+    {
+     "entidad": "MINISTERIO PUBLICO-GERENCIA ADMINISTRATIVA DE SAN MARTIN",
+     "fecha": "2021-08-10",
+     "motivo": "POR 7 DIAS DE ATRASO EN LA ENTREGA DE LOS BIENES",
+     "monto": 7105.99
+    }
+   ],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20106897914",
+   "nombre": "ENTEL PERU S.A.",
+   "procesos_congreso": 4,
+   "monto_congreso": 3678743.52,
+   "vigente": false,
+   "sanciones": [
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2022-09-19",
+     "fin": "2022-11-22",
+     "resolucion": "791-2022-TCE-S3",
+     "motivo": "Contratar con el Estado estando en cualquiera de los supuestos de impedimento previstos en el art. 11 de esta Ley"
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20100139848",
+   "nombre": "ASCENSORES SCHINDLER DEL PERU S A",
+   "procesos_congreso": 6,
+   "monto_congreso": 2473066.75,
+   "vigente": false,
+   "sanciones": [],
+   "penalidades": [
+    {
+     "entidad": "MINISTERIO DE ECONOMIA Y FINANZAS",
+     "fecha": "2021-06-04",
+     "motivo": "OTRAS PENALIDADES",
+     "monto": 220.0
+    }
+   ],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20565643496",
+   "nombre": "GLOBAL FUEL SOCIEDAD ANONIMA",
+   "procesos_congreso": 4,
+   "monto_congreso": 1606280.0,
+   "vigente": false,
+   "sanciones": [
+    {
+     "tipo": "multa",
+     "inicio": "2022-03-23",
+     "fin": "2022-03-30",
+     "resolucion": "767-2022-TCE-S5",
+     "motivo": "Incumplir injustificadamente con su obligación de perfeccionar el contrato o de formalizar Acuerdos Marco.",
+     "monto": 35712.0
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20302061425",
+   "nombre": "CONSTRUCTORA CUSA S.A.C. CONTRATISTAS GE NERALES",
+   "procesos_congreso": 3,
+   "monto_congreso": 1559097.29,
+   "vigente": false,
+   "sanciones": [],
+   "penalidades": [
+    {
+     "entidad": "CONTRALORIA GENERAL DE LA REPUBLICA",
+     "fecha": "2021-02-11",
+     "motivo": "Penalidad por mora",
+     "monto": 6862.34
+    },
+    {
+     "entidad": "CONTRALORIA GENERAL DE LA REPUBLICA",
+     "fecha": "2021-03-09",
+     "motivo": "PENALIDAD POR MORA",
+     "monto": 6862.34
+    }
+   ],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20100017491",
+   "nombre": "TELEFONICA DEL PERU SAA",
+   "procesos_congreso": 1,
+   "monto_congreso": 660424.32,
+   "vigente": false,
+   "sanciones": [
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2024-12-18",
+     "fin": "2025-06-18",
+     "resolucion": "5369-2024-TCE-S2",
+     "motivo": "Ocasionar que la Entidad resuelva el contrato, incluido Acuerdos Marco, siempre que dicha resolución haya quedado consentida o firme en vía conciliatoria o arbitral."
+    },
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2023-09-20",
+     "fin": "2025-09-20",
+     "resolucion": "3724-2023-TCE-S6",
+     "motivo": "Presentar información inexacta a las Entidades, al Tribunal de Contrataciones del Estado, al Registro Nacional de Proveedores (RNP), al Organismo Supervisor de las Contrataciones del Estado (OSCE) y a la Central de Compras Públicas–Perú Compras."
+    }
+   ],
+   "penalidades": [
+    {
+     "entidad": "SUPERINTENDENCIA NACIONAL DE LOS REGISTROS PUBLICOS",
+     "fecha": "2021-08-09",
+     "motivo": "retraso atencion averia y degradacion disponibilidad",
+     "monto": 23869.54
+    },
+    {
+     "entidad": "MINISTERIO DE ECONOMIA Y FINANZAS",
+     "fecha": "2021-05-19",
+     "motivo": "OTRAS PENALIDADES",
+     "monto": 1000.0
+    },
+    {
+     "entidad": "MINISTERIO DE ECONOMIA Y FINANZAS",
+     "fecha": "2021-05-19",
+     "motivo": "OTRAS PENALIDADES",
+     "monto": 5500.0
+    },
+    {
+     "entidad": "MINISTERIO DE ECONOMIA Y FINANZAS",
+     "fecha": "2021-05-20",
+     "motivo": "OTRAS PENALIDADES",
+     "monto": 100.0
+    }
+   ],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20553892253",
+   "nombre": "CA & PE CARGO S.A.C.",
+   "procesos_congreso": 2,
+   "monto_congreso": 416622.5,
+   "vigente": false,
+   "sanciones": [],
+   "penalidades": [
+    {
+     "entidad": "SERVICIO DE ADMINISTRACION TRIBUTARIA - LIMA",
+     "fecha": "2021-05-17",
+     "motivo": "OTRAS PENALIDADES",
+     "monto": 42.3
+    }
+   ],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20602691617",
+   "nombre": "CLOUD INFRASTRUCTURE AND TELECOM PERU SOCIEDAD ANONIMA CERRADA - CLOUD IT PERU S.A.C.",
+   "procesos_congreso": 1,
+   "monto_congreso": 387040.0,
+   "vigente": false,
+   "sanciones": [],
+   "penalidades": [
+    {
+     "entidad": "ORGANISMO TECNICO DE LA ADMINISTRACION DE SERVICIOS DE SANEAMIENTO",
+     "fecha": "2021-04-15",
+     "motivo": "INCUMPLIMIENTO INJUSTIFICADO EN LA ENTREGA DE LOS BIENES ",
+     "monto": 58213.33
+    },
+    {
+     "entidad": "ORGANISMO TECNICO DE LA ADMINISTRACION DE SERVICIOS DE SANEAMIENTO",
+     "fecha": "2021-04-15",
+     "motivo": "PENALIDAD POR RETRASO INJUSTIFICADO EN EL SERVICIO ",
+     "monto": 58213.33
+    }
+   ],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20370508659",
+   "nombre": "GRIFO J.H.P. E.I.R.LTDA.",
+   "procesos_congreso": 1,
+   "monto_congreso": 378100.0,
+   "vigente": false,
+   "sanciones": [
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2025-12-04",
+     "fin": "2026-03-04",
+     "resolucion": "8013-2025-TCP-S6",
+     "motivo": "Ocasionar que la Entidad resuelva el contrato, incluido Acuerdos Marco, siempre que dicha resolución haya quedado consentida o firme en vía conciliatoria o arbitral."
+    },
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2025-12-04",
+     "fin": "2026-03-04",
+     "resolucion": "7975-2025-TCP-S6",
+     "motivo": "Ocasionar que la Entidad resuelva el contrato, incluido Acuerdos Marco, siempre que dicha resolución haya quedado consentida o firme en vía conciliatoria o arbitral."
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "10214632808",
+   "nombre": "ESPINOZA SALCEDO HUGO JAVIER",
+   "procesos_congreso": 2,
+   "monto_congreso": 373550.0,
+   "vigente": false,
+   "sanciones": [
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2023-04-12",
+     "fin": "2023-09-12",
+     "resolucion": "1673-2023-TCE-S3",
+     "motivo": "Presentar información inexacta a las Entidades, al Tribunal de Contrataciones del Estado, al Registro Nacional de Proveedores (RNP), al Organismo Supervisor de las Contrataciones del Estado (OSCE) y a la Central de Compras Públicas–Perú Compras."
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20557084364",
+   "nombre": "URBANCAD SOCIEDAD ANONIMA CERRADA",
+   "procesos_congreso": 2,
+   "monto_congreso": 360000.0,
+   "vigente": false,
+   "sanciones": [
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2020-12-10",
+     "fin": "2024-04-10",
+     "resolucion": "2547-2020-TCE-S3",
+     "motivo": "Presentar documentos falsos o adulterados a las Entidades, al Tribunal de Contrataciones del Estado, al Registro Nacional de Proveedores (RNP), al Organismo Supervisor de las Contrataciones del Estado (OSCE), o a la Central de Compras Públicas - Perú Compras"
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20608345273",
+   "nombre": "KOTLIN SERVICES S.A.C.",
+   "procesos_congreso": 1,
+   "monto_congreso": 315000.0,
+   "vigente": false,
+   "sanciones": [
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2026-02-11",
+     "fin": "2026-06-11",
+     "resolucion": "211-2026-TCP-S3",
+     "motivo": "Ocasionar que la Entidad resuelva el contrato, incluido Acuerdos Marco, siempre que dicha resolución haya quedado consentida o firme en vía conciliatoria o arbitral."
+    },
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2025-03-07",
+     "fin": "2025-07-07",
+     "resolucion": "1335-2025-TCE-S1",
+     "motivo": "Presentar información inexacta a las Entidades, al Tribunal de Contrataciones del Estado, al Registro Nacional de Proveedores (RNP), al Organismo Supervisor de las Contrataciones del Estado (OSCE) y a la Central de Compras Públicas–Perú Compras."
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20340549750",
+   "nombre": "CONQUISTADORES REAL SERVICE S.A.",
+   "procesos_congreso": 1,
+   "monto_congreso": 301469.08,
+   "vigente": false,
+   "sanciones": [
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2020-03-03",
+     "fin": "2023-04-03",
+     "resolucion": "717-2020-TCE-S1",
+     "motivo": "Presentar documentos falsos o adulterados a las Entidades, al Tribunal de Contrataciones del Estado o al Registro Nacional de Proveedores (RNP)."
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20563636379",
+   "nombre": "INGECORP PERU S.A.C.",
+   "procesos_congreso": 1,
+   "monto_congreso": 256000.0,
+   "vigente": false,
+   "sanciones": [
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2023-07-07",
+     "fin": "2025-09-07",
+     "resolucion": "2735-2023-TCE-S2",
+     "motivo": "Presentar documentos falsos o adulterados a las Entidades, al Tribunal de Contrataciones del Estado, al Registro Nacional de Proveedores (RNP), al Organismo Supervisor de las Contrataciones del Estado (OSCE), o a la Central de Compras Públicas– Perú Compras."
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20557712942",
+   "nombre": "CLEANING SERVI´Z S.A.C.",
+   "procesos_congreso": 2,
+   "monto_congreso": 174349.66,
+   "vigente": false,
+   "sanciones": [
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2024-04-05",
+     "fin": "2024-11-05",
+     "resolucion": "1029-2024-TCE-S6",
+     "motivo": "Presentar información inexacta a las Entidades, al Tribunal de Contrataciones del Estado, al Registro Nacional de Proveedores (RNP), al Organismo Supervisor de las Contrataciones del Estado (OSCE) y a la Central de Compras Públicas–Perú Compras."
+    },
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2023-05-30",
+     "fin": "2026-05-30",
+     "resolucion": "2302-2023-TCE-S5",
+     "motivo": "Presentar información inexacta a las Entidades, al Tribunal de Contrataciones del Estado, al Registro Nacional de Proveedores (RNP), al Organismo Supervisor de las Contrataciones del Estado (OSCE) y a la Central de Compras Públicas–Perú Compras."
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20552588569",
+   "nombre": "MACROPOST LOGISTICS S.A.C.",
+   "procesos_congreso": 1,
+   "monto_congreso": 162700.0,
+   "vigente": false,
+   "sanciones": [
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2026-01-24",
+     "fin": "2026-06-24",
+     "resolucion": "736-2026-TCP-S2",
+     "motivo": "Ocasionar que la Entidad resuelva el contrato, incluido Acuerdos Marco, siempre que dicha resolución haya quedado consentida o firme en vía conciliatoria o arbitral."
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20603151934",
+   "nombre": "LUITI MAQUINARIAS S.A.C.",
+   "procesos_congreso": 2,
+   "monto_congreso": 157550.0,
+   "vigente": false,
+   "sanciones": [
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2023-09-01",
+     "fin": "2025-10-01",
+     "resolucion": "3385-2023-TCE-S2",
+     "motivo": "Presentar información inexacta a las Entidades, al Tribunal de Contrataciones del Estado, al Registro Nacional de Proveedores (RNP), al Organismo Supervisor de las Contrataciones del Estado (OSCE) y a la Central de Compras Públicas–Perú Compras."
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20471420167",
+   "nombre": "REFRIELECTRIC S.A.C",
+   "procesos_congreso": 1,
+   "monto_congreso": 150000.0,
+   "vigente": false,
+   "sanciones": [
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2025-04-25",
+     "fin": "2025-10-25",
+     "resolucion": "2695-2025-TCE-S1",
+     "motivo": "Presentar información inexacta a las Entidades, al Tribunal de Contrataciones del Estado, al Registro Nacional de Proveedores (RNP), al Organismo Supervisor de las Contrataciones del Estado (OSCE) y a la Central de Compras Públicas–Perú Compras."
+    },
+    {
+     "tipo": "multa",
+     "inicio": "2023-03-08",
+     "fin": "2023-07-08",
+     "resolucion": "851-2023-TCE-S5",
+     "motivo": "Incumplir injustificadamente con su obligación de perfeccionar el contrato o de formalizar Acuerdos Marco.",
+     "monto": 24750.0
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20601515106",
+   "nombre": "TOVAL SYSTEMS S.A.C.",
+   "procesos_congreso": 1,
+   "monto_congreso": 145200.0,
+   "vigente": false,
+   "sanciones": [
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2025-12-05",
+     "fin": "2026-06-05",
+     "resolucion": "7679-2025-TCP-S4",
+     "motivo": "Ocasionar que la Entidad resuelva el contrato, incluido Acuerdos Marco, siempre que dicha resolución haya quedado consentida o firme en vía conciliatoria o arbitral."
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20503016649",
+   "nombre": "VILLA INGENIEROS E.I.R.L",
+   "procesos_congreso": 1,
+   "monto_congreso": 138000.0,
+   "vigente": false,
+   "sanciones": [
+    {
+     "tipo": "multa",
+     "inicio": "2021-02-26",
+     "fin": "2021-07-26",
+     "resolucion": "394-2021-TCE-S3",
+     "motivo": "Incumplir injustificadamente con su obligación de perfeccionar el contrato o de formalizar Acuerdos Marco.",
+     "monto": 20640.0
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20493825705",
+   "nombre": "GRAFICA GARATE S.A.C.",
+   "procesos_congreso": 1,
+   "monto_congreso": 124900.0,
+   "vigente": false,
+   "sanciones": [
+    {
+     "tipo": "multa",
+     "inicio": "2024-02-07",
+     "fin": "2024-02-07",
+     "resolucion": "223-2024-TCE-S2",
+     "motivo": "Desistirse o retirar injustificadamente su oferta.",
+     "monto": 5150.0
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20125534393",
+   "nombre": "COMERCIAL VILCA S.A.",
+   "procesos_congreso": 1,
+   "monto_congreso": 124860.0,
+   "vigente": false,
+   "sanciones": [
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2021-03-26",
+     "fin": "2024-04-26",
+     "resolucion": "783-2021-TCE-S4",
+     "motivo": "Presentar documentos falsos o adulterados a las Entidades, al Tribunal de Contrataciones del Estado o al Registro Nacional de Proveedores (RNP)."
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20107798049",
+   "nombre": "UNIVERSIDAD DE LIMA",
+   "procesos_congreso": 1,
+   "monto_congreso": 95000.0,
+   "vigente": false,
+   "sanciones": [
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2026-02-06",
+     "fin": "2026-06-06",
+     "resolucion": "366-2026-TCP-S5",
+     "motivo": "Contratar con el Estado estando impedido conforme a Ley."
+    },
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2026-01-28",
+     "fin": "2026-05-28",
+     "resolucion": "825-2026-TCP-S6",
+     "motivo": "Contratar con el Estado estando impedido conforme a Ley."
+    },
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2026-01-20",
+     "fin": "2026-07-20",
+     "resolucion": "500-2026-TCP-S4",
+     "motivo": "Contratar con el Estado estando impedido conforme a Ley."
+    },
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2025-12-17",
+     "fin": "2026-04-17",
+     "resolucion": "7925-2025-TCP-S6",
+     "motivo": "Contratar con el Estado estando impedido conforme a Ley."
+    },
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2025-11-20",
+     "fin": "2026-02-20",
+     "resolucion": "7821-2025-TCP-S2",
+     "motivo": "Contratar con el Estado estando impedido conforme a Ley."
+    },
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2025-07-19",
+     "fin": "2025-11-19",
+     "resolucion": "4980-2025-TCP-S1",
+     "motivo": "Contratar con el Estado estando en cualquiera de los supuestos de impedimento previstos en el art. 11 de esta Ley"
+    },
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2025-07-19",
+     "fin": "2025-10-19",
+     "resolucion": "4971-2025-TCP-S6",
+     "motivo": "Contratar con el Estado estando impedido conforme a Ley."
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20605599401",
+   "nombre": "ALVA CONSTRUCTORA & SERVICIOS GENERALES E.I.R.L.",
+   "procesos_congreso": 1,
+   "monto_congreso": 94200.0,
+   "vigente": false,
+   "sanciones": [
+    {
+     "tipo": "multa",
+     "inicio": "2021-08-18",
+     "fin": "2021-08-19",
+     "resolucion": "1866-2021-TCE-S3",
+     "motivo": "Incumplir injustificadamente con su obligación de perfeccionar el contrato o de formalizar Acuerdos Marco.",
+     "monto": 6237.0
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20601519489",
+   "nombre": "CONSTRUCTORA AVACOR INGENIERIA Y PROYECTOS S.A.C.",
+   "procesos_congreso": 1,
+   "monto_congreso": 69990.0,
+   "vigente": false,
+   "sanciones": [
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2024-01-26",
+     "fin": "2024-04-26",
+     "resolucion": "202-2024-TCE-S2",
+     "motivo": "Ocasionar que la Entidad resuelva el contrato, incluido Acuerdos Marco, siempre que dicha resolución haya quedado consentida o firme en vía conciliatoria o arbitral."
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20521489872",
+   "nombre": "SANGAR CONTRATISTAS S.A.C.",
+   "procesos_congreso": 1,
+   "monto_congreso": 69980.0,
+   "vigente": false,
+   "sanciones": [
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2025-04-24",
+     "fin": "2025-07-24",
+     "resolucion": "2623-2025-TCE-S1",
+     "motivo": "Ocasionar que la Entidad resuelva el contrato, incluido Acuerdos Marco, siempre que dicha resolución haya quedado consentida o firme en vía conciliatoria o arbitral."
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20600494300",
+   "nombre": "INGENIERIA DE TELECOMUNICACIONES Y ELECTRICA S.A.C.",
+   "procesos_congreso": 1,
+   "monto_congreso": 44780.0,
+   "vigente": false,
+   "sanciones": [
+    {
+     "tipo": "multa",
+     "inicio": "2021-10-18",
+     "fin": "2021-10-19",
+     "resolucion": "2961-2021-TCE-S1",
+     "motivo": "Incumplir injustificadamente con su obligación de perfeccionar el contrato o de formalizar Acuerdos Marco.",
+     "monto": 4400.0
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  }
+ ],
+ "vinculos": []
+}

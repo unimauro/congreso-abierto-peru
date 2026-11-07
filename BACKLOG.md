@@ -86,7 +86,7 @@ surjan, y commitear. Prioridad de arriba hacia abajo.
   votaciones más polémicas; afinidad entre bancadas.
 - [x] **Asistencias y licencias** por sesión.
 - [ ] **Tramitación de proyectos** (timeline por etapas) + descarga de PDF.
-- [ ] **Cruce integridad**: personal/proveedores vs **sanciones RNSSC**,
+- [~] **Cruce integridad** (hecho: proveedores del Congreso × sanciones/multas del Tribunal OECE, y socios/representantes × planilla; RNSSC abierto viene anonimizado; socios RNP solo a sep-2021): personal/proveedores vs **sanciones RNSSC**,
   **DJ de bienes y rentas** e **inhabilitaciones**.
 - [ ] **Serie histórica de planilla** (varios meses/años del PTE) → detección de
   incrementos atípicos y crecimiento del gasto en personal.
@@ -107,6 +107,11 @@ surjan, y commitear. Prioridad de arriba hacia abajo.
 ---
 
 ## Notas operativas
+
+- **Socios RNP de 2021**: cruzar congresistas × socios/representantes de *cualquier* proveedor arroja ~30
+  coincidencias, pero el padrón del OECE es de sep-2021: NO publicar sin una fuente actual (DJ de intereses
+  de la Contraloría, SUNARP) y sin verificar si la empresa contrató con el Estado durante el mandato.
+
 
 - **Personal (PTE) se refresca desde la laptop**, no en CI: el Portal de
   Transparencia bloquea IPs de datacenter (GitHub Actions). Correr

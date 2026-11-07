@@ -184,9 +184,14 @@ def build() -> dict:
         "por_metodo": {k: round(v, 2) for k, v in metodos.most_common()},
         "por_categoria": {k: round(v, 2) for k, v in categorias.most_common()},
         "proveedores": proveedores[:100],
+        "nombres": {x["ruc"]: x["nombre"] for x in proveedores},  # RUC → razón social (todos)
         "procesos": [{k: p[k] for k in ("ocid", "nomenclatura", "objeto", "metodo", "categoria", "valor_referencial",
                                        "convocado", "postores", "monto")} |
-                     {"proveedores": sorted({s["nombre"] for aw in p["adjudicaciones"] for s in aw["proveedores"]})}
+                     {"proveedores": sorted({s["nombre"] for aw in p["adjudicaciones"] for s in aw["proveedores"]}),
+                      "rucs": sorted({s["ruc"] for aw in p["adjudicaciones"] for s in aw["proveedores"]}),
+                      # fechas para cruzar con sanciones vigentes del proveedor
+                      "adjudicado": min((aw["fecha"] for aw in p["adjudicaciones"] if aw["fecha"]), default=None),
+                      "firmado": min((c["firmado"] for c in p["contratos"] if c["firmado"]), default=None)}
                      for p in lista],
     }
 

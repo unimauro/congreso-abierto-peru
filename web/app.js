@@ -3,7 +3,7 @@
 const fmt = (n) => new Intl.NumberFormat("es-PE").format(n);
 const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
 let CHARTS = {};
-let DATA = null, CTX = null, PERSONAL = null, BIC = null, PLENOS = null, MOV = null, CON = null;
+let DATA = null, CTX = null, PERSONAL = null, BIC = null, PLENOS = null, MOV = null, CON = null, INT = null;
 const soles = (n) => "S/ " + new Intl.NumberFormat("es-PE", { maximumFractionDigits: 0 }).format(n);
 const solesM = (n) => "S/ " + (n / 1e6).toFixed(1) + " M";
 
@@ -965,7 +965,7 @@ function renderContratos() {
       { k: "monto", t: "Monto", num: 1 }, { k: "pct", t: "% del total", num: 1 },
     ], provSort, pintarProv);
     document.querySelector("#tConProv tbody").innerHTML = CON.proveedores.slice().sort((x, y) => cmp(x[provSort.k], y[provSort.k], provSort.dir)).map(p =>
-      `<tr><td>${esc(p.nombre)}</td><td class="code">${esc(p.ruc)}</td><td class="num-r">${fmt(p.procesos)}</td><td class="num-r"><b>${soles(p.monto)}</b></td><td class="num-r">${pctTxt(p.pct)}</td></tr>`).join("");
+      `<tr><td>${esc(p.nombre)}${intTag(p.ruc)}</td><td class="code">${esc(p.ruc)}</td><td class="num-r">${fmt(p.procesos)}</td><td class="num-r"><b>${soles(p.monto)}</b></td><td class="num-r">${pctTxt(p.pct)}</td></tr>`).join("");
   };
   pintarProv();
   document.getElementById("con-prov-hint").textContent = `top ${CON.proveedores.length} por monto`;
@@ -981,6 +981,35 @@ function renderContratos() {
   pintarProcesos();
   document.getElementById("con-nota").innerHTML = `${esc(CON.meta.nota)} Los procesos sin monto aún están en convocatoria, desiertos o sin contrato publicado. <b>Un solo postor</b> no implica irregularidad, pero es la señal clásica de baja competencia.`;
 }
+const intTag = (ruc) => {
+  const x = INT?.proveedores?.find(p => p.ruc === ruc);
+  if (!x || !x.sanciones.length) return "";
+  return x.vigente ? ` <span class="tag fis" title="Inhabilitación vigente del Tribunal de Contrataciones">inhabilitado hoy</span>` : ` <span class="tag" title="Tuvo sanción del Tribunal de Contrataciones">sanción previa</span>`;
+};
+function renderIntegridad() {
+  const card = document.getElementById("int-card");
+  if (!card) return;
+  if (!INT) { card.style.display = "none"; return; }
+  const t = INT.totales, f = INT.meta.fechas || {};
+  document.getElementById("int-hint").textContent = `sanciones al ${f["sancionados.csv"] || INT.meta.generado}`;
+  document.getElementById("kpis-int").innerHTML =
+    kpiCard("Con sanción del Tribunal", fmt(t.con_sancion), `de ${fmt(t.proveedores_revisados)} proveedores del Congreso (alguna vez)`, "var(--amber)") +
+    kpiCard("Inhabilitados hoy", fmt(t.vigentes), "no pueden contratar con el Estado ahora", "var(--accent)") +
+    kpiCard("Contratados durante la sanción", fmt(t.contratados_durante_sancion), t.contratados_durante_sancion ? "adjudicados con inhabilitación vigente" : "ningún caso: el Congreso no adjudicó a un inhabilitado", t.contratados_durante_sancion ? "var(--accent)" : "var(--green)") +
+    kpiCard("Personal del Congreso como socio", fmt(t.vinculos), `de proveedores del Congreso · RNP a ${f["Socios.csv"] || "—"}`, "var(--accent-2)");
+  const filas = INT.proveedores.filter(p => p.sanciones.length);
+  document.querySelector("#tInt tbody").innerHTML = filas.map(p =>
+    `<tr><td><b>${esc(p.nombre)}</b>${p.vigente ? ` <span class="tag fis">inhabilitado hoy</span>` : ""}<div class="note" style="margin:2px 0 0">RUC <span class="code">${esc(p.ruc)}</span></div></td>
+      <td class="num-r"><b>${soles(p.monto_congreso)}</b><div class="note" style="margin:0">${p.procesos_congreso} proceso${p.procesos_congreso > 1 ? "s" : ""}</div></td>
+      <td><ul style="margin:0;padding-left:16px">${p.sanciones.map(s => `<li><b>${s.tipo}</b> ${s.inicio || "?"} → ${s.fin || "definitiva"}${s.monto ? ` · ${soles(s.monto)}` : ""} · <span class="code">${esc(s.resolucion)}</span><div class="note" style="margin:0">${esc(s.motivo)}</div></li>`).join("")}</ul>
+      ${p.durante_sancion.length ? `<div class="tag fis">⚠ ${p.durante_sancion.length} proceso(s) con el Congreso durante la inhabilitación</div>` : ""}</td></tr>`).join("");
+  document.getElementById("int-nota").innerHTML =
+    `Fuente: <a href="${esc(INT.meta.url)}" target="_blank" rel="noopener">datos abiertos del OECE</a> (inhabilitaciones al ${esc(f["sancionados.csv"] || "—")}, multas al ${esc(f["sancionados_multa.csv"] || "—")}). ` +
+    `Que un proveedor haya sido sancionado <b>no impide</b> que vuelva a contratar una vez cumplida la sanción; lo grave sería adjudicarle durante la inhabilitación (columna en rojo si ocurre). ` +
+    `El cruce de socios, representantes y directivos de estos proveedores con la planilla del Congreso no encontró coincidencias de nombre, pero el OECE publica ese padrón solo con corte a ${esc(f["Socios.csv"] || "2021")}. ` +
+    `El registro de sanciones a servidores civiles (RNSSC) de datos abiertos viene anonimizado, así que no permite revisar al personal.`;
+}
+
 function pintarProcesos() {
   const q = conState.q.trim().toLowerCase();
   const filas = CON.procesos.filter(p => (!conState.anio || (p.convocado || "").startsWith(conState.anio)) &&
@@ -1000,7 +1029,7 @@ function renderAll() {
   if (!DATA || !CTX) return;
   renderResumen(); renderProyectos(); renderPresupuesto(); renderIncremento();
   renderComisiones(); renderAnalisis(); renderPersonal(); renderMovimientos(); renderEstado(); renderInforme();
-  renderBicameral(); renderContratos();
+  renderBicameral(); renderContratos(); renderIntegridad();
 }
 
 // Revalidar con el servidor (ETag) para no servir datos viejos de caché:
@@ -1014,9 +1043,10 @@ Promise.all([
   fetch("plenos.json", nocache).then(r => r.ok ? r.json() : null).catch(() => null),
   fetch("movimientos.json", nocache).then(r => r.ok ? r.json() : null).catch(() => null),
   fetch("contratos.json", nocache).then(r => r.ok ? r.json() : null).catch(() => null),
+  fetch("integridad.json", nocache).then(r => r.ok ? r.json() : null).catch(() => null),
 ])
-  .then(([d, c, p, b, pl, mv, co]) => {
-    DATA = d; CTX = c; PERSONAL = p; BIC = b; PLENOS = pl; MOV = mv; CON = co;
+  .then(([d, c, p, b, pl, mv, co, it]) => {
+    DATA = d; CTX = c; PERSONAL = p; BIC = b; PLENOS = pl; MOV = mv; CON = co; INT = it;
     document.getElementById("gen").textContent = "actualizado " + d.meta.generado;
     const ud = document.getElementById("updated-date");
     if (ud) ud.textContent = d.meta.generado;
