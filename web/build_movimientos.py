@@ -59,9 +59,10 @@ def activos(d: dict) -> dict[str, list]:
 
 def comparar(a: dict, b: dict) -> dict:
     A, B = activos(a), activos(b)
-    altas = [B[n] for n in B.keys() - A.keys()]
-    bajas = [A[n] for n in A.keys() - B.keys()]
-    comunes = A.keys() & B.keys()
+    # orden fijo: los conjuntos se recorren distinto en cada corrida y desordenaban los empates
+    altas = [B[n] for n in sorted(B.keys() - A.keys())]
+    bajas = [A[n] for n in sorted(A.keys() - B.keys())]
+    comunes = sorted(A.keys() & B.keys())
     dep = [(A[n], B[n]) for n in comunes if A[n][DEPENDENCIA] != B[n][DEPENDENCIA]]
     cargo = [(A[n], B[n]) for n in comunes if A[n][CARGO] != B[n][CARGO]]
     sube = [(A[n], B[n]) for n in comunes if A[n][TOTAL] > 0 and B[n][TOTAL] >= A[n][TOTAL] * 1.2]
@@ -78,9 +79,9 @@ def comparar(a: dict, b: dict) -> dict:
         "masa_desde": round(masa_a, 2), "masa_hasta": round(masa_b, 2),
         "altas_por_cargo": dict(Counter(r[CARGO] for r in altas).most_common(8)),
         "bajas_por_cargo": dict(Counter(r[CARGO] for r in bajas).most_common(8)),
-        "top_altas": [persona(r) for r in sorted(altas, key=lambda r: -r[TOTAL])[:15]],
+        "top_altas": [persona(r) for r in sorted(altas, key=lambda r: (-r[TOTAL], r[NOMBRE]))[:15]],
         "top_aumentos": [{**persona(y), "antes": x[TOTAL], "cargo_antes": x[CARGO]}
-                         for x, y in sorted(sube, key=lambda p: -(p[1][TOTAL] - p[0][TOTAL]))[:15]],
+                         for x, y in sorted(sube, key=lambda p: (-(p[1][TOTAL] - p[0][TOTAL]), p[1][NOMBRE]))[:15]],
     }
 
 
@@ -142,7 +143,7 @@ def despachos(snaps: dict, congresistas: list[dict], previo: dict | None) -> lis
             "equipo": [{"nombre": r[NOMBRE], "cargo": r[CARGO], "total": r[TOTAL],
                         "antes": antes[r[NOMBRE]][DEPENDENCIA] if r[NOMBRE] in antes else None,
                         **({"apellido": c} if (c := coincide(r)) else {})}
-                       for r in sorted(rs, key=lambda r: -r[TOTAL])],
+                       for r in sorted(rs, key=lambda r: (-r[TOTAL], r[NOMBRE]))],
             "serie": serie[nombre],
         })
     return sorted(salida, key=lambda x: -x["masa"])
