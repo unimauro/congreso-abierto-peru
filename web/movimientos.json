@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generado": "2026-11-06",
+  "generado": "2026-11-07",
   "meses": [
    "2026-05",
    "2026-07",
@@ -53,7 +53,7 @@
     "ASISTENTE": 9,
     "ASESOR II": 8,
     "COORDINADOR": 5,
-    "ASESOR PRINCIPAL": 1,
+    "JEFE": 1,
     "PROFESIONAL": 1
    },
    "bajas_por_cargo": {
@@ -92,13 +92,19 @@
      "total": 12799.4
     },
     {
-     "nombre": "FLORES PEÑA, JAKELYN",
+     "nombre": "YARANGA CAHUANA, YANINA",
      "cargo": "ASESOR",
-     "dependencia": "GRUPO PARLAMENTARIO PERU LIBRE",
+     "dependencia": "GRUPO PARLAMENTARIO LEALTAD NACIONAL",
      "total": 12740.1
     },
     {
      "nombre": "BOHORQUEZ ZELADA, JESSICA SOCORRO",
+     "cargo": "ASESOR",
+     "dependencia": "GRUPO PARLAMENTARIO LEALTAD NACIONAL",
+     "total": 12740.1
+    },
+    {
+     "nombre": "RAMOS APAZA, ESTHER GIOVANNA",
      "cargo": "ASESOR",
      "dependencia": "GRUPO PARLAMENTARIO LEALTAD NACIONAL",
      "total": 12740.1
@@ -110,27 +116,9 @@
      "total": 12740.1
     },
     {
-     "nombre": "CARHUAZ JERI, MALENA",
-     "cargo": "ASESOR",
-     "dependencia": "COMISION DE ETICA PARLAMENTARIA",
-     "total": 12740.1
-    },
-    {
-     "nombre": "RAMOS APAZA, ESTHER GIOVANNA",
-     "cargo": "ASESOR",
-     "dependencia": "GRUPO PARLAMENTARIO LEALTAD NACIONAL",
-     "total": 12740.1
-    },
-    {
      "nombre": "CRUZ TEVEZ, LUZ REBECA",
      "cargo": "ASESOR",
      "dependencia": "GRUPO PARLAMENTARIO ALIANZA PARA EL PROGRESO",
-     "total": 12740.1
-    },
-    {
-     "nombre": "YARANGA CAHUANA, YANINA",
-     "cargo": "ASESOR",
-     "dependencia": "GRUPO PARLAMENTARIO LEALTAD NACIONAL",
      "total": 12740.1
     },
     {
@@ -138,6 +126,24 @@
      "cargo": "ASESOR",
      "dependencia": "COMISION DE DESCENTRALIZACION, REGIONALIZACION, GOBIERNOS LOCALES Y MODERNIZACION DE LA GESTION DEL ESTADO",
      "total": 12740.1
+    },
+    {
+     "nombre": "CARHUAZ JERI, MALENA",
+     "cargo": "ASESOR",
+     "dependencia": "COMISION DE ETICA PARLAMENTARIA",
+     "total": 12740.1
+    },
+    {
+     "nombre": "FLORES PEÑA, JAKELYN",
+     "cargo": "ASESOR",
+     "dependencia": "GRUPO PARLAMENTARIO PERU LIBRE",
+     "total": 12740.1
+    },
+    {
+     "nombre": "BANCES FERROÑAN, CARLOS ANTONIO",
+     "cargo": "ASESOR II",
+     "dependencia": "COMISION DE VIVIENDA Y CONSTRUCCION",
+     "total": 10486.76
     },
     {
      "nombre": "HERRERA ALEMAN, HENRY HERNAN",
@@ -149,12 +155,6 @@
      "nombre": "BECERRA SUAREZ, SILVIA SONIA",
      "cargo": "ASESOR II",
      "dependencia": "COMISION DE DEFENSA DEL CONSUMIDOR Y ORGANISMOS REGULADORES DE LOS SERVICIOS PUBLICOS",
-     "total": 10486.76
-    },
-    {
-     "nombre": "ELERA RUIZ, MARIA YVETTE",
-     "cargo": "ASESOR II",
-     "dependencia": "LAURA ROJAS JUDITH",
      "total": 10486.76
     }
    ],
@@ -327,15 +327,15 @@
      "total": 21914.58
     },
     {
-     "nombre": "MANRIQUE UGARTE, MANUEL REYNALDO JOAQUIN",
-     "cargo": "JEFE DE GABINETE",
-     "dependencia": "GRUPO PARLAMENTARIO PARTIDO CIVICO OBRAS DE LA CAMARA DE DIPUTADOS",
-     "total": 20819.04
-    },
-    {
      "nombre": "ESPINOZA TIO, MARIA CECILIA",
      "cargo": "JEFE DE GABINETE",
      "dependencia": "SEGUNDA VICEPRESIDENCIA DE LA CAMARA DE DIPUTADOS",
+     "total": 20819.04
+    },
+    {
+     "nombre": "MANRIQUE UGARTE, MANUEL REYNALDO JOAQUIN",
+     "cargo": "JEFE DE GABINETE",
+     "dependencia": "GRUPO PARLAMENTARIO PARTIDO CIVICO OBRAS DE LA CAMARA DE DIPUTADOS",
      "total": 20819.04
     },
     {
@@ -369,6 +369,12 @@
      "total": 18588.43
     },
     {
+     "nombre": "VELASQUEZ GARAMBEL, JOSE LUIS",
+     "cargo": "ASESOR",
+     "dependencia": "TERCERA VICEPRESIDENCIA DEL SENADO",
+     "total": 17936.58
+    },
+    {
      "nombre": "HERNANDEZ CAMBORDA, PABLO ENRIQUE",
      "cargo": "ASESOR COORDINADOR",
      "dependencia": "GRUPO PARLAMENTARIO PARTIDO CIVICO OBRAS DE LA CAMARA DE DIPUTADOS",
@@ -378,12 +384,6 @@
      "nombre": "SALCEDO CUADROS, CARLO MAGNO",
      "cargo": "ASESOR COORDINADOR",
      "dependencia": "GRUPO PARLAMENTARIO AHORA NACION DE LA CAMARA DE DIPUTADOS",
-     "total": 17936.58
-    },
-    {
-     "nombre": "VELASQUEZ GARAMBEL, JOSE LUIS",
-     "cargo": "ASESOR",
-     "dependencia": "TERCERA VICEPRESIDENCIA DEL SENADO",
      "total": 17936.58
     },
     {
@@ -555,10 +555,10 @@
     "ASESOR II": 6,
     "AUXILIAR": 6,
     "COORDINADOR": 5,
-    "ASISTENTE": 3,
     "ASESOR PRINCIPAL": 3,
-    "AUXILIAR EN SERVICIOS": 1,
-    "TECNICO EN TRANSCRIPCIONES": 1
+    "ASISTENTE": 3,
+    "JEFE": 1,
+    "ASESOR COORDINADOR": 1
    },
    "top_altas": [
     {
@@ -586,15 +586,15 @@
      "total": 17970.46
     },
     {
-     "nombre": "FLORES ESTRADA, FLOR PATRICIA",
-     "cargo": "JEFE",
-     "dependencia": "DEPARTAMENTO DE CALIDAD LEGISLATIVA",
-     "total": 17844.89
-    },
-    {
      "nombre": "CALDERON MERCADO, JAVIER",
      "cargo": "JEFE",
      "dependencia": "FONDO EDITORIAL",
+     "total": 17844.89
+    },
+    {
+     "nombre": "FLORES ESTRADA, FLOR PATRICIA",
+     "cargo": "JEFE",
+     "dependencia": "DEPARTAMENTO DE CALIDAD LEGISLATIVA",
      "total": 17844.89
     },
     {
@@ -646,9 +646,9 @@
      "total": 14717.05
     },
     {
-     "nombre": "SIPAN TORRES, MARCO RAINIERO",
+     "nombre": "PINARES PAYNE, GABRIELA FERNANDA",
      "cargo": "ASESOR PRINCIPAL",
-     "dependencia": "MARQUEZ HUANCA ANALI",
+     "dependencia": "LOPEZ LETONA HEBER",
      "total": 14700.11
     }
    ],
@@ -686,14 +686,6 @@
      "cargo_antes": "DIRECTOR"
     },
     {
-     "nombre": "FLORES LUCAR, OSKAR RODOMYR",
-     "cargo": "ASESOR I",
-     "dependencia": "COMISION DE DESARROLLO AGRARIO DE LA CAMARA DE DIPUTADOS",
-     "total": 14700.11,
-     "antes": 1953.2,
-     "cargo_antes": "ASESOR I"
-    },
-    {
      "nombre": "ORTIZ AGUILAR, ISMAEL",
      "cargo": "ASESOR I",
      "dependencia": "COMISION DE DESARROLLO AGRARIO DE LA CAMARA DE DIPUTADOS",
@@ -702,9 +694,25 @@
      "cargo_antes": "ASESOR I"
     },
     {
-     "nombre": "ROMERO CASAVILCA, LENIN STIWAR",
+     "nombre": "FLORES LUCAR, OSKAR RODOMYR",
      "cargo": "ASESOR I",
-     "dependencia": "COMISION DE JUSTICIA Y DERECHOS HUMANOS DE LA CAMARA DE DIPUTADOS",
+     "dependencia": "COMISION DE DESARROLLO AGRARIO DE LA CAMARA DE DIPUTADOS",
+     "total": 14700.11,
+     "antes": 1953.2,
+     "cargo_antes": "ASESOR I"
+    },
+    {
+     "nombre": "GOMEZ HIJAR, AMADEO",
+     "cargo": "ASESOR PRINCIPAL",
+     "dependencia": "FLORES CORDOVA AGRIPINA MARIA DEL PILAR",
+     "total": 14700.11,
+     "antes": 2441.5,
+     "cargo_antes": "ASESOR PRINCIPAL"
+    },
+    {
+     "nombre": "BACA GOMEZ SANCHEZ, RODOLFO",
+     "cargo": "ASESOR I",
+     "dependencia": "COMISION DE ECONOMIA BANCA FINANZAS E INTELIGENCIA FINANCIERA  DE LA CAMARA DE DIPUTADOS",
      "total": 14700.11,
      "antes": 2441.5,
      "cargo_antes": "ASESOR I"
@@ -726,20 +734,12 @@
      "cargo_antes": "ASESOR I"
     },
     {
-     "nombre": "BACA GOMEZ SANCHEZ, RODOLFO",
+     "nombre": "ROMERO CASAVILCA, LENIN STIWAR",
      "cargo": "ASESOR I",
-     "dependencia": "COMISION DE ECONOMIA BANCA FINANZAS E INTELIGENCIA FINANCIERA  DE LA CAMARA DE DIPUTADOS",
+     "dependencia": "COMISION DE JUSTICIA Y DERECHOS HUMANOS DE LA CAMARA DE DIPUTADOS",
      "total": 14700.11,
      "antes": 2441.5,
      "cargo_antes": "ASESOR I"
-    },
-    {
-     "nombre": "GOMEZ HIJAR, AMADEO",
-     "cargo": "ASESOR PRINCIPAL",
-     "dependencia": "FLORES CORDOVA AGRIPINA MARIA DEL PILAR",
-     "total": 14700.11,
-     "antes": 2441.5,
-     "cargo_antes": "ASESOR PRINCIPAL"
     },
     {
      "nombre": "JIMENEZ BELMONT, PUBLIO FRANCISCO",
