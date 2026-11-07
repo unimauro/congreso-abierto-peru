@@ -11,6 +11,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import time
 import sys
 from collections import Counter
 
@@ -105,6 +106,40 @@ def fetch_comisiones(session, periodo: int) -> list[dict]:
     return salida
 
 
+def fetch_bancadas(session, periodo: int) -> list[dict]:
+    """Proyectos y leyes por grupo parlamentario con el filtro oficial `grupoParlamentarioId`.
+
+    Un proyecto multipartidario cuenta para cada bancada firmante. Las bancadas se
+    fragmentaron durante 2021–2026, así que no hay un número fijo de miembros.
+    """
+    combos = session.get(f"{API_BASE}/periodo-parlamentario/{periodo}/filtros", timeout=60).json()["data"]
+    salida = []
+    for g in combos.get("gruposParlamentarios", []):
+        if "NO ES GRUPO" in g["descripcion"].upper() or "Comisión" in g["descripcion"]:
+            continue
+        body = _filtro(periodo)
+        body["grupoParlamentarioId"] = g["id"]
+        try:
+            r = session.post(LISTA_ENDPOINT, params={"pageSize": 100000, "page": 1, "rowStart": 0},
+                             json=body, timeout=180)
+            r.raise_for_status()
+            ps = (r.json().get("data") or {}).get("proyectos") or []
+        except Exception as e:
+            print(f"[!] bancada {g['descripcion']}: {e}", file=sys.stderr)
+            continue
+        if not ps:
+            continue
+        leyes = sum(1 for x in ps if es_ley(x.get("desEstado")))
+        simb = sum(1 for x in ps if clasificar_materia(x.get("titulo") or "") == "Declarativa / simbólica")
+        salida.append({
+            "bancada": g["descripcion"].strip(), "proyectos": len(ps), "leyes": leyes,
+            "pct_ley": round(leyes / len(ps) * 100, 1),
+            "pct_simbolico": round(simb / len(ps) * 100, 1),
+        })
+        time.sleep(0.25)
+    return sorted(salida, key=lambda b: -b["proyectos"])
+
+
 def build(periodos: list[int], fecha: str) -> dict:
     session = build_session(timeout=120)
     todos = []
@@ -138,6 +173,9 @@ def build(periodos: list[int], fecha: str) -> dict:
 
     print("[*] cruzando comisiones...", file=sys.stderr)
     comisiones = fetch_comisiones(session, periodos[0])
+
+    print("[*] proyectos por bancada...", file=sys.stderr)
+    bancadas = fetch_bancadas(session, periodos[0])
 
     # Materia por título + cuántas de cada materia llegaron a ser ley.
     materia_total = Counter()
@@ -176,6 +214,7 @@ def build(periodos: list[int], fecha: str) -> dict:
             {"nombre": n, "proyectos": c} for n, c in autores.most_common(20)
         ],
         "comisiones": comisiones,
+        "bancadas": bancadas,
         "materias": materias,
         "produccion_congresistas": [
             {"nombre": n, "proyectos": c} for n, c in principal.most_common(20)

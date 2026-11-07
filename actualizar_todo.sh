@@ -41,6 +41,10 @@ python3 web/build_movimientos.py --fecha "$(date +%Y-%m-%d)"
 echo "[*] Pleno (asistencia y votaciones)..."
 python3 -m pipeline.scrapers.plenos || echo "[!] plenos falló; se mantiene el plenos.json anterior"
 
+# Contratos del Congreso (OCDS/SEACE): rebaja los 3 últimos meses; el histórico queda en data/contratos/.
+echo "[*] Contratos (OCDS)..."
+python3 -m pipeline.scrapers.contratos_ocds || echo "[!] contratos falló; se mantiene el contratos.json anterior"
+
 # Si personal.json solo cambió en la línea "generado" (el PTE no publicó mes
 # nuevo), descartar para no generar un commit diario sin datos.
 if git diff --quiet -I'"generado"' -- web/personal.json; then
@@ -48,18 +52,18 @@ if git diff --quiet -I'"generado"' -- web/personal.json; then
 fi
 
 # Igual con los "generado" de movimientos/plenos: solo cuentan cambios de datos.
-for f in web/movimientos.json web/plenos.json; do
+for f in web/movimientos.json web/plenos.json web/contratos.json; do
   if git diff --quiet -I'"generado"' -- "$f" 2>/dev/null; then git checkout -- "$f" 2>/dev/null || true; fi
 done
 
-if git diff --quiet -- web/context.json web/personal.json web/movimientos.json web/plenos.json \
-   && [ -z "$(git ls-files --others --exclude-standard web/movimientos.json web/plenos.json)" ]; then
+if git diff --quiet -- web/context.json web/personal.json web/movimientos.json web/plenos.json web/contratos.json \
+   && [ -z "$(git ls-files --others --exclude-standard web/movimientos.json web/plenos.json web/contratos.json)" ]; then
   echo "[ok] Sin datos nuevos: nada que commitear."
   exit 0
 fi
 
 echo "[*] Commiteando datos nuevos..."
-git add web/context.json web/personal.json web/movimientos.json web/plenos.json
+git add web/context.json web/personal.json web/movimientos.json web/plenos.json web/contratos.json
 git commit -m "chore(datos): refresco local presupuesto/personal $(date '+%Y-%m-%d')"
 git push
 echo "[ok] Pusheado."

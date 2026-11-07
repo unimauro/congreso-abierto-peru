@@ -54,7 +54,7 @@
     "ASESOR II": 8,
     "COORDINADOR": 5,
     "ASESOR PRINCIPAL": 1,
-    "JEFE": 1
+    "PROFESIONAL": 1
    },
    "bajas_por_cargo": {
     "TECNICO": 110,
@@ -92,6 +92,30 @@
      "total": 12799.4
     },
     {
+     "nombre": "FLORES PEÑA, JAKELYN",
+     "cargo": "ASESOR",
+     "dependencia": "GRUPO PARLAMENTARIO PERU LIBRE",
+     "total": 12740.1
+    },
+    {
+     "nombre": "BOHORQUEZ ZELADA, JESSICA SOCORRO",
+     "cargo": "ASESOR",
+     "dependencia": "GRUPO PARLAMENTARIO LEALTAD NACIONAL",
+     "total": 12740.1
+    },
+    {
+     "nombre": "GARAY GAMARRA, YURIKO TERUKO",
+     "cargo": "ASESOR",
+     "dependencia": "GRUPO PARLAMENTARIO ACCION POPULAR",
+     "total": 12740.1
+    },
+    {
+     "nombre": "CARHUAZ JERI, MALENA",
+     "cargo": "ASESOR",
+     "dependencia": "COMISION DE ETICA PARLAMENTARIA",
+     "total": 12740.1
+    },
+    {
      "nombre": "RAMOS APAZA, ESTHER GIOVANNA",
      "cargo": "ASESOR",
      "dependencia": "GRUPO PARLAMENTARIO LEALTAD NACIONAL",
@@ -104,27 +128,9 @@
      "total": 12740.1
     },
     {
-     "nombre": "BOHORQUEZ ZELADA, JESSICA SOCORRO",
-     "cargo": "ASESOR",
-     "dependencia": "GRUPO PARLAMENTARIO LEALTAD NACIONAL",
-     "total": 12740.1
-    },
-    {
-     "nombre": "FLORES PEÑA, JAKELYN",
-     "cargo": "ASESOR",
-     "dependencia": "GRUPO PARLAMENTARIO PERU LIBRE",
-     "total": 12740.1
-    },
-    {
      "nombre": "YARANGA CAHUANA, YANINA",
      "cargo": "ASESOR",
      "dependencia": "GRUPO PARLAMENTARIO LEALTAD NACIONAL",
-     "total": 12740.1
-    },
-    {
-     "nombre": "GARAY GAMARRA, YURIKO TERUKO",
-     "cargo": "ASESOR",
-     "dependencia": "GRUPO PARLAMENTARIO ACCION POPULAR",
      "total": 12740.1
     },
     {
@@ -134,43 +140,37 @@
      "total": 12740.1
     },
     {
-     "nombre": "CARHUAZ JERI, MALENA",
-     "cargo": "ASESOR",
-     "dependencia": "COMISION DE ETICA PARLAMENTARIA",
-     "total": 12740.1
-    },
-    {
-     "nombre": "BANCES FERROÑAN, CARLOS ANTONIO",
-     "cargo": "ASESOR II",
-     "dependencia": "COMISION DE VIVIENDA Y CONSTRUCCION",
-     "total": 10486.76
-    },
-    {
-     "nombre": "ROMERO ORTIZ, DUBERLI ALFI",
-     "cargo": "ASESOR II",
-     "dependencia": "COMISION DE VIVIENDA Y CONSTRUCCION",
-     "total": 10486.76
-    },
-    {
      "nombre": "HERRERA ALEMAN, HENRY HERNAN",
      "cargo": "ASESOR II",
      "dependencia": "COMIS ESP MULT RESPONSABLE DEFINIR OBJETIVOS Y LINEAMIENTOS EN LUCHA CONTRA TERRORISMO Y CRIMEN ORGANIZADO TRASNACIONAL",
+     "total": 10486.76
+    },
+    {
+     "nombre": "BECERRA SUAREZ, SILVIA SONIA",
+     "cargo": "ASESOR II",
+     "dependencia": "COMISION DE DEFENSA DEL CONSUMIDOR Y ORGANISMOS REGULADORES DE LOS SERVICIOS PUBLICOS",
+     "total": 10486.76
+    },
+    {
+     "nombre": "ELERA RUIZ, MARIA YVETTE",
+     "cargo": "ASESOR II",
+     "dependencia": "LAURA ROJAS JUDITH",
      "total": 10486.76
     }
    ],
    "top_aumentos": [
     {
-     "nombre": "RAMIREZ CHAVARRY, JOHAN",
+     "nombre": "MISARI CARRANZA, MARCO ANTONIO",
      "cargo": "PROFESIONAL",
-     "dependencia": "DEPARTAMENTO DE CALIDAD LEGISLATIVA",
+     "dependencia": "OFICINA DE COMUNICACIONES E IMAGEN INSTITUCIONAL",
      "total": 22341.69,
      "antes": 12213.11,
      "cargo_antes": "PROFESIONAL"
     },
     {
-     "nombre": "MISARI CARRANZA, MARCO ANTONIO",
+     "nombre": "RAMIREZ CHAVARRY, JOHAN",
      "cargo": "PROFESIONAL",
-     "dependencia": "OFICINA DE COMUNICACIONES E IMAGEN INSTITUCIONAL",
+     "dependencia": "DEPARTAMENTO DE CALIDAD LEGISLATIVA",
      "total": 22341.69,
      "antes": 12213.11,
      "cargo_antes": "PROFESIONAL"
@@ -339,22 +339,16 @@
      "total": 20819.04
     },
     {
-     "nombre": "SANCHEZ PALOMINO, ROBERTO HELBERT",
-     "cargo": "JEFE DE GABINETE",
-     "dependencia": "GRUPO PARLAMENTARIO JUNTOS POR EL PERU DEL SENADO",
-     "total": 20075.5
-    },
-    {
      "nombre": "ROJAS LEO, JUAN FRANCISCO",
      "cargo": "JEFE DE GABINETE",
      "dependencia": "PRESIDENCIA DE LA CAMARA DE DIPUTADOS",
      "total": 20075.5
     },
     {
-     "nombre": "LADRON DE GUEVARA BOZA, CHRISTIAN MANUEL",
-     "cargo": "ASESOR COORDINADOR",
-     "dependencia": "TERCERA VICEPRESIDENCIA DEL SENADO",
-     "total": 18985.3
+     "nombre": "SANCHEZ PALOMINO, ROBERTO HELBERT",
+     "cargo": "JEFE DE GABINETE",
+     "dependencia": "GRUPO PARLAMENTARIO JUNTOS POR EL PERU DEL SENADO",
+     "total": 20075.5
     },
     {
      "nombre": "REYES MARTINEZ, ALVARO JAVIER",
@@ -363,16 +357,16 @@
      "total": 18985.3
     },
     {
+     "nombre": "LADRON DE GUEVARA BOZA, CHRISTIAN MANUEL",
+     "cargo": "ASESOR COORDINADOR",
+     "dependencia": "TERCERA VICEPRESIDENCIA DEL SENADO",
+     "total": 18985.3
+    },
+    {
      "nombre": "CAMPOS BERNAL, HEBER JOEL",
      "cargo": "JEFE DE GABINETE",
      "dependencia": "GRUPO PARLAMENTARIO PARTIDO DEL BUEN GOBIERNO DE LA CAMARA DE DIPUTADOS",
      "total": 18588.43
-    },
-    {
-     "nombre": "VELASQUEZ GARAMBEL, JOSE LUIS",
-     "cargo": "ASESOR",
-     "dependencia": "TERCERA VICEPRESIDENCIA DEL SENADO",
-     "total": 17936.58
     },
     {
      "nombre": "HERNANDEZ CAMBORDA, PABLO ENRIQUE",
@@ -384,6 +378,12 @@
      "nombre": "SALCEDO CUADROS, CARLO MAGNO",
      "cargo": "ASESOR COORDINADOR",
      "dependencia": "GRUPO PARLAMENTARIO AHORA NACION DE LA CAMARA DE DIPUTADOS",
+     "total": 17936.58
+    },
+    {
+     "nombre": "VELASQUEZ GARAMBEL, JOSE LUIS",
+     "cargo": "ASESOR",
+     "dependencia": "TERCERA VICEPRESIDENCIA DEL SENADO",
      "total": 17936.58
     },
     {
@@ -399,9 +399,9 @@
      "total": 17524.89
     },
     {
-     "nombre": "CARAZAS PEDREROS, MARGARITA SUSANA",
+     "nombre": "HUACCHILLO GONZALES, MANUEL CEFERINO",
      "cargo": "ASESOR",
-     "dependencia": "GRUPO PARLAMENTARIO PARTIDO CIVICO OBRAS DEL SENADO",
+     "dependencia": "PRIMERA VICEPRESIDENCIA DEL SENADO",
      "total": 16732.9
     }
    ],
@@ -552,13 +552,13 @@
    },
    "bajas_por_cargo": {
     "TECNICO": 10,
-    "AUXILIAR": 6,
     "ASESOR II": 6,
+    "AUXILIAR": 6,
     "COORDINADOR": 5,
     "ASISTENTE": 3,
     "ASESOR PRINCIPAL": 3,
-    "PROFESIONAL": 1,
-    "AUXILIAR EN SERVICIOS": 1
+    "AUXILIAR EN SERVICIOS": 1,
+    "TECNICO EN TRANSCRIPCIONES": 1
    },
    "top_altas": [
     {
@@ -616,15 +616,15 @@
      "total": 14877.99
     },
     {
-     "nombre": "HANANEL GARCIA, MENAHEM GUSTAVO",
-     "cargo": "JEFE",
-     "dependencia": "DEPARTAMENTO DE SEGURIDAD",
-     "total": 14870.73
-    },
-    {
      "nombre": "DE LA CRUZ PALOMINO, BETTY MARITSABEL",
      "cargo": "JEFE",
      "dependencia": "DEPARTAMENTO DE ASESORAMIENTO CIENTIFICO",
+     "total": 14870.73
+    },
+    {
+     "nombre": "HANANEL GARCIA, MENAHEM GUSTAVO",
+     "cargo": "JEFE",
+     "dependencia": "DEPARTAMENTO DE SEGURIDAD",
      "total": 14870.73
     },
     {
@@ -654,17 +654,17 @@
    ],
    "top_aumentos": [
     {
-     "nombre": "GIRALDO GONZALES, MARIBEL GIOVANI",
+     "nombre": "VERA MASCARO, OSCAR RAFAEL",
      "cargo": "JEFE",
-     "dependencia": "DEPARTAMENTO DE COOPERACION INTERNACIONAL",
+     "dependencia": "DEPARTAMENTO DE ENLACE CON LOS GOBIERNOS REGIONALES Y LOCALES",
      "total": 22306.11,
      "antes": 5192.84,
      "cargo_antes": "JEFE"
     },
     {
-     "nombre": "VERA MASCARO, OSCAR RAFAEL",
+     "nombre": "GIRALDO GONZALES, MARIBEL GIOVANI",
      "cargo": "JEFE",
-     "dependencia": "DEPARTAMENTO DE ENLACE CON LOS GOBIERNOS REGIONALES Y LOCALES",
+     "dependencia": "DEPARTAMENTO DE COOPERACION INTERNACIONAL",
      "total": 22306.11,
      "antes": 5192.84,
      "cargo_antes": "JEFE"
@@ -702,28 +702,12 @@
      "cargo_antes": "ASESOR I"
     },
     {
-     "nombre": "BACA GOMEZ SANCHEZ, RODOLFO",
-     "cargo": "ASESOR I",
-     "dependencia": "COMISION DE ECONOMIA BANCA FINANZAS E INTELIGENCIA FINANCIERA  DE LA CAMARA DE DIPUTADOS",
-     "total": 14700.11,
-     "antes": 2441.5,
-     "cargo_antes": "ASESOR I"
-    },
-    {
      "nombre": "ROMERO CASAVILCA, LENIN STIWAR",
      "cargo": "ASESOR I",
      "dependencia": "COMISION DE JUSTICIA Y DERECHOS HUMANOS DE LA CAMARA DE DIPUTADOS",
      "total": 14700.11,
      "antes": 2441.5,
      "cargo_antes": "ASESOR I"
-    },
-    {
-     "nombre": "GOMEZ HIJAR, AMADEO",
-     "cargo": "ASESOR PRINCIPAL",
-     "dependencia": "FLORES CORDOVA AGRIPINA MARIA DEL PILAR",
-     "total": 14700.11,
-     "antes": 2441.5,
-     "cargo_antes": "ASESOR PRINCIPAL"
     },
     {
      "nombre": "ZELADA RABANAL, ENVER THOMAS",
@@ -740,6 +724,22 @@
      "total": 14700.11,
      "antes": 2441.5,
      "cargo_antes": "ASESOR I"
+    },
+    {
+     "nombre": "BACA GOMEZ SANCHEZ, RODOLFO",
+     "cargo": "ASESOR I",
+     "dependencia": "COMISION DE ECONOMIA BANCA FINANZAS E INTELIGENCIA FINANCIERA  DE LA CAMARA DE DIPUTADOS",
+     "total": 14700.11,
+     "antes": 2441.5,
+     "cargo_antes": "ASESOR I"
+    },
+    {
+     "nombre": "GOMEZ HIJAR, AMADEO",
+     "cargo": "ASESOR PRINCIPAL",
+     "dependencia": "FLORES CORDOVA AGRIPINA MARIA DEL PILAR",
+     "total": 14700.11,
+     "antes": 2441.5,
+     "cargo_antes": "ASESOR PRINCIPAL"
     },
     {
      "nombre": "JIMENEZ BELMONT, PUBLIO FRANCISCO",
@@ -3459,7 +3459,13 @@
      "nombre": "FERNANDEZ BERNAL, HEDUT JOAQUIN",
      "cargo": "TECNICO",
      "total": 8310.11,
-     "antes": null
+     "antes": null,
+     "apellido": [
+      {
+       "apellido": "FERNANDEZ",
+       "raro": false
+      }
+     ]
     },
     {
      "nombre": "SOSA SOLANO, NORMA MELLISS",
@@ -4163,7 +4169,13 @@
      "nombre": "VICUÑA VASQUEZ, ALEJANDRO GUILLERMO",
      "cargo": "ASESOR II",
      "total": 12100.11,
-     "antes": null
+     "antes": null,
+     "apellido": [
+      {
+       "apellido": "VASQUEZ",
+       "raro": false
+      }
+     ]
     },
     {
      "nombre": "ARIAS CAYCHO, MARILYN ISABO",
@@ -5477,7 +5489,13 @@
      "nombre": "BOURONCLE HERRERA, JESSICA HAYDE",
      "cargo": "ASESOR PRINCIPAL",
      "total": 14700.11,
-     "antes": null
+     "antes": null,
+     "apellido": [
+      {
+       "apellido": "HERRERA",
+       "raro": false
+      }
+     ]
     },
     {
      "nombre": "VELASQUEZ DAVILA, EDER LUIS",
@@ -7789,7 +7807,13 @@
      "nombre": "PALPA RAMOS, JORDAN ALEJANDRO",
      "cargo": "ASISTENTE",
      "total": 4205.11,
-     "antes": null
+     "antes": null,
+     "apellido": [
+      {
+       "apellido": "RAMOS",
+       "raro": false
+      }
+     ]
     },
     {
      "nombre": "FLORES ACUÑA, FREDERIN",
@@ -8555,7 +8579,13 @@
      "nombre": "YAURI CHOQUE, MYRIAM JULIZA",
      "cargo": "TECNICO",
      "total": 8310.11,
-     "antes": null
+     "antes": null,
+     "apellido": [
+      {
+       "apellido": "YAURI",
+       "raro": true
+      }
+     ]
     },
     {
      "nombre": "MENDEZ COCA, VIKE",
@@ -10109,7 +10139,13 @@
      "nombre": "VASQUEZ SANCHEZ, LUIS RAFAEL",
      "cargo": "TECNICO",
      "total": 831.01,
-     "antes": null
+     "antes": null,
+     "apellido": [
+      {
+       "apellido": "SANCHEZ",
+       "raro": false
+      }
+     ]
     }
    ],
    "serie": [
@@ -11759,7 +11795,13 @@
      "nombre": "ALIAGA REYES, KUNDALINI",
      "cargo": "AUXILIAR",
      "total": 4205.11,
-     "antes": "BARBARAN REYES ROSANGELA ANDREA"
+     "antes": "BARBARAN REYES ROSANGELA ANDREA",
+     "apellido": [
+      {
+       "apellido": "REYES",
+       "raro": false
+      }
+     ]
     },
     {
      "nombre": "CHERO ELIAS, MARCOS JOEL",
@@ -12059,7 +12101,13 @@
      "nombre": "SANCHEZ RENGIFO, FERNANDO",
      "cargo": "TECNICO",
      "total": 8310.11,
-     "antes": "LOPEZ MORALES JENY LUZ"
+     "antes": "LOPEZ MORALES JENY LUZ",
+     "apellido": [
+      {
+       "apellido": "SANCHEZ",
+       "raro": false
+      }
+     ]
     },
     {
      "nombre": "GARCIA NORIEGA, RENAN",
@@ -12437,7 +12485,13 @@
      "nombre": "LOPEZ CHAVEZ, MARTHA PALOMA",
      "cargo": "COORDINADOR",
      "total": 1577.82,
-     "antes": null
+     "antes": null,
+     "apellido": [
+      {
+       "apellido": "CHAVEZ",
+       "raro": false
+      }
+     ]
     },
     {
      "nombre": "VELASQUEZ GUTIERREZ, ABNER ROEL",

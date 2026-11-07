@@ -3,7 +3,7 @@
 const fmt = (n) => new Intl.NumberFormat("es-PE").format(n);
 const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
 let CHARTS = {};
-let DATA = null, CTX = null, PERSONAL = null, BIC = null, PLENOS = null, MOV = null;
+let DATA = null, CTX = null, PERSONAL = null, BIC = null, PLENOS = null, MOV = null, CON = null;
 const soles = (n) => "S/ " + new Intl.NumberFormat("es-PE", { maximumFractionDigits: 0 }).format(n);
 const solesM = (n) => "S/ " + (n / 1e6).toFixed(1) + " M";
 
@@ -354,7 +354,34 @@ function renderIncremento() {
   document.getElementById("inc-fuentes").innerHTML = fuentesHtml(inc.fuentes);
 }
 
+// Gasto del pliego Congreso durante el periodo 2021–2026 (ago-2021 a jul-2026) ÷ leyes.
+// 2021 y 2026 se prorratean por meses: 5/12 del devengado 2021 y 7/12 del PIM 2026.
+function costoPorLey() {
+  const serie = CTX?.presupuesto?.serie || [], leyes = DATA.totales?.leyes_aprobadas;
+  const y = (a) => serie.find(x => x.anio === a);
+  if (!leyes || !y(2021) || !y(2026)) return "";
+  const millones = y(2021).devengado * 5 / 12 + [2022, 2023, 2024, 2025].reduce((t, a) => t + (y(a)?.devengado || 0), 0) + y(2026).pim * 7 / 12;
+  const porLey = millones / leyes;
+  return kpiCard("Costo por ley", `S/ ${porLey.toFixed(2)} M`, `≈ S/ ${fmt(Math.round(millones))} M gastados ÷ ${fmt(leyes)} leyes 2021–26`, "var(--amber)");
+}
+
+const banc21Sort = { k: "proyectos", dir: -1 };
+function renderBancadas21() {
+  const filas = DATA.bancadas || [];
+  const tb = document.querySelector("#tBancadas21 tbody");
+  if (!tb) return;
+  encabezados("tBancadas21", [
+    { k: "bancada", t: "Bancada" }, { k: "proyectos", t: "Proyectos", num: 1 }, { k: "leyes", t: "Leyes", num: 1 },
+    { k: "pct_ley", t: "% ley", num: 1 }, { k: "pct_simbolico", t: "% simbólico", num: 1 },
+  ], banc21Sort, renderBancadas21);
+  tb.innerHTML = filas.length ? filas.slice().sort((x, y) => cmp(x[banc21Sort.k], y[banc21Sort.k], banc21Sort.dir)).map(b =>
+    `<tr><td>${esc(b.bancada)}</td><td class="num-r">${fmt(b.proyectos)}</td><td class="num-r">${fmt(b.leyes)}</td>
+      <td class="num-r">${pctTxt(b.pct_ley)}</td><td class="num-r">${pctTxt(b.pct_simbolico)}</td></tr>`).join("")
+    : `<tr><td class="note">Se cargará en el próximo refresco diario.</td></tr>`;
+}
+
 function renderAnalisis() {
+  renderBancadas21();
   const prod = DATA.produccion_congresistas || [];
   const c = DATA.concentracion || {};
   const mats = DATA.materias || [];
@@ -362,13 +389,14 @@ function renderAnalisis() {
 
   const nota = document.getElementById("periodo-nota");
   if (nota) nota.innerHTML =
-    "Se analiza el periodo parlamentario <b>2021–2026</b> (14,864 proyectos). El nuevo Congreso <b>2026–2031</b> se instaló el 27-jul-2026; aún no registra proyectos de ley en la API oficial — se sumará en cuanto empiece a producir.";
+    `Se analiza el periodo parlamentario <b>2021–2026</b> (${fmt(DATA.totales.proyectos)} proyectos). El nuevo Congreso bicameral <b>2026–2031</b> ya lleva ${BIC ? `<b>${fmt(BIC.totales.proyectos)}</b> proyectos` : "sus primeros proyectos"}: míralo en la pestaña <a href="#bicameral" onclick="activar('bicameral')">Bicameral 2026–31</a>. El <b>costo por ley</b> divide todo el gasto del pliego (que también paga representación, fiscalización y administración) entre las leyes del periodo: es una medida de productividad gruesa, no el costo de hacer cada ley.`;
 
   document.getElementById("kpis-analisis").innerHTML =
     kpiCard("Autores principales", fmt(c.autores_principales || 0), "congresistas que lideran proyectos", "var(--accent)") +
     kpiCard("Declarativas", decl ? `${decl.pct}%` : "—", decl ? `${fmt(decl.proyectos)} proyectos simbólicos` : "", "var(--amber)") +
     kpiCard("Top 10 concentra", `${c.top10_pct || 0}%`, "de la producción total", "var(--accent-2)") +
-    kpiCard("Líder", prod[0]?.nombre.split(",")[0] || "—", `${fmt(prod[0]?.proyectos || 0)} proyectos`, "var(--purple)");
+    kpiCard("Líder", prod[0]?.nombre.split(",")[0] || "—", `${fmt(prod[0]?.proyectos || 0)} proyectos`, "var(--purple)") +
+    costoPorLey();
 
   // Materias: barras horizontales por # de proyectos
   mk("chMaterias", {
@@ -451,6 +479,11 @@ function renderEstado() {
     cards.push(estadoCard("Bicameral 2026–31", BIC.meta.generado,
       `${fmt(t.proyectos)} proyectos · ${fmt(t.congresistas)} congresistas (Senado + Diputados)`,
       "API oficial (codTipoParl S/D/C) + web de cada cámara", diasDesde(BIC.meta.generado)));
+  }
+  if (CON) {
+    cards.push(estadoCard("Contratos (OCDS/SEACE)", CON.meta.generado,
+      `${fmt(CON.totales.procesos)} procesos desde ${CON.meta.desde} · ${fmt(CON.totales.proveedores)} proveedores`,
+      "Contrataciones Abiertas OECE · bulk mensual, comprador PE-CONSUCODE-6", diasDesde(CON.meta.generado)));
   }
   if (PLENOS) {
     const pl = Object.values(PLENOS.camaras);
@@ -799,7 +832,8 @@ function detalleCongresista(m, p, d) {
         <div class="note" style="margin:-2px 0 4px 72px">${x.personal} personas</div>`).join("")}
       <div class="note">≈ <b>${soles(ult.masa * 14)}</b> al año al ritmo de ${mesTxtCorto(ult.mes)} (14 sueldos con gratificaciones). Solo planilla del equipo: el PTE no publica por congresista su remuneración ni sus gastos operativos.${d.serie.length > 2 ? " Los meses previos a ago-26 corresponden a su despacho en el Congreso anterior." : ""}</div></div>`);
     bloques.push(`<div><h4>👥 Equipo (${d.personal})</h4><ul>${d.equipo.map(e =>
-      `<li><b>${esc(e.nombre)}</b> — ${esc(e.cargo)} · ${soles(e.total)}${e.antes ? `<br><span class="note">antes: ${esc(e.antes)}</span>` : ""}</li>`).join("")}</ul></div>`);
+      `<li><b>${esc(e.nombre)}</b> — ${esc(e.cargo)} · ${soles(e.total)}${e.apellido ? ` <span class="tag ${e.apellido.some(x => x.raro) ? "fis" : ""}" title="Comparte apellido con el congresista. No prueba parentesco: la Ley 26771 prohíbe contratar parientes hasta el 4.º grado; verificar con la DJ de intereses.">apellido en común: ${esc(e.apellido.map(x => x.apellido).join(", "))}</span>` : ""}${e.antes ? `<br><span class="note">antes: ${esc(e.antes)}</span>` : ""}</li>`).join("")}</ul>
+      ${d.equipo.some(e => e.apellido) ? `<div class="note">"Apellido en común" es solo una coincidencia de apellidos con el congresista (en ámbar si el apellido es poco frecuente en la planilla). No prueba parentesco; la Ley 26771 prohíbe contratar parientes hasta el 4.º grado de consanguinidad.</div>` : ""}</div>`);
   } else {
     bloques.push(`<div><h4>💸 Gasto del despacho</h4><div class="note">No se identificó su despacho en la planilla del PTE.</div></div>`);
   }
@@ -895,11 +929,78 @@ function renderMovimientos() {
   document.getElementById("mov-nota").textContent = `${MOV.meta.nota} Meses disponibles: ${MOV.meta.meses.map(mesTxt).join(", ")}.`;
 }
 
+// ---- Contratos (OCDS / SEACE) ----
+const conState = { q: "", anio: "", unico: false, wired: false };
+const provSort = { k: "monto", dir: -1 };
+const millon = (x) => `S/ ${(x / 1e6).toLocaleString("es-PE", { maximumFractionDigits: 1 })} M`;
+function renderContratos() {
+  const sec = document.getElementById("view-contratos");
+  if (!sec) return;
+  if (!CON) { document.getElementById("kpis-con").innerHTML = `<div class="card note">Los contratos se cargarán en el próximo refresco.</div>`; return; }
+  const t = CON.totales, anios = Object.entries(CON.por_anio);
+  document.getElementById("con-sub").innerHTML =
+    `Procesos registrados en SEACE con el Congreso como comprador, desde ${CON.meta.desde} · corte ${fechaLarga(CON.meta.generado)}. Fuente: Contrataciones Abiertas (OCDS) de la OECE.`;
+  const unicoPct = t.adjudicados ? (t.postor_unico / t.adjudicados * 100).toFixed(0) : 0;
+  document.getElementById("kpis-con").innerHTML =
+    kpiCard("Monto contratado", millon(t.monto), `${fmt(t.adjudicados)} procesos adjudicados de ${fmt(t.procesos)}`, "var(--accent)") +
+    kpiCard("Proveedores", fmt(t.proveedores), "empresas o personas distintas", "var(--accent-2)") +
+    kpiCard("Top 10 concentra", `${t.top10_pct}%`, "del monto contratado", "var(--purple)") +
+    kpiCard("Un solo postor", `${unicoPct}%`, `${fmt(t.postor_unico)} procesos adjudicados sin competencia`, "var(--amber)");
+
+  mk("chConAnio", {
+    type: "bar",
+    data: { labels: anios.map(e => e[0]), datasets: [{ data: anios.map(e => +(e[1].monto / 1e6).toFixed(1)), backgroundColor: css("--accent"), borderRadius: 4, maxBarThickness: 60 }] },
+    options: opts({ plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => ` S/ ${c.parsed.y} M · ${fmt(anios[c.dataIndex][1].procesos)} procesos` } } }, scales: scales() }),
+  });
+  const met = Object.entries(CON.por_metodo).filter(e => e[1] > 0).slice(0, 8);
+  mk("chConMetodo", {
+    type: "bar",
+    data: { labels: met.map(e => e[0]), datasets: [{ data: met.map(e => +(e[1] / 1e6).toFixed(1)), backgroundColor: met.map(e => /Directa/i.test(e[0]) ? css("--amber") : css("--accent-2")), borderRadius: 4 }] },
+    options: opts({ indexAxis: "y", plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => ` S/ ${c.parsed.x} M` } } }, scales: scales(true) }),
+  });
+
+  const pintarProv = () => {
+    encabezados("tConProv", [
+      { k: "nombre", t: "Proveedor" }, { k: "ruc", t: "RUC" }, { k: "procesos", t: "Procesos", num: 1 },
+      { k: "monto", t: "Monto", num: 1 }, { k: "pct", t: "% del total", num: 1 },
+    ], provSort, pintarProv);
+    document.querySelector("#tConProv tbody").innerHTML = CON.proveedores.slice().sort((x, y) => cmp(x[provSort.k], y[provSort.k], provSort.dir)).map(p =>
+      `<tr><td>${esc(p.nombre)}</td><td class="code">${esc(p.ruc)}</td><td class="num-r">${fmt(p.procesos)}</td><td class="num-r"><b>${soles(p.monto)}</b></td><td class="num-r">${pctTxt(p.pct)}</td></tr>`).join("");
+  };
+  pintarProv();
+  document.getElementById("con-prov-hint").textContent = `top ${CON.proveedores.length} por monto`;
+
+  const selA = document.getElementById("con-anio");
+  selA.innerHTML = `<option value="">Todos los años</option>` + anios.map(e => e[0]).reverse().map(a => `<option${a === conState.anio ? " selected" : ""}>${a}</option>`).join("");
+  if (!conState.wired) {
+    conState.wired = true;
+    document.getElementById("con-q").addEventListener("input", e => { conState.q = e.target.value; pintarProcesos(); });
+    selA.addEventListener("change", e => { conState.anio = e.target.value; pintarProcesos(); });
+    document.getElementById("con-unico").addEventListener("change", e => { conState.unico = e.target.checked; pintarProcesos(); });
+  }
+  pintarProcesos();
+  document.getElementById("con-nota").innerHTML = `${esc(CON.meta.nota)} Los procesos sin monto aún están en convocatoria, desiertos o sin contrato publicado. <b>Un solo postor</b> no implica irregularidad, pero es la señal clásica de baja competencia.`;
+}
+function pintarProcesos() {
+  const q = conState.q.trim().toLowerCase();
+  const filas = CON.procesos.filter(p => (!conState.anio || (p.convocado || "").startsWith(conState.anio)) &&
+    (!conState.unico || p.postores === 1) &&
+    (!q || `${p.objeto} ${p.nomenclatura} ${p.proveedores.join(" ")}`.toLowerCase().includes(q)));
+  document.getElementById("con-count").textContent = `${fmt(filas.length)} procesos · ${millon(filas.reduce((a, p) => a + (p.monto || 0), 0))}`;
+  document.querySelector("#tConProc tbody").innerHTML = filas.slice(0, 300).map(p =>
+    `<tr><td style="white-space:nowrap">${esc(p.convocado || "")}</td>
+      <td>${esc(p.objeto)}<div class="note" style="margin:2px 0 0">${esc(p.metodo)} · <span class="code">${esc(p.nomenclatura)}</span></div></td>
+      <td>${p.proveedores.map(esc).join("<br>") || `<span class="note">—</span>`}</td>
+      <td class="num-r">${p.postores ?? "—"}${p.postores === 1 ? ` <span class="tag fis">único</span>` : ""}</td>
+      <td class="num-r">${p.monto ? `<b>${soles(p.monto)}</b>` : "—"}</td></tr>`).join("") +
+    (filas.length > 300 ? `<tr><td colspan="5" class="note">Mostrando 300 de ${fmt(filas.length)}: usa el buscador o el filtro de año.</td></tr>` : "");
+}
+
 function renderAll() {
   if (!DATA || !CTX) return;
   renderResumen(); renderProyectos(); renderPresupuesto(); renderIncremento();
   renderComisiones(); renderAnalisis(); renderPersonal(); renderMovimientos(); renderEstado(); renderInforme();
-  renderBicameral();
+  renderBicameral(); renderContratos();
 }
 
 // Revalidar con el servidor (ETag) para no servir datos viejos de caché:
@@ -912,9 +1013,10 @@ Promise.all([
   fetch("bicameral.json", nocache).then(r => r.ok ? r.json() : null).catch(() => null),
   fetch("plenos.json", nocache).then(r => r.ok ? r.json() : null).catch(() => null),
   fetch("movimientos.json", nocache).then(r => r.ok ? r.json() : null).catch(() => null),
+  fetch("contratos.json", nocache).then(r => r.ok ? r.json() : null).catch(() => null),
 ])
-  .then(([d, c, p, b, pl, mv]) => {
-    DATA = d; CTX = c; PERSONAL = p; BIC = b; PLENOS = pl; MOV = mv;
+  .then(([d, c, p, b, pl, mv, co]) => {
+    DATA = d; CTX = c; PERSONAL = p; BIC = b; PLENOS = pl; MOV = mv; CON = co;
     document.getElementById("gen").textContent = "actualizado " + d.meta.generado;
     const ud = document.getElementById("updated-date");
     if (ud) ud.textContent = d.meta.generado;

@@ -188,6 +188,7 @@
     <button data-view="comisiones">Comisiones</button>
     <button data-view="analisis">Análisis 🔬</button>
     <button data-view="personal">Personal</button>
+    <button data-view="contratos">Contratos 🧾</button>
     <button data-view="estado">Estado de datos</button>
   </div>
 </nav>
@@ -413,11 +414,9 @@
       <div class="note" id="prod-note"></div>
     </div>
     <div class="card full" style="margin-top:16px">
-      <div class="panel-head"><h3>🚧 Próximamente en el zoom</h3></div>
-      <ul class="facts">
-        <li><b>Ranking por bancada / partido</b>: la API oficial del Congreso <b>no expone el grupo parlamentario</b> por proyecto (el filtro se ignora). Requiere cruzar el padrón de congresistas con su bancada (directorio oficial) y unirlo con cuidado a la autoría. En cola.</li>
-        <li><b>Detección de altas/bajas de personal</b> mes a mes (recién contratados) comparando planillas del PTE. En cola.</li>
-      </ul>
+      <div class="panel-head"><h3>🏛️ Producción por bancada 2021–2026</h3><span class="hint">filtro oficial grupoParlamentarioId · haz clic en un encabezado para ordenar</span></div>
+      <div style="overflow:auto;max-height:560px"><table id="tBancadas21"><thead><tr></tr></thead><tbody></tbody></table></div>
+      <div class="note">Proyectos en los que firmó al menos un miembro de la bancada (un proyecto multipartidario cuenta para cada bancada firmante). <b>% ley</b> = cuántos terminaron publicados como ley; <b>% simbólico</b> = declaraciones de interés, días nacionales, homenajes. Las bancadas cambiaron de nombre y se dividieron durante el periodo, por eso aparecen varias versiones de algunas.</div>
     </div>
   </section>
 
@@ -498,6 +497,36 @@
   </section>
 
   <!-- ESTADO DE DATOS -->
+  <section class="view" id="view-contratos">
+    <h2 class="section">Contratos 🧾 — ¿a quién le compra el Congreso?</h2>
+    <div class="note" id="con-sub" style="margin:-6px 0 16px"></div>
+    <div class="grid kpis" id="kpis-con"></div>
+    <div class="grid panels" style="margin-top:16px">
+      <div class="card">
+        <div class="panel-head"><h3>Monto adjudicado por año</h3><span class="hint">año de convocatoria · millones de soles</span></div>
+        <div class="chart-box"><canvas id="chConAnio"></canvas></div>
+      </div>
+      <div class="card">
+        <div class="panel-head"><h3>¿Cómo compra?</h3><span class="hint">monto por tipo de procedimiento</span></div>
+        <div class="chart-box"><canvas id="chConMetodo"></canvas></div>
+      </div>
+    </div>
+    <div class="card full" style="margin-top:16px">
+      <div class="panel-head"><h3>🏢 Proveedores</h3><span class="hint" id="con-prov-hint"></span></div>
+      <div style="overflow:auto;max-height:520px"><table id="tConProv"><thead><tr></tr></thead><tbody></tbody></table></div>
+    </div>
+    <div class="card full" style="margin-top:16px">
+      <div class="panel-head"><h3>📋 Procesos de contratación</h3><span class="hint" id="con-count"></span></div>
+      <div class="per-filtros">
+        <input type="search" id="con-q" placeholder="Objeto, proveedor o nomenclatura…" autocomplete="off" />
+        <select id="con-anio"><option value="">Todos los años</option></select>
+        <label class="note" style="display:flex;gap:6px;align-items:center;margin:0"><input type="checkbox" id="con-unico" /> Solo con un postor</label>
+      </div>
+      <div style="overflow:auto;max-height:620px"><table id="tConProc"><thead><tr><th>Convocado</th><th>Objeto</th><th>Proveedor(es)</th><th class="num-r">Postores</th><th class="num-r">Monto</th></tr></thead><tbody></tbody></table></div>
+      <div class="note" id="con-nota"></div>
+    </div>
+  </section>
+
   <section class="view" id="view-estado">
     <h2 class="section">Estado de datos 🔄</h2>
     <div class="note" style="margin:-6px 0 16px">Frescura y fuente de cada conjunto de datos. Los datos legislativos se regeneran automáticamente cada día (GitHub Actions); presupuesto, personal y actas del Pleno se refrescan a diario desde una laptop porque esos portales bloquean los servidores de CI o requieren OCR.</div>

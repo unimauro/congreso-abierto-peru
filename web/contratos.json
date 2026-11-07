@@ -1,0 +1,5464 @@
+{
+ "meta": {
+  "generado": "2026-11-07",
+  "fuente": "Contrataciones Abiertas OECE (OCDS, SEACE v3) · comprador Congreso de la República (PE-CONSUCODE-6)",
+  "desde": "2021-07",
+  "nota": "Procesos registrados en SEACE por mes de convocatoria. Monto = contratos firmados o, si aún no hay, lo adjudicado. No incluye compras menores a 8 UIT ni las de catálogo electrónico de Perú Compras, que no pasan por este registro; la mayor parte del presupuesto del Congreso es planilla."
+ },
+ "totales": {
+  "procesos": 347,
+  "adjudicados": 246,
+  "monto": 101007247.74,
+  "proveedores": 179,
+  "postor_unico": 11,
+  "top10_pct": 43.7
+ },
+ "por_anio": {
+  "2021": {
+   "procesos": 27,
+   "monto": 6621162.84,
+   "postor_unico": 3
+  },
+  "2022": {
+   "procesos": 82,
+   "monto": 19701779.67,
+   "postor_unico": 3
+  },
+  "2023": {
+   "procesos": 41,
+   "monto": 10256526.83,
+   "postor_unico": 0
+  },
+  "2024": {
+   "procesos": 60,
+   "monto": 16979472.66,
+   "postor_unico": 2
+  },
+  "2025": {
+   "procesos": 65,
+   "monto": 28002474.24,
+   "postor_unico": 1
+  },
+  "2026": {
+   "procesos": 72,
+   "monto": 16386176.79,
+   "postor_unico": 2
+  }
+ },
+ "por_metodo": {
+  "Adjudicación Simplificada": 26198780.78,
+  "Concurso Público": 19954986.44,
+  "Licitación Pública": 17925613.1,
+  "Contratación Directa": 12173196.71,
+  "Concurso Público Abreviado": 8769712.34,
+  "Concurso Público de Servicios": 7925670.32,
+  "Licitación Pública Abreviada": 2586249.81,
+  "Subasta Inversa Electrónica": 1627560.0,
+  "Adjudicación Simplificada-Homologación": 645091.0,
+  "Comparación de Precios": 140732.53,
+  "Contratación Internacional": 0
+ },
+ "por_categoria": {
+  "services": 61306093.09,
+  "goods": 36641499.94
+ },
+ "proveedores": [
+  {
+   "ruc": "20100057523",
+   "nombre": "ASCENSORES S A",
+   "monto": 7781937.22,
+   "procesos": 6,
+   "pct": 7.7
+  },
+  {
+   "ruc": "20112351150",
+   "nombre": "VIDEO BROADCAST S A",
+   "monto": 6422904.0,
+   "procesos": 3,
+   "pct": 6.36
+  },
+  {
+   "ruc": "20553404631",
+   "nombre": "DAILY TECHNOLOGY S.A.C.",
+   "monto": 6162251.22,
+   "procesos": 8,
+   "pct": 6.1
+  },
+  {
+   "ruc": "20431217822",
+   "nombre": "TELEFÓNICA SERVICIOS AUDIOVISUALES DEL PERÚ SAC",
+   "monto": 5240000.0,
+   "procesos": 1,
+   "pct": 5.19
+  },
+  {
+   "ruc": "20261898706",
+   "nombre": "ADEXUS PERU SA",
+   "monto": 4625935.34,
+   "procesos": 6,
+   "pct": 4.58
+  },
+  {
+   "ruc": "20106897914",
+   "nombre": "ENTEL PERU S.A.",
+   "monto": 3678743.52,
+   "procesos": 4,
+   "pct": 3.64
+  },
+  {
+   "ruc": "20100041953",
+   "nombre": "RIMAC SEGUROS Y REASEGUROS",
+   "monto": 2949918.02,
+   "procesos": 4,
+   "pct": 2.92
+  },
+  {
+   "ruc": "20552075341",
+   "nombre": "IMPERIA SOLUCIONES TECNOLOGICAS S.A.C.",
+   "monto": 2610500.0,
+   "procesos": 4,
+   "pct": 2.58
+  },
+  {
+   "ruc": "20601100593",
+   "nombre": "INNOVA TECNOLOGIA CORP S.A.C. - INNOVA TC",
+   "monto": 2498000.0,
+   "procesos": 1,
+   "pct": 2.47
+  },
+  {
+   "ruc": "20600018486",
+   "nombre": "JRM SOLUTIONS PERU E.I.R.L.",
+   "monto": 2200800.0,
+   "procesos": 1,
+   "pct": 2.18
+  },
+  {
+   "ruc": "20418896915",
+   "nombre": "MAPFRE PERU COMPAÑIA DE SEGUROS Y REASEGUROS",
+   "monto": 2162026.75,
+   "procesos": 4,
+   "pct": 2.14
+  },
+  {
+   "ruc": "20388307677",
+   "nombre": "CUARZO TRAVEL S.R.LTDA",
+   "monto": 1846002.88,
+   "procesos": 3,
+   "pct": 1.83
+  },
+  {
+   "ruc": "20467534026",
+   "nombre": "AMERICA MOVIL PERU S.A.C.",
+   "monto": 1814013.7,
+   "procesos": 6,
+   "pct": 1.8
+  },
+  {
+   "ruc": "20555241811",
+   "nombre": "INET PERU S.A.C.",
+   "monto": 1802980.0,
+   "procesos": 4,
+   "pct": 1.79
+  },
+  {
+   "ruc": "20147869887",
+   "nombre": "SEMINARIO DE SANTO TORIBIO",
+   "monto": 1620000.0,
+   "procesos": 1,
+   "pct": 1.6
+  },
+  {
+   "ruc": "20565643496",
+   "nombre": "GLOBAL FUEL SOCIEDAD ANONIMA",
+   "monto": 1606280.0,
+   "procesos": 4,
+   "pct": 1.59
+  },
+  {
+   "ruc": "20100139848",
+   "nombre": "ASCENSORES SCHINDLER DEL PERU S A",
+   "monto": 1589794.75,
+   "procesos": 6,
+   "pct": 1.57
+  },
+  {
+   "ruc": "20302061425",
+   "nombre": "CONSTRUCTORA CUSA S.A.C. CONTRATISTAS GE NERALES",
+   "monto": 1559097.29,
+   "procesos": 3,
+   "pct": 1.54
+  },
+  {
+   "ruc": "20332970411",
+   "nombre": "PACIFICO COMPAÑIA DE SEGUROS Y REASEGUROS",
+   "monto": 1484584.45,
+   "procesos": 3,
+   "pct": 1.47
+  },
+  {
+   "ruc": "20505120451",
+   "nombre": "IT STORAGE E.I.R.L.",
+   "monto": 1402000.0,
+   "procesos": 2,
+   "pct": 1.39
+  },
+  {
+   "ruc": "20517207331",
+   "nombre": "PROTECTA S.A. COMPAÑIA DE SEGUROS",
+   "monto": 1220097.33,
+   "procesos": 2,
+   "pct": 1.21
+  },
+  {
+   "ruc": "491005",
+   "nombre": "Noovus Technology Business Unit S.A.C. y Adistec Perú S.A.C.",
+   "monto": 1189690.0,
+   "procesos": 1,
+   "pct": 1.18
+  },
+  {
+   "ruc": "1765129",
+   "nombre": "CONSORCIO AUTONIZA",
+   "monto": 1172500.0,
+   "procesos": 1,
+   "pct": 1.16
+  },
+  {
+   "ruc": "20600007174",
+   "nombre": "CONTROLES EMPRESARIALES PERU S.A.C. - COEM SAC",
+   "monto": 1132200.0,
+   "procesos": 2,
+   "pct": 1.12
+  },
+  {
+   "ruc": "20112846477",
+   "nombre": "TRAVEL TIME S A",
+   "monto": 1078779.26,
+   "procesos": 2,
+   "pct": 1.07
+  },
+  {
+   "ruc": "20390625007",
+   "nombre": "CHUBB PERU S.A. COMPAÑIA DE SEGUROS Y REASEGUROS",
+   "monto": 1066127.34,
+   "procesos": 1,
+   "pct": 1.06
+  },
+  {
+   "ruc": "20522859410",
+   "nombre": "SOAINT PERU S.A.C.",
+   "monto": 820080.0,
+   "procesos": 1,
+   "pct": 0.81
+  },
+  {
+   "ruc": "20609275252",
+   "nombre": "ARQUITECNOLOGIA S.A.C.",
+   "monto": 798999.0,
+   "procesos": 1,
+   "pct": 0.79
+  },
+  {
+   "ruc": "20536429183",
+   "nombre": "PANA AUTOS S.A.C.",
+   "monto": 795423.57,
+   "procesos": 1,
+   "pct": 0.79
+  },
+  {
+   "ruc": "10067358177",
+   "nombre": "RIVERA REGALADO DANIEL ARMANDO",
+   "monto": 736474.74,
+   "procesos": 3,
+   "pct": 0.73
+  },
+  {
+   "ruc": "20120476816",
+   "nombre": "AUTOMOTRIZ SAN BLAS S.A.",
+   "monto": 728711.46,
+   "procesos": 1,
+   "pct": 0.72
+  },
+  {
+   "ruc": "20606643188",
+   "nombre": "GRUPO ROBERCO CONTRATISTAS Y MULTINVERSIONES S.A.C.",
+   "monto": 715363.2,
+   "procesos": 1,
+   "pct": 0.71
+  },
+  {
+   "ruc": "20100017491",
+   "nombre": "TELEFONICA DEL PERU SAA",
+   "monto": 660424.32,
+   "procesos": 1,
+   "pct": 0.65
+  },
+  {
+   "ruc": "528979",
+   "nombre": "UEZU INGENIEROS CONTRATISTAS S.R.L Y UEZU COMERCIAL S.A.C",
+   "monto": 645091.0,
+   "procesos": 1,
+   "pct": 0.64
+  },
+  {
+   "ruc": "20199144961",
+   "nombre": "BAFING S.A.C.",
+   "monto": 613065.0,
+   "procesos": 2,
+   "pct": 0.61
+  },
+  {
+   "ruc": "20601476291",
+   "nombre": "UNITY PERU S.A.C.",
+   "monto": 585557.0,
+   "procesos": 2,
+   "pct": 0.58
+  },
+  {
+   "ruc": "20602865721",
+   "nombre": "CHECK POINT ADVERTAINMENT S.A.C.",
+   "monto": 553954.93,
+   "procesos": 2,
+   "pct": 0.55
+  },
+  {
+   "ruc": "20521435357",
+   "nombre": "XENTIC S.A.C.",
+   "monto": 540545.25,
+   "procesos": 2,
+   "pct": 0.54
+  },
+  {
+   "ruc": "20475805101",
+   "nombre": "INNOVARE E-BUSINESS S.A.C.",
+   "monto": 500000.0,
+   "procesos": 3,
+   "pct": 0.5
+  },
+  {
+   "ruc": "20605222561",
+   "nombre": "ALLIN TELD S.A.C. - ALLTELD S.A.C.",
+   "monto": 495976.08,
+   "procesos": 3,
+   "pct": 0.49
+  },
+  {
+   "ruc": "10407058165",
+   "nombre": "LOPEZ PEÑALOZA EDSON MAX",
+   "monto": 480000.0,
+   "procesos": 1,
+   "pct": 0.48
+  },
+  {
+   "ruc": "20544172761",
+   "nombre": "SCD  INDUSTRIES  E.I.R.L",
+   "monto": 470000.0,
+   "procesos": 1,
+   "pct": 0.47
+  },
+  {
+   "ruc": "20504747981",
+   "nombre": "BELLTECH PERU SAC",
+   "monto": 466000.0,
+   "procesos": 2,
+   "pct": 0.46
+  },
+  {
+   "ruc": "20100406986",
+   "nombre": "DISTRIBUIDORA PERFECTION S.A.C.",
+   "monto": 450000.0,
+   "procesos": 3,
+   "pct": 0.45
+  },
+  {
+   "ruc": "1803480",
+   "nombre": "CONSORCIO AUTONIZA",
+   "monto": 436000.0,
+   "procesos": 1,
+   "pct": 0.43
+  },
+  {
+   "ruc": "528149",
+   "nombre": "KONFIDI TECHNOLOGIES S.A. - MANDRAWARE S.A.C.",
+   "monto": 434120.0,
+   "procesos": 1,
+   "pct": 0.43
+  },
+  {
+   "ruc": "20502121902",
+   "nombre": "CONSORCIO COMERCIAL FERRETERO E.I.R.L.",
+   "monto": 425500.0,
+   "procesos": 2,
+   "pct": 0.42
+  },
+  {
+   "ruc": "20602471277",
+   "nombre": "RAM & MAR INGENIEROS S.A.C.",
+   "monto": 421591.58,
+   "procesos": 1,
+   "pct": 0.42
+  },
+  {
+   "ruc": "20553892253",
+   "nombre": "CA & PE CARGO S.A.C.",
+   "monto": 416622.5,
+   "procesos": 2,
+   "pct": 0.41
+  },
+  {
+   "ruc": "20607571890",
+   "nombre": "INMOBILIARIA PIÑARRETA S.A.C",
+   "monto": 415500.0,
+   "procesos": 1,
+   "pct": 0.41
+  },
+  {
+   "ruc": "20602691617",
+   "nombre": "CLOUD INFRASTRUCTURE AND TELECOM PERU SOCIEDAD ANONIMA CERRADA - CLOUD IT PERU S.A.C.",
+   "monto": 387040.0,
+   "procesos": 1,
+   "pct": 0.38
+  },
+  {
+   "ruc": "20370508659",
+   "nombre": "GRIFO J.H.P. E.I.R.LTDA.",
+   "monto": 378100.0,
+   "procesos": 1,
+   "pct": 0.37
+  },
+  {
+   "ruc": "20606750430",
+   "nombre": "INTEGRACIONES J & I S.A.C.",
+   "monto": 369100.0,
+   "procesos": 3,
+   "pct": 0.37
+  },
+  {
+   "ruc": "20557084364",
+   "nombre": "URBANCAD SOCIEDAD ANONIMA CERRADA",
+   "monto": 360000.0,
+   "procesos": 2,
+   "pct": 0.36
+  },
+  {
+   "ruc": "20502719948",
+   "nombre": "CONVEXUS COMUNICACIONES REDES Y SISTEMAS S.A.C.",
+   "monto": 344907.4,
+   "procesos": 2,
+   "pct": 0.34
+  },
+  {
+   "ruc": "20602300707",
+   "nombre": "ADMINISTRADORA PRIME S.A",
+   "monto": 344788.92,
+   "procesos": 1,
+   "pct": 0.34
+  },
+  {
+   "ruc": "10448650044",
+   "nombre": "SANTIAGO ATENCIO ELIZABETH CAROLINA",
+   "monto": 323421.0,
+   "procesos": 1,
+   "pct": 0.32
+  },
+  {
+   "ruc": "10404420688",
+   "nombre": "URCIA DE LA CRUZ RICHARD",
+   "monto": 321830.0,
+   "procesos": 4,
+   "pct": 0.32
+  },
+  {
+   "ruc": "20563317869",
+   "nombre": "CONSORCIO FRAP S.A.C.",
+   "monto": 316572.0,
+   "procesos": 1,
+   "pct": 0.31
+  },
+  {
+   "ruc": "20608345273",
+   "nombre": "KOTLIN SERVICES S.A.C.",
+   "monto": 315000.0,
+   "procesos": 1,
+   "pct": 0.31
+  },
+  {
+   "ruc": "20510944764",
+   "nombre": "DIRECTV PERU S.R.L.",
+   "monto": 310392.0,
+   "procesos": 1,
+   "pct": 0.31
+  },
+  {
+   "ruc": "20524858518",
+   "nombre": "INSPIRA IT CONSULTING S.A.C.",
+   "monto": 308758.0,
+   "procesos": 2,
+   "pct": 0.31
+  },
+  {
+   "ruc": "20553618518",
+   "nombre": "MEDICAL CARE SERVICES S.A.C.",
+   "monto": 308610.0,
+   "procesos": 1,
+   "pct": 0.31
+  },
+  {
+   "ruc": "20542590344",
+   "nombre": "EMPRESA 1000 JOBS SOCIEDAD ANONIMA CERRADA - EMPRESA 1000 JOBS S.A.C.",
+   "monto": 304750.0,
+   "procesos": 1,
+   "pct": 0.3
+  },
+  {
+   "ruc": "20431115825",
+   "nombre": "PACIFICO S.A. ENT. PRESTADORA DE SALUD",
+   "monto": 303521.77,
+   "procesos": 3,
+   "pct": 0.3
+  },
+  {
+   "ruc": "20340549750",
+   "nombre": "CONQUISTADORES REAL SERVICE S.A.",
+   "monto": 301469.08,
+   "procesos": 1,
+   "pct": 0.3
+  },
+  {
+   "ruc": "20546970826",
+   "nombre": "KUNAK CONSULTING S.A.C",
+   "monto": 294271.05,
+   "procesos": 3,
+   "pct": 0.29
+  },
+  {
+   "ruc": "20603585616",
+   "nombre": "BUSINESS SOLUTION A & C S.A.C.",
+   "monto": 293573.62,
+   "procesos": 1,
+   "pct": 0.29
+  },
+  {
+   "ruc": "1635341",
+   "nombre": "CONSORCIO SAN MARTIN",
+   "monto": 287102.2,
+   "procesos": 1,
+   "pct": 0.28
+  },
+  {
+   "ruc": "1675176",
+   "nombre": "CONSORCIO GRIFOSA S.A.C. - INV. Y COM. MAKA S.A.C.",
+   "monto": 284810.0,
+   "procesos": 1,
+   "pct": 0.28
+  },
+  {
+   "ruc": "20550683645",
+   "nombre": "INVERCON PROYECTOS S.A.C.",
+   "monto": 273420.0,
+   "procesos": 2,
+   "pct": 0.27
+  },
+  {
+   "ruc": "20601548730",
+   "nombre": "VADIEL INGENIEROS S.A.C-VADIEL S.A.C.",
+   "monto": 266124.0,
+   "procesos": 3,
+   "pct": 0.26
+  },
+  {
+   "ruc": "20492993973",
+   "nombre": "INTEGRITY PERU S.A.C.",
+   "monto": 264798.07,
+   "procesos": 1,
+   "pct": 0.26
+  },
+  {
+   "ruc": "20563636379",
+   "nombre": "INGECORP PERU S.A.C.",
+   "monto": 256000.0,
+   "procesos": 1,
+   "pct": 0.25
+  },
+  {
+   "ruc": "20601590221",
+   "nombre": "ROMA SOLUCIONES INTEGRALES E.I.R.L.",
+   "monto": 233800.0,
+   "procesos": 2,
+   "pct": 0.23
+  },
+  {
+   "ruc": "20556605816",
+   "nombre": "ESGINNOVA PERU SOCIEDAD ANONIMA CERRADA - ESGINNOVA PERU S.A.C.",
+   "monto": 225450.0,
+   "procesos": 1,
+   "pct": 0.22
+  },
+  {
+   "ruc": "20544629485",
+   "nombre": "2R BUSINESS ENGINEERING S.A.C",
+   "monto": 223750.0,
+   "procesos": 1,
+   "pct": 0.22
+  },
+  {
+   "ruc": "20511807124",
+   "nombre": "DIVICAM SOCIEDAD ANONIMA CERRADA",
+   "monto": 219917.78,
+   "procesos": 1,
+   "pct": 0.22
+  },
+  {
+   "ruc": "20492504018",
+   "nombre": "DATA CLOUD TECHNOLOGY S.A.C.",
+   "monto": 218162.0,
+   "procesos": 1,
+   "pct": 0.22
+  },
+  {
+   "ruc": "20600561023",
+   "nombre": "OPEN SOURCE ENTERPRISE S.A.C. -  OS ENTERPRISE S.A.C.",
+   "monto": 218000.0,
+   "procesos": 1,
+   "pct": 0.22
+  },
+  {
+   "ruc": "1791227",
+   "nombre": "CONSORCIO ALPHA Y OMEGA",
+   "monto": 200000.0,
+   "procesos": 1,
+   "pct": 0.2
+  },
+  {
+   "ruc": "20521684497",
+   "nombre": "AIR CONDITIONING TECHNOLOGY SISTEM SAC",
+   "monto": 198790.9,
+   "procesos": 2,
+   "pct": 0.2
+  },
+  {
+   "ruc": "20612566225",
+   "nombre": "ADMIN GROUP S.A.C.",
+   "monto": 198592.21,
+   "procesos": 1,
+   "pct": 0.2
+  },
+  {
+   "ruc": "20262173853",
+   "nombre": "INDUSTRIAL PRODEX DELGADO S.A.",
+   "monto": 195445.7,
+   "procesos": 1,
+   "pct": 0.19
+  },
+  {
+   "ruc": "20603013639",
+   "nombre": "INTELLIGENIO SOCIEDAD ANONIMA CERRADA",
+   "monto": 193997.0,
+   "procesos": 1,
+   "pct": 0.19
+  },
+  {
+   "ruc": "20602497519",
+   "nombre": "CREAINTER SOCIEDAD ANONIMA CERRADA-CREAINTER S.A.C.",
+   "monto": 192199.0,
+   "procesos": 2,
+   "pct": 0.19
+  },
+  {
+   "ruc": "20603482027",
+   "nombre": "GROUP HESTI ARCON S.A.C",
+   "monto": 190000.0,
+   "procesos": 1,
+   "pct": 0.19
+  },
+  {
+   "ruc": "20451540336",
+   "nombre": "TELNET SERVICES PERU SOCIEDAD ANONIMA CERRADA",
+   "monto": 187918.68,
+   "procesos": 1,
+   "pct": 0.19
+  },
+  {
+   "ruc": "20202380621",
+   "nombre": "MAPFRE PERU COMPAÑIA DE SEGUROS Y REASEGUROS S.A.",
+   "monto": 185685.36,
+   "procesos": 1,
+   "pct": 0.18
+  },
+  {
+   "ruc": "20611910585",
+   "nombre": "HPS D' COMPANY S.A.C.",
+   "monto": 185000.0,
+   "procesos": 1,
+   "pct": 0.18
+  },
+  {
+   "ruc": "20608239937",
+   "nombre": "GRUPO EMPRESARIAL GONZALES MALPICA & ASOCIADOS S.A.C.",
+   "monto": 180000.0,
+   "procesos": 1,
+   "pct": 0.18
+  },
+  {
+   "ruc": "20486440075",
+   "nombre": "ELECTROMECANICA VALENCIA EIRL.",
+   "monto": 175000.0,
+   "procesos": 1,
+   "pct": 0.17
+  },
+  {
+   "ruc": "20557712942",
+   "nombre": "CLEANING SERVI´Z S.A.C.",
+   "monto": 174349.66,
+   "procesos": 2,
+   "pct": 0.17
+  },
+  {
+   "ruc": "20603471955",
+   "nombre": "CONSULTORES TECNOLOGICOS EMPRESARIALES E.I.R.L.",
+   "monto": 174300.0,
+   "procesos": 1,
+   "pct": 0.17
+  },
+  {
+   "ruc": "10407483630",
+   "nombre": "LOAYZA PALOMINO JANET ALICE",
+   "monto": 172670.5,
+   "procesos": 1,
+   "pct": 0.17
+  },
+  {
+   "ruc": "20393744392",
+   "nombre": "ECO SELVA FORESTAL E.I.R.L.",
+   "monto": 170900.0,
+   "procesos": 2,
+   "pct": 0.17
+  },
+  {
+   "ruc": "20503611792",
+   "nombre": "AROMAS Y MATICES S.A.",
+   "monto": 168866.64,
+   "procesos": 2,
+   "pct": 0.17
+  },
+  {
+   "ruc": "20607295388",
+   "nombre": "GRUPO SIMON CORPORACION S.A.C.",
+   "monto": 168440.0,
+   "procesos": 1,
+   "pct": 0.17
+  },
+  {
+   "ruc": "10416801661",
+   "nombre": "RUIZ CABELLO LISSETTE SARITA",
+   "monto": 165100.0,
+   "procesos": 1,
+   "pct": 0.16
+  },
+  {
+   "ruc": "20601726191",
+   "nombre": "GENERA CLIMA S.A.C.",
+   "monto": 163900.0,
+   "procesos": 2,
+   "pct": 0.16
+  }
+ ],
+ "procesos": [
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-43",
+   "nomenclatura": "AS-SM-12-2025-CR-3",
+   "objeto": "ADQUISICION DE UN SISTEMA AUDIOVISUAL PARA EL AUDITORIO ALBERTO ANDRADE CARMONA Y EL AUDITORIO JOSE FAUSTINO SANCHEZ CARRION",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 0.0,
+   "convocado": "2026-11-03",
+   "postores": 14,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1262819",
+   "nomenclatura": "CP SER-SM-10-2026-CR-1",
+   "objeto": "SERVICIO DE ACONDICIONAMIENTO DE SERVICIOS HIGIENICOS DEL EDIFICIO LUIS BEDOYA REYES DEL CONGRESO DE LA REPUBLICA",
+   "metodo": "Concurso Público de Servicios",
+   "categoria": "services",
+   "valor_referencial": 0.0,
+   "convocado": "2026-11-02",
+   "postores": null,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1262638",
+   "nomenclatura": "LP-ABR-12-2026-CR-2",
+   "objeto": "SUMINISTRO DE BIDONES DE AGUA DE MESA SIN GAS PARA LAS SEDES DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Licitación Pública Abreviada",
+   "categoria": "goods",
+   "valor_referencial": 0.0,
+   "convocado": "2026-10-30",
+   "postores": null,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1262024",
+   "nomenclatura": "CP SER-SM-9-2026-CR-1",
+   "objeto": "SERVICIO DE LIMPIEZA DE OFICINAS Y LOCALES DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Concurso Público de Servicios",
+   "categoria": "services",
+   "valor_referencial": 0.0,
+   "convocado": "2026-10-29",
+   "postores": null,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1261297",
+   "nomenclatura": "LP-ABR-13-2026-CR-1",
+   "objeto": "ADQUISICION DE MATERIALES DE GASTIFERÍA",
+   "metodo": "Licitación Pública Abreviada",
+   "categoria": "goods",
+   "valor_referencial": 0.0,
+   "convocado": "2026-10-27",
+   "postores": null,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1261488",
+   "nomenclatura": "CP-ABR-29-2026-CR.-1",
+   "objeto": "SERVICIO DE ACONDICIONAMIENTO DE OFICINAS 403-404 Y 403-404-405 MEZANINE UBICADAS EN EL EDIFICIO ROBERTO RAMÍREZ DEL VILLAR DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 0.0,
+   "convocado": "2026-10-27",
+   "postores": null,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-61",
+   "nomenclatura": "LP-SM-3-2026-CR-1",
+   "objeto": "Adquisición e Instalación de Extractor de Aire Semi - Industrial Edificio José Faustino Sánchez Carrión",
+   "metodo": "Licitación Pública",
+   "categoria": "goods",
+   "valor_referencial": 0.0,
+   "convocado": "2026-10-26",
+   "postores": null,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1259561",
+   "nomenclatura": "CP-ABR-26-2026-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO PREVENTIVO DE SUBESTACIÓN ELÉCTRICA DE LOS DIFERENTES EDIFICIOS DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 0.0,
+   "convocado": "2026-10-20",
+   "postores": null,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1259538",
+   "nomenclatura": "CP-ABR-28-2026-CR-1",
+   "objeto": "SERVICIO DE DESMONTAJE Y MONTAJE DE COBERTURA DEL EDIFICIO FERNANDO BELAUNDE TERRY",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 0.0,
+   "convocado": "2026-10-20",
+   "postores": null,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1258800",
+   "nomenclatura": "CP-ABR-27-2026-CR-1",
+   "objeto": "SERVICIO DE TELEFONÍA MÓVIL E INTERNET (DATOS) PARA LA ATENCIÓN PRIORIZADA DEL SERVICIO PARLAMENTARIO",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 0.0,
+   "convocado": "2026-10-16",
+   "postores": null,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-110",
+   "nomenclatura": "CP-ABR-25-2026-CR-1",
+   "objeto": "MANTENIMIENTO PREVENTIVO DE TABLEROS ELÉCTRICOS DE LOS DIFERENTES EDIFICIOS DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 0.0,
+   "convocado": "2026-10-15",
+   "postores": null,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1257951",
+   "nomenclatura": "CP-ABR-18-2026-CR-2",
+   "objeto": "SERVICIO DE SUSCRIPCION DE SOFTWARE DE RESPALDO PARA CORREO EN LA NUBE",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 0.0,
+   "convocado": "2026-10-14",
+   "postores": null,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1257605",
+   "nomenclatura": "COMPRE-COMPRE-2-2026-CR-2",
+   "objeto": "ADQUISICIÓN DE MATERIALES DE LIMPIEZA PARA LOS EDIFICIOS DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Comparación de Precios",
+   "categoria": "goods",
+   "valor_referencial": 72811.33,
+   "convocado": "2026-10-13",
+   "postores": 5,
+   "monto": 72711.33,
+   "proveedores": [
+    "SANTE CARRASCO HUGO"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-98",
+   "nomenclatura": "CP SER-SM-8-2026-CR-1",
+   "objeto": "SERVICIO DE ACCESO A INTERNET DE CONTINGENCIA CON SERVICIOS DE SEGURIDAD Y ANTISPAM PARA EDIFICIO LUIS ALBERTO SANCHEZ",
+   "metodo": "Concurso Público de Servicios",
+   "categoria": "services",
+   "valor_referencial": 0.0,
+   "convocado": "2026-10-06",
+   "postores": null,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-93",
+   "nomenclatura": "CP-ABR-24-2026-CR-1",
+   "objeto": "MANTENIMIENTO PREVENTIVO DE ELECTROBOMBAS DE AGUA Y DESAGUE DE LOS EDIFICIOS DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 0.0,
+   "convocado": "2026-10-05",
+   "postores": null,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-105",
+   "nomenclatura": "CP-ABR-23-2026-CR.-1",
+   "objeto": "SERVICIO DE SUSCRIPCIÓN DE LICENCIAS DE SOFTWARE DE DISEÑO GRÁFICO ADOBE CREATIVE CLOUD",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 323131.2,
+   "convocado": "2026-10-02",
+   "postores": 9,
+   "monto": 307818.61,
+   "proveedores": [
+    "XENTIC S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-76",
+   "nomenclatura": "CP-ABR-16-2026-CR-3",
+   "objeto": "SERVICIO DE SUSCRIPCION DE SOFTWARE DE GOBIERNO, RIESGO Y CUMPLIMIENTO",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 225515.5,
+   "convocado": "2026-10-02",
+   "postores": 2,
+   "monto": 225450.0,
+   "proveedores": [
+    "ESGINNOVA PERU SOCIEDAD ANONIMA CERRADA - ESGINNOVA PERU S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-54",
+   "nomenclatura": "LP-ABR-12-2026-CR-1",
+   "objeto": "SUMINISTRO DE BIDONES DE AGUA DE MESA SIN GAS PARA LAS SEDES DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Licitación Pública Abreviada",
+   "categoria": "goods",
+   "valor_referencial": 465892.0,
+   "convocado": "2026-09-29",
+   "postores": 13,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1251527",
+   "nomenclatura": "SIE-SIE-2-2026-CR-1",
+   "objeto": "SUMINISTRO DE COMBUSTIBLE GASOHOL PREMIUM PARA LAS UNIDADES DE LA FLOTA VEHICULAR DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Subasta Inversa Electrónica",
+   "categoria": "goods",
+   "valor_referencial": 737700.0,
+   "convocado": "2026-09-18",
+   "postores": 5,
+   "monto": 677700.0,
+   "proveedores": [
+    "GLOBAL FUEL SOCIEDAD ANONIMA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-102",
+   "nomenclatura": "CP-ABR-22-2026-CR-1",
+   "objeto": "Servicio de suscripción de licenciamiento de software antivirus Withsecure Elements Endpoint Protection para estaciones de trabajo",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 202000.0,
+   "convocado": "2026-09-17",
+   "postores": 11,
+   "monto": 200000.0,
+   "proveedores": [
+    "INNOVARE E-BUSINESS S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-15",
+   "nomenclatura": "CP SER-SM-7-2026-CR.-1",
+   "objeto": "AGENCIAMIENTO DE PASAJES AEREOS INTERNACIONALES PARA EL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Concurso Público de Servicios",
+   "categoria": "services",
+   "valor_referencial": 1246502.76,
+   "convocado": "2026-09-16",
+   "postores": 4,
+   "monto": 582211.49,
+   "proveedores": [
+    "TRAVEL TIME S A"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1247363",
+   "nomenclatura": "CP-ABR-21-2026-CR-1",
+   "objeto": "SERVICIO DE ACONDICIONAMIENTO DE OFICINAS UBICADAS EN DISTINTOS EDIFICIOS DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 214926.71,
+   "convocado": "2026-09-09",
+   "postores": 75,
+   "monto": 138000.0,
+   "proveedores": [
+    "ARQ.DREAMS.COM S.A.C.",
+    "VILLA INGENIEROS E.I.R.L"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-51",
+   "nomenclatura": "LP-ABR-11-2026-CR-1",
+   "objeto": "ADQUISICION DE LUMINARIAS DIVERSAS",
+   "metodo": "Licitación Pública Abreviada",
+   "categoria": "goods",
+   "valor_referencial": 173840.3,
+   "convocado": "2026-08-31",
+   "postores": 45,
+   "monto": 124860.0,
+   "proveedores": [
+    "COMERCIAL VILCA S.A."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1246106",
+   "nomenclatura": "LP-ABR-11-2026-CR-1",
+   "objeto": "ADQUISICIÓN DE LUMINARIAS DIVERSAS PARA EL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Licitación Pública Abreviada",
+   "categoria": "goods",
+   "valor_referencial": 0.0,
+   "convocado": "2026-08-31",
+   "postores": null,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-99",
+   "nomenclatura": "CP-ABR-19-2026-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO DE CENTRAL TELEFONICA",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 343000.0,
+   "convocado": "2026-08-28",
+   "postores": 6,
+   "monto": 219000.0,
+   "proveedores": [
+    "BELLTECH PERU SAC"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-95",
+   "nomenclatura": "CP-ABR-20-2026-CR-1",
+   "objeto": "SERVICIO DE LICENCIAMIENTO DE SISTEMA INALAMBRICO",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 311630.0,
+   "convocado": "2026-08-28",
+   "postores": 5,
+   "monto": 189980.0,
+   "proveedores": [
+    "INET PERU S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1245357",
+   "nomenclatura": "CP SER-SM-6-2026-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO Y/O REPARACIÓN DE LOS SERVICIOS HIGIÉNICOS DEL EDIFICIO FERNANDO BELAUNDE TERRY DEL CONGRESO DE LA REPUBLICA",
+   "metodo": "Concurso Público de Servicios",
+   "categoria": "services",
+   "valor_referencial": 590000.0,
+   "convocado": "2026-08-27",
+   "postores": 79,
+   "monto": 674871.68,
+   "proveedores": [
+    "CONSTRUCTORA CUSA S.A.C. CONTRATISTAS GE NERALES"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1245368",
+   "nomenclatura": "CP-ABR-16-2026-CR-2",
+   "objeto": "SERVICIO DE SUSCRIPCION DE SOFTWARE DE GOBIERNO, RIESGO Y CUMPLIMIENTO",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 225515.5,
+   "convocado": "2026-08-27",
+   "postores": 2,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-86",
+   "nomenclatura": "CP-ABR-18-2026-CR-1",
+   "objeto": "SERVICIO DE SUSCRIPCION DE SOFTWARE DE RESPALDO PARA CORREO EN LA NUBE",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 484791.0,
+   "convocado": "2026-08-26",
+   "postores": 10,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1242888",
+   "nomenclatura": "LP-ABR-9-2026-CR-1",
+   "objeto": "ADQUISICIÓN DE DOS MOCHILAS Y ACCESORIOS DE ENLACE DE VIDEO 3G/4G/5G",
+   "metodo": "Licitación Pública Abreviada",
+   "categoria": "goods",
+   "valor_referencial": 274877.0,
+   "convocado": "2026-08-19",
+   "postores": 11,
+   "monto": 219917.78,
+   "proveedores": [
+    "DIVICAM SOCIEDAD ANONIMA CERRADA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1242462",
+   "nomenclatura": "LP-ABR-8-2026-CR-2",
+   "objeto": "ADQUISICION DE MATERIALES DE COMUNICACIONES",
+   "metodo": "Licitación Pública Abreviada",
+   "categoria": "goods",
+   "valor_referencial": 173654.25,
+   "convocado": "2026-08-18",
+   "postores": 25,
+   "monto": 165100.0,
+   "proveedores": [
+    "RUIZ CABELLO LISSETTE SARITA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-45",
+   "nomenclatura": "LP-ABR-10-2026-CR-1",
+   "objeto": "ADQUISICION DE VESTUARIO FORMAL PARA PERSONAL DE LA OFICINA DE SEGURIDAD",
+   "metodo": "Licitación Pública Abreviada",
+   "categoria": "goods",
+   "valor_referencial": 125920.0,
+   "convocado": "2026-07-24",
+   "postores": 34,
+   "monto": 84000.0,
+   "proveedores": [
+    "A.M.S. INMOBILIARIA SOCIEDAD ANONIMA CERRADA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1235969",
+   "nomenclatura": "COMPRE-COMPRE-2-2026-CR-1",
+   "objeto": "ADQUISICIÓN DE MATERIALES DE LIMPIEZA PARA LOS EDIFICIOS DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Comparación de Precios",
+   "categoria": "goods",
+   "valor_referencial": 72811.33,
+   "convocado": "2026-07-21",
+   "postores": 5,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1233563",
+   "nomenclatura": "COMPRE-COMPRE-1-2026-CR-1",
+   "objeto": "ADQUISICIÓN DE INSUMOS DE LIMPIEZA PARA LOS EDIFICIOS DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Comparación de Precios",
+   "categoria": "goods",
+   "valor_referencial": 68041.2,
+   "convocado": "2026-07-13",
+   "postores": 3,
+   "monto": 68021.2,
+   "proveedores": [
+    "ESQUIVEL TINOCO JESSICA LISSETH"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-82",
+   "nomenclatura": "CP-ABR-17-2026-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO Y/O REPARACION DE SISTEMAS DE EXTRACCION DE AIRE",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 127495.0,
+   "convocado": "2026-07-09",
+   "postores": 19,
+   "monto": 46500.0,
+   "proveedores": [
+    "GENERA CLIMA S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-6",
+   "nomenclatura": "LP-ABR-8-2026-CR-1",
+   "objeto": "ADQUISICION DE MATERIALES DE COMUNICACIONES",
+   "metodo": "Licitación Pública Abreviada",
+   "categoria": "goods",
+   "valor_referencial": 173654.25,
+   "convocado": "2026-07-08",
+   "postores": 14,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-13",
+   "nomenclatura": "CP SER-SM-5-2026-CR-1",
+   "objeto": "SERVICIO DE TELEFONIA MOVIL E INTERNET (DATOS) PARA EL SERVICIO PARLAMENTARIO",
+   "metodo": "Concurso Público de Servicios",
+   "categoria": "services",
+   "valor_referencial": 960514.0,
+   "convocado": "2026-07-02",
+   "postores": 12,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-69",
+   "nomenclatura": "CP-ABR-11-2026-CR-1",
+   "objeto": "SERVICIO DE SUSCRIPCIÓN DE LICENCIAS DE UNA SOLUCIÓN DE RESPALDO (BACKUP) DE USUARIOS",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 237678.66,
+   "convocado": "2026-06-26",
+   "postores": 18,
+   "monto": 174300.0,
+   "proveedores": [
+    "CONSULTORES TECNOLOGICOS EMPRESARIALES E.I.R.L."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1228420",
+   "nomenclatura": "CP-ABR-14-2026-CR-1",
+   "objeto": "CONSULTORÍA PARA EL II CICLO DE OPERACIÓN, MANTENIMIENTO Y MEJORA DEL SISTEMA DE GESTIÓN DE SEGURIDAD DE LA INFORMACIÓN",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 117000.0,
+   "convocado": "2026-06-24",
+   "postores": 5,
+   "monto": 111271.05,
+   "proveedores": [
+    "KUNAK CONSULTING S.A.C"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-85",
+   "nomenclatura": "CP-ABR-12-2026-CR-1",
+   "objeto": "SERVICIO DE ADECUACIÓN E IMPLEMENTACIÓN DE INFRAESTRUCTURA PARA CENTRO DE DATOS DEL CONGRESO DE LA REPÚBLICA EN LA SEDE DEL EDIFICIO CARABAYA",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 469618.2,
+   "convocado": "2026-06-19",
+   "postores": 35,
+   "monto": 455779.27,
+   "proveedores": [
+    "UNITY PERU S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-48",
+   "nomenclatura": "LP-ABR-6-2026-CR-1",
+   "objeto": "ADQUISICION DE CAMARAS DE VIDEOCONFERENCIA Y ACCESORIOS",
+   "metodo": "Licitación Pública Abreviada",
+   "categoria": "goods",
+   "valor_referencial": 209651.33,
+   "convocado": "2026-06-18",
+   "postores": 33,
+   "monto": 139500.0,
+   "proveedores": [
+    "CONSORCIO COMERCIAL FERRETERO E.I.R.L."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1225185",
+   "nomenclatura": "CP-ABR-15-2026-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO Y/O REPARACIÓN DE EQUIPOS DE AIRE ACONDICIONADO DE LOS DIFERENTES EDIFICIOS DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 201047.73,
+   "convocado": "2026-06-12",
+   "postores": 43,
+   "monto": 117856.0,
+   "proveedores": [
+    "L & C CLIMA SOLUCIONES GENERALES S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1225063",
+   "nomenclatura": "LP-ABR-7-2026-CR-1",
+   "objeto": "ADQUISICIÓN E INSTALACIÓN DE UN SISTEMA DE AIRE ACONDICIONADO PARA EL CENTRO MÉDICO DEL EDIFICIO PALACIO LEGISLATIVO",
+   "metodo": "Licitación Pública Abreviada",
+   "categoria": "goods",
+   "valor_referencial": 205000.0,
+   "convocado": "2026-06-12",
+   "postores": 40,
+   "monto": 190000.0,
+   "proveedores": [
+    "GROUP HESTI ARCON S.A.C"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1224524",
+   "nomenclatura": "CP-ABR-9-2026-CR-1",
+   "objeto": "SERVICIO DE ANÁLISIS DE CAPACIDADES, DISEÑO, ESPECIFICACIONES TÉCNICAS Y CERTIFICACIÓN DEL CENTRO DE DATOS DEL CONGRESO DE LA REPÚBLICA EN EDIFICIO CARABAYA",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 165327.0,
+   "convocado": "2026-06-11",
+   "postores": 12,
+   "monto": 129777.73,
+   "proveedores": [
+    "UNITY PERU S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1224593",
+   "nomenclatura": "CP-ABR-13-2026-CR-1",
+   "objeto": "SERVICIO MANTENIMIENTO PREVENTIVO INTEGRAL DEL EQUIPAMIENTO ELECTROMECÁNICO DEL EDIFICIO CARABAYA",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 250000.0,
+   "convocado": "2026-06-11",
+   "postores": 22,
+   "monto": 223750.0,
+   "proveedores": [
+    "2R BUSINESS ENGINEERING S.A.C"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1222922",
+   "nomenclatura": "LP-SM-2-2026-CR-1",
+   "objeto": "ADQUISICIÓN DE EQUIPOS DE AIRE ACONDICIONADO DE PRECISIÓN PARA CENTRO DE DATOS DEL EDIFICIO CARABAYA",
+   "metodo": "Licitación Pública",
+   "categoria": "goods",
+   "valor_referencial": 536798.39,
+   "convocado": "2026-06-05",
+   "postores": 30,
+   "monto": 264798.07,
+   "proveedores": [
+    "INTEGRITY PERU S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1222642",
+   "nomenclatura": "CP-ABR-10-2026-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO Y/O REPARACIÓN DE SUPERFICIES (ZÓCALOS, SOBRE ZÓCALOS Y MUROS REVESTIDOS) DE MÁRMOL UBICADOS EN EL EDIFICIO LUIS ALBERTO SÁNCHEZ",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 92900.95,
+   "convocado": "2026-06-04",
+   "postores": 38,
+   "monto": 87560.0,
+   "proveedores": [
+    "INVERCON PROYECTOS S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-46",
+   "nomenclatura": "LP-ABR-5-2026-CR-1",
+   "objeto": "ADQUISICION DE VESTUARIO FORMAL PARA PERSONAL DEL AREA DE SERVICIOS AUXILIARES PARLAMENTARIOS",
+   "metodo": "Licitación Pública Abreviada",
+   "categoria": "goods",
+   "valor_referencial": 59292.0,
+   "convocado": "2026-06-01",
+   "postores": 18,
+   "monto": 38990.0,
+   "proveedores": [
+    "JUDA GROUP SERVISE QUALITY SOCIEDAD ANONIMA CERRADA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1220404",
+   "nomenclatura": "CP-ABR-8-2026-CR-1",
+   "objeto": "CONTRATACIÓN DE SERVICIO DE PÓLIZA DE SEGURO GRUPAL COMBINADO VIDA Y ACCIDENTES PERSONALES 2026-2027",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 469456.02,
+   "convocado": "2026-05-28",
+   "postores": 3,
+   "monto": 425194.12,
+   "proveedores": [
+    "MAPFRE PERU COMPAÑIA DE SEGUROS Y REASEGUROS"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-70",
+   "nomenclatura": "CP-ABR-7-2026-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO PREVENTIVO DE LOS EQUIPOS DE AIRE ACONDICIONADO TIPO CHILLER DE LOS EDIFICIOS JUAN SANTOS ATAHUALPA Y VÍCTOR RAÚL HAYA DE LA TORRE",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 178245.0,
+   "convocado": "2026-05-27",
+   "postores": 55,
+   "monto": 117400.0,
+   "proveedores": [
+    "GENERA CLIMA S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1218331",
+   "nomenclatura": "SIE-SIE-1-2026-CR-1",
+   "objeto": "ADQUISICIÓN DE COMBUSTIBLE TIPO PETRÓLEO DIESEL B5 S-50 PARA LAS UNIDADES DE LA FLOTA VEHICULAR DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Subasta Inversa Electrónica",
+   "categoria": "goods",
+   "valor_referencial": 249900.0,
+   "convocado": "2026-05-22",
+   "postores": 4,
+   "monto": 202400.0,
+   "proveedores": [
+    "GLOBAL FUEL SOCIEDAD ANONIMA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-3",
+   "nomenclatura": "LP-SM-1-2026-CR-1",
+   "objeto": "ADQUISICION DE VEHICULOS AUTOMOTORES PARA LA RENOVACION DE LA FLOTA VEHICULAR DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Licitación Pública",
+   "categoria": "goods",
+   "valor_referencial": 2431554.0,
+   "convocado": "2026-05-18",
+   "postores": 12,
+   "monto": 1960135.03,
+   "proveedores": [
+    "AUTOMOTRIZ SAN BLAS S.A.",
+    "CONSORCIO AUTONIZA",
+    "PANA AUTOS S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1215975",
+   "nomenclatura": "DIRECTA-DIRECTA-3-2026-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO PREVENTIVO/CORRECTIVO DE ASCENSORES MARCA OTIS; CUATRO (04) EN EDIFICIO COMPLEJO LEGISLATIVO Y TRES (03) EN FERNANDO BELAUNDE TERRY DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Contratación Directa",
+   "categoria": "services",
+   "valor_referencial": 0.0,
+   "convocado": "2026-05-15",
+   "postores": null,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-9",
+   "nomenclatura": "CP SER-SM-4-2026-CR-1",
+   "objeto": "SERVICIO DE SUSCRIPCIÓN DE SOFTWARE MICROSOFT OFFICE 365",
+   "metodo": "Concurso Público de Servicios",
+   "categoria": "services",
+   "valor_referencial": 2149938.02,
+   "convocado": "2026-05-05",
+   "postores": 17,
+   "monto": 1864468.0,
+   "proveedores": [
+    "DAILY TECHNOLOGY S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1211413",
+   "nomenclatura": "LP-ABR-4-2026-CR-1",
+   "objeto": "ADQUISICION DE DISCOS DUROS INTERNOS",
+   "metodo": "Licitación Pública Abreviada",
+   "categoria": "goods",
+   "valor_referencial": 115200.0,
+   "convocado": "2026-04-30",
+   "postores": 40,
+   "monto": 130500.0,
+   "proveedores": [
+    "DK SOLUTIONS S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1211057",
+   "nomenclatura": "CP-ABR-6-2025-CR-2",
+   "objeto": "SERVICIO DE MANTENIMIENTO Y/O REPARACION DE PUERTAS Y/O VENTANAS DEL EDIFICIO FERNANDO BELAUNDE TERRY DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 398702.85,
+   "convocado": "2026-04-29",
+   "postores": 18,
+   "monto": 200000.0,
+   "proveedores": [
+    "CONSORCIO ALPHA Y OMEGA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1208584",
+   "nomenclatura": "CP SER-SM-3-2026-CR-1",
+   "objeto": "CONTRATACIÓN DE PÓLIZAS DE SEGUROS PATRIMONIALES PARA EL CONGRESO DE LA REPÚBLICA 2026 - 2028",
+   "metodo": "Concurso Público de Servicios",
+   "categoria": "services",
+   "valor_referencial": 6789150.34,
+   "convocado": "2026-04-22",
+   "postores": 5,
+   "monto": 0,
+   "proveedores": [
+    "RIMAC SEGUROS Y REASEGUROS"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-74",
+   "nomenclatura": "CP-ABR-6-2026-CR-1",
+   "objeto": "SERVICIO DE SUSCRIPCION DE LICENCIAS DE SOFTWARE DE MESA DE AYUDA - HELP DESK EN LA NUBE",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 107421.89,
+   "convocado": "2026-04-22",
+   "postores": 8,
+   "monto": 106500.0,
+   "proveedores": [
+    "ESPIRAL MICROSISTEMAS SUCURSAL DEL PERU"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-90",
+   "nomenclatura": "CP-ABR-5-2026-CR-1",
+   "objeto": "SERVICIO DE TELEFONIA MOVIL PARA ASISTENCIA Y VOTACION PARA LAS SESIONES DEL PLENO DE LA CÁMARA DE DIPUTADOS Y CÁMARA DE SENADORES",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 377302.0,
+   "convocado": "2026-04-20",
+   "postores": 5,
+   "monto": 219792.0,
+   "proveedores": [
+    "AMERICA MOVIL PERU S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1225207",
+   "nomenclatura": "CP-ABR-4-2026-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO CORRECTIVO INTEGRAL Y ACONDICIONAMIENTO DE LA INFRAESTRUCTURA DEL COMPLEJO DEPORTIVO FERNANDO LEÓN DE VIVERO",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 480005.15,
+   "convocado": "2026-04-15",
+   "postores": 74,
+   "monto": 426772.48,
+   "proveedores": [
+    "CONSTRUCTORA CUSA S.A.C. CONTRATISTAS GE NERALES"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1206105",
+   "nomenclatura": "CP-ABR-4-2026-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO CORRECTIVO INTEGRAL Y ACONDICIONAMIENTO DE LA INFRAESTRUCTURA DEL COMPLEJO DEPORTIVO FERNANDO LEÓN DE VIVERO",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 480005.15,
+   "convocado": "2026-04-15",
+   "postores": 74,
+   "monto": 415500.0,
+   "proveedores": [
+    "INMOBILIARIA PIÑARRETA S.A.C"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-68",
+   "nomenclatura": "CP-ABR-3-2026-CR-1",
+   "objeto": "SERVICIO DE ACCESO A INTERNET PRINCIPAL CON SERVICIOS DE SEGURIDAD PARA EL PALACIO LEGISLATIVO",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 459600.0,
+   "convocado": "2026-04-13",
+   "postores": 17,
+   "monto": 394581.7,
+   "proveedores": [
+    "AMERICA MOVIL PERU S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1204334",
+   "nomenclatura": "DIRECTA-DIRECTA-2-2026-CR-1",
+   "objeto": "SERVICIO DE MODERNIZACIÓN INTEGRAL DE DOS (02) ASCENSORES DE PASAJEROS MARCA SCHINDLER, UBICADOS EN EL EDIFICIO JOSÉ FAUSTNO SÁNCHEZ CARRIÓN DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Contratación Directa",
+   "categoria": "services",
+   "valor_referencial": 800000.0,
+   "convocado": "2026-04-09",
+   "postores": 1,
+   "monto": 800000.0,
+   "proveedores": [
+    "ASCENSORES SCHINDLER DEL PERU S A"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-12",
+   "nomenclatura": "CP SER-SM-2-2026-CR-1",
+   "objeto": "SERVICIO DE PINTADO DE FACHADAS E INTERIORES DE LOS EDIFICIOS DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Concurso Público de Servicios",
+   "categoria": "services",
+   "valor_referencial": 761027.84,
+   "convocado": "2026-03-31",
+   "postores": 98,
+   "monto": 457453.13,
+   "proveedores": [
+    "CONSTRUCTORA CUSA S.A.C. CONTRATISTAS GE NERALES"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-49",
+   "nomenclatura": "LP-ABR-2-2026-CR-1",
+   "objeto": "ADQUISICION DE TABLEROS ELECTRICOS",
+   "metodo": "Licitación Pública Abreviada",
+   "categoria": "goods",
+   "valor_referencial": 146835.5,
+   "convocado": "2026-03-31",
+   "postores": 54,
+   "monto": 62589.0,
+   "proveedores": [
+    "CONSORCIO SAN MARTIN"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-50",
+   "nomenclatura": "LP-ABR-3-2026-CR-1",
+   "objeto": "ADQUISICION DE CABLES ELECTRICOS",
+   "metodo": "Licitación Pública Abreviada",
+   "categoria": "goods",
+   "valor_referencial": 96482.64,
+   "convocado": "2026-03-31",
+   "postores": 62,
+   "monto": 83260.8,
+   "proveedores": [
+    "OLIVERA MENDOZA IVAN ARNALDO"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-52",
+   "nomenclatura": "LP-ABR-1-2026-CR-1",
+   "objeto": "ADQUISICION DE ROPA INDUSTRIAL PARA PERSONAL DE LIMPIEZA Y TALLERES",
+   "metodo": "Licitación Pública Abreviada",
+   "categoria": "goods",
+   "valor_referencial": 119009.0,
+   "convocado": "2026-03-31",
+   "postores": 25,
+   "monto": 111381.0,
+   "proveedores": [
+    "LESE 6 S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-11",
+   "nomenclatura": "CP-ABR-2-2026-CR-1",
+   "objeto": "SERVICIO DE ACONDICIONAMIENTO DE LOS SERVICIOS HIGIENICOS DEL EDIFICIO VICTOR RAUL HAYA DE LA TORRE DEL CONGRESO DE LA REPÚBLICA.",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 474097.56,
+   "convocado": "2026-03-30",
+   "postores": 76,
+   "monto": 470000.0,
+   "proveedores": [
+    "SCD  INDUSTRIES  E.I.R.L"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1198173",
+   "nomenclatura": "CP SER-SM-1-2026-CR-1",
+   "objeto": "SERVICIO DE TELEVISION POR CABLE",
+   "metodo": "Concurso Público de Servicios",
+   "categoria": "services",
+   "valor_referencial": 586296.0,
+   "convocado": "2026-03-19",
+   "postores": 3,
+   "monto": 310392.0,
+   "proveedores": [
+    "DIRECTV PERU S.R.L."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1197164",
+   "nomenclatura": "DIRECTA-DIRECTA-1-2026-CR-1",
+   "objeto": "SERVICIO DE ALQUILER DE INMUEBLE PARA USO DE OFICINAS ADMINISTRATIVAS",
+   "metodo": "Contratación Directa",
+   "categoria": "services",
+   "valor_referencial": 344788.92,
+   "convocado": "2026-03-17",
+   "postores": 1,
+   "monto": 344788.92,
+   "proveedores": [
+    "ADMINISTRADORA PRIME S.A"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1196154",
+   "nomenclatura": "CP-ABR-18-2025-CR-2",
+   "objeto": "SERVICIO DE LAVADO Y/O PLANCHADO DE CORTINAS, VISILLOS, FUNDAS, MANTELES, BANDERAS Y OTRAS PRENDAS PARA LOS EDIFICIOS DEL CONGRESO DE LA REPÚBLICA.",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 138871.1,
+   "convocado": "2026-03-13",
+   "postores": 18,
+   "monto": 59344.4,
+   "proveedores": [
+    "J & J ARTLIM S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1190940",
+   "nomenclatura": "CP-ABR-1-2026-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO DE ALMACENAMIENTO REDUNDANTE",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 1378240.0,
+   "convocado": "2026-03-06",
+   "postores": 18,
+   "monto": 1294000.0,
+   "proveedores": [
+    "IT STORAGE E.I.R.L."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1183854",
+   "nomenclatura": "CP SER-SM-5-2025-CR-1",
+   "objeto": "CONTRATACIÓN DEL SERVICIO DE INTERNET",
+   "metodo": "Concurso Público de Servicios",
+   "categoria": "services",
+   "valor_referencial": 908160.0,
+   "convocado": "2025-12-31",
+   "postores": 15,
+   "monto": 87792.0,
+   "proveedores": [
+    "AMERICA MOVIL PERU S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1184024",
+   "nomenclatura": "CP SER-SM-6-2025-CR-1",
+   "objeto": "SERVICIO DE SUSCRIPCIÓN DE SOFTWARE DE CORREO EN LA NUBE EXCHANGE ONLINE DE MARCA MICROSOFT",
+   "metodo": "Concurso Público de Servicios",
+   "categoria": "services",
+   "valor_referencial": 697340.0,
+   "convocado": "2025-12-31",
+   "postores": 14,
+   "monto": 575757.0,
+   "proveedores": [
+    "DAILY TECHNOLOGY S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1185900",
+   "nomenclatura": "LP-SM-4-2025-CR-1",
+   "objeto": "ADQUISICION DE VEHICULOS AUTOMOTORES PARA LA RENOVACION DE LA FLOTA VEHICULAR DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Licitación Pública",
+   "categoria": "goods",
+   "valor_referencial": 1273347.5,
+   "convocado": "2025-12-31",
+   "postores": 9,
+   "monto": 1172500.0,
+   "proveedores": [
+    "CONSORCIO AUTONIZA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1183319",
+   "nomenclatura": "CP-ABR-18-2025-CR-1",
+   "objeto": "SERVICIO DE LAVADO Y/O PLANCHADO DE CORTINAS, VISILLOS, FUNDAS, MANTELES, BANDERAS Y OTRAS PRENDAS PARA LOS EDIFICIOS DEL CONGRESO DE LA REPÚBLICA.",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 138871.1,
+   "convocado": "2025-12-31",
+   "postores": 25,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-2",
+   "nomenclatura": "LP-SM-4-2025-CR-1",
+   "objeto": "ADQUISICION DE VEHICULOS AUTOMOTORES PARA LA RENOVACION DE LA FLOTA VEHICULAR DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Licitación Pública",
+   "categoria": "goods",
+   "valor_referencial": 0.0,
+   "convocado": "2025-12-31",
+   "postores": null,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1181980",
+   "nomenclatura": "LP-SM-5-2025-CR-1",
+   "objeto": "ADQUISICIÓN DE SWITCHES DE DISTRIBUCIÓN",
+   "metodo": "Licitación Pública",
+   "categoria": "goods",
+   "valor_referencial": 3681504.88,
+   "convocado": "2025-12-29",
+   "postores": 16,
+   "monto": 2318690.0,
+   "proveedores": [
+    "BVS PERU S.A."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1178972",
+   "nomenclatura": "CP-ABR-17-2025-CR-1",
+   "objeto": "SERVICIO DE CONSULTORIA DE ANÁLISIS ESTRUCTURAL, ANÁLISIS DE CAPACIDADES, DISEÑO, ESPECIFICACIONES TÉCNICAS Y CERTIFICACION DEL CENTRO DE DATOS DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 182929.5,
+   "convocado": "2025-12-17",
+   "postores": 4,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1178933",
+   "nomenclatura": "CP-ABR-16-2025-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO Y/O REPARACIÓN DE SWITCH DE DISTRIBUCIÓN",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 175250.0,
+   "convocado": "2025-12-16",
+   "postores": 5,
+   "monto": 109000.0,
+   "proveedores": [
+    "INET PERU S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-60",
+   "nomenclatura": "COMPRE-COMPRE-1-2025-CR-1",
+   "objeto": "ADQUISICIÓN DE TELEVISORES",
+   "metodo": "Comparación de Precios",
+   "categoria": "goods",
+   "valor_referencial": 62006.5,
+   "convocado": "2025-12-04",
+   "postores": 7,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-90",
+   "nomenclatura": "AS-SM-12-2025-CR-1",
+   "objeto": "ADQUISICION DE UN SISTEMA AUDIOVISUAL PARA EL AUDITORIO ALBERTO ANDRADE CARMONA Y EL AUDITORIO JOSE FAUSTINO SANCHEZ CARRION",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 1058519.21,
+   "convocado": "2025-12-02",
+   "postores": 9,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1173511",
+   "nomenclatura": "DIRECTA-DIRECTA-4-2025-CR-1",
+   "objeto": "SERVICIO DE SUSCRIPCIÓN DIGITAL AL DIARIO OFICIAL EL PERUANO",
+   "metodo": "Contratación Directa",
+   "categoria": "services",
+   "valor_referencial": 54020.0,
+   "convocado": "2025-11-26",
+   "postores": 1,
+   "monto": 54020.0,
+   "proveedores": [
+    "EMPRESA PERUANA DE SERVICIO EDITORIALES"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1172896",
+   "nomenclatura": "LP-ABR-9-2025-CR-1",
+   "objeto": "ADQUISICIÓN DE EQUIPO CERTIFICADOR DE CABLEADO ESTRUCTURADO",
+   "metodo": "Licitación Pública Abreviada",
+   "categoria": "goods",
+   "valor_referencial": 128926.71,
+   "convocado": "2025-11-25",
+   "postores": 13,
+   "monto": 87976.08,
+   "proveedores": [
+    "ALLIN TELD S.A.C. - ALLTELD S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1172483",
+   "nomenclatura": "DIRECTA-DIRECTA-3-2025-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO PREVENTIVO DE EQUIPOS DE AIRE ACONDICIONADO-TIPO CHILLER",
+   "metodo": "Contratación Directa",
+   "categoria": "services",
+   "valor_referencial": 128344.0,
+   "convocado": "2025-11-24",
+   "postores": 1,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1172146",
+   "nomenclatura": "CP-ABR-14-2025-CR-1",
+   "objeto": "CONTRATACIÓN DE SERVICIO DE MANTENIMIENTO Y/O REPARACIÓN DE TANQUES ELEVADO Y/O CISTERNA DE LOS DIFERENTES EDIFICIOS DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 116967.23,
+   "convocado": "2025-11-21",
+   "postores": 32,
+   "monto": 109921.07,
+   "proveedores": [
+    "GOLIAT GROUP S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1172197",
+   "nomenclatura": "CP-ABR-15-2025-CR-1",
+   "objeto": "SERVICIO DE TOMA DE INVENTARIO FÍSICO DE BIENES MUEBLES PATRIMONIALES DEL CONGRESO DE LA REPÚBLICA AL 31 DE DICIEMBRE DE 2025",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 359028.22,
+   "convocado": "2025-11-21",
+   "postores": 32,
+   "monto": 293573.62,
+   "proveedores": [
+    "BUSINESS SOLUTION A & C S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1171549",
+   "nomenclatura": "CP-ABR-13-2025-CR-1",
+   "objeto": "SERVICIO DE IMPERMEABILIZACIÓN DE LA AZOTEA DEL EDIFICIO JUAN SANTOS ATAHUALPA DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 150650.0,
+   "convocado": "2025-11-20",
+   "postores": 51,
+   "monto": 69980.0,
+   "proveedores": [
+    "SANGAR CONTRATISTAS S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-80",
+   "nomenclatura": "LP-SM-3-2025-CR-1",
+   "objeto": "ADQUISICION E INSTALACION DE EQUIPOS UPS PARA LOS DIFERENTES EDIFICIOS DEL CONGRESO DE LA REPUBLICA",
+   "metodo": "Licitación Pública",
+   "categoria": "goods",
+   "valor_referencial": 2743930.18,
+   "convocado": "2025-11-18",
+   "postores": 40,
+   "monto": 2200800.0,
+   "proveedores": [
+    "JRM SOLUTIONS PERU E.I.R.L."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1170417",
+   "nomenclatura": "DIRECTA-DIRECTA-2-2025-CR-1",
+   "objeto": "MANTENIMIENTO PREVENTIVO DE EQUIPOS DE AIRE ACONDICIONADO DE LOS DIFERENTES EDIFICIOS DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Contratación Directa",
+   "categoria": "services",
+   "valor_referencial": 166400.0,
+   "convocado": "2025-11-18",
+   "postores": 1,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-43",
+   "nomenclatura": "LP-ABR-4-2025-CR-2",
+   "objeto": "ADQUISICIÓN DE ROPA INDUSTRIAL PARA EL PERSONAL DE LIMPIEZA Y TALLERES",
+   "metodo": "Licitación Pública Abreviada",
+   "categoria": "goods",
+   "valor_referencial": 80673.33,
+   "convocado": "2025-10-21",
+   "postores": 27,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1158743",
+   "nomenclatura": "CP-ABR-12-2025-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO DE SUBESTACIÓN ELÉCTRICA DE LOS DIFERENTES EDIFICIOS DEL CONGRESO DE LA REPÚBLICA.",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 106956.33,
+   "convocado": "2025-10-09",
+   "postores": 46,
+   "monto": 138074.75,
+   "proveedores": [
+    "COPERVIC SOCIEDAD ANONIMA CERRADA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1158313",
+   "nomenclatura": "LP-ABR-3-2025-CR-3",
+   "objeto": "Suministro de líquido deodorizador para los servicios higiénicos de los edificios del Congreso de la República",
+   "metodo": "Licitación Pública Abreviada",
+   "categoria": "goods",
+   "valor_referencial": 85695.7,
+   "convocado": "2025-10-07",
+   "postores": 2,
+   "monto": 85275.6,
+   "proveedores": [
+    "AROMAS Y MATICES S.A."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1158113",
+   "nomenclatura": "LP-ABR-7-2025-CR-1",
+   "objeto": "ADQUISICIÓN DE EQUIPOS DE LIMPIEZA INDUSTRIAL PARA LOS EDIFICIOS DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Licitación Pública Abreviada",
+   "categoria": "goods",
+   "valor_referencial": 115975.3,
+   "convocado": "2025-10-07",
+   "postores": 18,
+   "monto": 129800.0,
+   "proveedores": [
+    "JMCONIESA E.I.R.L."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1157756",
+   "nomenclatura": "CP-ABR-9-2025-CR-1",
+   "objeto": "SERVICIO DE MENSAJERÍA A NIVEL LOCAL Y NACIONAL PARA EL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 229926.7,
+   "convocado": "2025-10-06",
+   "postores": 9,
+   "monto": 162700.0,
+   "proveedores": [
+    "MACROPOST LOGISTICS S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-57",
+   "nomenclatura": "CP-ABR-11-2025-CR-1",
+   "objeto": "SERVICIO DE SUSCRIPCIÓN DE LICENCIA DE SOFTWARE DE DISEÑO GRÁFICO ADOBE CREATIVE CLOUD",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 148193.3,
+   "convocado": "2025-09-30",
+   "postores": 14,
+   "monto": 232726.64,
+   "proveedores": [
+    "XENTIC S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-58",
+   "nomenclatura": "CP-ABR-10-2025-CR-1",
+   "objeto": "CONTRATACIÓN DEL SERVICIO DE LICENCIAMIENTO DE SOFTWARE DE ANTIVIRUS PARA ESTACIÓN DE TRABAJO",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 176176.0,
+   "convocado": "2025-09-29",
+   "postores": 15,
+   "monto": 140000.0,
+   "proveedores": [
+    "INNOVARE E-BUSINESS S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1155529",
+   "nomenclatura": "DIRECTA-DIRECTA-1-2025-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO PREVENTIVO DE LOS ASCENSORES DE LOS DIFERENTES EDIFICIOS DEL CONGRESO DE LA REPUBLICA",
+   "metodo": "Contratación Directa",
+   "categoria": "services",
+   "valor_referencial": 381829.2,
+   "convocado": "2025-09-29",
+   "postores": 2,
+   "monto": 381829.2,
+   "proveedores": [
+    "ASCENSORES S A",
+    "ASCENSORES SCHINDLER DEL PERU S A"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1154619",
+   "nomenclatura": "LP-ABR-8-2025-CR-1",
+   "objeto": "SUMINISTRO DE DIARIOS Y REVISTAS IMPRESOS",
+   "metodo": "Licitación Pública Abreviada",
+   "categoria": "goods",
+   "valor_referencial": 256945.85,
+   "convocado": "2025-09-25",
+   "postores": 2,
+   "monto": 259932.85,
+   "proveedores": [
+    "RIVERA REGALADO DANIEL ARMANDO"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1153360",
+   "nomenclatura": "CP-ABR-8-2025-CR-1",
+   "objeto": "SERVICIO DE RESTAURACIÓN DE LA ESTRUCTURA DE LA CORNISA SUPERIOR ESQUINA JR. SIMÓN RODRÍGUEZ CON JR. AYACUCHO DE PALACIO LEGISLATIVO",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 140939.55,
+   "convocado": "2025-09-22",
+   "postores": 30,
+   "monto": 139300.0,
+   "proveedores": [
+    "CONSORCIO PERUNOVO"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-89",
+   "nomenclatura": "AS-SM-11-2025-CR-1",
+   "objeto": "ADQUISICION DE UN SISTEMA INTEGRADO DE CREACIOIN Y PRODUCCION DE CONTENIDO AUDIOVISUAL Y CAMARA DE VIDEO PARA REPORTEROS, ACCESORIOS Y CAPACITACION",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 5782454.0,
+   "convocado": "2025-09-19",
+   "postores": 11,
+   "monto": 4794439.0,
+   "proveedores": [
+    "VIDEO BROADCAST S A"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-82",
+   "nomenclatura": "LP-ABR-6-2025-CR-1",
+   "objeto": "ADQUISICION DE SERVIDOR",
+   "metodo": "Licitación Pública Abreviada",
+   "categoria": "goods",
+   "valor_referencial": 136725.69,
+   "convocado": "2025-09-15",
+   "postores": 38,
+   "monto": 57050.12,
+   "proveedores": [
+    "J EVANS Y ASOCIADOS SAC"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-88",
+   "nomenclatura": "CP SER-SM-4-2025-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO PREVENTIVO Y SOPORTE TÉCNICO DE SWITCHES DE BORDE.",
+   "metodo": "Concurso Público de Servicios",
+   "categoria": "services",
+   "valor_referencial": 1343200.0,
+   "convocado": "2025-09-12",
+   "postores": 11,
+   "monto": 1079690.0,
+   "proveedores": [
+    "BVS PERU S.A."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1148630",
+   "nomenclatura": "LP-ABR-5-2025-CR.-1",
+   "objeto": "ADQUISICIÓN DE UN (1) EQUIPO DE UV CAMA PLANA DE IMPRESIÓN EN RÍGIDOS",
+   "metodo": "Licitación Pública Abreviada",
+   "categoria": "goods",
+   "valor_referencial": 69500.0,
+   "convocado": "2025-09-05",
+   "postores": 6,
+   "monto": 65000.0,
+   "proveedores": [
+    "IMEXP PERUVIAN SOCIEDAD ANONIMA CERRADA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1146307",
+   "nomenclatura": "CP-ABR-7-2025-CR-1",
+   "objeto": "SUSCRIPCIÓN DE LICENCIA DE MONITOREO DE REDES Y APLICACIONES",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 56873.5,
+   "convocado": "2025-08-29",
+   "postores": 10,
+   "monto": 62000.0,
+   "proveedores": [
+    "BIGSECURE S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-79",
+   "nomenclatura": "CP-ABR-6-2025-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO Y/O REPARACION DE PUERTAS Y/O VENTANAS DEL EDIFICIO FERNANDO BELAUNDE TERRY DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 219013.01,
+   "convocado": "2025-08-29",
+   "postores": 54,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-77",
+   "nomenclatura": "CP-ABR-5-2025-CR-1",
+   "objeto": "CONTRATACIÓN DE SERVICIO DE PÓLIZA DE SEGURO GRUPAL COMBINADO VIDA Y ACCIDENTES PERSONALES 2025-2026",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 406618.36,
+   "convocado": "2025-08-25",
+   "postores": 6,
+   "monto": 271078.9,
+   "proveedores": [
+    "MAPFRE PERU COMPAÑIA DE SEGUROS Y REASEGUROS"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1143068",
+   "nomenclatura": "INTER-PROC-2-2025-CR-1",
+   "objeto": "SERVICIO DE SUSCRIPCIÓN DE UNA PLATAFORMA WEB QUE PERMITA EL ACCESO A CONTENIDOS DIGITALES",
+   "metodo": "Contratación Internacional",
+   "categoria": "services",
+   "valor_referencial": 88358.03,
+   "convocado": "2025-08-19",
+   "postores": 1,
+   "monto": 0,
+   "proveedores": [
+    "ODILO TID SL"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-61",
+   "nomenclatura": "CP-ABR-4-2025-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO PREVENTIVO DE TABLEROS ELECTRICOS DE LOS DIFERENTES EDIFICIOS DEL CONGRESO DE LA REPUBLICA",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 47230.0,
+   "convocado": "2025-08-14",
+   "postores": 109,
+   "monto": 44780.0,
+   "proveedores": [
+    "INGENIERIA DE TELECOMUNICACIONES Y ELECTRICA S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1140302",
+   "nomenclatura": "CP SER-SM-3-2025-CR-1",
+   "objeto": "SERVICIO DE POLIZA DE SEGURO VIDA LEY 2025 - 2027",
+   "metodo": "Concurso Público de Servicios",
+   "categoria": "services",
+   "valor_referencial": 2327033.77,
+   "convocado": "2025-08-11",
+   "postores": 7,
+   "monto": 1308956.5,
+   "proveedores": [
+    "PACIFICO COMPAÑIA DE SEGUROS Y REASEGUROS"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1139574",
+   "nomenclatura": "CP-ABR-3-2025-CR.-1",
+   "objeto": "Servicio de Suscripción de software de análisis de Vulnerabilidades",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 210756.43,
+   "convocado": "2025-08-08",
+   "postores": 11,
+   "monto": 168000.0,
+   "proveedores": [
+    "IMPERIA SOLUCIONES TECNOLOGICAS S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1138526",
+   "nomenclatura": "LP-ABR-3-2025-CR-2",
+   "objeto": "Suministro de líquido deodorizador para los servicios higiénicos de los edificios del Congreso de la República",
+   "metodo": "Licitación Pública Abreviada",
+   "categoria": "goods",
+   "valor_referencial": 85695.7,
+   "convocado": "2025-08-04",
+   "postores": 7,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-86",
+   "nomenclatura": "LP-SM-2-2025-CR-1",
+   "objeto": "ADQUISICION DE SWITCHES DE BORDE",
+   "metodo": "Licitación Pública",
+   "categoria": "goods",
+   "valor_referencial": 3109648.0,
+   "convocado": "2025-08-01",
+   "postores": 21,
+   "monto": 2230000.0,
+   "proveedores": [
+    "IMPERIA SOLUCIONES TECNOLOGICAS S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-9",
+   "nomenclatura": "CP SER-SM-2-2025-CR.-1",
+   "objeto": "SERVICIO DE AGENCIAMIENTO DE PASAJES AÉREOS INTERNACIONAL PARA EL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Concurso Público de Servicios",
+   "categoria": "services",
+   "valor_referencial": 962944.23,
+   "convocado": "2025-07-03",
+   "postores": 4,
+   "monto": 984078.52,
+   "proveedores": [
+    "CUARZO TRAVEL S.R.LTDA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-48",
+   "nomenclatura": "CP-ABR-2-2025-CR-1",
+   "objeto": "SERVICIO DE ACTUALIZACIÓN DE LICENCIAS DEL SOFTWARE LEVER IT DISCOVERY",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 130500.0,
+   "convocado": "2025-06-30",
+   "postores": 4,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-75",
+   "nomenclatura": "LP-ABR-2-2025-CR.-1",
+   "objeto": "ADQUISICION DE EQUIPOS DE AIRE ACONDICIONADO DE PRECISION PARA CENTRO DE DATOS",
+   "metodo": "Licitación Pública Abreviada",
+   "categoria": "goods",
+   "valor_referencial": 450000.0,
+   "convocado": "2025-06-26",
+   "postores": 33,
+   "monto": 421591.58,
+   "proveedores": [
+    "RAM & MAR INGENIEROS S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1127179",
+   "nomenclatura": "LP-ABR-3-2025-CR-1",
+   "objeto": "Suministro de líquido deodorizador para los servicios higiénicos de los edificios del Congreso de la República",
+   "metodo": "Licitación Pública Abreviada",
+   "categoria": "goods",
+   "valor_referencial": 85695.7,
+   "convocado": "2025-06-23",
+   "postores": 6,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1185123",
+   "nomenclatura": "CP SER-SM-1-2025-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO DE ALMACENAMIENTO REDUNDANTE",
+   "metodo": "Concurso Público de Servicios",
+   "categoria": "services",
+   "valor_referencial": 1378240.0,
+   "convocado": "2025-06-19",
+   "postores": 28,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1157603",
+   "nomenclatura": "CP SER-SM-1-2025-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO DE ALMACENAMIENTO REDUNDANTE",
+   "metodo": "Concurso Público de Servicios",
+   "categoria": "services",
+   "valor_referencial": 1378240.0,
+   "convocado": "2025-06-19",
+   "postores": 28,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-68",
+   "nomenclatura": "CP SER-SM-1-2025-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO DE ALMACENAMIENTO REDUNDANTE",
+   "metodo": "Concurso Público de Servicios",
+   "categoria": "services",
+   "valor_referencial": 1378240.0,
+   "convocado": "2025-06-19",
+   "postores": 15,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-45",
+   "nomenclatura": "CP-ABR-1-2025-CR-1",
+   "objeto": "MANTENIMIENTO Y/O REPARACIÓN DE ELECTROBOMBA DE AGUA Y DESAGUE",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 115000.0,
+   "convocado": "2025-06-19",
+   "postores": 36,
+   "monto": 72450.0,
+   "proveedores": [
+    "CORPORACION TECNO MARKET S.A."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-71",
+   "nomenclatura": "LP-ABR-1-2025-CR-1",
+   "objeto": "ADQUISICIÓN DE UNA MOCHILA DE ENLACE DE VIDEO 3G/4G/5G",
+   "metodo": "Licitación Pública Abreviada",
+   "categoria": "goods",
+   "valor_referencial": 168770.0,
+   "convocado": "2025-06-10",
+   "postores": 9,
+   "monto": 129525.0,
+   "proveedores": [
+    "VIDEO BROADCAST S A"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-70",
+   "nomenclatura": "AS-SM-10-2025-CR-1",
+   "objeto": "ACONDICIONAMIENTO DE SERVICIOS HIGIENICOS DEL EDIFICIO VICTOR RAUL HAYA DE LA TORRE",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 287281.25,
+   "convocado": "2025-04-21",
+   "postores": 106,
+   "monto": 180000.0,
+   "proveedores": [
+    "GRUPO EMPRESARIAL GONZALES MALPICA & ASOCIADOS S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-69",
+   "nomenclatura": "AS-SM-4-2025-CR-1",
+   "objeto": "SERVICIO DE SEGURO COMPLEMENTARIO DE TRABAJO DE RIESGO SALUD Y PENSION",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 332113.13,
+   "convocado": "2025-04-21",
+   "postores": 10,
+   "monto": 275327.91,
+   "proveedores": [
+    "PACIFICO COMPAÑIA DE SEGUROS Y REASEGUROS",
+    "PACIFICO S.A. ENT. PRESTADORA DE SALUD"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1109888",
+   "nomenclatura": "AS-SM-9-2025-CR-1",
+   "objeto": "SUMINISTRO DE COMBUSTIBLE GASOHOL PREMIUM PARA LA FLOTA VEHICULAR DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 358327.82,
+   "convocado": "2025-04-15",
+   "postores": 5,
+   "monto": 284810.0,
+   "proveedores": [
+    "CONSORCIO GRIFOSA S.A.C. - INV. Y COM. MAKA S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-41",
+   "nomenclatura": "AS-SM-8-2025-CR-1",
+   "objeto": "SUMINISTRO DE BIDONES DE AGUA PURIFICADA SIN GAS (BIDÓN) 20 LTS)",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 359352.0,
+   "convocado": "2025-04-11",
+   "postores": 13,
+   "monto": 316572.0,
+   "proveedores": [
+    "CONSORCIO FRAP S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-67",
+   "nomenclatura": "AS-SM-6-2025-CR-1",
+   "objeto": "SERVICIO DE SUSCRIPCIÓN SOFTWARE DE RESPALDO PARA CORREO EN LA NUBE",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 184621.29,
+   "convocado": "2025-04-02",
+   "postores": 42,
+   "monto": 110000.0,
+   "proveedores": [
+    "AMERICATEL PERÚ S.A &. ENTEL PERÚ S.A."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-65",
+   "nomenclatura": "AS-SM-5-2025-CR-1",
+   "objeto": "SERVICIO DE IMPERMEABILIZACION DE TECHO EDIFICIO VICTOR RAUL HAYA DE LA TORRE",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 295573.92,
+   "convocado": "2025-03-31",
+   "postores": 69,
+   "monto": 185860.0,
+   "proveedores": [
+    "CONSORCIO RIVCONSAC",
+    "HPS D' COMPANY S.A.C.",
+    "INVERCON PROYECTOS S.A.C.",
+    "ROMA SOLUCIONES INTEGRALES E.I.R.L."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-39",
+   "nomenclatura": "AS-SM-3-2025-CR.-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO PREVENTIVO DE EQUIPOS DE AIRE ACONDICIONADO - TIPO CHILLER",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 142411.68,
+   "convocado": "2025-03-28",
+   "postores": 45,
+   "monto": 109800.0,
+   "proveedores": [
+    "AIR CONDITIONING TECHNOLOGY SISTEM SAC"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-6",
+   "nomenclatura": "CP-SM-3-2025-CR-1",
+   "objeto": "SERVICIO DE SUSCRIPCIÓN DE SOFTWARE MICROSOFT OFFICE 365 O EQUIVALENTE",
+   "metodo": "Concurso Público",
+   "categoria": "services",
+   "valor_referencial": 2083121.18,
+   "convocado": "2025-03-24",
+   "postores": 25,
+   "monto": 2025425.0,
+   "proveedores": [
+    "DAILY TECHNOLOGY S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-33",
+   "nomenclatura": "INTER-PROC-1-2025-CR-1",
+   "objeto": "ACTUALIZACIÓN Y SOPORTE DE SOFTWARE INTEGRADO PARA GESTIÓN DE BIBLIOTECAS ALEPH 500PARA EL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Contratación Internacional",
+   "categoria": "services",
+   "valor_referencial": 94744.76,
+   "convocado": "2025-03-18",
+   "postores": 1,
+   "monto": 0,
+   "proveedores": [
+    "PROQUEST CHILE SPA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-40",
+   "nomenclatura": "AS-SM-2-2025-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO PREVENTIVO DE EQUIPOS DE AIRE ACONDICIONADO DE LOS DIFERENTES EDIFICIOS DEL CONGRESO DE LA REPÚBLICA.",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 234000.0,
+   "convocado": "2025-03-10",
+   "postores": 76,
+   "monto": 88990.9,
+   "proveedores": [
+    "AIR CONDITIONING TECHNOLOGY SISTEM SAC"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1096258",
+   "nomenclatura": "SIE-SIE-1-2025-CR-1",
+   "objeto": "SUMINISTRO DE COMBUSTIBLE GASOHOL PREMIUM PARA LA FLOTA VEHICULAR DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Subasta Inversa Electrónica",
+   "categoria": "goods",
+   "valor_referencial": 358327.82,
+   "convocado": "2025-03-10",
+   "postores": 6,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-1",
+   "nomenclatura": "LP-SM-1-2025-CR-1",
+   "objeto": "ADQUISICIÓN DE EQUIPO PUNTO ACCESO INTERNO INALÁMBRICO (ACCESS POINT)",
+   "metodo": "Licitación Pública",
+   "categoria": "goods",
+   "valor_referencial": 1350010.0,
+   "convocado": "2025-02-24",
+   "postores": 26,
+   "monto": 1349000.0,
+   "proveedores": [
+    "INET PERU S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-34",
+   "nomenclatura": "AS-SM-1-2025-CR-1",
+   "objeto": "SERVICIO DE TELEFONÍA MÓVIL PARA ASISTENCIA Y VOTACIÓN DURANTE LAS SESIONES DEL PLENO",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 247884.0,
+   "convocado": "2025-02-19",
+   "postores": 8,
+   "monto": 140400.0,
+   "proveedores": [
+    "AMERICA MOVIL PERU S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-7",
+   "nomenclatura": "CP-SM-2-2025-CR-1",
+   "objeto": "SERVICIO DE SUSCRIPCIÓN PARA UNA PLATAFORMA DE CORRELACIONADOR DE EVENTOS (SIEM) Y CYBER SOC DELEGADA TIPO SOAR PARA EL MONITOREO, PREVENCIÓN, DETECCIÓN Y RESPUESTA ANTE INCIDENTES CIBERNÉTICOS CON SEGURIDAD GESTIONADA PARA EL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Concurso Público",
+   "categoria": "services",
+   "valor_referencial": 3650000.0,
+   "convocado": "2025-02-07",
+   "postores": 21,
+   "monto": 2498000.0,
+   "proveedores": [
+    "INNOVA TECNOLOGIA CORP S.A.C. - INNOVA TC"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2025-6-5",
+   "nomenclatura": "CP-SM-1-2025-CR-1",
+   "objeto": "SERVICIO DE TELEVISIÓN POR CABLE",
+   "metodo": "Concurso Público",
+   "categoria": "services",
+   "valor_referencial": 943600.0,
+   "convocado": "2025-01-31",
+   "postores": 4,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-4",
+   "nomenclatura": "LP-SM-4-2024-CR-1",
+   "objeto": "\"ADQUISICION DE SISTEMA AUDIOVISUAL PARA EL AUDITORIO ALBERTO ANDRADE CARMONA Y EL AUDITORIO JOSE FAUSTINO SANCHEZ CARRION\"",
+   "metodo": "Licitación Pública",
+   "categoria": "goods",
+   "valor_referencial": 943188.82,
+   "convocado": "2024-12-27",
+   "postores": 21,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-98",
+   "nomenclatura": "CP-SM-10-2024-CR-1",
+   "objeto": "SERVICIO DE AGENCIAMIENTO DE PASAJES AÉREOS INTERNACIONALES PARA EL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Concurso Público",
+   "categoria": "services",
+   "valor_referencial": 586612.59,
+   "convocado": "2024-12-27",
+   "postores": 4,
+   "monto": 496567.77,
+   "proveedores": [
+    "TRAVEL TIME S A"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-91",
+   "nomenclatura": "AS-SM-46-2024-CR-1",
+   "objeto": "ADQUISICION DE MATERIALES FERRETEROS",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 414187.5,
+   "convocado": "2024-12-27",
+   "postores": 28,
+   "monto": 287102.2,
+   "proveedores": [
+    "CONSORCIO SAN MARTIN"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-47",
+   "nomenclatura": "AS-SM-47-2024-CR-1",
+   "objeto": "SERVICIO DE SUSCRIPCIÓN DE SOFTWARE DE CORREO EN LA NUBE EXCHANGE ONLINE DE MARCA MICROSOFT O EQUIVALENTE",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 460000.0,
+   "convocado": "2024-12-03",
+   "postores": 21,
+   "monto": 366206.0,
+   "proveedores": [
+    "DAILY TECHNOLOGY S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1073364",
+   "nomenclatura": "LP-SM-2-2024-CR-1",
+   "objeto": "ADQUISICION DE UN SISTEMA INTEGRADO DE CREACION Y PRODUCCION DE CONTENIDO AUDIOVISUAL Y CAMARAS DE VIDEO PARA REPORTEROS (ENG), ACCESORIOS Y CAPACITACION PARA EL CANAL DE TELEVISION DEL CONGRESO DE LA REPUBLICA",
+   "metodo": "Licitación Pública",
+   "categoria": "goods",
+   "valor_referencial": 5782454.0,
+   "convocado": "2024-11-26",
+   "postores": 12,
+   "monto": 5240000.0,
+   "proveedores": [
+    "TELEFÓNICA SERVICIOS AUDIOVISUALES DEL PERÚ SAC"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-32",
+   "nomenclatura": "AS-SM-31-2024-CR-1",
+   "objeto": "SERVICIO DE ACONDICIONAMIENTO DE AMBIENTE E INSTALACIÓN DE COBERTURA Y OTROS DEL EDIFICIO ROBERTO RAMÍREZ DEL VILLAR",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 84831.41,
+   "convocado": "2024-11-18",
+   "postores": 94,
+   "monto": 73777.77,
+   "proveedores": [
+    "FACTORIA IVAN C & R E.I.R.L."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-24",
+   "nomenclatura": "AS-SM-20-2024-CR-2",
+   "objeto": "SERVICIO DE MANTENIMIENTO PREVENTIVO Y CORRECTIVO DE EQUIPOS DE LIMPIEZA INDUSTRIAL DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 126024.0,
+   "convocado": "2024-09-30",
+   "postores": 22,
+   "monto": 88500.0,
+   "proveedores": [
+    "GRUPO MAQUISERVIS S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-29",
+   "nomenclatura": "AS-SM-43-2024-CR-1",
+   "objeto": "SERVICIO DE SUSCRIPCIÓN DE SOFTWARE PARA SERVIDOR DE APLICACIONES",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 244292.0,
+   "convocado": "2024-09-17",
+   "postores": 14,
+   "monto": 192400.0,
+   "proveedores": [
+    "INSPIRA IT CONSULTING S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-82",
+   "nomenclatura": "AS-SM-40-2024-CR-1",
+   "objeto": "SERVICIO DE ACONDICIONAMIENTO DE OFICINA DE LA ADMINISTRACION DEL EDIFICIO ROBERTO RAMIREZ DEL VILLAR",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 89000.0,
+   "convocado": "2024-09-16",
+   "postores": 85,
+   "monto": 74760.0,
+   "proveedores": [
+    "KIJANA S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-65",
+   "nomenclatura": "CP-SM-5-2024-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO Y/O REPARACION DE PISOS DEL EDIFICIO FERNANDO BELAUNDE TERRY",
+   "metodo": "Concurso Público",
+   "categoria": "services",
+   "valor_referencial": 579187.69,
+   "convocado": "2024-09-16",
+   "postores": 91,
+   "monto": 198592.21,
+   "proveedores": [
+    "ADMIN GROUP S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1054325",
+   "nomenclatura": "AS-SM-37-2024-CR.-1",
+   "objeto": "ADQUISICION DE MATERIALES DE COMUNICACIONES.",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 0.0,
+   "convocado": "2024-09-16",
+   "postores": 14,
+   "monto": 134690.0,
+   "proveedores": [
+    "PRONET SYSTEM S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-78",
+   "nomenclatura": "AS-SM-37-2024-CR.-1",
+   "objeto": "ADQUISICION DE MATERIALES DE COMUNICACIONES.",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 0.0,
+   "convocado": "2024-09-16",
+   "postores": null,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-79",
+   "nomenclatura": "AS-SM-33-2024-CR-1",
+   "objeto": "ADQUISICIÓN DE GABÁN (ABRIGOS ) PARA EL PERSONAL DE LA OFICINA DE SEGURIDAD",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 0.0,
+   "convocado": "2024-09-04",
+   "postores": null,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-41",
+   "nomenclatura": "AS-SM-42-2024-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO DE CENTRAL TELEFONICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 345725.0,
+   "convocado": "2024-09-04",
+   "postores": 9,
+   "monto": 240000.0,
+   "proveedores": [
+    "CONVEXUS COMUNICACIONES REDES Y SISTEMAS S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-76",
+   "nomenclatura": "AS-SM-35-2024-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO Y/O REPARACION  LIMPIEZA GENERAL, DESINFECCION E INSTALACION DE FRISOS PARA LA  AZOTEA DEL PALACIO LEGISLATIVO",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 118540.2,
+   "convocado": "2024-09-04",
+   "postores": 49,
+   "monto": 110000.0,
+   "proveedores": [
+    "URBANCAD SOCIEDAD ANONIMA CERRADA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-87",
+   "nomenclatura": "CP-SM-9-2024-CR.-1",
+   "objeto": "SERVICIO DE POLIZAS DE SEGUROS: VIDA LEY Y SEGURO GRUPAL COMBINADO VIDA Y ACCIDENTES PERSONALES 2024 - 2025",
+   "metodo": "Concurso Público",
+   "categoria": "services",
+   "valor_referencial": 2540921.98,
+   "convocado": "2024-09-03",
+   "postores": 5,
+   "monto": 1486138.97,
+   "proveedores": [
+    "MAPFRE PERU COMPAÑIA DE SEGUROS Y REASEGUROS",
+    "RIMAC SEGUROS Y REASEGUROS"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-38",
+   "nomenclatura": "AS-SM-41-2024-CR.-1",
+   "objeto": "SUMINISTRO DE DIARIOS Y REVISTAS IMPRESOS",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 280142.75,
+   "convocado": "2024-09-03",
+   "postores": 9,
+   "monto": 253815.85,
+   "proveedores": [
+    "RIVERA REGALADO DANIEL ARMANDO"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-28",
+   "nomenclatura": "AS-SM-39-2024-CR-1",
+   "objeto": "ADQUISICION DE UNIDAD DE EXPANSION DE DISCOS",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 144752.0,
+   "convocado": "2024-09-03",
+   "postores": 11,
+   "monto": 108000.0,
+   "proveedores": [
+    "IT STORAGE E.I.R.L."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1047489",
+   "nomenclatura": "DIRECTA-PROC-3-2024-CR-1",
+   "objeto": "SUSCRIPCIÓN DIGITAL ANUAL AL DIARIO OFICIAL \"EL PERUANO\"",
+   "metodo": "Contratación Directa",
+   "categoria": "services",
+   "valor_referencial": 52231.5,
+   "convocado": "2024-09-02",
+   "postores": 1,
+   "monto": 52231.5,
+   "proveedores": [
+    "EMPRESA PERUANA DE SERVICIO EDITORIALES"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-80",
+   "nomenclatura": "AS-SM-38-2024-CR-1",
+   "objeto": "ADQUISICION DE COMPONENTES Y ACCESORIOS ESPECIALIZADOS DE FIBRA OPTICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 0.0,
+   "convocado": "2024-08-29",
+   "postores": 19,
+   "monto": 39900.0,
+   "proveedores": [
+    "CENTRO DE COMPUTO DE ALTO RENDIMIENTO SOCIEDAD ANONIMA CERRADA-CENTRO DE COMPUTO DE ALTO RENDIMIENTO"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-39",
+   "nomenclatura": "AS-SM-19-2024-CR-2",
+   "objeto": "SERVICIO DE MANTENIMIENTO DE GABINETES DE DATOS Y COMUNICACIONES",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 270748.48,
+   "convocado": "2024-08-22",
+   "postores": 14,
+   "monto": 268000.0,
+   "proveedores": [
+    "ALLIN TELD S.A.C. - ALLTELD S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-75",
+   "nomenclatura": "AS-SM-36-2024-CR-1",
+   "objeto": "SERVICIO DE SUSCRIPCIÓN DEL SOFTWARE RED HAT ENTERPRISE LINUX FOR VIRTUAL DATA CENTER",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 153395.52,
+   "convocado": "2024-08-21",
+   "postores": 13,
+   "monto": 116358.0,
+   "proveedores": [
+    "INSPIRA IT CONSULTING S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1042407",
+   "nomenclatura": "AS-SM-34-2024-CR-1",
+   "objeto": "LICENCIA SOFTWARE ADOBE CREATIVE CLOUD PARA EQUIPOS",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 243939.63,
+   "convocado": "2024-08-15",
+   "postores": 26,
+   "monto": 218162.0,
+   "proveedores": [
+    "DATA CLOUD TECHNOLOGY S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-74",
+   "nomenclatura": "AS-SM-32-2024-CR-1",
+   "objeto": "SUSCRIPCION ANUAL DE LICENCIA DE SOFTWARE MS PROJECT PLAN 3 O EQUIVALENTE",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 51517.62,
+   "convocado": "2024-08-13",
+   "postores": 25,
+   "monto": 45194.22,
+   "proveedores": [
+    "DAILY TECHNOLOGY S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-77",
+   "nomenclatura": "CP-SM-8-2024-CR.-1",
+   "objeto": "CONTRATACION DE POLIZAS DE SEGUROS PATRIMONIALES PARA EL CONGRESO DE LA REPUBLICA",
+   "metodo": "Concurso Público",
+   "categoria": "services",
+   "valor_referencial": 4011860.6,
+   "convocado": "2024-07-25",
+   "postores": 3,
+   "monto": 0,
+   "proveedores": [
+    "MAPFRE PERU COMPAÑIA DE SEGUROS Y REASEGUROS"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-73",
+   "nomenclatura": "CP-SM-7-2024-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO Y/O REPARACION DE PISOS DEL EDIFICIO JOSE FAUSTINO SANCHEZ CARRION",
+   "metodo": "Concurso Público",
+   "categoria": "services",
+   "valor_referencial": 514112.24,
+   "convocado": "2024-07-25",
+   "postores": 113,
+   "monto": 250000.0,
+   "proveedores": [
+    "URBANCAD SOCIEDAD ANONIMA CERRADA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1036147",
+   "nomenclatura": "DIRECTA-PROC-2-2024-CR-1",
+   "objeto": "Servicio de mantenimiento preventivo de ascensores de los edificios del Congreso de la República (Ítem N° 1 ¿ Ascensores de la marca OTIS o Equivalente) (Ítem N° 2 ¿ Ascensores de la marca SCHINDLER o Equivalente)",
+   "metodo": "Contratación Directa",
+   "categoria": "services",
+   "valor_referencial": 334743.96,
+   "convocado": "2024-07-19",
+   "postores": 2,
+   "monto": 334743.96,
+   "proveedores": [
+    "ASCENSORES S A",
+    "ASCENSORES SCHINDLER DEL PERU S A"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-44",
+   "nomenclatura": "AS-SM-15-2024-CR-1",
+   "objeto": "ADQUISICIÓN E INSTALACIÓN DE CIENTO DIECISIETE (117) ESCRITORIOS MODULARES DE ESTRUCTURA METALICA.",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 0.0,
+   "convocado": "2024-07-15",
+   "postores": 38,
+   "monto": 69990.0,
+   "proveedores": [
+    "CONSTRUCTORA AVACOR INGENIERIA Y PROYECTOS S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-71",
+   "nomenclatura": "AS-SM-30-2024-CR-1",
+   "objeto": "SERVICIO DE SEGURO COMPLEMENTARIO DE TRABAJO DE RIESGO (SALUD Y PENSION) SCTR PARA EL PERSONAL DEL CONGRESO DE LA REPUBLICA QUE REALIZA LABORES DE RIESGO 2024-2025",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 206464.19,
+   "convocado": "2024-07-11",
+   "postores": 5,
+   "monto": 144036.2,
+   "proveedores": [
+    "PACIFICO COMPAÑIA DE SEGUROS Y REASEGUROS",
+    "PACIFICO S.A. ENT. PRESTADORA DE SALUD"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-34",
+   "nomenclatura": "AS-SM-18-2024-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO DE EQUIPO DE SEGURIDAD FIREWALL",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 450000.0,
+   "convocado": "2024-07-11",
+   "postores": 7,
+   "monto": 450000.0,
+   "proveedores": [
+    "BAFING S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1019376",
+   "nomenclatura": "AS-SM-23-2023-CR-2",
+   "objeto": "SERVICIO DE MENSAJERIA A NIVEL LOCAL, NACIONAL E INTERNACIONAL",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 201160.0,
+   "convocado": "2024-07-09",
+   "postores": 3,
+   "monto": 193985.0,
+   "proveedores": [
+    "CA & PE CARGO S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1032730",
+   "nomenclatura": "AS-SM-17-2024-CR-2",
+   "objeto": "SERVICIO DE MANTENIMIENTO Y/O REPARACIÓN DE SISTEMA DE VOTACIÓN ELECTRÓNICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 150000.0,
+   "convocado": "2024-07-09",
+   "postores": 4,
+   "monto": 150000.0,
+   "proveedores": [
+    "DISTRIBUIDORA PERFECTION S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-69",
+   "nomenclatura": "INTER-PROC-1-2024-CR.-1",
+   "objeto": "SUSCRIPCION DE HABILITACION E IMPLEMENTACION DE PLATAFORMA WEB QUE PERMITE EL ACCESO A CONTENIDO DIGITAL",
+   "metodo": "Contratación Internacional",
+   "categoria": "services",
+   "valor_referencial": 78000.0,
+   "convocado": "2024-07-03",
+   "postores": 1,
+   "monto": 0,
+   "proveedores": [
+    "ODILO TID SL"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-22",
+   "nomenclatura": "AS-SM-10-2024-CR-1",
+   "objeto": "ADQUISICIÓN DE ROPA INDUSTRIAL PARA EL PERSONAL AUXILIAR DE LIMPIEZA Y PERSONAL DEL GRUPO DE TRABAJO DE TALLERES DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 64299.45,
+   "convocado": "2024-06-24",
+   "postores": 24,
+   "monto": 52852.79,
+   "proveedores": [
+    "INVERSIONES E IMPORTACIONES BRILLANTITO E.I.R.L."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-63",
+   "nomenclatura": "CP-SM-4-2024-CR.-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO Y/O REPARACION DE PISOS DEL EDIFICIO LUIS ALBERTO SANCHEZ",
+   "metodo": "Concurso Público",
+   "categoria": "services",
+   "valor_referencial": 0.0,
+   "convocado": "2024-06-19",
+   "postores": null,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1022482",
+   "nomenclatura": "AS-SM-14-2024-CR-1",
+   "objeto": "CONSULTORIA PARA EVALUACION ESTRUCTURAL DE LOS EDIFICIOS DEL CONGRESO DE LA REPUBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 214347.0,
+   "convocado": "2024-06-10",
+   "postores": 19,
+   "monto": 69800.0,
+   "proveedores": [
+    "ESPINOZA SALCEDO HUGO JAVIER"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-37",
+   "nomenclatura": "AS-SM-17-2024-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO Y/O REPARACIÓN DE SISTEMA DE VOTACIÓN ELECTRÓNICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 150000.0,
+   "convocado": "2024-06-04",
+   "postores": 8,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-45",
+   "nomenclatura": "AS-SM-16-2024-CR-1",
+   "objeto": "ADQUISICIÓN DE SOFTWARE DE ANTIVIRUS PARA ESTACIÓN DE TRABAJO",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 161104.17,
+   "convocado": "2024-05-28",
+   "postores": 25,
+   "monto": 160000.0,
+   "proveedores": [
+    "INNOVARE E-BUSINESS S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-67",
+   "nomenclatura": "AS-SM-12-2024-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO Y/O REPARACION DE PISOS DEL EDIFICIO ROBERTO RAMIREZ DEL VILLAR",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 123856.69,
+   "convocado": "2024-05-27",
+   "postores": 107,
+   "monto": 94200.0,
+   "proveedores": [
+    "ALVA CONSTRUCTORA & SERVICIOS GENERALES E.I.R.L."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-18",
+   "nomenclatura": "AS-SM-11-2024-CR-1",
+   "objeto": "MANTENIMIENTO PREVENTIVO DE TABLERO ELECTRICO",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 105866.67,
+   "convocado": "2024-05-21",
+   "postores": 136,
+   "monto": 60770.0,
+   "proveedores": [
+    "TECNICA INGENIEROS S.R.L"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-40",
+   "nomenclatura": "AS-SM-9-2024-CR-1",
+   "objeto": "SERVICIO DE ACTUALIZACIÓN DE LICENCIA DE SOFTWARE LEVER IT DISCOVERY",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 133784.02,
+   "convocado": "2024-05-07",
+   "postores": 5,
+   "monto": 130500.0,
+   "proveedores": [
+    "INTEGRACIONES J & I S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-1",
+   "nomenclatura": "LP-SM-2-2024-CR-1",
+   "objeto": "ADQUISICION DE UN SISTEMA INTEGRADO DE CREACION Y PRODUCCION DE CONTENIDO AUDIOVISUAL Y CAMARAS DE VIDEO PARA REPORTEROS (ENG), ACCESORIOS Y CAPACITACION PARA EL CANAL DE TELEVISION DEL CONGRESO DE LA REPUBLICA",
+   "metodo": "Licitación Pública",
+   "categoria": "goods",
+   "valor_referencial": 0.0,
+   "convocado": "2024-05-06",
+   "postores": null,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1011555",
+   "nomenclatura": "AS-SM-29-2023-CR-2",
+   "objeto": "ADQUISICION DE LIQUIDO DEODORIZADOR",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 83685.6,
+   "convocado": "2024-05-02",
+   "postores": 7,
+   "monto": 83591.04,
+   "proveedores": [
+    "AROMAS Y MATICES S.A."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-13",
+   "nomenclatura": "AS-SM-8-2024-CR-1",
+   "objeto": "ADQUISICIÓN DE COMBUSTIBLE GASOHOL PREMIUM PARA LA FLOTA VEHICULAR DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 417050.0,
+   "convocado": "2024-05-02",
+   "postores": 5,
+   "monto": 356820.0,
+   "proveedores": [
+    "GLOBAL FUEL SOCIEDAD ANONIMA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1076139",
+   "nomenclatura": "LP-SM-1-2024-CR-1",
+   "objeto": "ADQUISICIÓN E INSTALACIÓN DE EQUIPOS UPS",
+   "metodo": "Licitación Pública",
+   "categoria": "goods",
+   "valor_referencial": 3475071.68,
+   "convocado": "2024-04-30",
+   "postores": 55,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-51",
+   "nomenclatura": "LP-SM-1-2024-CR-1",
+   "objeto": "ADQUISICIÓN E INSTALACIÓN DE EQUIPOS UPS",
+   "metodo": "Licitación Pública",
+   "categoria": "goods",
+   "valor_referencial": 3475071.68,
+   "convocado": "2024-04-30",
+   "postores": 48,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-20",
+   "nomenclatura": "CP-SM-2-2024-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO Y/O REPARACION DE SWITCH DE CORE",
+   "metodo": "Concurso Público",
+   "categoria": "services",
+   "valor_referencial": 735554.28,
+   "convocado": "2024-04-16",
+   "postores": 19,
+   "monto": 441396.0,
+   "proveedores": [
+    "ADEXUS PERU SA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1004676",
+   "nomenclatura": "DIRECTA-PROC-1-2024-CR-1",
+   "objeto": "SERVICIO DE ASESORIA Y DEFENSA LEGAL EN MATERIA PENAL Y PROCESAL PENAL",
+   "metodo": "Contratación Directa",
+   "categoria": "services",
+   "valor_referencial": 70000.0,
+   "convocado": "2024-04-12",
+   "postores": 1,
+   "monto": 70000.0,
+   "proveedores": [
+    "ESTUDIO BRAMONT - ARIAS TORRES EIRL"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-58",
+   "nomenclatura": "AS-SM-24-2023-CR-2",
+   "objeto": "ASESORIA Y/O CONSULTORIA DE OPERACIÓN, MANTENIMIENTO Y MEJORA DEL SISTEMA DE GESTIÓN DE SEGURIDAD DE LA INFORMACIÓN",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 130000.0,
+   "convocado": "2024-04-09",
+   "postores": 7,
+   "monto": 108000.0,
+   "proveedores": [
+    "KUNAK CONSULTING S.A.C"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-59",
+   "nomenclatura": "AS-SM-25-2023-CR-2",
+   "objeto": "ADQUISICIÓN DE MEDALLAS PARA LOS PARTICIPANTES DE LOS DIVERSOS PROGRAMAS DE CAPACITACIÓN Y FORMACIÓN PARLAMENTARIA, EN LOS DIVERSOS SEGMENTOS DE LA CIUDADANIA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 148213.0,
+   "convocado": "2024-04-09",
+   "postores": 11,
+   "monto": 124900.0,
+   "proveedores": [
+    "GRAFICA GARATE S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-7",
+   "nomenclatura": "CP-SM-3-2024-CR-1",
+   "objeto": "SERVICIO DE LIMPIEZA Y PINTADO DE FACHADAS DE EDIFICIOS",
+   "metodo": "Concurso Público",
+   "categoria": "services",
+   "valor_referencial": 874079.25,
+   "convocado": "2024-03-27",
+   "postores": 128,
+   "monto": 1514362.2,
+   "proveedores": [
+    "ARQUITECNOLOGIA S.A.C.",
+    "GRUPO ROBERCO CONTRATISTAS Y MULTINVERSIONES S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-30",
+   "nomenclatura": "AS-SM-6-2024-CR-1",
+   "objeto": "ADQUISICION DE EXTINTORES PARA LOS EDIFICIOS DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 223921.02,
+   "convocado": "2024-03-27",
+   "postores": 33,
+   "monto": 195445.7,
+   "proveedores": [
+    "INDUSTRIAL PRODEX DELGADO S.A."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-999621",
+   "nomenclatura": "AS-SM-7-2024-CR-1",
+   "objeto": "SUMINISTRO DE BIDONES DE AGUA SIN GAS",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 424605.57,
+   "convocado": "2024-03-26",
+   "postores": 16,
+   "monto": 323421.0,
+   "proveedores": [
+    "SANTIAGO ATENCIO ELIZABETH CAROLINA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-15",
+   "nomenclatura": "AS-SM-23-2023-CR-2",
+   "objeto": "SERVICIO DE MENSAJERIA A NIVEL LOCAL, NACIONAL E INTERNACIONAL",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 201160.0,
+   "convocado": "2024-03-04",
+   "postores": 8,
+   "monto": 139404.5,
+   "proveedores": [
+    "SERVICE J.C.U. SRL"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-1003261",
+   "nomenclatura": "AS-SM-5-2024-CR-1",
+   "objeto": "ADQUISICION DE BOLSAS PARA BASURA BIODEGRADABLES",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 85667.47,
+   "convocado": "2024-02-29",
+   "postores": 73,
+   "monto": 48999.34,
+   "proveedores": [
+    "POLYFLEX GROUP S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-50",
+   "nomenclatura": "AS-SM-5-2024-CR-1",
+   "objeto": "ADQUISICION DE BOLSAS PARA BASURA BIODEGRADABLES",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 0.0,
+   "convocado": "2024-02-29",
+   "postores": null,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-14",
+   "nomenclatura": "AS-SM-1-2024-CR-1",
+   "objeto": "AGENCIAMIENTO DE PASAJES INTERNACIONALES",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 570664.0,
+   "convocado": "2024-02-29",
+   "postores": 4,
+   "monto": 549104.95,
+   "proveedores": [
+    "CUARZO TRAVEL S.R.LTDA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-49",
+   "nomenclatura": "AS-SM-3-2024-CR-1",
+   "objeto": "ADQUSICION DE EQUIPOS BIOMETRICOS",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 199419.24,
+   "convocado": "2024-02-28",
+   "postores": 17,
+   "monto": 66125.49,
+   "proveedores": [
+    "NET FUSION CONSULTING SOCIEDAD ANONIMA CERRADA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-26",
+   "nomenclatura": "AS-SM-4-2024-CR-1",
+   "objeto": "MONTAJE Y DESMONTAJE DE COBERTURA DE AMBIENTES DEL GRUPO FUNCIONAL DE ALMACEN",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 138376.19,
+   "convocado": "2024-02-26",
+   "postores": 93,
+   "monto": 89900.0,
+   "proveedores": [
+    "CONSORCIO R Y R - LEO"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2024-6-5",
+   "nomenclatura": "CP-SM-1-2024-CR-1",
+   "objeto": "SERVICIO DE TELEFONIA MOVIL E INTERNET (DATOS) PARA EL SERVICIO PARLAMENTARIO",
+   "metodo": "Concurso Público",
+   "categoria": "services",
+   "valor_referencial": 1379177.6,
+   "convocado": "2024-01-10",
+   "postores": 15,
+   "monto": 616728.0,
+   "proveedores": [
+    "ENTEL PERU S.A."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-72",
+   "nomenclatura": "AS-SM-27-2023-CR-1",
+   "objeto": "ADQUISICION DE SISTEMA CONTRA INCENDIO",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 210718.18,
+   "convocado": "2023-12-29",
+   "postores": 19,
+   "monto": 187918.68,
+   "proveedores": [
+    "TELNET SERVICES PERU SOCIEDAD ANONIMA CERRADA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-58",
+   "nomenclatura": "AS-SM-32-2023-CR-1",
+   "objeto": "SUSCRIPCION A SOFTWARE DE RESPALDO PARA CORREO EN LA NUBE",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 423375.0,
+   "convocado": "2023-12-29",
+   "postores": 24,
+   "monto": 120000.0,
+   "proveedores": [
+    "DAILY TECHNOLOGY S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-127",
+   "nomenclatura": "AS-SM-30-2023-CR-1",
+   "objeto": "SERVICIO DE TELEFONIA MOVIL PARA ASISTENCIA Y VOTACION DURANTE LAS SESIONES DEL  PLENO",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 228745.92,
+   "convocado": "2023-12-28",
+   "postores": 3,
+   "monto": 177265.92,
+   "proveedores": [
+    "AMERICA MOVIL PERU S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-125",
+   "nomenclatura": "AS-SM-25-2023-CR-1",
+   "objeto": "ADQUISICIÓN DE MEDALLAS PARA LOS PARTICIPANTES DE LOS DIVERSOS PROGRAMAS DE CAPACITACIÓN Y FORMACIÓN PARLAMENTARIA, EN LOS DIVERSOS SEGMENTOS DE LA CIUDADANIA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 148213.0,
+   "convocado": "2023-12-28",
+   "postores": 11,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-42",
+   "nomenclatura": "AS-SM-29-2023-CR-1",
+   "objeto": "ADQUISICION DE LIQUIDO DEODORIZADOR",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 0.0,
+   "convocado": "2023-12-22",
+   "postores": null,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-1",
+   "nomenclatura": "LP-SM-2-2023-CR-1",
+   "objeto": "ADQUISICIÓN DE UN SISTEMA DE MEGAFONÍA PARA EL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Licitación Pública",
+   "categoria": "goods",
+   "valor_referencial": 787431.13,
+   "convocado": "2023-12-11",
+   "postores": 7,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-15",
+   "nomenclatura": "CP-SM-9-2023-CR-1",
+   "objeto": "SERVICIO DE SUSCRIPCIÓN DE SOFTWARE MICROSOFT OFFICE 365 O EQUIVALENTE",
+   "metodo": "Concurso Público",
+   "categoria": "services",
+   "valor_referencial": 1502880.0,
+   "convocado": "2023-12-05",
+   "postores": 22,
+   "monto": 1101224.52,
+   "proveedores": [
+    "DAILY TECHNOLOGY S.A.C.",
+    "ENTEL PERU S.A."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-89",
+   "nomenclatura": "AS-SM-24-2023-CR-1",
+   "objeto": "ASESORIA Y/O CONSULTORIA DE OPERACIÓN, MANTENIMIENTO Y MEJORA DEL SISTEMA DE GESTION DE SEGURIDAD INFORMATICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 130000.0,
+   "convocado": "2023-12-01",
+   "postores": 3,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-116",
+   "nomenclatura": "AS-SM-20-2023-CR-1",
+   "objeto": "CONSULTORIA PARA LA ACTUALIZACION DE EXPEDIENTE TECNICO DE MEJORAMIENTO DE INSTALACIONES ELECTRICAS DE CINCO EDIFICIOS DEL CONGRESO DE LA REPUBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 193644.68,
+   "convocado": "2023-11-30",
+   "postores": 16,
+   "monto": 175000.0,
+   "proveedores": [
+    "ELECTROMECANICA VALENCIA EIRL."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-967430",
+   "nomenclatura": "INTER-PROC-1-2023-CR-2",
+   "objeto": "SERVICIO DE MANTENIMIENTO Y ACTUALIZACIÓN DEL SOFTWARE INTEGRADO PARA GESTIÓN DE BIBLIOTECA ALEPH 500 PARA EL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Contratación Internacional",
+   "categoria": "services",
+   "valor_referencial": 87694.64,
+   "convocado": "2023-11-30",
+   "postores": 1,
+   "monto": 0,
+   "proveedores": [
+    "PROQUEST CHILE SPA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-118",
+   "nomenclatura": "AS-SM-23-2023-CR-1",
+   "objeto": "SERVICIO DE MENSAJERIA A NIVEL LOCAL, NACIONAL E INTERNACIONAL",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 193893.47,
+   "convocado": "2023-11-21",
+   "postores": 9,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-81",
+   "nomenclatura": "AS-SM-22-2023-CR-1",
+   "objeto": "ADQUISICION DE MAQUINA DE FABRICACION DE TAPA DURA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 120000.0,
+   "convocado": "2023-11-20",
+   "postores": 5,
+   "monto": 120000.0,
+   "proveedores": [
+    "ALEPHGRAPHICS PERU MACHINERY S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-113",
+   "nomenclatura": "CP-SM-2-2023-CR-1",
+   "objeto": "CONSULTORIA PARA EVALUACION ESTRUCTURAL DE LOS EDIFICIOS DEL CONGRESO DE LA REPUBLICA",
+   "metodo": "Concurso Público",
+   "categoria": "services",
+   "valor_referencial": 624456.0,
+   "convocado": "2023-11-13",
+   "postores": 22,
+   "monto": 303750.0,
+   "proveedores": [
+    "CARRASCO ROJAS PABLO RUBEN",
+    "EJP INGENIERIA & PROYECTOS SAC",
+    "ESPINOZA SALCEDO HUGO JAVIER"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-109",
+   "nomenclatura": "INTER-PROC-1-2023-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO Y ACTUALIZACIÓN DEL SOFTWARE INTEGRADO PARA GESTIÓN DE BIBLIOTECA ALEPH 500 PARA EL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Contratación Internacional",
+   "categoria": "services",
+   "valor_referencial": 87694.64,
+   "convocado": "2023-10-31",
+   "postores": null,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-56",
+   "nomenclatura": "AS-SM-19-2023-CR-1",
+   "objeto": "ADQUISICIÓN DE SOFTWARE WINDOWS SERVER",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 203588.08,
+   "convocado": "2023-10-02",
+   "postores": 16,
+   "monto": 188000.0,
+   "proveedores": [
+    "DAILY TECHNOLOGY S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-14",
+   "nomenclatura": "CP-SM-5-2023-CR-1",
+   "objeto": "Servicio de suscripción de software de correo en la nube exchange online de la marca Microsoft o equivalente",
+   "metodo": "Concurso Público",
+   "categoria": "services",
+   "valor_referencial": 500924.58,
+   "convocado": "2023-09-25",
+   "postores": 20,
+   "monto": 413400.0,
+   "proveedores": [
+    "ENTEL PERU S.A."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-13",
+   "nomenclatura": "CP-SM-6-2023-CR-1",
+   "objeto": "SERVICIO DE INTERNET",
+   "metodo": "Concurso Público",
+   "categoria": "services",
+   "valor_referencial": 1407462.01,
+   "convocado": "2023-09-06",
+   "postores": 15,
+   "monto": 1274182.08,
+   "proveedores": [
+    "AMERICA MOVIL PERU S.A.C.",
+    "LOPEZ PEÑALOZA EDSON MAX"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-12",
+   "nomenclatura": "CP-SM-4-2023-CR-1",
+   "objeto": "AGENCIAMIENTO DE PASAJES INTERNACIONALES",
+   "metodo": "Concurso Público",
+   "categoria": "services",
+   "valor_referencial": 0.0,
+   "convocado": "2023-09-05",
+   "postores": null,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-80",
+   "nomenclatura": "AS-SM-17-2023-CR-1",
+   "objeto": "SERVICIO DE SUSCRIPCION DE LICENCIAS DE SOFTWARE DE DISEÑO GRAFICO ADOBE CREATIVE CLOUD O EQUIVALENTE",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 162388.0,
+   "convocado": "2023-08-14",
+   "postores": 18,
+   "monto": 153012.87,
+   "proveedores": [
+    "SOFTMARK PRO S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-57",
+   "nomenclatura": "AS-SM-14-2023-CR-1",
+   "objeto": "ADQUISICIÓN DE SOFTWARE DE ANTIVIRUS PARA ESTACIÓN DE TRABAJO",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 207086.13,
+   "convocado": "2023-07-20",
+   "postores": 17,
+   "monto": 114000.0,
+   "proveedores": [
+    "IMPERIA SOLUCIONES TECNOLOGICAS S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-10",
+   "nomenclatura": "CP-SM-3-2023-CR-1",
+   "objeto": "SERVICIO DE COBERTURA DE POLIZAS DE SEGURO DE VIDA EY Y SEGURO GRUPAL COMBINADO VIDA Y ACCIDENTES PERSONALES PARA EL CONGRESO DE LA REPUBLICA",
+   "metodo": "Concurso Público",
+   "categoria": "services",
+   "valor_referencial": 3600288.36,
+   "convocado": "2023-07-06",
+   "postores": 7,
+   "monto": 1820407.92,
+   "proveedores": [
+    "CHUBB PERU S.A. COMPAÑIA DE SEGUROS Y REASEGUROS",
+    "RIMAC SEGUROS Y REASEGUROS"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-75",
+   "nomenclatura": "AS-SM-13-2023-CR-1",
+   "objeto": "SERVICIO DE SEGURO COMPLEMENTARIO DE TRABAJO DE RIESGO (SALUD Y PENSIÓN) ¿ SCTR PARA PERSONAL DEL CONGRESO DE LA REPUBLICA QUE REALIZA LABORES DE RIESGO 2023 - 2024",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 179335.48,
+   "convocado": "2023-07-05",
+   "postores": 10,
+   "monto": 114767.02,
+   "proveedores": [
+    "OFICINA DE NORMALIZACION PREVISIONAL ONP",
+    "PACIFICO S.A. ENT. PRESTADORA DE SALUD"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-914415",
+   "nomenclatura": "AS-SM-52-2022-CR-4",
+   "objeto": "SUMINISTRO DE BIDONES DE AGUA DE MESA SIN GAS",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 320336.72,
+   "convocado": "2023-06-19",
+   "postores": 6,
+   "monto": 301469.08,
+   "proveedores": [
+    "CONQUISTADORES REAL SERVICE S.A."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-106",
+   "nomenclatura": "AS-SM-12-2023-CR-1",
+   "objeto": "MANTENIMIENTO PREVENTIVO DE EQUIPOS DE AIRE ACONDICIONADO TIPO CHILLER",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 204800.0,
+   "convocado": "2023-06-19",
+   "postores": 43,
+   "monto": 139624.0,
+   "proveedores": [
+    "VADIEL INGENIEROS S.A.C-VADIEL S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-108",
+   "nomenclatura": "AS-SM-15-2023-CR-1",
+   "objeto": "LICENCIAMIENTO DE SISTEMA INALAMBRICO",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 336313.0,
+   "convocado": "2023-06-16",
+   "postores": 4,
+   "monto": 299690.0,
+   "proveedores": [
+    "ADEXUS PERU SA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-912811",
+   "nomenclatura": "AS-SM-9-2023-CR-2",
+   "objeto": "SERVICIO DE MANTENIMIENTO DE SISTEMA DE VOTACION ELECTRONICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 150000.0,
+   "convocado": "2023-06-15",
+   "postores": 3,
+   "monto": 150000.0,
+   "proveedores": [
+    "DISTRIBUIDORA PERFECTION S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-70",
+   "nomenclatura": "AS-SM-11-2023-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO DE SISTEMA DE VISUALIZACIÓN DE CONTENIDO",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 145234.0,
+   "convocado": "2023-06-05",
+   "postores": 4,
+   "monto": 145200.0,
+   "proveedores": [
+    "TOVAL SYSTEMS S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-73",
+   "nomenclatura": "AS-SM-10-2023-CR-1",
+   "objeto": "SERVICIO DE ACTUALIZACIÓN DE LICENCIAS DEL SOFTWARE LEVER IT DISCOVERY",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 131400.0,
+   "convocado": "2023-06-05",
+   "postores": 4,
+   "monto": 119300.0,
+   "proveedores": [
+    "INTEGRACIONES J & I S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-41",
+   "nomenclatura": "AS-SM-8-2023-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO Y/O REPARACIÓN DE SWITCH DE DISTRIBUCION",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 348604.5,
+   "convocado": "2023-05-25",
+   "postores": 12,
+   "monto": 256000.0,
+   "proveedores": [
+    "INGECORP PERU S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-77",
+   "nomenclatura": "AS-SM-9-2023-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO DE SISTEMA DE VOTACION ELECTRONICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 150000.0,
+   "convocado": "2023-05-24",
+   "postores": 3,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-53",
+   "nomenclatura": "AS-SM-7-2023-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO PREVENTIVO DE EQUIPOS DE AIRE ACONDICIONADO  DE LOS DIFERENTES EDIFICIOS DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 155500.0,
+   "convocado": "2023-05-23",
+   "postores": 51,
+   "monto": 87080.0,
+   "proveedores": [
+    "URCIA DE LA CRUZ RICHARD"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-902801",
+   "nomenclatura": "AS-SM-52-2022-CR-3",
+   "objeto": "SUMINISTRO DE BIDONES DE AGUA DE MESA SIN GAS",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 320336.72,
+   "convocado": "2023-05-17",
+   "postores": 8,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-902733",
+   "nomenclatura": "AS-SM-4-2023-CR-2",
+   "objeto": "ADQUISICION E INSTALACION DE EQUIPOS PARA LA REHABILITACION POR MIGRACION A SEÑAL HD DE LA INFRAESCTRUCTURA TECNOLOGICA DEL CANAL DE TELEVISION DEL CONGRESO DE LA REPUBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 3689848.06,
+   "convocado": "2023-05-16",
+   "postores": 7,
+   "monto": 1498940.0,
+   "proveedores": [
+    "VIDEO BROADCAST S A"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-95",
+   "nomenclatura": "AS-SM-2-2023-CR-1",
+   "objeto": "ADQUISICION E INSTALACION DE EXTRACTORES E INYECTORES DE AIRE PARA LAS DIFERENTES DEPENDENCIAS DEL CONGRESO DE LA REPUBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 194536.4,
+   "convocado": "2023-05-15",
+   "postores": 17,
+   "monto": 138880.0,
+   "proveedores": [
+    "URCIA DE LA CRUZ RICHARD"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-101",
+   "nomenclatura": "AS-SM-6-2023-CR-1",
+   "objeto": "ADQUISICION DE LICENCIA SQL SERVER STANDARD O EQUIVALENTE",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 70695.56,
+   "convocado": "2023-05-02",
+   "postores": 14,
+   "monto": 72921.94,
+   "proveedores": [
+    "INFRASTRUCTURE & DATABASE CONSULTING S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-896025",
+   "nomenclatura": "DIRECTA-PROC-1-2023-CR-1",
+   "objeto": "Servicio de mantenimiento preventivo de ascensores de los edificios del Congreso de la Republica (Ítem N° 1. Ascensores de la marca OTIS o Equivalente) (Ítem N° 2. Ascensores de la marca SCHINDLER o Equivalente)",
+   "metodo": "Contratación Directa",
+   "categoria": "services",
+   "valor_referencial": 415132.8,
+   "convocado": "2023-04-20",
+   "postores": 2,
+   "monto": 415132.8,
+   "proveedores": [
+    "ASCENSORES S A",
+    "ASCENSORES SCHINDLER DEL PERU S A"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-28",
+   "nomenclatura": "SIE-SIE-1-2023-CR-1",
+   "objeto": "ADQUISICIÓN DE COMBUSTIBLE GASOLINA PREMIUM",
+   "metodo": "Subasta Inversa Electrónica",
+   "categoria": "goods",
+   "valor_referencial": 414200.0,
+   "convocado": "2023-03-30",
+   "postores": 7,
+   "monto": 369360.0,
+   "proveedores": [
+    "GLOBAL FUEL SOCIEDAD ANONIMA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-99",
+   "nomenclatura": "AS-SM-4-2023-CR-1",
+   "objeto": "ADQUISICION E INSTALACION DE EQUIPOS PARA LA REHABILITACION POR MIGRACION A SEÑAL HD DE LA INFRAESCTRUCTURA TECNOLOGICA DEL CANAL DE TELEVISION DEL CONGRESO DE LA REPUBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 3689848.06,
+   "convocado": "2023-03-28",
+   "postores": 6,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-97",
+   "nomenclatura": "AS-SM-3-2023-CR-1",
+   "objeto": "SERVICIO DE CONSULTORIA ELABORACION DEL MANUAL DE PERFILES DE PUESTOS DEL SERVICIO PARLAMENTARIO DEL CONGRESO DE LA REPUBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 0.0,
+   "convocado": "2023-03-22",
+   "postores": null,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2023-6-7",
+   "nomenclatura": "CP-SM-1-2023-CR-1",
+   "objeto": "CONTRATACION DEL SERVICIO DE POLIZAS DE SEGUROS PATRIMONIALES",
+   "metodo": "Concurso Público",
+   "categoria": "services",
+   "valor_referencial": 0.0,
+   "convocado": "2023-03-09",
+   "postores": null,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-881772",
+   "nomenclatura": "AS-SM-52-2022-CR-2",
+   "objeto": "SUMINISTRO DE BIDONES DE AGUA DE MESA SIN GAS",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 320749.88,
+   "convocado": "2023-02-23",
+   "postores": 6,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-123",
+   "nomenclatura": "AS-SM-53-2022-CR-1",
+   "objeto": "SERVICIO DE ACONDICIONAMIENTO DE OFICINA PARA EL GRUPO FUNCIONAL DE COMUNICACIONES Y TELEFONIA FIJA, MOVIL Y CENTRAL TELEFONICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 137005.12,
+   "convocado": "2022-12-29",
+   "postores": 33,
+   "monto": 125000.0,
+   "proveedores": [
+    "INVERSIONES NUNUMA S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-124",
+   "nomenclatura": "LP-SM-2-2022-CR-1",
+   "objeto": "ADQUISICION DE UN SISTEMA DE VIDEO WALL PARA EL CENTRO DE CONTROL DE LA OFICINA DE PREVENCION Y SEGURIDAD",
+   "metodo": "Licitación Pública",
+   "categoria": "goods",
+   "valor_referencial": 879192.04,
+   "convocado": "2022-12-29",
+   "postores": 23,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-122",
+   "nomenclatura": "AS-SM-54-2022-CR-1",
+   "objeto": "ADQUISICION DE VESTUARIO FORMAL PARA EL PERSONAL DE LA OFICINA DE PREVENCION Y SEGURIDAD",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 193066.0,
+   "convocado": "2022-12-28",
+   "postores": 17,
+   "monto": 145800.0,
+   "proveedores": [
+    "MIRANDA ZAPATA MARY"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-121",
+   "nomenclatura": "LP-SM-1-2022-CR-1",
+   "objeto": "ADQUISICION E INSTALACION DE EQUIPOS PARA LA REHABILITACION POR MIGRACION A SEÑAL HD DE LA INFRAESTRUCTURA TECNOLOGICA DEL CANAL DE TELEVISION DEL CONGRESO DE LA REPUBLICA",
+   "metodo": "Licitación Pública",
+   "categoria": "goods",
+   "valor_referencial": 3689848.06,
+   "convocado": "2022-12-23",
+   "postores": 5,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-118",
+   "nomenclatura": "AS-SM-52-2022-CR-1",
+   "objeto": "SUMINISTRO DE BIDONES DE AGUA DE MESA SIN GAS",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 320749.88,
+   "convocado": "2022-12-21",
+   "postores": 6,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-119",
+   "nomenclatura": "AS-SM-51-2022-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO PREVENTIVO Y CORRECTIVO DE LA FLOTA VEHICULAR DEL CONGRESO DE LA REPUBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 215580.1,
+   "convocado": "2022-12-21",
+   "postores": 10,
+   "monto": 141864.0,
+   "proveedores": [
+    "LABORATORIO DIESEL SENATINOS S A"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-108",
+   "nomenclatura": "AS-SM-50-2022-CR-1",
+   "objeto": "ADQUISICION DE MATERIALES FERRETEROS PARA TALLERES DE GASFITERIA, CERRAJERIA, ELECTRICIDAD",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 307212.05,
+   "convocado": "2022-12-19",
+   "postores": 24,
+   "monto": 238370.5,
+   "proveedores": [
+    "LOAYZA PALOMINO JANET ALICE",
+    "MEYBELYN PERU S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-117",
+   "nomenclatura": "AS-SM-49-2022-CR-1",
+   "objeto": "Servicio de Toma de Inventario Físico Valorado de Libros de la Colección General de la Biblioteca del Congreso de la Republica Ejercicio 2022",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 344106.67,
+   "convocado": "2022-12-13",
+   "postores": 27,
+   "monto": 134000.0,
+   "proveedores": [
+    "NETWORKS AND SYSTEMS CONSULTORIA EN INFORMATICA SOCIEDAD ANONIMA CERRADA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-860691",
+   "nomenclatura": "DIRECTA-PROC-2-2022-CR-1",
+   "objeto": "SERVICIO DE MODERNIZACIÓN INTEGRAL DE SIETE (7) ASCENSORES DE PASAJEROS DEL CONGRESO DE LA REPUBLICA",
+   "metodo": "Contratación Directa",
+   "categoria": "services",
+   "valor_referencial": 6507145.22,
+   "convocado": "2022-11-21",
+   "postores": 1,
+   "monto": 6507145.22,
+   "proveedores": [
+    "ASCENSORES S A"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-115",
+   "nomenclatura": "AS-SM-46-2022-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO PREVENTIVO, PREDICTIVO Y CORRECTIVO DE EQUIPOS DE LIMPIEZA INDUSTRIAL DEL CONGRESO DE LA REPUBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 110448.0,
+   "convocado": "2022-11-18",
+   "postores": 18,
+   "monto": 85650.0,
+   "proveedores": [
+    "LUITI MAQUINARIAS S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-116",
+   "nomenclatura": "AS-SM-47-2022-CR-1",
+   "objeto": "ADQUISICION DE MADERAS PARA EL TALLER DE CARPINTERIA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 92382.0,
+   "convocado": "2022-11-15",
+   "postores": 10,
+   "monto": 71550.0,
+   "proveedores": [
+    "ECO SELVA FORESTAL E.I.R.L."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-5",
+   "nomenclatura": "CP-SM-8-2022-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO Y/O RESTAURACIÓN DE LOS VITRALES DEL EDIFICIO LUIS ALBERTO SÁNCHEZ DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Concurso Público",
+   "categoria": "services",
+   "valor_referencial": 0.0,
+   "convocado": "2022-11-14",
+   "postores": null,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-47",
+   "nomenclatura": "AS-SM-27-2022-CR-3",
+   "objeto": "ADQUISICIÓN DE GRUPO ELECTRÓGENO ENCAPSULADO E INSONORIZADO DE 30KW",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 114955.6,
+   "convocado": "2022-11-11",
+   "postores": 8,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-114",
+   "nomenclatura": "AS-SM-45-2022-CR-1",
+   "objeto": "SERVICIO DE CONSULTORIA PARA LA EVALUACION ESTRUCTURAL DE LOS EDIFICIOS DEL CONGRESO DE LA REPUBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 247516.8,
+   "convocado": "2022-11-02",
+   "postores": 14,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-4",
+   "nomenclatura": "CP-SM-7-2022-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO Y/O REPARACION (RESTAURACIÓN) DE LOS VITRALES DEL EDIFICIO DE PALACIO LEGISLATIVO",
+   "metodo": "Concurso Público",
+   "categoria": "services",
+   "valor_referencial": 450094.0,
+   "convocado": "2022-10-28",
+   "postores": 23,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-848477",
+   "nomenclatura": "AS-SM-32-2022-CR-3",
+   "objeto": "ADQUISICION DE ALFOMBRAS PARA EL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 347200.0,
+   "convocado": "2022-09-28",
+   "postores": 13,
+   "monto": 315000.0,
+   "proveedores": [
+    "KOTLIN SERVICES S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-848061",
+   "nomenclatura": "AS-SM-35-2022-CR-2",
+   "objeto": "ADQUISICIÓN DE ROPA INDUSTRIAL PERSONAL AUXILIAR DE LIMPIEZA ÁREA DE ADMINISTRACIÓN DE EDIFICIOS ¿ PERSONAL DE EDIFICIOS DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 62696.0,
+   "convocado": "2022-09-27",
+   "postores": 13,
+   "monto": 62500.0,
+   "proveedores": [
+    "DEVASH   S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-92",
+   "nomenclatura": "AS-SM-23-2022-CR-3",
+   "objeto": "SERVICIO DE AGENCIAMIENTO DE PASAJES AÉREOS INTERNACIONALES PARA EL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 304048.57,
+   "convocado": "2022-09-13",
+   "postores": 4,
+   "monto": 312819.41,
+   "proveedores": [
+    "CUARZO TRAVEL S.R.LTDA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-70",
+   "nomenclatura": "AS-SM-39-2022-CR-2",
+   "objeto": "SERVICIO DE CAPACITACIÓN-PROGRAMA DE ESPECIALIZACIÓN EN CONTRATACIONES DEL ESTADO",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 132632.0,
+   "convocado": "2022-09-07",
+   "postores": 5,
+   "monto": 95000.0,
+   "proveedores": [
+    "UNIVERSIDAD DE LIMA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-102",
+   "nomenclatura": "AS-SM-38-2022-CR-1",
+   "objeto": "ADQUISICION DE SELLOS",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 58223.67,
+   "convocado": "2022-08-26",
+   "postores": 14,
+   "monto": 45200.0,
+   "proveedores": [
+    "CREAINTER SOCIEDAD ANONIMA CERRADA-CREAINTER S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-105",
+   "nomenclatura": "AS-SM-36-2022-CR-1",
+   "objeto": "SERVICIO DE ACONDICIONAMIENTO DE VESTUARIO PARA EL  PERSONAL AUXILIAR OPERARIO DEL EDIFICIO ROBERTO RAMIREZ DEL VILLAR",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 145633.33,
+   "convocado": "2022-08-24",
+   "postores": 58,
+   "monto": 107221.0,
+   "proveedores": [
+    "THERMODIKE DEL PERU SOCIEDAD ANONIMA CERRADA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-107",
+   "nomenclatura": "AS-SM-43-2022-CR-1",
+   "objeto": "SERVICIO DE MENSAJERIA A NIVEL LOCAL, NACIONAL E INTERNACIONAL",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 245441.66,
+   "convocado": "2022-08-23",
+   "postores": 7,
+   "monto": 222637.5,
+   "proveedores": [
+    "CA & PE CARGO S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-46",
+   "nomenclatura": "AS-Homologacion-SM-42-2022-CR-1",
+   "objeto": "ADQUISICIÓN E INSTALACIÓN DE EQUIPOS DE AIRE ACONDICIONADO TIPO SPLIT (CON FICHA DE HOMOLOGACIÓN)",
+   "metodo": "Adjudicación Simplificada-Homologación",
+   "categoria": "goods",
+   "valor_referencial": 943204.03,
+   "convocado": "2022-08-23",
+   "postores": 24,
+   "monto": 645091.0,
+   "proveedores": [
+    "UEZU INGENIEROS CONTRATISTAS S.R.L Y UEZU COMERCIAL S.A.C"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-104",
+   "nomenclatura": "AS-SM-35-2022-CR-1",
+   "objeto": "ADQUISICIÓN DE ROPA INDUSTRIAL PERSONAL AUXILIAR DE LIMPIEZA ÁREA DE ADMINISTRACIÓN DE EDIFICIOS ¿ PERSONAL DE EDIFICIOS DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 62696.0,
+   "convocado": "2022-08-22",
+   "postores": 14,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-836604",
+   "nomenclatura": "AS-SM-44-2022-CR-1",
+   "objeto": "CONTRATACIÓN DEL SERVICIO DE 6858 TOMAS DE MUESTRAS Y DETECCIÓN MEDIANTE PRUEBA MOLECULAR A PERSONAS PARA DESCARTE DE LA ENFERMEDAD DE LA COVID-19 EN EL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 691703.3,
+   "convocado": "2022-08-19",
+   "postores": 15,
+   "monto": 308610.0,
+   "proveedores": [
+    "MEDICAL CARE SERVICES S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-50",
+   "nomenclatura": "AS-SM-41-2022-CR-1",
+   "objeto": "SERVICIO DE SUSCRIPCIÓN DE LICENCIAS DE SOFTWARE DE DISEÑO GRÁFICO ADOBE O EQUIVALENTE",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 163452.0,
+   "convocado": "2022-08-19",
+   "postores": 15,
+   "monto": 146999.0,
+   "proveedores": [
+    "CREAINTER SOCIEDAD ANONIMA CERRADA-CREAINTER S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-835837",
+   "nomenclatura": "AS-SM-40-2022-CR-1",
+   "objeto": "SERVICIO DE ACTUALIZACION DE LICENCIA DE SOFTWARE SPECTRUM PROTECT",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 434983.0,
+   "convocado": "2022-08-18",
+   "postores": 5,
+   "monto": 434120.0,
+   "proveedores": [
+    "KONFIDI TECHNOLOGIES S.A. - MANDRAWARE S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-835017",
+   "nomenclatura": "AS-SM-32-2022-CR-2",
+   "objeto": "ADQUISICION DE ALFOMBRAS PARA EL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 347200.0,
+   "convocado": "2022-08-16",
+   "postores": 7,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-56",
+   "nomenclatura": "AS-SM-25-2022-CR-1",
+   "objeto": "ADQUISICIÓN DE SOFTWARE DE GRABACIÓN DIGITAL DE AUDIO SEGMENTADO-MSRS RECORDING SYSTEM",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 79482.72,
+   "convocado": "2022-08-15",
+   "postores": 6,
+   "monto": 82600.0,
+   "proveedores": [
+    "DAYA PLUS S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-834073",
+   "nomenclatura": "AS-SM-22-2021-CR-3",
+   "objeto": "SERVICIO MANTENIMIENTO CORRECTIVO DE PLANTA AZOTEA DE EDIFICIO LUIS ALBERTO SANCHEZ",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 143655.33,
+   "convocado": "2022-08-12",
+   "postores": 15,
+   "monto": 99936.0,
+   "proveedores": [
+    "CLEANING SERVI´Z S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-103",
+   "nomenclatura": "AS-SM-37-2022-CR-1",
+   "objeto": "ADQUISICION DE MOBILIARIO ÍTEM PAQUETE",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 215777.5,
+   "convocado": "2022-08-12",
+   "postores": 29,
+   "monto": 168440.0,
+   "proveedores": [
+    "GRUPO SIMON CORPORACION S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-834194",
+   "nomenclatura": "AS-SM-20-2022-CR-2",
+   "objeto": "ADQUISICION DE SERVIDORES DE GRABACION PARA CAMARAS DE VIDEO VIGILANCIA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 67400.0,
+   "convocado": "2022-08-12",
+   "postores": 26,
+   "monto": 71941.96,
+   "proveedores": [
+    "EQUIPOS ANALITICOS Y TECNOLOGIA DE INFORMACION S.A.C. - EQUANTI S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-831765",
+   "nomenclatura": "AS-SM-28-2022-CR-2",
+   "objeto": "SERVICIO DE IMPLEMENTACIÓN, MONTAJE, INSTALACIÓN, PROCESO DE IMPRESION Y ACABADOS DEL DISEÑO DE ESCENOGRAFÍA EN EL ESTUDIO DEL CANAL DEL CONGRESO",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 119770.0,
+   "convocado": "2022-08-05",
+   "postores": 10,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-98",
+   "nomenclatura": "AS-SM-29-2022-CR-2",
+   "objeto": "SERVICIO DE MONTAJE, IMPLEMENTACIÓN Y ACABADOS DEL DISEÑO DE ACONDICIONAMIENTO EN LOS AMBIENTES DE LA RADIO DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 69185.0,
+   "convocado": "2022-07-25",
+   "postores": 23,
+   "monto": 69185.0,
+   "proveedores": [
+    "SEIJAS CAO MARIA INES"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-68",
+   "nomenclatura": "AS-SM-34-2022-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO PREVENTIVO DE TECHO DE AUDITORIO DEL EDIFICIO JOSE FAUSTINO SANCHEZ CARRION",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 140880.62,
+   "convocado": "2022-07-18",
+   "postores": 49,
+   "monto": 83500.0,
+   "proveedores": [
+    "CASTRO LOPEZ ROSARIO"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-100",
+   "nomenclatura": "AS-SM-33-2022-CR-1",
+   "objeto": "CONSULTORIA PARA LA ELABORACION DEL EXPEDIENTE TECNICO DEL PROYECTO: RENOVACION DEL SISTEMA DE SONIDOS DEL HEMICICLO DE SESIONES DEL CONGRESO DE LA REPUBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 65000.0,
+   "convocado": "2022-07-15",
+   "postores": 4,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-825557",
+   "nomenclatura": "AS-SM-21-2022-CR-2",
+   "objeto": "ADQUISICION DE 02 PANTALLAS LED/VIDEOWALL",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 491085.78,
+   "convocado": "2022-07-14",
+   "postores": 26,
+   "monto": 478352.8,
+   "proveedores": [
+    "CHECK POINT ADVERTAINMENT S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-44",
+   "nomenclatura": "AS-SM-30-2022-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO PREVENTIVO DE TABLEROS ELÉCTRICOS DE LOS DIFERENTES EDIFICIOS DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 81255.54,
+   "convocado": "2022-07-04",
+   "postores": 80,
+   "monto": 38900.0,
+   "proveedores": [
+    "VADIEL INGENIEROS S.A.C-VADIEL S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-48",
+   "nomenclatura": "AS-SM-32-2022-CR-1",
+   "objeto": "ADQUISICION DE ALFOMBRAS PARA EL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 347200.0,
+   "convocado": "2022-06-30",
+   "postores": 10,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-96",
+   "nomenclatura": "CP-SM-5-2022-CR-1",
+   "objeto": "SERVICIO DE SUSCRIPCIÓN DE SOFTWARE DE CORREO EN LA NUBE",
+   "metodo": "Concurso Público",
+   "categoria": "services",
+   "valor_referencial": 561800.0,
+   "convocado": "2022-06-30",
+   "postores": 19,
+   "monto": 510390.0,
+   "proveedores": [
+    "CONTROLES EMPRESARIALES PERU S.A.C. - COEM SAC"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-8",
+   "nomenclatura": "CP-SM-6-2022-CR-1",
+   "objeto": "SERVICIO DE PÓLIZA DE SEGUROS VIDA LEY Y SEGURO GRUPAL COMBINADO (VIDA LEY Y ACCIDENTES PERSONALES)",
+   "metodo": "Concurso Público",
+   "categoria": "services",
+   "valor_referencial": 3818417.92,
+   "convocado": "2022-06-30",
+   "postores": 7,
+   "monto": 2015140.77,
+   "proveedores": [
+    "PROTECTA S.A. COMPAÑIA DE SEGUROS",
+    "RIMAC SEGUROS Y REASEGUROS"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-58",
+   "nomenclatura": "AS-SM-31-2022-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO DE CENTRAL TELEFONICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 323780.0,
+   "convocado": "2022-06-30",
+   "postores": 6,
+   "monto": 247000.0,
+   "proveedores": [
+    "BELLTECH PERU SAC"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-26",
+   "nomenclatura": "AS-SM-14-2021-CR-3",
+   "objeto": "SERVICIO DE MANTENIMIENTO DE GABINETE DE DATOS Y COMUNICACIONES",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 187747.85,
+   "convocado": "2022-06-30",
+   "postores": 6,
+   "monto": 140000.0,
+   "proveedores": [
+    "ALLIN TELD S.A.C. - ALLTELD S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-95",
+   "nomenclatura": "CP-SM-4-2022-CR-1",
+   "objeto": "SERVICIO DE ACTUALIZACION DE LICENCIA DE SOFTWARE SPECTRUM PROTECT",
+   "metodo": "Concurso Público",
+   "categoria": "services",
+   "valor_referencial": 0.0,
+   "convocado": "2022-06-28",
+   "postores": null,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-63",
+   "nomenclatura": "AS-SM-26-2022-CR-1",
+   "objeto": "CONTRATACIÓN DEL SERVICIO DE SEGURO COMPLEMENTARIO DE TRABAJO DE RIESGO (SALUD Y PENSIÓN)-SCTR PARA PERSONAL DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 127048.4,
+   "convocado": "2022-06-27",
+   "postores": 10,
+   "monto": 118044.97,
+   "proveedores": [
+    "LA POSITIVA S.A. ENTIDAD PRESTADORA DE SALUD",
+    "PROTECTA S.A. COMPAÑIA DE SEGUROS"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-818651",
+   "nomenclatura": "AS-SM-28-2022-CR-1",
+   "objeto": "SERVICIO DE IMPLEMENTACIÓN, MONTAJE, INSTALACIÓN, PROCESO DE IMPRESION Y ACABADOS DEL DISEÑO DE ESCENOGRAFÍA EN EL ESTUDIO DEL CANAL DEL CONGRESO",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 119770.0,
+   "convocado": "2022-06-22",
+   "postores": 10,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-817629",
+   "nomenclatura": "AS-SM-18-2022-CR-2",
+   "objeto": "SERVICIO DE MANTENIMIENTO Y/O REPARACION DEL SISTEMA DE VOTACION ELECTRONICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 150000.0,
+   "convocado": "2022-06-20",
+   "postores": 1,
+   "monto": 150000.0,
+   "proveedores": [
+    "DISTRIBUIDORA PERFECTION S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-28",
+   "nomenclatura": "AS-SM-2-2022-CR-2",
+   "objeto": "ADQUISICIÓN DE RESPIRADORES KN95 PARA LOS TRABAJADORES DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 113982.24,
+   "convocado": "2022-06-17",
+   "postores": 31,
+   "monto": 64544.16,
+   "proveedores": [
+    "CHAPOLAB SAC"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-7",
+   "nomenclatura": "CP-SM-3-2022-CR-1",
+   "objeto": "SERVICIO DE SUSCRIPCIÓN DE SOFTWARE MICROSOFT OFFICE 365 O EQUIVALENTE.",
+   "metodo": "Concurso Público",
+   "categoria": "services",
+   "valor_referencial": 693757.5,
+   "convocado": "2022-06-02",
+   "postores": 16,
+   "monto": 621810.0,
+   "proveedores": [
+    "CONTROLES EMPRESARIALES PERU S.A.C. - COEM SAC"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-93",
+   "nomenclatura": "INTER-PROC-1-2022-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO DEL SOFTWARE INTEGRADO DE GESTION DE BIBLIOTECAS ALEPH",
+   "metodo": "Contratación Internacional",
+   "categoria": "services",
+   "valor_referencial": 56994.64,
+   "convocado": "2022-05-27",
+   "postores": 1,
+   "monto": 0,
+   "proveedores": [
+    "PROQUEST CHILE SPA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-87",
+   "nomenclatura": "CP-SM-2-2022-CR-1",
+   "objeto": "CONTRATACIÓN DEL SERVICIO DE 6858 TOMAS DE MUESTRAS Y DETECCIÓN MEDIANTE PRUEBA MOLECULAR A PERSONAS PARA DESCARTE DE LA ENFERMEDAD DE LA COVID-19 EN EL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Concurso Público",
+   "categoria": "services",
+   "valor_referencial": 691703.3,
+   "convocado": "2022-05-26",
+   "postores": 21,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-90",
+   "nomenclatura": "AS-SM-20-2022-CR-1",
+   "objeto": "ADQUISICION DE SERVIDORES DE GRABACION PARA CAMARAS DE VIDEO VIGILANCIA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 67400.0,
+   "convocado": "2022-05-25",
+   "postores": 33,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-808856",
+   "nomenclatura": "AS-SM-8-2022-CR-2",
+   "objeto": "ADQUISICIÓN E INSTALACIÓN DE EXTRACTORES E INYECTORES DE AIRE",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 55647.05,
+   "convocado": "2022-05-23",
+   "postores": 8,
+   "monto": 54000.0,
+   "proveedores": [
+    "URCIA DE LA CRUZ RICHARD"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-89",
+   "nomenclatura": "AS-SM-22-2022-CR-1",
+   "objeto": "ADQUISICIÓN, MONTAJE E INSTALACIÓN DE UN VIDEO WALL Y UNA PANTALLA DE 75\" PARA LA OFICINA DE COMUNICACIONES",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 87815.6,
+   "convocado": "2022-05-20",
+   "postores": 17,
+   "monto": 75602.13,
+   "proveedores": [
+    "CHECK POINT ADVERTAINMENT S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-91",
+   "nomenclatura": "AS-SM-24-2022-CR-1",
+   "objeto": "SERVICIO DE REPARACIÓN DE FISURAS EN MUROS DE ESCALERA DEL EDIFICIO JUAN SANTOS ATAHUALPA DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 101055.94,
+   "convocado": "2022-05-20",
+   "postores": 28,
+   "monto": 74413.66,
+   "proveedores": [
+    "CLEANING SERVI´Z S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-51",
+   "nomenclatura": "AS-SM-18-2022-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO Y/O REPARACION DEL SISTEMA DE VOTACION ELECTRONICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 150000.0,
+   "convocado": "2022-05-19",
+   "postores": 3,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-94",
+   "nomenclatura": "AS-SM-21-2022-CR-1",
+   "objeto": "ADQUISICION DE 02 PANTALLAS LED/VIDEOWALL",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 491085.78,
+   "convocado": "2022-05-18",
+   "postores": 14,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-88",
+   "nomenclatura": "AS-SM-19-2022-CR-1",
+   "objeto": "SERVICIO DE MONITOREO Y MEDICION DE IMPACTO DE MEDIOS MASIVOS DE COMUNICACION, MEDIOS VIRTUALES Y REDES SOCIALES",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 90000.0,
+   "convocado": "2022-05-13",
+   "postores": 3,
+   "monto": 48900.0,
+   "proveedores": [
+    "DP COMUNICACIONES S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-83",
+   "nomenclatura": "AS-SM-17-2022-CR-1",
+   "objeto": "ADQUISICIÓN E INSTALACIÓN DE COMPONENTES DEL SISTEMA DE CONFERENCIA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 350880.13,
+   "convocado": "2022-05-12",
+   "postores": 14,
+   "monto": 286000.0,
+   "proveedores": [
+    "CONSORCIO COMERCIAL FERRETERO E.I.R.L."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-804501",
+   "nomenclatura": "AS-SM-7-2022-CR-2",
+   "objeto": "SERVICIO DE ACTUALIZACIÓN DE LICENCIA SOFTWARE LEVER IT DISCOVERY",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 119300.0,
+   "convocado": "2022-05-11",
+   "postores": 3,
+   "monto": 119300.0,
+   "proveedores": [
+    "INTEGRACIONES J & I S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-84",
+   "nomenclatura": "AS-SM-16-2022-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO Y RECARGA DE EXTINTORES DE LOS LOCALES DEL CONGRESO DE LA REPUBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 67994.53,
+   "convocado": "2022-05-05",
+   "postores": 27,
+   "monto": 53752.54,
+   "proveedores": [
+    "REAL EQUIPOS S R L."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-45",
+   "nomenclatura": "AS-SM-15-2022-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO PREVENTIVO DE GRUPO ELECTROGENO",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 87992.5,
+   "convocado": "2022-04-29",
+   "postores": 35,
+   "monto": 71900.0,
+   "proveedores": [
+    "LUITI MAQUINARIAS S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-34",
+   "nomenclatura": "AS-SM-14-2022-CR-1",
+   "objeto": "SERVICIO DE PINTADO DE FACHADAS DE LOS EDIFICIOS DEL CONGRESO DE LA REPUBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 186785.82,
+   "convocado": "2022-04-22",
+   "postores": 82,
+   "monto": 160000.0,
+   "proveedores": [
+    "VICCRIS CLEAN SERVICE S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-39",
+   "nomenclatura": "AS-SM-13-2022-CR-1",
+   "objeto": "SERVICIOS - CONSTITUCIONES DE BOLSILLO Y CONSTITUCIONES PARA NIÑOS",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 216000.0,
+   "convocado": "2022-04-19",
+   "postores": 16,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-32",
+   "nomenclatura": "AS-SM-12-2022-CR-1",
+   "objeto": "SERVICIO DE LICENCIAMIENTO DEL SISTEMA INALAMBRICO",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 152315.61,
+   "convocado": "2022-04-18",
+   "postores": 9,
+   "monto": 104907.4,
+   "proveedores": [
+    "CONVEXUS COMUNICACIONES REDES Y SISTEMAS S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-77",
+   "nomenclatura": "AS-SM-3-2022-CR-1",
+   "objeto": "SERVICIO DE ACONDICIONAMIENTO DE AMBIENTE EN EL EDIFICO JOSE FAUSTINO SANCHEZ CARRION",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 121017.61,
+   "convocado": "2022-04-08",
+   "postores": 96,
+   "monto": 66540.2,
+   "proveedores": [
+    "CASTRO LOPEZ ROSARIO"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-42",
+   "nomenclatura": "AS-SM-10-2022-CR-1",
+   "objeto": "CONTRATACIÓN DEL SERVICIO DE ASESORIA Y CONSULTORIA LEY DE PROTECCION DE DATOS PERSONALES",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 0.0,
+   "convocado": "2022-04-07",
+   "postores": null,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-41",
+   "nomenclatura": "AS-SM-11-2022-CR-1",
+   "objeto": "CONTRATACIÓN DEL SERVICIO DE ASESORÍA Y/O CONSULTORÍA DE CERTIFICACIÓN SISTEMA DE GESTIÓN DE SEGURIDAD DE LA INFORMACIÓN",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 100000.0,
+   "convocado": "2022-04-07",
+   "postores": 7,
+   "monto": 75000.0,
+   "proveedores": [
+    "KUNAK CONSULTING S.A.C"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-82",
+   "nomenclatura": "AS-SM-4-2022-CR-1",
+   "objeto": "ADQUISICION DE TELEVISORES PARA EL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 138350.0,
+   "convocado": "2022-04-01",
+   "postores": 27,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-74",
+   "nomenclatura": "AS-SM-8-2022-CR-1",
+   "objeto": "ADQUISICIÓN E INSTALACIÓN DE EXTRACTORES E INYECTORES DE AIRE",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 55647.05,
+   "convocado": "2022-03-30",
+   "postores": 13,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-27",
+   "nomenclatura": "AS-SM-7-2022-CR-1",
+   "objeto": "SERVICIO DE ACTUALIZACIÓN DE LICENCIA SOFTWARE LEVER IT DISCOVERY",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 119300.0,
+   "convocado": "2022-03-30",
+   "postores": 3,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-75",
+   "nomenclatura": "AS-SM-9-2022-CR-1",
+   "objeto": "SERVICIO MANTENIMIENTO Y REPARACIÓN DE PLAZA JOSE FAUSTINO SANCHEZ CARRION Y ZONAS ALEDAÑAS",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 113484.48,
+   "convocado": "2022-03-28",
+   "postores": 36,
+   "monto": 65000.0,
+   "proveedores": [
+    "ROMA SOLUCIONES INTEGRALES E.I.R.L."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-81",
+   "nomenclatura": "AS-SM-6-2022-CR-1",
+   "objeto": "ADQUISICIÓN DE COMPONENTES DE SISTEMA DE AUDIO",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 50943.0,
+   "convocado": "2022-03-24",
+   "postores": 14,
+   "monto": 46000.0,
+   "proveedores": [
+    "INVERSIONES  MAURICIO  RIOS  E.I.R.L"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-79",
+   "nomenclatura": "AS-SM-5-2022-CR-1",
+   "objeto": "ADQUISICIÓN DE CINTAS DE DATOS LTO ULTRIUM 8",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 44058.0,
+   "convocado": "2022-03-22",
+   "postores": 14,
+   "monto": 39069.8,
+   "proveedores": [
+    "TRADING SERVICE M&A SRLTDA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-76",
+   "nomenclatura": "AS-SM-22-2021-CR-2",
+   "objeto": "SERVICIO MANTENIMIENTO CORRECTIVO DE PLANTA AZOTEA DE EDIFICIO LUIS ALBERTO SANCHEZ",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 143655.33,
+   "convocado": "2022-03-17",
+   "postores": 12,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-80",
+   "nomenclatura": "AS-SM-21-2021-CR-2",
+   "objeto": "MANTENIMIENTO DE SERVIDOR DE APLICACIONES",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 216000.0,
+   "convocado": "2022-03-17",
+   "postores": 11,
+   "monto": 218000.0,
+   "proveedores": [
+    "OPEN SOURCE ENTERPRISE S.A.C. -  OS ENTERPRISE S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-23",
+   "nomenclatura": "SIE-SIE-1-2022-CR-1",
+   "objeto": "ADQUISICIÓN DE COMBUSTIBLE GASOHOL 97 PLUS",
+   "metodo": "Subasta Inversa Electrónica",
+   "categoria": "goods",
+   "valor_referencial": 334780.0,
+   "convocado": "2022-03-09",
+   "postores": 6,
+   "monto": 378100.0,
+   "proveedores": [
+    "GRIFO J.H.P. E.I.R.LTDA."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-783939",
+   "nomenclatura": "AS-SM-15-2021-CR-2",
+   "objeto": "SERVICIO DE DESARROLLO DE LA INTRANET DEL CONGRESO",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 75862.17,
+   "convocado": "2022-03-07",
+   "postores": 6,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-31",
+   "nomenclatura": "AS-SM-1-2022-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO DE SWITCH CORE",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 129282.0,
+   "convocado": "2022-03-03",
+   "postores": 10,
+   "monto": 122350.65,
+   "proveedores": [
+    "ADEXUS PERU SA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-25",
+   "nomenclatura": "AS-SM-16-2021-CR-2",
+   "objeto": "ADQUISICIÓN DE SOFTWARE ANTIVIRUS PARA ESTACIÓN DE TRABAJO",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 313110.0,
+   "convocado": "2022-02-23",
+   "postores": 14,
+   "monto": 98500.0,
+   "proveedores": [
+    "IMPERIA SOLUCIONES TECNOLOGICAS S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-780490",
+   "nomenclatura": "DIRECTA-PROC-1-2022-CR-1",
+   "objeto": "SERVICIO DE ALQUILER DE INMUEBLE PARA USO COMO ESTACIONAMIENTO VEHICULAR EN LAS CERCANÍAS DEL PALACIO LEGISLATIVO",
+   "metodo": "Contratación Directa",
+   "categoria": "services",
+   "valor_referencial": 1620000.0,
+   "convocado": "2022-02-23",
+   "postores": 1,
+   "monto": 1620000.0,
+   "proveedores": [
+    "SEMINARIO DE SANTO TORIBIO"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2022-6-6",
+   "nomenclatura": "CP-SM-1-2022-CR-1",
+   "objeto": "SERVICIO DE DESARROLLO Y MANTENIMIENTO DE SOFTWARE",
+   "metodo": "Concurso Público",
+   "categoria": "services",
+   "valor_referencial": 760140.0,
+   "convocado": "2022-02-17",
+   "postores": 28,
+   "monto": 820080.0,
+   "proveedores": [
+    "SOAINT PERU S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-771892",
+   "nomenclatura": "DIRECTA-PROC-4-2021-CR-1",
+   "objeto": "SERVICIO DE TELEVISION POR CABLE",
+   "metodo": "Contratación Directa",
+   "categoria": "services",
+   "valor_referencial": 660424.32,
+   "convocado": "2021-12-30",
+   "postores": 1,
+   "monto": 660424.32,
+   "proveedores": [
+    "TELEFONICA DEL PERU SAA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2021-6-61",
+   "nomenclatura": "AS-SM-26-2021-CR-1",
+   "objeto": "SUMINISTRO DE DIARIOS Y REVISTAS VARIOS",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 230406.34,
+   "convocado": "2021-12-30",
+   "postores": 4,
+   "monto": 222726.04,
+   "proveedores": [
+    "RIVERA REGALADO DANIEL ARMANDO"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2021-6-63",
+   "nomenclatura": "AS-SM-27-2021-CR-1",
+   "objeto": "ADQUISICION DE SOLUCION DE BALANCEADORES DE INTERNET",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 164669.31,
+   "convocado": "2021-12-30",
+   "postores": 7,
+   "monto": 163065.0,
+   "proveedores": [
+    "BAFING S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2021-6-59",
+   "nomenclatura": "LP-SM-2-2021-CR-1",
+   "objeto": "ADQUISICIÓN DE MATERIALES FERRETEROS POR TALLERES PARA DAR CUMPLIMIENTO A LAS ACTIVIDADES PROGRAMADAS DE MANTENIMIENTO DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Licitación Pública",
+   "categoria": "goods",
+   "valor_referencial": 0.0,
+   "convocado": "2021-12-30",
+   "postores": null,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2021-6-62",
+   "nomenclatura": "CP-SM-3-2021-CR-1",
+   "objeto": "SERVICIO DE POLIZAS DE SEGUROS PATRIMONIALES",
+   "metodo": "Concurso Público",
+   "categoria": "services",
+   "valor_referencial": 1016890.77,
+   "convocado": "2021-12-30",
+   "postores": 4,
+   "monto": 0,
+   "proveedores": [
+    "MAPFRE PERU COMPAÑIA DE SEGUROS Y REASEGUROS S.A."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2021-6-64",
+   "nomenclatura": "LP-SM-3-2021-CR-1",
+   "objeto": "ADQUISICIÓN DE PLATAFORMA DE SERVIDORES BLADE PARA VIRTUALIZACIÓN DE SERVIDORES",
+   "metodo": "Licitación Pública",
+   "categoria": "goods",
+   "valor_referencial": 1536561.9,
+   "convocado": "2021-12-30",
+   "postores": 8,
+   "monto": 1189690.0,
+   "proveedores": [
+    "Noovus Technology Business Unit S.A.C. y Adistec Perú S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2021-6-23",
+   "nomenclatura": "AS-SM-25-2021-CR-1",
+   "objeto": "SUMINISTRO DE BIDONES DE AGUA PURIFICADA SIN GAS",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 332442.5,
+   "convocado": "2021-12-29",
+   "postores": 4,
+   "monto": 304750.0,
+   "proveedores": [
+    "EMPRESA 1000 JOBS SOCIEDAD ANONIMA CERRADA - EMPRESA 1000 JOBS S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-771038",
+   "nomenclatura": "AS-SM-22-2021-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO CORRECTIVO DE PLANTA DE AZOTEA DEL EDIFICIO LUIS ALBERTO SANCHEZ",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 0.0,
+   "convocado": "2021-12-29",
+   "postores": null,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2021-6-53",
+   "nomenclatura": "LP-SM-1-2021-CR-1",
+   "objeto": "ADQUISICION DE PANTALLAS LED/VIDEO WALL",
+   "metodo": "Licitación Pública",
+   "categoria": "goods",
+   "valor_referencial": 436684.86,
+   "convocado": "2021-12-29",
+   "postores": 21,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2021-6-34",
+   "nomenclatura": "AS-SM-24-2021-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO PREVENTIVO DE SISTEMA DE EXTRACTORES DE AIRE DE LOS EDIFICIOS DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 61710.68,
+   "convocado": "2021-12-17",
+   "postores": 31,
+   "monto": 41870.0,
+   "proveedores": [
+    "URCIA DE LA CRUZ RICHARD"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-773506",
+   "nomenclatura": "AS-SM-18-2021-CR-1",
+   "objeto": "ADQUISICION DE MADERA Y DERIVADOS PARA EL TALLER DE CARPINTERIA DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 71390.0,
+   "convocado": "2021-12-16",
+   "postores": 12,
+   "monto": 99350.0,
+   "proveedores": [
+    "ECO SELVA FORESTAL E.I.R.L."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2021-6-31",
+   "nomenclatura": "AS-SM-23-2021-CR-1",
+   "objeto": "MANTENIMIENTO PREVENTIVO DE EQUIPOS DE AIRE ACONDICIONADO-TIPO CHILLER",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 197226.0,
+   "convocado": "2021-12-14",
+   "postores": 27,
+   "monto": 150000.0,
+   "proveedores": [
+    "REFRIELECTRIC S.A.C"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2021-6-28",
+   "nomenclatura": "AS-SM-6-2021-CR-2",
+   "objeto": "SERVICIO DE MANTENIMIENTO DE LICENCIA VMWARE",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 386022.61,
+   "convocado": "2021-12-13",
+   "postores": 6,
+   "monto": 364118.69,
+   "proveedores": [
+    "ADEXUS PERU SA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2021-6-32",
+   "nomenclatura": "AS-SM-21-2021-CR-1",
+   "objeto": "MANTENIMIENTO DE SERVIDOR DE APLICACIONES",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 216200.0,
+   "convocado": "2021-12-10",
+   "postores": 7,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-758724",
+   "nomenclatura": "DIRECTA-PROC-3-2021-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO PREVENTIVO DE ASCENSORES DE LOS EDIFICIOS DEL CONGRESO DE LA REPÚBLICA",
+   "metodo": "Contratación Directa",
+   "categoria": "services",
+   "valor_referencial": 396887.76,
+   "convocado": "2021-11-22",
+   "postores": 2,
+   "monto": 396887.76,
+   "proveedores": [
+    "ASCENSORES S A",
+    "ASCENSORES SCHINDLER DEL PERU S A"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-757453",
+   "nomenclatura": "AS-SM-16-2021-CR-1",
+   "objeto": "ADQUISICIÓN DE SOFTWARE DE ANTIVIRUS PARA ESTACION DE TRABAJO",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 105020.0,
+   "convocado": "2021-11-17",
+   "postores": 13,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-756901",
+   "nomenclatura": "DIRECTA-PROC-2-2021-CR-1",
+   "objeto": "MANTENIMIENTO CORRECTIVO DE ASCENSORES MARCA SCHINDLER",
+   "metodo": "Contratación Directa",
+   "categoria": "services",
+   "valor_referencial": 144473.03,
+   "convocado": "2021-11-16",
+   "postores": 1,
+   "monto": 144473.03,
+   "proveedores": [
+    "ASCENSORES SCHINDLER DEL PERU S A"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2021-6-50",
+   "nomenclatura": "AS-SM-17-2021-CR-1",
+   "objeto": "ADQUISICION DE BATERIAS PARA EQUIPOS UPS PARA EL CONGRESO DE LA REPUBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 159064.0,
+   "convocado": "2021-11-08",
+   "postores": 23,
+   "monto": 193997.0,
+   "proveedores": [
+    "INTELLIGENIO SOCIEDAD ANONIMA CERRADA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2021-6-27",
+   "nomenclatura": "AS-SM-13-2021-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO Y/O REPARACIÓN DE SWITCH DE DISTRIBUCION",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 146235.82,
+   "convocado": "2021-11-05",
+   "postores": 11,
+   "monto": 155000.0,
+   "proveedores": [
+    "INET PERU S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2021-6-18",
+   "nomenclatura": "AS-SM-14-2021-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO DE GABINETE DE DATOS Y COMUNICACIONES",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 64256.0,
+   "convocado": "2021-10-29",
+   "postores": 18,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2021-6-48",
+   "nomenclatura": "AS-SM-15-2021-CR-1",
+   "objeto": "SERVICIO DE DESARROLLO DE LA INTRANET DEL CONGRESO DE LA REPUBLICA",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 43123.81,
+   "convocado": "2021-10-27",
+   "postores": 6,
+   "monto": 0,
+   "proveedores": []
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2021-6-25",
+   "nomenclatura": "AS-SM-10-2021-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO Y/O REPARACION DE SWITCH DE BORDE",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 303177.36,
+   "convocado": "2021-09-23",
+   "postores": 18,
+   "monto": 387040.0,
+   "proveedores": [
+    "CLOUD INFRASTRUCTURE AND TELECOM PERU SOCIEDAD ANONIMA CERRADA - CLOUD IT PERU S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2021-6-45",
+   "nomenclatura": "AS-SM-12-2021-CR-1",
+   "objeto": "ADQUISICION DE EQUIPO DE LIBRERIA DE RESPALDO",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "goods",
+   "valor_referencial": 75000.0,
+   "convocado": "2021-08-12",
+   "postores": 8,
+   "monto": 65290.0,
+   "proveedores": [
+    "SYMMETRY CORPORATION SOCIEDAD ANONIMA CERRADA"
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2021-6-44",
+   "nomenclatura": "AS-SM-11-2021-CR-1",
+   "objeto": "SERVICIO DE ACTUALIZACIÓN DE LICENCIAS DE SOFTWARE BACKUP DE USUARIOS",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 67000.0,
+   "convocado": "2021-08-05",
+   "postores": 14,
+   "monto": 55970.0,
+   "proveedores": [
+    "MICRO SOLUTIONS TI S.A."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2021-6-3",
+   "nomenclatura": "CP-SM-2-2021-CR-1",
+   "objeto": "SERVICIO DE TELEFONÍA MÓVIL E INTERNET (DATOS) PARA EL SERVICIO PARLAMENTARIO",
+   "metodo": "Concurso Público",
+   "categoria": "services",
+   "valor_referencial": 1952396.8,
+   "convocado": "2021-07-20",
+   "postores": 5,
+   "monto": 1547391.0,
+   "proveedores": [
+    "ENTEL PERU S.A."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2021-6-40",
+   "nomenclatura": "AS-SM-9-2021-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO CORRECTIVO DEL SISTEMA DE AIRE ACONDICIONADO TIPO CHILLER DEL EDIFICIO VICTOR RAUL HAYA DE LA TORRE",
+   "metodo": "Adjudicación Simplificada",
+   "categoria": "services",
+   "valor_referencial": 112300.0,
+   "convocado": "2021-07-06",
+   "postores": 27,
+   "monto": 87600.0,
+   "proveedores": [
+    "VADIEL INGENIEROS S.A.C-VADIEL S.A.C."
+   ]
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-724053",
+   "nomenclatura": "DIRECTA-PROC-1-2021-CR-1",
+   "objeto": "SERVICIO DE MANTENIMIENTO CORRECTIVO DE DIEZ (10) ASCENSORES MARCA OTIS",
+   "metodo": "Contratación Directa",
+   "categoria": "services",
+   "valor_referencial": 391520.0,
+   "convocado": "2021-07-06",
+   "postores": 1,
+   "monto": 391520.0,
+   "proveedores": [
+    "ASCENSORES S A"
+   ]
+  }
+ ]
+}

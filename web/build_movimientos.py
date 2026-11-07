@@ -103,9 +103,22 @@ def por_despacho(d: dict, congresistas: list[dict]) -> dict[str, tuple[dict, lis
     return salida
 
 
+PARTICULAS = {"DE", "LA", "DEL", "LOS", "LAS", "Y", "VDA", "VIUDA", "SAN"}
+APELLIDO_RARO = 6  # a lo más 6 personas en toda la planilla llevan ese apellido
+
+
+def apellidos(nombre: str) -> list[str]:
+    return [t for t in tokens(nombre.partition(",")[0]) if t not in PARTICULAS and len(t) > 2]
+
+
+def frecuencia_apellidos(d: dict) -> Counter:
+    return Counter(a for r in activos(d).values() for a in set(apellidos(r[NOMBRE])))
+
+
 def despachos(snaps: dict, congresistas: list[dict], previo: dict | None) -> list[dict]:
     """Personal por despacho congresal en el último mes + su costo mes a mes."""
     meses = list(snaps)
+    freq = frecuencia_apellidos(snaps[meses[-1]])
     serie = defaultdict(list)  # costo mensual del despacho en cada mes publicado
     for (a, mes) in meses:
         for nombre, (_, rs) in por_despacho(snaps[(a, mes)], congresistas).items():
@@ -115,13 +128,20 @@ def despachos(snaps: dict, congresistas: list[dict], previo: dict | None) -> lis
 
     salida = []
     for nombre, (m, rs) in por_despacho(snaps[meses[-1]], congresistas).items():
+        propios = set(apellidos(m["nombre"]))
+
+        def coincide(r):
+            """Apellido compartido con el congresista (señal a verificar, no prueba de parentesco)."""
+            comun = sorted(propios & set(apellidos(r[NOMBRE])))
+            return [{"apellido": a, "raro": freq[a] <= APELLIDO_RARO} for a in comun]
         salida.append({
             "nombre": m["nombre"], "camara": m["camara"], "sigla": m.get("sigla", "—"),
             "personal": len(rs), "masa": round(sum(r[TOTAL] for r in rs), 2),
             # ya estaba en la planilla el mes de comparación (p. ej. venía de otro despacho)
             "continuan": sum(1 for r in rs if r[NOMBRE] in antes),
             "equipo": [{"nombre": r[NOMBRE], "cargo": r[CARGO], "total": r[TOTAL],
-                        "antes": antes[r[NOMBRE]][DEPENDENCIA] if r[NOMBRE] in antes else None}
+                        "antes": antes[r[NOMBRE]][DEPENDENCIA] if r[NOMBRE] in antes else None,
+                        **({"apellido": c} if (c := coincide(r)) else {})}
                        for r in sorted(rs, key=lambda r: -r[TOTAL])],
             "serie": serie[nombre],
         })

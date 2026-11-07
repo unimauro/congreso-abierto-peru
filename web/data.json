@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generado": "2026-11-07",
+  "generado": "2026-11-06",
   "periodos": [
    2021
   ],
@@ -512,6 +512,183 @@
   {
    "nombre": "Comisión Especial de Seguimiento y Fiscalización Parlamentaria de las Inversiones y Recursos Públicos Destinados a la Prevención y Atención de los Efectos del Fenómeno de El Niño de la Cámara de Diputados",
    "proyectos": 0
+  }
+ ],
+ "bancadas": [
+  {
+   "bancada": "Perú Libre",
+   "proyectos": 2869,
+   "leyes": 697,
+   "pct_ley": 24.3,
+   "pct_simbolico": 29.9
+  },
+  {
+   "bancada": "Acción Popular",
+   "proyectos": 1417,
+   "leyes": 396,
+   "pct_ley": 27.9,
+   "pct_simbolico": 21.3
+  },
+  {
+   "bancada": "Alianza Para el Progreso",
+   "proyectos": 1276,
+   "leyes": 378,
+   "pct_ley": 29.6,
+   "pct_simbolico": 19.5
+  },
+  {
+   "bancada": "Podemos Perú",
+   "proyectos": 1120,
+   "leyes": 213,
+   "pct_ley": 19.0,
+   "pct_simbolico": 16.0
+  },
+  {
+   "bancada": "Bloque Magisterial de Concertación Nacional",
+   "proyectos": 1083,
+   "leyes": 255,
+   "pct_ley": 23.5,
+   "pct_simbolico": 18.4
+  },
+  {
+   "bancada": "Fuerza Popular",
+   "proyectos": 956,
+   "leyes": 333,
+   "pct_ley": 34.8,
+   "pct_simbolico": 24.2
+  },
+  {
+   "bancada": "No Agrupados",
+   "proyectos": 725,
+   "leyes": 166,
+   "pct_ley": 22.9,
+   "pct_simbolico": 17.8
+  },
+  {
+   "bancada": "Renovación Popular",
+   "proyectos": 677,
+   "leyes": 183,
+   "pct_ley": 27.0,
+   "pct_simbolico": 22.2
+  },
+  {
+   "bancada": "Somos Perú",
+   "proyectos": 594,
+   "leyes": 123,
+   "pct_ley": 20.7,
+   "pct_simbolico": 13.6
+  },
+  {
+   "bancada": "Avanza País - Partido de Integración Social",
+   "proyectos": 533,
+   "leyes": 182,
+   "pct_ley": 34.1,
+   "pct_simbolico": 7.9
+  },
+  {
+   "bancada": "Bloque Democrático Popular",
+   "proyectos": 436,
+   "leyes": 51,
+   "pct_ley": 11.7,
+   "pct_simbolico": 14.9
+  },
+  {
+   "bancada": "Cambio Democrático - Juntos por el Perú",
+   "proyectos": 337,
+   "leyes": 80,
+   "pct_ley": 23.7,
+   "pct_simbolico": 13.1
+  },
+  {
+   "bancada": "Bancada Socialista",
+   "proyectos": 328,
+   "leyes": 29,
+   "pct_ley": 8.8,
+   "pct_simbolico": 35.4
+  },
+  {
+   "bancada": "Juntos por el Perú - Voces del Pueblo - Bloque Magisterial",
+   "proyectos": 303,
+   "leyes": 10,
+   "pct_ley": 3.3,
+   "pct_simbolico": 21.5
+  },
+  {
+   "bancada": "Perú Bicentenario",
+   "proyectos": 252,
+   "leyes": 100,
+   "pct_ley": 39.7,
+   "pct_simbolico": 24.6
+  },
+  {
+   "bancada": "Unidad y Dialogo Parlamentario",
+   "proyectos": 185,
+   "leyes": 34,
+   "pct_ley": 18.4,
+   "pct_simbolico": 4.9
+  },
+  {
+   "bancada": "Perú Democrático",
+   "proyectos": 148,
+   "leyes": 38,
+   "pct_ley": 25.7,
+   "pct_simbolico": 11.5
+  },
+  {
+   "bancada": "Juntos por el Perú - Voces del Pueblo",
+   "proyectos": 132,
+   "leyes": 25,
+   "pct_ley": 18.9,
+   "pct_simbolico": 26.5
+  },
+  {
+   "bancada": "Juntos por el Perú",
+   "proyectos": 90,
+   "leyes": 36,
+   "pct_ley": 40.0,
+   "pct_simbolico": 16.7
+  },
+  {
+   "bancada": "Honor y Democracia",
+   "proyectos": 70,
+   "leyes": 10,
+   "pct_ley": 14.3,
+   "pct_simbolico": 14.3
+  },
+  {
+   "bancada": "Lealtad Nacional",
+   "proyectos": 50,
+   "leyes": 0,
+   "pct_ley": 0.0,
+   "pct_simbolico": 58.0
+  },
+  {
+   "bancada": "Multipartidario",
+   "proyectos": 41,
+   "leyes": 28,
+   "pct_ley": 68.3,
+   "pct_simbolico": 4.9
+  },
+  {
+   "bancada": "Integridad y Desarrollo",
+   "proyectos": 38,
+   "leyes": 9,
+   "pct_ley": 23.7,
+   "pct_simbolico": 23.7
+  },
+  {
+   "bancada": "Somos Perú - Partido Morado",
+   "proyectos": 20,
+   "leyes": 13,
+   "pct_ley": 65.0,
+   "pct_simbolico": 10.0
+  },
+  {
+   "bancada": "Cambio Democrático",
+   "proyectos": 1,
+   "leyes": 0,
+   "pct_ley": 0.0,
+   "pct_simbolico": 0.0
   }
  ],
  "materias": [

@@ -63,14 +63,14 @@ surjan, y commitear. Prioridad de arriba hacia abajo.
 
 ## 🔜 Próximo (alto valor de fiscalización)
 
-- [ ] **Contratos / proveedores del Congreso** (OCDS/SEACE) — quién le vende al
+- [x] **Contratos / proveedores del Congreso** (OCDS/SEACE) — quién le vende al
   Congreso, montos, concentración por proveedor. Fuente: bulk mensual OCDS
   (`contratacionesabiertas.oece.gob.pe/api/v1/file/seace_v3/csv/AAAA/MM/`).
   Cruzar comprador = Congreso. Sección "Contratos" en el sitio.
-- [ ] **Contrataciones polémicas en despachos** — con los equipos ya atribuidos,
+- [~] **Contrataciones polémicas en despachos** (hecho: apellido en común con el congresista y procedencia de cada asesor; falta RNSSC) — con los equipos ya atribuidos,
   cruzar apellidos asesor↔congresista (posible nepotismo), sanciones RNSSC y
   rotación entre despachos.
-- [ ] **Ranking por bancada 2021–2026** con `grupoParlamentarioId` (ahora que
+- [x] **Ranking por bancada 2021–2026** con `grupoParlamentarioId` (ahora que
   sabemos el nombre real del filtro) — hoy solo está para el periodo nuevo.
 - [ ] **Viajes al extranjero y gastos operativos por congresista** — cada cámara
   tiene `wp-json/wp/v2/viaje` (hoy solo un índice vacío) y `actividad_diaria`
@@ -82,20 +82,20 @@ surjan, y commitear. Prioridad de arriba hacia abajo.
 
 ## 🧭 Fiscalización avanzada
 
-- [ ] **Votaciones nominales** — parsing de actas (PDF/HTML) → voto por congresista;
+- [x] **Votaciones nominales** — parsing de actas (PDF/HTML) → voto por congresista;
   votaciones más polémicas; afinidad entre bancadas.
-- [ ] **Asistencias y licencias** por sesión.
+- [x] **Asistencias y licencias** por sesión.
 - [ ] **Tramitación de proyectos** (timeline por etapas) + descarga de PDF.
 - [ ] **Cruce integridad**: personal/proveedores vs **sanciones RNSSC**,
   **DJ de bienes y rentas** e **inhabilitaciones**.
 - [ ] **Serie histórica de planilla** (varios meses/años del PTE) → detección de
   incrementos atípicos y crecimiento del gasto en personal.
-- [ ] **Costo por ley aprobada** (presupuesto ÷ leyes) y productividad por sol.
+- [x] **Costo por ley aprobada** (presupuesto ÷ leyes) y productividad por sol.
 
 ## 🏗️ Plataforma / calidad
 
-- [ ] **Buscador de personal** (nombre/cargo/dependencia) en el front (shards por letra).
-- [ ] Snapshot de personal versionado + `actualizar_personal.sh` (refresco laptop).
+- [x] **Buscador de personal** (nombre/cargo/dependencia) en el front (shards por letra).
+- [x] Snapshot de personal versionado + `actualizar_personal.sh` (refresco laptop).
 - [x] **Refresco local automático** (2026-09-01): `actualizar_todo.sh` (MEF +
   sync context.json + PTE, commit/push solo si hay datos nuevos) programado
   con launchd a diario 9:30 am — ver `infra/launchd/README.md`.
