@@ -710,6 +710,7 @@
      "fecha": "2026-08-13",
      "documentos": {
       "temas": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/08/03_ctt_13.ago_.2026.CD_.pdf",
+      "agenda": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/08/AGENDA-PLENO-DIPUTADOS-13-08-2025.pdf",
       "asistencia": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/09/ASISTENCIA-VOTACION-PLENO-DIPUTADOS-20260813_vb.pdf"
      }
     },
@@ -717,6 +718,7 @@
      "fecha": "2026-08-05",
      "documentos": {
       "temas": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/08/02_ctt_05.ago_.2026.CD_.pdf",
+      "agenda": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/08/AGENDA-PLENO-DIPUTADOS-05-08-2025.pdf",
       "asistencia": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/08/ASISTENCIA-VOTACION-PLENO-DIPUTADOS-20260805_vb.pdf"
      }
     },
@@ -731,18 +733,6 @@
      "fecha": "2026-07-24",
      "documentos": {
       "asistencia": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/08/Asistencia_Diputado_sesion_24-7-2026_Final.pdf"
-     }
-    },
-    {
-     "fecha": "2025-08-13",
-     "documentos": {
-      "agenda": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/08/AGENDA-PLENO-DIPUTADOS-13-08-2025.pdf"
-     }
-    },
-    {
-     "fecha": "2025-08-05",
-     "documentos": {
-      "agenda": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/08/AGENDA-PLENO-DIPUTADOS-05-08-2025.pdf"
      }
     }
    ]
@@ -2129,6 +2119,7 @@
     {
      "fecha": "2026-08-05",
      "documentos": {
+      "agenda": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/AGENDA-PLENO-SENADORES-05-08-2025.pdf",
       "acta": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/Acta_del_Pleno_Senado_05.ago_2026.pdf",
       "temas": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/Temas-tratados-05-08-2026Senado.pdf"
      }
@@ -2154,12 +2145,6 @@
      "documentos": {
       "temas": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/Temas-tratados-24-07-2026-Senado.pdf",
       "asistencia": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/Votaciones_y_Asistencias_Senado_24-7-2026.pdf"
-     }
-    },
-    {
-     "fecha": "2025-08-05",
-     "documentos": {
-      "agenda": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/AGENDA-PLENO-SENADORES-05-08-2025.pdf"
      }
     }
    ]
@@ -5032,7 +5017,7 @@
   }
  ],
  "meta": {
-  "generado": "2026-11-05",
+  "generado": "2026-11-06",
   "fuente": "Reportes de asistencia y votación del Pleno (PDF) · diputados/senado.congreso.gob.pe",
   "nota": "Pases de lista y votaciones validados contra el total oficial al pie de cada bloque; los escaneos se leen con OCR. Licencias (viaje, enfermedad, oficial…) no cuentan como ausencia."
  }

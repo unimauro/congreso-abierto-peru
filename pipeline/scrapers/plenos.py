@@ -98,6 +98,16 @@ def tipo_doc(url: str) -> str | None:
 
 
 def fecha_de_nombre(url: str) -> str | None:
+    f = _fecha_de_nombre(url)
+    # El Congreso a veces escribe mal el año en el nombre ("...-05-08-2025.pdf" subido en
+    # uploads/2026/08): si el año es anterior al de la carpeta de subida, manda la carpeta.
+    sub = re.search(r"/uploads/(20\d\d)/(\d\d)/", url)
+    if f and sub and f[:4] < sub[1] and f[5:7] <= sub[2]:
+        f = sub[1] + f[4:]
+    return f
+
+
+def _fecha_de_nombre(url: str) -> str | None:
     f = os.path.basename(url)
     m = re.search(r"(\d{1,2})[-_.](\d{1,2})[-_.](20\d\d)", f)
     if m:
