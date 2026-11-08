@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generado": "2026-11-07",
+  "generado": "2026-11-08",
   "fechas": {
    "sancionados.csv": "2026-11-07",
    "sancionados_multa.csv": "2024-05-18",
@@ -14,7 +14,7 @@
   "nota": "Las coincidencias de personas son por nombre completo exacto (sin DNI en la planilla): pueden ser homónimos y deben verificarse. Una sanción pasada no impide contratar una vez cumplida."
  },
  "totales": {
-  "proveedores_revisados": 179,
+  "proveedores_revisados": 181,
   "con_sancion": 31,
   "vigentes": 9,
   "contratados_durante_sancion": 0,

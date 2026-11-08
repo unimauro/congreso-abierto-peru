@@ -1,17 +1,17 @@
 {
  "meta": {
-  "generado": "2026-11-07",
+  "generado": "2026-11-08",
   "fuente": "Contrataciones Abiertas OECE (OCDS, SEACE v3) · comprador Congreso de la República (PE-CONSUCODE-6)",
   "desde": "2021-07",
   "nota": "Procesos registrados en SEACE por mes de convocatoria. Monto = contratos firmados o, si aún no hay, lo adjudicado. No incluye compras menores a 8 UIT ni las de catálogo electrónico de Perú Compras, que no pasan por este registro; la mayor parte del presupuesto del Congreso es planilla."
  },
  "totales": {
-  "procesos": 347,
-  "adjudicados": 246,
-  "monto": 101007247.74,
-  "proveedores": 179,
+  "procesos": 348,
+  "adjudicados": 248,
+  "monto": 101251747.74,
+  "proveedores": 181,
   "postor_unico": 11,
-  "top10_pct": 43.7
+  "top10_pct": 43.6
  },
  "por_anio": {
   "2021": {
@@ -40,8 +40,8 @@
    "postor_unico": 1
   },
   "2026": {
-   "procesos": 72,
-   "monto": 16386176.79,
+   "procesos": 73,
+   "monto": 16630676.79,
    "postor_unico": 2
   }
  },
@@ -50,7 +50,7 @@
   "Concurso Público": 19954986.44,
   "Licitación Pública": 17925613.1,
   "Contratación Directa": 12173196.71,
-  "Concurso Público Abreviado": 8769712.34,
+  "Concurso Público Abreviado": 9014212.34,
   "Concurso Público de Servicios": 7925670.32,
   "Licitación Pública Abreviada": 2586249.81,
   "Subasta Inversa Electrónica": 1627560.0,
@@ -59,7 +59,7 @@
   "Contratación Internacional": 0
  },
  "por_categoria": {
-  "services": 61306093.09,
+  "services": 61550593.09,
   "goods": 36641499.94
  },
  "proveedores": [
@@ -68,49 +68,49 @@
    "nombre": "ASCENSORES S A",
    "monto": 7781937.22,
    "procesos": 6,
-   "pct": 7.7
+   "pct": 7.69
   },
   {
    "ruc": "20112351150",
    "nombre": "VIDEO BROADCAST S A",
    "monto": 6422904.0,
    "procesos": 3,
-   "pct": 6.36
+   "pct": 6.34
   },
   {
    "ruc": "20553404631",
    "nombre": "DAILY TECHNOLOGY S.A.C.",
    "monto": 6162251.22,
    "procesos": 8,
-   "pct": 6.1
+   "pct": 6.09
   },
   {
    "ruc": "20431217822",
    "nombre": "TELEFÓNICA SERVICIOS AUDIOVISUALES DEL PERÚ SAC",
    "monto": 5240000.0,
    "procesos": 1,
-   "pct": 5.19
+   "pct": 5.18
   },
   {
    "ruc": "20261898706",
    "nombre": "ADEXUS PERU SA",
    "monto": 4625935.34,
    "procesos": 6,
-   "pct": 4.58
+   "pct": 4.57
   },
   {
    "ruc": "20106897914",
    "nombre": "ENTEL PERU S.A.",
    "monto": 3678743.52,
    "procesos": 4,
-   "pct": 3.64
+   "pct": 3.63
   },
   {
    "ruc": "20100041953",
    "nombre": "RIMAC SEGUROS Y REASEGUROS",
    "monto": 2949918.02,
    "procesos": 4,
-   "pct": 2.92
+   "pct": 2.91
   },
   {
    "ruc": "20552075341",
@@ -131,7 +131,7 @@
    "nombre": "JRM SOLUTIONS PERU E.I.R.L.",
    "monto": 2200800.0,
    "procesos": 1,
-   "pct": 2.18
+   "pct": 2.17
   },
   {
    "ruc": "20418896915",
@@ -145,21 +145,21 @@
    "nombre": "CUARZO TRAVEL S.R.LTDA",
    "monto": 1846002.88,
    "procesos": 3,
-   "pct": 1.83
+   "pct": 1.82
   },
   {
    "ruc": "20467534026",
    "nombre": "AMERICA MOVIL PERU S.A.C.",
    "monto": 1814013.7,
    "procesos": 6,
-   "pct": 1.8
+   "pct": 1.79
   },
   {
    "ruc": "20555241811",
    "nombre": "INET PERU S.A.C.",
    "monto": 1802980.0,
    "procesos": 4,
-   "pct": 1.79
+   "pct": 1.78
   },
   {
    "ruc": "20147869887",
@@ -201,7 +201,7 @@
    "nombre": "IT STORAGE E.I.R.L.",
    "monto": 1402000.0,
    "procesos": 2,
-   "pct": 1.39
+   "pct": 1.38
   },
   {
    "ruc": "20517207331",
@@ -215,7 +215,7 @@
    "nombre": "Noovus Technology Business Unit S.A.C. y Adistec Perú S.A.C.",
    "monto": 1189690.0,
    "procesos": 1,
-   "pct": 1.18
+   "pct": 1.17
   },
   {
    "ruc": "1765129",
@@ -243,7 +243,7 @@
    "nombre": "CHUBB PERU S.A. COMPAÑIA DE SEGUROS Y REASEGUROS",
    "monto": 1066127.34,
    "procesos": 1,
-   "pct": 1.06
+   "pct": 1.05
   },
   {
    "ruc": "20522859410",
@@ -327,14 +327,14 @@
    "nombre": "XENTIC S.A.C.",
    "monto": 540545.25,
    "procesos": 2,
-   "pct": 0.54
+   "pct": 0.53
   },
   {
    "ruc": "20475805101",
    "nombre": "INNOVARE E-BUSINESS S.A.C.",
    "monto": 500000.0,
    "procesos": 3,
-   "pct": 0.5
+   "pct": 0.49
   },
   {
    "ruc": "20605222561",
@@ -348,14 +348,14 @@
    "nombre": "LOPEZ PEÑALOZA EDSON MAX",
    "monto": 480000.0,
    "procesos": 1,
-   "pct": 0.48
+   "pct": 0.47
   },
   {
    "ruc": "20544172761",
    "nombre": "SCD  INDUSTRIES  E.I.R.L",
    "monto": 470000.0,
    "procesos": 1,
-   "pct": 0.47
+   "pct": 0.46
   },
   {
    "ruc": "20504747981",
@@ -369,7 +369,7 @@
    "nombre": "DISTRIBUIDORA PERFECTION S.A.C.",
    "monto": 450000.0,
    "procesos": 3,
-   "pct": 0.45
+   "pct": 0.44
   },
   {
    "ruc": "1803480",
@@ -432,7 +432,7 @@
    "nombre": "INTEGRACIONES J & I S.A.C.",
    "monto": 369100.0,
    "procesos": 3,
-   "pct": 0.37
+   "pct": 0.36
   },
   {
    "ruc": "20557084364",
@@ -495,14 +495,14 @@
    "nombre": "INSPIRA IT CONSULTING S.A.C.",
    "monto": 308758.0,
    "procesos": 2,
-   "pct": 0.31
+   "pct": 0.3
   },
   {
    "ruc": "20553618518",
    "nombre": "MEDICAL CARE SERVICES S.A.C.",
    "monto": 308610.0,
    "procesos": 1,
-   "pct": 0.31
+   "pct": 0.3
   },
   {
    "ruc": "20542590344",
@@ -874,6 +874,7 @@
   "10036687989": "MIRANDA ZAPATA MARY",
   "20601515106": "TOVAL SYSTEMS S.A.C.",
   "20101320295": "LABORATORIO DIESEL SENATINOS S A",
+  "20612530085": "IKORP DEVS INGENIEROS S.A.C.",
   "20340787260": "SERVICE J.C.U. SRL",
   "1736350": "CONSORCIO PERUNOVO",
   "20535536563": "COPERVIC SOCIEDAD ANONIMA CERRADA",
@@ -896,6 +897,7 @@
   "20606208309": "THERMODIKE DEL PERU SOCIEDAD ANONIMA CERRADA",
   "20556436798": "ESPIRAL MICROSISTEMAS SUCURSAL DEL PERU",
   "20100072751": "EMPRESA PERUANA DE SERVICIO EDITORIALES",
+  "20613921002": "C.L.D. CONTRATISTAS GENERALES S.A.C.",
   "20107798049": "UNIVERSIDAD DE LIMA",
   "20605599401": "ALVA CONSTRUCTORA & SERVICIOS GENERALES E.I.R.L.",
   "1499975": "CONSORCIO R Y R - LEO",
@@ -946,6 +948,21 @@
   "L0556212640": "PROQUEST CHILE SPA"
  },
  "procesos": [
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-97",
+   "nomenclatura": "CP-ABR-30-2026-CR-1",
+   "objeto": "MANTENIMIENTO PREVENTIVO DE EQUIPO CONTRA INCENDIO",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 0.0,
+   "convocado": "2026-11-06",
+   "postores": null,
+   "monto": 0,
+   "proveedores": [],
+   "rucs": [],
+   "adjudicado": null,
+   "firmado": null
+  },
   {
    "ocid": "ocds-dgv273-seacev3-2026-6-43",
    "nomenclatura": "AS-SM-12-2025-CR-3",
@@ -1117,13 +1134,17 @@
    "objeto": "SERVICIO DE SUSCRIPCION DE SOFTWARE DE RESPALDO PARA CORREO EN LA NUBE",
    "metodo": "Concurso Público Abreviado",
    "categoria": "services",
-   "valor_referencial": 0.0,
+   "valor_referencial": 484791.0,
    "convocado": "2026-10-14",
-   "postores": null,
-   "monto": 0,
-   "proveedores": [],
-   "rucs": [],
-   "adjudicado": null,
+   "postores": 17,
+   "monto": 139500.0,
+   "proveedores": [
+    "IKORP DEVS INGENIEROS S.A.C."
+   ],
+   "rucs": [
+    "20612530085"
+   ],
+   "adjudicado": "2026-11-06",
    "firmado": null
   },
   {
@@ -1166,32 +1187,17 @@
    "objeto": "MANTENIMIENTO PREVENTIVO DE ELECTROBOMBAS DE AGUA Y DESAGUE DE LOS EDIFICIOS DEL CONGRESO DE LA REPÚBLICA",
    "metodo": "Concurso Público Abreviado",
    "categoria": "services",
-   "valor_referencial": 0.0,
+   "valor_referencial": 226000.0,
    "convocado": "2026-10-05",
-   "postores": null,
-   "monto": 0,
-   "proveedores": [],
-   "rucs": [],
-   "adjudicado": null,
-   "firmado": null
-  },
-  {
-   "ocid": "ocds-dgv273-seacev3-2026-6-105",
-   "nomenclatura": "CP-ABR-23-2026-CR.-1",
-   "objeto": "SERVICIO DE SUSCRIPCIÓN DE LICENCIAS DE SOFTWARE DE DISEÑO GRÁFICO ADOBE CREATIVE CLOUD",
-   "metodo": "Concurso Público Abreviado",
-   "categoria": "services",
-   "valor_referencial": 323131.2,
-   "convocado": "2026-10-02",
-   "postores": 9,
-   "monto": 307818.61,
+   "postores": 40,
+   "monto": 105000.0,
    "proveedores": [
-    "XENTIC S.A.C."
+    "C.L.D. CONTRATISTAS GENERALES S.A.C."
    ],
    "rucs": [
-    "20521435357"
+    "20613921002"
    ],
-   "adjudicado": "2026-10-27",
+   "adjudicado": "2026-11-06",
    "firmado": null
   },
   {
@@ -1211,6 +1217,25 @@
     "20556605816"
    ],
    "adjudicado": "2026-10-20",
+   "firmado": "2026-11-04"
+  },
+  {
+   "ocid": "ocds-dgv273-seacev3-2026-6-105",
+   "nomenclatura": "CP-ABR-23-2026-CR.-1",
+   "objeto": "SERVICIO DE SUSCRIPCIÓN DE LICENCIAS DE SOFTWARE DE DISEÑO GRÁFICO ADOBE CREATIVE CLOUD",
+   "metodo": "Concurso Público Abreviado",
+   "categoria": "services",
+   "valor_referencial": 323131.2,
+   "convocado": "2026-10-02",
+   "postores": 9,
+   "monto": 307818.61,
+   "proveedores": [
+    "XENTIC S.A.C."
+   ],
+   "rucs": [
+    "20521435357"
+   ],
+   "adjudicado": "2026-10-27",
    "firmado": null
   },
   {
