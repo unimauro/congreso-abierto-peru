@@ -802,6 +802,12 @@
    ],
    "sesiones": [
     {
+     "fecha": "2026-11-10",
+     "documentos": {
+      "agenda": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/AGENDA-PLENO-DIPUTADOS-10-11-2026.pdf"
+     }
+    },
+    {
      "fecha": "2026-10-29",
      "documentos": {
       "agenda": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/AGENDA-PLENO-DIPUTADOS-29-10-2026.pdf",
@@ -3806,7 +3812,7 @@
   },
   {
    "camara": "D",
-   "nombre": "Marquez Huanca, Analí",
+   "nombre": "Marquez Huanca, Anali",
    "sigla": "JP",
    "pases": 34,
    "presente": 34,
@@ -5863,7 +5869,7 @@
   }
  ],
  "meta": {
-  "generado": "2026-11-06",
+  "generado": "2026-11-10",
   "fuente": "Reportes de asistencia y votación del Pleno (PDF) · diputados/senado.congreso.gob.pe",
   "nota": "Pases de lista y votaciones validados contra el total oficial al pie de cada bloque; los escaneos se leen con OCR. Licencias (viaje, enfermedad, oficial…) no cuentan como ausencia."
  }
