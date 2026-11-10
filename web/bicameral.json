@@ -1,25 +1,25 @@
 {
  "meta": {
-  "generado": "2026-11-09",
+  "generado": "2026-11-10",
   "periodo": "2026-2031",
   "instalacion": "2026-07-27",
   "fuente": "api.congreso.gob.pe/spley-portal-service (codTipoParl S/D/C) · padrón: senado/diputados.congreso.gob.pe"
  },
  "totales": {
-  "proyectos": 829,
+  "proyectos": 831,
   "leyes": 11,
   "congresistas": 190
  },
  "camaras": {
   "D": {
    "nombre": "Cámara de Diputados",
-   "proyectos": 801,
+   "proyectos": 803,
    "leyes": 0,
    "archivados": 93,
    "por_estado": {
     "EN COMISIÓN": 621,
     "Archivado de Plano": 93,
-    "PRESENTADO": 40,
+    "PRESENTADO": 42,
     "EN AGENDA DEL PLENO": 19,
     "Retirado por su Autor": 10,
     "CON DICTAMEN": 9,
@@ -31,10 +31,10 @@
     "2026-08": 102,
     "2026-09": 361,
     "2026-10": 264,
-    "2026-11": 74
+    "2026-11": 76
    },
    "por_proponente": {
-    "Cámara de Diputados": 564,
+    "Cámara de Diputados": 566,
     "PODER EJECUTIVO": 172,
     "Colegios Profesionales": 22,
     "Poder Judicial": 18,
@@ -48,7 +48,7 @@
    "materias": {
     "Otros": 159,
     "Justicia y penal": 101,
-    "Transporte e infraestructura": 78,
+    "Transporte e infraestructura": 79,
     "Salud": 72,
     "Educación": 70,
     "Economía y tributación": 68,
@@ -58,7 +58,7 @@
     "Ambiente y recursos": 27,
     "Reforma política y electoral": 22,
     "Descentralización y regiones": 21,
-    "Mujer, familia y niñez": 16,
+    "Mujer, familia y niñez": 17,
     "Agrario, pesca y rural": 13
    },
    "agenda": {
@@ -67,15 +67,15 @@
     "Capital humano: educación y salud": 116,
     "Seguridad y Estado de derecho": 104,
     "Otros": 65,
-    "Infraestructura y conectividad": 39,
-    "Inclusión y protección social": 36,
+    "Infraestructura y conectividad": 40,
+    "Inclusión y protección social": 37,
     "Finanzas públicas y presupuesto": 35,
     "Reforma política e institucional": 32,
     "Gestión del Estado y simplificación": 18,
     "Simbólico / declarativo": 15,
     "Ambiente y gestión de riesgos": 12
    },
-   "pct_desarrollo": 81.4,
+   "pct_desarrollo": 81.5,
    "pct_simbolico": 2.5,
    "riesgo_fiscal": 53,
    "actualizaciones": 198,
@@ -92,10 +92,10 @@
     {
      "bancada": "Renovación Popular",
      "miembros": 15,
-     "proyectos": 135,
-     "por_miembro": 9.0,
+     "proyectos": 136,
+     "por_miembro": 9.1,
      "actualizaciones": 0,
-     "pct_desarrollo": 82.2,
+     "pct_desarrollo": 82.4,
      "pct_simbolico": 3.7
     },
     {
@@ -110,10 +110,10 @@
     {
      "bancada": "Fuerza Popular",
      "miembros": 41,
-     "proyectos": 80,
+     "proyectos": 81,
      "por_miembro": 2.0,
      "actualizaciones": 0,
-     "pct_desarrollo": 88.8,
+     "pct_desarrollo": 88.9,
      "pct_simbolico": 1.2
     },
     {
@@ -1267,7 +1267,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/paz-lancho-leo-miguel-de/",
    "principal": 18,
-   "firmas": 118,
+   "firmas": 119,
    "simbolicos": 3,
    "actualizaciones": 0,
    "desarrollo": 15,
@@ -1985,7 +1985,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/rocha-gallegos-roxana-maria/",
    "principal": 12,
-   "firmas": 117,
+   "firmas": 118,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 10,
@@ -2187,7 +2187,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/aranda-vasquez-christian/",
    "principal": 11,
-   "firmas": 66,
+   "firmas": 67,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 11,
@@ -3516,7 +3516,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/martinez-paitan-paola-isabel/",
    "principal": 8,
-   "firmas": 99,
+   "firmas": 100,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 8,
@@ -4509,7 +4509,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/bravo-quispe-aldo-antonio/",
    "principal": 5,
-   "firmas": 54,
+   "firmas": 55,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 4,
@@ -4970,7 +4970,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/barbaran-reyes-rosangela-andrea/",
    "principal": 4,
-   "firmas": 28,
+   "firmas": 29,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 4,
@@ -5045,6 +5045,51 @@
      "codigo": "00157-2026-2031-CD",
      "fecha": "2026-09-08",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL DECRETO LEGISLATIVO 1057, DECRETO LEGISLATIVO QUE REGULA EL RÉGIMEN ESPECIAL DE CONTRATACIÓN ADMINISTRATIVA DE SERVICIOS, PARA PROTEGER LOS DERECHOS LABORALES DE LOS TRABAJADORES CON DIAGNÓSTICO DE CÁNCER",
+     "estado": "EN COMISIÓN",
+     "agenda": "Inversión, empleo y competitividad"
+    }
+   ]
+  },
+  {
+   "camara": "D",
+   "nombre": "Cipriani Thorne, Javier José María",
+   "bancada": "Renovación Popular",
+   "sigla": "RP",
+   "distrito": "Lima Metropolitana",
+   "genero": "masculino",
+   "condicion": "en ejercicio",
+   "link": "https://diputados.congreso.gob.pe/diputado/cipriani-thorne-javier-jose-maria/",
+   "principal": 4,
+   "firmas": 93,
+   "simbolicos": 1,
+   "actualizaciones": 0,
+   "desarrollo": 3,
+   "proyectos": [
+    {
+     "codigo": "00803-2026-2031-CD",
+     "fecha": "2026-11-10",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE EL USO COMPARTIDO DE LA INFRAESTRUCTURA DEPORTIVA PÚBLICA Y DE LAS INSTITUCIONES EDUCATIVAS PÚBLICAS - LEY DE CANCHAS ABIERTAS.",
+     "estado": "PRESENTADO",
+     "agenda": "Infraestructura y conectividad"
+    },
+    {
+     "codigo": "00580-2026-2031-CD",
+     "fecha": "2026-10-13",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE REGULA LOS DERECHOS DE DENOMINACIÓN COMERCIAL SOBRE INFRAESTRUCTURA DEPORTIVA PÚBLICA PARA FINANCIAR SU MANTENIMIENTO, SEGURIDAD Y REMODELACIÓN.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Simbólico / declarativo"
+    },
+    {
+     "codigo": "00471-2026-2031-CD",
+     "fecha": "2026-10-01",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL CÓDIGO PENAL Y EL CÓDIGO PROCESAL PENAL PARA IMPEDIR LA IMPUNIDAD.",
+     "estado": "EN AGENDA DEL PLENO",
+     "agenda": "Seguridad y Estado de derecho"
+    },
+    {
+     "codigo": "00064-2026-2031-CD",
+     "fecha": "2026-08-20",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE SIMPLIFICA LA EJECUCIÓN DE INVERSIONES EN INFRAESTRUCTURA DE AGUA POTABLE Y SANEAMIENTO.",
      "estado": "EN COMISIÓN",
      "agenda": "Inversión, empleo y competitividad"
     }
@@ -5308,44 +5353,6 @@
   },
   {
    "camara": "D",
-   "nombre": "Cipriani Thorne, Javier José María",
-   "bancada": "Renovación Popular",
-   "sigla": "RP",
-   "distrito": "Lima Metropolitana",
-   "genero": "masculino",
-   "condicion": "en ejercicio",
-   "link": "https://diputados.congreso.gob.pe/diputado/cipriani-thorne-javier-jose-maria/",
-   "principal": 3,
-   "firmas": 92,
-   "simbolicos": 1,
-   "actualizaciones": 0,
-   "desarrollo": 2,
-   "proyectos": [
-    {
-     "codigo": "00580-2026-2031-CD",
-     "fecha": "2026-10-13",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE REGULA LOS DERECHOS DE DENOMINACIÓN COMERCIAL SOBRE INFRAESTRUCTURA DEPORTIVA PÚBLICA PARA FINANCIAR SU MANTENIMIENTO, SEGURIDAD Y REMODELACIÓN.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Simbólico / declarativo"
-    },
-    {
-     "codigo": "00471-2026-2031-CD",
-     "fecha": "2026-10-01",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL CÓDIGO PENAL Y EL CÓDIGO PROCESAL PENAL PARA IMPEDIR LA IMPUNIDAD.",
-     "estado": "EN AGENDA DEL PLENO",
-     "agenda": "Seguridad y Estado de derecho"
-    },
-    {
-     "codigo": "00064-2026-2031-CD",
-     "fecha": "2026-08-20",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE SIMPLIFICA LA EJECUCIÓN DE INVERSIONES EN INFRAESTRUCTURA DE AGUA POTABLE Y SANEAMIENTO.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Inversión, empleo y competitividad"
-    }
-   ]
-  },
-  {
-   "camara": "D",
    "nombre": "Columbus Murata, Diethell",
    "bancada": "Fuerza Popular",
    "sigla": "FP",
@@ -5506,7 +5513,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/meza-rivera-flor-de-jesus/",
    "principal": 3,
-   "firmas": 27,
+   "firmas": 28,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 2,
@@ -5645,6 +5652,44 @@
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY Nº 28044, LEY GENERAL DE EDUCACIÓN, PARA GARANTIZAR LA CONTINUIDAD Y NIVELACIÓN EDUCATIVA DE NIÑAS, NIÑOS Y ADOLESCENTES EN SITUACIÓN DE EXTRAEDAD O ATRASO ESCOLAR.",
      "estado": "EN COMISIÓN",
      "agenda": "Capital humano: educación y salud"
+    }
+   ]
+  },
+  {
+   "camara": "D",
+   "nombre": "Yuffra Lugo, Ana Luisa",
+   "bancada": "Fuerza Popular",
+   "sigla": "FP",
+   "distrito": "Loreto",
+   "genero": "femenino",
+   "condicion": "en ejercicio",
+   "link": "https://diputados.congreso.gob.pe/diputado/yuffra-lugo-ana-luisa/",
+   "principal": 3,
+   "firmas": 8,
+   "simbolicos": 0,
+   "actualizaciones": 0,
+   "desarrollo": 3,
+   "proyectos": [
+    {
+     "codigo": "00802-2026-2031-CD",
+     "fecha": "2026-11-09",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30364 Y EL CÓDIGO DE LOS NIÑOS Y ADOLESCENTES, PARA FORTALECER LA PROTECCIÓN DE NIÑOSY ADOLESCENTES EXPUESTOS A ENTORNOS DE VIOLENCIA Y ESTABLECE MECANISMOS DE ALERTA PARA LA PREVENCIÓN DE LA VIOLENCIA DESDE LAS INSTITUCIONES EDUCATIVAS.",
+     "estado": "PRESENTADO",
+     "agenda": "Inclusión y protección social"
+    },
+    {
+     "codigo": "00606-2026-2031-CD",
+     "fecha": "2026-10-19",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 108-B DEL CÓDIGO PENAL PARA FORTALECER LA PROTECCIÓN DE LAS NIÑAS, NIÑOS Y ADOLESCENTES EXPUESTOS A LA COMISIÓN DEL DELITO DE FEMINICIDIO.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Inclusión y protección social"
+    },
+    {
+     "codigo": "00426-2026-2031-CD",
+     "fecha": "2026-09-23",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 14702, A FIN DE DECLARAR EL 26 DE FEBRERO DE 1864 COMO FECHA DEL ESTABLECIMIENTO DEL PUERTO FLUVIAL DE IQUITOS",
+     "estado": "EN COMISIÓN",
+     "agenda": "Infraestructura y conectividad"
     }
    ]
   },
@@ -5975,7 +6020,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/pacheco-quispe-marco-antonio/",
    "principal": 2,
-   "firmas": 20,
+   "firmas": 21,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 2,
@@ -6179,37 +6224,6 @@
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32108 Y LA LEY 32138, SOBRE EL CRIMEN ORGANIZADO",
      "estado": "EN COMISIÓN",
      "agenda": "Seguridad y Estado de derecho"
-    }
-   ]
-  },
-  {
-   "camara": "D",
-   "nombre": "Yuffra Lugo, Ana Luisa",
-   "bancada": "Fuerza Popular",
-   "sigla": "FP",
-   "distrito": "Loreto",
-   "genero": "femenino",
-   "condicion": "en ejercicio",
-   "link": "https://diputados.congreso.gob.pe/diputado/yuffra-lugo-ana-luisa/",
-   "principal": 2,
-   "firmas": 7,
-   "simbolicos": 0,
-   "actualizaciones": 0,
-   "desarrollo": 2,
-   "proyectos": [
-    {
-     "codigo": "00606-2026-2031-CD",
-     "fecha": "2026-10-19",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 108-B DEL CÓDIGO PENAL PARA FORTALECER LA PROTECCIÓN DE LAS NIÑAS, NIÑOS Y ADOLESCENTES EXPUESTOS A LA COMISIÓN DEL DELITO DE FEMINICIDIO.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Inclusión y protección social"
-    },
-    {
-     "codigo": "00426-2026-2031-CD",
-     "fecha": "2026-09-23",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 14702, A FIN DE DECLARAR EL 26 DE FEBRERO DE 1864 COMO FECHA DEL ESTABLECIMIENTO DEL PUERTO FLUVIAL DE IQUITOS",
-     "estado": "EN COMISIÓN",
-     "agenda": "Infraestructura y conectividad"
     }
    ]
   },
@@ -6511,7 +6525,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/infantes-castaneda-mery-eliana/",
    "principal": 1,
-   "firmas": 8,
+   "firmas": 9,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 1,
@@ -6751,7 +6765,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/takayama-jimenez-liliana-milagros/",
    "principal": 1,
-   "firmas": 27,
+   "firmas": 28,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 1,
@@ -6799,7 +6813,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/valqui-ordonez-jhonn-brayam/",
    "principal": 1,
-   "firmas": 12,
+   "firmas": 13,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 1,
@@ -6959,7 +6973,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/munoz-yurivilca-kim-tami/",
    "principal": 0,
-   "firmas": 17,
+   "firmas": 18,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 0,
@@ -8118,6 +8132,26 @@
  ],
  "recientes": [
   {
+   "codigo": "00803-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-11-10",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE EL USO COMPARTIDO DE LA INFRAESTRUCTURA DEPORTIVA PÚBLICA Y DE LAS INSTITUCIONES EDUCATIVAS PÚBLICAS - LEY DE CANCHAS ABIERTAS.",
+   "proponente": "Cámara de Diputados",
+   "agenda": "Infraestructura y conectividad",
+   "riesgo_fiscal": false
+  },
+  {
+   "codigo": "00802-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-11-09",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30364 Y EL CÓDIGO DE LOS NIÑOS Y ADOLESCENTES, PARA FORTALECER LA PROTECCIÓN DE NIÑOSY ADOLESCENTES EXPUESTOS A ENTORNOS DE VIOLENCIA Y ESTABLECE MECANISMOS DE ALERTA PARA LA PREVENCIÓN DE LA VIOLENCIA DESDE LAS INSTITUCIONES EDUCATIVAS.",
+   "proponente": "Cámara de Diputados",
+   "agenda": "Inclusión y protección social",
+   "riesgo_fiscal": false
+  },
+  {
    "codigo": "00801-2026-2031-CD",
    "camara": "D",
    "estado": "PRESENTADO",
@@ -8495,26 +8529,6 @@
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE EL MEDIO PASAJE EN EL TRANSPORTE PÚBLICO Y EL ACCESO GRATUITO A ESPACIOS CULTURALES Y TURÍSTICOS PÚBLICOS PARA LAS PERSONAS ADULTAS MAYORES PERUANAS",
    "proponente": "Cámara de Diputados",
    "agenda": "Infraestructura y conectividad",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00764-2026-2031-CD",
-   "camara": "D",
-   "estado": "EN COMISIÓN",
-   "fecha": "2026-11-05",
-   "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES N° 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 10407/2024-DP).  \nPROPOSICIÓN LEGISLATIVA QUE MODIFICA EL TEXTO ÚNICO ORDENADO DEL CÓDIGO DE EJECUCIÓN PENAL.",
-   "proponente": "Defensoría del Pueblo",
-   "agenda": "Actualización (periodo anterior)",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00763-2026-2031-CD",
-   "camara": "D",
-   "estado": "EN COMISIÓN",
-   "fecha": "2026-11-05",
-   "titulo": "PROPOSICIÓN LEGISLATIVA QUE REGULA EL EJERCICIO PROFESIONAL DEL QUÍMICO EN EL PERÚ",
-   "proponente": "Colegios Profesionales",
-   "agenda": "Otros",
    "riesgo_fiscal": false
   }
  ]
