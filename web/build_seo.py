@@ -101,6 +101,14 @@ def pagina(titulo: str, descripcion: str, ruta: str, cuerpo: str, ld: list | Non
 """
 
 
+def principales_temas(pr: list) -> str:
+    c = {}
+    for p in pr:
+        if not p["agenda"].startswith(("Actualización", "Otros")):
+            c[p["agenda"]] = c.get(p["agenda"], 0) + 1
+    return ", ".join(t.split(":")[0].lower() for t, _ in sorted(c.items(), key=lambda x: -x[1])[:2])
+
+
 def ficha(m: dict, pl: dict | None, dp: dict | None, generado: str) -> tuple[str, str]:
     nombre = nombre_natural(m["nombre"])
     cargo = CARGO.get(m["camara"], "Congresista")
@@ -110,7 +118,9 @@ def ficha(m: dict, pl: dict | None, dp: dict | None, generado: str) -> tuple[str
     n_disc = (pl or {}).get("con_bancada", 0) + (pl or {}).get("contra_bancada", 0)
     disc = f'{pl["con_bancada"] / n_disc * 100:.1f}%' if n_disc else "—"
     desc = (f"{nombre}, {cargo.lower()} por {m.get('distrito') or 'Perú'} ({m.get('bancada')}), periodo 2026–2031: "
-            f"{m.get('principal', 0)} proyectos de ley como autor principal, asistencia al Pleno {asis}"
+            f"{m.get('principal', 0)} proyectos de ley como autor principal"
+            + (f" (sobre todo {temas_desc})" if (temas_desc := principales_temas(pr)) else "")
+            + f", asistencia al Pleno {asis}"
             + (f", despacho de {dp['personal']} personas ({soles(dp['masa'])} al mes)" if dp else "") + ".")
     k = [("Proyectos como autor", m.get("principal", 0)), ("Firmas en proyectos", m.get("firmas", 0)),
          ("Agenda de desarrollo", m.get("desarrollo", 0)), ("Simbólicos", m.get("simbolicos", 0)),
@@ -136,13 +146,20 @@ def ficha(m: dict, pl: dict | None, dp: dict | None, generado: str) -> tuple[str
     proyectos = (f'<h2>Proyectos de ley como autor principal ({len(pr)})</h2><div class="card scroll">'
                  + (f'<table><thead><tr><th>Código</th><th>Proyecto</th></tr></thead><tbody>{filas_pr}</tbody></table>' if pr else '<p class="note">Aún no presenta proyectos como autor principal.</p>')
                  + '</div>')
+    cuenta = {}
+    for p in pr:
+        cuenta[p["agenda"]] = cuenta.get(p["agenda"], 0) + 1
+    temas = sorted(cuenta.items(), key=lambda x: -x[1])
+    tematicas = ("<h2>Temáticas que trabaja</h2><div class=\"card\"><ul>" + "".join(
+        f"<li><b>{e(t)}</b>: {n} proyecto{'s' if n > 1 else ''}</li>" for t, n in temas)
+        + "</ul><p class=\"note\">Eje de agenda de cada proyecto según palabras clave del título (indicativo).</p></div>") if temas else ""
     oficial = f'<a href="{e(m["link"])}" rel="nofollow">Perfil oficial</a> · ' if m.get("link") else ""
     cuerpo = f"""<p class="note"><a href="index.html">Congresistas</a> › {CAMARA[m["camara"]]}</p>
 <h1>{e(nombre)}</h1>
 <p class="sub">{cargo} por <b>{e(m.get("distrito") or "—")}</b> · {e(m.get("bancada") or "—")} · periodo 2026–2031 · datos al {e(generado)}</p>
 <div class="kpis">{kpis}</div>
 <p>{oficial}<a class="cta" href="../index.html#bicameral">Comparar con los demás en el tablero →</a></p>
-{proyectos}{pleno}{gasto}"""
+{tematicas}{proyectos}{pleno}{gasto}"""
     ld = [{"@context": "https://schema.org", "@type": "Person", "name": nombre, "jobTitle": f"{cargo} 2026–2031",
            "memberOf": [{"@type": "GovernmentOrganization", "name": CAMARA[m["camara"]] + " del Perú"},
                         {"@type": "Organization", "name": m.get("bancada")}],

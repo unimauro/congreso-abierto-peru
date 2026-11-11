@@ -838,6 +838,14 @@ function detalleCongresista(m, p, d) {
     bloques.push(`<div><h4>💸 Gasto del despacho</h4><div class="note">No se identificó su despacho en la planilla del PTE.</div></div>`);
   }
   const pr = m.proyectos || [];
+  // Temáticas: ejes de agenda de sus proyectos como autor principal
+  const temas = Object.entries(pr.reduce((acc, x) => (acc[x.agenda] = (acc[x.agenda] || 0) + 1, acc), {})).sort((a, b) => b[1] - a[1]);
+  if (temas.length) {
+    const tmax = temas[0][1];
+    bloques.push(`<div><h4>🧭 Temáticas que trabaja</h4>${temas.map(([t, n]) =>
+      `<div class="mbar"><span title="${esc(t)}">${esc(t.length > 26 ? t.slice(0, 26) + "…" : t)}</span><div class="b" style="width:${(n / tmax * 100).toFixed(0)}%;background:${t.startsWith("Simbólico") ? "var(--purple)" : t.startsWith("Actualización") || t === "Otros" || t.startsWith("Reforma") ? "var(--muted)" : "var(--green)"}"></div><b>${n}</b></div>`).join("")}
+      <div class="note">Eje de cada proyecto según palabras clave del título (indicativo).</div></div>`);
+  }
   bloques.push(`<div style="grid-column:1/-1"><h4>📄 Proyectos como autor principal (${pr.length})</h4>${pr.length ? `<ul style="max-height:240px;overflow:auto">${pr.map(x =>
     `<li><span class="code">${esc(x.codigo)}</span> ${esc(x.fecha)} — ${esc(x.titulo.length > 140 ? x.titulo.slice(0, 140) + "…" : x.titulo)} <span class="tag">${esc(x.agenda)}</span></li>`).join("")}</ul>` : `<div class="note">Ninguno como autor principal.</div>`}</div>`);
   if (p && p.pases) {
