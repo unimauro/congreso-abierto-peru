@@ -61,6 +61,10 @@ jobs:
             echo "Datos actualizados y commiteados."
           fi
 
+      - name: Páginas estáticas para buscadores y bots (fichas, sitemap, llms.txt)
+        run: python web/build_seo.py
+        continue-on-error: true
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: web

@@ -31,3 +31,11 @@ vendor/bundle/
 .idea/
 .vscode/
 *.swp
+
+# Páginas para buscadores: se generan en CI (web/build_seo.py) antes de publicar
+/web/congresistas/
+/web/bancadas.html
+/web/proveedores.html
+/web/sitemap.xml
+/web/llms.txt
+/web/robots.txt
