@@ -175,6 +175,14 @@ def barras(items: list[tuple[str, float, str]], fmt=lambda v: f"{v:,.0f}") -> st
                    for t, v, c in items)
 
 
+def url_expediente(codigo: str) -> str | None:
+    """Expediente oficial en el portal SPLEY: -CD Diputados, -S Senado, -CR bicameral."""
+    m = re.match(r"^0*(\d+)-(\d{4})-\d{4}-(CD|S|CR)$", codigo or "")
+    if not m:
+        return None
+    return f"https://wb2server.congreso.gob.pe/spley-portal/#/{ {'CD': 'diputados', 'S': 'senado', 'CR': 'congreso'}[m[3]] }/expediente/{m[2]}/{m[1]}"
+
+
 def mediana(xs: list[float]) -> float | None:
     xs = sorted(x for x in xs if x is not None)
     if not xs:
@@ -290,7 +298,7 @@ def ficha(m: dict, pl: dict | None, dp: dict | None, generado: str, vi: dict | N
         return "var(--purple)" if t.startswith("Simbólico") else "#94a3b8" if t.startswith(("Actualización", "Otros", "Reforma")) else "var(--green)"
     tematicas = (f'<section class="card"><h2>🧭 Temáticas que trabaja</h2>{barras([(t, n, col_eje(t)) for t, n in sorted(cuenta.items(), key=lambda x: -x[1])])}'
                  '<p class="note">Eje de agenda de cada proyecto según palabras clave del título (indicativo). Verde: desarrollo; morado: simbólico.</p></section>') if cuenta else ""
-    proys = "".join(f'<div class="proj"><span class="code">{e(p["codigo"])}</span> <span class="note">· {e(p["fecha"])}</span>'
+    proys = "".join(f'<div class="proj"><a class="code" href="{e(url_expediente(p["codigo"]) or "#")}" target="_blank" rel="noopener" title="Expediente y texto oficial">{e(p["codigo"])} ↗</a> <span class="note">· {e(p["fecha"])}</span>'
                     f'<div class="t">{e(p["titulo"])}</div><span class="tag">{e(p["estado"])}</span> <span class="tag">{e(p["agenda"])}</span></div>' for p in pr)
     proyectos = (f'<section class="card"><h2>📄 Proyectos de ley como autor principal ({len(pr)})</h2>'
                  + (f'<div class="scrollbox">{proys}</div>' if pr else '<p class="note">Aún no presenta proyectos como autor principal.</p>')

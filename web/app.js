@@ -847,7 +847,7 @@ function renderBicameral() {
   // Recientes
   document.querySelector("#tBicRec tbody").innerHTML = BIC.recientes.map(r => {
     const cls = r.agenda.startsWith("Simbólico") ? "sim" : (r.agenda === "Otros" || r.agenda.startsWith("Actualización") || r.agenda.startsWith("Reforma")) ? "" : "dev";
-    return `<tr><td class="code">${esc(r.codigo)}<div class="note" style="margin:2px 0 0">${CAM_NOMBRE[r.camara] || r.camara}</div></td><td style="white-space:nowrap">${r.fecha}</td>
+    return `<tr><td>${codLink(r.codigo)}<div class="note" style="margin:2px 0 0">${CAM_NOMBRE[r.camara] || r.camara}</div></td><td style="white-space:nowrap">${r.fecha}</td>
       <td>${esc(r.titulo)}<div class="note" style="margin:2px 0 0">${esc(r.proponente || "")} · ${esc(r.estado)}</div></td>
       <td><span class="tag ${cls}">${esc(r.agenda)}</span>${r.riesgo_fiscal ? ` <span class="tag fis">riesgo fiscal</span>` : ""}</td></tr>`;
   }).join("");
@@ -1013,7 +1013,7 @@ function detalleCongresista(m, p, d) {
       <div class="note">Eje de cada proyecto según palabras clave del título (indicativo).</div></div>`);
   }
   bloques.push(`<div style="grid-column:1/-1"><h4>📄 Proyectos como autor principal (${pr.length})</h4>${pr.length ? `<ul style="max-height:240px;overflow:auto">${pr.map(x =>
-    `<li><span class="code">${esc(x.codigo)}</span> ${esc(x.fecha)} — ${esc(x.titulo.length > 140 ? x.titulo.slice(0, 140) + "…" : x.titulo)} <span class="tag">${esc(x.agenda)}</span></li>`).join("")}</ul>` : `<div class="note">Ninguno como autor principal.</div>`}</div>`);
+    `<li>${codLink(x.codigo)} ${esc(x.fecha)} — ${esc(x.titulo.length > 140 ? x.titulo.slice(0, 140) + "…" : x.titulo)} <span class="tag">${esc(x.agenda)}</span></li>`).join("")}</ul>` : `<div class="note">Ninguno como autor principal.</div>`}</div>`);
   if (p && p.pases) {
     bloques.push(`<div><h4>🗳️ En el Pleno</h4><ul>
       <li>Pases de lista: <b>${p.presente}</b> presente, <b>${p.ausente}</b> ausente, <b>${p.licencia}</b> con licencia (de ${p.pases})</li>
@@ -1076,6 +1076,14 @@ const visDe = (m) => {
   if (!visIdx) { visIdx = {}; VIS.congresistas.forEach(x => { visIdx[x.camara + "|" + x.nombre] = x; }); }
   return visIdx[m.camara + "|" + m.nombre] || null;
 };
+
+// Enlace al expediente oficial (portal SPLEY) según el sufijo del código: -CD Diputados, -S Senado, -CR bicameral
+function urlExp(codigo) {
+  const m = /^0*(\d+)-(\d{4})-\d{4}-(CD|S|CR)$/.exec(codigo || "");
+  if (!m) return null;
+  return `https://wb2server.congreso.gob.pe/spley-portal/#/${{ CD: "diputados", S: "senado", CR: "congreso" }[m[3]]}/expediente/${m[2]}/${m[1]}`;
+}
+const codLink = (codigo) => { const u = urlExp(codigo); return u ? `<a class="code" href="${u}" target="_blank" rel="noopener" title="Ver expediente y texto oficial">${esc(codigo)} ↗</a>` : `<span class="code">${esc(codigo)}</span>`; };
 
 function renderBicMiembros() {
   const { pl, dp } = bicIndices();
@@ -1278,7 +1286,7 @@ function renderBicProyectos() {
     const autor = p.m ? `<a href="congresistas/${slugify(p.m.nombre)}.html" title="Ficha de ${esc(p.m.nombre)}">${esc(p.m.nombre)}</a><div class="note" style="margin:0"><span class="tag">${esc(p.m.sigla)}</span></div>`
       : esc(p.autor || p.proponente || "—");
     const com = p.comisiones.length ? `<div class="note" style="margin:2px 0 0">Comisión: ${p.comisiones.map(esc).join(" · ")}</div>` : "";
-    return `<tr><td class="code">${esc(p.codigo)}</td><td style="white-space:nowrap">${esc(p.fecha)}</td>
+    return `<tr><td>${codLink(p.codigo)}</td><td style="white-space:nowrap">${esc(p.fecha)}</td>
       <td class="tit">${esc(p.titulo)}<div style="margin-top:4px"><span class="tag ${clsAg(p.agenda)}">${esc(p.agenda)}</span>${p.riesgo_fiscal ? ` <span class="tag fis">riesgo fiscal</span>` : ""}</div>${com}</td>
       <td>${autor}</td><td><span class="tag">${esc(p.estado)}</span></td></tr>`;
   }).join("") || `<tr><td colspan="5" class="note">Ningún proyecto coincide con los filtros.</td></tr>`;
