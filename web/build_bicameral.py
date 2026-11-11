@@ -249,7 +249,7 @@ def build(fecha: str, pausa: float = 0.25) -> dict:
                  if set(tokens(c["nombre"].partition(",")[2])) & nombres]
         return cands[0] if len(cands) == 1 else None
 
-    camaras, todos = {}, []
+    camaras, todos, proyectos = {}, [], []
     for cam in ("D", "S", "C"):
         print(f"[*] proyectos {cam}...", file=sys.stderr)
         ps = consultar(session, cam)
@@ -258,6 +258,7 @@ def build(fecha: str, pausa: float = 0.25) -> dict:
             p["_agenda"] = clasificar_agenda(p["titulo"])
         todos.extend(ps)
         info = {"nombre": CAMARAS.get(cam, {}).get("nombre", "Congreso (bicameral)"), **resumen_proyectos(ps)}
+        autor_de, com_de = {}, defaultdict(list)   # codigo -> autor principal / comisiones
 
         if cam in CAMARAS:
             combos = session.get(f"{API_BASE}/periodo-parlamentario/{PERIODO}/filtros",
@@ -284,9 +285,11 @@ def build(fecha: str, pausa: float = 0.25) -> dict:
             # Comisiones: proyectos derivados a cada una
             comisiones = []
             for c in combos.get("comisiones", []):
-                n = len(consultar(session, cam, comisionId=c["id"]))
+                cp = consultar(session, cam, comisionId=c["id"])
                 time.sleep(pausa)
-                comisiones.append({"nombre": c["descripcion"], "proyectos": n})
+                for p in cp:
+                    com_de[p["proyectoLey"]].append(c["descripcion"])
+                comisiones.append({"nombre": c["descripcion"], "proyectos": len(cp)})
             info["comisiones"] = sorted(comisiones, key=lambda c: -c["proyectos"])
 
             # Congresistas: proyectos como autor principal (filtro oficial) y firmas totales
@@ -302,6 +305,8 @@ def build(fecha: str, pausa: float = 0.25) -> dict:
                          "distrito": "", "genero": "", "condicion": "", "link": ""}
                     padron.append(m)
                     por_clave[(cam, clave_nombre(a["descripcion"]))] = m
+                for p in lead:
+                    autor_de[p["proyectoLey"]] = m["nombre"]
                 ag = Counter(clasificar_agenda(p["titulo"]) for p in lead)
                 m["principal"] = len(lead)
                 m["firmas"] = firmas.get(a["descripcion"], 0)
@@ -316,6 +321,26 @@ def build(fecha: str, pausa: float = 0.25) -> dict:
             if sin_match:
                 print(f"[!] {sin_match} autores de {cam} sin cruce con el padrón", file=sys.stderr)
         camaras[cam] = info
+
+        # Lista compacta de TODOS los proyectos de la cámara (para el buscador del
+        # tablero): autor principal (filtro oficial) y comisiones como índices de
+        # info["comisiones"]; riesgo fiscal solo cuando es verdadero.
+        idx_com = {c["nombre"]: i for i, c in enumerate(info.get("comisiones", []))}
+        for p in sorted(ps, key=lambda p: (p.get("fecPresentacion") or "", p["pleyNum"]), reverse=True):
+            x = {"codigo": p["proyectoLey"], "camara": cam, "fecha": (p.get("fecPresentacion") or "")[:10],
+                 "titulo": re.sub(r"\s+", " ", p["titulo"]).strip(), "estado": p["desEstado"],
+                 "agenda": p["_agenda"]}
+            autor = autor_de.get(p["proyectoLey"])
+            if autor:
+                x["autor"] = autor
+            elif cam not in CAMARAS or not p.get("autores"):
+                x["proponente"] = (p.get("desProponente") or "").strip()
+            com = sorted(idx_com[n] for n in com_de.get(p["proyectoLey"], []) if n in idx_com)
+            if com:
+                x["com"] = com
+            if riesgo_fiscal(p["titulo"]):
+                x["riesgo_fiscal"] = True
+            proyectos.append(x)
 
     for m in padron:
         m.setdefault("principal", 0)
@@ -340,6 +365,7 @@ def build(fecha: str, pausa: float = 0.25) -> dict:
         },
         "camaras": camaras,
         "congresistas": sorted(padron, key=lambda m: (m["camara"], -m["principal"], m["nombre"])),
+        "proyectos": proyectos,
         "recientes": [{
             "codigo": p["proyectoLey"], "camara": p["codTipoParl"], "estado": p["desEstado"],
             "fecha": (p.get("fecPresentacion") or "")[:10], "titulo": p["titulo"].strip(),
