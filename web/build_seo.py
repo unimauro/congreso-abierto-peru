@@ -54,23 +54,24 @@ def nombre_natural(n: str) -> str:
 
 
 CSS = """
-:root{--bg:#f6f7f9;--panel:#fff;--panel-2:#fafbfc;--border:#e6e8ec;--text:#16181d;--muted:#5b626f;--accent:#e23744;--accent-2:#2563eb;
---green:#16a34a;--amber:#d97706;--purple:#7c3aed;--shadow:0 1px 2px rgba(16,24,40,.04),0 8px 24px rgba(16,24,40,.06)}
-@media (prefers-color-scheme:dark){:root{--bg:#0a0b0d;--panel:#121317;--panel-2:#16181d;--border:#23262e;--text:#e7e9ee;--muted:#9aa1ad;--accent-2:#60a5fa;--shadow:none}}
+:root{--bg:#f6f7f9;--panel:#fff;--panel-2:#fbfbfd;--border:#e6e8ec;--text:#16181d;--muted:#5b626f;--accent:#e23744;--accent-2:#3b82f6;
+--green:#22c55e;--amber:#f59e0b;--purple:#a855f7;--radius:14px;--shadow:0 1px 2px rgba(0,0,0,.04),0 8px 24px rgba(0,0,0,.06)}
+[data-theme="dark"]{--bg:#0a0b0d;--panel:#121317;--panel-2:#16181d;--border:#23262e;--text:#e7e9ee;--muted:#9aa1ad;--shadow:0 1px 0 rgba(255,255,255,.03),0 8px 24px rgba(0,0,0,.35)}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--text);font:15px/1.55 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased}
 a{color:var(--accent-2);text-decoration:none}a:hover{text-decoration:underline}
-.bar{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--panel) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
-.bar .in{max-width:1120px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.bar{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+.bar .in{max-width:1180px;margin:0 auto;padding:0 20px;min-height:62px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
 .brand{display:flex;align-items:center;gap:8px;font-weight:800;color:var(--text)}.brand:hover{text-decoration:none}
-.logo{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:8px;background:var(--accent);color:#fff;font-size:13px;font-weight:800}
-.bar nav{display:flex;gap:4px;flex-wrap:wrap;margin-left:auto}.bar nav a{color:var(--muted);font-weight:600;font-size:14px;padding:6px 10px;border-radius:8px}
-.bar nav a:hover,.bar nav a.on{background:var(--panel-2);color:var(--text);text-decoration:none}
-.wrap{max-width:1120px;margin:0 auto;padding:20px 16px 56px}
-h1{font-size:clamp(24px,4vw,34px);margin:0;line-height:1.15;letter-spacing:-.02em}h2{font-size:17px;margin:0 0 12px;letter-spacing:-.01em}
+.logo{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,var(--accent),#b3121d);color:#fff;font-size:13px;font-weight:800}
+.bar nav{display:flex;gap:4px;flex-wrap:wrap;margin-left:auto;align-self:stretch}.bar nav a{display:flex;align-items:center;color:var(--muted);font-weight:600;font-size:14px;padding:0 12px;border-bottom:2px solid transparent}
+.bar nav a:hover{color:var(--text);text-decoration:none}.bar nav a.on{color:var(--text);border-bottom-color:var(--accent)}
+.tbtn{border:1px solid var(--border);background:var(--panel);color:var(--text);border-radius:9px;padding:7px 11px;font-size:13px;cursor:pointer}
+.wrap{max-width:1180px;margin:0 auto;padding:22px 20px 56px}
+h1{font-size:clamp(26px,4.5vw,38px);margin:0;line-height:1.08;letter-spacing:-.03em;font-weight:800}h2{font-size:15px;font-weight:700;margin:0 0 14px;letter-spacing:-.01em}
 .sub{color:var(--muted);margin:6px 0 0}.note{color:var(--muted);font-size:13px}.crumb{font-size:13px;color:var(--muted);margin-bottom:12px}
 .card{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:18px;box-shadow:var(--shadow);min-width:0}
-.hero{display:grid;grid-template-columns:auto 1fr;gap:22px;align-items:center;padding:22px}
+.hero{display:grid;grid-template-columns:auto 1fr;gap:22px;align-items:center;padding:22px;border-left:3px solid var(--accent)}
 .hero img,.ph{width:132px;height:132px;border-radius:18px;object-fit:cover;object-position:top;border:1px solid var(--border);background:var(--panel-2)}
 .ph{display:grid;place-items:center;font-size:40px;font-weight:800;color:var(--muted)}
 .chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
@@ -80,7 +81,8 @@ h1{font-size:clamp(24px,4vw,34px);margin:0;line-height:1.15;letter-spacing:-.02e
 .btn{display:inline-flex;align-items:center;gap:6px;font-weight:600;font-size:14px;padding:8px 14px;border-radius:10px;border:1px solid var(--border);background:var(--panel);color:var(--text)}
 .btn.pri{background:var(--accent);border-color:var(--accent);color:#fff}.btn:hover{text-decoration:none;filter:brightness(.97)}
 .kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:16px 0}
-.kpi{padding:14px 16px}.kpi .v{font-size:26px;font-weight:800;letter-spacing:-.02em;line-height:1.1}.kpi .l{font-size:13px;color:var(--muted);margin-top:2px}
+.kpi{padding:18px}.kpi .l{font-size:12.5px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.04em}
+.kpi .v{font-size:30px;font-weight:800;letter-spacing:-.03em;line-height:1.1;margin-top:6px;font-variant-numeric:tabular-nums}
 .kpi .c{font-size:12px;margin-top:8px;color:var(--muted)}.up{color:var(--green);font-weight:700}.down{color:var(--accent);font-weight:700}
 .cols{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:16px;align-items:start}.stack{display:grid;gap:16px}
 .hb{display:grid;grid-template-columns:minmax(0,170px) 1fr auto;gap:10px;align-items:center;font-size:13px;margin:7px 0}
@@ -114,21 +116,34 @@ th{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.04
 .pager button{font:inherit;font-size:14px;min-width:38px;padding:7px 11px;border-radius:9px;border:1px solid var(--border);background:var(--panel);color:var(--text);cursor:pointer}
 .pager button.on{background:var(--accent);border-color:var(--accent);color:#fff}.pager button:disabled{opacity:.4;cursor:default}
 .count{font-size:13px;color:var(--muted)}.empty{padding:40px;text-align:center;color:var(--muted)}
-/* color por sección */
-.card.s{border-top:3px solid var(--sc)}.card.s h2{display:flex;align-items:center;gap:8px}
-.card.s h2::before{content:"";width:8px;height:20px;border-radius:4px;background:var(--sc)}
-.s-blue{--sc:#3b82f6}.s-green{--sc:#16a34a}.s-purple{--sc:#8b5cf6}.s-amber{--sc:#f59e0b}.s-red{--sc:#e23744}.s-teal{--sc:#0d9488}.s-pink{--sc:#db2777}.s-slate{--sc:#64748b}
-.kpi{border-top:3px solid var(--kc,#94a3b8)}.kpi .v{color:var(--kc,var(--text))}
-.chip.t{background:color-mix(in srgb,#3b82f6 10%,var(--panel));border-color:color-mix(in srgb,#3b82f6 30%,var(--border));color:var(--text)}
+/* mismas tarjetas que el tablero: blancas, título en negrita, color solo en cifras y etiquetas */
+.card.s h2{display:flex;align-items:center;gap:8px}.s-red{border-left:3px solid var(--accent)}
+.kpi .v{color:var(--kc,var(--text))}
+.chip.t{background:var(--panel-2);color:var(--text)}
 .tag.ok{color:#15803d;background:color-mix(in srgb,#16a34a 10%,transparent);border-color:color-mix(in srgb,#16a34a 35%,var(--border))}
 .tag.warn{color:#b45309;background:color-mix(in srgb,#f59e0b 12%,transparent);border-color:color-mix(in srgb,#f59e0b 40%,var(--border))}
 .tag.red{background:color-mix(in srgb,#e23744 10%,transparent)}
 .tag.info{color:#1d4ed8;background:color-mix(in srgb,#3b82f6 10%,transparent);border-color:color-mix(in srgb,#3b82f6 35%,var(--border))}
-@media (prefers-color-scheme:dark){.tag.ok{color:#4ade80}.tag.warn{color:#fbbf24}.tag.info{color:#93c5fd}}
-.hero{background:linear-gradient(120deg,color-mix(in srgb,var(--bc,#e23744) 12%,var(--panel)) 0%,var(--panel) 55%);border-top:3px solid var(--bc,#e23744)}
-.mc{border-top:3px solid var(--bc,#94a3b8)}
+[data-theme="dark"] .tag.ok{color:#4ade80}[data-theme="dark"] .tag.warn{color:#fbbf24}[data-theme="dark"] .tag.info{color:#93c5fd}
+@media print{
+@page{size:A4;margin:12mm}
+:root,[data-theme="dark"]{--bg:#fff;--panel:#fff;--panel-2:#f6f7f9;--border:#dfe2e7;--text:#111;--muted:#555;--shadow:none}
+body{font-size:11.5px;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.bar,.acts,.crumb,.tbtn{display:none!important}.wrap{max-width:none;padding:0}
+.cols{grid-template-columns:minmax(0,1.55fr) minmax(0,1fr)}.kpis{grid-template-columns:repeat(4,minmax(0,1fr))}
+.scrollbox,.scroll{max-height:none!important;overflow:visible!important}
+.card{box-shadow:none;break-inside:avoid;padding:12px}.card.s{break-inside:auto}tr,.proj,.hb,li{break-inside:avoid}
+h1{font-size:24px}.hero img,.ph{width:96px;height:96px}a{color:inherit}
+.foot::before{content:"Ficha generada desde unimauro.github.io/congreso-abierto-peru · ";font-weight:600}
+}
 @media (max-width:860px){.cols{grid-template-columns:1fr}.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.tools{grid-template-columns:1fr 1fr}.tools input{grid-column:1/-1}}
 @media (max-width:520px){.hero{grid-template-columns:1fr;text-align:left}.hero img,.ph{width:96px;height:96px}.hb{grid-template-columns:minmax(0,110px) 1fr auto}.bar nav{margin-left:0}}
+"""
+
+SHELL_JS = """
+document.getElementById('tema').onclick=function(){var r=document.documentElement,n=r.getAttribute('data-theme')==='dark'?'light':'dark';r.setAttribute('data-theme',n);try{localStorage.setItem('cap-theme',n)}catch(e){}};
+var dp=document.getElementById('dpdf');if(dp)dp.addEventListener('click',function(ev){ev.preventDefault();var h=dp.href;
+fetch(h,{method:'HEAD'}).then(function(r){if(!r.ok)throw 0;var a=document.createElement('a');a.href=h;a.download=dp.getAttribute('download');document.body.appendChild(a);a.click();a.remove()}).catch(function(){window.print()})});
 """
 
 # Color por bancada (solo para distinguir; no son colores oficiales)
@@ -154,8 +169,9 @@ def pagina(titulo: str, descripcion: str, ruta: str, cuerpo: str, ld: list | Non
         ("cong", "congresistas/", "Congresistas"), ("banc", "bancadas.html", "Bancadas"),
         ("prov", "proveedores.html", "Proveedores"), ("tab", "index.html#bicameral", "Tablero")))
     return f"""<!doctype html>
-<html lang="es">
+<html lang="es" data-theme="light">
 <head>
+<script>try{{var t=localStorage.getItem("cap-theme");if(t)document.documentElement.setAttribute("data-theme",t)}}catch(e){{}}</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(titulo)}</title>
@@ -173,12 +189,12 @@ def pagina(titulo: str, descripcion: str, ruta: str, cuerpo: str, ld: list | Non
 <style>{CSS}</style>{lds}
 </head>
 <body>
-<header class="bar"><div class="in"><a class="brand" href="{raiz}index.html"><span class="logo">CA</span>Congreso Abierto Perú</a><nav>{nav}</nav></div></header>
+<header class="bar"><div class="in"><a class="brand" href="{raiz}index.html"><span class="logo">CA</span>Congreso Abierto Perú</a><nav>{nav}</nav><button class="tbtn" id="tema" title="Cambiar tema" aria-label="Cambiar tema">◐</button></div></header>
 <main class="wrap">
 {cuerpo}
 <p class="foot">Datos oficiales del Congreso de la República, el Portal de Transparencia Estándar, SEACE/OECE y las actas del Pleno, procesados por
 <a href="https://github.com/unimauro/congreso-abierto-peru">Congreso Abierto Perú</a> (proyecto cívico independiente, licencia AGPL-3.0). Actualizado el {date.today().isoformat()}.</p>
-</main>{script}</body></html>
+</main>{script}<script>{SHELL_JS}</script></body></html>
 """
 
 
@@ -368,19 +384,20 @@ def ficha(m: dict, pl: dict | None, dp: dict | None, generado: str, vi: dict | N
 <section class="card hero" style="--bc:{cbanc}">{img}<div><h1>{e(nombre)}</h1>
 <p class="sub">{cargo} por {e(m.get("distrito") or "—")} · periodo 2026–2031</p><div class="chips">{chips}</div>
 <div class="acts"><a class="btn pri" href="../index.html#bicameral?cam={m["camara"]}&c={s}">Ver en el tablero</a>
-<a class="btn" href="../index.html#comparar?c={s}">Comparar</a>{oficial}</div></div></section>"""
+<a class="btn" href="../index.html#comparar?c={s}">Comparar</a>{oficial}
+<a class="btn" id="dpdf" href="../pdf/{s}.pdf" download="congreso-abierto-{s}.pdf">⬇ Descargar PDF</a></div></div></section>"""
 
     # Indicadores con contexto de la cámara
     def kpi(v, l, c="", kc="#94a3b8"):
-        return f'<div class="card kpi" style="--kc:{kc}"><div class="v">{v}</div><div class="l">{l}</div>{f"<div class=c>{c}</div>" if c else ""}</div>'
+        return f'<div class="card kpi" style="--kc:{kc}"><div class="l">{l}</div><div class="v">{v}</div>{f"<div class=c>{c}</div>" if c else ""}</div>'
     k = [kpi(m.get("principal", 0), "proyectos como autor principal",
-             comparacion(m.get("principal", 0), ctx.get("principal")), "#3b82f6"),
+             comparacion(m.get("principal", 0), ctx.get("principal")), "var(--text)"),
          kpi(asis, "asistencia al Pleno",
-             comparacion(asis_v, ctx.get("asistencia"), "%", fmt=lambda x: f"{x:.1f}") if asis_v is not None else "sin pases de lista procesados", "#16a34a"),
+             comparacion(asis_v, ctx.get("asistencia"), "%", fmt=lambda x: f"{x:.1f}") if asis_v is not None else "sin pases de lista procesados", "var(--green)"),
          kpi(soles(dp["masa"]) if dp else "—", "planilla del despacho al mes",
-             (f'{dp["personal"]} personas · ' + comparacion(dp["masa"], ctx.get("masa"), mayor_mejor=False, fmt=lambda x: soles(x))) if dp else "despacho no identificado", "#f59e0b"),
+             (f'{dp["personal"]} personas · ' + comparacion(dp["masa"], ctx.get("masa"), mayor_mejor=False, fmt=lambda x: soles(x))) if dp else "despacho no identificado", "var(--amber)"),
          kpi(f'{vi["total"]:,}' if vi else "—", "visitas a su despacho",
-             (f'{vi["al_congresista"]:,} directas · ' + comparacion(vi["total"], ctx.get("visitas"))) if vi else "", "#db2777")]
+             (f'{vi["al_congresista"]:,} directas · ' + comparacion(vi["total"], ctx.get("visitas"))) if vi else "", "var(--accent)")]
     kpis = f'<div class="kpis">{"".join(k)}</div>'
 
     # Columna principal

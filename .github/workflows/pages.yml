@@ -80,6 +80,13 @@ jobs:
         run: python web/build_seo.py
         continue-on-error: true
 
+      - name: PDF descargable de cada ficha (Chromium headless)
+        run: |
+          pip install -q playwright
+          python -m playwright install --with-deps chromium-headless-shell
+          python web/pdf_congresistas.py
+        continue-on-error: true   # sin PDFs, el botón cae a imprimir/guardar como PDF
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: web
