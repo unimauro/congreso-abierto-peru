@@ -8,7 +8,7 @@
   "perfiles": 190,
   "con_foto": 190,
   "con_comisiones": 190,
-  "informes_representacion": 505,
+  "informes_representacion": 506,
   "viajes": 4
  },
  "perfiles": [
@@ -11507,6 +11507,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-10-29",
+     "lugar": "Lima Metropolitana",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/BONIFAZ-CARMONA_29-10-2026.pdf"
+    },
     {
      "fecha": "2026-09-18",
      "lugar": "Lima Metropolitana",
