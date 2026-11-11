@@ -36,6 +36,11 @@ echo "[*] Personal PTE..."
 echo "[*] Movimientos de personal (snapshots en git)..."
 python3 web/build_movimientos.py --fecha "$(date +%Y-%m-%d)"
 
+# Trayectoria de asesores: cruza movimientos.json con los CSV locales de peru-transparente
+# (PT_DATA, por defecto ~/Repos/peru-transparente/data). Sin esos CSV no hace nada.
+echo "[*] Trayectoria de asesores (PTE histórico, DJ, El Peruano, OCDS)..."
+python3 -m pipeline.scrapers.asesores_historial || echo "[!] asesores falló; se mantiene el asesores.json anterior"
+
 # Pleno: agenda, asistencia y votaciones desde los PDF de cada cámara (OCR con
 # tesseract cuando son escaneos; el texto queda cacheado en data/plenos/).
 echo "[*] Pleno (asistencia y votaciones)..."
@@ -56,18 +61,18 @@ if git diff --quiet -I'"generado"' -- web/personal.json; then
 fi
 
 # Igual con los "generado" de movimientos/plenos: solo cuentan cambios de datos.
-for f in web/movimientos.json web/plenos.json web/contratos.json web/integridad.json web/visitas.json; do
+for f in web/movimientos.json web/plenos.json web/contratos.json web/integridad.json web/visitas.json web/asesores.json; do
   if git diff --quiet -I'"generado"' -- "$f" 2>/dev/null; then git checkout -- "$f" 2>/dev/null || true; fi
 done
 
 if git diff --quiet -- web/context.json web/personal.json web/movimientos.json web/plenos.json web/contratos.json \
-   && [ -z "$(git ls-files --others --exclude-standard web/movimientos.json web/plenos.json web/contratos.json web/integridad.json web/visitas.json)" ]; then
+   && [ -z "$(git ls-files --others --exclude-standard web/movimientos.json web/plenos.json web/contratos.json web/integridad.json web/visitas.json web/asesores.json)" ]; then
   echo "[ok] Sin datos nuevos: nada que commitear."
   exit 0
 fi
 
 echo "[*] Commiteando datos nuevos..."
-git add web/context.json web/personal.json web/movimientos.json web/plenos.json web/contratos.json web/integridad.json web/visitas.json
+git add web/context.json web/personal.json web/movimientos.json web/plenos.json web/contratos.json web/integridad.json web/visitas.json web/asesores.json
 git commit -m "chore(datos): refresco local presupuesto/personal $(date '+%Y-%m-%d')"
 git push
 echo "[ok] Pusheado."

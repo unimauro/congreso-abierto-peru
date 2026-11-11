@@ -1,0 +1,6129 @@
+{
+ "meta": {
+  "generado": "2026-11-11T16:24:33+00:00",
+  "fuentes": {
+   "pte_historico": {
+    "nombre": "Portal de Transparencia Estándar — planillas",
+    "desde": "2015-12",
+    "hasta": "2025-12",
+    "filas": 1433793
+   },
+   "pte_2025_2026": {
+    "nombre": "Portal de Transparencia Estándar — planillas",
+    "desde": "2025-10",
+    "hasta": "2026-11",
+    "filas": 534953
+   },
+   "dj_intereses": {
+    "nombre": "Contraloría — declaraciones juradas de intereses",
+    "desde": "2022-07-04",
+    "hasta": "2022-12-21",
+    "filas": 69995
+   },
+   "designaciones": {
+    "nombre": "Diario Oficial El Peruano — designaciones",
+    "desde": "2021-08-11",
+    "hasta": "2026-11-06",
+    "filas": 2236
+   },
+   "contratos_ocds": {
+    "nombre": "OECE/SEACE — contrataciones abiertas (OCDS)",
+    "desde": "2025-12-29",
+    "hasta": "2026-11-10",
+    "filas": 24123
+   }
+  },
+  "nota": "Cruce por nombre completo (sin DNI) con registros oficiales de otras entidades; excluye al Congreso. Pueden existir homónimos: 'ambiguo' marca nombres con señales de más de una persona. Nombres de 3 palabras con apellidos frecuentes requieren una segunda coincidencia (cargo o área). 'otra_planilla_2026' = figura en la planilla de otra entidad desde agosto de 2026. Máximo 12 registros por asesor, lo más reciente primero."
+ },
+ "totales": {
+  "evaluados": 1311,
+  "omitidos_nombre_corto": 6,
+  "exigen_segunda_senal": 103,
+  "asesores": 249,
+  "con_historial": 249,
+  "ambiguos": 3,
+  "otra_planilla_2026": 21,
+  "registros_por_fuente": {
+   "PTE": 429,
+   "DJ": 51,
+   "OCDS": 1,
+   "El Peruano": 1
+  }
+ },
+ "asesores": [
+  {
+   "nombre": "VERGARA GRANDEZ, YANI LIS",
+   "despacho": "Abensur Pinasco, Jaime Américo",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Nacional de entrega de la pensión no contributiva a la persona con discapacidad severa (CONTIGO)",
+     "cargo": "ESPECIALISTA I - EN ASUNTOS JURIDICOS",
+     "desde": "2024-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · UNIDAD DE ASESORIA JURIDICA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "SUPERINTENDENCIA NACIONAL DE FISCALIZACION LABORAL (SUNAFIL)",
+     "cargo": "COORDINADOR LEGAL",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · GERENCIA GENERAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Nacional de entrega de la pensión no contributiva a la persona con discapacidad severa (CONTIGO)",
+     "cargo": "ESPECIALISTA I - EN ASUNTOS JURIDICOS",
+     "desde": "2021-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · UNIDAD DE OPERACIONES Y TRANSFERENCIA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Nacional de Apoyo Directo a los más Pobres - JUNTOS (JUNTOS)",
+     "cargo": "Especialista Legal para la Unidad de Operaciones y Transferencias",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · PROGRAMA NACIONAL CONTIGO"
+    }
+   ],
+   "otra_planilla_2026": false,
+   "ambiguo": true
+  },
+  {
+   "nombre": "CLEMENTE ALVAREZ, JORGE ELVIS",
+   "despacho": "Aguirre Ramos, Marlon Alberto",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Gobierno Regional Junín (GRJ)",
+     "cargo": "Contratado CAS",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "CAS · 1800"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "CRUCES BURGA, ALBERTO",
+   "despacho": "Alayza Maccera, Rossana Herminia",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "DJ",
+     "entidad": "DEFENSORÍA DEL PUEBLO",
+     "cargo": "ADJUNTO EN ASUNTOS CONSTITUCIONALES",
+     "desde": "2022-07-01",
+     "detalle": "Declaración jurada de intereses presentada el 2022-07-20"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "MUSTO QUISPE, LUIS ALBERTO",
+   "despacho": "Albañil Carmona, Henry Antonio",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio del Interior (MININTER)",
+     "cargo": "DIRECTOR",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · OFICINA DE ABASTECIMIENTO"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "ORGANISMO DE EVALUACIÓN Y FISCALIZACIÓN AMBIENTAL",
+     "cargo": "ASESOR DE GERENCIA GENERAL",
+     "desde": "2022-06-08",
+     "hasta": "2022-10-31",
+     "detalle": "Declaración jurada de intereses presentada el 2022-10-28"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "BRAVO ALVARADO, CIRENE ELISA",
+   "despacho": "Alcorta Suero, María Lourdes Pía Luisa",
+   "camara": "S",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "La Contraloría General de la República (CGR)",
+     "cargo": "-",
+     "desde": "2021-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · Subgerencia De Coordinación Parlamentaria"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "RUIZ BARRON, MANUEL ALBERTO",
+   "despacho": "Alegría García, Luis Arturo",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Salud (MINSA)",
+     "cargo": "ESPEC. ADMINISTRATIVO/A",
+     "desde": "2024-12",
+     "hasta": "2026-09",
+     "detalle": "CAS · D.U.Nº 083-2021"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Salud (MINSA)",
+     "cargo": "ESPECIALISTA ADMINISTRATIVO",
+     "desde": "2021-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · D.U.Nº 083-2021"
+    }
+   ],
+   "otra_planilla_2026": true
+  },
+  {
+   "nombre": "CASTILLO RIVEROS, MIGUEL ANGEL",
+   "despacho": "Alvaron de la Cruz, Edgar Adrián",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Organismo de Evaluación y Fiscalización Ambiental (OEFA)",
+     "cargo": "JEFE/A DE LA UNIDAD DE GESTIÓN DE RECURSOS HUMANOS",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "Ley Servir · Unidad de Gestión de Recursos Humanos"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "MORALES CADILLO, ELBER CARLOS",
+   "despacho": "Alvaron de la Cruz, Edgar Adrián",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Nacional para la Prevención y Erradicación de la Violencia contra las Mujeres e Integrantes (Warmi Ñan)",
+     "cargo": "COORDINADOR/A DE CEM",
+     "desde": "2024-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · CEM_COMISARIA SECTORIAL BOLOGNESI CHIQUIAN"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Nacional para la Prevención y Erradicación de la Violencia contra las Mujeres e Integrantes (Warmi Ñan)",
+     "cargo": "COORDINADOR/A DE CEM",
+     "desde": "2021-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · CEM_COMISARIA CHIQUIAN-SECTORIAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "VENEGAS OCHOA, ROSSANA",
+   "despacho": "Ampuero Meza, Katherine Milagros",
+   "camara": "S",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio Público Fiscalía de la Nación (MPFN)",
+     "cargo": "ASISTENTE EN FUNCIÓN FISCAL",
+     "desde": "2018-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · FISCALÍA PROVINCIAL PENAL CORPORATIVA DE MI PERÚ"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "VILCHEZ GRANDEZ, MILTON",
+   "despacho": "Ampuero Meza, Katherine Milagros",
+   "camara": "S",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Justicia y Derechos Humanos (MINJUS)",
+     "cargo": "ESPECIALISTA LEGAL III",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · PROCURADURIA PUBLICA ESPECIALIZADA EN DELITOS DE CORRUPCION"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Justicia y Derechos Humanos (MINJUS)",
+     "cargo": "ESPECIALISTA DE DEFENSA JURIDICA DEL ESTADO",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "CAS · PROCURADURIA PUBLICA ESPECIALIZADA EN DELITOS DE CORRUPCION"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Justicia y Derechos Humanos (MINJUS)",
+     "cargo": "ESPECIALISTA DE DEFENSA JURIDICA DEL ESTADO",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · PROCURADURIA PUBLICA ESPECIALIZADA EN DELITOS DE CORRUPCION"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "MINISTERIO DE JUSTICIA Y DERECHOS HUMANOS",
+     "cargo": "ABOGADO ESPECIALISTA",
+     "desde": "2019-06-12",
+     "detalle": "Declaración jurada de intereses presentada el 2022-08-18"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "CACHAY CARPIO, RAUL",
+   "despacho": "Andrade Salguero de Alvarez, Gladys Griselda",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Instituto Nacional de Radio y Televisión del Perú (IRTP)",
+     "cargo": "Un (01) Especialista en Producción Audiovisual I",
+     "desde": "2018-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · Gerencia de Prensa"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Instituto Nacional de Radio y Televisión del Perú (IRTP)",
+     "cargo": "Un (01) Especialista en Producción Audiovisual I",
+     "desde": "2016-12",
+     "hasta": "2016-12",
+     "detalle": "CAS · Gerencia de Prensa"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "CAMAN OCMIN, ELIZABETH DE JESUS",
+   "despacho": "Andrade Salguero de Alvarez, Gladys Griselda",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Distrital de San Isidro Lima (MDSI)",
+     "cargo": "ASISTENTE LOGISTICO",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · SUBGERENCIA DE PROYECTOS"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "HERNANDEZ ANGULO, JOSE MIGUEL",
+   "despacho": "Andrade Salguero de Alvarez, Gladys Griselda",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Defensoría del Pueblo (DP)",
+     "cargo": "ESPECIALISTA EN ASUNTOS INDÍGENAS I",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · ADHPO - PROGRAMA DE PUEBLOS INDIGENAS"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "La Contraloría General de la República (CGR)",
+     "cargo": "-",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "CAS · C823 Gerencia Regional De Control De Lima Provincias"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "La Contraloría General de la República (CGR)",
+     "cargo": "-",
+     "desde": "2021-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · Subgerencia De Participación Ciudadana"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Nacional de Asistencia Solidaria Pensión 65 (PENSION 65)",
+     "cargo": "PROMOTOR",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · UNIDAD TERRITORIAL LIMA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "CASTILLO CALIZAYA, JULIO CESAR",
+   "despacho": "Aranda Vasquez, Christian",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Justicia y Derechos Humanos (MINJUS)",
+     "cargo": "ASISTENTE DE DEFENSA JURIDICA DEL ESTADO",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · OFICINA GENERAL DE IMAGEN Y COMUNICACIONES"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "SANCHEZ VECORENA, JORGE LUIS",
+   "despacho": "Arista Arbildo, José Berley",
+   "camara": "S",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Superintendencia Nacional de Aduanas y de Administración Tributaria (SUNAT)",
+     "cargo": "ESPECIALISTA 5",
+     "desde": "2026-09",
+     "hasta": "2026-09",
+     "detalle": "Régimen 728/OTROS · DIVISIÓN DE ESTADÍSTICA"
+    }
+   ],
+   "otra_planilla_2026": true
+  },
+  {
+   "nombre": "MARIN RIVERA, JANET PATRICIA",
+   "despacho": "Armacanqui Morales, Saúl Andrés",
+   "camara": "S",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Poder Judicial (PJ)",
+     "cargo": "CONTRATO ADMVO SERVICIOS",
+     "desde": "2015-12",
+     "hasta": "2017-12",
+     "detalle": "CAS · GERENCIA GENERAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "RODRIGUEZ RABANAL, VICTOR ROBERTO",
+   "despacho": "Armacanqui Morales, Saúl Andrés",
+   "camara": "S",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Educación (MINEDU)",
+     "cargo": "ASESOR II",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "PAC · DESPACHO MINISTERIAL"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "MINISTERIO DE EDUCACIÓN",
+     "cargo": "ASESOR II DEL DESPACHO MINISTERIAL",
+     "desde": "2021-10-22",
+     "hasta": "2022-01-04",
+     "detalle": "Declaración jurada de intereses presentada el 2022-11-21"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "FERREL ZEBALLOS, WILDOR JULIO",
+   "despacho": "Arminta Valencia, Marleny Bibiana",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Gobierno Regional Moquegua (GRM)",
+     "cargo": "CONSULTOR",
+     "desde": "2018-12",
+     "hasta": "2018-12",
+     "detalle": "FAG · 0"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "RODRIGUEZ CERVANTES, CARLOS HERNANDO",
+   "despacho": "Astucuri Laura, Roger Miguel",
+   "camara": "S",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Seguro Social de Salud (ESSALUD)",
+     "cargo": "GERENTE DE LINEA",
+     "desde": "2018-12",
+     "hasta": "2018-12",
+     "detalle": "PAC · GC Operacione"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Fondo de Aseguramiento en Salud de la Policía Nacional del Perú (SALUDPOL)",
+     "cargo": "RESPONSABLE DE LAS OFICINAS DE SEGUROS",
+     "desde": "2017-12",
+     "hasta": "2017-12",
+     "detalle": "CAS · OFICINAS DE SEGUROS"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "CARDENAS LINO, YOVANA YSABEL",
+   "despacho": "Avendaño Vilca, Giannina Iris",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Vivienda, Construcción y Saneamiento (VIVIENDA)",
+     "cargo": "ASESORA II. R.M. N° 329-2021-VIVIENDA",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "Altos Funcionarios · DESPACHO MINISTERIAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "CHONATE VIDARTE, MONICA DEL ROSARIO",
+   "despacho": "Avendaño Vilca, Giannina Iris",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Educación (MINEDU)",
+     "cargo": "ESPECIALISTA",
+     "desde": "2026-09",
+     "hasta": "2026-09",
+     "detalle": "CAS · DIGE"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Educación (MINEDU)",
+     "cargo": "COORDINADOR",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · DIGE"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Educación (MINEDU)",
+     "cargo": "ESPECIALISTA",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "CAS · DIGE"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Educación (MINEDU)",
+     "cargo": "ESPECIALISTA DE SUPERVISIÓN DE LA COORDINACIÓN DE ARTICULACIÓN CON LAS INSTITUCIONES EDUCATIVAS PRIVADAS PARA LA DIRECCIÓN DE GESTIÓN ESCOLAR",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · DIGE - Dirección de Gestión Escolar"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Educación (MINEDU)",
+     "cargo": "ESPECIALISTA DE SUPERVISIÓN DE LA COORDINACIÓN DE ARTICULACIÓN CON LAS INSTITUCIONES EDUCATIVAS PRIVADAS PARA LA DIRECCIÓN DE GESTIÓN ESCOLAR",
+     "desde": "2018-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · DIGE - DIRECCIÓN DE GESTIÓN ESCOLAR"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Defensoría del Pueblo (DP)",
+     "cargo": "PROFESIONAL",
+     "desde": "2015-12",
+     "hasta": "2017-12",
+     "detalle": "CAS · ADJUNTIA DEL MEDIO AMBIENTE, SERVICIOS PUBLICOS Y PUEBLOS INDIGENAS"
+    }
+   ],
+   "otra_planilla_2026": true
+  },
+  {
+   "nombre": "ORE CORAJE, LISSETTE BERTILA",
+   "despacho": "Avendaño Vilca, Giannina Iris",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Metropolitana de Lima (MUNLIMA)",
+     "cargo": "PROFESIONAL",
+     "desde": "2015-12",
+     "hasta": "2017-12",
+     "detalle": "CAS · GERENCIA DE DESARROLLO ECONOMICO"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "SANCHEZ FERNANDEZ, LUIS MANUEL",
+   "despacho": "Avendaño Vilca, Giannina Iris",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Centro Nacional de Estimación, Prevención y Reducción del Riesgo de Desastres (CENEPRED)",
+     "cargo": "Diseñador Web",
+     "desde": "2018-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · Secretaria General"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "YUCRA MONTENEGRO, RENE MOISES",
+   "despacho": "Avendaño Vilca, Giannina Iris",
+   "camara": "D",
+   "cargo": "COORDINADOR",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Distrital de Villa El Salvador (MUNIVES)",
+     "cargo": "INSPECTOR MUNICIPAL DE FISCALIZACION",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · SUBGERENCIA DE FISCALIZACION ADMINISTRATIVA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "ARROYO LEON, MARCO ANTONIO",
+   "despacho": "Baella Malca, José Isidro",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "DJ",
+     "entidad": "SERVICIO NACIONAL FORESTAL Y DE FAUNA SILVESTRE - SERFOR",
+     "cargo": "ASESOR DE LA DIRECCION EJECUTIVA",
+     "desde": "2022-04-14",
+     "hasta": "2022-07-25",
+     "detalle": "Declaración jurada de intereses presentada el 2022-07-27"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "NAQUIRA CORNEJO, FRANCISCO NIVARDO",
+   "despacho": "Baella Malca, José Isidro",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Justicia y Derechos Humanos (MINJUS)",
+     "cargo": "DIRECTOR EJECUTIVO DEL PROGRAMA NACIONAL DE CENTROS JUVENILES",
+     "desde": "2024-12",
+     "hasta": "2025-12",
+     "detalle": "PAC · PROGRAMA NACIONAL DE CENTROS JUVENILES - PRONACEJ"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "LOPEZ BELTRAN, KEYSI CELINA",
+   "despacho": "Barbaran Reyes, Rosangella Andrea",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Banco de la Nación (BN)",
+     "cargo": "ANALISTA CRÉDITO HIPOTECARIO - COMERCIAL",
+     "desde": "2026-09",
+     "hasta": "2026-09",
+     "detalle": "Régimen 728/OTROS · SECCION CRÉDITO HIPOTECARIO"
+    }
+   ],
+   "otra_planilla_2026": true
+  },
+  {
+   "nombre": "VEGAS GUERRERO, CARMEN INES",
+   "despacho": "Barbaran Reyes, Rosangella Andrea",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Desarrollo Agrario y Riego (MIDAGRI)",
+     "cargo": "VICEMINISTRO",
+     "desde": "2024-12",
+     "hasta": "2025-12",
+     "detalle": "Altos Funcionarios · DESPACHO VICEMINISTERIAL DE POLITICAS AGRARIAS"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "MUNICIPALIDAD METROPOLITANA DE LIMA",
+     "cargo": "GERENTE DE PROMOCIÓN DE LA INVERSIÓN PRIVADA",
+     "desde": "2022-07-11",
+     "detalle": "Declaración jurada de intereses presentada el 2022-07-25"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Organismo Técnico de la Administración de los Servicios de Saneamiento (OTASS)",
+     "cargo": "SECRETARIA GENERAL",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · SECRETARIA GENERAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "CORNEJO SILVA, MARIA DEL PILAR",
+   "despacho": "Barragán Coloma, Daniel Hugo",
+   "camara": "S",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Defensa (MINDEF)",
+     "cargo": "CONSULTOR FAG",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "FAG · DIRECCIÓN DE BIENESTAR"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "LOPEZ GARCIA, YAHAIRA IVONNE",
+   "despacho": "Barragán Coloma, Daniel Hugo",
+   "camara": "S",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Organismo de Evaluación y Fiscalización Ambiental (OEFA)",
+     "cargo": "ASESORA LEGAL - EJECUCIÓN COACTIVA",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · OFICINA DE ADMINISTRACIÓN"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "HURTADO CAPRISTAN, OSCAR BENJAMIN",
+   "despacho": "Bazán Calderón, Diego Alonso Fernando",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Nacional de Apoyo Directo a los más Pobres - JUNTOS (JUNTOS)",
+     "cargo": "Director Ejecutivo",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · ALTA DIRECCION"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Nacional de Apoyo Directo a los más Pobres - JUNTOS (JUNTOS)",
+     "cargo": "DIRECTOR EJECUTIVO",
+     "desde": "2018-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · PROGRAMA NACIONAL CONTIGO"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Programa de Desarrollo Productivo Agrario Rural (AGRO RURAL)",
+     "cargo": "SUB. DIR. UNIDAD DE PLANIFICACION Y SEGUIMIENTO",
+     "desde": "2016-12",
+     "hasta": "2017-12",
+     "detalle": "CAS · UNIDAD DE PLANIFICACION Y SEGUIMIENTO"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "ANZUALDO VASQUEZ, MARIA LUISA",
+   "despacho": "Bobadilla Galindo, Angel Bruno",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Desarrollo Agrario y Riego (MIDAGRI)",
+     "cargo": "ASESORA DE ALTA DIRECCIÓN",
+     "desde": "2024-12",
+     "hasta": "2025-12",
+     "detalle": "PAC · VICEMINISTERIO DE POLÍTICAS Y SUPERVISIÓN DEL DESARROLLO AGRARIO"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "MINISTERIO DE ENERGÍA Y MINAS",
+     "cargo": "ASESORA ALTA DIRECCION DESPACHO MINISTERIAL",
+     "desde": "2022-11-10",
+     "hasta": "2022-12-13",
+     "detalle": "Declaración jurada de intereses presentada el 2022-11-28"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Desarrollo Agrario y Riego (MIDAGRI)",
+     "cargo": "FUNCIONARIOS",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · DESPACHO MINISTERIAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Salud (MINSA)",
+     "cargo": "EJECUTIVO/A ADJUNTO/A I",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · OFICINA GENERAL DE GESTIÓN DE RECURSOS HUMANO"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "MINISTERIO DE SALUD",
+     "cargo": "EJECUTIVA ADJUNTA I DE LA OGGRH",
+     "desde": "2022-08-05",
+     "hasta": "2022-11-08",
+     "detalle": "Declaración jurada de intereses presentada el 2022-11-28"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Salud (MINSA)",
+     "cargo": "DIRECTOR EJECUTIVO",
+     "desde": "2018-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · OF. DE ADMINISTRACION DE RR.HH."
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Salud (MINSA)",
+     "cargo": "ABOGADO(A)",
+     "desde": "2016-12",
+     "hasta": "2016-12",
+     "detalle": "CAS · OFICINA GENERAL DE GESTION RR.HH."
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Programa de Desarrollo Productivo Agrario Rural (AGRO RURAL)",
+     "cargo": "ASESORA",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · DIRECCION EJECUTIVA"
+    }
+   ],
+   "otra_planilla_2026": false,
+   "ambiguo": true
+  },
+  {
+   "nombre": "FREYRE HERNANDEZ, JHONAS ROBERTO",
+   "despacho": "Bobadilla Galindo, Angel Bruno",
+   "camara": "D",
+   "cargo": "ASISTENTE",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Banco de la Nación (BN)",
+     "cargo": "PROMOTOR DE SERVICIOS",
+     "desde": "2026-09",
+     "hasta": "2026-09",
+     "detalle": "Régimen 728/OTROS · AGENCIA 2 MINKA"
+    }
+   ],
+   "otra_planilla_2026": true
+  },
+  {
+   "nombre": "MONTES DE OCA VIDAL, ALIPIO",
+   "despacho": "Bobadilla Galindo, Angel Bruno",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Nacional Plataformas de Acción para la Inclusión Social (PNPAIS)",
+     "cargo": "EJECUTIVO (A) DE ASESORÍA JURÍDICA",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · UNIDAD DE ASESORÍA JURÍDICA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Autoridad Nacional de Infraestructura (ANIN)",
+     "cargo": "COORDINADOR LEGAL EN SISTEMAS ADMINISTRATIVOS",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "CAS · OFICINA DE ASESORÍA JURÍDICA"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "MINISTERIO DE TRABAJO Y PROMOCIÓN DEL EMPLEO",
+     "cargo": "LOCADOR DE SERVICIOS",
+     "desde": "2022-07-07",
+     "hasta": "2022-10-03",
+     "detalle": "Declaración jurada de intereses presentada el 2022-10-12"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "MINISTERIO DE TRABAJO Y PROMOCIÓN DEL EMPLEO",
+     "cargo": "LOCADOR DE SERVICIOS",
+     "desde": "2022-04-01",
+     "hasta": "2022-06-22",
+     "detalle": "Declaración jurada de intereses presentada el 2022-09-05"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "SEGURO SOCIAL DE SALUD - ESSALUD",
+     "cargo": "GERENTE DE ASUNTOS JURIDICOS",
+     "desde": "2020-03-09",
+     "hasta": "2021-08-25",
+     "detalle": "Declaración jurada de intereses presentada el 2022-08-31"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "FORONDA MERINO, LUZ ELENA",
+   "despacho": "Bonifaz Carmona, Nora",
+   "camara": "S",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Integral Nacional para el Bienestar Familiar (INABIF)",
+     "cargo": "SERVICIO: ESPECIALISTA SOCIAL",
+     "desde": "2017-12",
+     "hasta": "2017-12",
+     "detalle": "CAS · USPNNA - EDUCADORES DE CALLE - SEDE CENTRAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Nacional de Saneamiento Urbano (PNSU)",
+     "cargo": "Profesional Especialista",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · UNIDAD DE PLANEAMIENTO, PRESUPUESTO Y SISTEMAS DE INFORMACION"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "GUERRERO BRAVO, JUAN CARLOS",
+   "despacho": "Bonifaz Carmona, Nora",
+   "camara": "S",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "SUPERINTENDENCIA NACIONAL DE EDUCACION SUPERIOR UNIVERSITARIA (SUNEDU)",
+     "cargo": "ESPECIALISTA ADMINISTRATIVO III|COORDINADOR EN EVALUACION ACADEMICA PARA EL PROCEDIMIENTO DE LICENCIAMIENTO",
+     "desde": "2024-12",
+     "hasta": "2026-10",
+     "detalle": "CAS · UNIDAD DE VERIFICACIÓN DEL SERVICIO EDUCATIVO SUPERIOR UNIVERSITARIO"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "SUPERINTENDENCIA NACIONAL DE EDUCACION SUPERIOR UNIVERSITARIA (SUNEDU)",
+     "cargo": "ESPECIALISTA ADMINISTRATIVO III-COORDINADOR EN EVALUACION ACADEMICA PARA EL PROCEDIMIENTO DE LICENCIAMIENTO",
+     "desde": "2021-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · DIRECCION DE LICENCIAMIENTO"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "SUPERINTENDENCIA NACIONAL DE EDUCACIÓN SUPERIOR UNIVERSITARIA - SUNEDU",
+     "cargo": "COORDINADOR EN EVALUACION ACADÉMICA PARA EL PROCEDIMIENTO DE LICENCIAMIENTO",
+     "desde": "2021-01-04",
+     "detalle": "Declaración jurada de intereses presentada el 2022-10-12"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Educación (MINEDU)",
+     "cargo": "RESPONSABLE DE DESARROLLO DE CAPACIDADES PARA LA IMPLEMENTACIÓN DE MODELOS DE GESTIÓN TERRITORIAL",
+     "desde": "2017-12",
+     "hasta": "2017-12",
+     "detalle": "CAS · DAGED-DIRECCION DE APOYO A LA GESTION ED"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Educación (MINEDU)",
+     "cargo": "RESPONSABLE DE DESARROLLO DE CAPACIDADES PARA LA IMPLEMENTACIÓN DE MODELOS DE GESTIÓN TERRITORIAL",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · DAGED-DIRECCION DE APOYO A LA GESTION ED"
+    }
+   ],
+   "otra_planilla_2026": true
+  },
+  {
+   "nombre": "PAREDES TORRES, MICHAEL ALBERTO",
+   "despacho": "Bonifaz Carmona, Nora",
+   "camara": "S",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Trabajo y Promoción del Empleo (MTPE)",
+     "cargo": "ANALISTA EN DERECHO",
+     "desde": "2026-07",
+     "hasta": "2026-07",
+     "detalle": "CAS · DIRECCION GENERAL DE DERECHOS FUNDAMENTALES Y SEGURIDAD Y SA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Trabajo y Promoción del Empleo (MTPE)",
+     "cargo": "SIN DESCRIPCION",
+     "desde": "2024-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · DIRECCION GENERAL DE DERECHOS FUNDAMENTALES Y SEGURIDAD Y SA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Universidad Nacional Agraria La Molina (UNALM)",
+     "cargo": "ABOGADO",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · OFICINA DE ASESORIA LEGAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "CHUQUILLANQUI CHALCO, LUIS ARMANDO",
+   "despacho": "Bravo Quispe, Aldo Antonio",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Distrital de Villa María del Triunfo (MVMT)",
+     "cargo": "ABOGADO",
+     "desde": "2016-12",
+     "hasta": "2016-12",
+     "detalle": "CAS · GERENCIA MUNICIPAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "CAPARO MADRID, CARLOS EFRAIN",
+   "despacho": "Buitron Martínez, Freshman",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "DJ",
+     "entidad": "MINISTERIO PÚBLICO - FISCALÍA DE LA NACIÓN",
+     "cargo": "FISCAL ADJUNTO SUPERIOR PENAL",
+     "desde": "2017-07-17",
+     "detalle": "Declaración jurada de intereses presentada el 2022-08-18"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "HUACHALLANQUI SALCEDO, JESUS ALBERTO",
+   "despacho": "Buitron Martínez, Freshman",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "SUPERINTENDENCIA NACIONAL DE EDUCACION SUPERIOR UNIVERSITARIA (SUNEDU)",
+     "cargo": "ESPECIALISTA ADMINISTRATIVO I",
+     "desde": "2018-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · DIRECCION DE LICENCIAMIENTO"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "CORONEL SERRANO, WILFREDO",
+   "despacho": "Caballero León, Carlos David",
+   "camara": "S",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Defensa (MINDEF)",
+     "cargo": "CONSULTOR FAG",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "FAG · VICEMINISTERIO DE POLITICAS PARA LA DEFENSA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Defensa (MINDEF)",
+     "cargo": "INSPECTOR GENERAL",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · INSPECTORÍA GENERAL"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "MINISTERIO DE DEFENSA",
+     "cargo": "INSPECTOR GENERAL",
+     "desde": "2022-09-01",
+     "detalle": "Declaración jurada de intereses presentada el 2022-09-15"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "FUERZA AÉREA DEL PERÚ",
+     "cargo": "INSPECTOR GENERAL COMANDO CONJUNTO",
+     "desde": "2021-01-01",
+     "hasta": "2022-01-01",
+     "detalle": "Declaración jurada de intereses presentada el 2022-09-15"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "TORRES VEGA, CESAR MEDARDO",
+   "despacho": "Caballero León, Carlos David",
+   "camara": "S",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Defensa (MINDEF)",
+     "cargo": "VICEMINISTRO",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "Altos Funcionarios · VICEMINISTERIO DE POLITICAS PARA LA DEFENSA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "VILCHES RAA, RICARDO ANDRES",
+   "despacho": "Caballero León, Carlos David",
+   "camara": "S",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Defensa (MINDEF)",
+     "cargo": "ASESOR II DEL DESPACHO VICEMINISTERIAL DE POLITICAS PARA LA DEFENSA",
+     "desde": "2024-12",
+     "hasta": "2025-12",
+     "detalle": "PAC · DESPACHO VICEMINISTERIAL DE POLITICAS PARA LA DEFENSA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Defensa (MINDEF)",
+     "cargo": "DOCENTE PRINCIPAL, FACILITADOR ACADÉMICO EN TEMAS DE LA FUERZA AÉREA DEL PERÚ,",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · ESCUELA CONJUNTA DE LAS FUERZAS ARMADAS"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "ARAGÓN GAMIO, CECILIA DEL CARMEN",
+   "despacho": "Cabrera Nieto, Juan César",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Nacional para la Prevención y Erradicación de la Violencia contra las Mujeres e Integrantes (Warmi Ñan)",
+     "cargo": "COORDINADOR/A DE CEM",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · CEM ALTO SELVA ALEGRE (EX CEM SOCABAYA)"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Nacional para la Prevención y Erradicación de la Violencia contra las Mujeres e Integrantes (Warmi Ñan)",
+     "cargo": "ABOGADO/A",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · CEM GENERAL SANCHEZ CERRO"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "RIVAS TRUEBAS, GERMAN ALBERTO",
+   "despacho": "Cabrera Nieto, Juan César",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Universidad Nacional Jorge Basadre Grohmann (UNJBG)",
+     "cargo": "DOCENTE CONTRATADO",
+     "desde": "2026-06",
+     "hasta": "2026-06",
+     "detalle": "Régimen 728/OTROS · FECH-DELI"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Provincial de Tacna (MPTacna)",
+     "cargo": "ESPECIALISTA 1",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · OFICINA GENERAL DE COMUNICACIONES Y PREVENCION DE CONFLICTOS"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "VELASQUEZ OJANAMA, WALTER ADERVALO",
+   "despacho": "Cahuaza Mitivire, Oswar Elbis",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Defensoría del Pueblo (DP)",
+     "cargo": "ANALISTA LEGAL",
+     "desde": "2018-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · OFICINA DEFENSORIAL DE UCAYALI"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "RODRIGUEZ MORALES, VICTOR HUGO",
+   "despacho": "Calisto Giampietri, Francisco José",
+   "camara": "S",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Dirección Regional de Salud del Callao (DIRESA - CALLAO)",
+     "cargo": "ASIST. EN SERV.REC.NAT.I",
+     "desde": "2026-09",
+     "hasta": "2026-09",
+     "detalle": "Régimen 276 · C.S. BELLAVISTA PERU COREA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Seguro Social de Salud (ESSALUD)",
+     "cargo": "Técnico",
+     "desde": "2026-08",
+     "hasta": "2026-08",
+     "detalle": "Régimen 276 · RED ASISTENCIAL LA LIBERTAD"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Dirección Regional de Salud del Callao (DIRESA - CALLAO)",
+     "cargo": "AUX. SANITARIO",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · ADMINISTRACION CENTRAL BELLAVISTA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Dirección Regional de Salud del Callao (DIRESA - CALLAO)",
+     "cargo": "AUXILIAR SANITARIO",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "CAS · ADMINISTRACION CENTRAL BELLAVISTA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Dirección Regional de Salud del Callao (DIRESA - CALLAO)",
+     "cargo": "AUXILIAR SANITARIO",
+     "desde": "2021-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · *** NO EXISTE ***"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "POLICÍA NACIONAL DEL PERÚ",
+     "cargo": "SS PNP-SA-USE-DUE-DIVOPS-REGPOL-AQP-IX-MACREPOL-AQP-OPERATIVO",
+     "desde": "1986-03-01",
+     "detalle": "Declaración jurada de intereses presentada el 2022-10-27"
+    }
+   ],
+   "otra_planilla_2026": true
+  },
+  {
+   "nombre": "AGUILERA OSORIO, SAHIRA MARGARITA",
+   "despacho": "Castillo Terrones, José Mercedes",
+   "camara": "S",
+   "cargo": "ASISTENTE",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Universidad Nacional Mayor de San Marcos (UNMSM)",
+     "cargo": "CAS ADMINISTRATIVO - FACULTAD",
+     "desde": "2025-12",
+     "hasta": "2026-07",
+     "detalle": "CAS · FACULTAD DE ODONTOLOGIA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Universidad Nacional Mayor de San Marcos (UNMSM)",
+     "cargo": "ADMINISTRATIVO CAS",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "CAS · FACULTAD DE ODONTOLOGIA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Universidad Nacional Mayor de San Marcos (UNMSM)",
+     "cargo": "AUXILIARES",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · FAC. DE ODONTOLOGIA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "CONTRERAS DIAZ, MARIA FATIMA",
+   "despacho": "Castrejon Fernandez, Segundo Juan",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "DJ",
+     "entidad": "OFICINA NACIONAL DE PROCESOS ELECTORALES - ONPE",
+     "cargo": "JEFE DE ODPE MOYOBAMBA",
+     "desde": "2022-06-17",
+     "hasta": "2022-11-20",
+     "detalle": "Declaración jurada de intereses presentada el 2022-07-12"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "MUÑOZ VALDERRAMA, ENRIQUE",
+   "despacho": "Castrejon Fernandez, Segundo Juan",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Cultura (CULTURA)",
+     "cargo": "ESPECIALISTA EN GESTIÓN INTERCULTURAL",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · DESPACHO VICEMINISTERIAL DE INTERCULTURALIDAD"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Cultura (CULTURA)",
+     "cargo": "SERVICIO DE UN ESPECIALISTA EN GESTION INTERCULTURAL PARA LA DIRECCION DESCONCENTRADA DE LAMBAYEQUE.",
+     "desde": "2018-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · DESPACHO VICEMINISTERIAL DE INTERCULTURALIDAD"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "CASAFRANCA GARCIA, ROGER REYNALDO",
+   "despacho": "Castro Grandez, Royser",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "JUNTA NACIONAL DE JUSTICIA (JNJ)",
+     "cargo": "ASESOR I",
+     "desde": "2026-09",
+     "hasta": "2026-09",
+     "detalle": "Régimen 728/OTROS · DIRECCIÓN DE EVALUACIÓN Y RATIFICACIÓN"
+    }
+   ],
+   "otra_planilla_2026": true
+  },
+  {
+   "nombre": "ESTELA CASAS, MARITZA ELIZABETH",
+   "despacho": "Castro Grandez, Royser",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Salud (MINSA)",
+     "cargo": "ABOGADO(A)",
+     "desde": "2016-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · PROCURADURIA PUBLICA MINSA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "NATIVIDAD HENOSTROZA, ALFREDO RICARDO",
+   "despacho": "Castro Grandez, Royser",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Salud (MINSA)",
+     "cargo": "DIRECTOR EJECUTIVO",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · OFICINA DE TRANSPARENCIA Y ANTICORRUPCIÓN"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Energía y Minas (MINEM)",
+     "cargo": "JEFE DE LA OFICINA DE INTEGRIDAD INSTITUCIONAL",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "CAS · OFICINA DE INTEGRIDAD INSTITUCIONAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "LUYA ASTO, DICK JEFFERSON",
+   "despacho": "Ccahuana Aymachoque, Hugo Isaac",
+   "camara": "S",
+   "cargo": "AUXILIAR",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Instituto Nacional de Enfermedades Neoplásicas (INEN)",
+     "cargo": "OF. DE PLANEAMIENTO ESTRATEGICO",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "CAS · ESPECIALISTA EN GESTION II"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "MAMIO IMANO, HECTOR AGUSTIN",
+   "despacho": "Ccahuana Aymachoque, Hugo Isaac",
+   "camara": "S",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "HOSPITAL II SANTA ROSA DE PUERTO MALDONADO (HOSPITALII)",
+     "cargo": "2593-ESP. EN ORGANIZACION II",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "CAS · 1381.66"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "VILLACORTA MALDONADO, MARCO ANTONIO",
+   "despacho": "Ccahuana Aymachoque, Hugo Isaac",
+   "camara": "S",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Transportes y Comunicaciones (MTC)",
+     "cargo": "DIRECTOR GENERAL DE LA DIRECCIÓN GENERAL DE FISCALIZACIONES Y SANCIONES EN TRANSPORTES",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "PAC · VICEMINISTRO DE TRANSPORTES"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "CRUZ PEÑA, SAMMY EDWARD",
+   "despacho": "Celiz Castillo, Rafael Aldo",
+   "camara": "D",
+   "cargo": "COORDINADOR",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Gobierno Regional Tumbes (GR-Tumbes)",
+     "cargo": "CONSEJERO REGIONAL",
+     "desde": "2024-12",
+     "hasta": "2026-09",
+     "detalle": "Altos Funcionarios · CONSEJO REGIONAL"
+    }
+   ],
+   "otra_planilla_2026": true
+  },
+  {
+   "nombre": "MACHUCA FLORES, MARCO ANTONIO",
+   "despacho": "Celiz Castillo, Rafael Aldo",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio del Interior (MININTER)",
+     "cargo": "ANALISTA I EN EVALUACIÓN Y SUPERVISIÓN DE SEGURIDAD CIUDADANA",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "CAS · DIRECCION DE EJECUCION DE POLITICAS DE SEGURIDAD CIUDADANA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio del Interior (MININTER)",
+     "cargo": "ANALISTA II PARA LA ESTRATEGIA MULTISECTORIAL BARRIO SEGURO",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · DIRECCION GENERAL DE SEGURIDAD CIUDADANA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "SALVATIERRA VALDIVIA, ROSA ELVIRA",
+   "despacho": "Chacón De Vettori, Cecilia Isabel",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Distrital de Lince (MDL)",
+     "cargo": "GERENTE",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · GERENCIA DE DESARROLLO HUMANO-GESTION ADMINISTRATIVA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "CABALLERO MARREROS, EDSON JOHAN",
+   "despacho": "Chang Apuy, Felix See Hung",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "ESCUELA NACIONAL SUPERIOR DE ARTE DRAMÁTICO GUILLERMO UGARTE CHAMORRO (ENSAD)",
+     "cargo": "JEFE DE OFICINA",
+     "desde": "2017-12",
+     "hasta": "2017-12",
+     "detalle": "CAS · OFICINA DE PLANIFICACIÓN Y PRESUPUESTO"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Autoridad Nacional del Agua (ANA)",
+     "cargo": "ESPECIALISTA EN LOGISTICA",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · AUTORIDAD ADMINISTRATIVA DEL AGUA - CAÑETE FORTALEZA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "RAMIREZ ACUÑA, YOSIP PAUL",
+   "despacho": "Chang Apuy, Felix See Hung",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Provincial de Sullana (MP-SULLANA)",
+     "cargo": "JEFE DE LA OFICINA DE TECNOLOGIA DE LA INFORMACIÓN",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · OFICINA DE TECNOLOGIAS DE LA INFORMACION"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Distrital Veintiséis de Octubre (MDVO)",
+     "cargo": "RESPONSABLE DE INFORMATICA",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "CAS · UNIDAD DE TECNOLOGIA, DE INFORMACION Y COMUNICACIONES"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Nacional de Alimentación Escolar Comunitaria Wasi Mikuna (PNAEC - WASI MIKUNA)",
+     "cargo": "ESPECIALISTA INFORMATICO",
+     "desde": "2016-12",
+     "hasta": "2016-12",
+     "detalle": "CAS · U.T. PIURA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "ROSSELL BARRETO, ROSSANA IRENE",
+   "despacho": "Chang Apuy, Felix See Hung",
+   "camara": "D",
+   "cargo": "AUXILIAR",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Distrital de Castilla (MDC)",
+     "cargo": "ASISTENTE",
+     "desde": "2026-05",
+     "hasta": "2026-05",
+     "detalle": "CAS · OFICINA GENERAL DE ADMINISTRACION Y FINANZAS"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "HUANCA MAMANI, ZAIDA YESEL",
+   "despacho": "Chipana Chipana, José Moisés",
+   "camara": "S",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "SUPERINTENDENCIA NACIONAL DE FISCALIZACION LABORAL (SUNAFIL)",
+     "cargo": "ESPECIALISTA LEGAL I",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · INTENDENCIA REGIONAL DE PUNO"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Economía y Finanzas (MEF)",
+     "cargo": "SINCARGO",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "CAS · SALAS ESPECIALIZADAS"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Superintendencia de Transporte Terrestre de Personas, Carga y Mercancias (SUTRAN)",
+     "cargo": "RESOLUTOR",
+     "desde": "2021-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · SUBGERENCIA DE PROCEDIMIENTOS DE SERVICIOS DE TRANSPORTE Y DE PESOS Y MEDIDAS"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Superintendencia de Transporte Terrestre de Personas, Carga y Mercancias (SUTRAN)",
+     "cargo": "RESOLUTOR",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · SUBGERENCIA DE PROCEDIMIENTOS DE SERVICIOS DE TRANSPORTE Y DE PESOS Y MEDIDAS"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "MAMANI HUANCA, JORGE LUIS",
+   "despacho": "Chipana Chipana, José Moisés",
+   "camara": "S",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Corte Superior de Justicia de Amazonas (CSJA)",
+     "cargo": "CONTRATO ADMVO SERVICIOS",
+     "desde": "2026-09",
+     "hasta": "2026-09",
+     "detalle": "CAS · GERENCIA GENERAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Poder Judicial (PJ)",
+     "cargo": "CONTRATO ADMVO SERVICIOS",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · GERENCIA GENERAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Corte Superior de Cusco (D.J. Cusco)",
+     "cargo": "ASISTENTE DE ATENCIàN AL PéBLICO",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "CAS · Módulo Penal para sanción delitos asocia"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Corte Superior de Cusco (D.J. Cusco)",
+     "cargo": "Módulo Penal para sanción delitos asociados a viol",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "CAS · Módulo Penal para sanción delitos asociados a viol"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "POLICÍA NACIONAL DEL PERÚ",
+     "cargo": "SUBOFICIAL DE 2DA PNP",
+     "desde": "2012-04-01",
+     "detalle": "Declaración jurada de intereses presentada el 2022-12-14"
+    }
+   ],
+   "otra_planilla_2026": true
+  },
+  {
+   "nombre": "BURGA CARBAJAL, JOSE FRANCISCO",
+   "despacho": "Chipana Condori, Graciela",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "UNIDAD EJECUTORA FONDO SIERRA AZUL (UEFSA)",
+     "cargo": "JEFE DE LA OFICINA DE ASESORIA LEGAL",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "CAS · DIRECCION EJECUTIVA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "PHILIPPS ZEBALLOS, ANDY WILLIAM VINCENT",
+   "despacho": "Chipana Condori, Graciela",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Gobierno Regional de Arequipa (GRA)",
+     "cargo": "OFIC. INTEGRIDAD INSTITUCIONAL",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "FAG · GERENCIA GENERAL REGIONAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Gobierno Regional de Arequipa (GRA)",
+     "cargo": "CONSULTOR FAG",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "FAG · GERENCIA GENERAL REGIONAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "VARGAS MONTENEGRO, JAIME AUGUSTO TERCERO",
+   "despacho": "Cipriani Thorne, Javier José María",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Distrital de Jesús María (MDJM)",
+     "cargo": "SECRETARIO GENERAL",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · SECRETARIA GENERAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Distrital de San Juan de Miraflores - LIMA (SJM)",
+     "cargo": "FUNCIONARIO",
+     "desde": "2018-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · GERENCIA DE ASESORIA JURIDICA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "CARHUAS GIRON, ANGELICA ROSARIO",
+   "despacho": "Colchado Huamani, Harvey Julio",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Presidencia del Consejo de Ministros (PCM)",
+     "cargo": "APOYO TÉCNICO PARA LA SISTEMATIZACIÓN Y REGISTRO DE INFORMACIÓN REFERIDA A LA EJECUCIÓN DE PROYECTOS EN EL MARCO DEL DECRETO DE URGENCIA N°068-2020",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "PNUD · SECRETARÍA DE DESCENTRALIZACIÓN"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "QUINTEROS MARQUINA, VICTOR MANUEL",
+   "despacho": "Colchado Huamani, Harvey Julio",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio del Interior (MININTER)",
+     "cargo": "VOCAL",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "CAS · TRIBUNAL DE DISCIPLINA POLICIAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio del Interior (MININTER)",
+     "cargo": "DIRECTOR GENERAL",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "CAS · DIRECCIÓN GENERAL DE SEGURIDAD DEMOCRÁTICA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Poder Judicial (PJ)",
+     "cargo": "CONTRATO ADMVO SERVICIOS",
+     "desde": "2018-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · CORTE SUPREMA JUSTICIA DE LA REPUBLICA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Justicia y Derechos Humanos (MINJUS)",
+     "cargo": "DIRECTOR DE PROGRAMA SECTORIAL II",
+     "desde": "2017-12",
+     "hasta": "2017-12",
+     "detalle": "CAS · DIRECCIÓN DE REGISTRO E INVESTIGACIÓN FORENSE"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Justicia y Derechos Humanos (MINJUS)",
+     "cargo": "DIRECTOR DE PROGRAMA SECTORIAL IV",
+     "desde": "2016-12",
+     "hasta": "2016-12",
+     "detalle": "CAS · DIRECCION GENERAL DE POLITICA CRIMINAL Y PENITENCIARIA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Superintendencia Nacional de Control de Servicios de Seguridad, Armas, Municiones y Explosivos de Us (SUCAMEC)",
+     "cargo": "Gerente de Políticas",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · GP"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "DE ITA PORRAS, MARIA ALEJANDRA",
+   "despacho": "De Paz Lancho, Leo Miguel",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de la Mujer y Poblaciones Vulnerables (MIMP)",
+     "cargo": "ESPECIALISTA EN SEGUIMIENTO E IMPLEMENTACIÓN PARA SNEJ",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · DIRECCIÓN DE ASISTENCIA TÉCNICA Y PROMOCIÓN DE SERVICIOS"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "JURADO NACIONAL DE ELECCIONES - JNE",
+     "cargo": "REGIDORA",
+     "desde": "2022-01-04",
+     "hasta": "2022-10-02",
+     "detalle": "Declaración jurada de intereses presentada el 2022-08-19"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Poder Judicial (PJ)",
+     "cargo": "CONTRATO ADMVO SERVICIOS",
+     "desde": "2016-12",
+     "hasta": "2016-12",
+     "detalle": "CAS · D.J. DE LIMA SUR"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "LOPEZ ORIHUELA, VICTOR FELIX",
+   "despacho": "Del Águila Cárdenas, Juan Carlos",
+   "camara": "S",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Provincial de Maynas (MPM)",
+     "cargo": "GERENTE MUNICIPAL",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "Altos Funcionarios · SN"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Provincial de Maynas (MPM)",
+     "cargo": "ABOGADO",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "Ley Servir · GERENCIA MUNICIPAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Gobierno Regional de Loreto (GOREL)",
+     "cargo": "AUXILIAR ADMINISTRATIVO",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · OFICINA GENERAL DE ASESORIA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "AMAYA MEGO, CAROLINA MARGOT",
+   "despacho": "Delgado Zegarra, Jaime Ricardo",
+   "camara": "S",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de la Mujer y Poblaciones Vulnerables (MIMP)",
+     "cargo": "DIRECTOR (A) GENERAL",
+     "desde": "2025-12",
+     "hasta": "2026-09",
+     "detalle": "CAS · DIRECCIÓN GENERAL DE POBLACIÓN, DESARROLLO Y VOLUNTARIADO"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Consejo Nacional para la Integración de la Persona con Discapacidad (CONADIS)",
+     "cargo": "ASESOR II.",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · PRESIDENCIA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Transportes y Comunicaciones (MTC)",
+     "cargo": "SECRETARIA GENERAL",
+     "desde": "2017-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · 13300"
+    }
+   ],
+   "otra_planilla_2026": true
+  },
+  {
+   "nombre": "PONCE DE LEON GOMEZ, BRUNO DAVID",
+   "despacho": "Delgado Zegarra, Jaime Ricardo",
+   "camara": "S",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Nacional Plataformas de Acción para la Inclusión Social (PNPAIS)",
+     "cargo": "EJECUTIVO (A) DE LA UNIDAD DE COMUNICACIÓN E IMAGEN",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · UNIDAD DE COMUNICACION E IMAGEN"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "MINISTERIO DE LA MUJER Y POBLACIONES VULNERABLES",
+     "cargo": "DIRECTOR DE LA OFICINA DE COMUNICACIONES",
+     "desde": "2022-09-03",
+     "hasta": "2022-12-13",
+     "detalle": "Declaración jurada de intereses presentada el 2022-09-23"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de la Mujer y Poblaciones Vulnerables (MIMP)",
+     "cargo": "DIRECTOR II",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "FAG · OFICINA DE COMUNICACIONES"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Instituto Nacional de Radio y Televisión del Perú (IRTP)",
+     "cargo": "REPOR. PRENSA I",
+     "desde": "2015-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · GERENCIA DE PRENSA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "PREGUNTEGUI MANTILLA, JHONY ELIZABETH",
+   "despacho": "Delgado Zegarra, Jaime Ricardo",
+   "camara": "S",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Superintendencia de Transporte Terrestre de Personas, Carga y Mercancias (SUTRAN)",
+     "cargo": "PROCURADOR PUBLICO ADJUNTO",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "CAS · PROCURADURÍA PÚBLICA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Superintendencia de Transporte Terrestre de Personas, Carga y Mercancias (SUTRAN)",
+     "cargo": "PROCURADOR PUBLICO ADJUNTO",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · PROCURADURÍA PÚBLICA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "QUISPE HUARAYA, OSCAR",
+   "despacho": "Dodero Jovich, Pierangeli Daniela",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Defensoría del Pueblo (DP)",
+     "cargo": "COORDINADOR",
+     "desde": "2017-12",
+     "hasta": "2017-12",
+     "detalle": "CAS · MODULO DE ATENCION DEFENSORIAL DE JULIACA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "BOURONCLE HERRERA, JESSICA HAYDE",
+   "despacho": "Dominguez Herrera, Carlos Alberto",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Vivienda, Construcción y Saneamiento (VIVIENDA)",
+     "cargo": "ASESOR II DEL DESPACHO MINISTERIAL. R.M. Nº 217-2016-VIVIENDA",
+     "desde": "2016-12",
+     "hasta": "2016-12",
+     "detalle": "Altos Funcionarios · DESPACHO MINISTERIAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "BALTAZAR ZUÑIGA, PAOLA MELISA",
+   "despacho": "Duarte, Georgina",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Educación (MINEDU)",
+     "cargo": "COORDINADOR (2) TEMÁTICO (A) SENIOR PARA EL PROYECTO EDUCATIVO NACIONAL (CÓDIGO AIRHSP 002079)",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · CNE - Consejo Nacional de Educación"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Instituto Nacional de Innovación Agraria (INIA)",
+     "cargo": "DIRECTORA",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · SECRETARIA GENERAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "MUÑOZ AGUILAR, JOEL ROLANDO",
+   "despacho": "Duarte, Georgina",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Gobierno Regional Junín (GRJ)",
+     "cargo": "Contratado CAS",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · 4500"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "RODRIGUEZ CAMPOS, RAFAEL",
+   "despacho": "Duarte, Georgina",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Justicia y Derechos Humanos (MINJUS)",
+     "cargo": "DIRECTOR DE SISTEMA ADMINISTRATIVO IV",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "PAC · OFICINA GENERAL DE ASESORIA JURIDICA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "LANZA SILVA, JORGE LARICK",
+   "despacho": "Espinoza Huillca, Edwin",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "PROGRAMA NACIONAL DE INFRAESTRUCTURA EDUCATIVA (PRONIED)",
+     "cargo": "DIRECTOR DE LA OFICINA DE COMUNICACIONES",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "CAS · OFICINA DE COMUNICACIONES"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Programa de Empleo Temporal Llamkasun Perú (Llamkasun Perú)",
+     "cargo": "JEFE DE UNIDAD ZONAL",
+     "desde": "2016-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · UNIDA ZONAL DE CUSCO"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "MENA QUECAÑO, CHRISTIAN OMAR",
+   "despacho": "Espinoza Huillca, Edwin",
+   "camara": "D",
+   "cargo": "ASISTENTE",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Nacional de Empleo Jovenes Productivos (PNEJP)",
+     "cargo": "JEFE DEL PROYECTO DE FONDOEMPLEO C-14-07 \"CAPACITACIÓN E INSERCIÓN LABORAL- ASIS",
+     "desde": "2017-12",
+     "hasta": "2017-12",
+     "detalle": "CAS · CUSCO"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "VEGA MAMANI, WILLIAM RENE",
+   "despacho": "Espinoza Huillca, Edwin",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Superintendencia Nacional de Aduanas y de Administración Tributaria (SUNAT)",
+     "cargo": "ESPECIALISTA 3",
+     "desde": "2026-09",
+     "hasta": "2026-09",
+     "detalle": "Régimen 728/OTROS · DIVISIÓN DE TÉCNICA ADUANERA, RECAUDACIÓN Y CONTABILIDAD"
+    }
+   ],
+   "otra_planilla_2026": true
+  },
+  {
+   "nombre": "GARCIA URRUTIA OYOLA, ROSSANA GRACIELA",
+   "despacho": "Eusebio Padilla, Arturo César",
+   "camara": "D",
+   "cargo": "ASISTENTE",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Cultura (CULTURA)",
+     "cargo": "ASISTENTE ADMINISTRATIVO",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · DESPACHO MINISTERIAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "VELASQUEZ LA ROSA, GRETEL DYANA",
+   "despacho": "Eusebio Padilla, Arturo César",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Universidad Nacional de Educación Enrique Guzmán y Valle (UNE)",
+     "cargo": "TEC. EN INFORMATICA Y AUDIOVI.",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · DIRECCION DE BIENESTAR UNIVERSITARIO"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Distrital de Lurigancho-Chosica (MDLCH)",
+     "cargo": "Auxiliar Administrativo",
+     "desde": "2018-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · Sub Gerencia de Administración Tributaria y Orientación al Contribuyente"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Distrital de Lurigancho-Chosica (MDLCH)",
+     "cargo": "Auxiliar Administrativo",
+     "desde": "2016-12",
+     "hasta": "2016-12",
+     "detalle": "CAS · Sub Gerencia de Administración Tributaria y Orientación al Contribuyente"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Distrital de Lurigancho-Chosica (MDLCH)",
+     "cargo": "Seguridad de Palacio",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · Gerencia de Servicios Públicos"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "DURAN CONDORI, LUIS ALBERTO",
+   "despacho": "Fernández Gonzalez, Svieta Valia",
+   "camara": "D",
+   "cargo": "COORDINADOR",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Distrital Crnl. Gregorio Albarracín­ Lanchipa (MD-CGAL)",
+     "cargo": "DIRECTOR DE SISTEMA ADMINISTRATIVO II",
+     "desde": "2024-12",
+     "hasta": "2026-04",
+     "detalle": "CAS · SUB GERENCIA DE TRANSPORTES Y SEGURIDAD VIAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Provincial de Tacna (MPTacna)",
+     "cargo": "SUB GERENTE DE JUVENTUD ED.CUL",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · SUB GERENCIA DE JUVENTUD, EDUCACION, CULTURA, DEPORTE Y RECREACION"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "ESCOBEDO VELANDO, EDGARD RAFAEL",
+   "despacho": "Fernández Gonzalez, Svieta Valia",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Autoridad Nacional del Agua (ANA)",
+     "cargo": "ESPECIALISTA EN CONSERVACION Y PLANEAMIENTO DE LOS RECURSOS HIDRICOS",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · ADMINISTRACION LOCAL DE AGUA LOCUMBA SAMA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "OSORIO BECERRA, RODRIGO ALONSO",
+   "despacho": "Fernández Gonzalez, Svieta Valia",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Salud (MINSA)",
+     "cargo": "EJECUTIVO/A ADJUNTO/A I",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · DIRECCION GENERAL DE SALUD AMBIENTAL E INOCUI"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Salud (MINSA)",
+     "cargo": "JEFE DE EQUIPO",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "CAS · DIRECCIÓN DE FISCALIZACIÓN Y SANCIÓN"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Justicia y Derechos Humanos (MINJUS)",
+     "cargo": "APOYO LEGAL",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · PROCURADURIA PUBLICA ESPECIALIZADA EN DELITOS DE CORRUPCION"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "ROJAS CALDERON, YELITH TAID",
+   "despacho": "Fernández Nina, Nery Rodolfo",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Gobierno Regional Cusco (GRCusco)",
+     "cargo": "PROFESIONAL DE PLANTA II",
+     "desde": "2026-09",
+     "hasta": "2026-09",
+     "detalle": "Régimen 276 · GRISMPV"
+    }
+   ],
+   "otra_planilla_2026": true
+  },
+  {
+   "nombre": "ZAPANA IBARRA, GUIDO ADRIAN",
+   "despacho": "Fernández Nina, Nery Rodolfo",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "ESCUELA NACIONAL SUPERIOR AUTÓNOMA DE BELLAS ARTES DEL PERÚ (ENSABAP)",
+     "cargo": "DIRECTOR DE ASESORIA LEGAL",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · DIRECCIÓN DE ASESORIA LEGAL"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "ESCUELA NACIONAL SUPERIOR AUTÓNOMA DE BELLAS ARTES DEL PERÚ",
+     "cargo": "DIRECTOR DE ASESORIA LEGAL",
+     "desde": "2021-06-01",
+     "detalle": "Declaración jurada de intereses presentada el 2022-08-08"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "TOMAYLLA HUARANCCA, ABDON",
+   "despacho": "Fernández de la Torre, Hilda Judit",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Organismo de Formalización de la Propiedad Informal (COFOPRI)",
+     "cargo": "JEFE OFICINA ZONAL",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "CAS · ZONAL APURIMAC"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Organismo de Formalización de la Propiedad Informal (COFOPRI)",
+     "cargo": "JEFE OFICINA ZONAL",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · ZONAL APURIMAC"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Fondo de Cooperación para el Desarrollo Social (FONCODES)",
+     "cargo": "JEFE UNIDAD TERRITORIAL CUSCO",
+     "desde": "2018-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · UNIDAD TERRITORIAL DE CUSCO"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "MEZA DEXTRE, CARLOS JESUS",
+   "despacho": "Figallo Rivadeneyra, Flavio Felipe",
+   "camara": "S",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Presidencia del Consejo de Ministros (PCM)",
+     "cargo": "COORDINADOR PARA EL MONITOREO DEL DISEÑO Y EVALUACIÓN DE INSTRUMENTOS DE PROMOCIÓN DEL DESARROLLO TERRITORIAL Y LA DESCENTRALIZACIÓN",
+     "desde": "2024-12",
+     "hasta": "2025-12",
+     "detalle": "PNUD · SECRETARIA DE DESCENTRALIZACION"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "PRESIDENCIA DEL CONSEJO DE MINISTROS - P C M",
+     "cargo": "SUBSECRETARIO DE ASUNTOS TECNICOS EN DEMARCACION Y ORGANIZACION TERRITORIAL",
+     "desde": "2020-12-26",
+     "hasta": "2022-09-20",
+     "detalle": "Declaración jurada de intereses presentada el 2022-10-12"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Presidencia del Consejo de Ministros (PCM)",
+     "cargo": "SUBSECRETARIO DE ASUNTOS TÉCNICOS DE DEMARCACIÓN Y ORGANIZACIÓN TERRITORIAL",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "PAC · SECRETARIA DE DEMARCACIÓN Y ORGANIZACIÓN TERRITORIAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Educación (MINEDU)",
+     "cargo": "COORDINADOR SENIOR ADMINISTRATIVO PARA LA UMC",
+     "desde": "2018-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · UMC - OFICINA DE MEDICIÓN DE LA CALIDAD DE LOS APRENDIZAJES"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Educación (MINEDU)",
+     "cargo": "GERENTE PARA EL PROGRAMA PRESUPUESTAL CON ENFOQUE POR RESULTADOS -LOGROS DE APRENDIZAJE DE LOS ESTUD",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · VMGP - DESPACHO VICEMINISTERIAL DE GESTI"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "TWANAMA ALTAMIRANO, WALTER PAUL",
+   "despacho": "Figallo Rivadeneyra, Flavio Felipe",
+   "camara": "S",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Desarrollo e Inclusión Social (MIDIS)",
+     "cargo": "DIRECTOR GENERAL",
+     "desde": "2018-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · DIRECCION GENERAL DE POLITICAS Y ESTRATEGIAS"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Educación (MINEDU)",
+     "cargo": "ADMINISTRATIVO CAS",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · VMGP - DESPACHO VICEMINISTERIAL DE GESTI"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "ADVINCULA RIQUE, LUZ AMPARO",
+   "despacho": "Figari Mendoza, Pier Paolo",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Economía y Finanzas (MEF)",
+     "cargo": "EXPERTO (A) LEGAL EN INVERSION PUBLICA",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · DIRECCION GENERAL DE PROGRAMACION MULTIANUAL DE INVERSIONES"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "REYES ESTEVES, CARLOS ALEJANDRO",
+   "despacho": "Figari Mendoza, Pier Paolo",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Justicia y Derechos Humanos (MINJUS)",
+     "cargo": "CONSULTOR",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "FAG · DESPACHO MINISTERIAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "JORGES CUARESMA, DIEGO ENRIQUE JESUS",
+   "despacho": "Flores Córdova, Agripina María del Pilar",
+   "camara": "S",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Gobierno Regional del Callao (GR-Callao)",
+     "cargo": "PERSONAL CAS",
+     "desde": "2021-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · GERENCIA REGIONAL DE TRANSPORTES Y COMUNICACIONES"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "RODRIGUEZ ARONES, JHERSON ALFREDO",
+   "despacho": "Flores Córdova, Agripina María del Pilar",
+   "camara": "S",
+   "cargo": "ASISTENTE",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Universidad Nacional Federico Villarreal (UNFV)",
+     "desde": "2026-03",
+     "hasta": "2026-03",
+     "detalle": "Régimen 276 · CENTRO UNIVERSITARIO DE IDIOMAS"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "FALCONI CULACA, CARMEN VILMA",
+   "despacho": "Flores Ruiz, Víctor Seferino",
+   "camara": "S",
+   "cargo": "ASISTENTE",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Distrital de San Martín de Porres (MDSMP)",
+     "cargo": "SECRETARIA",
+     "desde": "2016-12",
+     "hasta": "2016-12",
+     "detalle": "CAS · SUB GERENCIA DE RECURSOS HUMANOS"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "SALAZAR DE LA TORRE, MILAGROS EMPERATRIZ",
+   "despacho": "Flores Ruiz, Víctor Seferino",
+   "camara": "S",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Universidad Nacional Mayor de San Marcos (UNMSM)",
+     "cargo": "DOCENTE UNIVERSITARIO DOCTOR TC",
+     "desde": "2026-07",
+     "hasta": "2026-07",
+     "detalle": "Régimen 276 · FACULTAD DE MEDICINA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "PORTAL CHAVEZ, VICTOR MOISES",
+   "despacho": "Flores Suárez, Juver Nilson",
+   "camara": "S",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "DJ",
+     "entidad": "MINISTERIO DEL INTERIOR",
+     "cargo": "ASESOR",
+     "desde": "2022-08-15",
+     "hasta": "2022-10-03",
+     "detalle": "Declaración jurada de intereses presentada el 2022-10-26"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "INDECOPI",
+     "cargo": "ASESOR",
+     "desde": "2021-09-20",
+     "hasta": "2022-07-20",
+     "detalle": "Declaración jurada de intereses presentada el 2022-07-20"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Metropolitana de Lima (MUNLIMA)",
+     "cargo": "ASESOR",
+     "desde": "2017-12",
+     "hasta": "2017-12",
+     "detalle": "CAS · GERENCIA DE COMUNICACION SOCIAL Y RELACIONES PUBLICAS"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Metropolitana de Lima (MUNLIMA)",
+     "cargo": "COORDINADOR ADMINIST",
+     "desde": "2016-12",
+     "hasta": "2016-12",
+     "detalle": "CAS · GERENCIA DE COMUNICACION SOCIAL Y RELACIONES PUBLICAS"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "RENGIFO MEJIA, GIANNI SIDNEY",
+   "despacho": "Flores Suárez, Juver Nilson",
+   "camara": "S",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Seguro Integral de Salud (SIS)",
+     "cargo": "DIRECTOR GENERAL",
+     "desde": "2018-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · OFICINA GENERAL DE IMAGEN INSTITUCIONAL Y TRANSPERANCIA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Distrital de Ate (MuniAte)",
+     "cargo": "GERENTE IMAGEN INSTITUCIONAL Y COMUNICACIONES",
+     "desde": "2017-12",
+     "hasta": "2017-12",
+     "detalle": "Altos Funcionarios · SECRETARIA IMAGEN INSTITUCIONAL Y COMUNICACIONES"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "VALLE REINA, DALIA",
+   "despacho": "Flores Suárez, Juver Nilson",
+   "camara": "S",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Energía y Minas (MINEM)",
+     "cargo": "ASISTENTE TÉCNICO",
+     "desde": "2024-12",
+     "hasta": "2026-10",
+     "detalle": "CAS · DIRECCIÓN GENERAL DE FORMALIZACIÓN MINERA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Energía y Minas (MINEM)",
+     "cargo": "ASISTENTE TÉCNICO",
+     "desde": "2021-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · DIRECCIÓN GENERAL DE FORMALIZACIÓN MINERA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Energía y Minas (MINEM)",
+     "cargo": "ASISTENTE TÉCNICO",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · DIRECCIÓN GENERAL DE FORMALIZACIÓN MINERA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Nacional de Alimentación Escolar Comunitaria Wasi Mikuna (PNAEC - WASI MIKUNA)",
+     "cargo": "ASISTENTE ADMINISTRATIVO",
+     "desde": "2015-12",
+     "hasta": "2016-12",
+     "detalle": "CAS · U.T. AMAZONAS"
+    }
+   ],
+   "otra_planilla_2026": true
+  },
+  {
+   "nombre": "PALOMINO CERCERA, ALBERTO",
+   "despacho": "Gamarra Pita, Luzmila María del Carmen",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Salud (MINSA)",
+     "cargo": "DIRECTOR EJECUTIVO",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · OFICINA GENERAL DE GESTIÓN DE RECURSOS HUMANO"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "MINISTERIO DE SALUD",
+     "cargo": "DIRECTOR EJECUTIVO",
+     "desde": "2022-11-25",
+     "detalle": "Declaración jurada de intereses presentada el 2022-12-02"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Distrital de Puente Piedra (MDPP)",
+     "cargo": "GERENTE",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "Altos Funcionarios · GERENCIA DE ASESORIA JURIDICA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "SABA GUERRA, JHON APOLINAR",
+   "despacho": "Gamarra Pita, Luzmila María del Carmen",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Instituto Nacional de Salud (INS)",
+     "cargo": "AUDITOR(A)",
+     "desde": "2018-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · ORGANO DE CONTROL INSTITUCIONAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "ACUÑA CACHIQUE, ESTHER MODESTA",
+   "despacho": "García Huby, Fernando Alberto",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Unidad de Gestión Educativa Local N° 01 (UGEL01)",
+     "cargo": "OFICINISTA PARA EL EQUIPO DE SECRETARIA TECNICA",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · RECURSOS HUMANOS"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "PINCHI DIAZ, NEMESIO",
+   "despacho": "Gatica Vega, Francisco Javier",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Dirección Regional de Agricultura San Martín (DRASAM)",
+     "cargo": "Director",
+     "desde": "2017-12",
+     "hasta": "2017-12",
+     "detalle": "CAS · Proyecto Titulación de Tierras"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Gobierno Regional San Martín (GORESAM)",
+     "cargo": "Director Regional de Titulacion Reversión de Tierras y Catastro Rural.",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · Dirección Regional de Agricultura - Dirección de Titulación Reversión de Tierras y Catastro Rural."
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "SANCHEZ CUBAS, MILTON",
+   "despacho": "Gonzales Delgado, Gabriel Robertino",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Gobierno Regional Cajamarca (GRC)",
+     "cargo": "Sub Gerente (e)",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · SEDE - SGDSH"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Gobierno Regional Cajamarca (GRC)",
+     "cargo": "Asistente Coordinador en Evaluación de Expdtes Técnicos en Obras de Electrificación",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "CAS · SEDE - SGDSH"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "TRUJILLO ZAVALA, GILDA MILAGROS",
+   "despacho": "Gonzales Polar, Edgar Dember",
+   "camara": "D",
+   "cargo": "ASISTENTE",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "SUPERINTENDENCIA NACIONAL DE FISCALIZACION LABORAL (SUNAFIL)",
+     "cargo": "ASESOR II",
+     "desde": "2024-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · GERENCIA GENERAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Metropolitana de Lima (MUNLIMA)",
+     "cargo": "COORDINADOR (A) DE PRENSA",
+     "desde": "2021-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · GERENCIA DE COMUNICACIÓN SOCIAL Y RELACIONES PUBLICAS"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Salud (MINSA)",
+     "cargo": "PERIODISTA",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · OFICINA DE DESCENTRALIZACION"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "OSORIO CANTURIN, MERARDO AMERICO",
+   "despacho": "Guevara Ramírez, Jessica Roxana",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "DJ",
+     "entidad": "PLAN COPESCO NACIONAL",
+     "cargo": "DIRECTOR EJECUTIVO",
+     "desde": "2022-06-11",
+     "detalle": "Declaración jurada de intereses presentada el 2022-07-21"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "MINISTERIO DE COMERCIO EXTERIOR Y TURISMO",
+     "cargo": "DIRECTOR GENERAL DE LA OGA",
+     "desde": "2021-08-05",
+     "hasta": "2022-06-10",
+     "detalle": "Declaración jurada de intereses presentada el 2022-07-21"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Comercio Exterior y Turismo (MINCETUR)",
+     "cargo": "DIRECTOR GENERAL",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "PAC · OFICINA GENERAL DE ADMINISTRACION"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "ZAFRA FLORES, CARLOS ADEVAL",
+   "despacho": "Guevara Ramírez, Jessica Roxana",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "DJ",
+     "entidad": "MINISTERIO DE COMERCIO EXTERIOR Y TURISMO",
+     "cargo": "ASESOR",
+     "desde": "2022-09-06",
+     "detalle": "Declaración jurada de intereses presentada el 2022-09-19"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "MINISTERIO DE COMERCIO EXTERIOR Y TURISMO",
+     "cargo": "SECRETARIO GENERAL",
+     "desde": "2021-08-03",
+     "hasta": "2022-09-05",
+     "detalle": "Declaración jurada de intereses presentada el 2022-09-19"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Comercio Exterior y Turismo (MINCETUR)",
+     "cargo": "SECRETARIO GENERAL",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "Ley Servir · SECRETARIA GENERAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Nacional para la Prevención y Erradicación de la Violencia contra las Mujeres e Integrantes (Warmi Ñan)",
+     "cargo": "ABOGADO/A",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · CEM_COMISARIA CIUDAD Y CAMPO-PNP"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Nacional para la Prevención y Erradicación de la Violencia contra las Mujeres e Integrantes (Warmi Ñan)",
+     "cargo": "ABOGADO/A",
+     "desde": "2017-12",
+     "hasta": "2017-12",
+     "detalle": "CAS · CEM_COMISARIA CHORRILLOS"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Consejo Nacional de Ciencia, Tecnología e Innovación (CONCYTEC)",
+     "cargo": "PROFESIONAL",
+     "desde": "2015-12",
+     "hasta": "2016-12",
+     "detalle": "CAS · DIE"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "DE LA CRUZ SULLCA, LUIS CARLOS",
+   "despacho": "Guillen Valencia, Héctor",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "DJ",
+     "entidad": "JURADO NACIONAL DE ELECCIONES - JNE",
+     "cargo": "ALCALDE",
+     "desde": "2022-01-04",
+     "hasta": "2022-10-02",
+     "detalle": "Declaración jurada de intereses presentada el 2022-08-29"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "AGUILAR OLLAGUEZ, ROBERTH HASSLER",
+   "despacho": "Holguin Aguirre, James Arturo",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Superintendencia de Transporte Terrestre de Personas, Carga y Mercancias (SUTRAN)",
+     "cargo": "INSPECTOR",
+     "desde": "2024-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · GERENCIA DE ARTICULACIÓN TERRITORIAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "SULLCA ESCALANTE, ROSARIO",
+   "despacho": "Holguin Aguirre, James Arturo",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio del Interior (MININTER)",
+     "cargo": "TECNICO EN MIGRACIONES I",
+     "desde": "2026-10",
+     "hasta": "2026-10",
+     "detalle": "Régimen 276 · DIRECCIÓN GENERAL DE GOBIERNO INTERIOR"
+    }
+   ],
+   "otra_planilla_2026": true
+  },
+  {
+   "nombre": "VELA QUISPE, GERRY LEONEL",
+   "despacho": "Holguin Aguirre, James Arturo",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Superintendencia de Transporte Terrestre de Personas, Carga y Mercancias (SUTRAN)",
+     "cargo": "JEFE",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · GERENCIA DE ARTICULACIÓN TERRITORIAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Superintendencia Nacional de Migraciones (MIGRACIONES)",
+     "cargo": "INSPECTOR DE MIGRACIONES",
+     "desde": "2017-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · JEFATURA ZONAL PUERTO MALDONADO"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Oficina de Normalización Previsional (ONP)",
+     "cargo": "CAS",
+     "desde": "2016-12",
+     "hasta": "2016-12",
+     "detalle": "CAS · OFICINAS DEPARTAMENTALES"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "ROMERO ROJAS, ZOILA MARGARITA",
+   "despacho": "Holguin Loaiza, Cesar Augusto",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Trabajo y Promoción del Empleo (MTPE)",
+     "cargo": "ANALISTA LEGAL",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · DIRECCION GENERAL DE TRABAJO"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Trabajo y Promoción del Empleo (MTPE)",
+     "cargo": "SIN CARGO ESTRUCTURAL",
+     "desde": "2017-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · DIRECCION GENERAL DE TRABAJO -RO"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "MARTINEZ GOMEZ, JOSE MANUEL",
+   "despacho": "Huamán Cornejo, Miguel Felix",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Provincial de Piura (MPPiura)",
+     "cargo": "(NINGUNO)",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "FAG · OFICINA DE ASUNTOS DEL CONCEJO"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "FIGUEROA TOLEDO, GISELLA ROCIO",
+   "despacho": "Huilca Flores, Indira Isabel",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Superintendencia Nacional de Migraciones (MIGRACIONES)",
+     "cargo": "ASESOR(A)",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · DESPACHO DEL SUPERINTENDENTE NACIONAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "RAMIREZ HUAROTO, BEATRIZ MAY LING",
+   "despacho": "Huilca Flores, Indira Isabel",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Universidad Nacional Mayor de San Marcos (UNMSM)",
+     "cargo": "DOCENTE UNIVERSITARIO AUXILIAR TP",
+     "desde": "2026-07",
+     "hasta": "2026-07",
+     "detalle": "Régimen 276 · FACULTAD DE DERECHO Y CIENCIA POLÍTICA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de la Mujer y Poblaciones Vulnerables (MIMP)",
+     "cargo": "ASESORA",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "FAG · DESPACHO VICEMINISTERIAL DE LA MUJER"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "BARCENAS VALDIVIEZO, DAVID",
+   "despacho": "Infantes Castañeda, Mery Eliana",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Provincial de Sullana (MP-SULLANA)",
+     "cargo": "TECNICO ADMNISTRATIVO",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "CAS · SUB GERENCIA DE CONTROL MUNICIPAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Provincial de Sullana (MP-SULLANA)",
+     "cargo": ".",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · SUB GERENCIA DE SEGURIDAD"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "PACHECO MOYA, JOSE LUIS",
+   "despacho": "Isla Rojas, Azucena",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Instituto Nacional de Radio y Televisión del Perú (IRTP)",
+     "cargo": "CARGO DE CONFIANZA DE ASESOR DE PRESIDENCIA EJECUTIVA",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · PRESIDENCIA EJECUTIVA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Metropolitana de Lima (MUNLIMA)",
+     "cargo": "COORDINADOR DE CASA",
+     "desde": "2017-12",
+     "hasta": "2017-12",
+     "detalle": "CAS · GERENCIA DE PARTICIPACION VECINAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "ZARAGOZA ARCEGA, JIMMY LUDICINIO",
+   "despacho": "Isla Rojas, Azucena",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Nacional Plataformas de Acción para la Inclusión Social (PNPAIS)",
+     "cargo": "COORDINADOR DE LA UNIDAD TERRITORIAL LORETO",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · UNIDAD TERRITORIAL - LORETO"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "PROGRAMA NACIONAL PLATAFORMAS DE ACCION PARA LA INCLUSION SOCIAL - PAIS",
+     "cargo": "COORDINADOR DE LA UNIDAD TERRITORIAL LORETO",
+     "desde": "2022-03-03",
+     "detalle": "Declaración jurada de intereses presentada el 2022-10-11"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "CHIROQUE TAPIA, EVELYN ELIANITH",
+   "despacho": "Iturregui Byrne, Patricia Milagros",
+   "camara": "S",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Economía y Finanzas (MEF)",
+     "cargo": "CONSULTOR FAG",
+     "desde": "2024-12",
+     "hasta": "2025-12",
+     "detalle": "FAG · DIRECCIÓN GENERAL DE POLÍTICA DE INGRESOS PÚBLICOS"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Economía y Finanzas (MEF)",
+     "cargo": "ESPECIALISTA EN TRIBUTACION",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · DIRECCION GENERAL DE POLITICA DE INGRESOS PUBLICOS"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Economía y Finanzas (MEF)",
+     "cargo": "SIN CARGO ESTRUCTURAL",
+     "desde": "2015-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · D.G. POLITICA DE INGRESOS PUBLICOS"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "LEON VIDAL, VLADIMIR HORACIO",
+   "despacho": "Iturregui Byrne, Patricia Milagros",
+   "camara": "S",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Economía y Finanzas (MEF)",
+     "cargo": "CONSULTOR FAG",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "FAG · DESPACHO MINISTERIAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "VALLE BASTO, DANIEL FERNANDO",
+   "despacho": "Iturregui Byrne, Patricia Milagros",
+   "camara": "S",
+   "cargo": "COORDINADOR",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio del Ambiente (MINAM)",
+     "cargo": "ESPECIALISTA EN FORTALECIMIENTO DE CAPACIDADES",
+     "desde": "2018-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · DIRECCIÓN GENERAL DE ESTRATEGIAS SOBRE LOS RECURSOS NATURALES"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Servicio Nacional Forestal y de Fauna Silvestre (SERFOR)",
+     "cargo": "DIRECTOR",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · DIRECCION DE FORTALECIMIENTO DE CAPACIDADES"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "GRADOS TRINIDAD, LUIS ALBERTO",
+   "despacho": "Jauregui Martínez de Aguayo, María de los Milagros Jackeline",
+   "camara": "S",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Educación (MINEDU)",
+     "cargo": "LOCADOR FAG",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "FAG · DESPACHO MINISTERIAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Instituto Peruano del Deporte (IPD)",
+     "cargo": "PRESIDENCIA",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "CAS · ASESOR II"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "GRANADOS GALVEZ, JONATHAN MAX",
+   "despacho": "Jibaja Ramos, Luis Angel",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Defensoría del Pueblo (DP)",
+     "cargo": "ESPECIALISTA LEGAL II",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · ADJUNTIA PARA LOS DERECHOS HUMANOS Y LA POBLACION INDIGENA Y AFROPERUANA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Defensoría del Pueblo (DP)",
+     "cargo": "COORDINADOR",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "CAS · ADJUNTIA PARA LOS DERECHOS HUMANOS Y LAS PERSONAS CON DISCAPACIDAD"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Defensoría del Pueblo (DP)",
+     "cargo": "ESPECIALISTA LEGAL I",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · PROGRAMA DE DESCENTRALIZACION Y BUEN GOBIERNO"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Defensoría del Pueblo (DP)",
+     "cargo": "ESPECIALISTA LEGAL I",
+     "desde": "2018-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · PROGRAMA DE DESCENTRALIZACION Y BUEN GOBIERNO"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Relaciones Exteriores (RREE)",
+     "cargo": "ASISTENTE LEGAL",
+     "desde": "2015-12",
+     "hasta": "2017-12",
+     "detalle": "CAS · SUBDIRECCIÓN DE ASISTENCIA AL NACIONAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "TORRES CONTRERAS, WALTER EDUARD",
+   "despacho": "Jibaja Ramos, Luis Angel",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Defensoría del Pueblo (DP)",
+     "cargo": "ANALISTA LEGAL",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · OFICINA DEFENSORIAL DE CALLAO"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Defensoría del Pueblo (DP)",
+     "cargo": "ASISTENTE LEGAL",
+     "desde": "2017-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · OFICINA DEFENSORIAL DE CALLAO"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "FIGUEROA GUZMAN, JORGE EDUARDO",
+   "despacho": "Jiménez Heredia, David Julio",
+   "camara": "S",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Educación (MINEDU)",
+     "cargo": "MINISTRO",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "Ley Servir · DM"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Educación (MINEDU)",
+     "cargo": "ASESOR II",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "PAC · DESPACHO MINISTERIAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "GILES SILUPU, DIANA PATRICIA",
+   "despacho": "Jiménez Heredia, David Julio",
+   "camara": "S",
+   "cargo": "ASISTENTE",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Defensoría del Pueblo (DP)",
+     "cargo": "ESPECIALISTA LEGAL III",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "CAS · STE - SECRETARIA TECNICA ESPECIALIZADA JNJ - APOYO"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Poder Judicial (PJ)",
+     "cargo": "CONTRATO ADMVO SERVICIOS",
+     "desde": "2018-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · GERENCIA DE INFRAESTRUCTURA INMOBILIARIA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Salud (MINSA)",
+     "cargo": "JEFE DE EQUIPO",
+     "desde": "2017-12",
+     "hasta": "2017-12",
+     "detalle": "CAS · DESPACHO MINISTERIAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "ALBURQUEQUE ESCARATE, JACKELINE GABY",
+   "despacho": "Juárez Gallegos, Carmen Patricia",
+   "camara": "S",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Provincial de Sullana (MP-SULLANA)",
+     "cargo": "SUB GERENTE DE TRANSPORTE PUBLICO",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "Altos Funcionarios · SUB GERENCIA DE TRANSPORTE PUBLICO"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "ESTREMADOYRO PEREZ, SOFIA LUZ",
+   "despacho": "Juárez Gallegos, Carmen Patricia",
+   "camara": "S",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Fondo Metropolitano de Inversiones (INVERMET)",
+     "cargo": "Asistente Administrativo",
+     "desde": "2016-12",
+     "hasta": "2017-12",
+     "detalle": "CAS · OPP"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "BALDEON CARBAJAL, JOSE ANTONIO",
+   "despacho": "Leiva Baylon, Leticia Maruja",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Organismo Técnico de la Administración de los Servicios de Saneamiento (OTASS)",
+     "cargo": "ESPECIALISTA LEGAL",
+     "desde": "2021-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · ORGANO DE CONTROL INSTITUCIONAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Organismo Técnico de la Administración de los Servicios de Saneamiento (OTASS)",
+     "cargo": "ESPECIALISTA LEGAL",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · ORGANO DE CONTROL INSTITUCIONAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "GIL SILVA, JULIO CESAR",
+   "despacho": "Leiva Baylon, Leticia Maruja",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Distrital de Castilla (MDC)",
+     "cargo": "SUB GERENTE",
+     "desde": "2016-12",
+     "hasta": "2016-12",
+     "detalle": "CAS · SUB GERENTE DE SANEAMIENTO FISICO LEGAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "CORREA SALAZAR, YSABEL MILAGROS",
+   "despacho": "Luque Ibarra, Ruth",
+   "camara": "S",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Cultura (CULTURA)",
+     "cargo": "ESPECIALISTA EN GESTION DE LA INFORMACION Y EL CONOCIMIENTO",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · DIRECCION DE POLITICAS PARA LA POBLACION AFROPERUANA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Cultura (CULTURA)",
+     "cargo": "SERVICIO DE ANALISTA EN COMUNICACIONES PARA LA DIRECCIIÓN DE POLÍTICAS PARA LA POBLACIÓN AFROPERUANA",
+     "desde": "2017-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · DIRECCION DE POLITICAS PARA LA POBLACION AFROPERUANA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "MAROCHO ORUE, JOSUE MAURO",
+   "despacho": "Luque Ibarra, Ruth",
+   "camara": "S",
+   "cargo": "AUXILIAR",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Corte Superior de Cusco (D.J. Cusco)",
+     "cargo": "SECRETARIO JUDICIAL",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · DIST.JUDICIAL DEL CUSCO-NCPP"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "SANTOS ARIAS, LISBET MAGALI",
+   "despacho": "Luque Ibarra, Ruth",
+   "camara": "S",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Transportes y Comunicaciones (MTC)",
+     "cargo": "DIRECCION GENERAL DE ASUNTOS SOCIO AMBIENTALES",
+     "desde": "2017-12",
+     "hasta": "2017-12",
+     "detalle": "CAS · 6300"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "MORIN PEZO, CHAMBERLEIN EDUARDO",
+   "despacho": "Mancha Pineda, Estanislao Edgar",
+   "camara": "S",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Gobierno Regional de Ucayali (GR-Ucayali)",
+     "cargo": "SIN ESPECIFICAR",
+     "desde": "2015-12",
+     "hasta": "2017-12",
+     "detalle": "CAS · OFICINA REGIONAL DE ASESORIA JURIDICA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "ZARZOSA GONZALEZ, CESAR ANTONIO",
+   "despacho": "Manrique Olivera, Bernardino Jair",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Justicia y Derechos Humanos (MINJUS)",
+     "cargo": "ASESOR II",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "CAS · DESPACHO VICEMINISTERIAL DE DERECHOS HUMANOS Y ACCESO A LA JUSTICIA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Justicia y Derechos Humanos (MINJUS)",
+     "cargo": "DIRECTOR DE PROGRAMA SECTORIAL II",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · DIRECCIÓN DE DESARROLLO JURÍDICO Y CALIDAD REGULATORIA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Justicia y Derechos Humanos (MINJUS)",
+     "cargo": "ABOGADO",
+     "desde": "2015-12",
+     "hasta": "2016-12",
+     "detalle": "CAS · DIRECCION DE SISTEMATIZACION JURIDICA Y DIFUSION"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "VARILLAS ORDOÑEZ, ROSA PETRONILA",
+   "despacho": "Maraví Olarte, Iber Antenor",
+   "camara": "S",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Salud (MINSA)",
+     "cargo": "CONSUTORA",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "FAG · SECRETARIA GENERAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "DEL AGUILA ZUÑIGA, ROBERTO IMER",
+   "despacho": "Marcelo Salazar, José Miguel",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Instituto Nacional de Defensa Civil (INDECI)",
+     "cargo": "ASESOR DE LA ALTA DIRECCIÓN",
+     "desde": "2016-12",
+     "hasta": "2016-12",
+     "detalle": "CAS · SECRETARIA GENERAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Defensa (MINDEF)",
+     "cargo": "ESPECIALISTA III EN RELACIONES INTERNACIONALES",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · UNASUR"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "GRANDA SANDOVAL, ALEJANDRO ADRIAN MARTIN",
+   "despacho": "Marcelo Salazar, José Miguel",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "SUPERINTENDENCIA NACIONAL DE EDUCACION SUPERIOR UNIVERSITARIA (SUNEDU)",
+     "cargo": "DIRECTOR DE PROGRAMA SECTORIAL II-JEFE DE LA UNIDAD DE DOCUMENTACION E INFORMACION UNIVERSITARIA",
+     "desde": "2021-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · UNIDAD DE DOCUMENTACION E INFORMACION UNIVERSITARIA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Nacional de Becas y Crédito Educativo (PRONABEC)",
+     "cargo": "COORDINADOR EN GESTIÓN DE LA INFORMACIÓN",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · UNIDAD DE ESTUDIOS SOCIALES Y GENERACIÓN DE EVIDENCIAS DE LA OFICINA DE PLANIFICACIÓN Y PRESUPUESTO"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "LOARTE RAMIREZ, GUILLERMO ANTONIO",
+   "despacho": "Marcelo Salazar, José Miguel",
+   "camara": "D",
+   "cargo": "ASISTENTE",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Patronato del Parque de Las Leyendas - Felipe Benavides Barreda (PATPAL - FBB)",
+     "cargo": "COORDINADOR FINANCIERO",
+     "desde": "2024-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · OFICINA DE TESORERÍA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "POMA VIVAR, ROMELL WALTER",
+   "despacho": "Marcelo Salazar, José Miguel",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Educación (MINEDU)",
+     "cargo": "ESPECIALISTA EN CONTROL PREVIO PARA LA OFICINA DE CONTABILIDAD Y CONTROL PREVIO",
+     "desde": "2017-12",
+     "hasta": "2017-12",
+     "detalle": "CAS · OCCP-OFICINA DE CONTABILIDAD Y CONTROL P"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Educación (MINEDU)",
+     "cargo": "ADMINISTRATIVO CAS",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · OCCP-OFICINA DE CONTABILIDAD Y CONTROL P"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "SIPAN TORRES, MARCO RAINIERO",
+   "despacho": "Marquez Huanca, Anali",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Gobierno Regional de Arequipa (GRA)",
+     "cargo": "OFIC. DIALOGO Y GOBERNANZA",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "FAG · GOBERNACION"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "MINISTERIO DE ENERGÍA Y MINAS",
+     "cargo": "JEFE DE LA OFICINA GENERAL DE GESTION SOCIAL",
+     "desde": "2021-11-09",
+     "hasta": "2022-02-21",
+     "detalle": "Declaración jurada de intereses presentada el 2022-07-15"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Energía y Minas (MINEM)",
+     "cargo": "DIRECTOR DE SISTEMA ADMINISTRATIVO III",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "CAS · OFICINA GENERAL DE GESTIÓN SOCIAL -N"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Gobierno Regional Cajamarca (GRC)",
+     "cargo": "Relacionista Público",
+     "desde": "2018-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · SEDE - GGR"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "VIZA CONDORI, LILA MILUSKA",
+   "despacho": "Marquez Huanca, Anali",
+   "camara": "D",
+   "cargo": "AUXILIAR",
+   "historial": [
+    {
+     "fuente": "DJ",
+     "entidad": "SUPERINTENDENCIA NACIONAL DE FISCALIZACIÓN LABORAL (SUNAFIL)",
+     "cargo": "ASESOR II",
+     "desde": "2022-07-27",
+     "detalle": "Declaración jurada de intereses presentada el 2022-11-16"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "MINISTERIO DE TRABAJO Y PROMOCIÓN DEL EMPLEO",
+     "cargo": "ASESORA",
+     "desde": "2021-10-13",
+     "hasta": "2022-07-26",
+     "detalle": "Declaración jurada de intereses presentada el 2022-08-18"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Trabajo y Promoción del Empleo (MTPE)",
+     "cargo": "SIN CARGO ESTRUCTURAL",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "CAS · DESPACHO MINISTERIAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "FACUNDO NIÑO DE GUZMAN, LUIS MIGUEL",
+   "despacho": "Martínez Paitán, Paola Isabel",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Centro de Formación en Turismo (CENFOTUR)",
+     "cargo": "ABOGADO",
+     "desde": "2021-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · OFICINA DE ASESORÍA JURÍDICA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Centro de Formación en Turismo (CENFOTUR)",
+     "cargo": "ABOGADO",
+     "desde": "2018-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · OFICINA DE ASESORÍA JURÍDICA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Centro de Formación en Turismo (CENFOTUR)",
+     "cargo": "ABOGADO",
+     "desde": "2016-12",
+     "hasta": "2016-12",
+     "detalle": "CAS · OFICINA DE ASESORÍA JURÍDICA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "MUÑOZ MONTOYA, ALEJANDRA MARIA",
+   "despacho": "Matute Charún, Susana Flor de María",
+   "camara": "S",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Cultura (CULTURA)",
+     "cargo": "SERVICIO DE COORDINADOR GENERAL PARA LA DIRECCIÓN GENERAL DE CIUDADANÍA INTERCULTURAL",
+     "desde": "2018-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · DIRECCION GENERAL DE CIUDADANIA INTERCULTURAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Cultura (CULTURA)",
+     "cargo": "SERVICIO DE UN ESPECIALISTA DE INVESTIGACION E INFORMACION DE LAS INDUSTRIAS CULTURALES Y LAS ARTES PARA DIRECCION GENERALES DE INDUSTRIAS CULTURALES Y ARTES",
+     "desde": "2016-12",
+     "hasta": "2017-12",
+     "detalle": "CAS · DIRECCION GENERAL DE INDUSTRIAS CULTURALES Y ARTES"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "VERA MONTALVO, SANDRA MILAGROS",
+   "despacho": "Matute Charún, Susana Flor de María",
+   "camara": "S",
+   "cargo": "ASISTENTE",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Cultura (CULTURA)",
+     "cargo": "ASISTENTE ADMINISTRATIVO",
+     "desde": "2024-12",
+     "hasta": "2026-10",
+     "detalle": "CAS · DIRECCIÓN GENERAL DE CIUDADANÍA INTERCULTURAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Cultura (CULTURA)",
+     "cargo": "ASISTENTE ADMINISTRATIVO",
+     "desde": "2021-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · DIRECCION GENERAL DE CIUDADANIA INTERCULTURAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Cultura (CULTURA)",
+     "cargo": "SERVICIO DE ASISTENTE ADMINISTRATIVO PARA LA DIRECCION GENERAL DE INCLUSION DE CONOCIMIENTOS ANCESTRALES",
+     "desde": "2017-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · DIRECCION GENERAL DE CIUDADANIA INTERCULTURAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Cultura (CULTURA)",
+     "cargo": "SERVICIO DE ASISTENTE ADMINISTRATIVO PARA LA DIRECCION GENERAL DE INCLUSION DE CONOCIMIENTOS ANCESTRALES",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · DIRECCION GENERAL DE CIUDADANIA INTERCULTURAL"
+    }
+   ],
+   "otra_planilla_2026": true
+  },
+  {
+   "nombre": "VIGNOLO HUAMANI, GISELLA ROSA",
+   "despacho": "Matute Charún, Susana Flor de María",
+   "camara": "S",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de la Mujer y Poblaciones Vulnerables (MIMP)",
+     "cargo": "ASESORA",
+     "desde": "2018-12",
+     "hasta": "2019-12",
+     "detalle": "FAG · DESPACHO VICEMINISTERIAL DE POBLACIONES VULNERABLES"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Justicia y Derechos Humanos (MINJUS)",
+     "cargo": "Viceministra",
+     "desde": "2016-12",
+     "hasta": "2016-12",
+     "detalle": "Ley Servir · Despacho Viceministerial"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "MARQUEZ VARGAS, BETZABETH DE LOS ANGELES",
+   "despacho": "Medina Stein, Andrea Dayna",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Programa de Compensaciones para la Competitividad (AGROIDEAS)",
+     "cargo": "Asesora",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · Dirección Ejecutiva"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Programa de Compensaciones para la Competitividad (AGROIDEAS)",
+     "cargo": "Asesor Técnico Legal",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · Jefatura del Programa"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "ZAMUDIO MENDOZA, ABRAHAM SALOMON",
+   "despacho": "Medina Stein, Andrea Dayna",
+   "camara": "D",
+   "cargo": "COORDINADOR",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Economía y Finanzas (MEF)",
+     "cargo": "SINCARGO",
+     "desde": "2024-12",
+     "hasta": "2026-09",
+     "detalle": "CAS · OFICINA DE SISTEMAS DE INFORMACION"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Economía y Finanzas (MEF)",
+     "cargo": "ANALISTA DE SOPORTE DE SISTEMAS DE INFORMACION",
+     "desde": "2021-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · OFICINA DE SISITEMAS DE INFORMACION"
+    }
+   ],
+   "otra_planilla_2026": true
+  },
+  {
+   "nombre": "REMY RAMIS, CARLOS AUGUSTO",
+   "despacho": "Melgar Váldez, Elard Galo",
+   "camara": "S",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Superintendencia Nacional de Control de Servicios de Seguridad, Armas, Municiones y Explosivos de Us (SUCAMEC)",
+     "cargo": "DIRECTOR",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "CAS · DIRECCION DE SERVICIOS DE SEGURIDAD PRIVADA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "VILLA VILLA, LUIS HUMBERTO",
+   "despacho": "Melgar Váldez, Elard Galo",
+   "camara": "S",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "DJ",
+     "entidad": "SERVICIO NACIONAL DE SANIDAD AGRARIA - SENASA",
+     "cargo": "DIRECTOR GENERAL",
+     "desde": "2019-10-12",
+     "detalle": "Declaración jurada de intereses presentada el 2022-10-19"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "JA PAC FAN LUNA, CARLA PAMELA",
+   "despacho": "Mesía Ramírez, Carlos Fernando",
+   "camara": "S",
+   "cargo": "AUXILIAR",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Intendencia Nacional de Bomberos del Perú (INBP)",
+     "cargo": "ASISTENTE ADMINISTRATIVO",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "CAS · UNIDAD DE LOGÍSTICA Y CONTROL PATRIMONIAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "HERENCIA ORTEGA, INES GABRIELA",
+   "despacho": "Meza Rivera, Flor de Jesús",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Economía y Finanzas (MEF)",
+     "cargo": "LOCADOR FAG",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "FAG · DESPACHO VICEMINISTERIAL DE HACIENDA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Economía y Finanzas (MEF)",
+     "cargo": "CONSULTOR FAG",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "FAG · DIRECCIÓN GENERAL DE PRESUPUESTO PÚBLICO"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "MINISTERIO DE ECONOMÍA Y FINANZAS",
+     "cargo": "CONSULTOR FAG",
+     "desde": "2022-06-01",
+     "detalle": "Declaración jurada de intereses presentada el 2022-07-13"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "PROGRAMA NACIONAL DE CONSERVACIÓN DE BOSQUES PARA LA MITIGACIÓN DEL CAMBIO CLIMÁTICO",
+     "cargo": "CONSULTOR INDIVIDUAL",
+     "desde": "2020-10-30",
+     "detalle": "Declaración jurada de intereses presentada el 2022-11-04"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "ZAPATA JUAREZ, HILDA DENISSE",
+   "despacho": "Meza Rivera, Flor de Jesús",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Despacho Presidencial (DP)",
+     "cargo": "ASESOR(A) DE GABINETE",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "Ley Servir · SECRETARIA GENERAL DEL DESPACHO PRESIDENCIAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Superintendencia de Transporte Terrestre de Personas, Carga y Mercancias (SUTRAN)",
+     "cargo": "ANALISTA SENIOR",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · SUPERINTENDENCIA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "PALOMINO TURIN, DIEGO HECTOR",
+   "despacho": "Molina Soto, Nathaly Milagros",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Universidad Nacional Mayor de San Marcos (UNMSM)",
+     "cargo": "EMPLEADO DE CONFIANZA",
+     "desde": "2026-07",
+     "hasta": "2026-07",
+     "detalle": "Régimen 276 · CENTRO PRE UNIVERSITARIO"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "UNIVERSIDAD NACIONAL MAYOR DE SAN MARCOS",
+     "cargo": "JEFE DE LA UNIDAD DE ADMINISTRACIÓN DE LA CLÍNICA UNIVERSITARIA SERVICIOS MNÉDICOS - UNMSM",
+     "desde": "2022-06-10",
+     "detalle": "Declaración jurada de intereses presentada el 2022-08-22"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "ROMANI APESTEGUI, MAVEL ESTEFANI",
+   "despacho": "Morales Ramírez, Edyson Humberto",
+   "camara": "S",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "JUNTA NACIONAL DE JUSTICIA (JNJ)",
+     "cargo": "ANALISTA 2",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "CAS · DIRECCIÓN DE EVALUACIÓN Y RATIFICACIÓN"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "VERA FRANCK, NORA PATRICIA",
+   "despacho": "Moyano Delgado, Martha Lupe",
+   "camara": "S",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Presidencia del Consejo de Ministros (PCM)",
+     "cargo": "TÉCNICO",
+     "desde": "2015-12",
+     "hasta": "2016-12",
+     "detalle": "CAS · SECRETARIA DE DESCENTRALIZACION3"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "ALVAREZ LIRA, PABLO YSMAEL",
+   "despacho": "Muedas Balbiese, Cesar Augusto",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Distrital de Pueblo Libre - LIMA (MD-PUEBLO LIBRE)",
+     "cargo": "GERENTE DE ASESORIA JURIDICA",
+     "desde": "2025-12",
+     "hasta": "2026-06",
+     "detalle": "CAS · GER. ASESORIA JURIDICA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Distrital de Pueblo Libre - LIMA (MD-PUEBLO LIBRE)",
+     "cargo": "GERENTE",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "CAS · GERENCIA DE ASESORIA JURIDICA"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "GERENCIA REGIONAL DE EDUCACIÓN DE LORETO",
+     "cargo": "JEFE DE LA OFICINA DE ASESORÍA JURÍDICA",
+     "desde": "2020-05-05",
+     "hasta": "2022-11-30",
+     "detalle": "Declaración jurada de intereses presentada el 2022-11-30"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Distrital de La Victoria - Lima (MLV)",
+     "cargo": "PROCURADOR PUBLICO MUNICIPAL",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · PROCURADURIA PUBLICA MUNICIPAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "MUNIVE ROSADO, VICTOR FERNANDO",
+   "despacho": "Muedas Balbiese, Cesar Augusto",
+   "camara": "D",
+   "cargo": "ASISTENTE",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio Público Fiscalía de la Nación (MPFN)",
+     "cargo": "ANALISTA",
+     "desde": "2021-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · FISCALIA SUPERIOR ESPECIALIZADA EN DELITOS DE CORRUPCION DE FUNCIONARIOS DE JUNÍN"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Provincial de Huancayo (MPHuancayo)",
+     "cargo": "REPORTERO GRAFICO Y AUDIOVISUAL",
+     "desde": "2016-12",
+     "hasta": "2017-12",
+     "detalle": "CAS · SUB GERENCIA DE COMUNICACIONES"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "AZAÑERO SANDOVAL, FERNANDO",
+   "despacho": "Muñante Barrios, Alejandro",
+   "camara": "S",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Universidad Nacional de Educación Enrique Guzmán y Valle (UNE)",
+     "cargo": "DOCENTE UNIVERSITARIO",
+     "desde": "2026-09",
+     "hasta": "2026-09",
+     "detalle": "Régimen 276 · FACULTAD DE CIENCIAS SOCIALES Y HUMANIDADES"
+    }
+   ],
+   "otra_planilla_2026": true
+  },
+  {
+   "nombre": "CHACA CHAVEZ, JHON HECTOR",
+   "despacho": "Muñoz Yurivilca, Kim Tami",
+   "camara": "D",
+   "cargo": "COORDINADOR",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "GOBIERNO REGIONAL PASCO (GOREPA)",
+     "cargo": "RELACIONISTA PUBLICO",
+     "desde": "2017-12",
+     "hasta": "2017-12",
+     "detalle": "CAS · GERENNCIA REGIONAL DE DESARROLLO SOCIAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "GOMEZ VEGA, ORLANDO GUNDER",
+   "despacho": "Muñoz Yurivilca, Kim Tami",
+   "camara": "D",
+   "cargo": "ASISTENTE",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "GOBIERNO REGIONAL PASCO (GOREPA)",
+     "cargo": "MONITOR DEL MODULO DE PRENSA",
+     "desde": "2016-12",
+     "hasta": "2016-12",
+     "detalle": "CAS · CENTRO DE OPERACIONES DE EMERGENCIA REGIONAL PASCO"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "JIMENEZ CARRILLO, JOSE ROMAN",
+   "despacho": "Muñoz Yurivilca, Kim Tami",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Instituto Nacional de Innovación Agraria (INIA)",
+     "cargo": "SECRETARIO/A TÉCNICO/A DE LOS ÓRGANOS INSTRUCTORES DEL PROCEDIMIENTO ADMINISTRATIVO DISCIPLINARIO",
+     "desde": "2024-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · SEDE CENTRAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Desarrollo e Inclusión Social (MIDIS)",
+     "cargo": "ESPECIALISTA LEGAL II",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "CAS · OFICINA GENERAL DE ASESORIA JURIDICA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Organismo Especializado para las Contrataciones Públicas Eficientes (OECE)",
+     "cargo": "UNIDAD DE RECURSOS HUMANOS",
+     "desde": "2017-12",
+     "hasta": "2017-12",
+     "detalle": "CAS · 0"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Organismo Especializado para las Contrataciones Públicas Eficientes (OECE)",
+     "cargo": "NO TIENE",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · UNIDAD DE RECURSOS HUMANOS"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "VILLANUEVA OSHIRO, CECILIA ROSARIO",
+   "despacho": "Muñoz Yurivilca, Kim Tami",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "UNIDAD DE GESTIÓN EDUCATIVA LOCAL N° 02 (UGEL 02)",
+     "cargo": "ESPECIALISTA DE PREVENCION DE LA VIIOLENCIA Y PROMOCIÓN DEL BIENESTAR",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · ÁREA DE ASGESE"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "ARCE ACOSTA, LUIS CARLOS",
+   "despacho": "Noriega Reátegui, Víctor Manuel",
+   "camara": "S",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Distrital de Jesús María (MDJM)",
+     "cargo": "APOYO ADMINISTRATIVO NOCTURNO",
+     "desde": "2016-12",
+     "hasta": "2016-12",
+     "detalle": "CAS · SUB GERENCIA DE SERENAZGO"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "AREVALO AREVALO, JORGE HERNANDO",
+   "despacho": "Noriega Reátegui, Víctor Manuel",
+   "camara": "S",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Distrital de La Victoria - Lima (MLV)",
+     "cargo": "SUBGERENTE DE EDUCACION",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · SUBGERENCIA DE EDUCACION"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "TORREJON RIVA, AURORA DE JESUS",
+   "despacho": "Noriega Reátegui, Víctor Manuel",
+   "camara": "S",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Gobierno Regional San Martín (GORESAM)",
+     "cargo": "Gerente Regional de Desarrollo Social ( e )",
+     "desde": "2017-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · Secretaría General"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Gobierno Regional San Martín (GORESAM)",
+     "cargo": "Asesora",
+     "desde": "2015-12",
+     "hasta": "2016-12",
+     "detalle": "CAS · Secretaría General"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "PACHECO MARCELO, LUIS ALBERTO",
+   "despacho": "Obando Morgan, Auristela Ana",
+   "camara": "D",
+   "cargo": "ASISTENTE",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Distrital de Comas - LIMA (MD-COMAS)",
+     "cargo": "REGIDOR",
+     "desde": "2026-10",
+     "hasta": "2026-10",
+     "detalle": "Altos Funcionarios · CONSEJO MUNICIPAL"
+    }
+   ],
+   "otra_planilla_2026": true
+  },
+  {
+   "nombre": "LOVATON DALENS, HUMBERTO",
+   "despacho": "Osorio Palpán, Percy Herbert",
+   "camara": "S",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Desarrollo e Inclusión Social (MIDIS)",
+     "cargo": "ASISTENTE REGIONAL - CUSCO",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · MESA DE CONCERTACIÓN PARA LA LUCHA CONTRA LA POBREZA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "ROMERO POMA, EDGARDO",
+   "despacho": "Osorio Palpán, Percy Herbert",
+   "camara": "S",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Educación (MINEDU)",
+     "cargo": "DIRECTOR GENERAL",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "PAC · DIRECCION GENERAL DE DESARROLLO DOCENTE"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "PAICO CARRASCO, SANDRA MARIBEL",
+   "despacho": "Palomino Pacheco, Amalia Emilia",
+   "camara": "D",
+   "cargo": "AUXILIAR",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Despacho Presidencial (DP)",
+     "cargo": "CONSULTOR",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "FAG · SECRETARIA GENERAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "ROJAS REGALADO, IRMA ALTEMIRA",
+   "despacho": "Paredes Navarro, Yenifer Noelia",
+   "camara": "D",
+   "cargo": "COORDINADOR",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Despacho Presidencial (DP)",
+     "cargo": "DIRECTORA",
+     "desde": "2021-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · OFICINA DE APOYO AL CÓNYUGE DEL PRESIDENTE DE LA REPÚBLICA"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "PRESIDENCIA DE LA REPÚBLICA - DESPACHO PRESIDENCIAL",
+     "cargo": "DIRECTORA",
+     "desde": "2021-08-17",
+     "detalle": "Declaración jurada de intereses presentada el 2022-09-13"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "CARRILLO ALZAMORA, MARIA LUISA MERCEDES",
+   "despacho": "Patiño Urco, Ana Bertha",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Desarrollo Agrario y Riego (MIDAGRI)",
+     "cargo": "CONSULTOR FAG",
+     "desde": "2024-12",
+     "hasta": "2025-12",
+     "detalle": "FAG · DESPACHO MINISTERIAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "FORTTINI AGUILAR, BRUNO MARTIN",
+   "despacho": "Patiño Urco, Ana Bertha",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Trabajo y Promoción del Empleo (MTPE)",
+     "cargo": "SIN CARGO ESTRUCTURAL",
+     "desde": "2021-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · DIRECCION REGIONAL DE TRABAJO Y PROMOCION DEL EMPLEO DE L"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Trabajo y Promoción del Empleo (MTPE)",
+     "cargo": "ASISTENTE LEGAL",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · DIRECCION REGIONAL DE TRABAJO Y PROMOCION DEL EMPLEO DE LIMA METROPOLITANA - (DRTPELM)"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Trabajo y Promoción del Empleo (MTPE)",
+     "cargo": "SIN CARGO ESTRUCTURAL",
+     "desde": "2018-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · DIRECCION REGIONAL DE TRABAJO Y PROMOCION DEL EMPLEO DE L"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Gobierno Regional del Callao (GR-Callao)",
+     "cargo": "CAS",
+     "desde": "2017-12",
+     "hasta": "2017-12",
+     "detalle": "CAS · DIRECCION REGIONAL DE TRABAJO"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Gobierno Regional del Callao (GR-Callao)",
+     "cargo": "0669 SIN PLAZA - MTPE",
+     "desde": "2016-12",
+     "hasta": "2016-12",
+     "detalle": "CAS · DIRECCION REGIONAL DE TRABAJO"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Gobierno Regional del Callao (GR-Callao)",
+     "cargo": "C.A.S",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · DIRECCION REGIONAL DE TRABAJO"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "QUISPE PONCE, DENISSE CINTHYA",
+   "despacho": "Patiño Urco, Ana Bertha",
+   "camara": "D",
+   "cargo": "AUXILIAR",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Proyecto Especial de Infraestructura de Transporte Nacional (Provias Nacional)",
+     "cargo": "ASISTENTE ADMINISTRATIVO I",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "CAS · SUBDIRECCION DE CONSERVACION"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "SUAREZ AZABACHE, ERIKA ISABEL",
+   "despacho": "Patiño Urco, Ana Bertha",
+   "camara": "D",
+   "cargo": "ASISTENTE",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Distrital de San Isidro Lima (MDSI)",
+     "cargo": "APOYO DE ACTIVIDADES EN CEV POLAR",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · SUBGERENCIA DE SALUD, BIENESTAR Y DEPORTES"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "HUARCAYA REVILLA, LUIS ALBERTO",
+   "despacho": "Paucara Paxi, Carmela",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Agencia de Compras de las Fuerzas Armadas (ACFFAA)",
+     "cargo": "SECRETARIO GENERAL",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · SECRETARÍA GENERAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "REBORA YEREN, CARLA MARIANA",
+   "despacho": "Paucara Paxi, Carmela",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Agencia de Compras de las Fuerzas Armadas (ACFFAA)",
+     "cargo": "ESPECIALISTA ADMINISTRATIVO Y LEGAL",
+     "desde": "2021-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · SECRETARÍA GENERAL"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "AGENCIA DE COMPRAS DE LAS FUERZAS ARMADAS",
+     "cargo": "ESPECIALISTA ADMINISTRATIVO Y LEGAL EN LA SECRETARIA GENERAL",
+     "desde": "2021-11-11",
+     "detalle": "Declaración jurada de intereses presentada el 2022-11-18"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "BUSTAMANTE CORONADO, NICOLAS",
+   "despacho": "Peralta Jorpa, Máximo",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Transportes y Comunicaciones (MTC)",
+     "cargo": "Secretario/a General",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "Ley Servir · SECRETARIA GENERAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "DURAND BUSTAMANTE, KENYON EDUARDO",
+   "despacho": "Peralta Jorpa, Máximo",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "DJ",
+     "entidad": "JURADO NACIONAL DE ELECCIONES - JNE",
+     "cargo": "GOBERNADOR REGIONAL",
+     "desde": "2022-01-04",
+     "hasta": "2022-10-02",
+     "detalle": "Declaración jurada de intereses presentada el 2022-08-31"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "ABANTO MERINO, PAUL DENNYS",
+   "despacho": "Perez Quispe, Jessica Sadith",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Relaciones Exteriores (RREE)",
+     "cargo": "ESPECIALISTA EN POLÍTICAS NACIONALES",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · DIRECCIÓN GENERAL DE ESTUDIOS Y ESTRATEGIAS DE POLÍTICA EXTERIOR"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "ADUVIRI CALISAYA, WILBER",
+   "despacho": "Perez Quispe, Jessica Sadith",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Cultura (CULTURA)",
+     "cargo": "ESPECIALISTA EN FORMULACION DE PROYECTOS DE INVERSION PUBLICA",
+     "desde": "2025-12",
+     "hasta": "2026-10",
+     "detalle": "CAS · OFICINA GENERAL DE ADMINISTRACIÓN"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Presidencia del Consejo de Ministros (PCM)",
+     "cargo": "ESPECIALISTA EN FORMULACION DE PROYECTOS DE INVERSION PUBLICA",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · PROYECTO ESPECIAL BICENTENARIO DE LA INDEPENDENCIA DEL PERU"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Economía y Finanzas (MEF)",
+     "cargo": "SIN CARGO ESTRUCTURAL",
+     "desde": "2016-12",
+     "hasta": "2016-12",
+     "detalle": "CAS · DIRECCION DE SEGUIMIENTO Y EVALUACION DE LA INVERSION PUBLIC"
+    }
+   ],
+   "otra_planilla_2026": true
+  },
+  {
+   "nombre": "ACOSTA JULCA, PEDRO",
+   "despacho": "Peña Córdova, Olver",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Programa de Desarrollo Productivo Agrario Rural (AGRO RURAL)",
+     "cargo": "JEFE DE LA SUB UNIDAD DE EXTRACCION Y COMERCIALIZACION DE ABONOS",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "CAS · Sub Unidad de Extracción y Comercialización de Abonos"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "PINTADO MEJIA, WILLIAM",
+   "despacho": "Peña Córdova, Olver",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Corte Superior de San Martin (D.J. SAN MARTIN)",
+     "cargo": "COORDINADOR(CSJ_UE)",
+     "desde": "2026-03",
+     "hasta": "2026-03",
+     "detalle": "Régimen 728/OTROS · UNIDAD ADMINISTRATIVA Y DE FINANZAS MOYOBAMBA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "CASTILLO NAVARRO, ALDO RAPHAEL",
+   "despacho": "Pinasco Montenegro, Nary Benvinda",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Fondo de Cooperación para el Desarrollo Social (FONCODES)",
+     "cargo": "PROFESIONAL",
+     "desde": "2018-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · UNIDAD DE GESTION DE PROYECTOS PRODUCTIVOS"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "ROJAS BAUTISTA, YORDY VICTOR HUGO",
+   "despacho": "Piñán Mamani, Víctor Eduardo",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Distrital de San Isidro Lima (MDSI)",
+     "cargo": "SERENO ESPECIALISTA EN VIGILANCIA A TRAVES DE CAMARA",
+     "desde": "2024-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · SUBGERENCIA DE SERENAZGO"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "MARTINEZ SOLORZANO, CONSUELO ALICIA",
+   "despacho": "Poma Huamaní, Haydee Celinda",
+   "camara": "D",
+   "cargo": "ASISTENTE",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Universidad Nacional Amazonica de Madre de Dios (UNAMAD)",
+     "cargo": "ASISTENTE ADMINISTRATIVO",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "CAS · UNIDAD DE BIENES PATRIMONIALES"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "ANCHAYHUA VERAMENDI, JOSE EDUARDO",
+   "despacho": "Prado Vallejos, Lila Marianela",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Autoridad Nacional del Agua (ANA)",
+     "cargo": "TECNICO DE CAMPO ESPECIALIZADO",
+     "desde": "2024-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · AUTORIDAD ADMINISTRATIVA DEL AGUA - CHAPARRA CHINCHA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Autoridad Nacional del Agua (ANA)",
+     "cargo": "TECNICO DE CAMPO ESPECIALIZADO",
+     "desde": "2021-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · AUTORIDAD ADMINISTRATIVA DEL AGUA - CHAPARRA CHINCHA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Autoridad Nacional del Agua (ANA)",
+     "cargo": "TECNICO DE CAMPO ESPECIALIZADO",
+     "desde": "2015-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · ADMINISTRACION LOCAL DE AGUA ICA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "FONSECA VELASQUEZ, CARLOS ENRIQUE",
+   "despacho": "Prado Vallejos, Lila Marianela",
+   "camara": "D",
+   "cargo": "ASISTENTE",
+   "historial": [
+    {
+     "fuente": "El Peruano",
+     "entidad": "Programa Nacional de Infraestructura Educativa",
+     "cargo": "Director del Sistema Administrativo III de la Oficina de Comunicaciones",
+     "desde": "2026-10-05",
+     "detalle": "RESOLUCIÓN DIRECTORAL · Designan Director del Sistema Administrativo III de la Oficina de Comunicaciones del Programa Nacional de Infraestructura Educativa",
+     "url": "https://busquedas.elperuano.pe/dispositivo/NL/2561796-1"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "GUTIERREZ ZANELLI, FRANK WILLIAM",
+   "despacho": "Prado Vallejos, Lila Marianela",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Presidencia del Consejo de Ministros (PCM)",
+     "cargo": "COORDINADOR (A)",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "CAS · SUBSECRET TECNOLOGIAS Y SEGURIDAD DIGITAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "PEVE QUISPE, MARGARITA ANGELICA",
+   "despacho": "Prado Vallejos, Lila Marianela",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Gobierno Regional de Ica (GORE-ICA)",
+     "cargo": "DIRECTOR OFICINA REGIONAL DE ASESORIA JURIDICA",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "Altos Funcionarios · SEDE CENTRAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "SOTO GUEVARA, JUAN ANDRES",
+   "despacho": "Prado Vallejos, Lila Marianela",
+   "camara": "D",
+   "cargo": "COORDINADOR",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Superintendencia Nacional de Servicios de Saneamiento (SUNASS)",
+     "cargo": "COORDINADOR",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "CAS · DAP-ODS-ICA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Superintendencia Nacional de Servicios de Saneamiento (SUNASS)",
+     "cargo": "COORDINADOR",
+     "desde": "2021-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · DAP-ODS-ICA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Superintendencia Nacional de Servicios de Saneamiento (SUNASS)",
+     "cargo": "CAS",
+     "desde": "2018-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · GRT-ICA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "PIMENTEL HUAYLLASCO, WALTER IVAN",
+   "despacho": "Pérez Mallqui, Julián Luis",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Distrital de Pichari (MDPichari)",
+     "cargo": "Gerente de Servicios Municipales",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · Gerencia Municipal"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "TAFUR DOCUMET, ORLANDO",
+   "despacho": "Quispe Candia, Luis Eliseo",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "DJ",
+     "entidad": "MUNICIPALIDAD METROPOLITANA DE LIMA",
+     "cargo": "FUNCIONARIO",
+     "desde": "2019-06-24",
+     "hasta": "2022-08-31",
+     "detalle": "Declaración jurada de intereses presentada el 2022-09-12"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "CAMARGO DUEÑAS, TANIA",
+   "despacho": "Quito Sarmiento, Bernardo Jaime",
+   "camara": "S",
+   "cargo": "COORDINADOR",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Integral Nacional para el Bienestar Familiar (INABIF)",
+     "cargo": "EDUCADOR(A) DE CALLE",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · USPNNA - E.D.C. - MOQUEGUA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Integral Nacional para el Bienestar Familiar (INABIF)",
+     "cargo": "SERVICIO: EDUCADOR(A) DE CALLE",
+     "desde": "2018-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · USPNNA - EDUCADORES DE CALLE - MOQUEGUA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "HUARACA GALDOS, LEXCY NAYROBI",
+   "despacho": "Ramos Huillcas, Andrés Avelino",
+   "camara": "S",
+   "cargo": "AUXILIAR",
+   "historial": [
+    {
+     "fuente": "OCDS",
+     "entidad": "MUNICIPALIDAD PROVINCIAL DE TAMBOPATA",
+     "cargo": "Proveedor (persona natural)",
+     "desde": "2026-08-10",
+     "detalle": "Buena pro LP-ABR-12-2026-MPT/OC-1 · PEN 179,863.70",
+     "ocid": "ocds-dgv273-seacev3-1226220"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "SALAS CCENTE, LISBETH",
+   "despacho": "Ramos Huillcas, Andrés Avelino",
+   "camara": "S",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Cultura (CULTURA)",
+     "cargo": "DIRECTORA",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · DIRECCIÓN DESCONCENTRADA DE CULTURA APURÍMAC"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "TALAVERA FLORES, CARLOS WILSON",
+   "despacho": "Ramos Huillcas, Andrés Avelino",
+   "camara": "S",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Energía y Minas (MINEM)",
+     "cargo": "VICE MINISTRO (CNP)",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "Altos Funcionarios · DESPACHO VICEMINISTERIAL DE MINAS"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "AGROMERCADO (SSE)",
+     "cargo": "PRESIDENTE EJECUTIVO",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · PRESIDENCIA EJECUTIVA"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "SIERRA Y SELVA EXPORTADORA",
+     "cargo": "PRESIDENTE EJECUTIVO",
+     "desde": "2022-05-01",
+     "detalle": "Declaración jurada de intereses presentada el 2022-11-10"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "HUERTA FERNANDEZ, ANTONIO GERARDO",
+   "despacho": "Ramos Rosales, María Candelaria",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Programa de Desarrollo Productivo Agrario Rural (AGRO RURAL)",
+     "cargo": "DIR. DIRECCION ZONAL LAMBAYEQUE",
+     "desde": "2016-12",
+     "hasta": "2016-12",
+     "detalle": "CAS · DIRECCION ZONAL LAMBAYEQUE"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "NEYRA VILLANUEVA, JOSE LUIS",
+   "despacho": "Ramos Rosales, María Candelaria",
+   "camara": "D",
+   "cargo": "ASISTENTE",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Gobierno Regional Tumbes (GR-Tumbes)",
+     "cargo": "EX FUNCIONARIO",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "Altos Funcionarios · SEDE REGIONAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "CABELLO ARCE, JUAN JOSE",
+   "despacho": "Reto Otero, Oscar de Jesús",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Cultura (CULTURA)",
+     "cargo": "ASESOR II",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · DESPACHO MINISTERIAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Cultura (CULTURA)",
+     "cargo": "CONSULTOR - VMPCIC",
+     "desde": "2018-12",
+     "hasta": "2018-12",
+     "detalle": "FAG · VICEMINISTERIO DE PATRIMONIO CULTURAL E INDUSTRIAS CULTURALES"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "HURTADO ARGUEDAS, GIOVANNI WALTER ROLANDO",
+   "despacho": "Rocha Gallegos, Roxana María",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Fondo Metropolitano de Inversiones (INVERMET)",
+     "cargo": "Técnico Especialista en Informática",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · OGPMP"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Distrital de San Juan de Miraflores - LIMA (SJM)",
+     "cargo": "FUNCIONARIO",
+     "desde": "2015-12",
+     "hasta": "2016-12",
+     "detalle": "CAS · GTIE"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "REYES ESTRADA, MILANI",
+   "despacho": "Rocha Gallegos, Roxana María",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Instituto Tecnológico de la Producción (ITP)",
+     "cargo": "ESPECIALISTA EN COMUNICACIÓN, DIFUSIÓN E IMAGEN.",
+     "desde": "2024-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · META 0118 - SEC. GRAL - COMUN. E IMAG. INSTIT."
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Instituto Tecnológico de la Producción (ITP)",
+     "cargo": "ESPECIALISTA EN COMUNICACIÓN, DIFUSIÓN E IMAGEN",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · META 0114 - SEC. GRAL - COMUN. E IMAG. INSTIT."
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "RONDON CARREON, VERONICA FABIOLA",
+   "despacho": "Rocha Gallegos, Roxana María",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Superintendencia Nacional de Bienes Estatales (SBN)",
+     "cargo": "Especialista en Bienes Estatales",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · Dirección de Normas y Registro"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "CASTRO TOVAR, SANDRA SILVIA",
+   "despacho": "Rospigliosi Capurro, Fernando Miguel",
+   "camara": "S",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio del Interior (MININTER)",
+     "cargo": "CONSULTORA",
+     "desde": "2016-12",
+     "hasta": "2016-12",
+     "detalle": "FAG · GABINETE DE ASESORES"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "AMAYA ALVARADO, CARLOS",
+   "despacho": "Salas Rivera, Alexander",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Vivienda, Construcción y Saneamiento (VIVIENDA)",
+     "cargo": "DIRECTOR R. M. N° 229-2022-VIVIENDA",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "Altos Funcionarios · DIRECCION DE GESTION Y COORDINACION EN VIVIENDA Y URBANISMO"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "MINISTERIO DE VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO",
+     "cargo": "DIRECTOR DE GESTION Y COORDINACION DE VIVIENDA Y URBANISMO",
+     "desde": "2022-08-21",
+     "detalle": "Declaración jurada de intereses presentada el 2022-09-02"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "MINISTERIO DE VIVIENDA, CONSTRUCCIÓN Y SANEAMIENTO",
+     "cargo": "DIRECTOR DE EJECUCIÓN DE PROGRAMAS Y PROYECTOS DE VIVIENDA Y URBNANISMO",
+     "desde": "2021-12-15",
+     "hasta": "2022-08-20",
+     "detalle": "Declaración jurada de intereses presentada el 2022-09-02"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Vivienda, Construcción y Saneamiento (VIVIENDA)",
+     "cargo": "DIRECTOR. R.M. N° 391-2021-VIVIENDA",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "Altos Funcionarios · DIRECCION DE EJECUCION DE PROGRAMAS Y PROYECTOS EN VIVIENDA Y URBANISMO"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "PASAPERA TRUJILLO, FABIOLA SUSANA",
+   "despacho": "Samanez Gonzales Vigil, Jeenny Cristina",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Transportes y Comunicaciones (MTC)",
+     "cargo": "DIRECCION GENERAL DE PROGRAMAS Y PROYECTOS DE TRANSPORTES",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · 15800"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "PINEDO SALDAÑA, MAYU HIDAI",
+   "despacho": "Samanez Gonzales Vigil, Jeenny Cristina",
+   "camara": "D",
+   "cargo": "ASISTENTE",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Distrital de Santa Anita (MDSA)",
+     "cargo": "PERSONAL ADMINISTRATIVO",
+     "desde": "2017-12",
+     "hasta": "2017-12",
+     "detalle": "CAS · SUB GERENCIA DE CULTURA Y CONOCIMIENTOS INNOVADORES"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Metropolitana de Lima (MUNLIMA)",
+     "cargo": "COORDINADOR EDUCATIV",
+     "desde": "2016-12",
+     "hasta": "2016-12",
+     "detalle": "CAS · GERENCIA DE EDUCACION Y DEPORTES"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "PANTA SALDARRIAGA, ELBERT",
+   "despacho": "Santana Vera, Milagros Karina",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Proyecto Especial de Infraestructura de Transporte Nacional (Provias Nacional)",
+     "cargo": "GERENTE DE LA UNIDAD GERENCIAL DE OPERACIONES",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · SUBDIRECCION DE OPERACIONES"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Proyecto Especial de Infraestructura de Transporte Nacional (Provias Nacional)",
+     "cargo": "GERENTE DE LA UNIDAD GERENCIAL DE OBRAS",
+     "desde": "2018-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · UNIDAD GERENCIAL DE OPERACIONES"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Proyecto Especial de Infraestructura de Transporte Nacional (Provias Nacional)",
+     "cargo": "ASESOR DE LA DIRECCION EJECUTIVA",
+     "desde": "2017-12",
+     "hasta": "2017-12",
+     "detalle": "CAS · 0"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "WURTTELE AGUIRRE, LUIS ALBERTO",
+   "despacho": "Santana Vera, Milagros Karina",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Universidad Nacional Federico Villarreal (UNFV)",
+     "desde": "2026-03",
+     "hasta": "2026-03",
+     "detalle": "Régimen 276 · OFICINA CENTRAL DE ASUNTOS ACADEMICOS"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Universidad Nacional Federico Villarreal (UNFV)",
+     "cargo": "OFICINA CENTRAL DE ASUNTOS ACADEMICOS",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · 4150"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "TORRES SIAS, JIMMY ALEXANDER",
+   "despacho": "Schaefer Cuculiza, Karla Melissa",
+   "camara": "S",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Gobierno Regional de Huancavelica (GR-Huancavelica)",
+     "cargo": "CONSEJERO ECONOMICO COMERCIAL",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · GR HUANCAVELICA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "CARAMANTIN BENITES, SANDRA LISBETH",
+   "despacho": "Silupu Inga, María Luisa",
+   "camara": "D",
+   "cargo": "AUXILIAR",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Nacional para la Prevención y Erradicación de la Violencia contra las Mujeres e Integrantes (Warmi Ñan)",
+     "cargo": "COORDINADOR/A DE CEM",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "CAS · CEM_COMISARIA DE FAMILIA PIURA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Nacional para la Prevención y Erradicación de la Violencia contra las Mujeres e Integrantes (Warmi Ñan)",
+     "cargo": "COORDINADOR/A DE CEM",
+     "desde": "2021-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · CEM_COMISARIA NUEVA SULLANA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Nacional para la Prevención y Erradicación de la Violencia contra las Mujeres e Integrantes (Warmi Ñan)",
+     "cargo": "COORDINADOR/A DE CEM",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · CEM_COMISARIA NUEVA SULLANA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Nacional para la Prevención y Erradicación de la Violencia contra las Mujeres e Integrantes (Warmi Ñan)",
+     "cargo": "ABOGADO/A",
+     "desde": "2017-12",
+     "hasta": "2017-12",
+     "detalle": "CAS · CEM_COMISARIA SULLANA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "ARELLANO OLAECHEA, MADAI",
+   "despacho": "Sonco Villanueva, Helard Bladimir",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Universidad Nacional de Ingeniería (UNI)",
+     "cargo": "ASISTENTE ADMINISTRATIVO I",
+     "desde": "2025-12",
+     "hasta": "2026-09",
+     "detalle": "CAS · OFICINA DE TECNOLOGIAS DE LA INFORMACION"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Universidad Nacional de Ingeniería (UNI)",
+     "cargo": "OFICINA DE TECNOLOGIAS DE LA INFORMACION",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "CAS · 2114.19"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Universidad Nacional de Ingeniería (UNI)",
+     "cargo": "PROFESIONAL",
+     "desde": "2021-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · Centro de Tecnologías de Información y Comunicaciones"
+    }
+   ],
+   "otra_planilla_2026": true
+  },
+  {
+   "nombre": "BAEZ LUJAN, JUAN CRISTIAN",
+   "despacho": "Sulca Castillo, Pilar",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio Público Fiscalía de la Nación (MPFN)",
+     "cargo": "ASISTENTE ADMINISTRATIVO",
+     "desde": "2018-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · FISCALÍA PROVINCIAL ESPECIALIZADA EN DELITOS DE TRÁFICO ILÍCITO DE DROGAS - SEDE AYNA - SAN FRANCISCO"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio Público Fiscalía de la Nación (MPFN)",
+     "cargo": "ASISTENTE ADMINISTRATIVO(NOTIFICADOR)",
+     "desde": "2015-12",
+     "hasta": "2016-12",
+     "detalle": "CAS · ADMINISTRACIÓN DEL DISTRITO JUDICIAL DE AYACUCHO"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "ZEA JARA, LUIS ALBERTO",
+   "despacho": "Sulca Castillo, Pilar",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Instituto Nacional de Defensa Civil (INDECI)",
+     "cargo": "ABOGADO",
+     "desde": "2018-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · OF. GRAL DE ADMINISTRACION"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "PORTOCARRERO MENDOZA, CARLOS GUSTAVO",
+   "despacho": "Takayama Jimenez, Liliana Milagros",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "DJ",
+     "entidad": "MINISTERIO DEL INTERIOR",
+     "cargo": "VOCAL DEL TDP",
+     "desde": "2022-07-15",
+     "hasta": "2022-08-05",
+     "detalle": "Declaración jurada de intereses presentada el 2022-08-10"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "REVOREDO LOZANO, NATALIA MILAGROS",
+   "despacho": "Takayama Jimenez, Liliana Milagros",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Presidencia del Consejo de Ministros (PCM)",
+     "cargo": "ESPECIALISTA INTERSECTORIAL III",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "PNUD · SECRETARÍA DE COMUNICACIÓN SOCIAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de la Mujer y Poblaciones Vulnerables (MIMP)",
+     "cargo": "ANALISTA EN GESTIÓN DE ACTIVIDADES Y PROTOCOLO",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · OFICINA DE COMUNICACIÓN"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Desarrollo e Inclusión Social (MIDIS)",
+     "cargo": "ANALISTA EN COMUNICACIONES Y RELACIONES PÚBLICAS",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · OFICINA GENERAL DE COMUNICACION ESTRATEGICA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Comisión Nacional para el Desarrollo y Vida sin Drogas (DEVIDA)",
+     "cargo": "ESPECIALISTA EN COMUNICACIONES",
+     "desde": "2015-12",
+     "hasta": "2016-12",
+     "detalle": "CAS · AREA DE COMUNICACIONES"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "RAMOS HUME, CESAR AUGUSTO",
+   "despacho": "Ticona Cohaila, Juana Guisella",
+   "camara": "S",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Centro Nacional de Estimación, Prevención y Reducción del Riesgo de Desastres (CENEPRED)",
+     "cargo": "Coodinador Administrativo",
+     "desde": "2016-12",
+     "hasta": "2016-12",
+     "detalle": "CAS · Oficina de Administración"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Centro Nacional de Estimación, Prevención y Reducción del Riesgo de Desastres (CENEPRED)",
+     "cargo": "Asistente Administrativo",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · Oficina de Administración"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "MALMBORG RIOS, JORGE MIGUEL",
+   "despacho": "Torres Morales, Miguel Ángel",
+   "camara": "S",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Instituto Nacional de Radio y Televisión del Perú (IRTP)",
+     "cargo": "REPORTERO",
+     "desde": "2015-12",
+     "hasta": "2016-12",
+     "detalle": "CAS · GERENCIA DE PRENSA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "RENGIFO HUAMAN, JOSE ANTONIO",
+   "despacho": "Torres Morales, Miguel Ángel",
+   "camara": "S",
+   "cargo": "COORDINADOR",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Distrital de San Isidro Lima (MDSI)",
+     "cargo": "SERENO ESPECIALIZADO CUERPO DE OPERACIONES ESPECIALES-COES",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "CAS · SUBGERENCIA DE SERENAZGO"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "PACHECO UZURIAGA, ANTENOR FELIPE",
+   "despacho": "Trujillo Zegarra, Gilmer",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Fondo de Cooperación para el Desarrollo Social (FONCODES)",
+     "cargo": "COORDINADOR",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "CAS · UNIDAD DE PLANEAMIENTO, PRESUPUESTO Y MODERNIZACION"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Proyecto Especial de Infraestructura de Transporte Descentralizado (Provias Descentraliz)",
+     "cargo": "COORDINADOR II",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "CAS · DIRECCION EJECUTIVA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "ROMERO RIVERA, CARLOS ANTONIO",
+   "despacho": "Uribe Saenz, Romina Alejandra",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Distrital de Miraflores - LIMA (MDMiraflores)",
+     "cargo": "ASISTENTE LEGAL",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · SECRETARIA GENERAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "POMALAYA TACURI, LAURA INES",
+   "despacho": "Valqui Calderón, Demetrio Flavio",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "DJ",
+     "entidad": "MINISTERIO DE DEFENSA",
+     "cargo": "COORDINADORA PARLAMENTARIA DEL MINISTERIO DE DEFENSA",
+     "desde": "2022-10-01",
+     "hasta": "2022-12-15",
+     "detalle": "Declaración jurada de intereses presentada el 2022-10-28"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Defensa (MINDEF)",
+     "cargo": "COORDINADORA PARLAMENTARIA",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · COORDINACION PARLAMENTARIA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Trabajo y Promoción del Empleo (MTPE)",
+     "cargo": "PROFESIONAL",
+     "desde": "2016-12",
+     "hasta": "2016-12",
+     "detalle": "CAS · DIRECCION GENERAL DE DERECHOS FUNDAMENTALES Y SEGURIDAD Y SALUD EN EL TRABAJO - DGDFSST"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "CASTRO ROSSELL, MARCO ALEJANDRO",
+   "despacho": "Velásquez García, Miguel Angel",
+   "camara": "S",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Presidencia del Consejo de Ministros (PCM)",
+     "cargo": "ASESOR DE ALTA DIRECCION",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "PAC · DESPACHO VICEMINISTERIAL DE GOBERNANZA TERRITORIAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Desarrollo e Inclusión Social (MIDIS)",
+     "cargo": "ASESOR",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "CAS · DESPACHO MINISTERIAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Economía y Finanzas (MEF)",
+     "cargo": "SIN CARGO ESTRUCTURAL",
+     "desde": "2017-12",
+     "hasta": "2019-12",
+     "detalle": "FAG · DESPACHO MINISTERIAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "HIDALGO CHIMAYCO, MARIA GRACIA",
+   "despacho": "Velásquez García, Miguel Angel",
+   "camara": "S",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Economía y Finanzas (MEF)",
+     "cargo": "ASESOR DE GABINETE DE ASESORES",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "Ley Servir · DESPACHO MINISTERIAL - GABINETE DE ASESORES"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Economía y Finanzas (MEF)",
+     "cargo": "CONSULTOR FAG",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "FAG · DESPACHO MINISTERIAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "AGUILAR TERRONES, ANAKAREN SOFIA",
+   "despacho": "Ventura Ángel, Héctor José",
+   "camara": "S",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Metropolitana de Lima (MUNLIMA)",
+     "cargo": "PROMOTOR",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · GERENCIA DE EDUCACIÓN Y DEPORTES"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "BAZAN VASQUEZ, BRUCE JEREMY",
+   "despacho": "Ventura Ángel, Héctor José",
+   "camara": "S",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Instituto Nacional de Radio y Televisión del Perú (IRTP)",
+     "cargo": "REPORTERO",
+     "desde": "2015-12",
+     "hasta": "2016-12",
+     "detalle": "CAS · GERENCIA DE RADIO"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "HUAMANCUSI FIGUEROA, YULIANA JUDITH",
+   "despacho": "Vásquez Chuquilín, Mirtha Esther",
+   "camara": "S",
+   "cargo": "COORDINADOR",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Defensoría del Pueblo (DP)",
+     "cargo": "ASISTENTE EN COMUNICACIONES",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · OFICINA GENERAL DE COMUNICACIONES E IMAGEN INSTITUCIONAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "RAMIREZ VARELA, LILIA MATILDE",
+   "despacho": "Vásquez Chuquilín, Mirtha Esther",
+   "camara": "S",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Presidencia del Consejo de Ministros (PCM)",
+     "cargo": "ASESORA II DEALTA DIRECCION",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "PAC · DESPACHO MINISTERIAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "RIOS BARRIENTOS, MARIO CESAR",
+   "despacho": "Vásquez Chuquilín, Mirtha Esther",
+   "camara": "S",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "DJ",
+     "entidad": "MINISTERIO DEL INTERIOR",
+     "cargo": "ASESOR II",
+     "desde": "2022-05-28",
+     "hasta": "2022-07-12",
+     "detalle": "Declaración jurada de intereses presentada el 2022-07-14"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Presidencia del Consejo de Ministros (PCM)",
+     "cargo": "JEFE DEL GABINETE DE ASESORES",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "PAC · DESPACHO MINISTERIAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "VELA CLAVO, JORGE ENRIQUE",
+   "despacho": "Vásquez Chuquilín, Mirtha Esther",
+   "camara": "S",
+   "cargo": "AUXILIAR",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Superintendencia Nacional de Control de Servicios de Seguridad, Armas, Municiones y Explosivos de Us (SUCAMEC)",
+     "cargo": "Inspector",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · GCF"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "CARRASCO AGUILAR, JAVIER FRANCISCO",
+   "despacho": "Vásquez Villanueva, Absalón",
+   "camara": "S",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Organismo de Focalización e Información Social (OFIS)",
+     "cargo": "ESPECIALISTA",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · OFICINA DE ASESORÍA JURÍDICA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Desarrollo e Inclusión Social (MIDIS)",
+     "cargo": "ESPECIALISTA LEGAL",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "CAS · DIRECCION GENERAL DE FOCALIZACION E INFORMACION SOCIAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Desarrollo e Inclusión Social (MIDIS)",
+     "cargo": "ESPECIALISTA LEGAL",
+     "desde": "2021-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · DIRECCION GENERAL DE FOCALIZACION E INFORMACION SOCIAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Desarrollo e Inclusión Social (MIDIS)",
+     "cargo": "ESPECIALISTA LEGAL",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · DIRECCION GENERAL DE FOCALIZACION"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Nacional de Conservación de Bosques (PNCBMCC)",
+     "cargo": "ESPECIALISTA EN GOBERNANZA",
+     "desde": "2017-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · UNIDAD DE INCENTIVOS PARA LA CONSERVACIÓN DE BOSQUES"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Nacional de Conservación de Bosques (PNCBMCC)",
+     "cargo": "ESPECIALISTA EN GOBERNANZA II",
+     "desde": "2015-12",
+     "hasta": "2016-12",
+     "detalle": "CAS · Unidad de Fortalecimiento de Capacidades"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "HEREDIA AVALOS, NATALIA STEFANY",
+   "despacho": "Yalta Sotelo, Carlos Alberto",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Organismo Técnico de la Administración de los Servicios de Saneamiento (OTASS)",
+     "cargo": "ESPECIALISTA",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · PRESIDENCIA EJECUTIVA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Metropolitana de Lima (MUNLIMA)",
+     "cargo": "ANALISTA LEGAL II",
+     "desde": "2021-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · GERENCIA DE DESARROLLO ECONOMICO"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "ORTIZ CRUZADO, GIULIANA JENNYFER",
+   "despacho": "Yalta Sotelo, Carlos Alberto",
+   "camara": "D",
+   "cargo": "ASISTENTE",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Nacional de Telecomunicaciones (PRONATEL)",
+     "cargo": "Auxiliar Administrativa",
+     "desde": "2021-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · Oficina de Planeamiento y Presupuesto"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "TEJADA MERA, URSULA MARTINA",
+   "despacho": "Yalta Sotelo, Carlos Alberto",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Justicia y Derechos Humanos (MINJUS)",
+     "cargo": "COORDINADOR (EJECUTIVO) DE CUSTODIA, DISPOSICION Y SUPERVISION DE ACTIVOS",
+     "desde": "2021-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · UNIDAD DE CUSTODIA, DISPOSICION Y SUPERVICION DE ACTIVOS"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Justicia y Derechos Humanos (MINJUS)",
+     "cargo": "COORDINADOR (EJECUTIVO) DE CUSTODIA, DISPOSICION Y SUPERVISION DE ACTIVOS",
+     "desde": "2017-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · PROGRAMA NACIONAL DE BIENES INCAUTADOS"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "UBIA ALZAMORA, CRISTIAN",
+   "despacho": "Yalta Sotelo, Carlos Alberto",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Economía y Finanzas (MEF)",
+     "cargo": "CONSULTOR FAG",
+     "desde": "2021-12",
+     "hasta": "2022-12",
+     "detalle": "FAG · DESPACHO VICEMINISTERIAL DE ECONOMÍA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Economía y Finanzas (MEF)",
+     "cargo": "SIN CARGO ESTRUCTURAL",
+     "desde": "2018-12",
+     "hasta": "2019-12",
+     "detalle": "FAG · DESPACHO VICEMINISTERIO DE ECONOMIA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "LUNA LARTIGA, LUCERO LIZ",
+   "despacho": "Yarrow Lumbreras, Norma Martina",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Distrital de Pachacámac (MDPACHACAMAC)",
+     "cargo": "ASESORA EN TURISMO",
+     "desde": "2017-12",
+     "hasta": "2017-12",
+     "detalle": "CAS · SUB.DE PROMOCION TURISTICA Y PATRIMONIO CULTURAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "QUILLAMA TORRES, LUZGARDA",
+   "despacho": "Yataco Torrealva, José Ricardo",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Seguro Integral de Salud (SIS)",
+     "cargo": "DIRECTOR GENERAL",
+     "desde": "2018-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · OFICINA GENERAL DE PLANEAMIENTO, PRESUPUESTO Y DESARROLLO ORGANIZACIONAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "SOLIS VILLARREAL, ADA MARGARITA",
+   "despacho": "Yataco Torrealva, José Ricardo",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Centro Vacacional Huampani (CVH)",
+     "cargo": "GERENTE GENERAL",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · GERENCIA GENERAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "RIVEROS CARHUAPOMA, WILLIAM",
+   "despacho": "Yauri Tunque, Joaquín",
+   "camara": "S",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "DJ",
+     "entidad": "PRESIDENCIA DEL CONSEJO DE MINISTROS - P C M",
+     "cargo": "ASESOR II",
+     "desde": "2022-12-07",
+     "detalle": "Declaración jurada de intereses presentada el 2022-12-20"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Cultura (CULTURA)",
+     "cargo": "CONSULTOR(A) FAG",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "FAG · DESPACHO MINISTERIAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Presidencia del Consejo de Ministros (PCM)",
+     "cargo": "ASESOR II",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · DESPACHO MINISTERIAL"
+    }
+   ],
+   "otra_planilla_2026": false,
+   "ambiguo": true
+  },
+  {
+   "nombre": "YAURI CHOQUE, MYRIAM JULIZA",
+   "despacho": "Yauri Tunque, Joaquín",
+   "camara": "S",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Nacional de Saneamiento Urbano (PNSU)",
+     "cargo": "ANALISTA I PRESUPUESTAL",
+     "desde": "2024-12",
+     "hasta": "2024-12",
+     "detalle": "CAS · UNIDAD DE PROYECTOS"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "CAMPOS APARCANA, JOSE MARTIN",
+   "despacho": "Yonz Núñez, Mady Verónica",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Nacional Cuna Más (PNCM)",
+     "cargo": "ESPECIALISTA EN GESTION COMUNITARIA",
+     "desde": "2025-12",
+     "hasta": "2025-12",
+     "detalle": "CAS · UNIDAD TECNICA DE ATENCION INTEGRAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "DEL RIO TIMANA, DALIA KATHERINE",
+   "despacho": "Yuffra Lugo, Ana Luisa",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio del Interior (MININTER)",
+     "cargo": "VOCAL.",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "CAS · TRIBUNAL DE DISCIPLINA POLICIAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio del Interior (MININTER)",
+     "cargo": "VOCAL",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · TRIBUNAL DE DISCIPLINA POLICIAL"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "SUPERINTENDENCIA NACIONAL DE FISCALIZACION LABORAL (SUNAFIL)",
+     "cargo": "ABOGADO LABORALISTA",
+     "desde": "2017-12",
+     "hasta": "2018-12",
+     "detalle": "CAS · INTENDENCIA NACIONAL DE INTELIGENCIA INSPECTIVA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "MARMANILLO GAMARRA, ROCIO",
+   "despacho": "Zegarra Sánchez, Carlos Alberto",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Instituto Nacional de Radio y Televisión del Perú (IRTP)",
+     "cargo": "PROD.RADIAL",
+     "desde": "2021-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · GERENCIA DE RADIO"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Instituto Nacional de Radio y Televisión del Perú (IRTP)",
+     "cargo": "PROD.RADIAL",
+     "desde": "2015-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · GERENCIA DE RADIO"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "VASQUEZ SANCHEZ, LUIS RAFAEL",
+   "despacho": "Zegarra Sánchez, Carlos Alberto",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Servicio de Parques de Lima (SERPAR - LIMA)",
+     "cargo": "ADMINISTRADOR P. Z. HUIRACOCHA",
+     "desde": "2015-12",
+     "hasta": "2015-12",
+     "detalle": "CAS · PARQUE ZONAL HUIRACOCHA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "BORJA ANGELES, CARLOS ENRIQUE",
+   "despacho": "Zunini Yerren, Ernesto Alonzo",
+   "camara": "D",
+   "cargo": "ASESOR II",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Comercio Exterior y Turismo (MINCETUR)",
+     "cargo": "DIRECTOR",
+     "desde": "2021-12",
+     "hasta": "2022-12",
+     "detalle": "CAS · DIRECCION DE NORMATIVIDAD Y CALIDAD TURISTICA"
+    },
+    {
+     "fuente": "DJ",
+     "entidad": "MINISTERIO DE COMERCIO EXTERIOR Y TURISMO",
+     "cargo": "DIRECTOR",
+     "desde": "2021-08-25",
+     "detalle": "Declaración jurada de intereses presentada el 2022-09-20"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Distrital de San Borja (MDSanBorja)",
+     "cargo": "ABOGADO",
+     "desde": "2019-12",
+     "hasta": "2019-12",
+     "detalle": "CAS · 0032 OFICINA DE CAPITAL HUMANO"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "CHECCO CHAUCA, LENIN ABRAHAM",
+   "despacho": "Zunini Yerren, Ernesto Alonzo",
+   "camara": "D",
+   "cargo": "ASESOR PRINCIPAL",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Transportes y Comunicaciones (MTC)",
+     "cargo": "DIRECTOR GENERAL DE LA DIRECCIÓN GENERAL DE POLÍTICAS Y REGULACIÓN EN TRANSPORTE MULTIMODAL",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "PAC · VICEMINISTRO DE TRANSPORTES"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Energía y Minas (MINEM)",
+     "cargo": "JEFE DE GABINETE DE ASESORES",
+     "desde": "2021-12",
+     "hasta": "2021-12",
+     "detalle": "CAS · DESPACHO MINISTERIAL-N"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "TORRES TUTIVEN, PAMELA DEL ROCIO",
+   "despacho": "Zunini Yerren, Ernesto Alonzo",
+   "camara": "D",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Ministerio de Salud (MINSA)",
+     "cargo": "CONSULTOR FAG",
+     "desde": "2022-12",
+     "hasta": "2022-12",
+     "detalle": "PNUD · DESPACHO MINISTERIAL"
+    }
+   ],
+   "otra_planilla_2026": false
+  }
+ ]
+}
