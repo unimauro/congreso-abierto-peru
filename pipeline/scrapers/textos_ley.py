@@ -162,10 +162,14 @@ def paginas_pdf(ruta: str) -> int:
         return 0
 
 
-def ocr(ruta: str, paginas: int) -> str:
+OCR_FINALES = 4  # el análisis costo-beneficio y la fórmula legal suelen ir al final del escaneo
+
+
+def ocr(ruta: str, paginas: int, desde: int = 1, hasta: int | None = None) -> str:
     textos = []
+    hasta = hasta or min(OCR_PAGINAS, paginas or OCR_PAGINAS)
     with tempfile.TemporaryDirectory() as tmp:
-        subprocess.run(["pdftoppm", "-r", "150", "-gray", "-f", "1", "-l", str(min(OCR_PAGINAS, paginas or OCR_PAGINAS)),
+        subprocess.run(["pdftoppm", "-r", "150", "-gray", "-f", str(desde), "-l", str(hasta),
                         "-png", ruta, os.path.join(tmp, "p")], capture_output=True, timeout=600)
         for img in sorted(os.listdir(tmp)):
             r = subprocess.run(["tesseract", os.path.join(tmp, img), "-", "-l", "spa", "--psm", "6"],
@@ -185,6 +189,8 @@ def extraer(pdf: bytes):
         metodo = "pdftotext"
         if len(texto.strip()) < MIN_TEXTO:
             t2 = ocr(ruta, pags)
+            if pags and pags > OCR_PAGINAS:  # también las últimas páginas
+                t2 += "\f" + ocr(ruta, pags, max(OCR_PAGINAS + 1, pags - OCR_FINALES + 1), pags)
             if len(t2.strip()) > len(texto.strip()):
                 texto, metodo = t2, "ocr"
     return texto, pags, metodo
@@ -259,6 +265,43 @@ def descargar(proyectos: list, hoy: date):
     print(f"[textos] descarga: {dict(estados)} en {time.time() - t0:.0f}s")
     for e in errores[:10]:
         print("  [!]", e)
+
+
+def completar_finales(c: dict) -> str:
+    """Escaneos procesados antes de leer las páginas finales: baja el PDF otra vez y añade OCR del final."""
+    pags = c.get("paginas") or 0
+    if c.get("metodo") != "ocr" or c.get("ocr_final") or pags <= OCR_PAGINAS or not c.get("pdf_url"):
+        return "no-aplica"
+    r = get(c["pdf_url"])
+    if r.content[:4] != b"%PDF":
+        return "sin-pdf"
+    with tempfile.TemporaryDirectory() as tmp:
+        ruta = os.path.join(tmp, "p.pdf")
+        with open(ruta, "wb") as f:
+            f.write(r.content)
+        extra = ocr(ruta, pags, max(OCR_PAGINAS + 1, pags - OCR_FINALES + 1), pags)
+    c["text"] = (c.get("text") or "") + "\f" + extra
+    c["ocr_final"] = True
+    escribir_cache(c["codigo"], c)
+    return "completado"
+
+
+def completar_ocr_pendientes():
+    pend = []
+    for f in os.listdir(CACHE):
+        if f.endswith(".json"):
+            c = leer_cache(f[:-5])
+            if c and c.get("metodo") == "ocr" and not c.get("ocr_final") and (c.get("paginas") or 0) > OCR_PAGINAS:
+                pend.append(c)
+    if not pend:
+        return
+    t0, estados = time.time(), Counter()
+    with ThreadPoolExecutor(max_workers=WORKERS) as ex:
+        for i, r in enumerate(ex.map(lambda c: (completar_finales(c) if True else None), pend), 1):
+            estados[r] += 1
+            if i % 25 == 0:
+                print(f"  OCR final {i}/{len(pend)} {dict(estados)} ({time.time() - t0:.0f}s)", flush=True)
+    print(f"[textos] OCR de páginas finales: {dict(estados)} en {time.time() - t0:.0f}s")
 
 
 # ---------------------------------------------------------------- análisis
@@ -637,6 +680,7 @@ def main():
         sys.exit("[textos] bicameral.json sin proyectos")
     if not args.solo_salida:
         descargar(proyectos, hoy)
+        completar_ocr_pendientes()
     out = construir(proyectos, bic.get("congresistas") or [], hoy)
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, separators=(",", ":"))
