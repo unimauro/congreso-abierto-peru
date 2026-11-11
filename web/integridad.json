@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generado": "2026-11-08",
+  "generado": "2026-11-11",
   "fechas": {
    "sancionados.csv": "2026-11-07",
    "sancionados_multa.csv": "2024-05-18",
@@ -272,8 +272,8 @@
   {
    "ruc": "20106897914",
    "nombre": "ENTEL PERU S.A.",
-   "procesos_congreso": 4,
-   "monto_congreso": 3678743.52,
+   "procesos_congreso": 5,
+   "monto_congreso": 3928743.52,
    "vigente": false,
    "sanciones": [
     {
@@ -664,25 +664,6 @@
    "durante_sancion": []
   },
   {
-   "ruc": "20503016649",
-   "nombre": "VILLA INGENIEROS E.I.R.L",
-   "procesos_congreso": 1,
-   "monto_congreso": 138000.0,
-   "vigente": false,
-   "sanciones": [
-    {
-     "tipo": "multa",
-     "inicio": "2021-02-26",
-     "fin": "2021-07-26",
-     "resolucion": "394-2021-TCE-S3",
-     "motivo": "Incumplir injustificadamente con su obligación de perfeccionar el contrato o de formalizar Acuerdos Marco.",
-     "monto": 20640.0
-    }
-   ],
-   "penalidades": [],
-   "durante_sancion": []
-  },
-  {
    "ruc": "20493825705",
    "nombre": "GRAFICA GARATE S.A.C.",
    "procesos_congreso": 1,
@@ -793,6 +774,25 @@
      "resolucion": "1866-2021-TCE-S3",
      "motivo": "Incumplir injustificadamente con su obligación de perfeccionar el contrato o de formalizar Acuerdos Marco.",
      "monto": 6237.0
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "20503016649",
+   "nombre": "VILLA INGENIEROS E.I.R.L",
+   "procesos_congreso": 1,
+   "monto_congreso": 83000.0,
+   "vigente": false,
+   "sanciones": [
+    {
+     "tipo": "multa",
+     "inicio": "2021-02-26",
+     "fin": "2021-07-26",
+     "resolucion": "394-2021-TCE-S3",
+     "motivo": "Incumplir injustificadamente con su obligación de perfeccionar el contrato o de formalizar Acuerdos Marco.",
+     "monto": 20640.0
     }
    ],
    "penalidades": [],

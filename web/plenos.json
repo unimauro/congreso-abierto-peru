@@ -804,7 +804,8 @@
     {
      "fecha": "2026-11-10",
      "documentos": {
-      "agenda": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/AGENDA-PLENO-DIPUTADOS-10-11-2026.pdf"
+      "agenda": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/AGENDA-PLENO-DIPUTADOS-10-11-2026.pdf",
+      "asistencia": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/ASISTENCIA-PLENO-DIPUTADOS-20261020-provisional.pdf"
      }
     },
     {
@@ -2624,10 +2625,11 @@
  },
  "calidad": {
   "D": {
-   "asistencia_total": 34,
+   "asistencia_total": 44,
    "nombres_sin_cruce": 46,
-   "votacion_total": 23,
-   "votacion_descartado": 4
+   "votacion_total": 32,
+   "votacion_descartado": 13,
+   "asistencia_descartado": 10
   },
   "S": {
    "asistencia_total": 37,
@@ -5869,7 +5871,7 @@
   }
  ],
  "meta": {
-  "generado": "2026-11-10",
+  "generado": "2026-11-11",
   "fuente": "Reportes de asistencia y votación del Pleno (PDF) · diputados/senado.congreso.gob.pe",
   "nota": "Pases de lista y votaciones validados contra el total oficial al pie de cada bloque; los escaneos se leen con OCR. Licencias (viaje, enfermedad, oficial…) no cuentan como ausencia."
  }
