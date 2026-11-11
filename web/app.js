@@ -1006,13 +1006,14 @@ function renderBicMiembros() {
     const v = p && p.votaciones ? `<span style="color:var(--green)">${p.si}</span>/<span style="color:var(--accent)">${p.no}</span>/<span style="color:var(--amber)">${p.abst}</span><div class="note" style="margin:0">${p.no_voto} sin votar</div>` : "—";
     const eq = d ? `<b>${soles(d.masa)}</b><div class="note" style="margin:0">${d.personal} personas</div>` : "—";
     const nom = `<a href="congresistas/${slugify(m.nombre)}.html" title="Ficha de ${esc(m.nombre)}">${esc(m.nombre)}</a>${m.link ? ` <a class="extlink" href="${esc(m.link)}" target="_blank" rel="noopener" title="Perfil oficial en la web del Congreso" aria-label="Perfil oficial">↗</a>` : ""}`;
-    return `<tr><td style="white-space:nowrap"><button class="xbtn" data-n="${esc(m.nombre)}" aria-expanded="${abierto}" title="Ver detalle">${abierto ? "▾" : "▸"}</button>${nom}</td>
+    return `<tr><td style="white-space:nowrap">${typeof cmpCheck === "function" ? cmpCheck(m) : ""}<button class="xbtn" data-n="${esc(m.nombre)}" aria-expanded="${abierto}" title="Ver detalle">${abierto ? "▾" : "▸"}</button>${nom}</td>
       <td><span class="tag">${esc(m.sigla)}</span></td><td>${esc(m.distrito)}</td>
       <td class="num-r"><b>${fmt(m.principal)}</b><div class="note" style="margin:0">${fmt(m.firmas)} firmas</div></td>
       <td class="num-r">${fmt(m.desarrollo)}</td><td class="num-r">${fmt(m.simbolicos)}</td>
       <td class="num-r">${a}</td><td class="num-r">${v}</td><td class="num-r">${discTxt(p)}</td><td class="num-r">${visDe(m) ? `<b>${fmt(visDe(m).total)}</b><div class="note" style="margin:0">${fmt(visDe(m).al_congresista)} a él/ella</div>` : "—"}</td><td class="num-r">${eq}</td></tr>` +
       (abierto ? `<tr class="det"><td colspan="11">${barraEnlace(m)}${detalleCongresista(m, p, d)}</td></tr>` : "");
   }).join("");
+  if (typeof cmpSync === "function") cmpSync();   // modo comparar (web/comparar.js)
   if (foco) {
     bicState.foco = "";
     const b = [...document.querySelectorAll("#tBicMiembros .xbtn")].find(x => x.dataset.n === foco);
@@ -1253,6 +1254,7 @@ function syncHash() {
 // Aplica el hash a la vista y sus filtros. Sin parámetros solo cambia de pestaña (conserva filtros).
 function aplicarRuta(inicial = false) {
   const { view, params } = leerHash();
+  if (view === "comparar") { if (DATA && typeof cmpRuta === "function") cmpRuta(params); return; }   // web/comparar.js
   if (!view || !document.querySelector(`.menu button[data-view="${CSS.escape(view)}"]`)) return;
   const c = params.get("c");
   activar(view, !inicial && !c);
