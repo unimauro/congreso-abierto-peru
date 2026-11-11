@@ -3,7 +3,7 @@
 const fmt = (n) => new Intl.NumberFormat("es-PE").format(n);
 const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
 let CHARTS = {};
-let DATA = null, CTX = null, PERSONAL = null, BIC = null, PLENOS = null, MOV = null, CON = null, INT = null, VIS = null;
+let DATA = null, CTX = null, PERSONAL = null, BIC = null, PLENOS = null, MOV = null, CON = null, INT = null, VIS = null, PERF = null;
 const soles = (n) => "S/ " + new Intl.NumberFormat("es-PE", { maximumFractionDigits: 0 }).format(n);
 const solesM = (n) => "S/ " + (n / 1e6).toFixed(1) + " M";
 
@@ -824,6 +824,8 @@ const mesTxtCorto = (ym) => `${MESES_ABBR[+ym.slice(5)]}-${ym.slice(2, 4)}`;
 // Detalle desplegable: gasto mensual del despacho, equipo, proyectos y Pleno.
 function detalleCongresista(m, p, d) {
   const bloques = [];
+  const bp = bloquePerfil(m);
+  if (bp) bloques.push(bp);
   if (d) {
     const max = Math.max(...d.serie.map(x => x.masa));
     const ult = d.serie.at(-1);
@@ -868,6 +870,27 @@ function detalleCongresista(m, p, d) {
 // % de votos emitidos (SI/NO/Abst) iguales a la posición mayoritaria de su bancada.
 const disciplina = (p) => { const n = (p?.con_bancada || 0) + (p?.contra_bancada || 0); return n ? +(p.con_bancada / n * 100).toFixed(1) : null; };
 const discTxt = (p) => { const x = disciplina(p); return x == null ? "—" : `${pctTxt(x)}<div class="note" style="margin:0">${p.contra_bancada} en contra</div>`; };
+
+let perfIdx = null;
+const perfDe = (m) => {
+  if (!PERF) return null;
+  if (!perfIdx) { perfIdx = {}; PERF.perfiles.forEach(x => { perfIdx[x.camara + "|" + x.nombre] = x; }); }
+  return perfIdx[m.camara + "|" + m.nombre] || null;
+};
+// Foto, comisiones y agenda de representación (web oficial de cada cámara)
+function bloquePerfil(m) {
+  const pf = perfDe(m);
+  if (!pf) return "";
+  const com = pf.comisiones.map(c => `<li><b>${esc(c.organo)}</b> <span class="tag${/Presid|Vicepres|Secret/.test(c.cargo) ? " dev" : ""}">${esc(c.cargo)}</span> <span class="note">${esc(c.tipo)}</span></li>`).join("");
+  const rep = pf.representacion.slice(0, 8).map(r => `<li>${esc(r.fecha)} · ${esc(r.lugar || "—")}${r.pdf ? ` · <a href="${esc(r.pdf)}" target="_blank" rel="noopener">informe PDF</a>` : ""}</li>`).join("");
+  const via = pf.viajes.map(v => `<li>${esc(v.fecha)} · ${esc(v.detalle)}${v.pdf ? ` · <a href="${esc(v.pdf)}" target="_blank" rel="noopener">PDF</a>` : ""}</li>`).join("");
+  return `<div style="grid-column:1/-1;display:flex;gap:16px;flex-wrap:wrap;align-items:flex-start">
+    ${pf.foto ? `<img src="${esc(pf.foto)}" alt="Foto oficial de ${esc(m.nombre)}" loading="lazy" width="96" height="96" style="width:96px;height:96px;object-fit:cover;border-radius:12px;border:1px solid var(--border)">` : ""}
+    <div style="flex:1;min-width:240px"><h4>🏛️ Comisiones y cargos (${pf.comisiones.length})</h4><ul>${com || `<li class="note">Sin comisiones activas registradas.</li>`}</ul></div>
+    <div style="flex:1;min-width:240px"><h4>📅 Agenda de representación (${pf.representacion.length})</h4><ul>${rep || `<li class="note">Sin informes publicados.</li>`}</ul>
+      ${via ? `<h4>✈️ Viajes al exterior</h4><ul>${via}</ul>` : ""}
+      <div class="note">Informes que el congresista presenta tras su semana de representación. La cámara no publica agendas diarias.</div></div></div>`;
+}
 
 let visIdx = null;
 const visDe = (m) => {
@@ -1068,9 +1091,10 @@ Promise.all([
   fetch("contratos.json", nocache).then(r => r.ok ? r.json() : null).catch(() => null),
   fetch("integridad.json", nocache).then(r => r.ok ? r.json() : null).catch(() => null),
   fetch("visitas.json", nocache).then(r => r.ok ? r.json() : null).catch(() => null),
+  fetch("perfiles.json", nocache).then(r => r.ok ? r.json() : null).catch(() => null),
 ])
-  .then(([d, c, p, b, pl, mv, co, it, vi]) => {
-    VIS = vi;
+  .then(([d, c, p, b, pl, mv, co, it, vi, pf]) => {
+    VIS = vi; PERF = pf;
     DATA = d; CTX = c; PERSONAL = p; BIC = b; PLENOS = pl; MOV = mv; CON = co; INT = it;
     document.getElementById("gen").textContent = "actualizado " + d.meta.generado;
     const ud = document.getElementById("updated-date");

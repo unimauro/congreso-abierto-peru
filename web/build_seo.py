@@ -109,7 +109,7 @@ def principales_temas(pr: list) -> str:
     return ", ".join(t.split(":")[0].lower() for t, _ in sorted(c.items(), key=lambda x: -x[1])[:2])
 
 
-def ficha(m: dict, pl: dict | None, dp: dict | None, generado: str, vi: dict | None = None) -> tuple[str, str]:
+def ficha(m: dict, pl: dict | None, dp: dict | None, generado: str, vi: dict | None = None, pf: dict | None = None) -> tuple[str, str]:
     nombre = nombre_natural(m["nombre"])
     cargo = CARGO.get(m["camara"], "Congresista")
     s = slug(m["nombre"])
@@ -153,6 +153,13 @@ def ficha(m: dict, pl: dict | None, dp: dict | None, generado: str, vi: dict | N
     tematicas = ("<h2>Temáticas que trabaja</h2><div class=\"card\"><ul>" + "".join(
         f"<li><b>{e(t)}</b>: {n} proyecto{'s' if n > 1 else ''}</li>" for t, n in temas)
         + "</ul><p class=\"note\">Eje de agenda de cada proyecto según palabras clave del título (indicativo).</p></div>") if temas else ""
+    perfil = ""
+    if pf:
+        com = "".join(f'<li><b>{e(c["organo"])}</b> — {e(c["cargo"])} <span class="note">({e(c["tipo"])})</span></li>' for c in pf["comisiones"])
+        rep = "".join(f'<li>{e(r["fecha"])} · {e(r["lugar"])}' + (f' · <a href="{e(r["pdf"])}" rel="nofollow">informe PDF</a>' if r.get("pdf") else "") + "</li>"
+                      for r in pf["representacion"][:12])
+        perfil = (f'<h2>Comisiones y cargos</h2><div class="card"><ul>{com or "<li>Sin comisiones activas.</li>"}</ul></div>'
+                  + (f'<h2>Agenda de representación</h2><div class="card"><ul>{rep}</ul><p class="note">Informes de la semana de representación publicados por la cámara.</p></div>' if rep else ""))
     visitas = ""
     if vi and vi.get("total"):
         filas_v = "".join(f'<tr><td>{e(v["fecha"])}</td><td>{e(v["visitante"])}</td><td>{e(v["entidad"] or "—")}</td><td>{e(v["motivo"])}</td></tr>'
@@ -164,16 +171,18 @@ def ficha(m: dict, pl: dict | None, dp: dict | None, generado: str, vi: dict | N
                    '<p class="note">Registro oficial de visitas del Congreso. No se publica el DNI de los visitantes.</p></div>')
     oficial = f'<a href="{e(m["link"])}" rel="nofollow">Perfil oficial</a> · ' if m.get("link") else ""
     cuerpo = f"""<p class="note"><a href="index.html">Congresistas</a> › {CAMARA[m["camara"]]}</p>
+{f'<img src="{e(pf["foto"])}" alt="Foto oficial de {e(nombre)}" width="120" height="120" style="float:right;width:120px;height:120px;object-fit:cover;border-radius:14px;margin:0 0 8px 12px">' if pf and pf.get("foto") else ""}
 <h1>{e(nombre)}</h1>
 <p class="sub">{cargo} por <b>{e(m.get("distrito") or "—")}</b> · {e(m.get("bancada") or "—")} · periodo 2026–2031 · datos al {e(generado)}</p>
 <div class="kpis">{kpis}</div>
 <p>{oficial}<a class="cta" href="../index.html#bicameral">Comparar con los demás en el tablero →</a></p>
-{tematicas}{proyectos}{pleno}{gasto}{visitas}"""
+{perfil}{tematicas}{proyectos}{pleno}{gasto}{visitas}"""
     ld = [{"@context": "https://schema.org", "@type": "Person", "name": nombre, "jobTitle": f"{cargo} 2026–2031",
            "memberOf": [{"@type": "GovernmentOrganization", "name": CAMARA[m["camara"]] + " del Perú"},
                         {"@type": "Organization", "name": m.get("bancada")}],
            "homeLocation": {"@type": "Place", "name": m.get("distrito")},
-           **({"sameAs": [m["link"]]} if m.get("link") else {}), "url": BASE + f"congresistas/{s}.html"}]
+           **({"sameAs": [m["link"]]} if m.get("link") else {}), **({"image": pf["foto"]} if pf and pf.get("foto") else {}),
+           "url": BASE + f"congresistas/{s}.html"}]
     titulo = f"{nombre} — {cargo} {m.get('sigla', '')} · proyectos, asistencia y gasto | Congreso Abierto Perú"
     return s, pagina(titulo, desc, f"congresistas/{s}.html", cuerpo, ld, profundidad=1)
 
@@ -182,6 +191,7 @@ def build() -> list[str]:
     bic, plenos, mov, con, integ, data, vis = (cargar(x) for x in ("bicameral.json", "plenos.json", "movimientos.json",
                                                                    "contratos.json", "integridad.json", "data.json", "visitas.json"))
     vi = {(x["camara"], x["nombre"]): x for x in (vis or {}).get("congresistas", [])}
+    pfs = {(x["camara"], x["nombre"]): x for x in (cargar("perfiles.json") or {}).get("perfiles", [])}
     if not bic:
         raise SystemExit("[!] falta bicameral.json")
     pl = {(x["camara"], x["nombre"]): x for x in (plenos or {}).get("miembros", [])}
@@ -193,7 +203,7 @@ def build() -> list[str]:
     # Fichas
     por_cam = {"D": [], "S": []}
     for m in bic["congresistas"]:
-        s, doc = ficha(m, pl.get((m["camara"], m["nombre"])), dp.get((m["camara"], m["nombre"])), gen, vi.get((m["camara"], m["nombre"])))
+        s, doc = ficha(m, pl.get((m["camara"], m["nombre"])), dp.get((m["camara"], m["nombre"])), gen, vi.get((m["camara"], m["nombre"])), pfs.get((m["camara"], m["nombre"])))
         open(os.path.join(WEB, "congresistas", f"{s}.html"), "w", encoding="utf-8").write(doc)
         urls.append(f"congresistas/{s}.html")
         por_cam.setdefault(m["camara"], []).append((m, s))
