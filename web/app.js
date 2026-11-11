@@ -991,6 +991,8 @@ function detalleCongresista(m, p, d) {
   if (bp) bloques.push(bp);
   const bi = bloqueIntereses(m);
   if (bi) bloques.push(bi);
+  const bt = bloqueTextos(m);
+  if (bt) bloques.push(bt);
   if (d) {
     const max = Math.max(...d.serie.map(x => x.masa));
     const ult = d.serie.at(-1);
@@ -1015,7 +1017,7 @@ function detalleCongresista(m, p, d) {
       <div class="note">Eje de cada proyecto según palabras clave del título (indicativo).</div></div>`);
   }
   bloques.push(`<div style="grid-column:1/-1"><h4>📄 Proyectos como autor principal (${pr.length})</h4>${pr.length ? `<ul style="max-height:240px;overflow:auto">${pr.map(x =>
-    `<li>${codLink(x.codigo)} ${esc(x.fecha)} — ${esc(x.titulo.length > 140 ? x.titulo.slice(0, 140) + "…" : x.titulo)} <span class="tag">${esc(x.agenda)}</span></li>`).join("")}</ul>` : `<div class="note">Ninguno como autor principal.</div>`}</div>`);
+    `<li>${codLink(x.codigo)} ${esc(x.fecha)} — ${esc(x.titulo.length > 140 ? x.titulo.slice(0, 140) + "…" : x.titulo)} <span class="tag">${esc(x.agenda)}</span>${pdfLink(x.codigo)}</li>`).join("")}</ul>` : `<div class="note">Ninguno como autor principal.</div>`}</div>`);
   if (p && p.pases) {
     bloques.push(`<div><h4>🗳️ En el Pleno</h4><ul>
       <li>Pases de lista: <b>${p.presente}</b> presente, <b>${p.ausente}</b> ausente, <b>${p.licencia}</b> con licencia (de ${p.pases})</li>
@@ -1070,6 +1072,23 @@ function bloqueIntereses(m) {
       ${v.senales.length ? `<div style="margin-top:4px"><span class="tag fis">⚠ posible conflicto de interés a revisar</span><ul>${v.senales.map(x => `<li class="note">${esc(x.sector)}: ${esc(x.detalle)}</li>`).join("")}</ul></div>` : ""}</li>`;
   }).join("")}</ul><div class="note">Vínculo verificado por el OECE con el DNI del congresista. Tener una empresa no es irregular; la ley les impide contratar con el Estado durante el mandato. La señal de conflicto es una coincidencia de sector con sus comisiones o proyectos y requiere revisión.</div></div>`;
 }
+
+// Textos de los proyectos (carga diferida: solo al abrir un detalle)
+let TXT = null, txtPromesa = null;
+function cargarTextos() {
+  if (!txtPromesa) txtPromesa = fetch("textos.json", nocache).then(r => r.ok ? r.json() : null).catch(() => null)
+    .then(t => { TXT = t; if (t && bicState.abiertos.size) renderBicMiembros(); return t; });
+  return txtPromesa;
+}
+function bloqueTextos(m) {
+  if (!TXT) { cargarTextos(); return ""; }
+  const c = TXT.congresistas.find(x => x.camara === m.camara && x.nombre === m.nombre);
+  if (!c || !c.terminos?.length) return "";
+  return `<div><h4>🔎 De qué tratan sus proyectos</h4><div>${c.terminos.map(t => `<span class="tag" style="margin:0 4px 4px 0;display:inline-block">${esc(t)}</span>`).join("")}</div>
+    ${c.leyes_mas_modificadas?.length ? `<div class="note" style="margin-top:6px">⚖️ Normas que más busca modificar: ${esc(c.leyes_mas_modificadas.slice(0, 4).join(", "))}</div>` : ""}
+    <div class="note">Términos característicos del texto completo de sus ${c.n_textos} proyectos (TF-IDF).</div></div>`;
+}
+const pdfLink = (codigo) => { const t = TXT?.proyectos?.find(x => x.codigo === codigo); return t?.pdf ? ` <a class="tag" href="${esc(t.pdf)}" target="_blank" rel="noopener">📄 PDF</a>` : ""; };
 
 function bloquePerfil(m) {
   const pf = perfDe(m);

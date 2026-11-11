@@ -114,6 +114,19 @@ th{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.04
 .pager button{font:inherit;font-size:14px;min-width:38px;padding:7px 11px;border-radius:9px;border:1px solid var(--border);background:var(--panel);color:var(--text);cursor:pointer}
 .pager button.on{background:var(--accent);border-color:var(--accent);color:#fff}.pager button:disabled{opacity:.4;cursor:default}
 .count{font-size:13px;color:var(--muted)}.empty{padding:40px;text-align:center;color:var(--muted)}
+/* color por sección */
+.card.s{border-top:3px solid var(--sc)}.card.s h2{display:flex;align-items:center;gap:8px}
+.card.s h2::before{content:"";width:8px;height:20px;border-radius:4px;background:var(--sc)}
+.s-blue{--sc:#3b82f6}.s-green{--sc:#16a34a}.s-purple{--sc:#8b5cf6}.s-amber{--sc:#f59e0b}.s-red{--sc:#e23744}.s-teal{--sc:#0d9488}.s-pink{--sc:#db2777}.s-slate{--sc:#64748b}
+.kpi{border-top:3px solid var(--kc,#94a3b8)}.kpi .v{color:var(--kc,var(--text))}
+.chip.t{background:color-mix(in srgb,#3b82f6 10%,var(--panel));border-color:color-mix(in srgb,#3b82f6 30%,var(--border));color:var(--text)}
+.tag.ok{color:#15803d;background:color-mix(in srgb,#16a34a 10%,transparent);border-color:color-mix(in srgb,#16a34a 35%,var(--border))}
+.tag.warn{color:#b45309;background:color-mix(in srgb,#f59e0b 12%,transparent);border-color:color-mix(in srgb,#f59e0b 40%,var(--border))}
+.tag.red{background:color-mix(in srgb,#e23744 10%,transparent)}
+.tag.info{color:#1d4ed8;background:color-mix(in srgb,#3b82f6 10%,transparent);border-color:color-mix(in srgb,#3b82f6 35%,var(--border))}
+@media (prefers-color-scheme:dark){.tag.ok{color:#4ade80}.tag.warn{color:#fbbf24}.tag.info{color:#93c5fd}}
+.hero{background:linear-gradient(120deg,color-mix(in srgb,var(--bc,#e23744) 12%,var(--panel)) 0%,var(--panel) 55%);border-top:3px solid var(--bc,#e23744)}
+.mc{border-top:3px solid var(--bc,#94a3b8)}
 @media (max-width:860px){.cols{grid-template-columns:1fr}.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.tools{grid-template-columns:1fr 1fr}.tools input{grid-column:1/-1}}
 @media (max-width:520px){.hero{grid-template-columns:1fr;text-align:left}.hero img,.ph{width:96px;height:96px}.hb{grid-template-columns:minmax(0,110px) 1fr auto}.bar nav{margin-left:0}}
 """
@@ -238,10 +251,42 @@ def seccion_como_voto(m: dict, cv: list[dict]) -> str:
         f'<td style="white-space:nowrap"><b style="color:{VOTO_COLOR.get(x["voto"], "var(--muted)")}">{VOTO_TXT[x["voto"]]}</b>{" <span class=\"tag red\">⚠ contra su bancada</span>" if x["contra"] else ""}</td>'
         f'<td class="note">{VOTO_TXT[x["bancada"]] if x["bancada"] else "—"}</td></tr>' for x in cv)
     n_contra = sum(x["contra"] for x in cv)
-    return (f'<section class="card"><h2>🗳️ Cómo votó (últimas {len(cv)} votaciones)</h2><div class="scroll">'
+    return (f'<section class="card s s-purple"><h2>🗳️ Cómo votó (últimas {len(cv)} votaciones)</h2><div class="scroll">'
             f'<table><thead><tr><th>Fecha</th><th>Asunto</th><th>Su voto</th><th>{e(m.get("sigla") or "Bancada")}</th></tr></thead><tbody>{filas}</tbody></table></div>'
             f'<p class="note">Votó distinto que la mayoría de su bancada en {n_contra} de {len(cv)}. Votaciones nominales del Pleno leídas del acta oficial '
             '(OCR) y validadas contra el total oficial; verifica en el acta.</p></section>')
+
+
+EFECTO = {"declara que no irroga gasto": ("declara que no irroga gasto", " ok"), "reconoce costo": ("reconoce costo fiscal", " red"), "no menciona": ("no menciona costo", "")}
+
+
+def tag_estado(est: str) -> str:
+    u = (est or "").upper()
+    cls = " ok" if ("PUBLICAD" in u or "APROBAD" in u or "AUTÓGRAFA" in u) else " red" if ("ARCHIV" in u or "RETIRAD" in u) else " warn" if ("COMISI" in u or "DICTAMEN" in u) else " info"
+    return f'<span class="tag{cls}">{e(est)}</span>'
+
+
+
+def texto_proy(t: dict | None) -> str:
+    if not t:
+        return ""
+    obj = t.get("objeto") or ""
+    obj = "" if obj == "=" else obj
+    leyes = t.get("leyes_modificadas") or []
+    ef, cls = EFECTO.get(t.get("efecto_fiscal"), ("", ""))
+    return ((f'<div class="note" style="margin:2px 0 6px">🎯 {e(obj)}</div>' if obj else "")
+            + (f'<div class="note" style="margin:0 0 6px">⚖️ Modifica o cita: {e(", ".join(leyes[:4]))}</div>' if leyes else "")
+            + (f'<span class="tag{cls}">💰 {e(ef)}</span> ' if ef else ""))
+
+
+def seccion_textos(tc: dict | None) -> str:
+    if not tc or not tc.get("terminos"):
+        return ""
+    chips = "".join(f'<span class="chip t">{e(x)}</span>' for x in tc["terminos"])
+    leyes = "".join(f'<li>{e(x)}</li>' for x in (tc.get("leyes_mas_modificadas") or [])[:5])
+    return (f'<section class="card s s-blue"><h2>🔎 De qué tratan sus proyectos (texto completo)</h2><div class="chips">{chips}</div>'
+            + (f'<h2 style="margin-top:16px;font-size:15px">⚖️ Normas que más busca modificar</h2><ul>{leyes}</ul>' if leyes else "")
+            + f'<p class="note">Términos más característicos de sus {tc.get("n_textos", 0)} proyectos frente a los del resto del Congreso (TF-IDF sobre el texto de cada PDF oficial).</p></section>')
 
 
 def seccion_equipo(dp: dict | None, ases: dict) -> str:
@@ -261,7 +306,7 @@ def seccion_equipo(dp: dict | None, ases: dict) -> str:
         antes = f'<div class="note">Antes en el Congreso: {e(x["antes"].title())}</div>' if x.get("antes") else ""
         filas += (f'<tr><td><b>{e(x["nombre"])}</b>{ap}{antes}{t}</td><td>{e(x["cargo"].capitalize())}</td>'
                   f'<td class="num">{soles(x["total"])}</td></tr>')
-    return (f'<section class="card"><h2>👥 Equipo del despacho ({dp["personal"]} personas · {soles(dp["masa"])} al mes)</h2>'
+    return (f'<section class="card s s-teal"><h2>👥 Equipo del despacho ({dp["personal"]} personas · {soles(dp["masa"])} al mes)</h2>'
             f'<div class="scroll"><table><thead><tr><th>Nombre</th><th>Cargo</th><th class="num">Remuneración</th></tr></thead><tbody>{filas}</tbody></table></div>'
             '<p class="note">Planilla nominal del Portal de Transparencia Estándar del Congreso (trabajadores cuya dependencia es este despacho). '
             '"🧾" = cargos previos en el Estado según planillas del PTE, declaraciones juradas y El Peruano, cruzados por nombre completo: puede haber homónimos. '
@@ -284,14 +329,16 @@ def seccion_intereses(vs: list[dict]) -> str:
                   + (f' Ficha OECE: <a href="{e(v["ficha"])}" rel="nofollow noopener" target="_blank">ver ↗</a>' if v.get("ficha") else "") + '</div>'
                   + (f'<div style="margin-top:8px"><b>Posible conflicto de interés a revisar</b><ul>{sen}</ul></div>' if sen else "")
                   + "</li>")
-    return (f'<section class="card"><h2>💼 Participación en empresas</h2><ul class="clean">{items}</ul>'
+    return (f'<section class="card s s-red"><h2>💼 Participación en empresas</h2><ul class="clean">{items}</ul>'
             '<p class="note">Vínculo verificado por el OECE con el DNI del congresista (registro de funcionarios de la Contraloría). '
             'Tener una empresa no es irregular; la ley impide a los congresistas contratar con el Estado durante su mandato. '
             'Un "posible conflicto de interés" es una coincidencia de sector con sus comisiones o proyectos y requiere revisión.</p></section>')
 
 
 def ficha(m: dict, pl: dict | None, dp: dict | None, generado: str, vi: dict | None = None, pf: dict | None = None,
-          ctx: dict | None = None, cv: list | None = None, it: list | None = None, ases: dict | None = None) -> tuple[str, str]:
+          ctx: dict | None = None, cv: list | None = None, it: list | None = None, ases: dict | None = None,
+          txp: dict | None = None, tc: dict | None = None) -> tuple[str, str]:
+    txp = txp or {}
     ctx = ctx or {}
     nombre = nombre_natural(m["nombre"])
     cargo = CARGO.get(m["camara"], "Congresista")
@@ -318,22 +365,22 @@ def ficha(m: dict, pl: dict | None, dp: dict | None, generado: str, vi: dict | N
              + "".join(f'<span class="chip">⭐ {e(c["cargo"])} · {e(re.sub(r"^Comisi[oó]n (de |Bicameral de )?", "", c["organo"]))}</span>' for c in presid[:2]))
     oficial = f'<a class="btn" href="{e(m["link"])}" rel="nofollow noopener" target="_blank">Perfil oficial ↗</a>' if m.get("link") else ""
     hero = f"""<div class="crumb"><a href="index.html">Congresistas</a> › {CAMARA[m["camara"]]}</div>
-<section class="card hero">{img}<div><h1>{e(nombre)}</h1>
+<section class="card hero" style="--bc:{cbanc}">{img}<div><h1>{e(nombre)}</h1>
 <p class="sub">{cargo} por {e(m.get("distrito") or "—")} · periodo 2026–2031</p><div class="chips">{chips}</div>
 <div class="acts"><a class="btn pri" href="../index.html#bicameral?cam={m["camara"]}&c={s}">Ver en el tablero</a>
 <a class="btn" href="../index.html#comparar?c={s}">Comparar</a>{oficial}</div></div></section>"""
 
     # Indicadores con contexto de la cámara
-    def kpi(v, l, c=""):
-        return f'<div class="card kpi"><div class="v">{v}</div><div class="l">{l}</div>{f"<div class=c>{c}</div>" if c else ""}</div>'
+    def kpi(v, l, c="", kc="#94a3b8"):
+        return f'<div class="card kpi" style="--kc:{kc}"><div class="v">{v}</div><div class="l">{l}</div>{f"<div class=c>{c}</div>" if c else ""}</div>'
     k = [kpi(m.get("principal", 0), "proyectos como autor principal",
-             comparacion(m.get("principal", 0), ctx.get("principal"))),
+             comparacion(m.get("principal", 0), ctx.get("principal")), "#3b82f6"),
          kpi(asis, "asistencia al Pleno",
-             comparacion(asis_v, ctx.get("asistencia"), "%", fmt=lambda x: f"{x:.1f}") if asis_v is not None else "sin pases de lista procesados"),
+             comparacion(asis_v, ctx.get("asistencia"), "%", fmt=lambda x: f"{x:.1f}") if asis_v is not None else "sin pases de lista procesados", "#16a34a"),
          kpi(soles(dp["masa"]) if dp else "—", "planilla del despacho al mes",
-             (f'{dp["personal"]} personas · ' + comparacion(dp["masa"], ctx.get("masa"), mayor_mejor=False, fmt=lambda x: soles(x))) if dp else "despacho no identificado"),
+             (f'{dp["personal"]} personas · ' + comparacion(dp["masa"], ctx.get("masa"), mayor_mejor=False, fmt=lambda x: soles(x))) if dp else "despacho no identificado", "#f59e0b"),
          kpi(f'{vi["total"]:,}' if vi else "—", "visitas a su despacho",
-             (f'{vi["al_congresista"]:,} directas · ' + comparacion(vi["total"], ctx.get("visitas"))) if vi else "")]
+             (f'{vi["al_congresista"]:,} directas · ' + comparacion(vi["total"], ctx.get("visitas"))) if vi else "", "#db2777")]
     kpis = f'<div class="kpis">{"".join(k)}</div>'
 
     # Columna principal
@@ -342,23 +389,24 @@ def ficha(m: dict, pl: dict | None, dp: dict | None, generado: str, vi: dict | N
         cuenta[p["agenda"]] = cuenta.get(p["agenda"], 0) + 1
     def col_eje(t):
         return "var(--purple)" if t.startswith("Simbólico") else "#94a3b8" if t.startswith(("Actualización", "Otros", "Reforma")) else "var(--green)"
-    tematicas = (f'<section class="card"><h2>🧭 Temáticas que trabaja</h2>{barras([(t, n, col_eje(t)) for t, n in sorted(cuenta.items(), key=lambda x: -x[1])])}'
+    tematicas = (f'<section class="card s s-green"><h2>🧭 Temáticas que trabaja</h2>{barras([(t, n, col_eje(t)) for t, n in sorted(cuenta.items(), key=lambda x: -x[1])])}'
                  '<p class="note">Eje de agenda de cada proyecto según palabras clave del título (indicativo). Verde: desarrollo; morado: simbólico.</p></section>') if cuenta else ""
     proys = "".join(f'<div class="proj"><a class="code" href="{e(url_expediente(p["codigo"]) or "#")}" target="_blank" rel="noopener" title="Expediente y texto oficial">{e(p["codigo"])} ↗</a> <span class="note">· {e(p["fecha"])}</span>'
-                    f'<div class="t">{e(p["titulo"])}</div><span class="tag">{e(p["estado"])}</span> <span class="tag">{e(p["agenda"])}</span></div>' for p in pr)
-    proyectos = (f'<section class="card"><h2>📄 Proyectos de ley como autor principal ({len(pr)})</h2>'
+                    f'<div class="t">{e(p["titulo"])}</div>' + texto_proy(txp.get(p["codigo"])) + tag_estado(p["estado"]) + f' <span class="tag info">{e(p["agenda"])}</span>'
+                    + (f' <a class="tag" href="{e(txp[p["codigo"]]["pdf"])}" target="_blank" rel="noopener">📄 texto PDF</a>' if txp.get(p["codigo"], {}).get("pdf") else "") + '</div>' for p in pr)
+    proyectos = (f'<section class="card s s-blue"><h2>📄 Proyectos de ley como autor principal ({len(pr)})</h2>'
                  + (f'<div class="scrollbox">{proys}</div>' if pr else '<p class="note">Aún no presenta proyectos como autor principal.</p>')
                  + f'<p class="note">Además firmó {m.get("firmas", 0)} proyectos como coautor.</p></section>')
     comis = ""
     if pf:
         items = "".join(f'<li><b>{e(c["organo"])}</b><br><span class="role{" top" if re.match(r"(Presid|Vicepres|Primer|Segund|Tercer|Secret)", c["cargo"]) else ""}">{e(c["cargo"])}</span> <span class="note">{e(c["tipo"])}</span></li>'
                         for c in pf["comisiones"])
-        comis = f'<section class="card"><h2>🏛️ Comisiones y cargos ({len(pf["comisiones"])})</h2><ul class="clean">{items or "<li class=note>Sin comisiones activas.</li>"}</ul></section>'
+        comis = f'<section class="card s s-slate"><h2>🏛️ Comisiones y cargos ({len(pf["comisiones"])})</h2><ul class="clean">{items or "<li class=note>Sin comisiones activas.</li>"}</ul></section>'
     visitas = ""
     if vi and vi.get("total"):
         filas_v = "".join(f'<tr><td class="note" style="white-space:nowrap">{e(v["fecha"])}</td><td>{e(v["visitante"])}<div class="note">{e(v["entidad"] or "—")}</div></td><td>{e(v["motivo"])}</td></tr>'
                           for v in vi["ultimas"][:15])
-        visitas = (f'<section class="card"><h2>🚪 Últimas visitas a su despacho</h2><div class="scroll"><table><thead><tr><th>Fecha</th><th>Visitante</th><th>Motivo</th></tr></thead>'
+        visitas = (f'<section class="card s s-pink"><h2>🚪 Últimas visitas a su despacho</h2><div class="scroll"><table><thead><tr><th>Fecha</th><th>Visitante</th><th>Motivo</th></tr></thead>'
                    f'<tbody>{filas_v}</tbody></table></div><p class="note">Registro oficial de visitas del Congreso. No se publica el DNI de los visitantes.</p></section>')
 
     # Columna lateral
@@ -370,25 +418,25 @@ def ficha(m: dict, pl: dict | None, dp: dict | None, generado: str, vi: dict | N
         segv = [("SI", pl["si"], "var(--green)"), ("NO", pl["no"], "var(--accent)"), ("Abst.", pl["abst"], "var(--amber)"), ("Sin votar", pl["no_voto"], "#94a3b8")]
         bar = lambda xs, t: '<div class="seg">' + "".join(f'<span style="width:{n / t * 100:.1f}%;background:{c}" title="{l}: {n}"></span>' for l, n, c in xs) + "</div>"
         ley = lambda xs: '<div class="legend">' + "".join(f'<span><i style="background:{c}"></i>{l} {n}</span>' for l, n, c in xs) + "</div>"
-        pleno = (f'<section class="card"><h2>🗳️ En el Pleno</h2><div class="note">Pases de lista ({pl["pases"]})</div>{bar(segs, tot)}{ley(segs)}'
+        pleno = (f'<section class="card s s-purple"><h2>🗳️ En el Pleno</h2><div class="note">Pases de lista ({pl["pases"]})</div>{bar(segs, tot)}{ley(segs)}'
                  f'<div class="note" style="margin-top:14px">Votaciones nominales ({pl["votaciones"]})</div>{bar(segv, tv)}{ley(segv)}'
                  + (f'<p style="margin:14px 0 0">Votó con la mayoría de su bancada <b>{pl["con_bancada"] / n_disc * 100:.0f}%</b> de las veces '
                     f'({pl["contra_bancada"]} en contra).</p>' if n_disc else "") + '</section>')
     gasto = ""
     if dp:
-        gasto = (f'<section class="card"><h2>💸 Planilla del despacho</h2>{barras([(x["mes"], x["masa"], "var(--accent-2)") for x in dp["serie"]], fmt=lambda v: soles(v))}'
+        gasto = (f'<section class="card s s-amber"><h2>💸 Planilla del despacho</h2>{barras([(x["mes"], x["masa"], "var(--accent-2)") for x in dp["serie"]], fmt=lambda v: soles(v))}'
                  f'<p class="note">≈ {soles(dp["masa"] * 14)} al año (14 sueldos). Solo la planilla de su equipo según el PTE: no incluye su propia remuneración ni gastos operativos.</p></section>')
     ents = ""
     if vi and vi.get("top_entidades"):
-        ents = f'<section class="card"><h2>🏢 Quiénes lo visitan más</h2>{barras([(x, n, "var(--purple)") for x, n in vi["top_entidades"][:6]])}</section>'
+        ents = f'<section class="card s s-pink"><h2>🏢 Quiénes lo visitan más</h2>{barras([(x, n, "var(--purple)") for x, n in vi["top_entidades"][:6]])}</section>'
     agenda = ""
     if pf and pf.get("representacion"):
         items = "".join(f'<li><b>{e(r["fecha"])}</b> · {e(r["lugar"] or "—")}' + (f' · <a href="{e(r["pdf"])}" rel="nofollow" target="_blank">informe ↗</a>' if r.get("pdf") else "") + "</li>"
                         for r in pf["representacion"][:8])
-        agenda = f'<section class="card"><h2>📅 Semana de representación</h2><ul class="clean">{items}</ul></section>'
+        agenda = f'<section class="card s s-teal"><h2>📅 Semana de representación</h2><ul class="clean">{items}</ul></section>'
 
     cuerpo = f"""{hero}{kpis}
-<div class="cols"><div class="stack">{tematicas}{proyectos}{seccion_equipo(dp, ases or {})}{seccion_como_voto(m, cv or [])}{comis}{visitas}</div>
+<div class="cols"><div class="stack">{tematicas}{seccion_textos(tc)}{proyectos}{seccion_equipo(dp, ases or {})}{seccion_como_voto(m, cv or [])}{comis}{visitas}</div>
 <aside class="stack">{seccion_intereses(it or [])}{pleno}{gasto}{ents}{agenda}</aside></div>
 <p class="note" style="margin-top:16px">Datos al {e(generado)}.</p>"""
     ld = [{"@context": "https://schema.org", "@type": "Person", "name": nombre, "jobTitle": f"{cargo} 2026–2031",
@@ -448,7 +496,7 @@ def tarjeta(m: dict, s: str, pl: dict | None, dp: dict | None, vi: dict | None, 
     asis = pl.get("pct_asistencia") if pl else None
     txt = " ".join([nombre, m["nombre"], m.get("bancada") or "", m.get("sigla") or "", m.get("distrito") or ""])
     txt = unicodedata.normalize("NFKD", txt).encode("ascii", "ignore").decode().lower()
-    return (f'<a class="card mc" href="{s}.html" data-cam="{m["camara"]}" data-banc="{e(m.get("bancada") or "")}" data-dist="{e(m.get("distrito") or "")}"'
+    return (f'<a class="card mc" style="--bc:{color(m.get("sigla"))}" href="{s}.html" data-cam="{m["camara"]}" data-banc="{e(m.get("bancada") or "")}" data-dist="{e(m.get("distrito") or "")}"'
             f' data-nom="{e(m["nombre"])}" data-txt="{e(txt)}" data-proy="{m.get("principal", 0)}" data-asis="{asis if asis is not None else -1}"'
             f' data-vis="{vi["total"] if vi else -1}" data-masa="{dp["masa"] if dp else -1}">'
             f'<div class="top">{img}<div><div class="n">{e(nombre)}</div><div class="d">{"Senado" if m["camara"] == "S" else "Diputados"} · {e(m.get("distrito") or "—")}</div>'
@@ -462,6 +510,9 @@ def build() -> list[str]:
                                                                    "contratos.json", "integridad.json", "data.json", "visitas.json"))
     vi = {(x["camara"], x["nombre"]): x for x in (vis or {}).get("congresistas", [])}
     pfs = {(x["camara"], x["nombre"]): x for x in (cargar("perfiles.json") or {}).get("perfiles", [])}
+    tx = cargar("textos.json") or {}
+    txp = {x["codigo"]: x for x in tx.get("proyectos", [])}
+    txc = {(x["camara"], x["nombre"]): x for x in tx.get("congresistas", [])}
     ase_por_desp = {}
     for a in (cargar("asesores.json") or {}).get("asesores", []):
         if not a.get("ambiguo"):
@@ -492,7 +543,7 @@ def build() -> list[str]:
     for m in bic["congresistas"]:
         s, doc = ficha(m, pl.get((m["camara"], m["nombre"])), dp.get((m["camara"], m["nombre"])), gen, vi.get((m["camara"], m["nombre"])),
                        pfs.get((m["camara"], m["nombre"])), ctx.get(m["camara"]), como_voto(m, plenos), ints.get((m["camara"], m["nombre"])),
-                       ase_por_desp.get(m["nombre"], {}))
+                       ase_por_desp.get(m["nombre"], {}), txp, txc.get((m["camara"], m["nombre"])))
         open(os.path.join(WEB, "congresistas", f"{s}.html"), "w", encoding="utf-8").write(doc)
         urls.append(f"congresistas/{s}.html")
         por_cam.setdefault(m["camara"], []).append((m, s))
