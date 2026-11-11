@@ -150,12 +150,18 @@ function renderPresupuesto() {
   const p = CTX.presupuesto, s = p.serie;
   const first = s[0], last = s.at(-1);
   const crec = ((last.pia / first.pia - 1) * 100).toFixed(0);
+  // Desde 2026 el Congreso es bicameral: 130 diputados + 60 senadores (190); antes, 130 congresistas.
+  const bic = last.anio >= 2026;
+  const nD = BIC ? BIC.congresistas.filter(m => m.camara === "D").length : 130;
+  const nS = BIC ? BIC.congresistas.filter(m => m.camara === "S").length : 60;
+  const nCong = bic ? nD + nS : 130;
+  const nTxt = bic ? ` (${nD} diputados + ${nS} senadores, Congreso bicameral)` : "";
   document.getElementById("pres-unidad").textContent = p.unidad + " · PIA vs Devengado";
   document.getElementById("kpis-pres").innerHTML =
     kpiCard(`PIA ${last.anio}`, `S/ ${fmt(last.pia)} M`, "presupuesto de apertura", "var(--accent)") +
     kpiCard(`Devengado ${last.anio}`, `S/ ${fmt(last.devengado)} M`, `${last.avance}% de avance`, "var(--green)") +
     kpiCard(`Crecimiento ${first.anio}–${last.anio}`, `+${crec}%`, "PIA en el periodo", "var(--amber)") +
-    kpiCard("Por congresista", `S/ ${(last.pia / 130).toFixed(1)} M`, "PIA ÷ 130 congresistas", "var(--purple)");
+    kpiCard("Por congresista", `S/ ${(last.pia / nCong).toFixed(1)} M`, `PIA ÷ ${nCong} congresistas${nTxt}`, "var(--purple)");
   // Un solo eje (S/ M): PIA vs Devengado; PIM y avance van en el tooltip.
   // El avance % tiene su propio gráfico (chAvance) — nunca doble eje.
   mk("chPres", {
@@ -312,12 +318,19 @@ function renderBuscadorPersonal() {
   document.getElementById("per-count").textContent =
     `${fmt(total)} ${total === 1 ? "persona" : "personas"}`;
   document.querySelector("#tPerLista tbody").innerHTML = slice.map(r =>
-    `<tr><td>${r[0]}</td><td>${r[1]}</td><td>${r[3] || "—"}</td><td>${r[2]}</td><td>${soles(r[4])}</td></tr>`
+    `<tr><td>${r[0]}</td><td>${r[1]}</td><td>${depHtml(r[3])}</td><td>${r[2]}</td><td>${soles(r[4])}</td></tr>`
   ).join("") || `<tr><td colspan="5" style="text-align:center;color:var(--muted);padding:24px">Sin resultados para “${perState.q}”.</td></tr>`;
 
   document.getElementById("per-pag").textContent = `Página ${perState.pag + 1} de ${fmt(paginas)}`;
   document.getElementById("per-prev").disabled = perState.pag === 0;
   document.getElementById("per-next").disabled = perState.pag >= paginas - 1;
+}
+
+// Si la dependencia es el despacho de un congresista, enlaza a su fila en Bicameral.
+function depHtml(dep) {
+  if (!dep) return "—";
+  const m = congDeDependencia(dep);
+  return m ? `<a href="#bicameral?${new URLSearchParams({ cam: m.camara, c: slugify(m.nombre) })}" title="Despacho de ${esc(m.nombre)} (${CAM_NOMBRE[m.camara]})">${esc(dep)}</a>` : esc(dep);
 }
 
 function initBuscadorPersonal() {
@@ -333,7 +346,7 @@ function initBuscadorPersonal() {
   if (perState.wired) { renderBuscadorPersonal(); return; }
   perState.wired = true;
   const q = document.getElementById("per-q");
-  q.addEventListener("input", () => { perState.q = q.value; perState.pag = 0; renderBuscadorPersonal(); });
+  q.addEventListener("input", () => { perState.q = q.value; perState.pag = 0; renderBuscadorPersonal(); syncHash(); });
   sel.addEventListener("change", () => { perState.reg = sel.value; perState.pag = 0; renderBuscadorPersonal(); });
   document.getElementById("per-orden").addEventListener("change", e => { perState.orden = e.target.value; perState.pag = 0; renderBuscadorPersonal(); });
   document.getElementById("per-prev").addEventListener("click", () => { perState.pag--; renderBuscadorPersonal(); });
@@ -356,13 +369,24 @@ function renderIncremento() {
 
 // Gasto del pliego Congreso durante el periodo 2021–2026 (ago-2021 a jul-2026) ÷ leyes.
 // 2021 y 2026 se prorratean por meses: 5/12 del devengado 2021 y 7/12 del PIM 2026.
-function costoPorLey() {
+// Una sola fuente para Análisis e Informe: costoPorLeyCalc() da los números, costoPorLey() la tarjeta.
+function costoPorLeyCalc() {
   const serie = CTX?.presupuesto?.serie || [], leyes = DATA.totales?.leyes_aprobadas;
   const y = (a) => serie.find(x => x.anio === a);
-  if (!leyes || !y(2021) || !y(2026)) return "";
+  if (!leyes || !y(2021) || !y(2026)) return null;
   const millones = y(2021).devengado * 5 / 12 + [2022, 2023, 2024, 2025].reduce((t, a) => t + (y(a)?.devengado || 0), 0) + y(2026).pim * 7 / 12;
-  const porLey = millones / leyes;
-  return kpiCard("Costo por ley", `S/ ${porLey.toFixed(2)} M`, `≈ S/ ${fmt(Math.round(millones))} M gastados ÷ ${fmt(leyes)} leyes 2021–26`, "var(--amber)");
+  return { millones, leyes, porLey: millones / leyes };
+}
+function costoPorLey() {
+  const c = costoPorLeyCalc();
+  if (!c) return "";
+  return kpiCard("Costo por ley", `S/ ${c.porLey.toFixed(2)} M`, `≈ S/ ${fmt(Math.round(c.millones))} M gastados ÷ ${fmt(c.leyes)} leyes 2021–26`, "var(--amber)");
+}
+// Misma frase en Análisis e Informe.
+function costoPorLeyTxt() {
+  const c = costoPorLeyCalc();
+  if (!c) return "";
+  return `Dividiendo el gasto del periodo 2021–2026 (≈ S/ ${fmt(Math.round(c.millones))} M de ago-2021 a jul-2026) entre las ${fmt(c.leyes)} leyes publicadas, <b>cada ley costó en promedio S/ ${c.porLey.toFixed(2)} M</b>. Es una medida de productividad gruesa: el pliego también paga representación, fiscalización y administración.`;
 }
 
 const banc21Sort = { k: "proyectos", dir: -1 };
@@ -389,7 +413,7 @@ function renderAnalisis() {
 
   const nota = document.getElementById("periodo-nota");
   if (nota) nota.innerHTML =
-    `Se analiza el periodo parlamentario <b>2021–2026</b> (${fmt(DATA.totales.proyectos)} proyectos). El nuevo Congreso bicameral <b>2026–2031</b> ya lleva ${BIC ? `<b>${fmt(BIC.totales.proyectos)}</b> proyectos` : "sus primeros proyectos"}: míralo en la pestaña <a href="#bicameral" onclick="activar('bicameral')">Bicameral 2026–31</a>. El <b>costo por ley</b> divide todo el gasto del pliego (que también paga representación, fiscalización y administración) entre las leyes del periodo: es una medida de productividad gruesa, no el costo de hacer cada ley.`;
+    `Se analiza el periodo parlamentario <b>2021–2026</b> (${fmt(DATA.totales.proyectos)} proyectos). El nuevo Congreso bicameral <b>2026–2031</b> ya lleva ${BIC ? `<b>${fmt(BIC.totales.proyectos)}</b> proyectos` : "sus primeros proyectos"}: míralo en la pestaña <a href="#bicameral" onclick="activar('bicameral')">Bicameral 2026–31</a>. <b>Costo por ley.</b> ${costoPorLeyTxt()}`;
 
   document.getElementById("kpis-analisis").innerHTML =
     kpiCard("Autores principales", fmt(c.autores_principales || 0), "congresistas que lideran proyectos", "var(--accent)") +
@@ -522,26 +546,27 @@ function renderInforme() {
   const cerrados = s.filter(x => x.anio < y.anio).slice(-3);
   const avHist = cerrados.reduce((a, x) => a + x.avance, 0) / cerrados.length;
   const proyHist = Math.round(y.pim * avHist / 100);
-  const gastoPeriodo = s.filter(x => x.anio >= 2021).reduce((a, x) => a + x.devengado, 0);
-  const costoLeyM = gastoPeriodo / t.leyes_aprobadas;
   const tasa = (t.leyes_aprobadas / t.proyectos * 100).toFixed(1);
   const mats = DATA.materias || [];
   const decl = mats.find(m => /Declarativa/.test(m.tema));
 
+  const bicTxt = BIC
+    ? `El nuevo Congreso bicameral 2026–2031 se instaló el ${fechaLarga(BIC.meta.instalacion)} y al corte registra <b>${fmt(BIC.totales.proyectos)} proyectos</b> (${fmt(BIC.camaras.D.proyectos)} en Diputados y ${fmt(BIC.camaras.S.proyectos)} en el Senado) y ${fmt(BIC.totales.leyes || 0)} leyes: ver <a href="#bicameral">Bicameral 2026–31</a>.`
+    : `El nuevo Congreso bicameral 2026–2031 está en la pestaña <a href="#bicameral">Bicameral 2026–31</a>.`;
   const st = document.getElementById("inf-subtitulo");
   if (st) st.textContent = `Corte al ${fechaLarga(corte)} · día ${doy} del año · los tres datasets cruzados`;
 
   document.getElementById("kpis-informe").innerHTML =
     kpiCard("Gastado en el año", `S/ ${fmt(y.devengado)} M`, `${y.avance}% del PIM al corte`, "var(--accent)") +
     kpiCard("Ritmo de gasto", `S/ ${gastoDia.toFixed(1)} M`, "por día calendario", "var(--amber)") +
-    kpiCard("Costo por ley", `S/ ${costoLeyM.toFixed(2)} M`, `gasto 2021–${y.anio} ÷ ${fmt(t.leyes_aprobadas)} leyes`, "var(--accent-2)") +
+    costoPorLey() +
     kpiCard("Cierre proyectado", `S/ ${fmt(proyHist)} M`, `si repite el patrón histórico (${avHist.toFixed(1)}%)`, "var(--purple)");
 
   // Resumen ejecutivo narrado
   const P = PERSONAL;
   const parrafos = [
-    `<b>Producción legislativa.</b> El periodo 2021–2026 cerró con <b>${fmt(t.proyectos)} proyectos de ley</b> presentados y <b>${fmt(t.leyes_aprobadas)} leyes publicadas</b> (tasa de aprobación de ${tasa}%). ${decl ? `El <b>${decl.pct}% de los proyectos son declarativos o simbólicos</b> (${fmt(decl.proyectos)}), y ${fmt(decl.leyes)} de ellos llegaron a ser ley: <b>1 de cada ${Math.round(t.leyes_aprobadas / decl.leyes)} leyes publicadas es simbólica</b>.` : ""} El nuevo Congreso bicameral 2026–2031 se instaló el 27-jul-2026 y aún no registra proyectos en la API oficial.`,
-    `<b>Costo.</b> En ${y.anio} el Congreso tiene un presupuesto modificado (PIM) de <b>S/ ${fmt(y.pim)} M</b> — el más alto de su historia — y al corte lleva ejecutados <b>S/ ${fmt(y.devengado)} M</b> (${y.avance}%), unos <b>S/ ${gastoDia.toFixed(1)} M por día</b>. Dividiendo todo el gasto del periodo (S/ ${fmt(Math.round(gastoPeriodo))} M devengados 2021–${y.anio}) entre las ${fmt(t.leyes_aprobadas)} leyes publicadas, <b>cada ley le costó al país S/ ${costoLeyM.toFixed(2)} M en promedio</b>.`,
+    `<b>Producción legislativa.</b> El periodo 2021–2026 cerró con <b>${fmt(t.proyectos)} proyectos de ley</b> presentados y <b>${fmt(t.leyes_aprobadas)} leyes publicadas</b> (tasa de aprobación de ${tasa}%). ${decl ? `El <b>${decl.pct}% de los proyectos son declarativos o simbólicos</b> (${fmt(decl.proyectos)}), y ${fmt(decl.leyes)} de ellos llegaron a ser ley: <b>1 de cada ${Math.round(t.leyes_aprobadas / decl.leyes)} leyes publicadas es simbólica</b>.` : ""} ${bicTxt}`,
+    `<b>Costo.</b> En ${y.anio} el Congreso tiene un presupuesto modificado (PIM) de <b>S/ ${fmt(y.pim)} M</b> — el más alto de su historia — y al corte lleva ejecutados <b>S/ ${fmt(y.devengado)} M</b> (${y.avance}%), unos <b>S/ ${gastoDia.toFixed(1)} M por día</b>. ${costoPorLeyTxt()}`,
     P ? `<b>Personal.</b> La planilla activa suma <b>${fmt(P.totales.planilla_activa)} personas</b> con una masa salarial de <b>${solesM(P.totales.masa_mensual_activa)} al mes</b> (≈ ${solesM(P.totales.masa_anual_activa_est)} al año, el ${(P.totales.masa_anual_activa_est / (y.pim * 1e6) * 100).toFixed(0)}% del PIM). ${P.totales.pensionistas ? `A eso se suman <b>${fmt(P.totales.pensionistas)} pensionistas</b> por ${solesM(P.totales.masa_mensual_pensiones)}/mes. ` : ""}El sueldo más alto es <b>${soles(P.top_sueldos[0].total)}</b> (${P.top_sueldos[0].cargo.toLowerCase()}) y la mediana <b>${soles(P.sueldos.mediana)}</b>. Los <b>${fmt(P.totales.registros)} nombres</b> están en el <a href="#personal" onclick="activar('personal')">buscador de personal</a>.` : "",
     `<b>Proyección.</b> Al ritmo actual, el ${y.anio} cerraría en <b>S/ ${fmt(proyLineal)} M</b> (proyección lineal). Si en cambio repite el patrón de ejecución de los últimos tres años cerrados (avance promedio ${avHist.toFixed(1)}%), terminaría en <b>S/ ${fmt(proyHist)} M</b>. En ambos escenarios sería el año más caro de la historia del Congreso.`,
   ].filter(Boolean);
@@ -606,16 +631,44 @@ function renderInforme() {
 
   const nota = document.getElementById("inf-nota");
   if (nota) nota.innerHTML =
-    `Metodología: gasto = devengado MEF (Consulta Amigable, pliego 028); el costo por ley divide el gasto total del periodo entre las leyes publicadas (el gasto de 2021 incluye el primer semestre del Congreso anterior). La proyección lineal extrapola el ritmo diario al corte; el patrón histórico aplica el avance promedio de los últimos 3 años cerrados sobre el PIM. La materia se infiere por palabras clave del título. Personal: planilla nominal del PTE, último mes publicado.`;
+    `Metodología: gasto = devengado MEF (Consulta Amigable, pliego 028); el costo por ley divide el gasto del periodo 2021–2026 (5/12 del devengado 2021, devengado 2022–2025 y 7/12 del PIM 2026) entre las leyes publicadas, igual que en Análisis. La proyección lineal extrapola el ritmo diario al corte; el patrón histórico aplica el avance promedio de los últimos 3 años cerrados sobre el PIM. La materia se infiere por palabras clave del título. Personal: planilla nominal del PTE, último mes publicado.`;
 }
 
 // ---- Congreso bicameral 2026–2031 (Senado + Diputados) ----
 const CAM_NOMBRE = { D: "Diputados", S: "Senado", C: "Bicameral" };
 let bicCam = "D";
-let bicState = { q: "", banc: "", k: "principal", dir: -1, pag: 0, ps: 20, abiertos: new Set(), wired: false };
+let bicState = { q: "", banc: "", k: "principal", dir: -1, pag: 0, ps: 20, abiertos: new Set(), ultimo: "", foco: "", wired: false };
 let bancSort = { k: "proyectos", dir: -1 };
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const pctTxt = (v) => v == null ? "—" : `${v}%`;
+// Igual que slug() de web/build_seo.py: NFKD → ASCII, minúsculas, no alfanumérico → "-".
+const slugify = (s) => String(s ?? "").normalize("NFKD").replace(/[^\x00-\x7f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+let bicPorSlug = null;
+const congPorSlug = (sl) => {
+  if (!BIC) return null;
+  if (!bicPorSlug) { bicPorSlug = {}; BIC.congresistas.forEach(m => { bicPorSlug[slugify(m.nombre)] = m; }); }
+  return bicPorSlug[sl] || null;
+};
+// Dependencia del PTE ("APELLIDOS NOMBRES") → congresista, por conjunto de palabras (sin tildes ni mayúsculas).
+const tokens = (s) => slugify(s).split("-").filter(Boolean);
+let depCache = null;
+function congDeDependencia(dep) {
+  if (!BIC || !dep) return null;
+  if (!depCache) depCache = new Map();
+  if (depCache.has(dep)) return depCache.get(dep);
+  const td = new Set(tokens(dep));
+  let m = null;
+  if (td.size >= 3) {
+    const igual = BIC.congresistas.filter(c => { const tc = tokens(c.nombre); return tc.length === td.size && tc.every(x => td.has(x)); });
+    if (igual.length === 1) m = igual[0];
+    else if (!igual.length) {   // p. ej. un segundo apellido o nombre de más/menos
+      const sub = BIC.congresistas.filter(c => { const tc = new Set(tokens(c.nombre)); return tc.size >= 3 && ([...tc].every(x => td.has(x)) || [...td].every(x => tc.has(x))); });
+      if (sub.length === 1) m = sub[0];
+    }
+  }
+  depCache.set(dep, m);
+  return m;
+}
 
 // ---- Tablas ordenables: clic en el encabezado (numéricas empiezan de mayor a menor) ----
 function encabezados(tableId, cols, st, onChange) {
@@ -668,7 +721,7 @@ function renderBicameral() {
     const b = document.createElement("button");
     b.className = "ychip" + (k === bicCam ? " active" : "");
     b.textContent = `${cams[k].nombre} (${fmt(cams[k].proyectos)})`;
-    b.onclick = () => { bicCam = k; bicState.banc = ""; bicState.pag = 0; renderBicameral(); };
+    b.onclick = () => { bicCam = k; bicState.banc = ""; bicState.pag = 0; renderBicameral(); syncHash(); };
     box.appendChild(b);
   });
 
@@ -737,18 +790,24 @@ function renderBicameral() {
     [...new Set(miembrosCam.map(m => m.bancada))].sort().map(b => `<option${b === bicState.banc ? " selected" : ""}>${esc(b)}</option>`).join("");
   if (!bicState.wired) {
     bicState.wired = true;
-    document.getElementById("bic-q").addEventListener("input", e => { bicState.q = e.target.value; bicState.pag = 0; renderBicMiembros(); });
-    sel.addEventListener("change", e => { bicState.banc = e.target.value; bicState.pag = 0; renderBicMiembros(); });
+    document.getElementById("bic-q").addEventListener("input", e => { bicState.q = e.target.value; bicState.pag = 0; renderBicMiembros(); syncHash(); });
+    sel.addEventListener("change", e => { bicState.banc = e.target.value; bicState.pag = 0; renderBicMiembros(); syncHash(); });
     document.getElementById("bic-ps").addEventListener("change", e => { bicState.ps = +e.target.value; bicState.pag = 0; renderBicMiembros(); });
     document.getElementById("bic-prev").addEventListener("click", () => { bicState.pag--; renderBicMiembros(); });
     document.getElementById("bic-next").addEventListener("click", () => { bicState.pag++; renderBicMiembros(); });
     // Desplegar / plegar el detalle de un congresista (delegado: la tabla se repinta)
     document.querySelector("#tBicMiembros tbody").addEventListener("click", e => {
+      const cp = e.target.closest(".copylink");
+      if (cp) { copiarEnlace(cp); return; }
       const btn = e.target.closest(".xbtn");
       if (!btn) return;
       const n = btn.dataset.n;
-      bicState.abiertos.has(n) ? bicState.abiertos.delete(n) : bicState.abiertos.add(n);
+      if (bicState.abiertos.has(n)) {
+        bicState.abiertos.delete(n);
+        if (bicState.ultimo === n) bicState.ultimo = [...bicState.abiertos].at(-1) || "";
+      } else { bicState.abiertos.add(n); bicState.ultimo = n; }
       renderBicMiembros();
+      syncHash();
     });
   }
   renderBicMiembros();
@@ -917,6 +976,8 @@ function renderBicMiembros() {
     { k: "asistencia", t: "Asistencia", num: 1 }, { k: "si", t: "Votos SI/NO/Abst", num: 1 }, { k: "disciplina", t: "Con su bancada", num: 1 }, { k: "visitas", t: "Visitas", num: 1 }, { k: "masa", t: "Despacho S/ mes", num: 1 },
   ], bicState, () => { bicState.pag = 0; renderBicMiembros(); });
   filas.sort((x, y) => cmp(x[bicState.k], y[bicState.k], bicState.dir) || x.nombre.localeCompare(y.nombre, "es"));
+  const foco = bicState.foco;   // enlace profundo: ir a la página del congresista
+  if (foco) { const i = filas.findIndex(f => f.nombre === foco); if (i >= 0) bicState.pag = Math.floor(i / bicState.ps); }
 
   const total = filas.length, paginas = Math.max(1, Math.ceil(total / bicState.ps));
   bicState.pag = Math.min(Math.max(0, bicState.pag), paginas - 1);
@@ -931,14 +992,41 @@ function renderBicMiembros() {
     const a = p && p.pases ? `${pctTxt(p.pct_asistencia)}<div class="note" style="margin:0">${p.presente}/${p.pases}${p.licencia ? ` · ${p.licencia} lic.` : ""}</div>` : "—";
     const v = p && p.votaciones ? `<span style="color:var(--green)">${p.si}</span>/<span style="color:var(--accent)">${p.no}</span>/<span style="color:var(--amber)">${p.abst}</span><div class="note" style="margin:0">${p.no_voto} sin votar</div>` : "—";
     const eq = d ? `<b>${soles(d.masa)}</b><div class="note" style="margin:0">${d.personal} personas</div>` : "—";
-    const nom = m.link ? `<a href="${esc(m.link)}" target="_blank" rel="noopener">${esc(m.nombre)}</a>` : esc(m.nombre);
+    const nom = `<a href="congresistas/${slugify(m.nombre)}.html" title="Ficha de ${esc(m.nombre)}">${esc(m.nombre)}</a>${m.link ? ` <a class="extlink" href="${esc(m.link)}" target="_blank" rel="noopener" title="Perfil oficial en la web del Congreso" aria-label="Perfil oficial">↗</a>` : ""}`;
     return `<tr><td style="white-space:nowrap"><button class="xbtn" data-n="${esc(m.nombre)}" aria-expanded="${abierto}" title="Ver detalle">${abierto ? "▾" : "▸"}</button>${nom}</td>
       <td><span class="tag">${esc(m.sigla)}</span></td><td>${esc(m.distrito)}</td>
       <td class="num-r"><b>${fmt(m.principal)}</b><div class="note" style="margin:0">${fmt(m.firmas)} firmas</div></td>
       <td class="num-r">${fmt(m.desarrollo)}</td><td class="num-r">${fmt(m.simbolicos)}</td>
       <td class="num-r">${a}</td><td class="num-r">${v}</td><td class="num-r">${discTxt(p)}</td><td class="num-r">${visDe(m) ? `<b>${fmt(visDe(m).total)}</b><div class="note" style="margin:0">${fmt(visDe(m).al_congresista)} a él/ella</div>` : "—"}</td><td class="num-r">${eq}</td></tr>` +
-      (abierto ? `<tr class="det"><td colspan="11">${detalleCongresista(m, p, d)}</td></tr>` : "");
+      (abierto ? `<tr class="det"><td colspan="11">${barraEnlace(m)}${detalleCongresista(m, p, d)}</td></tr>` : "");
   }).join("");
+  if (foco) {
+    bicState.foco = "";
+    const b = [...document.querySelectorAll("#tBicMiembros .xbtn")].find(x => x.dataset.n === foco);
+    if (b) setTimeout(() => {   // descuenta la cabecera y el menú fijos (más altos en móvil)
+      const tope = Math.max(...["header", ".menu"].map(sel => document.querySelector(sel)?.getBoundingClientRect().bottom || 0));
+      window.scrollTo({ top: window.scrollY + b.closest("tr").getBoundingClientRect().top - tope - 8, behavior: "smooth" });
+    }, 60);
+  }
+}
+
+// Barra sobre el detalle: enlace para compartir y ficha estática.
+function barraEnlace(m) {
+  const sl = slugify(m.nombre);
+  return `<div class="det-bar"><button class="btn copylink" data-c="${esc(m.camara)}" data-s="${sl}">🔗 Copiar enlace</button>
+    <a class="btn" href="congresistas/${sl}.html">📄 Ficha</a>${m.link ? `<a class="btn" href="${esc(m.link)}" target="_blank" rel="noopener">Perfil oficial ↗</a>` : ""}</div>`;
+}
+async function copiarEnlace(btn) {
+  const url = `${location.origin}${location.pathname}#bicameral?${new URLSearchParams({ cam: btn.dataset.c, c: btn.dataset.s })}`;
+  const txt = btn.textContent;
+  try {
+    await navigator.clipboard.writeText(url);
+    btn.textContent = "✅ Enlace copiado";
+  } catch (e) {
+    try { window.prompt("Copia este enlace:", url); } catch (_) { /* sin diálogo disponible */ }
+    btn.textContent = "Copia el enlace manualmente";
+  }
+  setTimeout(() => { btn.textContent = txt; }, 2000);
 }
 
 // ---- Movimientos de personal (altas/bajas entre meses publicados) ----
@@ -1020,8 +1108,8 @@ function renderContratos() {
   selA.innerHTML = `<option value="">Todos los años</option>` + anios.map(e => e[0]).reverse().map(a => `<option${a === conState.anio ? " selected" : ""}>${a}</option>`).join("");
   if (!conState.wired) {
     conState.wired = true;
-    document.getElementById("con-q").addEventListener("input", e => { conState.q = e.target.value; pintarProcesos(); });
-    selA.addEventListener("change", e => { conState.anio = e.target.value; pintarProcesos(); });
+    document.getElementById("con-q").addEventListener("input", e => { conState.q = e.target.value; pintarProcesos(); syncHash(); });
+    selA.addEventListener("change", e => { conState.anio = e.target.value; pintarProcesos(); syncHash(); });
     document.getElementById("con-unico").addEventListener("change", e => { conState.unico = e.target.checked; pintarProcesos(); });
   }
   pintarProcesos();
@@ -1100,6 +1188,7 @@ Promise.all([
     const ud = document.getElementById("updated-date");
     if (ud) ud.textContent = d.meta.generado;
     renderAll();
+    aplicarRuta(true);
   })
   .catch(e => { document.getElementById("kpis-resumen").innerHTML = `<div class="card">Error cargando datos: ${e}</div>`; });
 
@@ -1113,11 +1202,85 @@ function activar(view, scroll = true) {
   document.getElementById("view-" + view).classList.add("active");
   if (scroll) window.scrollTo({ top: 0, behavior: "smooth" });
 }
+// Enlaces profundos:
+//   #bicameral?cam=D|S&banc=<bancada>&q=<texto>&c=<slug>   (c despliega y enfoca a un congresista)
+//   #contratos?q=<texto>&anio=<aaaa>     #personal?q=<texto>
+function leerHash() {
+  const h = (location.hash || "").replace(/^#/, "");
+  const i = h.indexOf("?");
+  let view = i < 0 ? h : h.slice(0, i);
+  try { view = decodeURIComponent(view); } catch (_) { /* hash malformado */ }
+  return { view, params: new URLSearchParams(i < 0 ? "" : h.slice(i + 1)) };
+}
+function hashDe(view) {
+  const p = new URLSearchParams();
+  if (view === "bicameral") {
+    if (bicCam !== "D") p.set("cam", bicCam);
+    if (bicState.banc) p.set("banc", bicState.banc);
+    if (bicState.q.trim()) p.set("q", bicState.q.trim());
+    const u = bicState.ultimo && bicState.abiertos.has(bicState.ultimo) && BIC?.congresistas.find(m => m.nombre === bicState.ultimo && m.camara === bicCam);
+    if (u) { p.set("cam", bicCam); p.set("c", slugify(u.nombre)); }
+  } else if (view === "contratos") {
+    if (conState.q.trim()) p.set("q", conState.q.trim());
+    if (conState.anio) p.set("anio", conState.anio);
+  } else if (view === "personal") {
+    if (perState.q.trim()) p.set("q", perState.q.trim());
+  }
+  const qs = p.toString();
+  return view + (qs ? "?" + qs : "");
+}
+// Reescribe el hash de la vista activa sin crear entradas en el historial.
+function syncHash() {
+  const v = document.querySelector(".menu button.active")?.dataset.view;
+  if (!v) return;
+  const h = hashDe(v);
+  if (location.hash.replace(/^#/, "") !== h) history.replaceState(null, "", "#" + h);
+}
+// Aplica el hash a la vista y sus filtros. Sin parámetros solo cambia de pestaña (conserva filtros).
+function aplicarRuta(inicial = false) {
+  const { view, params } = leerHash();
+  if (!view || !document.querySelector(`.menu button[data-view="${CSS.escape(view)}"]`)) return;
+  const c = params.get("c");
+  activar(view, !inicial && !c);
+  if (![...params.keys()].length || !DATA) return;
+  if (view === "bicameral" && BIC) {
+    let cam = params.get("cam"), banc = params.get("banc") || "", q = params.get("q") || "";
+    const m = c ? congPorSlug(c) : null;
+    if (m) {
+      cam = m.camara;
+      if (banc && banc !== m.bancada) banc = "";
+      if (q && !(m.nombre + " " + m.distrito).toLowerCase().includes(q.toLowerCase())) q = "";
+      bicState.abiertos.add(m.nombre);
+      bicState.ultimo = m.nombre;
+      bicState.foco = m.nombre;
+    }
+    bicCam = cam === "S" ? "S" : "D";
+    if (banc && !BIC.congresistas.some(x => x.camara === bicCam && x.bancada === banc)) banc = "";
+    bicState.banc = banc; bicState.q = q; bicState.pag = 0;
+    document.getElementById("bic-q").value = q;
+    renderBicameral();
+  } else if (view === "contratos" && CON) {
+    conState.q = params.get("q") || "";
+    const anio = params.get("anio") || "";
+    conState.anio = CON.por_anio[anio] ? anio : "";
+    document.getElementById("con-q").value = conState.q;
+    document.getElementById("con-anio").value = conState.anio;
+    pintarProcesos();
+  } else if (view === "personal" && PERSONAL) {
+    perState.q = params.get("q") || ""; perState.pag = 0;
+    document.getElementById("per-q").value = perState.q;
+    renderBuscadorPersonal();
+  }
+}
 document.querySelectorAll(".menu button").forEach(btn => {
-  btn.addEventListener("click", () => { location.hash = btn.dataset.view; activar(btn.dataset.view); });
+  btn.addEventListener("click", () => {
+    const v = btn.dataset.view;
+    history.pushState(null, "", "#" + hashDe(v));
+    activar(v);
+  });
 });
-const initial = (location.hash || "").replace("#", "");
-if (initial) activar(initial, false);
+window.addEventListener("hashchange", () => aplicarRuta(false));
+{ const v = leerHash().view; if (v) activar(v, false); }
 
 // Modal Yape
 const yModal = document.getElementById("yape-modal");

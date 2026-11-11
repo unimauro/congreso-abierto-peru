@@ -83,7 +83,7 @@
   .menu button.active{color:var(--text);border-bottom-color:var(--accent)}
   /* Hero */
   .hero{padding:34px 0 20px}
-  .pill{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:600;color:var(--muted);border:1px solid var(--border);background:var(--panel);padding:5px 11px;border-radius:999px}
+  .pill{display:inline-flex;flex-wrap:wrap;align-items:center;gap:7px;font-size:12px;font-weight:600;color:var(--muted);border:1px solid var(--border);background:var(--panel);padding:5px 11px;border-radius:999px}
   .dot{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 0 3px color-mix(in srgb,var(--green) 25%,transparent)}
   h1{font-size:clamp(26px,4.5vw,40px);line-height:1.06;letter-spacing:-.03em;margin:14px 0 8px;font-weight:800}
   .sub{color:var(--muted);font-size:16px;max-width:660px}
@@ -154,6 +154,9 @@
   .xbtn:hover{color:var(--text);border-color:var(--muted)}
   tr.det>td{background:var(--panel-2);padding:16px}
   tr.det:hover{background:none}
+  .det-bar{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}
+  .extlink{font-size:12px;color:var(--muted);text-decoration:none;margin-left:2px}
+  .extlink:hover{color:var(--text)}
   .det-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
   .det-grid h4{margin:0 0 8px;font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
   .det-grid ul{margin:0;padding-left:16px;font-size:13px;line-height:1.55}
@@ -201,7 +204,7 @@
   <!-- RESUMEN -->
   <section class="view active" id="view-resumen">
     <div class="hero">
-      <span class="pill"><span class="dot"></span> Datos oficiales · periodo 2021–2026 · <span id="gen"></span></span>
+      <span class="pill"><span class="dot"></span> Datos oficiales · periodo 2021–2026 · <a href="#bicameral" style="color:inherit">y el nuevo Congreso 2026–2031 →</a> · <span id="gen"></span></span>
       <h1>Cómo funciona realmente el Congreso.</h1>
       <p class="sub">Observatorio de datos abiertos del Congreso de la República del Perú: producción legislativa, presupuesto, comisiones y personal — directo de la fuente.</p>
     </div>
