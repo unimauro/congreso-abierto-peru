@@ -109,7 +109,7 @@ def principales_temas(pr: list) -> str:
     return ", ".join(t.split(":")[0].lower() for t, _ in sorted(c.items(), key=lambda x: -x[1])[:2])
 
 
-def ficha(m: dict, pl: dict | None, dp: dict | None, generado: str) -> tuple[str, str]:
+def ficha(m: dict, pl: dict | None, dp: dict | None, generado: str, vi: dict | None = None) -> tuple[str, str]:
     nombre = nombre_natural(m["nombre"])
     cargo = CARGO.get(m["camara"], "Congresista")
     s = slug(m["nombre"])
@@ -153,13 +153,22 @@ def ficha(m: dict, pl: dict | None, dp: dict | None, generado: str) -> tuple[str
     tematicas = ("<h2>Temáticas que trabaja</h2><div class=\"card\"><ul>" + "".join(
         f"<li><b>{e(t)}</b>: {n} proyecto{'s' if n > 1 else ''}</li>" for t, n in temas)
         + "</ul><p class=\"note\">Eje de agenda de cada proyecto según palabras clave del título (indicativo).</p></div>") if temas else ""
+    visitas = ""
+    if vi and vi.get("total"):
+        filas_v = "".join(f'<tr><td>{e(v["fecha"])}</td><td>{e(v["visitante"])}</td><td>{e(v["entidad"] or "—")}</td><td>{e(v["motivo"])}</td></tr>'
+                          for v in vi["ultimas"][:15])
+        ents = ", ".join(f"{e(x)} ({n})" for x, n in vi["top_entidades"][:5])
+        visitas = (f'<h2>Visitas a su despacho ({vi["total"]})</h2><div class="card scroll"><p>{vi["al_congresista"]} visitas directas al congresista y el resto a su equipo'
+                   + (f'. Instituciones más frecuentes: {ents}' if ents else "") + '.</p>'
+                   f'<table><thead><tr><th>Fecha</th><th>Visitante</th><th>Institución</th><th>Motivo</th></tr></thead><tbody>{filas_v}</tbody></table>'
+                   '<p class="note">Registro oficial de visitas del Congreso. No se publica el DNI de los visitantes.</p></div>')
     oficial = f'<a href="{e(m["link"])}" rel="nofollow">Perfil oficial</a> · ' if m.get("link") else ""
     cuerpo = f"""<p class="note"><a href="index.html">Congresistas</a> › {CAMARA[m["camara"]]}</p>
 <h1>{e(nombre)}</h1>
 <p class="sub">{cargo} por <b>{e(m.get("distrito") or "—")}</b> · {e(m.get("bancada") or "—")} · periodo 2026–2031 · datos al {e(generado)}</p>
 <div class="kpis">{kpis}</div>
 <p>{oficial}<a class="cta" href="../index.html#bicameral">Comparar con los demás en el tablero →</a></p>
-{tematicas}{proyectos}{pleno}{gasto}"""
+{tematicas}{proyectos}{pleno}{gasto}{visitas}"""
     ld = [{"@context": "https://schema.org", "@type": "Person", "name": nombre, "jobTitle": f"{cargo} 2026–2031",
            "memberOf": [{"@type": "GovernmentOrganization", "name": CAMARA[m["camara"]] + " del Perú"},
                         {"@type": "Organization", "name": m.get("bancada")}],
@@ -170,8 +179,9 @@ def ficha(m: dict, pl: dict | None, dp: dict | None, generado: str) -> tuple[str
 
 
 def build() -> list[str]:
-    bic, plenos, mov, con, integ, data = (cargar(x) for x in ("bicameral.json", "plenos.json", "movimientos.json",
-                                                              "contratos.json", "integridad.json", "data.json"))
+    bic, plenos, mov, con, integ, data, vis = (cargar(x) for x in ("bicameral.json", "plenos.json", "movimientos.json",
+                                                                   "contratos.json", "integridad.json", "data.json", "visitas.json"))
+    vi = {(x["camara"], x["nombre"]): x for x in (vis or {}).get("congresistas", [])}
     if not bic:
         raise SystemExit("[!] falta bicameral.json")
     pl = {(x["camara"], x["nombre"]): x for x in (plenos or {}).get("miembros", [])}
@@ -183,7 +193,7 @@ def build() -> list[str]:
     # Fichas
     por_cam = {"D": [], "S": []}
     for m in bic["congresistas"]:
-        s, doc = ficha(m, pl.get((m["camara"], m["nombre"])), dp.get((m["camara"], m["nombre"])), gen)
+        s, doc = ficha(m, pl.get((m["camara"], m["nombre"])), dp.get((m["camara"], m["nombre"])), gen, vi.get((m["camara"], m["nombre"])))
         open(os.path.join(WEB, "congresistas", f"{s}.html"), "w", encoding="utf-8").write(doc)
         urls.append(f"congresistas/{s}.html")
         por_cam.setdefault(m["camara"], []).append((m, s))
@@ -268,6 +278,7 @@ Todas las cifras salen de fuentes oficiales (API del Congreso, actas del Pleno, 
 - [movimientos.json]({BASE}movimientos.json): altas/bajas de personal y planilla mensual de cada despacho
 - [personal.json]({BASE}personal.json): planilla nominal del Congreso (PTE)
 - [contratos.json]({BASE}contratos.json): procesos de contratación y proveedores (OCDS/SEACE)
+- [visitas.json]({BASE}visitas.json): visitas registradas a cada despacho congresal (sin DNI)
 - [integridad.json]({BASE}integridad.json): proveedores con sanciones del Tribunal de Contrataciones
 - [data.json]({BASE}data.json): proyectos de ley 2021–2026 y producción por bancada
 - [context.json]({BASE}context.json): presupuesto del pliego Congreso (MEF)

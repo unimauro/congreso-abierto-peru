@@ -44,6 +44,8 @@ python3 -m pipeline.scrapers.plenos || echo "[!] plenos falló; se mantiene el p
 # Contratos del Congreso (OCDS/SEACE): rebaja los 3 últimos meses; el histórico queda en data/contratos/.
 echo "[*] Contratos (OCDS)..."
 python3 -m pipeline.scrapers.contratos_ocds || echo "[!] contratos falló; se mantiene el contratos.json anterior"
+echo "[*] Visitas a despachos (registro de visitas del Congreso)..."
+python3 -m pipeline.scrapers.visitas || echo "[!] visitas falló; se mantiene el visitas.json anterior"
 echo "[*] Integridad de proveedores (sanciones OECE)..."
 python3 -m pipeline.scrapers.integridad_osce || echo "[!] integridad falló; se mantiene el integridad.json anterior"
 
@@ -54,18 +56,18 @@ if git diff --quiet -I'"generado"' -- web/personal.json; then
 fi
 
 # Igual con los "generado" de movimientos/plenos: solo cuentan cambios de datos.
-for f in web/movimientos.json web/plenos.json web/contratos.json web/integridad.json; do
+for f in web/movimientos.json web/plenos.json web/contratos.json web/integridad.json web/visitas.json; do
   if git diff --quiet -I'"generado"' -- "$f" 2>/dev/null; then git checkout -- "$f" 2>/dev/null || true; fi
 done
 
 if git diff --quiet -- web/context.json web/personal.json web/movimientos.json web/plenos.json web/contratos.json \
-   && [ -z "$(git ls-files --others --exclude-standard web/movimientos.json web/plenos.json web/contratos.json web/integridad.json)" ]; then
+   && [ -z "$(git ls-files --others --exclude-standard web/movimientos.json web/plenos.json web/contratos.json web/integridad.json web/visitas.json)" ]; then
   echo "[ok] Sin datos nuevos: nada que commitear."
   exit 0
 fi
 
 echo "[*] Commiteando datos nuevos..."
-git add web/context.json web/personal.json web/movimientos.json web/plenos.json web/contratos.json web/integridad.json
+git add web/context.json web/personal.json web/movimientos.json web/plenos.json web/contratos.json web/integridad.json web/visitas.json
 git commit -m "chore(datos): refresco local presupuesto/personal $(date '+%Y-%m-%d')"
 git push
 echo "[ok] Pusheado."

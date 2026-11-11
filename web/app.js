@@ -3,7 +3,7 @@
 const fmt = (n) => new Intl.NumberFormat("es-PE").format(n);
 const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
 let CHARTS = {};
-let DATA = null, CTX = null, PERSONAL = null, BIC = null, PLENOS = null, MOV = null, CON = null, INT = null;
+let DATA = null, CTX = null, PERSONAL = null, BIC = null, PLENOS = null, MOV = null, CON = null, INT = null, VIS = null;
 const soles = (n) => "S/ " + new Intl.NumberFormat("es-PE", { maximumFractionDigits: 0 }).format(n);
 const solesM = (n) => "S/ " + (n / 1e6).toFixed(1) + " M";
 
@@ -854,12 +854,27 @@ function detalleCongresista(m, p, d) {
       <li>Votaciones: <b style="color:var(--green)">${p.si} SI</b>, <b style="color:var(--accent)">${p.no} NO</b>, <b style="color:var(--amber)">${p.abst} Abst</b>, ${p.no_voto} sin votar (de ${p.votaciones})</li>
       ${disciplina(p) != null ? `<li>Votó igual que su bancada en el <b>${pctTxt(disciplina(p))}</b> de los casos (${p.con_bancada} a favor de la línea, <b>${p.contra_bancada}</b> en contra)</li>` : ""}</ul></div>`);
   }
+  const vi = visDe(m);
+  if (vi && vi.total) {
+    bloques.push(`<div style="grid-column:1/-1"><h4>🚪 Visitas a su despacho (${fmt(vi.total)} desde ${esc(VIS.meta.desde)})</h4>
+      <div class="note" style="margin:0 0 6px">${fmt(vi.al_congresista)} lo/la visitaron directamente; el resto, a su equipo. ${vi.top_entidades.length ? `Instituciones que más vienen: ${vi.top_entidades.slice(0, 5).map(([e, n]) => `<b>${esc(e)}</b> (${n})`).join(", ")}.` : ""}</div>
+      <div style="max-height:260px;overflow:auto"><table><thead><tr><th>Fecha</th><th>Visitante</th><th>Institución</th><th>Motivo</th><th>Recibió</th></tr></thead><tbody>${vi.ultimas.map(v =>
+        `<tr><td style="white-space:nowrap">${esc(v.fecha)} ${esc(v.hora)}</td><td>${esc(v.visitante)}</td><td>${esc(v.entidad || "—")}</td><td>${esc(v.motivo)}<div class="note" style="margin:0">${esc(v.tipo)}</div></td><td class="note">${esc(v.anfitrion)}</td></tr>`).join("")}</tbody></table></div>
+      <div class="note">Registro oficial de visitas del Congreso (últimas ${vi.ultimas.length}). No se muestra el DNI de los visitantes.</div></div>`);
+  }
   return `<div class="det-grid">${bloques.join("")}</div>`;
 }
 
 // % de votos emitidos (SI/NO/Abst) iguales a la posición mayoritaria de su bancada.
 const disciplina = (p) => { const n = (p?.con_bancada || 0) + (p?.contra_bancada || 0); return n ? +(p.con_bancada / n * 100).toFixed(1) : null; };
 const discTxt = (p) => { const x = disciplina(p); return x == null ? "—" : `${pctTxt(x)}<div class="note" style="margin:0">${p.contra_bancada} en contra</div>`; };
+
+let visIdx = null;
+const visDe = (m) => {
+  if (!VIS) return null;
+  if (!visIdx) { visIdx = {}; VIS.congresistas.forEach(x => { visIdx[x.camara + "|" + x.nombre] = x; }); }
+  return visIdx[m.camara + "|" + m.nombre] || null;
+};
 
 function renderBicMiembros() {
   const { pl, dp } = bicIndices();
@@ -871,12 +886,12 @@ function renderBicMiembros() {
       const p = pl[bicCam + "|" + m.nombre], d = dp[bicCam + "|" + m.nombre];
       return { m, p, d, nombre: m.nombre, sigla: m.sigla, distrito: m.distrito, principal: m.principal,
         desarrollo: m.desarrollo, simbolicos: m.simbolicos, asistencia: p?.pct_asistencia ?? null,
-        si: p?.votaciones ? p.si : null, masa: d?.masa ?? null, disciplina: disciplina(p) };
+        si: p?.votaciones ? p.si : null, masa: d?.masa ?? null, disciplina: disciplina(p), visitas: visDe(m)?.total ?? null };
     });
   encabezados("tBicMiembros", [
     { k: "nombre", t: "Congresista" }, { k: "sigla", t: "Bancada" }, { k: "distrito", t: "Distrito" },
     { k: "principal", t: "Proyectos", num: 1 }, { k: "desarrollo", t: "Desarrollo", num: 1 }, { k: "simbolicos", t: "Simból.", num: 1 },
-    { k: "asistencia", t: "Asistencia", num: 1 }, { k: "si", t: "Votos SI/NO/Abst", num: 1 }, { k: "disciplina", t: "Con su bancada", num: 1 }, { k: "masa", t: "Despacho S/ mes", num: 1 },
+    { k: "asistencia", t: "Asistencia", num: 1 }, { k: "si", t: "Votos SI/NO/Abst", num: 1 }, { k: "disciplina", t: "Con su bancada", num: 1 }, { k: "visitas", t: "Visitas", num: 1 }, { k: "masa", t: "Despacho S/ mes", num: 1 },
   ], bicState, () => { bicState.pag = 0; renderBicMiembros(); });
   filas.sort((x, y) => cmp(x[bicState.k], y[bicState.k], bicState.dir) || x.nombre.localeCompare(y.nombre, "es"));
 
@@ -898,8 +913,8 @@ function renderBicMiembros() {
       <td><span class="tag">${esc(m.sigla)}</span></td><td>${esc(m.distrito)}</td>
       <td class="num-r"><b>${fmt(m.principal)}</b><div class="note" style="margin:0">${fmt(m.firmas)} firmas</div></td>
       <td class="num-r">${fmt(m.desarrollo)}</td><td class="num-r">${fmt(m.simbolicos)}</td>
-      <td class="num-r">${a}</td><td class="num-r">${v}</td><td class="num-r">${discTxt(p)}</td><td class="num-r">${eq}</td></tr>` +
-      (abierto ? `<tr class="det"><td colspan="10">${detalleCongresista(m, p, d)}</td></tr>` : "");
+      <td class="num-r">${a}</td><td class="num-r">${v}</td><td class="num-r">${discTxt(p)}</td><td class="num-r">${visDe(m) ? `<b>${fmt(visDe(m).total)}</b><div class="note" style="margin:0">${fmt(visDe(m).al_congresista)} a él/ella</div>` : "—"}</td><td class="num-r">${eq}</td></tr>` +
+      (abierto ? `<tr class="det"><td colspan="11">${detalleCongresista(m, p, d)}</td></tr>` : "");
   }).join("");
 }
 
@@ -1052,8 +1067,10 @@ Promise.all([
   fetch("movimientos.json", nocache).then(r => r.ok ? r.json() : null).catch(() => null),
   fetch("contratos.json", nocache).then(r => r.ok ? r.json() : null).catch(() => null),
   fetch("integridad.json", nocache).then(r => r.ok ? r.json() : null).catch(() => null),
+  fetch("visitas.json", nocache).then(r => r.ok ? r.json() : null).catch(() => null),
 ])
-  .then(([d, c, p, b, pl, mv, co, it]) => {
+  .then(([d, c, p, b, pl, mv, co, it, vi]) => {
+    VIS = vi;
     DATA = d; CTX = c; PERSONAL = p; BIC = b; PLENOS = pl; MOV = mv; CON = co; INT = it;
     document.getElementById("gen").textContent = "actualizado " + d.meta.generado;
     const ud = document.getElementById("updated-date");
