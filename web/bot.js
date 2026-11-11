@@ -81,8 +81,8 @@
 
   /* ───────────── datos ───────────── */
   const FILES = { bi: "bicameral.json", pl: "plenos.json", mov: "movimientos.json", con: "contratos.json", integ: "integridad.json",
-    pf: "perfiles.json", vis: "visitas.json", ase: "asesores.json", hist: "data.json", ctx: "context.json" };
-  let DATA = null, loading = null;
+    pf: "perfiles.json", vis: "visitas.json", ase: "asesores.json", hist: "data.json", ctx: "context.json", int: "intereses.json" };
+  let DATA = null, loading = null, loadingT = null, WANT_T = false;
   const getJSON = f => fetch(f, { cache: "no-cache" }).then(r => (r.ok ? r.json() : null)).catch(() => null);
   function load() {
     if (DATA) return Promise.resolve(DATA);
@@ -94,6 +94,13 @@
     });
     return loading;
   }
+  // textos.json (~800 KB): solo se descarga cuando una intención lo pide (getT() marca WANT_T)
+  function loadT() {
+    if (!DATA || DATA.T !== undefined) return Promise.resolve(DATA && DATA.T);
+    return loadingT || (loadingT = getJSON("textos.json").then(j => { DATA.T = j && Array.isArray(j.proyectos) ? indexT(j) : false; return DATA.T; }));
+  }
+  // null = aún no cargado (se pedirá); false = no disponible
+  function getT() { if (DATA.T) return DATA.T; if (DATA.T === undefined) { WANT_T = true; return null; } return false; }
 
   const orgName = s => { let n = String(s || "").replace(/\.\s*$/, "").replace(/Bicamenral/i, "Bicameral").replace(/^COMISIÓN DE BICAMERAL/i, "Comisión Bicameral"); if (n === n.toUpperCase()) n = titleCase(n); return n; };
   const CARGO_RANK = c => { const n = norm(c); return /^president/.test(n) ? 0 : /vicepresident/.test(n) ? 1 : /^secretari/.test(n) ? 2 : /titular|nato/.test(n) ? 3 : /suplente/.test(n) ? 4 : 5; };
@@ -199,7 +206,33 @@
     const bs = {};
     D.cong.forEach(it => { bs[it.c.bancada] = it.c.sigla; });
     D.banc = Object.entries(bs).map(([b, s]) => ({ bancada: b, sigla: s, kws: words(b).filter(w => !["partido", "del", "el", "por", "de", "la"].includes(w)) }));
+    // empresas vinculadas por DNI (intereses.json)
+    D.intBy = {};
+    (R.int?.vinculos || []).forEach(v => { (D.intBy[v.camara + "|" + v.congresista] = D.intBy[v.camara + "|" + v.congresista] || []).push(v); });
     return D;
+  }
+  /* textos completos de los proyectos (textos.json) */
+  const LAW_ABBR = { dleg: "decreto legislativo", "d leg": "decreto legislativo", dl: "decreto legislativo", du: "decreto de urgencia", ds: "decreto supremo", rl: "resolucion legislativa" };
+  const LAW_RE = /\b(decreto legislativo|decreto de urgencia|decreto supremo|decreto ley|resolucion legislativa|ley|dleg|d leg|dl|du|ds|rl)\s+(?:(?:n|no|nro|numero|num)\s+)?(\d{2,6}(?:\s+\d{4}(?:\s+[a-z]{2,6})?)?)\b/;
+  // "Ley N° 28278", "ley 28278", "D.Leg. 1440" → clave comparable ("ley 28278", "decreto legislativo 1440")
+  function lawKey(s) {
+    const m = LAW_RE.exec(norm(s));
+    if (!m) return null;
+    return (LAW_ABBR[m[1]] || m[1]) + " " + m[2].split(" ").map(x => (/^\d+$/.test(x) ? String(+x) : x)).join(" ");
+  }
+  function indexT(j) {
+    const T = { meta: j.meta || {}, P: j.proyectos || [], byCode: {}, byCong: {} };
+    T.P.forEach(t => {
+      T.byCode[t.codigo] = t;
+      t._lk = (t.leyes_modificadas || []).map(lawKey);
+      const q = DATA.proyByCode[t.codigo] || null;
+      t._q = q;
+      if (q) { q.t = t; q.ws = words(q.p.codigo + " " + q.p.titulo + " " + (t.sumilla || "") + " " + (t.terminos || []).join(" ")); q.hay = q.ws.join(" "); }
+    });
+    T.P.sort((a, b) => ((b._q?.p.fecha || "").localeCompare(a._q?.p.fecha || "")) || b.codigo.localeCompare(a.codigo));
+    (j.congresistas || []).forEach(c => { T.byCong[c.camara + "|" + c.nombre] = c; });
+    DATA.R.tx = { meta: T.meta };
+    return T;
   }
 
   /* ───────────── búsqueda difusa ───────────── */
@@ -234,7 +267,10 @@
     "perfil buscar busca muestra muestrame ver lista mayor menor primero primeros contra firma firmas autor autoria caro caros cara costoso costosos " +
     "promedio vigente vigentes mejor peor nunca siempre veces cuantas ultimo ultima ultimos ultimas recientes reciente comision comisiones preside presiden presidente presidenta " +
     "miembros integrantes integra esta estan forma visita visitas visitan visito visitaron recibe reciben instituciones entidades representacion semana viaje viajes viajo " +
-    "resumen compara comparar comparacion versus trayectoria equipo trabajaron trabajo riesgo fiscal favor abstuvo abstencion dijo tema").split(" "));
+    "resumen compara comparar comparacion versus trayectoria equipo trabajaron trabajo riesgo fiscal favor abstuvo abstencion dijo tema " +
+    "empresa empresas negocio negocios socio socia socios accionista conflicto conflictos interes intereses posible posibles tratan trata temas terminos " +
+    "modificar modifica modifican modificar busca buscan quiere propone normas texto textos pdf objeto expediente sumilla reconoce reconocen irroga irrogan " +
+    "menciona mencionan declara declaran efecto").split(" "));
 
   function findPerson(q) {
     const toks = words(q).filter(t => t.length >= 3 && !Q_STOP.has(t) && !INTENT_WORDS.has(t));
@@ -362,7 +398,8 @@
       (q.coms && q.coms.length ? `<dt>Comisión</dt><dd>${q.coms.map(esc).join("; ")}</dd>` : "") +
       (p.riesgo_fiscal ? `<dt>Riesgo fiscal</dt><dd>Sí (inferido por palabras clave del título)</dd>` : "") +
       (q.autor ? `<dt>Autor</dt><dd>${congLink(q.autor)} ${congTag(q.autor)}</dd>` : p.proponente ? `<dt>Proponente</dt><dd>${esc(p.proponente)}</dd>` : "") +
-      `</dl><p class="capb-ttl">${esc(p.titulo)}</p>`;
+      `</dl><p class="capb-ttl">${esc(p.titulo)}</p>` +
+      (q.t ? `<div class="capb-links">${safeUrl(q.t.pdf) ? `<a class="capb-btn" href="${esc(q.t.pdf)}" target="_blank" rel="noopener">PDF del proyecto</a>` : ""}<button type="button" class="capb-btn" data-q="${esc("Texto del proyecto " + p.codigo)}">Objeto, leyes y efecto fiscal</button></div>` : "");
   }
   function provDetail(it) {
     let h = `<dl class="capb-dl"><dt>RUC</dt><dd>${esc(it.ruc)}</dd><dt>Monto con el Congreso</dt><dd>${soles(it.monto)}${it.aprox ? " (sin contar consorcios)" : ""}</dd><dt>Procesos</dt><dd>${fmt(it.procesos)}</dd></dl>`;
@@ -387,6 +424,8 @@
       if (k === "ase" && R.ase) parts.push(`Trayectoria: cruce por nombre (sin DNI) con planillas PTE, DJ de intereses, El Peruano y OCDS; pueden existir homónimos · corte ${c(R.ase.meta?.generado)}`);
       if (k === "hist" && R.hist) parts.push(`Periodo 2021–2026: API del Congreso (spley) · corte ${c(R.hist.meta?.generado)}`);
       if (k === "ctx" && R.ctx) parts.push(`Presupuesto: MEF – Consulta Amigable (SIAF), pliego 028 Congreso de la República`);
+      if (k === "int" && R.int) parts.push(`Empresas: OECE (conformación societaria y cruce por DNI con el registro de funcionarios de la Contraloría), SUNAT (padrón RUC) y OCDS/SEACE · corte ${c(R.int.meta?.generado)}`);
+      if (k === "tx" && R.tx) parts.push(`Textos: PDF de cada proyecto (API del Congreso; OCR si es escaneo; objeto, leyes y efecto fiscal extraídos con heurísticas) · corte ${c(R.tx.meta?.generado)}`);
     });
     if (!parts.length) parts.push("Congreso Abierto Perú (datos públicos oficiales)");
     // si todas las fuentes comparten la fecha de corte, se muestra una sola vez
@@ -412,6 +451,8 @@
     if (vid) { const x = DATA.votById[vid[0].toUpperCase()]; if (x) return voteCard(x, qn, null); }
     // 0b) ayuda
     if (/^(hola|buenas|ayuda|help|que (puedes|sabes) hacer|que puedo preguntar|como funciona)\b/.test(qn)) return helpCard();
+    // 0c) textos completos de proyectos e intereses (empresas)
+    { const r = textosIntereses(q, qn, cam, n); if (r) return r; }
 
     // 1) comparar congresistas
     if (has(/\bcompar|\bvs\b|\bversus\b|\bfrente a\b|diferencia(s)? entre/)) { const r = compare(q, qn); if (r) return r; }
@@ -625,6 +666,16 @@
     if (vi) T.push(tile(fmt(vi.total), "visitas recibidas", `${fmt(vi.al_congresista)} al congresista`));
     if (d) T.push(tile(soles(d.masa), "despacho al mes", `${fmt(d.personal)} personas en planilla`));
     let body = tiles(T);
+    const srcK = ["bi", "pl", "pf", "vis", "mov"];
+    // temas (texto completo) y empresas vinculadas por DNI
+    const TX = getT(), tc = TX ? TX.byCong[c.camara + "|" + c.nombre] : null;
+    if (tc && tc.terminos?.length) { body += h5(`Temas (texto de ${fmt(tc.n_textos)} proyecto${tc.n_textos === 1 ? "" : "s"})`) + termsRow(tc.terminos.slice(0, 8)); srcK.push("tx"); }
+    const emp = DATA.intBy[c.camara + "|" + c.nombre] || [];
+    if (emp.length) {
+      const sg = emp.filter(v => (v.senales || []).length).length;
+      body += `<p class="capb-emp"><span aria-hidden="true">💼</span> <b>Empresas:</b> ${fmt(emp.length)} vinculada${emp.length === 1 ? "" : "s"} por DNI (${esc(trunc(emp.map(v => v.empresa).join(" · "), 110))})${sg ? ` · <span class="capb-ef capb-ef-amb">${fmt(sg)} con señal a revisar</span>` : ""} · <a class="capb-l" href="${congHref(it)}">ver en su ficha</a> · <button type="button" class="capb-lk" data-q="${esc(`¿${fu(it)} tiene empresas?`)}">detalle</button></p>`;
+      srcK.push("int");
+    }
     const coms = (pf?.comisiones || []).filter(x => x.tipo !== "Grupo parlamentario").slice().sort((x, y) => CARGO_RANK(x.cargo) - CARGO_RANK(y.cargo));
     if (coms.length) body += h5(`Comisiones (${coms.length})`) + `<ul class="capb-cl">${coms.slice(0, 8).map(x => `<li><span class="capb-role r${CARGO_RANK(x.cargo)}">${esc(x.cargo || "—")}</span> ${esc(trunc(orgName(x.organo), 90))}</li>`).join("")}${coms.length > 8 ? `<li class="capb-mut">y ${coms.length - 8} más…</li>` : ""}</ul>`;
     const lv = lastVotes(it, 3);
@@ -632,8 +683,8 @@
     const ps = DATA.proyByAutor[c.nombre] || [];
     if (ps.length) body += h5("Último proyecto") + `<ul class="capb-ul">${projRow(ps[0])}</ul>`;
     body += `<div class="capb-links"><a class="capb-btn" href="${congHref(it)}">Ficha completa</a><a class="capb-btn" href="${explHref(it)}">Ver en el explorador</a></div>`;
-    return A(`${esc(nombreNat(c.nombre))} es ${c.camara === "S" ? "senador(a)" : "diputado(a)"} por <b>${esc(c.distrito)}</b> de la bancada <b>${esc(c.bancada)}</b>.`, body, ["bi", "pl", "pf", "vis", "mov"],
-      [`¿En qué comisiones está ${fu(it)}?`, `¿Quién visita a ${fu(it)}?`, `Asesores de ${fu(it)}`, `¿Cómo votó ${fu(it)}?`, `Proyectos de ${fu(it)}`], it);
+    return A(`${esc(nombreNat(c.nombre))} es ${c.camara === "S" ? "senador(a)" : "diputado(a)"} por <b>${esc(c.distrito)}</b> de la bancada <b>${esc(c.bancada)}</b>.`, body, srcK,
+      [`¿En qué comisiones está ${fu(it)}?`, `¿Quién visita a ${fu(it)}?`].concat(tc ? [`¿De qué tratan los proyectos de ${fu(it)}?`] : [], [`Asesores de ${fu(it)}`, `¿Cómo votó ${fu(it)}?`, `Proyectos de ${fu(it)}`]), it);
   }
   function despacho(it) {
     const d = it.d;
@@ -1061,8 +1112,222 @@
     return r;
   }
 
+  /* ── textos completos e intereses ── */
+  const EFX = { "reconoce costo": ["Reconoce costo", "amb"], "declara que no irroga gasto": ["Declara que no irroga gasto", "grn"], "no menciona": ["No menciona", "mut"] };
+  const EF_ORDER = ["declara que no irroga gasto", "reconoce costo", "no menciona"];
+  const efChip = e => { const v = EFX[e] || [e || "—", "mut"]; return `<span class="capb-ef capb-ef-${v[1]}">${esc(v[0])}</span>`; };
+  const termsRow = L => `<div class="capb-terms">${L.map(t => `<span class="capb-term">${esc(t)}</span>`).join("")}</div>`;
+  const lawQ = l => "Proyectos que modifican " + (/^(ley|resoluci)/i.test(l) ? "la " : "el ") + l;
+  const lawChips = L => `<div class="capb-chips">${L.map(l => `<button type="button" class="capb-chip capb-law" data-q="${esc(lawQ(l))}">${esc(l)}</button>`).join("")}</div>`;
+  const NOTA_INT = "Solo se muestran vínculos corroborados por DNI (OECE y registro de funcionarios de la Contraloría). Tener una empresa no es irregular; la ley impide que los congresistas contraten con el Estado durante su mandato. Las «señales» son coincidencias de sector entre la empresa y sus comisiones o proyectos: requieren revisión y no constituyen una acusación.";
+  const notaInt = () => `<p class="capb-note"><b>Nota.</b> ${esc(NOTA_INT)}</p>`;
+  const NOTA_TX = "Lectura automática del PDF de cada proyecto (OCR cuando es un escaneo): el objeto, las leyes citadas y el efecto fiscal salen de heurísticas y pueden tener errores; revisa el PDF.";
+  const sigBanc = s => `${bchip(s, (DATA.banc.find(b => b.sigla === s) || {}).bancada)} ${esc((DATA.banc.find(b => b.sigla === s) || {}).bancada || s)}`;
+  function porBancada(L) {
+    const c = {}; L.forEach(t => { const s = t._q?.autor?.c.sigla; if (s) c[s] = (c[s] || 0) + 1; });
+    const E = Object.entries(c).sort((a, b) => b[1] - a[1]).slice(0, 8);
+    return E.length > 1 ? h5("Por bancada del autor") + rankList(E.map(([s, v]) => ({ label: sigBanc(s), v })), fmt) : "";
+  }
+  function txRow(t) {
+    const q = t._q, au = q && q.autor;
+    return `<li><button type="button" class="capb-row capb-txr" data-q="${esc("Texto del proyecto " + t.codigo)}"><span><span class="capb-code">${esc(t.codigo)}</span> ${efChip(t.efecto_fiscal)} <span class="capb-mut">${q ? esc(fecha(q.p.fecha)) : ""}${au ? " · " + esc(nombreNat(au.c.nombre)) : q && q.p.proponente ? " · " + esc(q.p.proponente) : ""}</span><br>${esc(trunc(t.sumilla || (q && q.p.titulo) || "", 150))}</span></button></li>`;
+  }
+  const txList = (L, k) => `<ul class="capb-ul">${L.slice(0, k).map(txRow).join("")}</ul>` + (L.length > k ? `<p class="capb-mut">Y ${fmt(L.length - k)} más.</p>` : "");
+  function efCount(L) { const o = {}; EF_ORDER.forEach(e => { o[e] = 0; }); L.forEach(t => { o[t.efecto_fiscal] = (o[t.efecto_fiscal] || 0) + 1; }); return o; }
+  const efTiles = o => tiles([tile(fmt(o["declara que no irroga gasto"]), "declaran que no irrogan gasto", "", "grn"), tile(fmt(o["reconoce costo"]), "reconocen costo", "", "amb"), tile(fmt(o["no menciona"]), "no lo mencionan")]);
+  function findCode(q, qn) {
+    let m = /\b(\d{1,5})-(20\d\d)-(20\d\d)-([a-z]{1,3})\b/i.exec(q);
+    if (m) return { num: +m[1], full: `${m[1].padStart(5, "0")}-${m[2]}-${m[3]}-${m[4].toUpperCase()}` };
+    m = /\b(?:proyectos?(?: de ley)?|pl|expediente|pdf|texto|objeto|sumilla|codigo|numero)\s+(?:(?:del?|el|la|n|no|nro|numero)\s+)*(?:proyecto\s+(?:de ley\s+)?)?(?:(?:n|no|nro)\s+)?(\d{1,5})\b/.exec(qn);
+    return m ? { num: +m[1] } : null;
+  }
+  const noTx = () => nada("No tengo los textos de los proyectos cargados.", ["bi"]);
+  function textosIntereses(q, qn, cam, n) {
+    const has = re => re.test(qn);
+    // a) texto / PDF de un proyecto
+    const code = has(/\btexto|\bpdf\b|\bobjeto\b|expediente|sumilla|de que trata (el|la)|que (dice|propone) (el|la)|articulo 1|formula legal|efecto fiscal del/) ? findCode(q, qn) : null;
+    if (code) {
+      const T = getT(); if (T === null) return null; if (!T) return noTx();
+      const L = code.full ? T.P.filter(t => t.codigo === code.full) : T.P.filter(t => +t.codigo.split("-")[0] === code.num && (!cam || t.camara === cam));
+      if (!L.length) {
+        const bq = code.full ? DATA.proyByCode[code.full] : DATA.proy.find(x => +x.p.codigo.split("-")[0] === code.num && (!cam || x.p.camara === cam));
+        return A(`No tengo el texto del proyecto ${esc(code.full || String(code.num))}${bq ? "; sí sus datos básicos:" : "."} Los textos cubren ${fmt(T.P.length)} proyectos del periodo 2026–2031.`, bq ? `<div class="capb-det capb-open">${projDetail(bq)}</div>` : "", ["bi", "tx"], ["Proyectos que reconocen costo", "Proyectos que modifican la Ley 30220"]);
+      }
+      if (L.length > 1) return A(`Hay ${fmt(L.length)} proyectos con el número ${fmt(code.num)} (uno por cámara). ¿Cuál quieres ver?`, txList(L, 8), ["tx"]);
+      return textoCard(L[0]);
+    }
+    // b) proyectos que modifican una ley concreta
+    const lk = lawKey(qn.replace(/\bproyectos? de ley\b/g, " "));
+    if (lk && has(/modific|cita|citan|deroga|incorpor|cambi|reform|proyect|toca|afecta/)) {
+      const T = getT(); if (T === null) return null; if (!T) return noTx();
+      return leyCard(T, lk, cam, n);
+    }
+    // c) efecto fiscal declarado en el texto
+    if (has(/reconoce\w*\s+(?:un |el |algun )?costo|irroga|efecto fiscal|no mencion\w*\s+(?:el |su )?(?:costo|gasto|efecto)|declaran? (?:que )?no (?:irroga|genera)|analisis costo beneficio/)) {
+      const T = getT(); if (T === null) return null; if (!T) return noTx();
+      return efectoCard(T, q, qn, cam);
+    }
+    // d) leyes que busca modificar X / normas más modificadas
+    if (has(/\b(leyes|normas|ley)\b.*\bmodific|\bmodific\w*\s+.*\b(leyes|normas)\b|que leyes (busca|quiere|propone|pretende)/)) {
+      const T = getT(); if (T === null) return null; if (!T) return noTx();
+      const per = findPerson(q);
+      if (per) { if (per.all.length > 1 && per.score < 5) return ambiguous(per, q); return leyesPersona(T, per.best); }
+      return leyesTop(T, cam, qn);
+    }
+    // e) temas de los proyectos (TF-IDF del texto)
+    if (has(/de que (tratan?|habla|hablan|son)|\btemas?\b|sobre que (legisla|presenta|propone|trata)|terminos/) && !has(/\bvot|visit|comision|asesor/)) {
+      const per = findPerson(q);
+      if (per || has(/proyect|congreso|leyes|propuestas/)) {
+        const T = getT(); if (T === null) return null; if (!T) return noTx();
+        if (per) { if (per.all.length > 1 && per.score < 5) return ambiguous(per, q); return temasCard(T, per.best); }
+        return temasTop(T, cam);
+      }
+    }
+    // f) empresas y posibles conflictos de interés
+    const conf = has(/conflictos? de interes/);
+    if (conf || (has(/\bempresas?\b|\bnegocios?\b|\bsocios?\b|\bsocias?\b|accionista|\bintereses\b/) && !has(/visit|proyect|proveedor|contrat\w* (con )?el congreso|\bley\b|leyes/))) {
+      if (!DATA.R.int) return nada("No tengo el cruce de empresas de congresistas cargado.", []);
+      const per = findPerson(q);
+      if (per) { if (per.all.length > 1 && per.score < 5) return ambiguous(per, q); return empresasPersona(per.best); }
+      return empresasLista(cam, conf);
+    }
+    return null;
+  }
+  function textoCard(t) {
+    const q = t._q, au = q && q.autor;
+    const obj = t.objeto === "=" ? `<span class="capb-mut">Igual a la sumilla.</span>` : t.objeto ? esc(t.objeto) : `<span class="capb-mut">No se identificó el artículo 1 en el texto.</span>`;
+    const efTxt = { "reconoce costo": "reconoce que tiene un costo para el Estado", "declara que no irroga gasto": "declara que no irroga gasto al Estado", "no menciona": "no menciona su efecto fiscal (o no se pudo leer)" }[t.efecto_fiscal] || esc(t.efecto_fiscal || "—");
+    const lk = [safeUrl(t.pdf) ? `<a class="capb-btn" href="${esc(t.pdf)}" target="_blank" rel="noopener">📄 PDF del proyecto</a>` : "", safeUrl(t.expediente) ? `<a class="capb-btn" href="${esc(t.expediente)}" target="_blank" rel="noopener">Expediente en el Congreso</a>` : ""].join("");
+    const body = `<dl class="capb-dl"><dt>Código</dt><dd><span class="capb-code">${esc(t.codigo)}</span></dd><dt>Cámara</dt><dd>${esc(CAM[t.camara] || t.camara)}</dd>` +
+      (q ? `<dt>Fecha</dt><dd>${esc(fecha(q.p.fecha))}</dd><dt>Estado</dt><dd>${esc(q.p.estado || "—")}</dd>` : "") +
+      (au ? `<dt>Autor</dt><dd>${congLink(au)} ${congTag(au)}</dd>` : q && q.p.proponente ? `<dt>Proponente</dt><dd>${esc(q.p.proponente)}</dd>` : "") +
+      `<dt>Sumilla</dt><dd>${esc(t.sumilla || "—")}</dd><dt>Objeto</dt><dd>${obj}</dd><dt>Efecto fiscal</dt><dd>${efChip(t.efecto_fiscal)}</dd>` +
+      `<dt>Extensión</dt><dd>${fmt(t.paginas)} páginas · ${fmt(t.palabras)} palabras${t.ocr ? " · leído por OCR" : ""}</dd></dl>` +
+      (t.leyes_modificadas?.length ? h5(`Normas citadas en la fórmula legal (${t.leyes_modificadas.length})`) + lawChips(t.leyes_modificadas) : "") +
+      (t.terminos?.length ? h5("Términos distintivos") + termsRow(t.terminos) : "") +
+      (lk ? `<div class="capb-links">${lk}</div>` : "") + `<p class="capb-mut">${esc(NOTA_TX)}</p>`;
+    const fol = [];
+    if (t.leyes_modificadas?.length) fol.push(lawQ(t.leyes_modificadas[0]));
+    if (au) fol.push(`¿De qué tratan los proyectos de ${fu(au)}?`);
+    fol.push(t.efecto_fiscal === "reconoce costo" ? "Proyectos que declaran que no irrogan gasto" : "Proyectos que reconocen costo");
+    return A(`El proyecto <b>${esc(t.codigo)}</b>${au ? ` de ${congLink(au)} ${congTag(au)}` : ""} ${efTxt}${t.leyes_modificadas?.length ? ` y cita ${fmt(t.leyes_modificadas.length)} norma${t.leyes_modificadas.length === 1 ? "" : "s"} en su fórmula legal` : ""}.`, body, ["bi", "tx"], fol, au || null);
+  }
+  const lawHit = (t, lk) => t._lk.findIndex(k => k && (k === lk || k.startsWith(lk + " ")));
+  function leyCard(T, lk, cam, n) {
+    const L = T.P.filter(t => (!cam || t.camara === cam) && lawHit(t, lk) >= 0);
+    const label = L.length ? L[0].leyes_modificadas[lawHit(L[0], lk)] : lk.charAt(0).toUpperCase() + lk.slice(1).replace(/^(\D+?) (\d)/, (m, a, b) => a.replace("resolucion", "resolución") + " N° " + b);
+    if (!L.length) {
+      const top = topLaws(T.P.filter(t => !cam || t.camara === cam)).slice(0, 6).map(x => x[0]);
+      return A(`Ningún proyecto ${cam ? (cam === "S" ? "del Senado " : "de Diputados ") : ""}con texto disponible cita la <b>${esc(label)}</b> en su fórmula legal (${fmt(T.P.length)} textos revisados).`, h5("Normas más citadas") + lawChips(top) + `<p class="capb-mut">${esc(NOTA_TX)}</p>`, ["tx"], ["¿Qué leyes se busca modificar más?", "Proyectos que reconocen costo"]);
+    }
+    const art = /^(ley|resoluci)/i.test(label) ? "la" : "el";
+    return A(`<b>${fmt(L.length)} proyecto${L.length === 1 ? "" : "s"}</b> ${cam ? (cam === "S" ? "del Senado " : "de Diputados ") : ""}cita${L.length === 1 ? "" : "n"} ${art} <b>${esc(label)}</b> en su fórmula legal (por lo general, para modificarla o incorporarle artículos).`,
+      efTiles(efCount(L)) + porBancada(L) + h5("Proyectos") + txList(L, Math.max(n, 10)) + `<p class="capb-mut">${esc(NOTA_TX)}</p>`,
+      ["tx", "bi"], ["¿Qué leyes se busca modificar más?", L[0]._q?.autor ? `¿Qué leyes busca modificar ${fu(L[0]._q.autor)}?` : "Proyectos que reconocen costo", `Texto del proyecto ${L[0].codigo}`]);
+  }
+  function topLaws(L) {
+    const c = {}, lab = {};
+    L.forEach(t => { const seen = new Set(); t.leyes_modificadas.forEach((l, i) => { const k = t._lk[i] || l; if (seen.has(k)) return; seen.add(k); c[k] = (c[k] || 0) + 1; lab[k] = lab[k] || l; }); });
+    return Object.entries(c).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).map(([k, v]) => [lab[k], v]);
+  }
+  function leyesTop(T, cam, qn) {
+    const P = T.P.filter(t => !cam || t.camara === cam), top = topLaws(P).slice(0, topN(qn, 10));
+    const con = P.filter(t => t.leyes_modificadas.length).length;
+    return A(`${fmt(con)} de ${fmt(P.length)} proyectos${cam ? (cam === "S" ? " del Senado" : " de Diputados") : ""} con texto citan al menos una norma en su fórmula legal. La más citada es ${top[0] && /^(ley|resoluci)/i.test(top[0][0]) ? "la" : "el"} <b>${esc(top[0]?.[0] || "—")}</b> (${fmt(top[0]?.[1])} proyectos).`,
+      rankList(top.map(([l, v]) => ({ label: `<button type="button" class="capb-lk" data-q="${esc(lawQ(l))}">${esc(l)}</button>`, v })), fmt) + `<p class="capb-mut">${esc(NOTA_TX)}</p>`,
+      ["tx"], [top[0] ? lawQ(top[0][0]) : "Proyectos que reconocen costo", "¿De qué tratan los proyectos del Congreso?", "Proyectos que reconocen costo"]);
+  }
+  function efectoCard(T, q, qn, cam) {
+    const per = findPerson(q);
+    if (per && per.all.length > 1 && per.score < 5) return ambiguous(per, q);
+    const it = per && per.score >= 3 ? per.best : null;
+    const cat = /no mencion|no dice|no declara su/.test(qn) ? "no menciona" : /no (irroga|genera)|sin (gasto|costo)/.test(qn) ? "declara que no irroga gasto" : /reconoce|irroga|con costo|generan? (gasto|costo)/.test(qn) ? "reconoce costo" : null;
+    const P = T.P.filter(t => (!cam || t.camara === cam) && (!it || (t._q && t._q.autor === it)));
+    const ef = efCount(P), total = P.length || 1;
+    const ocrNo = P.filter(t => t.efecto_fiscal === "no menciona" && t.ocr).length;
+    const caveat = `<p class="capb-note"><b>Ojo:</b> «no menciona» no significa que el proyecto no tenga costo: puede que su análisis costo-beneficio no use esas palabras o que el PDF sea un escaneo leído por OCR (${fmt(ocrNo)} de los ${fmt(ef["no menciona"])} casos). Es lo que el propio proyecto declara, no una evaluación independiente.</p>`;
+    const quien = it ? ` de ${congLink(it)} ${congTag(it)}` : cam ? (cam === "S" ? " del Senado" : " de Diputados") : "";
+    const head = `De ${fmt(P.length)} proyectos${quien} con texto, <b>${fmt(ef["declara que no irroga gasto"])}</b> declaran que no irrogan gasto al Estado, <b>${fmt(ef["reconoce costo"])}</b> reconocen un costo y <b>${fmt(ef["no menciona"])}</b> no lo mencionan.`;
+    const bars = `<div class="capb-stack" role="img" aria-label="${esc(head.replace(/<[^>]+>/g, ""))}"><i class="si" style="flex:${ef["declara que no irroga gasto"]}"></i><i class="ab" style="flex:${ef["reconoce costo"]}"></i><i class="mu" style="flex:${ef["no menciona"]}"></i></div>` +
+      `<div class="capb-leg"><span><i class="si"></i>No irroga gasto ${pct(ef["declara que no irroga gasto"] / total * 100)}</span><span><i class="ab"></i>Reconoce costo ${pct(ef["reconoce costo"] / total * 100)}</span><span><i class="mu"></i>No menciona ${pct(ef["no menciona"] / total * 100)}</span></div>`;
+    const c2 = cat || "reconoce costo";
+    const sel = P.filter(t => t.efecto_fiscal === c2);
+    const verbo = { "no menciona": "no lo mencionan", "declara que no irroga gasto": "declaran que no irrogan gasto", "reconoce costo": "reconocen costo" };
+    return A(head + (cat ? ` Estos son los que ${verbo[cat]}:` : ""),
+      efTiles(ef) + bars + (sel.length ? (it ? "" : porBancada(sel)) + h5(`${EFX[c2][0]} (${fmt(sel.length)})`) + txList(sel, 10) : `<p class="capb-mut">Ninguno en esta categoría.</p>`) + caveat,
+      ["tx", "bi"], [c2 === "reconoce costo" ? "Proyectos que declaran que no irrogan gasto" : "Proyectos que reconocen costo", cat === "no menciona" ? "Proyectos con riesgo fiscal" : "Proyectos que no mencionan su costo", it ? `¿De qué tratan los proyectos de ${fu(it)}?` : "¿Qué leyes se busca modificar más?"], it);
+  }
+  const textosDe = (T, it) => T.P.filter(t => t._q && t._q.autor === it);
+  function temasCard(T, it) {
+    const tc = T.byCong[it.c.camara + "|" + it.c.nombre];
+    if (!tc || !tc.n_textos) return A(`No hay textos de proyectos de ${congLink(it)} ${congTag(it)} como autor principal${it.c.principal ? "" : " (no tiene proyectos como autor principal en el periodo)"}.`, "", ["tx", "bi"], [`Proyectos de ${fu(it)}`, `Resumen de ${fu(it)}`], it);
+    const L = textosDe(T, it);
+    return A(`Según el texto completo de sus <b>${fmt(tc.n_textos)} proyecto${tc.n_textos === 1 ? "" : "s"}</b> como autor principal, los temas más característicos de ${congLink(it)} ${congTag(it)} son: ${tc.terminos.slice(0, 3).map(x => `<b>${esc(x)}</b>`).join(", ")}.`,
+      h5("Temas (términos del texto)") + termsRow(tc.terminos) +
+      (tc.leyes_mas_modificadas?.length ? h5("Normas que más cita en sus fórmulas legales") + lawChips(tc.leyes_mas_modificadas) : "") +
+      h5("Efecto fiscal declarado") + efTiles(efCount(L)) + h5("Sus proyectos") + txList(L, 5) +
+      `<p class="capb-mut">Términos calculados con TF-IDF sobre los textos de todos los proyectos del periodo: muestran lo distintivo de sus propuestas, no solo lo más frecuente.</p>`,
+      ["tx", "bi"], [`¿Qué leyes busca modificar ${fu(it)}?`, `¿${fu(it)} tiene empresas?`, `Resumen de ${fu(it)}`], it);
+  }
+  function temasTop(T, cam) {
+    const P = T.P.filter(t => !cam || t.camara === cam), c = {};
+    P.forEach(t => (t.terminos || []).forEach(x => { c[x] = (c[x] || 0) + 1; }));
+    const L = Object.entries(c).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 15);
+    return A(`Términos que más se repiten entre los ${fmt(P.length)} proyectos${cam ? (cam === "S" ? " del Senado" : " de Diputados") : ""} con texto (en cuántos proyectos aparece cada término entre sus más distintivos):`,
+      rankList(L.map(([k, v]) => ({ label: esc(k), v })), fmt) + h5("Normas más citadas") + lawChips(topLaws(P).slice(0, 6).map(x => x[0])) + `<p class="capb-mut">${esc(NOTA_TX)}</p>`,
+      ["tx"], ["¿Qué leyes se busca modificar más?", "Proyectos que reconocen costo", "¿De qué tratan los proyectos de Zunini?"]);
+  }
+  function leyesPersona(T, it) {
+    const L = textosDe(T, it);
+    if (!L.length) return A(`No hay textos de proyectos de ${congLink(it)} ${congTag(it)} como autor principal.`, "", ["tx", "bi"], [`Proyectos de ${fu(it)}`, `Resumen de ${fu(it)}`], it);
+    const all = topLaws(L), con = L.filter(t => t.leyes_modificadas.length);
+    if (!all.length) return A(`En los ${fmt(L.length)} proyectos de ${congLink(it)} ${congTag(it)} con texto no se identificaron normas citadas en la fórmula legal (pueden ser leyes nuevas o textos leídos por OCR).`, h5("Sus proyectos") + txList(L, 5), ["tx", "bi"], [`¿De qué tratan los proyectos de ${fu(it)}?`, `Resumen de ${fu(it)}`], it);
+    return A(`${fmt(con.length)} de los ${fmt(L.length)} proyectos de ${congLink(it)} ${congTag(it)} citan normas vigentes en su fórmula legal; la que más se repite es ${/^(ley|resoluci)/i.test(all[0][0]) ? "la" : "el"} <b>${esc(all[0][0])}</b> (${fmt(all[0][1])} proyecto${all[0][1] === 1 ? "" : "s"}).`,
+      h5("Normas citadas (n.º de sus proyectos)") + rankList(all.slice(0, 10).map(([l, v]) => ({ label: `<button type="button" class="capb-lk" data-q="${esc(lawQ(l))}">${esc(l)}</button>`, v })), fmt) +
+      (all.length > 10 ? `<p class="capb-mut">Y ${fmt(all.length - 10)} normas más.</p>` : "") +
+      h5("Proyectos que citan normas") + txList(con, 5) + `<p class="capb-mut">${esc(NOTA_TX)}</p>`,
+      ["tx", "bi"], [lawQ(all[0][0]), `¿De qué tratan los proyectos de ${fu(it)}?`, `Resumen de ${fu(it)}`], it);
+  }
+  const activa = v => /^activo/i.test(v.estado_sunat || "");
+  function empRow(v, it, name) {
+    const nc = v.contratos_desde_mandato || 0, prev = (v.contratos_previos || []).length, vs = v.vende_al_estado || [], se = v.sector_estimado || [];
+    return `<li class="capb-co"><div class="capb-vh"><b>${esc(v.empresa)}</b> <span class="capb-ef capb-ef-${activa(v) ? "grn" : "mut"}">SUNAT: ${esc((v.estado_sunat || "—").toLowerCase())}${v.condicion_sunat ? " · " + esc(v.condicion_sunat.toLowerCase()) : ""}</span>${(v.senales || []).length ? ' <span class="capb-ef capb-ef-amb">señal a revisar</span>' : ""}</div>` +
+      (it ? `<div class="capb-vh">${avatar(it, 22)} ${congLink(it)} ${congTag(it)} <span class="capb-mut">· ${esc(CAMC[it.c.camara])}</span></div>` : name ? `<div class="capb-vh"><b>${esc(nombreNat(name))}</b></div>` : "") +
+      `<div class="capb-mut">RUC ${esc(v.ruc)} · ${esc(v.rol || "—")}</div>` +
+      (vs.length || se.length ? `<div class="capb-mut">${vs.length ? "Inscrita en OECE para vender " + esc(vs.join(" y ")) + " al Estado" : ""}${vs.length && se.length ? " · " : ""}${se.length ? "sector estimado: " + esc(se.join(", ")) : ""}</div>` : "") +
+      `<div class="${nc ? "capb-warn" : "capb-ok"}">${nc ? `⚠ ${fmt(nc)} contrato${nc === 1 ? "" : "s"} con el Estado desde el inicio del mandato` : "✓ Sin contratos con el Estado desde el inicio del mandato"}${prev ? ` <span class="capb-mut">· ${fmt(prev)} contrato${prev === 1 ? "" : "s"} anterior${prev === 1 ? "" : "es"} al mandato</span>` : ""}</div>` +
+      (v.senales || []).map(sg => `<div class="capb-sig"><b>Señal a revisar</b> (${esc(sg.tipo === "comision" ? "comisión" : sg.tipo)}): sector <b>${esc(sg.sector)}</b> · ${esc(sg.detalle)}</div>`).join("") +
+      (safeUrl(v.ficha) ? `<div><a class="capb-l" href="${esc(v.ficha)}" target="_blank" rel="noopener">Ficha del proveedor en OECE ↗</a></div>` : "") + `</li>`;
+  }
+  function empresasPersona(it) {
+    const V = DATA.intBy[it.c.camara + "|" + it.c.nombre] || [];
+    if (!V.length) return A(`No encontramos empresas vinculadas por DNI a ${congLink(it)} ${congTag(it)} en el registro de proveedores del Estado (OECE).`,
+      notaInt() + `<p class="capb-mut">El cruce cubre empresas inscritas en OECE; no incluye participaciones que no figuren en ese registro.</p>`, ["int"], ["¿Qué congresistas tienen empresas?", `Resumen de ${fu(it)}`], it);
+    const act = V.filter(activa).length, sg = V.filter(v => (v.senales || []).length).length, nc = V.reduce((s, v) => s + (v.contratos_desde_mandato || 0), 0);
+    return A(`${congLink(it)} ${congTag(it)} figura vinculado(a) por DNI a <b>${fmt(V.length)} empresa${V.length === 1 ? "" : "s"}</b> (${fmt(act)} activa${act === 1 ? "" : "s"} en SUNAT). ${nc ? `Registra <b>${fmt(nc)} contrato${nc === 1 ? "" : "s"}</b> con el Estado desde el inicio del mandato.` : `${V.length === 1 ? "No tiene" : "Ninguna tiene"} contratos con el Estado desde el inicio del mandato.`}${sg ? ` ${fmt(sg)} con señales de posible conflicto de interés, a revisar.` : ""}`,
+      `<ul class="capb-vl">${V.map(v => empRow(v)).join("")}</ul>` + notaInt() + `<div class="capb-links"><a class="capb-btn" href="${congHref(it)}">Ver en su ficha</a></div>`,
+      ["int"], ["Posibles conflictos de interés", "¿Qué congresistas tienen empresas?", `¿De qué tratan los proyectos de ${fu(it)}?`, `Resumen de ${fu(it)}`], it);
+  }
+  function empresasLista(cam, conf) {
+    const V = (DATA.R.int.vinculos || []).filter(v => !cam || v.camara === cam);
+    const congs = new Set(V.map(v => v.camara + "|" + v.congresista));
+    const act = V.filter(activa).length, sg = V.filter(v => (v.senales || []).length), nc = V.reduce((s, v) => s + (v.contratos_desde_mandato || 0), 0);
+    const sortV = L => L.slice().sort((a, b) => ((b.senales || []).length - (a.senales || []).length) || (activa(b) - activa(a)) || a.congresista.localeCompare(b.congresista));
+    const itOf = v => DATA.byName[v.camara + "|" + v.congresista] || null;
+    const rows = L => `<ul class="capb-vl">${sortV(L).map(v => empRow(v, itOf(v), v.congresista)).join("")}</ul>`;
+    const where = cam ? (cam === "S" ? " del Senado" : " de Diputados") : "";
+    const ncTxt = nc ? `Se registran ${fmt(nc)} contratos con el Estado desde el inicio del mandato.` : "Ninguna tiene contratos con el Estado desde el inicio del mandato.";
+    const txt = conf
+      ? `En el cruce por DNI, <b>${fmt(sg.length)} de ${fmt(V.length)}</b> empresas vinculadas a congresistas${where} muestran señales de posible conflicto de interés (coincidencias de sector con sus comisiones o proyectos, a revisar). ${ncTxt}`
+      : `<b>${fmt(congs.size)} congresistas</b>${where} figuran vinculados por DNI a <b>${fmt(V.length)} empresas</b>; ${fmt(act)} están activas en SUNAT. ${ncTxt}`;
+    const body = tiles([tile(fmt(V.length), "empresas vinculadas"), tile(fmt(congs.size), "congresistas"), tile(fmt(act), "activas en SUNAT", "", "grn"), tile(fmt(sg.length), "con señales a revisar", "", sg.length ? "amb" : ""), tile(fmt(nc), "contratos desde el mandato", "", nc ? "red" : "")]) +
+      (conf ? h5(`Con señales a revisar (${fmt(sg.length)})`) + (sg.length ? rows(sg) : `<p class="capb-mut">Ninguna.</p>`) + h5(`Sin señales (${fmt(V.length - sg.length)})`) + rows(V.filter(v => !(v.senales || []).length)) : rows(V)) + notaInt();
+    const s0 = sortV(V)[0], it0 = s0 && itOf(s0);
+    return A(txt, body, ["int"], [conf ? "¿Qué congresistas tienen empresas?" : "Posibles conflictos de interés", it0 ? `¿${fu(it0)} tiene empresas?` : "Proyectos que reconocen costo", cam === "S" ? "Empresas de diputados" : "Empresas de senadores"]);
+  }
+
   function helpCard() {
-    return A("Respondo con los datos publicados en este sitio (sin inteligencia artificial: reglas sobre los JSON oficiales). Puedes preguntar por congresistas, votaciones, comisiones, visitas, despachos y asesores, proyectos, contratos y presupuesto.", welcomeGroups(), [], []);
+    return A("Respondo con los datos publicados en este sitio (sin inteligencia artificial: reglas sobre los JSON oficiales). Puedes preguntar por congresistas, votaciones, comisiones, visitas, despachos y asesores, proyectos (y su texto completo), empresas vinculadas, contratos y presupuesto.", welcomeGroups(), [], []);
   }
 
   /* ───────────── búsqueda en vivo (mientras escribes) ───────────── */
@@ -1088,6 +1353,7 @@
     ["Despachos y visitas", "🏛️", ["¿Qué congresista recibe más visitas?", "¿Qué instituciones visitan más el Congreso?", "Asesores de Columbus", "Despachos más caros del Senado"]],
     ["Contratos", "🧾", ["Top 10 proveedores del Congreso", "Proveedores sancionados", "¿Cuánto contrató el Congreso con Entel?"]],
     ["Presupuesto", "💰", ["Presupuesto del Congreso 2026", "¿Cuánto cuesta el Congreso?", "¿Cuántos trabajadores tiene el Congreso?"]],
+    ["Textos e intereses", "🔍", ["¿Qué congresistas tienen empresas?", "Posibles conflictos de interés", "¿De qué tratan los proyectos de Zunini?", "Proyectos que modifican la Ley 30220", "Proyectos que reconocen costo", "Texto del proyecto 677"]],
   ];
   const chips = list => `<div class="capb-chips">${list.map(t => `<button type="button" class="capb-chip" data-q="${esc(t)}">${esc(t)}</button>`).join("")}</div>`;
   const welcomeGroups = () => `<div class="capb-groups">${GROUPS.map(([t, ic, L]) => `<section class="capb-grp"><h5 class="capb-h"><span aria-hidden="true">${ic}</span> ${esc(t)}</h5>${chips(L)}</section>`).join("")}</div>`;
@@ -1226,6 +1492,20 @@
   .capb-go:hover{filter:brightness(1.08)}
   .capb-kb{font-size:11px;color:var(--muted);padding:0 14px 8px;background:var(--panel)}
   .capb-kb kbd{font:600 10.5px/1 'Geist Mono',monospace;border:1px solid var(--border);border-radius:4px;padding:2px 5px}
+  .capb-terms{display:flex;flex-wrap:wrap;gap:5px;margin:4px 0 2px}
+  .capb-term{display:inline-block;font-size:12px;font-weight:600;padding:3px 9px;border-radius:999px;color:var(--purple,#a855f7);background:color-mix(in srgb,var(--purple,#a855f7) 10%,transparent);border:1px solid color-mix(in srgb,var(--purple,#a855f7) 32%,transparent);max-width:100%;overflow-wrap:anywhere}
+  .capb-law{font-family:inherit;font-size:12px!important;padding:4px 10px!important}
+  .capb-ef{display:inline-block;font-size:10.5px;font-weight:700;padding:1px 7px;border-radius:999px;border:1px solid var(--border);color:var(--muted);white-space:nowrap;vertical-align:1px}
+  .capb-ef-grn{color:var(--green,#16a34a);border-color:color-mix(in srgb,var(--green,#22c55e) 50%,transparent);background:color-mix(in srgb,var(--green,#22c55e) 10%,transparent)}
+  .capb-ef-amb{color:var(--amber,#d97706);border-color:color-mix(in srgb,var(--amber,#f59e0b) 55%,transparent);background:color-mix(in srgb,var(--amber,#f59e0b) 12%,transparent)}
+  .capb-stack i.mu,.capb-leg i.mu{background:color-mix(in srgb,var(--muted) 45%,transparent)}
+  .capb-note{margin:10px 0 0;padding:8px 11px;border-radius:10px;border:1px solid color-mix(in srgb,var(--accent-2,#3b82f6) 30%,var(--border));background:color-mix(in srgb,var(--accent-2,#3b82f6) 6%,transparent);font-size:12.5px;line-height:1.45;overflow-wrap:anywhere}
+  .capb-co{font-size:13px}.capb-co>div{margin-top:2px}
+  .capb-ok{color:var(--green,#16a34a);font-size:12.5px;font-weight:600}
+  .capb-co .capb-warn{margin:2px 0;font-size:12.5px}
+  .capb-sig{margin-top:4px;padding:5px 9px;border-radius:8px;border-left:3px solid var(--amber,#f59e0b);background:color-mix(in srgb,var(--amber,#f59e0b) 9%,transparent);font-size:12.5px}
+  .capb-emp{margin:10px 0 0;font-size:13px;overflow-wrap:anywhere}
+  .capb-txr>span{display:block}
   .capb-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
   @media (max-width:520px){
     .capb-ov{padding:0}
@@ -1263,25 +1543,38 @@
   }
   function compute(q) {
     let a = null;
+    WANT_T = false;
     try { a = answer(q); } catch (e) { console.error("bot:", e); a = null; }
+    if (!a && DATA && DATA.T === undefined) WANT_T = true; // la búsqueda de respaldo también usa los textos
     return a;
+  }
+  // calcula la respuesta; si la intención pidió textos.json, lo descarga y recalcula
+  function computeAsync(q) {
+    const a = compute(q);
+    return WANT_T && DATA.T === undefined ? loadT().then(() => compute(q)) : Promise.resolve(a);
   }
   function welcome() {
     const g = DATA ? `<small>Datos al ${esc(fecha(DATA.R.bi?.meta?.generado || DATA.R.pl?.meta?.generado || ""))}</small>` : "";
-    return `<div class="capb-hello"><div class="capb-logo" aria-hidden="true">CA</div><h3>¿Qué quieres saber del Congreso?</h3><p>Pregunta por congresistas, votaciones, comisiones, visitas, despachos, contratos o presupuesto. Respondo solo con datos oficiales publicados en este sitio. ${g}</p>${welcomeGroups()}</div>`;
+    return `<div class="capb-hello"><div class="capb-logo" aria-hidden="true">CA</div><h3>¿Qué quieres saber del Congreso?</h3><p>Pregunta por congresistas, votaciones, comisiones, visitas, despachos, textos de proyectos, empresas, contratos o presupuesto. Respondo solo con datos oficiales publicados en este sitio. ${g}</p>${welcomeGroups()}</div>`;
   }
   function scrollToLast() {
     const L = logEl.querySelectorAll(".capb-user");
     const el = L[L.length - 1];
     if (el) logEl.scrollTop = el.offsetTop - 8; else logEl.scrollTop = logEl.scrollHeight;
   }
+  let bootP = null;
   function boot() {
-    if (booted) return;
+    if (bootP) return bootP;
     booted = true;
     const H = hGet();
-    if (!H.length) { logEl.innerHTML = welcome(); return; }
-    logEl.innerHTML = H.map(q => `<div class="capb-msg capb-user"><p>${esc(q)}</p></div>` + renderAnswer(compute(q), q)).join("");
-    logEl.scrollTop = logEl.scrollHeight;
+    if (!H.length) { logEl.innerHTML = welcome(); return (bootP = Promise.resolve()); }
+    let need = false;
+    H.forEach(q => { compute(q); if (WANT_T) need = true; });
+    bootP = (need ? loadT() : Promise.resolve()).then(() => {
+      logEl.innerHTML = H.map(q => `<div class="capb-msg capb-user"><p>${esc(q)}</p></div>` + renderAnswer(compute(q), q)).join("");
+      logEl.scrollTop = logEl.scrollHeight;
+    });
+    return bootP;
   }
 
   function build() {
@@ -1340,7 +1633,7 @@
     if (typeof prefill === "string") inp.value = prefill;
     inp.focus(); inp.select();
     if (!DATA) logEl.innerHTML = `<div class="capb-hello"><p>Cargando datos…</p></div>`;
-    load().then(() => { boot(); if (inp.value.trim()) live(); }).catch(() => { logEl.innerHTML = `<p class="capb-mut">No se pudieron cargar los datos.</p>`; });
+    load().then(() => boot()).then(() => { if (inp.value.trim()) live(); }).catch(() => { logEl.innerHTML = `<p class="capb-mut">No se pudieron cargar los datos.</p>`; });
   }
   function close() {
     if (!ov || ov.hidden) return;
@@ -1364,16 +1657,15 @@
     if (!q) return Promise.resolve();
     inp.value = ""; histIdx = -1;
     liveEl.hidden = true; liveEl.innerHTML = "";
-    busy = busy.then(() => load()).then(() => {
-      boot();
+    busy = busy.then(() => load()).then(() => boot()).then(() => {
       const hello = logEl.querySelector(".capb-hello");
       if (hello) hello.remove();
       logEl.insertAdjacentHTML("beforeend", `<div class="capb-msg capb-user"><p>${esc(q)}</p></div>`);
       logEl.insertAdjacentHTML("beforeend", `<div class="capb-msg capb-bot capb-typing" aria-hidden="true">${botAv()}<div class="capb-card"><span class="capb-dots"><i></i><i></i><i></i></span></div></div>`);
       scrollToLast();
-      const a = compute(q);
       hPush(q);
-      return new Promise(res => setTimeout(() => {
+      const t0 = Date.now();
+      return computeAsync(q).then(a => new Promise(res => setTimeout(() => {
         const t = logEl.querySelector(".capb-typing"); if (t) t.remove();
         logEl.insertAdjacentHTML("beforeend", renderAnswer(a, q));
         // poda: conserva las últimas HMAX preguntas también en pantalla
@@ -1381,7 +1673,7 @@
         if (us.length > HMAX) { let el = logEl.firstElementChild, k = us.length - HMAX; while (el && k > 0) { const nx = el.nextElementSibling; if (el.classList.contains("capb-user")) k--; el.remove(); el = nx; while (el && !el.classList.contains("capb-user")) { const n2 = el.nextElementSibling; el.remove(); el = n2; } } }
         scrollToLast();
         res();
-      }, 260));
+      }, Math.max(0, 260 - (Date.now() - t0)))));
     });
     return busy;
   }
@@ -1423,6 +1715,6 @@
   // API mínima para pruebas / otros scripts
   window.capBot = {
     open, close, ask, load, search: q => search(q),
-    answerText: q => load().then(() => { const a = compute(q); return a ? (a.text + " " + a.body) : null; }),
+    answerText: q => load().then(() => computeAsync(q)).then(a => (a ? (a.text + " " + a.body) : null)),
   };
 })();
