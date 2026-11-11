@@ -65,6 +65,10 @@ jobs:
             echo "Datos actualizados y commiteados."
           fi
 
+      - name: Participación en empresas (vínculos verificados) y posibles conflictos de interés
+        run: python web/build_intereses.py
+        continue-on-error: true
+
       - name: Imágenes para compartir por congresista (OG 1200×630)
         run: |
           sudo apt-get install -y -qq librsvg2-bin fonts-inter || sudo apt-get install -y -qq librsvg2-bin

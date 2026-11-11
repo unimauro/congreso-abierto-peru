@@ -1,0 +1,351 @@
+{
+ "meta": {
+  "generado": "2026-11-11",
+  "corte_fuente": "2026-11-11",
+  "fuente": "OECE: ficha del proveedor (conformación societaria y cruce con el registro de funcionarios de la Contraloría por DNI); SUNAT: padrón reducido de RUC; contratos: OCDS/SEACE 2021-07 en adelante",
+  "nota": "Solo vínculos corroborados por DNI. Tener una empresa no es irregular; la ley impide a los congresistas contratar con el Estado durante su mandato. Las señales de posible conflicto de interés son coincidencias de sector (estimado por el nombre de la empresa y lo que vende al Estado) con sus comisiones o proyectos: requieren revisión."
+ },
+ "totales": {
+  "vinculos": 15,
+  "congresistas": 13,
+  "activas": 10,
+  "con_senales": 2,
+  "contratos_desde_mandato": 0
+ },
+ "vinculos": [
+  {
+   "congresista": "Caballero León, Carlos David",
+   "camara": "S",
+   "sigla": "PBG",
+   "empresa": "CP CONSULT S.R.L.",
+   "ruc": "20607255998",
+   "rol": "socio 75 %, representante legal, gerente general",
+   "participacion_pct": 75.0,
+   "estado_sunat": "ACTIVO",
+   "condicion_sunat": "HABIDO",
+   "vende_al_estado": [
+    "servicios"
+   ],
+   "apto_para_contratar": true,
+   "sector_estimado": [],
+   "contratos_desde_mandato": 0,
+   "contratos_previos": [],
+   "ficha": "https://apps.osce.gob.pe/perfilprov-ui/ficha/20607255998",
+   "senales": []
+  },
+  {
+   "congresista": "Cabrera Nieto, Juan César",
+   "camara": "D",
+   "sigla": "PCO",
+   "empresa": "NEUMATICOS DEL SUR SOCIEDAD COMERCIAL DE RESPONSABILIDAD LIMITADA - NEUMASUR S.R.L.",
+   "ruc": "20452861853",
+   "rol": "socio 58,89 %, representante legal, gerente general",
+   "participacion_pct": 58.89,
+   "estado_sunat": "ACTIVO",
+   "condicion_sunat": "HABIDO",
+   "vende_al_estado": [
+    "bienes",
+    "servicios"
+   ],
+   "apto_para_contratar": true,
+   "sector_estimado": [
+    "Transporte y neumáticos"
+   ],
+   "contratos_desde_mandato": 0,
+   "contratos_previos": [],
+   "ficha": "https://apps.osce.gob.pe/perfilprov-ui/ficha/20452861853",
+   "senales": []
+  },
+  {
+   "congresista": "Ticona Cohaila, Juana Guisella",
+   "camara": "S",
+   "sigla": "PCO",
+   "empresa": "NEUMATICOS DEL SUR SOCIEDAD COMERCIAL DE RESPONSABILIDAD LIMITADA - NEUMASUR S.R.L.",
+   "ruc": "20452861853",
+   "rol": "socio 40,88 %",
+   "participacion_pct": 40.88,
+   "estado_sunat": "ACTIVO",
+   "condicion_sunat": "HABIDO",
+   "vende_al_estado": [
+    "bienes",
+    "servicios"
+   ],
+   "apto_para_contratar": true,
+   "sector_estimado": [
+    "Transporte y neumáticos"
+   ],
+   "contratos_desde_mandato": 0,
+   "contratos_previos": [],
+   "ficha": "https://apps.osce.gob.pe/perfilprov-ui/ficha/20452861853",
+   "senales": []
+  },
+  {
+   "congresista": "Jiménez Heredia, David Julio",
+   "camara": "S",
+   "sigla": "FP",
+   "empresa": "UNIVERSIDAD PRIVADA DE HUANCAYO FRANKLIN ROOSEVELT SOCIEDAD ANONIMA CERRADA",
+   "ruc": "20541310038",
+   "rol": "representante legal, gerente general",
+   "participacion_pct": null,
+   "estado_sunat": "ACTIVO",
+   "condicion_sunat": "HABIDO",
+   "vende_al_estado": [
+    "servicios"
+   ],
+   "apto_para_contratar": true,
+   "sector_estimado": [
+    "Educación universitaria"
+   ],
+   "contratos_desde_mandato": 0,
+   "contratos_previos": [],
+   "ficha": "https://apps.osce.gob.pe/perfilprov-ui/ficha/20541310038",
+   "senales": []
+  },
+  {
+   "congresista": "Melgar Váldez, Elard Galo",
+   "camara": "S",
+   "sigla": "FP",
+   "empresa": "ASR AGRICOLA S.A.C.",
+   "ruc": "20603113145",
+   "rol": "socio 49,96 %",
+   "participacion_pct": 49.96,
+   "estado_sunat": "ACTIVO",
+   "condicion_sunat": "HABIDO",
+   "vende_al_estado": [
+    "servicios",
+    "bienes"
+   ],
+   "apto_para_contratar": true,
+   "sector_estimado": [
+    "Agropecuario"
+   ],
+   "contratos_desde_mandato": 0,
+   "contratos_previos": [],
+   "ficha": "https://apps.osce.gob.pe/perfilprov-ui/ficha/20603113145",
+   "senales": [
+    {
+     "tipo": "comision",
+     "sector": "Agropecuario",
+     "detalle": "Suplente de la Comisión en Asuntos de Desarrollo Productivo, Energía y Minas, Infraestructura y Trabajo"
+    }
+   ]
+  },
+  {
+   "congresista": "Perez Quispe, Jessica Sadith",
+   "camara": "D",
+   "sigla": "JP",
+   "empresa": "CORPORACION MARSAD S.A.C.",
+   "ruc": "20606402229",
+   "rol": "socio 50 %",
+   "participacion_pct": 50.0,
+   "estado_sunat": "ACTIVO",
+   "condicion_sunat": "HABIDO",
+   "vende_al_estado": [
+    "bienes",
+    "servicios"
+   ],
+   "apto_para_contratar": true,
+   "sector_estimado": [],
+   "contratos_desde_mandato": 0,
+   "contratos_previos": [],
+   "ficha": "https://apps.osce.gob.pe/perfilprov-ui/ficha/20606402229",
+   "senales": []
+  },
+  {
+   "congresista": "Quezada Castro, Geanmarco Antonio",
+   "camara": "D",
+   "sigla": "FP",
+   "empresa": "INVERSIONES, SERVICIOS Y CONSULTORA AVANTI GROUP S.A.C.",
+   "ruc": "20477702971",
+   "rol": "socio 50 %",
+   "participacion_pct": 50.0,
+   "estado_sunat": "ACTIVO",
+   "condicion_sunat": "HABIDO",
+   "vende_al_estado": [
+    "servicios"
+   ],
+   "apto_para_contratar": true,
+   "sector_estimado": [],
+   "contratos_desde_mandato": 0,
+   "contratos_previos": [],
+   "ficha": "https://apps.osce.gob.pe/perfilprov-ui/ficha/20477702971",
+   "senales": []
+  },
+  {
+   "congresista": "Quezada Castro, Geanmarco Antonio",
+   "camara": "D",
+   "sigla": "FP",
+   "empresa": "GREEN PROJECT ASESORES & CONSULTORES S.A.C.",
+   "ruc": "20540063908",
+   "rol": "socio 50 %",
+   "participacion_pct": 50.0,
+   "estado_sunat": "ACTIVO",
+   "condicion_sunat": "HABIDO",
+   "vende_al_estado": [],
+   "apto_para_contratar": false,
+   "sector_estimado": [],
+   "contratos_desde_mandato": 0,
+   "contratos_previos": [],
+   "ficha": "https://apps.osce.gob.pe/perfilprov-ui/ficha/20540063908",
+   "senales": []
+  },
+  {
+   "congresista": "Yauri Tunque, Joaquín",
+   "camara": "S",
+   "sigla": "JP",
+   "empresa": "INVERSIONES EN OBRA PERU SOCIEDAD ANONIMA CERRADA",
+   "ruc": "20486650398",
+   "rol": "socio 50 %",
+   "participacion_pct": 50.0,
+   "estado_sunat": "ACTIVO",
+   "condicion_sunat": "HABIDO",
+   "vende_al_estado": [
+    "servicios",
+    "bienes"
+   ],
+   "apto_para_contratar": true,
+   "sector_estimado": [
+    "Construcción e inmobiliario"
+   ],
+   "contratos_desde_mandato": 0,
+   "contratos_previos": [],
+   "ficha": "https://apps.osce.gob.pe/perfilprov-ui/ficha/20486650398",
+   "senales": [
+    {
+     "tipo": "comision",
+     "sector": "Construcción e inmobiliario",
+     "detalle": "Titular de la Comisión en Asuntos de Desarrollo Productivo, Energía y Minas, Infraestructura y Trabajo"
+    }
+   ]
+  },
+  {
+   "congresista": "Gatica Vega, Francisco Javier",
+   "camara": "D",
+   "sigla": "FP",
+   "empresa": "GATICA INVERSIONES S.A.C.",
+   "ruc": "20600960378",
+   "rol": "socio 25 %",
+   "participacion_pct": 25.0,
+   "estado_sunat": "BAJA DE OFICIO",
+   "condicion_sunat": "HABIDO",
+   "vende_al_estado": [
+    "servicios",
+    "bienes"
+   ],
+   "apto_para_contratar": true,
+   "sector_estimado": [],
+   "contratos_desde_mandato": 0,
+   "contratos_previos": [],
+   "ficha": "https://apps.osce.gob.pe/perfilprov-ui/ficha/20600960378",
+   "senales": []
+  },
+  {
+   "congresista": "Mesía Ramírez, Carlos Fernando",
+   "camara": "S",
+   "sigla": "FP",
+   "empresa": "MESIA & SOTO CONSULTING GROUP S.R.L.",
+   "ruc": "20603904380",
+   "rol": "socio 50 %",
+   "participacion_pct": 50.0,
+   "estado_sunat": "BAJA DE OFICIO",
+   "condicion_sunat": "HABIDO",
+   "vende_al_estado": [
+    "servicios"
+   ],
+   "apto_para_contratar": true,
+   "sector_estimado": [],
+   "contratos_desde_mandato": 0,
+   "contratos_previos": [],
+   "ficha": "https://apps.osce.gob.pe/perfilprov-ui/ficha/20603904380",
+   "senales": []
+  },
+  {
+   "congresista": "Rospigliosi Capurro, Fernando Miguel",
+   "camara": "S",
+   "sigla": "FP",
+   "empresa": "FRC CONSULTORES E.I.R.L.",
+   "ruc": "20602717942",
+   "rol": "socio 100 %, representante legal, titular - gerente",
+   "participacion_pct": 100.0,
+   "estado_sunat": "BAJA DE OFICIO",
+   "condicion_sunat": "HABIDO",
+   "vende_al_estado": [
+    "servicios"
+   ],
+   "apto_para_contratar": true,
+   "sector_estimado": [],
+   "contratos_desde_mandato": 0,
+   "contratos_previos": [],
+   "ficha": "https://apps.osce.gob.pe/perfilprov-ui/ficha/20602717942",
+   "senales": []
+  },
+  {
+   "congresista": "Flores Ruiz, Víctor Seferino",
+   "camara": "S",
+   "sigla": "FP",
+   "empresa": "SOLUCIONES ORGANICAS DEL PERU S.A.C. - SORPERU S.A.C.",
+   "ruc": "20560201282",
+   "rol": "socio 31 %, representante legal, gerente general",
+   "participacion_pct": 31.0,
+   "estado_sunat": "BAJA DE OFICIO",
+   "condicion_sunat": "HABIDO",
+   "vende_al_estado": [
+    "servicios",
+    "bienes"
+   ],
+   "apto_para_contratar": true,
+   "sector_estimado": [
+    "Agropecuario"
+   ],
+   "contratos_desde_mandato": 0,
+   "contratos_previos": [],
+   "ficha": "https://apps.osce.gob.pe/perfilprov-ui/ficha/20560201282",
+   "senales": []
+  },
+  {
+   "congresista": "Flores Ruiz, Víctor Seferino",
+   "camara": "S",
+   "sigla": "FP",
+   "empresa": "CONSTRUCTORA E INMOBILIARIA MEBA S.A.C. EN LIQUIDACIÓN",
+   "ruc": "20601944562",
+   "rol": "socio 35 %",
+   "participacion_pct": 35.0,
+   "estado_sunat": "BAJA DEFINITIVA",
+   "condicion_sunat": "HABIDO",
+   "vende_al_estado": [
+    "ejecutor de obra"
+   ],
+   "apto_para_contratar": true,
+   "sector_estimado": [
+    "Construcción e inmobiliario"
+   ],
+   "contratos_desde_mandato": 0,
+   "contratos_previos": [],
+   "ficha": "https://apps.osce.gob.pe/perfilprov-ui/ficha/20601944562",
+   "senales": []
+  },
+  {
+   "congresista": "Cipriani Thorne, Javier José María",
+   "camara": "D",
+   "sigla": "RP",
+   "empresa": "FUNDACION LIMA",
+   "ruc": "20503768187",
+   "rol": "representante legal, presidente",
+   "participacion_pct": null,
+   "estado_sunat": "ACTIVO",
+   "condicion_sunat": "HABIDO",
+   "vende_al_estado": [
+    "servicios",
+    "bienes"
+   ],
+   "apto_para_contratar": true,
+   "sector_estimado": [
+    "Fundaciones y cultura"
+   ],
+   "contratos_desde_mandato": 0,
+   "contratos_previos": [],
+   "ficha": "https://apps.osce.gob.pe/perfilprov-ui/ficha/20503768187",
+   "senales": []
+  }
+ ]
+}

@@ -3,7 +3,7 @@
 const fmt = (n) => new Intl.NumberFormat("es-PE").format(n);
 const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
 let CHARTS = {};
-let DATA = null, CTX = null, PERSONAL = null, BIC = null, PLENOS = null, MOV = null, CON = null, INT = null, VIS = null, PERF = null, ASE = null;
+let DATA = null, CTX = null, PERSONAL = null, BIC = null, PLENOS = null, MOV = null, CON = null, INT = null, VIS = null, PERF = null, ASE = null, INTR = null;
 const soles = (n) => "S/ " + new Intl.NumberFormat("es-PE", { maximumFractionDigits: 0 }).format(n);
 const solesM = (n) => "S/ " + (n / 1e6).toFixed(1) + " M";
 
@@ -989,6 +989,8 @@ function detalleCongresista(m, p, d) {
   const bloques = [];
   const bp = bloquePerfil(m);
   if (bp) bloques.push(bp);
+  const bi = bloqueIntereses(m);
+  if (bi) bloques.push(bi);
   if (d) {
     const max = Math.max(...d.serie.map(x => x.masa));
     const ult = d.serie.at(-1);
@@ -1056,6 +1058,19 @@ const perfDe = (m) => {
   return perfIdx[m.camara + "|" + m.nombre] || null;
 };
 // Foto, comisiones y agenda de representación (web oficial de cada cámara)
+// Participación en empresas (vínculos verificados por DNI) y posibles conflictos de interés
+function bloqueIntereses(m) {
+  const vs = (INTR?.vinculos || []).filter(v => v.camara === m.camara && v.congresista === m.nombre);
+  if (!vs.length) return "";
+  return `<div style="grid-column:1/-1"><h4>💼 Participación en empresas (${vs.length})</h4><ul>${vs.map(v => {
+    const activa = (v.estado_sunat || "").toUpperCase() === "ACTIVO";
+    return `<li><b>${esc(v.empresa)}</b> <span class="note">RUC ${esc(v.ruc)}</span> — ${esc(v.rol)}
+      <span class="tag${activa ? "" : " fis"}">SUNAT: ${esc(v.estado_sunat)}</span>${v.vende_al_estado.length ? ` <span class="tag">vende al Estado: ${esc(v.vende_al_estado.join(", "))}</span>` : ""}
+      <div class="note" style="margin:2px 0 0">✔ Sin contratos con el Estado desde el inicio del mandato.${v.sector_estimado.length ? ` Rubro estimado: ${esc(v.sector_estimado.join(", "))}.` : ""}${v.ficha ? ` <a href="${esc(v.ficha)}" target="_blank" rel="noopener">Ficha OECE ↗</a>` : ""}</div>
+      ${v.senales.length ? `<div style="margin-top:4px"><span class="tag fis">⚠ posible conflicto de interés a revisar</span><ul>${v.senales.map(x => `<li class="note">${esc(x.sector)}: ${esc(x.detalle)}</li>`).join("")}</ul></div>` : ""}</li>`;
+  }).join("")}</ul><div class="note">Vínculo verificado por el OECE con el DNI del congresista. Tener una empresa no es irregular; la ley les impide contratar con el Estado durante el mandato. La señal de conflicto es una coincidencia de sector con sus comisiones o proyectos y requiere revisión.</div></div>`;
+}
+
 function bloquePerfil(m) {
   const pf = perfDe(m);
   if (!pf) return "";
@@ -1512,8 +1527,10 @@ Promise.all([
   fetch("visitas.json", nocache).then(r => r.ok ? r.json() : null).catch(() => null),
   fetch("perfiles.json", nocache).then(r => r.ok ? r.json() : null).catch(() => null),
   fetch("asesores.json", nocache).then(r => r.ok ? r.json() : null).catch(() => null),
+  fetch("intereses.json", nocache).then(r => r.ok ? r.json() : null).catch(() => null),
 ])
-  .then(([d, c, p, b, pl, mv, co, it, vi, pf, as]) => {
+  .then(([d, c, p, b, pl, mv, co, it, vi, pf, as, ir]) => {
+    INTR = ir;
     VIS = vi; PERF = pf; ASE = as;
     DATA = d; CTX = c; PERSONAL = p; BIC = b; PLENOS = pl; MOV = mv; CON = co; INT = it;
     document.getElementById("gen").textContent = "actualizado " + d.meta.generado;

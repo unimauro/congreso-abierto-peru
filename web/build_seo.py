@@ -244,8 +244,30 @@ def seccion_como_voto(m: dict, cv: list[dict]) -> str:
             '(OCR) y validadas contra el total oficial; verifica en el acta.</p></section>')
 
 
+def seccion_intereses(vs: list[dict]) -> str:
+    if not vs:
+        return ""
+    items = ""
+    for v in vs:
+        activa = (v.get("estado_sunat") or "").upper() == "ACTIVO"
+        sen = "".join(f'<li>⚠ <b>{e(x["sector"])}</b>: {e(x["detalle"])}</li>' for x in v["senales"])
+        items += (f'<li><b>{e(v["empresa"])}</b> <span class="note">RUC {e(v["ruc"])}</span><br>'
+                  f'<span class="role{" top" if activa else ""}">{e(v["rol"])}</span> '
+                  f'<span class="tag{"" if activa else " red"}">SUNAT: {e(v["estado_sunat"])}</span>'
+                  + (f' <span class="tag">vende al Estado: {e(", ".join(v["vende_al_estado"]))}</span>' if v["vende_al_estado"] else "")
+                  + (f'<div class="note">Rubro estimado: {e(", ".join(v["sector_estimado"]))}</div>' if v["sector_estimado"] else "")
+                  + f'<div class="note">✔ Sin contratos con el Estado desde el inicio del mandato (27-jul-2026).'
+                  + (f' Ficha OECE: <a href="{e(v["ficha"])}" rel="nofollow noopener" target="_blank">ver ↗</a>' if v.get("ficha") else "") + '</div>'
+                  + (f'<div style="margin-top:8px"><b>Posible conflicto de interés a revisar</b><ul>{sen}</ul></div>' if sen else "")
+                  + "</li>")
+    return (f'<section class="card"><h2>💼 Participación en empresas</h2><ul class="clean">{items}</ul>'
+            '<p class="note">Vínculo verificado por el OECE con el DNI del congresista (registro de funcionarios de la Contraloría). '
+            'Tener una empresa no es irregular; la ley impide a los congresistas contratar con el Estado durante su mandato. '
+            'Un "posible conflicto de interés" es una coincidencia de sector con sus comisiones o proyectos y requiere revisión.</p></section>')
+
+
 def ficha(m: dict, pl: dict | None, dp: dict | None, generado: str, vi: dict | None = None, pf: dict | None = None,
-          ctx: dict | None = None, cv: list | None = None) -> tuple[str, str]:
+          ctx: dict | None = None, cv: list | None = None, it: list | None = None) -> tuple[str, str]:
     ctx = ctx or {}
     nombre = nombre_natural(m["nombre"])
     cargo = CARGO.get(m["camara"], "Congresista")
@@ -343,7 +365,7 @@ def ficha(m: dict, pl: dict | None, dp: dict | None, generado: str, vi: dict | N
 
     cuerpo = f"""{hero}{kpis}
 <div class="cols"><div class="stack">{tematicas}{proyectos}{seccion_como_voto(m, cv or [])}{comis}{visitas}</div>
-<aside class="stack">{pleno}{gasto}{ents}{agenda}</aside></div>
+<aside class="stack">{seccion_intereses(it or [])}{pleno}{gasto}{ents}{agenda}</aside></div>
 <p class="note" style="margin-top:16px">Datos al {e(generado)}.</p>"""
     ld = [{"@context": "https://schema.org", "@type": "Person", "name": nombre, "jobTitle": f"{cargo} 2026–2031",
            "memberOf": [{"@type": "GovernmentOrganization", "name": CAMARA[m["camara"]] + " del Perú"},
@@ -416,6 +438,9 @@ def build() -> list[str]:
                                                                    "contratos.json", "integridad.json", "data.json", "visitas.json"))
     vi = {(x["camara"], x["nombre"]): x for x in (vis or {}).get("congresistas", [])}
     pfs = {(x["camara"], x["nombre"]): x for x in (cargar("perfiles.json") or {}).get("perfiles", [])}
+    ints = {}
+    for x in (cargar("intereses.json") or {}).get("vinculos", []):
+        ints.setdefault((x["camara"], x["congresista"]), []).append(x)
     if not bic:
         raise SystemExit("[!] falta bicameral.json")
     pl = {(x["camara"], x["nombre"]): x for x in (plenos or {}).get("miembros", [])}
@@ -438,7 +463,7 @@ def build() -> list[str]:
     por_cam = {"D": [], "S": []}
     for m in bic["congresistas"]:
         s, doc = ficha(m, pl.get((m["camara"], m["nombre"])), dp.get((m["camara"], m["nombre"])), gen, vi.get((m["camara"], m["nombre"])),
-                       pfs.get((m["camara"], m["nombre"])), ctx.get(m["camara"]), como_voto(m, plenos))
+                       pfs.get((m["camara"], m["nombre"])), ctx.get(m["camara"]), como_voto(m, plenos), ints.get((m["camara"], m["nombre"])))
         open(os.path.join(WEB, "congresistas", f"{s}.html"), "w", encoding="utf-8").write(doc)
         urls.append(f"congresistas/{s}.html")
         por_cam.setdefault(m["camara"], []).append((m, s))
