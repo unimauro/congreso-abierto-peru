@@ -4,6 +4,7 @@
    "pases_lista": 34,
    "votaciones": [
     {
+     "id": "D-20261029-1156",
      "fecha": "2026-10-29",
      "hora": "11:56AM",
      "asunto": "TEXTO SUSTITUTORIO DE LAS PROPOSICIONES LEGISLATIVAS 91 Y 159, QUE PROPONEN MODIFICAR LA LEY 27669, LEY DEL TRABAJO DE LA ENFERMERA(O), A FIN DE FORTALECER EL MARCO DE ACCIÓN DE LA PROFESIÓN DE ENFERMERÍA",
@@ -12,16 +13,17 @@
      "abst": 1,
      "por_bancada": {
       "AN": {
-       "si": 8,
+       "si": 9,
        "ausente": 1
       },
       "FP": {
-       "si": 33,
+       "si": 37,
        "ausente": 3,
        "sin_resp": 1
       },
       "JP": {
-       "si": 28,
+       "abst": 1,
+       "si": 29,
        "ausente": 2
       },
       "PBG": {
@@ -29,7 +31,7 @@
        "ausente": 1
       },
       "PCO": {
-       "si": 13
+       "si": 14
       },
       "RP": {
        "ausente": 2,
@@ -43,9 +45,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SLSSSSSSLSSSSSSSSSSSSSSSSSLSLSSSSSSSSXSSSSSSASSSSSSSSSSSSSRLSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSL-SSSSSSSLSSSSXSSSSSSSSSSSSSSSS"
     },
     {
+     "id": "D-20261029-1143",
      "fecha": "2026-10-29",
      "hora": "11:43AM",
      "asunto": "PROYECTO DE RESOLUCIÓN LEGISLATIVA DE LA CÁMARA DE DIPUTADOS QUE PROPONE LA AGENDA LEGISLATIVA DEL PERIODO ANUAL DE SESIONES 2026-2027",
@@ -54,15 +58,16 @@
      "abst": 1,
      "por_bancada": {
       "AN": {
-       "si": 8,
+       "si": 9,
        "ausente": 1
       },
       "FP": {
-       "si": 33,
+       "si": 37,
        "ausente": 4
       },
       "JP": {
-       "si": 20,
+       "abst": 1,
+       "si": 21,
        "ausente": 10
       },
       "PBG": {
@@ -71,7 +76,7 @@
        "ausente": 1
       },
       "PCO": {
-       "si": 12,
+       "si": 13,
        "ausente": 1
       },
       "RP": {
@@ -86,9 +91,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SLSSSSSSLSSSSSSSSSSSSSSRSSLSLSSSSSSSSXSSSSSSASSSXSXSSSSSSSSLSSSSSSSSSSSXSSSSSSSSSSSXXXSSSSSSSSSXSSSL-SSSSSSSLSXSSXSSSSSSSXSSSSXSSS"
     },
     {
+     "id": "D-20261022-1149",
      "fecha": "2026-10-22",
      "hora": "11:49AM",
      "asunto": "TEXTO SUSTITUTORIO DE LAS PROPOSICIONES LEGISLATIVAS 12, 24 Y 121, QUE PROPONEN DEROGAR LA LEY 32645, LEY QUE CREA EL COLEGIO PROFESIONAL DE ARTISTAS DEL PERÚ.",
@@ -128,9 +135,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "LSSLSSSSSSSSXSLSSSSSXSSSSSSXSLSSLSSSSSSSSSSSSSSSSSSSSSSSLSSSSSLSSSSXSSSSSSSXSSSSXSSSSSSXSSSSSSSSSSSS-SSXSXSLLSSXSSSSLSLSSSSSSSSLSS"
     },
     {
+     "id": "D-20261022-1323",
      "fecha": "2026-10-22",
      "hora": "01:23PM",
      "asunto": "TEXTO SUSTITUTORIO RECAÍDO EN LA PROPOSICIÓN LEGISLATIVA 178, QUE PROPONE LA LEY QUE INSTITUYE EL DÍA NACIONAL PARA LA SENSIBILIZACIÓN SOBRE LOS NIÑOS Y ADOLESCENTES EN SITUACIÓN DE ORFANDAD O DESPROTECCIÓN FAMILIAR EL SEGUNDO LUNES DE NOVIEMBRE DE CADA AÑO Y ESTABLECE ACCIONES DE SENSIBILIZACIÓN SOCIAL.",
@@ -170,9 +179,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "LSSLSXSSSSSSSXLSSSSSXSSSSSSXSLSSLSSSSSSSSSSSSSSSSSSSSSSSLSSSSSLSSSSSSSSSSSSSSSSSXSSSSXSLSSSLSSSSSSSS-SSSSXSLLSSSSSSSLSLSSSSLSSSLSS"
     },
     {
+     "id": "D-20261006-2313",
      "fecha": "2026-10-06",
      "hora": "11:13PM",
      "asunto": "TEXTO SUSTITUTORIO DE LA PROPOSICIÓN LEGISLATIVA 98, CONTENIDO EN EL DICTAMEN EN MAYORIA DE LA COMISIÓN DE CONSTITUCIÓN, REGLAMENTO Y RELACIONES EXTERIORES, QUE PROPONE DELEGAR EN EL PODER EJECUTIVO LA FACULTAD DE LEGISLAR EN MATERIA DE SEGURIDAD CIUDADANA Y DEL FENÓMENO EL NIÑO.",
@@ -182,68 +193,24 @@
      "por_bancada": {
       "AN": {
        "ausente": 1,
-       "no": 2,
-       "si": 5
-      },
-      "FP": {
-       "no": 3,
-       "si": 29
-      },
-      "JP": {
-       "no": 24,
-       "si": 1,
-       "ausente": 2
-      },
-      "PBG": {
        "no": 4,
-       "si": 7,
-       "ausente": 1
-      },
-      "PCO": {
-       "si": 10,
-       "ausente": 2
-      },
-      "RP": {
-       "si": 14
-      }
-     },
-     "posicion": {
-      "AN": "si",
-      "FP": "si",
-      "JP": "no",
-      "PBG": "si",
-      "PCO": "si",
-      "RP": "si"
-     }
-    },
-    {
-     "fecha": "2026-10-06",
-     "hora": "10:41PM",
-     "asunto": "RECONSIDERACIÓN RESPECTO A LA VOTACIÓN DEL TEXTO SUSTITUTORIO DE LA PROPOSICIÓN LEGISLATIVA 98, CONTENIDO EN EL DICTAMEN EN MAYORIA DE LA COMISIÓN DE CONSTITUCIÓN, REGLAMENTO Y RELACIONES EXTERIORES, QUE PROPONE DELEGAR EN EL PODER EJECUTIVO LA FACULTAD DE LEGISLAR EN MATERIA DE SEGURIDAD CIUDADANA Y DEL FENÓMENO EL NIÑO.",
-     "si": 75,
-     "no": 33,
-     "abst": 16,
-     "por_bancada": {
-      "AN": {
-       "ausente": 1,
-       "no": 2,
        "si": 5
       },
       "FP": {
-       "si": 35
+       "abst": 7,
+       "si": 34
       },
       "JP": {
-       "no": 28,
-       "si": 1,
-       "ausente": 1
+       "no": 29,
+       "abst": 1,
+       "ausente": 2
       },
       "PBG": {
-       "no": 3,
-       "si": 8,
+       "abst": 16,
        "ausente": 1
       },
       "PCO": {
-       "si": 11,
+       "si": 12,
        "ausente": 2
       },
       "RP": {
@@ -254,12 +221,58 @@
       "AN": "si",
       "FP": "si",
       "JP": "no",
-      "PBG": "si",
+      "PBG": "abst",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "AAASASNSSXNSSSAASSSSNSSASSSASNSSSNSSSAALXAAANSASNANNSANNANSNNSNSASNNSNSSSSSSASSSSASNNNSSSNNSSNANXSAS-ASSXXSSNNNSNSNSASSNSNSSSSSSSN"
     },
     {
+     "id": "D-20261006-2241",
+     "fecha": "2026-10-06",
+     "hora": "10:41PM",
+     "asunto": "RECONSIDERACIÓN RESPECTO A LA VOTACIÓN DEL TEXTO SUSTITUTORIO DE LA PROPOSICIÓN LEGISLATIVA 98, CONTENIDO EN EL DICTAMEN EN MAYORIA DE LA COMISIÓN DE CONSTITUCIÓN, REGLAMENTO Y RELACIONES EXTERIORES, QUE PROPONE DELEGAR EN EL PODER EJECUTIVO LA FACULTAD DE LEGISLAR EN MATERIA DE SEGURIDAD CIUDADANA Y DEL FENÓMENO EL NIÑO.",
+     "si": 75,
+     "no": 33,
+     "abst": 16,
+     "por_bancada": {
+      "AN": {
+       "ausente": 1,
+       "no": 3,
+       "si": 6
+      },
+      "FP": {
+       "si": 41
+      },
+      "JP": {
+       "no": 30,
+       "si": 1,
+       "ausente": 1
+      },
+      "PBG": {
+       "abst": 16,
+       "ausente": 1
+      },
+      "PCO": {
+       "si": 12,
+       "ausente": 2
+      },
+      "RP": {
+       "si": 15
+      }
+     },
+     "posicion": {
+      "AN": "si",
+      "FP": "si",
+      "JP": "no",
+      "PBG": "abst",
+      "PCO": "si",
+      "RP": "si"
+     },
+     "votos": "SSASSSNSSXNSSSASSSSSNSSASSSSSNSSSNSSSAALNAASNSASNANNSANNANSNNSNSASNNSNSSSSSSASSSSSSNNNSSSNNSSNANXSAS-SSSXXSSSNNSNSNSASSNSNSSSSSSSN"
+    },
+    {
+     "id": "D-20261006-2232",
      "fecha": "2026-10-06",
      "hora": "10:32PM",
      "asunto": "SEGUNDO DICTAMEN EN MINORÍA, QUE PROPONE LA NO APROBACIÓN Y ENVÍO AL ARCHIVO DE LA PROPOSICIÓN LEGISLATIVA 98, PRESENTADO POR LAS DIPUTADAS MÁRQUEZ HUANCA Y CHIPANA CONDORI.",
@@ -300,9 +313,11 @@
       "PBG": "si",
       "PCO": "no",
       "RP": "no"
-     }
+     },
+     "votos": "NNSNNNSNNXSNNNSNNNNNSNNSNNNNNSNNNSNNNSSLSSSNSNSNSSSSSSSSSSNSSNSNSNSNNSNNNNNNSNNNNNNSSSNNNSSNNSSSXNSN-NNNXXNNNSSNSNSNSNNSNSNNNNNNNS"
     },
     {
+     "id": "D-20261006-1032",
      "fecha": "2026-10-06",
      "hora": "10:32AM",
      "asunto": "NÓMINA DE INTEGRANTES DE LA COMISIÓN ESPECIAL DE SEGUIMIENTO Y FISCALIZACIÓN PARLAMENTARIA DE LAS INVERSIONES Y RECURSOS PÚBLICOS DESTINADOS A LA PREVENCIÓN Y ATENCIÓN DE LOS EFECTOS DEL FENÓMENO EL NIÑO.",
@@ -340,9 +355,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSSSSSSSSXSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSXSSSSSSSSSSSSSSSSSSXSSSSSSSSSSSSSSS-SSSSSSSSSSSSSSSSSSSSSSSSSSXSS"
     },
     {
+     "id": "D-20261006-2223",
      "fecha": "2026-10-06",
      "hora": "10:23PM",
      "asunto": "DICTAMEN EN MINORÍA PRESENTADO POR LOS DIPUTADOS ABENSUR PINASCO Y ALEGRÍA GARCÍA, RECAÍDO EN LA PROPOSICIÓN LEGISLATIVA 98, QUE DELEGA EN EL PODER EJECUTIVO LA FACULTAD DELEGISLAR EN MATERIA DE SEGURIDAD CIUDADANA, FORTALECIMIENTO DE MICRO Y PEQUEÑAS EMPRESAS, PROMOCIÓN DEL EMPLEO, DESARROLLO PRODUCTIVO, RÉGIMEN TRIBUTARIO, SIMPLIFICACIÓN ADMINISTRATIVA Y OTRAS MATERIA.",
@@ -355,20 +372,22 @@
        "no": 9
       },
       "FP": {
-       "ausente": 38,
+       "ausente": 40,
        "sin_resp": 1
       },
       "JP": {
        "no": 30,
-       "ausente": 2
+       "abst": 1,
+       "ausente": 1
       },
       "PBG": {
-       "no": 15,
+       "no": 16,
        "ausente": 1
       },
       "PCO": {
-       "no": 10,
-       "ausente": 4
+       "no": 9,
+       "abst": 2,
+       "ausente": 3
       },
       "RP": {
        "ausente": 14,
@@ -380,9 +399,11 @@
       "JP": "no",
       "PBG": "no",
       "PCO": "no"
-     }
+     },
+     "votos": "XANAXXNXXXNXXXNXXXNNNNXNXXXXLNRNXNXXXNNLNNNRNXNXNNNNNNNNNNXNNXNXNNNNNNXNAXNXNNXXXXXNNNXXNNNXNNNNXXNX-XXXXXXXNNNXNXNXNNXNXNXXNXXXXN"
     },
     {
+     "id": "D-20261006-2142",
      "fecha": "2026-10-06",
      "hora": "09:42PM",
      "asunto": "CUESTIÓN PREVIA PARA QUE SE SOMETA A VOTACIÓN EL TEXTO DEL PRIMER DICTAMEN EN MINORÍA PRESENTADO POR LOS DIPUTADOS ABENSUR PINASCO Y ALEGRÍA GARCÍA",
@@ -395,7 +416,7 @@
        "si": 9
       },
       "FP": {
-       "no": 40
+       "no": 41
       },
       "JP": {
        "si": 30,
@@ -408,7 +429,7 @@
       },
       "PCO": {
        "si": 11,
-       "no": 1,
+       "abst": 1,
        "ausente": 2
       },
       "RP": {
@@ -422,9 +443,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "no"
-     }
+     },
+     "votos": "NNSANSSNNXSNNNSNNNSSSSNSNNNNNSNSNSNNNSSLSSSNSNSNSSSSSSSSSSNSSNSNSSSSSSNSSNSNSSNNNNNSSSNNSSSNSSSSXNXN-NNNXXNNSSSNSNSNSSNSNSNNSNNNNS"
     },
     {
+     "id": "D-20261006-1851",
      "fecha": "2026-10-06",
      "hora": "06:51PM",
      "asunto": "TEXTO SUSTITUTORIO DE LA PROPOSICIÓN LEGISLATIVA 98, CONTENIDO EN EL DICTAMEN EN MAYORIA DE LA COMISIÓN DE CONSTITUCIÓN, REGLAMENTO Y RELACIONES EXTERIORES, QUE PROPONE DELEGAR EN EL PODER EJECUTIVO LA FACULTAD DE LEGISLAR EN MATERIA DE SEGURIDAD CIUDADANA Y DEL FENÓMENO EL NIÑO.",
@@ -438,19 +461,19 @@
        "si": 7
       },
       "FP": {
-       "no": 40
+       "no": 41
       },
       "JP": {
        "no": 30,
        "ausente": 2
       },
       "PBG": {
-       "si": 15,
+       "si": 16,
        "ausente": 1
       },
       "PCO": {
-       "si": 13,
-       "no": 1
+       "si": 12,
+       "abst": 2
       },
       "RP": {
        "si": 14,
@@ -464,9 +487,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "NXSANANNSXNSNSSNNSSSNSNSNNNNSNSSNNXNNSSSNSSNNNSNNSNNSSNNSNNNNSNNSSNSSNSSSNSNSSNNNNNNNNNNSNNNSNSNXNSN-NSNSXSNSNNNNNNNSSNNNNSSSSNSNN"
     },
     {
+     "id": "D-20260910-1224",
      "fecha": "2026-09-10",
      "hora": "12:24PM",
      "asunto": "TEXTO SUSTITUTORIO DE LAS MOCIONES DE ORDEN DEL DÍA 15, 46, 85 Y 90, QUE PROPONEN CONFORMAR LA COMISIÓN ESPECIAL DE SEGUIMIENTO YFISCALIZACIÓN PARLAMENTARIA DE LAS INVERSIONES Y RECURSOS PÚBLICOS DESTINADOS A LA PREVENCIÓN Y ATENCIÓN DE LOS EFECTOS DEL FENÓMENO EL NIÑO",
@@ -504,9 +529,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSSSSSSSLSSSSSSSSSSSSSXSSSSSSSSSSSSSSSSLSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS-SSSSSSSSLSSSSSSSSSSSSSSSSSS-SSXSSSSXSSSSSSSS-SSSSSLSSSSSS"
     },
     {
+     "id": "D-20260910-1110",
      "fecha": "2026-09-10",
      "hora": "11:10AM",
      "asunto": "ADMISIÓN A DEBATE DE LA MOCIONES DE ORDEN DEL DÍA 15, 46, 85 Y 90, QUE PROPONEN CONFORMAR LA COMISIÓN ESPECIAL MULTIPARTIDARIA DE SEGUIMIENTO Y FISCALIZACIÓN DE LAS ACCIONES DE PREVENCIÓN DE DESASTRES EN EL MARCO DEL FENÓMENO EL NIÑO 2026-2027",
@@ -547,9 +574,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSSSSSSSSSSSXXSSSSSSSSSSSSSSLSSSSSSSXXRLSS-SSSSSS-SS-SSSSSSSXSSSSSSSSSSSSSSSSSSSSLSSSSSSSSSSSSSSSSSL-SSS-SSSXSSSSSSSSSSSSSSLSSSXSS"
     },
     {
+     "id": "D-20260910-1042",
      "fecha": "2026-09-10",
      "hora": "10:42AM",
      "asunto": "MOCIÓN DE ORDEN DEL DÍA 186, INVITAR AL PRESIDENTE DEL CONSEJO DE MINISTROS, AL MINISTRO DEL INTERIOR Y AL MINISTRO DE DEFENSA PARA QUE CONCURRAN, CON CARÁCTER URGENTE, ANTE EL PLENO DE LA CÁMARA DE DIPUTADOS PARA QUE INFORMEN Y de CUENTAS SOBRE EL GRAVE DETERIORO DE LA SEGURIDAD CIUDADANA Y LA EXPANSIÓN DE LA CRIMINALIDAD ORGANIZADA EN",
@@ -588,9 +617,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "no"
-     }
+     },
+     "votos": "NSSSNSSNLSSNXNSNNNSNSSNSNNNNXSNSNSNNNSSXSSSNSNSNSSSSSSSSSSNSSNS-SSSSSSNSSNSNSSNNNLNSSSNNSSSNSSSSSNSX-NNNSSNNXS-NSNSNSSNSNSNLSNNNNS"
     },
     {
+     "id": "D-20260910-1033",
      "fecha": "2026-09-10",
      "hora": "10:33AM",
      "asunto": "ADMISIÓN A DEBATE DE LA MOCIÓN DE ORDEN DEL DÍA 186, QUE PROPONE INVITAR AL PRESIDENTE DEL CONSEJO DE MINISTROS, AL MINISTRO DEL INTERIOR Y AL MINISTRO DE DEFENSA PARA QUE CONCURRAN, CON CARÁCTER URGENTE, ANTE EL PLENO DE LA CÁMARA DE DIPUTADOS PARA QUE INFORMEN Y RINDAN CUENTAS SOBRE EL GRAVE DETERIORO DE LA SEGURIDAD CIUDADANA Y LA EXPANSIÓN DE LA CRIMINALIDAD ORGANIZADA EN EL PAÍS.",
@@ -629,9 +660,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "no"
-     }
+     },
+     "votos": "NSSSNSSNLSSNXNSNNNSSSSRSNNNXXSNSNSNNXSSXSS-NSNSNSSSSSSSSSSNSSNSNSSSSSSNSSNSNSSNNNLNSSSNNSSSNSSSSSNSX-NNNSSNNXSSXSNSNSXNSNSNLSNNXNS"
     },
     {
+     "id": "D-20260910-1552",
      "fecha": "2026-09-10",
      "hora": "03:52PM",
      "asunto": "PROPUESTA DE LA PRESIDENCIA PARA QUE EL MINISTRO DEL INTERIOR, SEÑOR CÉSAR AUGUSTO ASTUDILLO SALCEDO, CONCURRA AL PLENO DE LA CAMARA DE DIPUTADOS A FIN DE CONTESTAR EL PLIEGO INTERPELATORIO CONTENIDO EN LA MOCIÓN DE ORDEN DEL DÍA 256, EL 17 DE SETIEMBRE 2026, A LAS 10 DE LA MANANA",
@@ -644,7 +677,7 @@
        "si": 8
       },
       "FP": {
-       "no": 36,
+       "no": 37,
        "ausente": 4
       },
       "JP": {
@@ -654,7 +687,7 @@
       "PBG": {
        "si": 14,
        "ausente": 1,
-       "no": 1
+       "abst": 1
       },
       "PCO": {
        "si": 12,
@@ -672,9 +705,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "no"
-     }
+     },
+     "votos": "NSSSNSLNLXSNNNSNNNSSSSXSNNNNLSNSNSNNNSALSS-NSNSNSXSSSSSSSSNSSNSNSSSSSSNSSNSNSSNNNLNSSSNNSSSNSSSSSNSN-NNXXSNNXSSXSNSNSSNSNSNLSNNNNS"
     },
     {
+     "id": "D-20260910-1549",
      "fecha": "2026-09-10",
      "hora": "03:49PM",
      "asunto": "ADMISIÓN DE LA MOCIÓN 256, LA CUAL PROPONE QUE LA CÁMARA DE DIPUTADOS INTERPELE AL MINISTRO DEL INTERIOR, SEÑOR CÉSAR AUGUSTO ASTUDILLO SALCEDO",
@@ -687,12 +722,12 @@
        "si": 8
       },
       "FP": {
-       "no": 36,
+       "no": 37,
        "ausente": 4
       },
       "JP": {
        "si": 30,
-       "no": 1,
+       "abst": 1,
        "ausente": 1
       },
       "PBG": {
@@ -705,7 +740,7 @@
       },
       "RP": {
        "ausente": 3,
-       "no": 10
+       "no": 11
       }
      },
      "posicion": {
@@ -715,9 +750,11 @@
       "PBG": "no",
       "PCO": "si",
       "RP": "no"
-     }
+     },
+     "votos": "NANSNSLNLXSNNNNNNNSSSSXNNNNNLSNSNS-NNNNLSN-NSNNNSXSSSNSSNSNSSNSNNSSSSSNSSNSNNSNNNLNSSSNNSSSNSSNSSNNN-NNXXNNNXSSXSNSNNSNSNSNLSNNNNS"
     },
     {
+     "id": "D-20260813-1721",
      "fecha": "2026-08-13",
      "hora": "05:21PM",
      "asunto": "APROBACIÓN DEL CUADRO NOMINATIVO DE LAS 16 COMISIONES ORDINARIAS LEGISLATIVAS, ASÍ COMO COMISIÓN DE ORDENAMIENTO Y SEGUIMIENTO LEGISLATIVO; Y DE LA COMISIÓN DE ACUSACIONES CONSTITUCIONALES, PARA EL PERIODO ANUAL DE SESIONES 2026 - 2027",
@@ -730,11 +767,11 @@
        "si": 9
       },
       "FP": {
-       "si": 38,
+       "si": 39,
        "ausente": 2
       },
       "JP": {
-       "si": 27,
+       "si": 28,
        "ausente": 1
       },
       "PBG": {
@@ -742,12 +779,13 @@
        "ausente": 1
       },
       "PCO": {
-       "si": 12,
-       "ausente": 1
+       "si": 11,
+       "ausente": 1,
+       "abst": 1
       },
       "RP": {
        "ausente": 2,
-       "si": 10
+       "si": 12
       }
      },
      "posicion": {
@@ -757,9 +795,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSSSSSXSLLSSSSSSSSSSSSSSSSLSSSSSSSSSSLSASSSSSSSSSSSSSSSSSSSSSSSSSSSSSSLLSSSS-SSSSSSSSSSSS--SSSSSSSSX-SSSSSSSSSSSSSSSS-SSS-S-SSSSSS"
     },
     {
+     "id": "D-20260805-1653",
      "fecha": "2026-08-05",
      "hora": "04:53PM",
      "asunto": "APROBACIÓN DE LA NÓMINA DE INTEGRANTES DE LA COMISIÓN DE ACUSACIONES CONSTITUCIONALES DE LA CÁMARA DE DIPUTADOS PARA EL PERIODO ANUAL DE SESIONES 2026 — 2027",
@@ -797,7 +837,8 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSSSSSSSSSSSLSSSSSSSXSSSRSSSSSSSXSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSRSSSSSSLSSSSSSSSXSSSSS-SSSSSSSSSSS-SSSSSSSSSSSSSSLSSSS-SSSSSSSSS"
     }
    ],
    "sesiones": [
@@ -892,12 +933,145 @@
       "asistencia": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/08/Asistencia_Diputado_sesion_24-7-2026_Final.pdf"
      }
     }
+   ],
+   "nominal_orden": [
+    "Abensur Pinasco, Jaime Américo",
+    "Aguirre Ramos, Marlon Alberto",
+    "Alayza Maccera, Rossana Herminia",
+    "Albañil Carmona, Henry Antonio",
+    "Alegría García, Luis Arturo",
+    "Alvaron de la Cruz, Edgar Adrián",
+    "Ambrosio Dominguez, Yuli Liliana",
+    "Andrade Salguero de Alvarez, Gladys Griselda",
+    "Aranda Vasquez, Christian",
+    "Arminta Valencia, Marleny Bibiana",
+    "Avendaño Vilca, Giannina Iris",
+    "Baella Malca, José Isidro",
+    "Barbaran Reyes, Rosangella Andrea",
+    "Bazán Calderón, Diego Alonso Fernando",
+    "Benitez Barrionuevo, Jessica",
+    "Beteta Rubín, Karina Juliza",
+    "Bobadilla Galindo, Angel Bruno",
+    "Bravo Quispe, Aldo Antonio",
+    "Buitron Martínez, Freshman",
+    "Cabrera Nieto, Juan César",
+    "Cahuaza Mitivire, Oswar Elbis",
+    "Camargo Porta, Raúl Jesús",
+    "Castillo Rivas, Eduardo Enrique",
+    "Castrejon Fernandez, Segundo Juan",
+    "Castro Cruz, Javier Alejandro",
+    "Castro Grandez, Royser",
+    "Celiz Castillo, Rafael Aldo",
+    "Chacón De Vettori, Cecilia Isabel",
+    "Chang Apuy, Felix See Hung",
+    "Chipana Condori, Graciela",
+    "Cipriani Thorne, Javier José María",
+    "Colchado Huamani, Harvey Julio",
+    "Columbus Murata, Diethell",
+    "Condori Flores, Remigio",
+    "De Paz Lancho, Leo Miguel",
+    "Dodero Jovich, Pierangeli Daniela",
+    "Dominguez Herrera, Carlos Alberto",
+    "Duarte, Georgina",
+    "Espinoza Huillca, Edwin",
+    "Eusebio Padilla, Arturo César",
+    "Fernández Gonzalez, Svieta Valia",
+    "Fernández Nina, Nery Rodolfo",
+    "Fernández de la Torre, Hilda Judit",
+    "Figari Mendoza, Pier Paolo",
+    "Flores Valdizan, Marco Antonio",
+    "Gamarra Pita, Luzmila María del Carmen",
+    "García Huby, Fernando Alberto",
+    "Gatica Vega, Francisco Javier",
+    "Gonzales Delgado, Gabriel Robertino",
+    "Gonzales Polar, Edgar Dember",
+    "Guevara Ramírez, Jessica Roxana",
+    "Guillen Valencia, Héctor",
+    "Hancco Hancco, Dina Irene",
+    "Hirache Pizarro, Gloria Charito",
+    "Holguin Aguirre, James Arturo",
+    "Holguin Loaiza, Cesar Augusto",
+    "Huamán Cornejo, Miguel Felix",
+    "Huilca Flores, Indira Isabel",
+    "Infantes Castañeda, Mery Eliana",
+    "Isla Rojas, Azucena",
+    "Jibaja Ramos, Luis Angel",
+    "Krklec Torres, Frank",
+    "Lavado Valdivia, Marino Teofilo",
+    "Leiva Baylon, Leticia Maruja",
+    "Llaque Linares, Nora María",
+    "López Letona, Heber",
+    "Manay Pillaca, Alejandro José",
+    "Manrique Olivera, Bernardino Jair",
+    "Marcelo Salazar, José Miguel",
+    "Marquez Huanca, Anali",
+    "Martínez Paitán, Paola Isabel",
+    "Masco Cáceres, Luis Aurelio",
+    "Medina Stein, Andrea Dayna",
+    "Mendoza Bernedo, Liz Huli",
+    "Meneses Crispin, Angel Renato",
+    "Meza Rivera, Flor de Jesús",
+    "Molina Soto, Nathaly Milagros",
+    "Muedas Balbiese, Cesar Augusto",
+    "Muñoz Yurivilca, Kim Tami",
+    "Navas Sánchez, Jessica Lizbeth",
+    "Obando Morgan, Auristela Ana",
+    "Pacheco Quispe, Marco Antonio",
+    "Palma Mendoza, José Marvin",
+    "Palomino Casavilca, Catherin Norma",
+    "Palomino Pacheco, Amalia Emilia",
+    "Paredes Navarro, Yenifer Noelia",
+    "Patiño Urco, Ana Bertha",
+    "Paucara Paxi, Carmela",
+    "Peralta Jorpa, Máximo",
+    "Perez Quispe, Jessica Sadith",
+    "Peña Córdova, Olver",
+    "Pinasco Montenegro, Nary Benvinda",
+    "Piñán Mamani, Víctor Eduardo",
+    "Poma Huamaní, Haydee Celinda",
+    "Prado Vallejos, Lila Marianela",
+    "Pérez Alccahuaman, Jesús",
+    "Pérez Mallqui, Julián Luis",
+    "Quezada Castro, Geanmarco Antonio",
+    "Quispe Candia, Luis Eliseo",
+    "Ramos Rosales, María Candelaria",
+    "Reto Otero, Oscar de Jesús",
+    "Revilla Villanueva, César Manuel",
+    "Rocha Gallegos, Roxana María",
+    "Salas Rivera, Alexander",
+    "Samanez Gonzales Vigil, Jeenny Cristina",
+    "Santana Vera, Milagros Karina",
+    "Segura Figueroa, Gustavo Alexander",
+    "Silupu Inga, María Luisa",
+    "Sonco Villanueva, Helard Bladimir",
+    "Soto Ferrari, Luz Mérida",
+    "Sulca Castillo, Pilar",
+    "Takayama Jimenez, Liliana Milagros",
+    "Tapullima Insapillo, Jacqueline Viviana",
+    "Ticlla Rafael, Segundo Senovio",
+    "Tito Rojas, César Hugo",
+    "Trujillo Zegarra, Gilmer",
+    "Uribe Saenz, Romina Alejandra",
+    "Valqui Calderón, Demetrio Flavio",
+    "Valqui Ordoñez, Jhonn Brayam",
+    "Varas Seguin, Daniel Jefferson",
+    "Vidaurre Floridas, César Manuel",
+    "Villanueva Calderón, Juan Amilcar",
+    "Yalta Sotelo, Carlos Alberto",
+    "Yarrow Lumbreras, Norma Martina",
+    "Yataco Torrealva, José Ricardo",
+    "Yonz Núñez, Mady Verónica",
+    "Yuffra Lugo, Ana Luisa",
+    "Zeballos Aponte, Jorge Arturo",
+    "Zegarra Sánchez, Carlos Alberto",
+    "Zunini Yerren, Ernesto Alonzo"
    ]
   },
   "S": {
    "pases_lista": 37,
    "votaciones": [
     {
+     "id": "S-20261028-1114",
      "fecha": "2026-10-28",
      "hora": "11:14AM",
      "asunto": "PROYECTOS DE RESOLUCIÓN LEGISLATIVA DEL SENADO 11-2026-2031-S Y 16-2026-2031-S, QUE PROPONE APROBAR EL REGLAMENTO ESPECIAL DE ELECCIÓN DE LOS MAGISTRADOS DEL TRIBUNAL CONSTITUCIONAL",
@@ -906,11 +1080,11 @@
      "abst": 4,
      "por_bancada": {
       "AN": {
-       "ausente": 1,
-       "si": 1
+       "abst": 3,
+       "ausente": 1
       },
       "FP": {
-       "si": 19,
+       "si": 20,
        "ausente": 1
       },
       "JP": {
@@ -923,7 +1097,8 @@
        "ausente": 1
       },
       "PCO": {
-       "si": 4
+       "si": 4,
+       "abst": 1
       },
       "RP": {
        "si": 7,
@@ -931,15 +1106,17 @@
       }
      },
      "posicion": {
-      "AN": "si",
+      "AN": "abst",
       "FP": "si",
       "JP": "no",
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSXNSNSSSSXSNNSNSNSASSSSSSSSSSLAS-SSXSNSSSSNNNSSSSA-SSSXASSN"
     },
     {
+     "id": "S-20261028-1059",
      "fecha": "2026-10-28",
      "hora": "10:59AM",
      "asunto": "ACUERDO DEL SENADO DE LA REPÚBLICA QUE APRUEBA LA PRÓRROGA DEL PLAZO DEL ESTADO DE EMERGENCIA ESTABLECIDO MEDIANTE EL DECRETO SUPREMO 128-2026-PCM, SOLICITADO POR LA PRESIDENCIA DE LA REPÚBLICA",
@@ -948,7 +1125,8 @@
      "abst": 2,
      "por_bancada": {
       "AN": {
-       "si": 2
+       "si": 2,
+       "abst": 1
       },
       "FP": {
        "si": 19,
@@ -964,7 +1142,8 @@
        "ausente": 1
       },
       "PCO": {
-       "si": 4
+       "si": 4,
+       "abst": 1
       },
       "RP": {
        "si": 5,
@@ -978,9 +1157,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SRRSSSSLSSX-NNXNSSSSSSSSSSSSSS-SS-SSSSSSSSSNRSSSSSA-SSSNASSS"
     },
     {
+     "id": "S-20261028-1057",
      "fecha": "2026-10-28",
      "hora": "10:57AM",
      "asunto": "ACUERDO DEL SENADO DE LA REPÚBLICA QUE APRUEBA LA PRÓRROGA DEL PLAZO DEL ESTADO DE EMERGENCIA ESTABLECIDO MEDIANTE EL DECRETO SUPREMO 126-2026-PCM, SOLICITADO POR LA PRESIDENCIA DE LA REPÚBLICA",
@@ -989,11 +1170,12 @@
      "abst": 3,
      "por_bancada": {
       "AN": {
-       "si": 2,
-       "ausente": 1
+       "si": 1,
+       "ausente": 1,
+       "abst": 2
       },
       "FP": {
-       "si": 18,
+       "si": 19,
        "ausente": 2
       },
       "JP": {
@@ -1005,22 +1187,25 @@
        "ausente": 1
       },
       "PCO": {
-       "si": 4
+       "si": 4,
+       "abst": 1
       },
       "RP": {
        "si": 8
       }
      },
      "posicion": {
-      "AN": "si",
+      "AN": "abst",
       "FP": "si",
       "JP": "si",
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSSSSSSLSSXSSSXSSSSASSSSSSSSSSLSSSSSSSSSSSSRSSSSSSA-SSSRASSS"
     },
     {
+     "id": "S-20261028-1054",
      "fecha": "2026-10-28",
      "hora": "10:54AM",
      "asunto": "ACUERDO DEL SENADO DE LA REPÚBLICA QUE APRUEBA LA PRÓRROGA DEL PLAZO DEL ESTADO DE EMERGENCIA ESTABLECIDO MEDIANTE EL DECRETO SUPREMO 125-2026-PCM, SOLICITADO POR LA PRESIDENCIA DE LA REPÚBLICA",
@@ -1029,14 +1214,15 @@
      "abst": 5,
      "por_bancada": {
       "AN": {
-       "ausente": 1,
-       "si": 1
+       "abst": 3,
+       "ausente": 1
       },
       "FP": {
-       "si": 17,
+       "si": 18,
        "ausente": 2
       },
       "JP": {
+       "abst": 1,
        "no": 12
       },
       "PBG": {
@@ -1044,22 +1230,25 @@
        "ausente": 1
       },
       "PCO": {
-       "si": 4
+       "si": 4,
+       "abst": 1
       },
       "RP": {
        "si": 8
       }
      },
      "posicion": {
-      "AN": "si",
+      "AN": "abst",
       "FP": "si",
       "JP": "no",
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSSNSNSLSSXSNNXNSNSASSSSSSSSSSLAS-SSSSNSSSANNNSS-SA-SSSNASSN"
     },
     {
+     "id": "S-20261028-0947",
      "fecha": "2026-10-28",
      "hora": "09:47AM",
      "asunto": "PROYECTO DE RESOLUCIÓN LEGISLATIVA 14-2026-2031-S, QUE PROPONE AUTORIZAR EL INGRESO Y TRÁNSITO DE UNA UNIDAD NAVAL Y DE PERSONAL MILITAR DE LA REPÚBLICA DE CHILE AL TERRITORIO DE LA REPÚBLICA DEL PERÚ. INICIATIVA. PODER EJECUTIVO.",
@@ -1099,9 +1288,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSSNSXSSSSSSNXXNSNSSSXSSXXSSXSLSSNSSXSNSXSNNNNX-SSS-SSXNSSSN"
     },
     {
+     "id": "S-20261021-1628",
      "fecha": "2026-10-21",
      "hora": "04:28PM",
      "asunto": "NÓMINA DE INTEGRANTES DE LA COMISIÓN ESPECIAL MULTIPARTIDARIA DE PROTECCIÓN INTEGRAL DE LA INFANCIA Y LA ADOLESCENCIA DEL SENADO DE LA REPUBLICA, ENCARGADA DE EFECTUAR EL SEGUIMIENTO Y LA EVALUACIÓN DEL CUMPLIMIENTO DE LA NORMATIVA NACIONAL, ASI COMO DE LA IMPLEMENTACION DE LAS POLÍTICAS PÚBLICAS, LOS PLANES Y LOS PROGRAMAS VINCULADOS CON LA INFANCIA Y LA ADOLESCENCIA; Y DE FISCALIZAR, EN EL MARCO DE SUS COMPETENCIAS, LA ACTUACIÓN DE LAS ENTIDADES DE LOS TRES NIVELES DE GOBIERNO EN ESTA MATERIA. (MOCIÓN 22)",
@@ -1110,10 +1301,12 @@
      "abst": 7,
      "por_bancada": {
       "AN": {
-       "si": 1
+       "si": 2,
+       "abst": 2
       },
       "FP": {
-       "si": 18
+       "si": 19,
+       "ausente": 1
       },
       "JP": {
        "si": 11,
@@ -1121,29 +1314,31 @@
        "ausente": 1
       },
       "PBG": {
-       "si": 4,
+       "abst": 4,
+       "si": 1,
        "sin_resp": 1,
-       "ausente": 1,
        "no": 1
       },
       "PCO": {
        "ausente": 2,
-       "si": 2
+       "si": 2,
+       "abst": 1
       },
       "RP": {
-       "si": 7
+       "si": 8
       }
      },
      "posicion": {
-      "AN": "si",
       "FP": "si",
       "JP": "si",
-      "PBG": "si",
+      "PBG": "abst",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSSSSXXSSAASSSSSSSSSALSSSRASSSASSRNSSSSSSSSRSSLSS-A-SSSSASSS"
     },
     {
+     "id": "S-20261021-1619",
      "fecha": "2026-10-21",
      "hora": "04:19PM",
      "asunto": "APROBAR LA SOLICITUD DE PRÓRROGA DEL PLAZO DEL ESTADO DE EMERGENCIA ESTABLECIDO MEDIANTE EL DECRETO SUPREMO 120- 2026-PCM, QUE DECLARA EL ESTADO DE EMERGENCIA EN EL DISTRITO DE ENCAÑADA DE LA PROVINCIA DE CAJAMARCA; EN EL DISTRITO",
@@ -1160,7 +1355,8 @@
       },
       "JP": {
        "si": 12,
-       "ausente": 1
+       "ausente": 1,
+       "abst": 1
       },
       "PBG": {
        "si": 6,
@@ -1181,9 +1377,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSSSXXSSSSSSSASSSSSSSLSSSSSSSSSSSSLSSSSSSSSSSSLSSSS-SSSS--SS"
     },
     {
+     "id": "S-20261021-1612",
      "fecha": "2026-10-21",
      "hora": "04:12PM",
      "asunto": "PROPUESTA DE DESIGNACIÓN DEL CANDIDATO NÚMERO 5 DEL ORDEN DE MÉRITO CONTENIDO EN EL INFORME FINAL, JUAN JOSÉ MARTHANS LEÓN, COMO MIEMBRO DEL DIRECTORIO DEL BANCO CENTRAL DE RESERVA DEL PERÚ",
@@ -1197,7 +1395,7 @@
        "sin_resp": 1
       },
       "FP": {
-       "si": 20
+       "si": 21
       },
       "JP": {
        "no": 12,
@@ -1205,7 +1403,7 @@
       },
       "PBG": {
        "no": 6,
-       "si": 1
+       "abst": 1
       },
       "PCO": {
        "ausente": 1,
@@ -1223,9 +1421,11 @@
       "PBG": "no",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSSXSXSSSANSNNSNSNSRNLSNSNNSSSNSSNNSSSNSXSNNNNSSSSS-SSSNNSSN"
     },
     {
+     "id": "S-20261021-1610",
      "fecha": "2026-10-21",
      "hora": "04:10PM",
      "asunto": "PROPUESTA DE DESIGNACIÓN DEL CANDIDATO NÚMERO 4 DEL ORDEN DE MÉRITO CONTENIDO EN EL INFORME FINAL, SANTIAGO FRANCISCO ROCA TAVELLA, COMO MIEMBRO DEL DIRECTORIO DEL BANCO CENTRAL DE RESERVA DEL PERU",
@@ -1249,7 +1449,8 @@
       },
       "PCO": {
        "ausente": 1,
-       "no": 3
+       "no": 3,
+       "abst": 1
       },
       "RP": {
        "ausente": 1,
@@ -1263,9 +1464,11 @@
       "PBG": "si",
       "PCO": "no",
       "RP": "no"
-     }
+     },
+     "votos": "NNNXNXNNNSSNSSNSNSNSSLNSNSSNNNSSNSSNNNNNXNSSSSNNNNA-NNNSSN-S"
     },
     {
+     "id": "S-20261021-1608",
      "fecha": "2026-10-21",
      "hora": "04:08PM",
      "asunto": "PROPUESTA DE DESIGNACIÓN DEL CANDIDATO NÚMERO 3 DEL ORDEN DE MÉRITO CONTENIDO EN EL INFORME FINAL, JOSÉ ANTONIO FERNÁNDEZ BACA LLAMOSAS, COMO MIEMBRO DEL DIRECTORIO DEL BANCO CENTRAL DE RESERVA DEL PERÚ",
@@ -1274,6 +1477,7 @@
      "abst": 2,
      "por_bancada": {
       "AN": {
+       "abst": 1,
        "si": 2,
        "no": 1
       },
@@ -1289,7 +1493,8 @@
       },
       "PCO": {
        "ausente": 1,
-       "no": 3
+       "no": 3,
+       "abst": 1
       },
       "RP": {
        "ausente": 1,
@@ -1303,9 +1508,11 @@
       "PBG": "si",
       "PCO": "no",
       "RP": "no"
-     }
+     },
+     "votos": "NNNXNXNNNSSNSSNSNSNNSLNSNSSNNNSANSSNNNS-XNSSSSNNNNA-NNNSSNNS"
     },
     {
+     "id": "S-20261021-1606",
      "fecha": "2026-10-21",
      "hora": "04:06PM",
      "asunto": "PROPUESTA DE DESIGNACIÓN DEL CANDIDATO NÚMERO 2 DEL ORDEN DE MÉRITO CONTENIDO EN EL INFORME FINAL, JOSÉ RICARDO STOK CAPELLA, COMO MIEMBRO DEL DIRECTORIO DEL BANCO CENTRAL DE RESERVA DEL PERU",
@@ -1314,39 +1521,42 @@
      "abst": 6,
      "por_bancada": {
       "AN": {
-       "no": 2,
-       "si": 1
+       "abst": 2,
+       "no": 2
       },
       "FP": {
-       "si": 17,
+       "si": 19,
        "no": 1
       },
       "JP": {
-       "no": 10,
+       "no": 11,
        "ausente": 2
       },
       "PBG": {
-       "ausente": 1,
-       "no": 3,
-       "si": 3
+       "abst": 4,
+       "si": 1,
+       "no": 2
       },
       "PCO": {
        "ausente": 1,
-       "si": 3
+       "si": 4
       },
       "RP": {
+       "ausente": 1,
        "si": 7
       }
      },
      "posicion": {
-      "AN": "no",
       "FP": "si",
       "JP": "no",
+      "PBG": "abst",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSSXSXSSSAASNNSNSNSAALSASSNSSSNASNNSSNNSXSNNNNS-SSS-SSS-NSSN"
     },
     {
+     "id": "S-20261021-1602",
      "fecha": "2026-10-21",
      "hora": "04:02PM",
      "asunto": "PROPUESTA DE DESIGNACIÓN DEL CANDIDATO NÚMERO 1 DEL ORDEN DE MÉRITO CONTENIDO EN EL INFORME FINAL, OSWALDO MOLINA CAMPODÓNICO, COMO MIEMBRO DEL DIRECTORIO DEL BANCO CENTRAL DE RESERVA DEL PERU",
@@ -1384,9 +1594,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSSXSXSSSSSSNNSNSNSNSLSSSSSSSSNSSNSSSSNSXSNNNNSS-SS-SSSNNSSN"
     },
     {
+     "id": "S-20261021-1329",
      "fecha": "2026-10-21",
      "hora": "01:29PM",
      "asunto": "TEXTO SUSTITUTORIO DEL PROYECTO DE LEY 13, QUE PROPONE LA LEY QUE DELEGA EN EL PODER EJECUTIVO LA FACULTAD DE LEGISLAR EN MATERIAS DE SEGURIDAD CIUDADANA Y DEL FENOMENO EL NINO",
@@ -1395,36 +1607,39 @@
      "abst": 6,
      "por_bancada": {
       "AN": {
-       "no": 3
+       "no": 4
       },
       "FP": {
-       "si": 18
+       "si": 20
       },
       "JP": {
        "no": 13
       },
       "PBG": {
-       "si": 6,
-       "no": 1
+       "abst": 5,
+       "si": 2
       },
       "PCO": {
        "ausente": 1,
-       "si": 3
+       "si": 3,
+       "abst": 1
       },
       "RP": {
-       "si": 6
+       "si": 8
       }
      },
      "posicion": {
       "AN": "no",
       "FP": "si",
       "JP": "no",
-      "PBG": "si",
+      "PBG": "abst",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSSNSNSSSAASNNSNSNSNALSSSSASSSNNS-ASSSNSSSNNNNSSSSA-SSSNNS-N"
     },
     {
+     "id": "S-20261007-1310",
      "fecha": "2026-10-07",
      "hora": "01:10PM",
      "asunto": "RECONSIDERACIÓN A LA VOTACIÓN POR LA QUE NO SE APROBÓ LA MOCIÓN DE ORDEN DEL DÍA 31, QUE PROPONE CONFORMAR LA COMISIÓN ESPECIAL MULTIPARTIDARIA DEL ESTUDIO Y SEGUIMIENTO DENOMINADA: \"COMISIÓN ESPECIAL DE SEGUIMIENTO ESTRATÉGICO PARA LA PREVENCIÓN DE CONFLICTOS SOCIALES\"",
@@ -1440,7 +1655,7 @@
        "ausente": 5
       },
       "JP": {
-       "si": 9,
+       "si": 10,
        "ausente": 4
       },
       "PBG": {
@@ -1463,9 +1678,11 @@
       "PBG": "no",
       "PCO": "si",
       "RP": "no"
-     }
+     },
+     "votos": "NXNSNSSLSNNNSXNSLXNSNSNNSSNNNNSSNSLLNNSNNNSSLLXNLNS-NNNSSNNS"
     },
     {
+     "id": "S-20260930-1251",
      "fecha": "2026-09-30",
      "hora": "12:51PM",
      "asunto": "ACUERDO DEL SENADO DE LA REPÚBLICA QUE APRUEBA LA SOLICITUD DE PRÓRROGA DEL PLAZO DEL ESTADO DE EMERGENCIA ESTABLECIDO MEDIANTE EL DECRETO SUPREMO 115-2026-PCM, SOLICITADA POR LA PRESIDENCIA DE LA REPUBLICA",
@@ -1502,9 +1719,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSSSSSSLSSSSSSSSSSXSSSSSSSSSSSSSSSLXSSSSSSSXSSLSSSS-SSXSSSS-"
     },
     {
+     "id": "S-20260930-1249",
      "fecha": "2026-09-30",
      "hora": "12:49PM",
      "asunto": "ACUERDO DEL SENADO DE LA REPÚBLICA QUE APRUEBA LA SOLICITUD DE PRÓRROGA DEL PLAZO DEL ESTADO DE EMERGENCIA ESTABLECIDO MEDIANTE EL DECRETO SUPREMO 114-2026-PCM, SOLICITADA POR LA PRESIDENCIA DE LA REPÚBLICA",
@@ -1521,7 +1740,8 @@
       },
       "JP": {
        "si": 11,
-       "ausente": 1
+       "ausente": 1,
+       "abst": 2
       },
       "PBG": {
        "si": 6,
@@ -1541,9 +1761,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSSSSSSLSSSSSASSSSXSSSSSSSSSSSSSSSLXSSSSSSSXSSLSSSS-SSXASSSS"
     },
     {
+     "id": "S-20260916-1957",
      "fecha": "2026-09-16",
      "hora": "07:57PM",
      "asunto": "INFORME FINAL Y PROYECTO DE RESOLUCIÓN LEGISLATIVA 9, RESOLUCIÓN LEGISLATIVA DEL SENADO QUE RATIFICA LA DESIGNACIÓN DEL PRESIDENTE DEL DIRECTORIO DEL BANCO CENTRAL DE RESERVA DEL PERU",
@@ -1582,9 +1804,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSXNSXSLSSSSNNSNSNSSSSSSSSSSLSSSSNLSSSNSXSSNNNSLSSS-SSSNSSSN"
     },
     {
+     "id": "S-20260916-1908",
      "fecha": "2026-09-16",
      "hora": "07:08PM",
      "asunto": "ACUERDO DEL SENADO DE LA REPÚBLICA QUE APRUEBA LA PRÓRROGA DEL PLAZO DEL ESTADO DE EMERGENCIA ESTABLECIDO MEDIANTE EL DECRETO SUPREMO 109-2026-PCM, SOLICITADO POR LA PRESIDENCIA DE LA REPÚBLICA",
@@ -1593,7 +1817,8 @@
      "abst": 1,
      "por_bancada": {
       "AN": {
-       "si": 3
+       "si": 3,
+       "abst": 1
       },
       "FP": {
        "si": 17,
@@ -1623,9 +1848,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SXSSSXSLSSSSSSSSSSSSSSSSSSSSLSSSSSLSSSSSXSSRSSSLSSS-XSXSASSS"
     },
     {
+     "id": "S-20260916-1906",
      "fecha": "2026-09-16",
      "hora": "07:06PM",
      "asunto": "ACUERDO DEL SENADO DE LA REPÚBLICA QUE APRUEBA LA PRÓRROGA DEL PLAZO DEL ESTADO DE EMERGENCIA ESTABLECIDO MEDIANTE EL DECRETO SUPREMO 108-2026-PCM, SOLICITADO POR LA PRESIDENCIA DE LA REPÚBLICA",
@@ -1638,7 +1865,7 @@
        "no": 2
       },
       "FP": {
-       "si": 16,
+       "si": 17,
        "ausente": 4
       },
       "JP": {
@@ -1664,9 +1891,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SXSNSXSLSSSSSNSNSNSSSSSS-SSSLSNSSNLSSSNSXSSNSNSLSSS-XSXNN-SN"
     },
     {
+     "id": "S-20260916-1904",
      "fecha": "2026-09-16",
      "hora": "07:04PM",
      "asunto": "ACUERDO DEL SENADO DE LA REPÚBLICA QUE APRUEBA LA PRÓRROGA DEL PLAZO DEL ESTADO DE EMERGENCIA ESTABLECIDO MEDIANTE EL DECRETO SUPREMO 110-2026-PCM, SOLICITADO POR LA PRESIDENCIA DE LA REPÚBLICA",
@@ -1679,7 +1908,7 @@
        "no": 2
       },
       "FP": {
-       "si": 16,
+       "si": 17,
        "ausente": 4
       },
       "JP": {
@@ -1687,7 +1916,8 @@
        "ausente": 1
       },
       "PBG": {
-       "si": 5,
+       "si": 4,
+       "abst": 1,
        "ausente": 1
       },
       "PCO": {
@@ -1704,9 +1934,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SXSNSXSLSASSNNSNSNSS-SSSSSSSLSNSS-LSSSNSXSNNNNSLSSS-XSXNNSSN"
     },
     {
+     "id": "S-20260916-1533",
      "fecha": "2026-09-16",
      "hora": "03:33PM",
      "asunto": "PROYECTO DE RESOLUCIÓN LEGISLATIVA 8, RESOLUCIÓN LEGISLATIVA QUE AUTORIZA A LA SEÑORA PRESIDENTA DE LA REPÚBLICA A SALIR DEL TERRITORIO NACIONAL DEL 21 AL 25 DE SETIEMBRE DE 2026",
@@ -1715,11 +1947,12 @@
      "abst": 3,
      "por_bancada": {
       "AN": {
-       "si": 2,
-       "ausente": 1
+       "si": 1,
+       "ausente": 1,
+       "abst": 2
       },
       "FP": {
-       "si": 14,
+       "si": 15,
        "ausente": 4
       },
       "JP": {
@@ -1732,7 +1965,8 @@
        "ausente": 1
       },
       "PCO": {
-       "si": 3
+       "si": 4,
+       "abst": 1
       },
       "RP": {
        "sin_resp": 1,
@@ -1740,15 +1974,17 @@
       }
      },
      "posicion": {
-      "AN": "si",
+      "AN": "abst",
       "FP": "si",
       "JP": "no",
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSSNSNSLSSSSNNLNSNSASSSSSSXSLSXSSN--SSNSRSNNNXS-SXA-SSSNASSR"
     },
     {
+     "id": "S-20260909-2037",
      "fecha": "2026-09-09",
      "hora": "08:37PM",
      "asunto": "ACUERDO DEL SENADO DE LA REPÚBLICA SOBRE EL DESARROLLO DE LAS SESIONES DE LOS ÓRGANOS DE LA ORGANIZACIÓN PARLAMENTARIA DEL SENADO",
@@ -1758,10 +1994,11 @@
      "por_bancada": {
       "AN": {
        "ausente": 1,
+       "abst": 2,
        "si": 1
       },
       "FP": {
-       "si": 15,
+       "si": 16,
        "ausente": 4
       },
       "JP": {
@@ -1769,27 +2006,29 @@
        "ausente": 1
       },
       "PBG": {
-       "si": 4,
+       "abst": 2,
        "ausente": 2,
+       "si": 2,
        "no": 1
       },
       "PCO": {
        "si": 5
       },
       "RP": {
-       "si": 7
+       "si": 8
       }
      },
      "posicion": {
-      "AN": "si",
+      "AN": "abst",
       "FP": "si",
       "JP": "si",
-      "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSSSXSSLSASSSXSSSSSSASXXSSNSSSAXSSLSSXSSSSSSS-SSSSS-S-SSASSS"
     },
     {
+     "id": "S-20260909-2033",
      "fecha": "2026-09-09",
      "hora": "08:33PM",
      "asunto": "PROPUESTA DE LA PRESIDENCIA PARA QUE EL MINISTRO DE RELACIONES EXTERIORES, ALFONSO CARLOS ESPÁ Y GARCÉS-ALVEAR, CONCURRA AL PLENO DEL SENADO EL 16 DE SETIEMBRE DE 2026 A LAS 15 HORAS",
@@ -1828,9 +2067,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSSSXXSLSSSSSXSSSSSSS-SSSSSXSSSXSSL-SXSXSSSSSLSSSSS-SSSSSSSS"
     },
     {
+     "id": "S-20260909-2032",
      "fecha": "2026-09-09",
      "hora": "08:32PM",
      "asunto": "TEXTO SUSTITUTORIO DE LA MOCIÓN 2, QUE PROPONE INVITAR AL MINISTRO DE RELACIONES EXTERIORES, ALFONSO CARLOS ESPÁ Y GARCÉSALVEAR, AL PLENO DEL SENADO DE LA REPÚBLICA, A FIN DE QUE INFORME SOBRE. LA INCORPORACIÓN DEL PERÚ AL DENOMINADO \"ESCUDO DE LAS AMÉRICAS\", PRECISANDO SU NATURALEZA JURÍDICA, ALCANCES POLÍTICOS Y OPERATIVOS, LOS COMPROMISOS ASUMIDOS POR EL ESTADO PERUANO, SU COMPATIBILIDAD CON LA SOBERANÍA NACIONAL Y LAS COMPETENCIAS CONSTITUCIONALES DEL CONGRESO DE LA REPÚBLICA, ASÍ COMO SUS IMPLICANCIAS PARA LA POLÍTICA EXTERIOR Y LAS RELACIONES INTERNACIONALES DEL PERÚ",
@@ -1869,9 +2110,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSSSXXSLSSSSSXSSSSSSS-SSSSSXSSSXSSLSSXSX-SSSSLSSSSS-SSSSSSSS"
     },
     {
+     "id": "S-20260909-1958",
      "fecha": "2026-09-09",
      "hora": "07:58PM",
      "asunto": "ADMISIÓN A DEBATE DE LA MOCIÓN 2, QUE PROPONE QUE EL SENADO DE LA REPÚBLICA INVITE AL SEÑOR ALFONSO CARLOS ESPÁ Y GARCÉS-ALVEAR, MINISTRO DE RELACIONES EXTERIORES, AL PLENO DEL SENADO DE LA REPÚBLICA PARA QUE INFORME SOBRE LA INCORPORACIÓN DEL PERÚ O NO AL ESCUDO DE LAS AMÉRICAS",
@@ -1912,9 +2155,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSSSXRSLSSSSSXSSRXSSSSXSSSSXSXSXSSLSSXSSSSSSSLSSSSS-SSSS-SXS"
     },
     {
+     "id": "S-20260909-1946",
      "fecha": "2026-09-09",
      "hora": "07:46PM",
      "asunto": "TEXTO SUSTITUTORIO DE LA MOCIÓN 71, QUE PROPONE CREAR LA COMISIÓN ESPECIAL MULTIPARTIDARIA DE SEGURIDAD CIUDADANA, ENCARGADA DEL SEGUIMIENTO, FISCALIZACIÓN, EVALUACIÓN Y FORMULACIÓN DE PROPUESTAS ORIENTADAS AL FORTALECIMIENTO DE LAS POLÍTICAS PÚBLICAS EN MATERIA DE SEGURIDAD CIUDADANA",
@@ -1932,18 +2177,18 @@
       },
       "JP": {
        "no": 9,
-       "si": 2,
+       "abst": 3,
        "ausente": 2
       },
       "PBG": {
-       "si": 5,
+       "si": 6,
        "ausente": 1
       },
       "PCO": {
        "si": 4
       },
       "RP": {
-       "si": 7
+       "si": 8
       }
      },
      "posicion": {
@@ -1953,9 +2198,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSSAXNSL-SSSAXSNSNSSSSSSSSSSSSXXSNLSSXNSSSNNNLSSSSS-SSSNXSSA"
     },
     {
+     "id": "S-20260909-1931",
      "fecha": "2026-09-09",
      "hora": "07:31PM",
      "asunto": "",
@@ -1968,7 +2215,7 @@
        "no": 1
       },
       "FP": {
-       "si": 17,
+       "si": 18,
        "ausente": 3
       },
       "JP": {
@@ -1997,9 +2244,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSXNXRSLSSXSNXSNSNSXSSSSSSSSSSNXXNLSSXNS-SSNXLSSSSN-XSSN-SSN"
     },
     {
+     "id": "S-20260909-1838",
      "fecha": "2026-09-09",
      "hora": "06:38PM",
      "asunto": "ADMISIÓN A DEBATE DE LA MOCIÓN 72, QUE PROPONE QUE EL SENADO DE LA REPÚBLICA CONSTITUYA UNA COMISIÓN ESPECIAL MULTIPARTIDARIA DE TRANSFERENCIA TECNOLÓGICA E INNOVACIÓN RURAL, ENCARGADA DE ESTUDIAR, REALIZAR SEGUIMIENTO, EVALUAR Y FORMULAR PROPUESTAS LEGISLATIVAS Y RECOMENDACIONES DE POLÍTICA PÚBLICA DESTINADAS A REDUCIR LAS BRECHAS DE INNOVACIÓN, CONOCIMIENTO Y TECNOLOGÍA EN EL SECTOR RURAL; ASIMISMO, TENDRÍA POR OBJETO EVALUAR LOS MARCOS NORMATIVOS, INSTITUCIONALES Y PRESUPUESTALES VINCULADOS CON LA TRANSFERENCIA DE TECNOLOGÍAS APROPIADAS, INNOVACIÓN PRODUCTIVA Y APLICACIÓN DEL CONOCIMIENTO CIENTÍFICO EN LAS ACTIVIDADES AGRARIAS Y AGROINDUSTRIALES RURALES",
@@ -2009,7 +2258,8 @@
      "por_bancada": {
       "AN": {
        "ausente": 1,
-       "si": 2
+       "si": 2,
+       "abst": 1
       },
       "FP": {
        "si": 18,
@@ -2038,9 +2288,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSXSSSSLSSSSSXSSSSSSSXSSXS-SSSSXSSSSSXSSSSSSSLSSSSX-XSSSASXS"
     },
     {
+     "id": "S-20260909-1826",
      "fecha": "2026-09-09",
      "hora": "06:26PM",
      "asunto": "RECONSIDERACIÓN DE LA VOTACIÓN DE LA MOCIÓN 22",
@@ -2077,9 +2329,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "no"
-     }
+     },
+     "votos": "NNNSNSSLSSSNSXNSNSNSSSNSS-SNNNSXNSSNNXSNNNSSSLNXNNS-NNNSSNNS"
     },
     {
+     "id": "S-20260909-1802",
      "fecha": "2026-09-09",
      "hora": "06:02PM",
      "asunto": "",
@@ -2089,10 +2343,10 @@
      "por_bancada": {
       "AN": {
        "ausente": 1,
-       "no": 2
+       "no": 3
       },
       "FP": {
-       "si": 16,
+       "si": 18,
        "ausente": 2
       },
       "JP": {
@@ -2104,8 +2358,9 @@
        "si": 1
       },
       "PCO": {
-       "si": 2,
-       "no": 2
+       "abst": 1,
+       "no": 2,
+       "si": 1
       },
       "RP": {
        "si": 8
@@ -2116,10 +2371,13 @@
       "FP": "si",
       "JP": "no",
       "PBG": "no",
+      "PCO": "no",
       "RP": "si"
-     }
+     },
+     "votos": "SSSNSNSL-NNSNXSNSNSNNASNNSNSSSNXSNNSSXNSSSNNNLSSSSN-SSSNNS-N"
     },
     {
+     "id": "S-20260909-1725",
      "fecha": "2026-09-09",
      "hora": "05:25PM",
      "asunto": "CUESTIÓN PREVIA PARA QUE PASE A LA COMISIÓN EN ASUNTOS DE SALUD, EDUCACIÓN, CULTURA, MUJER Y DESARROLLO SOCIAL Y DIGITAL LA MOCIÓN 22",
@@ -2160,9 +2418,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "no"
-     }
+     },
+     "votos": "NNNSNSNLXSSNSXNSNRNSSSNSSRSNNNSXNSSNNXSNNNSSSLNNNNS-NNNSSNNS"
     },
     {
+     "id": "S-20260909-1707",
      "fecha": "2026-09-09",
      "hora": "05:07PM",
      "asunto": "ADMISIÓN A DEBATE DE LA MOCIÓN 22, QUE PROPONE QUE EL SENADO DE LA REPÚBLICA CONSTITUYA UNA COMISIÓN ESPECIAL MULTIPARTIDARIA DE PROTECCIÓN INTEGRAL DE LA INFANCIA Y LA ADOLESCENCIA DEL SENADO DE LA REPÚBLICA, ENCARGADA DE REALIZAR LABORES DE SEGUIMIENTO; EVALUACIÓN DE LA LEGISLACIÓN NACIONAL; MONITOREO DE LAS POLÍTICAS Y PROGRAMAS SOCIALES MULTISECTORIALES (SALUD, EDUCACIÓN, PROTECCIÓN FRENTE A LA VIOLENCIA Y REDUCCIÓN DE LA POBREZA INFANTIL); Y DE FISCALIZACIÓN EN LOS TRES NIVELES DE GOBIERNO, DE FORMA QUE CONTRIBUYA A GARANTIZAR EL PLENO EJERCICIO DE LOS DERECHOS DE LAS NIÑAS, NIÑOS Y ADOLESCENTES EN EL PERÚ",
@@ -2190,7 +2450,7 @@
        "no": 1
       },
       "RP": {
-       "si": 6
+       "si": 7
       }
      },
      "posicion": {
@@ -2200,9 +2460,11 @@
       "PBG": "no",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSSNSNSLSNNSNXSNSNSNNSSNSNNSSSNXSNNSSXNS-SNNNLSSXSN-SSXNNSSN"
     },
     {
+     "id": "S-20260909-1639",
      "fecha": "2026-09-09",
      "hora": "04:39PM",
      "asunto": "ADMISIÓN A DEBATE DE LA MOCIÓN 31, QUE PROPONE QUE EL SENADO DE LA REPÚBLICA CONSTITUYA UNA COMISIÓN ESPECIAL MULTIPARTIDARIA DE SEGUIMIENTO ESTRATÉGICO PARA LA PREVENCIÓN DE CONFLICTOS SOCIALES, ORIENTADA A LA GOBERNABILIDAD Y LA PAZ SOCIAL EN EL PERÚ",
@@ -2241,9 +2503,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSSSSSSLSSSSSXSSSSXSSSSSSSSSSSSXSSLSSXSSSSSSSLSSSSS-SSSSSRSS"
     },
     {
+     "id": "S-20260909-1628",
      "fecha": "2026-09-09",
      "hora": "04:28PM",
      "asunto": "TEXTO SUSTITUTORIO DE LAS MOCIONES DE ORDEN DEL DÍA 18, 32 Y 45, QUE PROPONE CREAR LA COMISIÓN ESPECIAL DE SEGUIMIENTO, PREVENCIÓN Y RESPUESTA ANTE EL FENÓMENO EL NIÑO Y A LA GESTIÓN DEL RIESGO DE DESASTRES, COMO ÓRGANO PARLAMENTARIO ENCARGADO DE REALIZAR EL ESTUDIO, EVALUACIÓN Y SEGUIMIENTO ESPECIAL DE LAS POLÍTICAS, PLANES, PROGRAMAS, INTERVENCIONES Y MEDIDAS ADOPTADAS POR LAS ENTIDADES PÚBLICAS COMPETENTES",
@@ -2281,9 +2545,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSSSSS-LSSSSSXSSSSSSSSSSSS-SSSSXSSSSSXSSSSSSSLSSSSS-XSSSSSSS"
     },
     {
+     "id": "S-20260909-1601",
      "fecha": "2026-09-09",
      "hora": "04:01PM",
      "asunto": "ADMISIÓN A DEBATE DE LA MOCIÓN 45, QUE PROPONE QUE EL SENADO DE LA REPÚBLICA CONSTITUYA UNA COMISIÓN ESPECIAL MULTIPARTIDARIA ENCARGADA DEL SEGUIMIENTO, FISCALIZACIÓN, EVALUACIÓN Y FORMULACIÓN DE PROPUESTAS SOBRE LAS ACCIONES DE PREVENCIÓN, PREPARACIÓN, RESPUESTA, REHABILITACIÓN Y RECONSTRUCCIÓN FRENTE AL FENÓMENO EL NIÑO Y OTROS EVENTOS CLIMÁTICOS EXTREMOS",
@@ -2307,7 +2573,7 @@
        "si": 7
       },
       "PCO": {
-       "si": 3,
+       "si": 4,
        "ausente": 1
       },
       "RP": {
@@ -2321,9 +2587,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSSSSSSLSSSSSXSXSSSSSSSSXSSSSSSXSSSSSXSSSSSSS-SSSSS-SSXSSSSS"
     },
     {
+     "id": "S-20260909-1559",
      "fecha": "2026-09-09",
      "hora": "03:59PM",
      "asunto": "ADMISIÓN A DEBATE DE LA MOCIÓN 32, QUE PROPONE QUE EL SENADO DE LA REPÚBLICA CONSTITUYA UNA COMISIÓN ESPECIAL DE ESTUDIO Y SEGUIMIENTO DE LA EJECUCIÓN DE LOS RECURSOS PÚBLICOS DESTINADOS A LA PREVENCIÓN, REDUCCIÓN DEL RIESGO, PREPARACIÓN Y RESPUESTA FRENTE AL EVENTO EL NIÑO 2026 - 2027",
@@ -2361,9 +2629,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSSSXSSLSSSSSXSXSSSSSSSS-SSSSSSXSSSSSXSS-SSSSLSSSSS-SSXRSSSS"
     },
     {
+     "id": "S-20260909-1557",
      "fecha": "2026-09-09",
      "hora": "03:57PM",
      "asunto": "ADMISIÓN A DEBATE DE LA MOCIÓN 18, QUE PROPONE QUE EL SENADO DE LA REPÚBLICA CONSTITUYA UNA COMISIÓN ESPECIAL DE SEGUIMIENTO, PREVENCIÓN Y RESPUESTA ANTE EL FENÓMENO EL NIÑO Y A LA GESTIÓN DEL RIESGO DE DESASTRES, ENCARGADA DE REALIZAR EL ESTUDIO, EVALUACIÓN Y SEGUIMIENTO ESPECIAL DE LAS POLÍTICAS, PLANES, PROGRAMAS, INTERVENCIONES Y MEDIDAS ADOPTADAS POR LAS ENTIDADES PÚBLICAS COMPETENTES",
@@ -2376,11 +2646,12 @@
        "si": 3
       },
       "FP": {
-       "si": 15,
+       "si": 16,
        "ausente": 4
       },
       "JP": {
-       "si": 10,
+       "si": 9,
+       "abst": 2,
        "ausente": 3
       },
       "PBG": {
@@ -2400,9 +2671,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSSSXSSLSSSSSXSXSSSSSSSS-SSSSSSXSSSSSXASSSSASLSS-SS-SSXSSSSS"
     },
     {
+     "id": "S-20260909-1530",
      "fecha": "2026-09-09",
      "hora": "03:30PM",
      "asunto": "PROYECTO DE RESOLUCIÓN LEGISLATIVA 7, QUE AUTORIZA EL INGRESO DE UNA UNIDAD NAVAL Y DE PERSONAL MILITAR DEL ESTADO PLURINACIONAL DE BOLIVIA AL TERRITORIO DE LA REPÚBLICA DEL PERÚ, DEL 15 AL 18 DE SETIEMBRE DE 2026",
@@ -2442,9 +2715,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSSSSSSLSXSSSXSNSNSSSSSSSSSSSSSXSSSSSXSSSSSNSLSSSSS-S-SSSSSR"
     },
     {
+     "id": "S-20260909-1521",
      "fecha": "2026-09-09",
      "hora": "03:21PM",
      "asunto": "ACUERDO DE AUTORIZACIÓN DE LA PRÓRROGA DEL PLAZO DEL ESTADO DE EMERGENCIA ESTABLECIDO MEDIANTE EL DECRETO SUPREMO 111-2026-PCM, SOLICITADO POR LA PRESIDENCIA DE LA REPUBLICA",
@@ -2482,9 +2757,11 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSSSSXSLSSSSSXSSSSSSSSSSSSXSSS-XSSSSSXSSSSSSSLSSSSS-SSXSSSSS"
     },
     {
+     "id": "S-20260909-1518",
      "fecha": "2026-09-09",
      "hora": "03:18PM",
      "asunto": "ACUERDO DE AUTORIZACIÓN DE LA PRÓRROGA DEL PLAZO DEL ESTADO DE EMERGENCIA ESTABLECIDO MEDIANTE EL DECRETO SUPREMO 106-2026-PCM, SOLICITADO POR LA PRESIDENCIA DE LA REPÚBLICA",
@@ -2523,7 +2800,8 @@
       "PBG": "si",
       "PCO": "si",
       "RP": "si"
-     }
+     },
+     "votos": "SSSSSXSLSSSSSXSSSSRSSSSSSSXSSSSXSSSSSXSSSSSSSLSSSSS-SSXSSS--"
     }
    ],
    "sesiones": [
@@ -2620,20 +2898,82 @@
       "asistencia": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/Votaciones_y_Asistencias_Senado_24-7-2026.pdf"
      }
     }
+   ],
+   "nominal_orden": [
+    "Aguinaga Recuenco, Alejandro Aurelio",
+    "Alcorta Suero, María Lourdes Pía Luisa",
+    "Ampuero Meza, Katherine Milagros",
+    "Andrés Luján, Serafín",
+    "Arista Arbildo, José Berley",
+    "Armacanqui Morales, Saúl Andrés",
+    "Astucuri Laura, Roger Miguel",
+    "Astudillo Salcedo, César Augusto",
+    "Barragán Coloma, Daniel Hugo",
+    "Bonifaz Carmona, Nora",
+    "Caballero León, Carlos David",
+    "Calisto Giampietri, Francisco José",
+    "Castillo Terrones, José Mercedes",
+    "Ccahuana Aymachoque, Hugo Isaac",
+    "Chacón Trujillo, Nilza Merly",
+    "Chipana Chipana, José Moisés",
+    "Chávez Cossío, Martha Gladys",
+    "Cutipa Ccama, Víctor Raúl",
+    "Del Águila Cárdenas, Juan Carlos",
+    "Delgado Zegarra, Jaime Ricardo",
+    "Figallo Rivadeneyra, Flavio Felipe",
+    "Flores Córdova, Agripina María del Pilar",
+    "Flores Ruiz, Víctor Seferino",
+    "Flores Suárez, Juver Nilson",
+    "Gago Rodríguez, Walter Francisco",
+    "Gavidia Rodríguez, Jorge Octavio",
+    "Iturregui Byrne, Patricia Milagros",
+    "Jauregui Martínez de Aguayo, María de los Milagros Jackeline",
+    "Jiménez Heredia, David Julio",
+    "Juárez Gallegos, Carmen Patricia",
+    "Luque Ibarra, Ruth",
+    "López Chau Nava, Pablo Alfonso",
+    "Mancha Pineda, Estanislao Edgar",
+    "Maraví Olarte, Iber Antenor",
+    "Matute Charún, Susana Flor de María",
+    "Melgar Váldez, Elard Galo",
+    "Mesía Ramírez, Carlos Fernando",
+    "Miyashiro Arashiro, Marco Enrique",
+    "Morales Ramírez, Edyson Humberto",
+    "Moyano Delgado, Martha Lupe",
+    "Muñante Barrios, Alejandro",
+    "Noriega Reátegui, Víctor Manuel",
+    "Osorio Palpán, Percy Herbert",
+    "Quito Sarmiento, Bernardo Jaime",
+    "Ramos Huillcas, Andrés Avelino",
+    "Robles Araujo, Silvana Emperatriz",
+    "Rodrich Ackerman, Jacques Salomón",
+    "Rospigliosi Capurro, Fernando Miguel",
+    "Schaefer Cuculiza, Karla Melissa",
+    "Tapia Bernal, Segundo Leocadio",
+    "Ticona Cohaila, Juana Guisella",
+    "Torres Morales, Miguel Ángel",
+    "Velásquez García, Miguel Angel",
+    "Velásquez Portocarrero, Jorge",
+    "Ventura Ángel, Héctor José",
+    "Verano Saravia, Wilfredo",
+    "Vásquez Chuquilín, Mirtha Esther",
+    "Vásquez Villanueva, Absalón",
+    "Yamashiro Oré, Rafael Gustavo",
+    "Yauri Tunque, Joaquín"
    ]
   }
  },
  "calidad": {
   "D": {
    "asistencia_total": 44,
-   "nombres_sin_cruce": 46,
+   "nombres_sin_cruce": 11,
    "votacion_total": 32,
    "votacion_descartado": 13,
    "asistencia_descartado": 10
   },
   "S": {
    "asistencia_total": 37,
-   "nombres_sin_cruce": 29,
+   "nombres_sin_cruce": 5,
    "votacion_total": 45,
    "votacion_descartado": 5
   }
@@ -2649,8 +2989,8 @@
    "licencia": 3,
    "votaciones": 19,
    "si": 8,
-   "no": 8,
-   "abst": 0,
+   "no": 7,
+   "abst": 1,
    "no_voto": 3,
    "con_bancada": 15,
    "contra_bancada": 1,
@@ -2665,12 +3005,12 @@
    "ausente": 3,
    "licencia": 2,
    "votaciones": 19,
-   "si": 12,
-   "no": 3,
-   "abst": 0,
-   "no_voto": 4,
+   "si": 11,
+   "no": 2,
+   "abst": 3,
+   "no_voto": 3,
    "con_bancada": 10,
-   "contra_bancada": 5,
+   "contra_bancada": 6,
    "pct_asistencia": 90.6
   },
   {
@@ -2683,11 +3023,11 @@
    "licencia": 0,
    "votaciones": 19,
    "si": 15,
-   "no": 4,
-   "abst": 0,
+   "no": 2,
+   "abst": 2,
    "no_voto": 0,
-   "con_bancada": 17,
-   "contra_bancada": 2,
+   "con_bancada": 19,
+   "contra_bancada": 0,
    "pct_asistencia": 97.1
   },
   {
@@ -2700,11 +3040,11 @@
    "licencia": 2,
    "votaciones": 19,
    "si": 13,
-   "no": 3,
-   "abst": 0,
-   "no_voto": 3,
+   "no": 1,
+   "abst": 3,
+   "no_voto": 2,
    "con_bancada": 14,
-   "contra_bancada": 2,
+   "contra_bancada": 3,
    "pct_asistencia": 96.9
   },
   {
@@ -2717,8 +3057,8 @@
    "licencia": 0,
    "votaciones": 19,
    "si": 10,
-   "no": 8,
-   "abst": 0,
+   "no": 7,
+   "abst": 1,
    "no_voto": 1,
    "con_bancada": 17,
    "contra_bancada": 1,
@@ -2733,12 +3073,12 @@
    "ausente": 6,
    "licencia": 0,
    "votaciones": 19,
-   "si": 16,
+   "si": 15,
    "no": 1,
-   "abst": 0,
+   "abst": 1,
    "no_voto": 2,
-   "con_bancada": 17,
-   "contra_bancada": 0,
+   "con_bancada": 16,
+   "contra_bancada": 1,
    "pct_asistencia": 81.8
   },
   {
@@ -2762,18 +3102,18 @@
    "camara": "D",
    "nombre": "Andrade Salguero de Alvarez, Gladys Griselda",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 27,
+   "pases": 32,
+   "presente": 28,
    "ausente": 4,
    "licencia": 0,
-   "votaciones": 17,
-   "si": 9,
+   "votaciones": 19,
+   "si": 11,
    "no": 7,
    "abst": 0,
    "no_voto": 1,
-   "con_bancada": 16,
+   "con_bancada": 18,
    "contra_bancada": 0,
-   "pct_asistencia": 87.1
+   "pct_asistencia": 87.5
   },
   {
    "camara": "D",
@@ -2800,12 +3140,12 @@
    "presente": 19,
    "ausente": 12,
    "licencia": 3,
-   "votaciones": 17,
-   "si": 7,
+   "votaciones": 19,
+   "si": 9,
    "no": 0,
    "abst": 0,
    "no_voto": 10,
-   "con_bancada": 7,
+   "con_bancada": 9,
    "contra_bancada": 0,
    "pct_asistencia": 61.3
   },
@@ -2868,12 +3208,12 @@
    "presente": 28,
    "ausente": 6,
    "licencia": 0,
-   "votaciones": 17,
-   "si": 9,
-   "no": 5,
+   "votaciones": 19,
+   "si": 10,
+   "no": 6,
    "abst": 0,
    "no_voto": 3,
-   "con_bancada": 14,
+   "con_bancada": 16,
    "contra_bancada": 0,
    "pct_asistencia": 82.4
   },
@@ -2881,18 +3221,18 @@
    "camara": "D",
    "nombre": "Benitez Barrionuevo, Jessica",
    "sigla": "PBG",
-   "pases": 31,
-   "presente": 27,
+   "pases": 34,
+   "presente": 30,
    "ausente": 1,
    "licencia": 3,
    "votaciones": 19,
-   "si": 15,
+   "si": 13,
    "no": 2,
-   "abst": 0,
+   "abst": 2,
    "no_voto": 2,
    "con_bancada": 17,
    "contra_bancada": 0,
-   "pct_asistencia": 96.4
+   "pct_asistencia": 96.8
   },
   {
    "camara": "D",
@@ -2904,8 +3244,8 @@
    "licencia": 0,
    "votaciones": 19,
    "si": 10,
-   "no": 8,
-   "abst": 0,
+   "no": 7,
+   "abst": 1,
    "no_voto": 1,
    "con_bancada": 17,
    "contra_bancada": 1,
@@ -2919,12 +3259,12 @@
    "presente": 33,
    "ausente": 1,
    "licencia": 0,
-   "votaciones": 17,
-   "si": 9,
+   "votaciones": 19,
+   "si": 11,
    "no": 7,
    "abst": 0,
    "no_voto": 1,
-   "con_bancada": 16,
+   "con_bancada": 18,
    "contra_bancada": 0,
    "pct_asistencia": 97.1
   },
@@ -3017,8 +3357,8 @@
    "camara": "D",
    "nombre": "Castillo Rivas, Eduardo Enrique",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 25,
+   "pases": 34,
+   "presente": 28,
    "ausente": 6,
    "licencia": 0,
    "votaciones": 19,
@@ -3028,7 +3368,7 @@
    "no_voto": 5,
    "con_bancada": 14,
    "contra_bancada": 0,
-   "pct_asistencia": 80.6
+   "pct_asistencia": 82.4
   },
   {
    "camara": "D",
@@ -3040,11 +3380,11 @@
    "licencia": 0,
    "votaciones": 19,
    "si": 14,
-   "no": 4,
-   "abst": 0,
+   "no": 2,
+   "abst": 2,
    "no_voto": 1,
-   "con_bancada": 16,
-   "contra_bancada": 2,
+   "con_bancada": 18,
+   "contra_bancada": 0,
    "pct_asistencia": 97.1
   },
   {
@@ -3055,12 +3395,12 @@
    "presente": 31,
    "ausente": 3,
    "licencia": 0,
-   "votaciones": 17,
-   "si": 8,
+   "votaciones": 19,
+   "si": 10,
    "no": 7,
    "abst": 0,
    "no_voto": 2,
-   "con_bancada": 15,
+   "con_bancada": 17,
    "contra_bancada": 0,
    "pct_asistencia": 91.2
   },
@@ -3107,12 +3447,12 @@
    "ausente": 12,
    "licencia": 0,
    "votaciones": 19,
-   "si": 9,
+   "si": 8,
    "no": 6,
-   "abst": 0,
+   "abst": 1,
    "no_voto": 4,
-   "con_bancada": 15,
-   "contra_bancada": 0,
+   "con_bancada": 14,
+   "contra_bancada": 1,
    "pct_asistencia": 64.7
   },
   {
@@ -3225,12 +3565,12 @@
    "presente": 32,
    "ausente": 2,
    "licencia": 0,
-   "votaciones": 17,
-   "si": 10,
+   "votaciones": 18,
+   "si": 11,
    "no": 5,
    "abst": 0,
    "no_voto": 2,
-   "con_bancada": 15,
+   "con_bancada": 16,
    "contra_bancada": 0,
    "pct_asistencia": 94.1
   },
@@ -3259,12 +3599,12 @@
    "presente": 25,
    "ausente": 8,
    "licencia": 0,
-   "votaciones": 18,
-   "si": 9,
+   "votaciones": 19,
+   "si": 10,
    "no": 6,
    "abst": 0,
    "no_voto": 3,
-   "con_bancada": 15,
+   "con_bancada": 16,
    "contra_bancada": 0,
    "pct_asistencia": 75.8
   },
@@ -3272,18 +3612,18 @@
    "camara": "D",
    "nombre": "Duarte, Georgina",
    "sigla": "PBG",
-   "pases": 31,
+   "pases": 33,
    "presente": 23,
-   "ausente": 5,
+   "ausente": 7,
    "licencia": 3,
    "votaciones": 19,
-   "si": 13,
+   "si": 11,
    "no": 2,
-   "abst": 0,
+   "abst": 2,
    "no_voto": 4,
    "con_bancada": 15,
    "contra_bancada": 0,
-   "pct_asistencia": 82.1
+   "pct_asistencia": 76.7
   },
   {
    "camara": "D",
@@ -3294,9 +3634,9 @@
    "ausente": 3,
    "licencia": 0,
    "votaciones": 19,
-   "si": 15,
-   "no": 3,
-   "abst": 0,
+   "si": 13,
+   "no": 2,
+   "abst": 3,
    "no_voto": 1,
    "con_bancada": 17,
    "contra_bancada": 1,
@@ -3311,12 +3651,12 @@
    "ausente": 4,
    "licencia": 10,
    "votaciones": 19,
-   "si": 8,
+   "si": 7,
    "no": 0,
-   "abst": 0,
+   "abst": 1,
    "no_voto": 11,
-   "con_bancada": 8,
-   "contra_bancada": 0,
+   "con_bancada": 7,
+   "contra_bancada": 1,
    "pct_asistencia": 83.3
   },
   {
@@ -3345,9 +3685,9 @@
    "ausente": 1,
    "licencia": 1,
    "votaciones": 19,
-   "si": 17,
+   "si": 15,
    "no": 2,
-   "abst": 0,
+   "abst": 2,
    "no_voto": 0,
    "con_bancada": 19,
    "contra_bancada": 0,
@@ -3363,11 +3703,11 @@
    "licencia": 4,
    "votaciones": 15,
    "si": 12,
-   "no": 3,
-   "abst": 0,
+   "no": 1,
+   "abst": 2,
    "no_voto": 0,
-   "con_bancada": 13,
-   "contra_bancada": 2,
+   "con_bancada": 15,
+   "contra_bancada": 0,
    "pct_asistencia": 96.7
   },
   {
@@ -3379,12 +3719,12 @@
    "ausente": 0,
    "licencia": 0,
    "votaciones": 19,
-   "si": 11,
+   "si": 10,
    "no": 7,
-   "abst": 0,
+   "abst": 1,
    "no_voto": 1,
-   "con_bancada": 18,
-   "contra_bancada": 0,
+   "con_bancada": 17,
+   "contra_bancada": 1,
    "pct_asistencia": 100.0
   },
   {
@@ -3395,13 +3735,13 @@
    "presente": 34,
    "ausente": 0,
    "licencia": 0,
-   "votaciones": 18,
-   "si": 15,
-   "no": 3,
-   "abst": 0,
+   "votaciones": 19,
+   "si": 13,
+   "no": 4,
+   "abst": 2,
    "no_voto": 0,
-   "con_bancada": 18,
-   "contra_bancada": 0,
+   "con_bancada": 17,
+   "contra_bancada": 2,
    "pct_asistencia": 100.0
   },
   {
@@ -3412,12 +3752,12 @@
    "presente": 31,
    "ausente": 3,
    "licencia": 0,
-   "votaciones": 16,
-   "si": 10,
-   "no": 6,
+   "votaciones": 19,
+   "si": 11,
+   "no": 7,
    "abst": 0,
-   "no_voto": 0,
-   "con_bancada": 16,
+   "no_voto": 1,
+   "con_bancada": 18,
    "contra_bancada": 0,
    "pct_asistencia": 91.2
   },
@@ -3429,12 +3769,12 @@
    "presente": 34,
    "ausente": 0,
    "licencia": 0,
-   "votaciones": 17,
+   "votaciones": 19,
    "si": 15,
    "no": 2,
-   "abst": 0,
+   "abst": 2,
    "no_voto": 0,
-   "con_bancada": 17,
+   "con_bancada": 19,
    "contra_bancada": 0,
    "pct_asistencia": 100.0
   },
@@ -3446,12 +3786,12 @@
    "presente": 32,
    "ausente": 1,
    "licencia": 0,
-   "votaciones": 16,
+   "votaciones": 19,
    "si": 11,
-   "no": 5,
+   "no": 7,
    "abst": 0,
-   "no_voto": 0,
-   "con_bancada": 16,
+   "no_voto": 1,
+   "con_bancada": 18,
    "contra_bancada": 0,
    "pct_asistencia": 97.0
   },
@@ -3463,12 +3803,12 @@
    "presente": 33,
    "ausente": 1,
    "licencia": 0,
-   "votaciones": 18,
+   "votaciones": 19,
    "si": 14,
-   "no": 3,
+   "no": 4,
    "abst": 0,
    "no_voto": 1,
-   "con_bancada": 17,
+   "con_bancada": 18,
    "contra_bancada": 0,
    "pct_asistencia": 97.1
   },
@@ -3480,12 +3820,12 @@
    "presente": 31,
    "ausente": 3,
    "licencia": 0,
-   "votaciones": 17,
-   "si": 14,
+   "votaciones": 18,
+   "si": 13,
    "no": 1,
-   "abst": 0,
+   "abst": 2,
    "no_voto": 2,
-   "con_bancada": 15,
+   "con_bancada": 16,
    "contra_bancada": 0,
    "pct_asistencia": 91.2
   },
@@ -3549,9 +3889,9 @@
    "ausente": 1,
    "licencia": 0,
    "votaciones": 19,
-   "si": 17,
+   "si": 15,
    "no": 2,
-   "abst": 0,
+   "abst": 2,
    "no_voto": 0,
    "con_bancada": 19,
    "contra_bancada": 0,
@@ -3599,12 +3939,12 @@
    "presente": 30,
    "ausente": 1,
    "licencia": 3,
-   "votaciones": 17,
+   "votaciones": 19,
    "si": 13,
    "no": 2,
-   "abst": 0,
+   "abst": 2,
    "no_voto": 2,
-   "con_bancada": 15,
+   "con_bancada": 17,
    "contra_bancada": 0,
    "pct_asistencia": 96.8
   },
@@ -3633,12 +3973,12 @@
    "presente": 31,
    "ausente": 3,
    "licencia": 0,
-   "votaciones": 17,
-   "si": 8,
+   "votaciones": 19,
+   "si": 10,
    "no": 7,
    "abst": 0,
    "no_voto": 2,
-   "con_bancada": 15,
+   "con_bancada": 17,
    "contra_bancada": 0,
    "pct_asistencia": 91.2
   },
@@ -3650,12 +3990,12 @@
    "presente": 28,
    "ausente": 2,
    "licencia": 4,
-   "votaciones": 18,
+   "votaciones": 19,
    "si": 13,
-   "no": 3,
+   "no": 4,
    "abst": 0,
    "no_voto": 2,
-   "con_bancada": 16,
+   "con_bancada": 17,
    "contra_bancada": 0,
    "pct_asistencia": 93.3
   },
@@ -3736,12 +4076,12 @@
    "ausente": 1,
    "licencia": 0,
    "votaciones": 19,
-   "si": 16,
-   "no": 3,
-   "abst": 0,
+   "si": 15,
+   "no": 2,
+   "abst": 2,
    "no_voto": 0,
-   "con_bancada": 18,
-   "contra_bancada": 1,
+   "con_bancada": 19,
+   "contra_bancada": 0,
    "pct_asistencia": 97.1
   },
   {
@@ -3786,13 +4126,13 @@
    "presente": 24,
    "ausente": 10,
    "licencia": 0,
-   "votaciones": 17,
+   "votaciones": 19,
    "si": 14,
-   "no": 2,
+   "no": 4,
    "abst": 0,
    "no_voto": 1,
    "con_bancada": 16,
-   "contra_bancada": 0,
+   "contra_bancada": 2,
    "pct_asistencia": 70.6
   },
   {
@@ -3854,12 +4194,12 @@
    "presente": 29,
    "ausente": 2,
    "licencia": 3,
-   "votaciones": 18,
-   "si": 14,
+   "votaciones": 19,
+   "si": 15,
    "no": 2,
    "abst": 0,
    "no_voto": 2,
-   "con_bancada": 16,
+   "con_bancada": 17,
    "contra_bancada": 0,
    "pct_asistencia": 93.5
   },
@@ -3873,11 +4213,11 @@
    "licencia": 0,
    "votaciones": 18,
    "si": 16,
-   "no": 2,
-   "abst": 0,
+   "no": 1,
+   "abst": 1,
    "no_voto": 0,
-   "con_bancada": 18,
-   "contra_bancada": 0,
+   "con_bancada": 17,
+   "contra_bancada": 1,
    "pct_asistencia": 97.1
   },
   {
@@ -3940,9 +4280,9 @@
    "ausente": 2,
    "licencia": 0,
    "votaciones": 18,
-   "si": 16,
+   "si": 14,
    "no": 2,
-   "abst": 0,
+   "abst": 2,
    "no_voto": 0,
    "con_bancada": 18,
    "contra_bancada": 0,
@@ -4024,13 +4364,13 @@
    "presente": 25,
    "ausente": 1,
    "licencia": 8,
-   "votaciones": 17,
-   "si": 7,
+   "votaciones": 19,
+   "si": 8,
    "no": 3,
-   "abst": 0,
+   "abst": 1,
    "no_voto": 7,
-   "con_bancada": 10,
-   "contra_bancada": 0,
+   "con_bancada": 11,
+   "contra_bancada": 1,
    "pct_asistencia": 96.2
   },
   {
@@ -4041,12 +4381,12 @@
    "presente": 31,
    "ausente": 3,
    "licencia": 0,
-   "votaciones": 16,
-   "si": 8,
-   "no": 6,
+   "votaciones": 19,
+   "si": 10,
+   "no": 7,
    "abst": 0,
    "no_voto": 2,
-   "con_bancada": 14,
+   "con_bancada": 17,
    "contra_bancada": 0,
    "pct_asistencia": 91.2
   },
@@ -4058,12 +4398,12 @@
    "presente": 33,
    "ausente": 1,
    "licencia": 0,
-   "votaciones": 18,
-   "si": 13,
+   "votaciones": 19,
+   "si": 14,
    "no": 4,
    "abst": 0,
    "no_voto": 1,
-   "con_bancada": 17,
+   "con_bancada": 18,
    "contra_bancada": 0,
    "pct_asistencia": 97.1
   },
@@ -4075,12 +4415,12 @@
    "presente": 28,
    "ausente": 6,
    "licencia": 0,
-   "votaciones": 17,
+   "votaciones": 19,
    "si": 13,
-   "no": 2,
+   "no": 4,
    "abst": 0,
    "no_voto": 2,
-   "con_bancada": 15,
+   "con_bancada": 17,
    "contra_bancada": 0,
    "pct_asistencia": 82.4
   },
@@ -4109,12 +4449,12 @@
    "presente": 30,
    "ausente": 4,
    "licencia": 0,
-   "votaciones": 17,
-   "si": 9,
+   "votaciones": 19,
+   "si": 11,
    "no": 7,
    "abst": 0,
    "no_voto": 1,
-   "con_bancada": 16,
+   "con_bancada": 18,
    "contra_bancada": 0,
    "pct_asistencia": 88.2
   },
@@ -4126,12 +4466,12 @@
    "presente": 29,
    "ausente": 4,
    "licencia": 1,
-   "votaciones": 18,
-   "si": 8,
+   "votaciones": 19,
+   "si": 9,
    "no": 7,
    "abst": 0,
    "no_voto": 3,
-   "con_bancada": 15,
+   "con_bancada": 16,
    "contra_bancada": 0,
    "pct_asistencia": 87.9
   },
@@ -4177,12 +4517,12 @@
    "presente": 34,
    "ausente": 0,
    "licencia": 0,
-   "votaciones": 16,
-   "si": 12,
+   "votaciones": 18,
+   "si": 14,
    "no": 4,
    "abst": 0,
    "no_voto": 0,
-   "con_bancada": 16,
+   "con_bancada": 18,
    "contra_bancada": 0,
    "pct_asistencia": 100.0
   },
@@ -4211,12 +4551,12 @@
    "presente": 31,
    "ausente": 3,
    "licencia": 0,
-   "votaciones": 17,
-   "si": 15,
+   "votaciones": 19,
+   "si": 17,
    "no": 2,
    "abst": 0,
    "no_voto": 0,
-   "con_bancada": 17,
+   "con_bancada": 19,
    "contra_bancada": 0,
    "pct_asistencia": 91.2
   },
@@ -4245,12 +4585,12 @@
    "presente": 31,
    "ausente": 3,
    "licencia": 0,
-   "votaciones": 17,
+   "votaciones": 19,
    "si": 15,
    "no": 2,
-   "abst": 0,
+   "abst": 2,
    "no_voto": 0,
-   "con_bancada": 17,
+   "con_bancada": 19,
    "contra_bancada": 0,
    "pct_asistencia": 91.2
   },
@@ -4262,12 +4602,12 @@
    "presente": 32,
    "ausente": 2,
    "licencia": 0,
-   "votaciones": 17,
+   "votaciones": 19,
    "si": 14,
-   "no": 2,
+   "no": 4,
    "abst": 0,
    "no_voto": 1,
-   "con_bancada": 16,
+   "con_bancada": 18,
    "contra_bancada": 0,
    "pct_asistencia": 94.1
   },
@@ -4292,18 +4632,18 @@
    "camara": "D",
    "nombre": "Quezada Castro, Geanmarco Antonio",
    "sigla": "FP",
-   "pases": 31,
-   "presente": 30,
+   "pases": 33,
+   "presente": 32,
    "ausente": 1,
    "licencia": 0,
-   "votaciones": 15,
-   "si": 7,
+   "votaciones": 19,
+   "si": 11,
    "no": 7,
    "abst": 0,
    "no_voto": 1,
-   "con_bancada": 14,
+   "con_bancada": 18,
    "contra_bancada": 0,
-   "pct_asistencia": 96.8
+   "pct_asistencia": 97.0
   },
   {
    "camara": "D",
@@ -4313,12 +4653,12 @@
    "presente": 29,
    "ausente": 5,
    "licencia": 0,
-   "votaciones": 17,
+   "votaciones": 19,
    "si": 14,
    "no": 2,
-   "abst": 0,
+   "abst": 2,
    "no_voto": 1,
-   "con_bancada": 16,
+   "con_bancada": 18,
    "contra_bancada": 0,
    "pct_asistencia": 85.3
   },
@@ -4364,13 +4704,13 @@
    "presente": 30,
    "ausente": 4,
    "licencia": 0,
-   "votaciones": 18,
+   "votaciones": 19,
    "si": 10,
    "no": 7,
-   "abst": 0,
+   "abst": 1,
    "no_voto": 1,
    "con_bancada": 17,
-   "contra_bancada": 0,
+   "contra_bancada": 1,
    "pct_asistencia": 88.2
   },
   {
@@ -4411,18 +4751,18 @@
    "camara": "D",
    "nombre": "Samanez Gonzales Vigil, Jeenny Cristina",
    "sigla": "PCO",
-   "pases": 31,
-   "presente": 21,
+   "pases": 34,
+   "presente": 24,
    "ausente": 10,
    "licencia": 0,
-   "votaciones": 16,
-   "si": 9,
+   "votaciones": 18,
+   "si": 11,
    "no": 0,
    "abst": 0,
    "no_voto": 7,
-   "con_bancada": 9,
+   "con_bancada": 11,
    "contra_bancada": 0,
-   "pct_asistencia": 67.7
+   "pct_asistencia": 70.6
   },
   {
    "camara": "D",
@@ -4483,13 +4823,13 @@
    "presente": 19,
    "ausente": 9,
    "licencia": 6,
-   "votaciones": 17,
-   "si": 5,
-   "no": 2,
+   "votaciones": 19,
+   "si": 6,
+   "no": 3,
    "abst": 0,
    "no_voto": 10,
-   "con_bancada": 7,
-   "contra_bancada": 0,
+   "con_bancada": 8,
+   "contra_bancada": 1,
    "pct_asistencia": 67.9
   },
   {
@@ -4547,16 +4887,16 @@
    "camara": "D",
    "nombre": "Tapullima Insapillo, Jacqueline Viviana",
    "sigla": "JP",
-   "pases": 31,
-   "presente": 31,
+   "pases": 34,
+   "presente": 34,
    "ausente": 0,
    "licencia": 0,
-   "votaciones": 17,
-   "si": 13,
+   "votaciones": 19,
+   "si": 15,
    "no": 4,
    "abst": 0,
    "no_voto": 0,
-   "con_bancada": 17,
+   "con_bancada": 19,
    "contra_bancada": 0,
    "pct_asistencia": 100.0
   },
@@ -4619,12 +4959,12 @@
    "presente": 29,
    "ausente": 2,
    "licencia": 3,
-   "votaciones": 16,
+   "votaciones": 19,
    "si": 13,
-   "no": 1,
-   "abst": 0,
+   "no": 2,
+   "abst": 2,
    "no_voto": 2,
-   "con_bancada": 14,
+   "con_bancada": 17,
    "contra_bancada": 0,
    "pct_asistencia": 93.5
   },
@@ -4687,12 +5027,12 @@
    "presente": 31,
    "ausente": 3,
    "licencia": 0,
-   "votaciones": 16,
-   "si": 8,
+   "votaciones": 18,
+   "si": 10,
    "no": 7,
    "abst": 0,
    "no_voto": 1,
-   "con_bancada": 15,
+   "con_bancada": 17,
    "contra_bancada": 0,
    "pct_asistencia": 91.2
   },
@@ -4772,12 +5112,12 @@
    "presente": 28,
    "ausente": 6,
    "licencia": 0,
-   "votaciones": 18,
-   "si": 11,
+   "votaciones": 19,
+   "si": 12,
    "no": 6,
    "abst": 0,
    "no_voto": 1,
-   "con_bancada": 17,
+   "con_bancada": 18,
    "contra_bancada": 0,
    "pct_asistencia": 82.4
   },
@@ -4853,18 +5193,18 @@
    "camara": "S",
    "nombre": "Aguinaga Recuenco, Alejandro Aurelio",
    "sigla": "FP",
-   "pases": 20,
-   "presente": 16,
+   "pases": 36,
+   "presente": 32,
    "ausente": 4,
    "licencia": 0,
-   "votaciones": 38,
-   "si": 33,
+   "votaciones": 40,
+   "si": 35,
    "no": 5,
    "abst": 0,
    "no_voto": 0,
-   "con_bancada": 38,
+   "con_bancada": 40,
    "contra_bancada": 0,
-   "pct_asistencia": 80.0
+   "pct_asistencia": 88.9
   },
   {
    "camara": "S",
@@ -4874,12 +5214,12 @@
    "presente": 35,
    "ausente": 2,
    "licencia": 0,
-   "votaciones": 39,
-   "si": 30,
+   "votaciones": 40,
+   "si": 31,
    "no": 4,
    "abst": 0,
    "no_voto": 5,
-   "con_bancada": 34,
+   "con_bancada": 35,
    "contra_bancada": 0,
    "pct_asistencia": 94.6
   },
@@ -4909,9 +5249,9 @@
    "ausente": 4,
    "licencia": 0,
    "votaciones": 40,
-   "si": 24,
+   "si": 23,
    "no": 11,
-   "abst": 0,
+   "abst": 1,
    "no_voto": 5,
    "con_bancada": 34,
    "contra_bancada": 1,
@@ -4959,13 +5299,13 @@
    "presente": 36,
    "ausente": 1,
    "licencia": 0,
-   "votaciones": 38,
-   "si": 34,
+   "votaciones": 39,
+   "si": 35,
    "no": 3,
    "abst": 0,
    "no_voto": 1,
-   "con_bancada": 35,
-   "contra_bancada": 1,
+   "con_bancada": 36,
+   "contra_bancada": 2,
    "pct_asistencia": 97.3
   },
   {
@@ -4993,12 +5333,12 @@
    "presente": 34,
    "ausente": 1,
    "licencia": 2,
-   "votaciones": 37,
-   "si": 34,
+   "votaciones": 38,
+   "si": 35,
    "no": 2,
    "abst": 0,
    "no_voto": 1,
-   "con_bancada": 36,
+   "con_bancada": 37,
    "contra_bancada": 0,
    "pct_asistencia": 97.1
   },
@@ -5011,12 +5351,12 @@
    "ausente": 4,
    "licencia": 0,
    "votaciones": 40,
-   "si": 36,
+   "si": 30,
    "no": 3,
-   "abst": 0,
+   "abst": 6,
    "no_voto": 1,
-   "con_bancada": 37,
-   "contra_bancada": 1,
+   "con_bancada": 36,
+   "contra_bancada": 2,
    "pct_asistencia": 89.2
   },
   {
@@ -5028,12 +5368,12 @@
    "ausente": 6,
    "licencia": 0,
    "votaciones": 40,
-   "si": 30,
-   "no": 5,
-   "abst": 0,
+   "si": 28,
+   "no": 4,
+   "abst": 3,
    "no_voto": 5,
-   "con_bancada": 33,
-   "contra_bancada": 1,
+   "con_bancada": 34,
+   "contra_bancada": 0,
    "pct_asistencia": 83.8
   },
   {
@@ -5061,12 +5401,12 @@
    "presente": 36,
    "ausente": 1,
    "licencia": 0,
-   "votaciones": 39,
+   "votaciones": 40,
    "si": 25,
    "no": 14,
-   "abst": 0,
+   "abst": 1,
    "no_voto": 0,
-   "con_bancada": 36,
+   "con_bancada": 37,
    "contra_bancada": 3,
    "pct_asistencia": 97.3
   },
@@ -5079,12 +5419,12 @@
    "ausente": 23,
    "licencia": 0,
    "votaciones": 40,
-   "si": 8,
+   "si": 6,
    "no": 11,
-   "abst": 0,
+   "abst": 2,
    "no_voto": 21,
-   "con_bancada": 18,
-   "contra_bancada": 1,
+   "con_bancada": 16,
+   "contra_bancada": 3,
    "pct_asistencia": 37.8
   },
   {
@@ -5095,12 +5435,12 @@
    "presente": 31,
    "ausente": 4,
    "licencia": 2,
-   "votaciones": 39,
-   "si": 29,
+   "votaciones": 40,
+   "si": 30,
    "no": 5,
    "abst": 0,
    "no_voto": 5,
-   "con_bancada": 34,
+   "con_bancada": 35,
    "contra_bancada": 0,
    "pct_asistencia": 88.6
   },
@@ -5180,12 +5520,12 @@
    "presente": 33,
    "ausente": 4,
    "licencia": 0,
-   "votaciones": 39,
-   "si": 33,
-   "no": 4,
-   "abst": 0,
+   "votaciones": 40,
+   "si": 28,
+   "no": 5,
+   "abst": 5,
    "no_voto": 2,
-   "con_bancada": 33,
+   "con_bancada": 32,
    "contra_bancada": 2,
    "pct_asistencia": 89.2
   },
@@ -5198,10 +5538,10 @@
    "ausente": 3,
    "licencia": 0,
    "votaciones": 39,
-   "si": 34,
+   "si": 31,
    "no": 4,
-   "abst": 0,
-   "no_voto": 1,
+   "abst": 4,
+   "no_voto": 0,
    "con_bancada": 38,
    "contra_bancada": 0,
    "pct_asistencia": 91.9
@@ -5215,12 +5555,12 @@
    "ausente": 9,
    "licencia": 5,
    "votaciones": 38,
-   "si": 28,
+   "si": 27,
    "no": 0,
-   "abst": 0,
+   "abst": 1,
    "no_voto": 10,
    "con_bancada": 27,
-   "contra_bancada": 0,
+   "contra_bancada": 1,
    "pct_asistencia": 71.9
   },
   {
@@ -5248,13 +5588,13 @@
    "presente": 29,
    "ausente": 8,
    "licencia": 0,
-   "votaciones": 39,
-   "si": 33,
-   "no": 5,
-   "abst": 0,
+   "votaciones": 40,
+   "si": 34,
+   "no": 4,
+   "abst": 1,
    "no_voto": 1,
    "con_bancada": 37,
-   "contra_bancada": 0,
+   "contra_bancada": 2,
    "pct_asistencia": 78.4
   },
   {
@@ -5270,7 +5610,7 @@
    "no": 3,
    "abst": 0,
    "no_voto": 3,
-   "con_bancada": 33,
+   "con_bancada": 34,
    "contra_bancada": 0,
    "pct_asistencia": 81.1
   },
@@ -5287,8 +5627,8 @@
    "no": 2,
    "abst": 0,
    "no_voto": 3,
-   "con_bancada": 33,
-   "contra_bancada": 2,
+   "con_bancada": 31,
+   "contra_bancada": 4,
    "pct_asistencia": 94.6
   },
   {
@@ -5300,11 +5640,11 @@
    "ausente": 6,
    "licencia": 0,
    "votaciones": 38,
-   "si": 28,
+   "si": 27,
    "no": 6,
-   "abst": 0,
-   "no_voto": 4,
-   "con_bancada": 32,
+   "abst": 2,
+   "no_voto": 3,
+   "con_bancada": 33,
    "contra_bancada": 1,
    "pct_asistencia": 83.8
   },
@@ -5350,12 +5690,12 @@
    "presente": 36,
    "ausente": 1,
    "licencia": 0,
-   "votaciones": 34,
-   "si": 28,
+   "votaciones": 40,
+   "si": 34,
    "no": 5,
    "abst": 0,
    "no_voto": 1,
-   "con_bancada": 33,
+   "con_bancada": 39,
    "contra_bancada": 0,
    "pct_asistencia": 97.3
   },
@@ -5367,10 +5707,10 @@
    "presente": 26,
    "ausente": 8,
    "licencia": 3,
-   "votaciones": 36,
+   "votaciones": 38,
    "si": 21,
    "no": 9,
-   "abst": 0,
+   "abst": 2,
    "no_voto": 6,
    "con_bancada": 28,
    "contra_bancada": 0,
@@ -5384,13 +5724,13 @@
    "presente": 16,
    "ausente": 21,
    "licencia": 0,
-   "votaciones": 34,
-   "si": 15,
-   "no": 0,
-   "abst": 0,
+   "votaciones": 40,
+   "si": 16,
+   "no": 1,
+   "abst": 4,
    "no_voto": 19,
-   "con_bancada": 11,
-   "contra_bancada": 2,
+   "con_bancada": 12,
+   "contra_bancada": 5,
    "pct_asistencia": 43.2
   },
   {
@@ -5401,12 +5741,12 @@
    "presente": 34,
    "ausente": 3,
    "licencia": 0,
-   "votaciones": 39,
-   "si": 33,
+   "votaciones": 40,
+   "si": 34,
    "no": 5,
    "abst": 0,
    "no_voto": 1,
-   "con_bancada": 38,
+   "con_bancada": 39,
    "contra_bancada": 0,
    "pct_asistencia": 91.9
   },
@@ -5418,12 +5758,12 @@
    "presente": 37,
    "ausente": 0,
    "licencia": 0,
-   "votaciones": 33,
-   "si": 21,
+   "votaciones": 35,
+   "si": 23,
    "no": 11,
    "abst": 0,
    "no_voto": 1,
-   "con_bancada": 32,
+   "con_bancada": 34,
    "contra_bancada": 0,
    "pct_asistencia": 100.0
   },
@@ -5436,12 +5776,12 @@
    "ausente": 2,
    "licencia": 15,
    "votaciones": 39,
-   "si": 19,
+   "si": 18,
    "no": 5,
-   "abst": 0,
+   "abst": 1,
    "no_voto": 15,
    "con_bancada": 22,
-   "contra_bancada": 1,
+   "contra_bancada": 2,
    "pct_asistencia": 90.9
   },
   {
@@ -5504,12 +5844,12 @@
    "ausente": 1,
    "licencia": 0,
    "votaciones": 40,
-   "si": 24,
+   "si": 23,
    "no": 16,
-   "abst": 0,
+   "abst": 1,
    "no_voto": 0,
-   "con_bancada": 39,
-   "contra_bancada": 1,
+   "con_bancada": 38,
+   "contra_bancada": 2,
    "pct_asistencia": 97.3
   },
   {
@@ -5520,12 +5860,12 @@
    "presente": 35,
    "ausente": 2,
    "licencia": 0,
-   "votaciones": 34,
-   "si": 28,
+   "votaciones": 39,
+   "si": 33,
    "no": 4,
    "abst": 0,
    "no_voto": 2,
-   "con_bancada": 32,
+   "con_bancada": 37,
    "contra_bancada": 0,
    "pct_asistencia": 94.6
   },
@@ -5537,12 +5877,12 @@
    "presente": 29,
    "ausente": 8,
    "licencia": 0,
-   "votaciones": 32,
-   "si": 19,
+   "votaciones": 36,
+   "si": 22,
    "no": 3,
    "abst": 0,
-   "no_voto": 10,
-   "con_bancada": 22,
+   "no_voto": 11,
+   "con_bancada": 25,
    "contra_bancada": 0,
    "pct_asistencia": 78.4
   },
@@ -5554,12 +5894,12 @@
    "presente": 37,
    "ausente": 0,
    "licencia": 0,
-   "votaciones": 39,
-   "si": 34,
+   "votaciones": 40,
+   "si": 35,
    "no": 5,
    "abst": 0,
    "no_voto": 0,
-   "con_bancada": 39,
+   "con_bancada": 40,
    "contra_bancada": 0,
    "pct_asistencia": 100.0
   },
@@ -5571,13 +5911,13 @@
    "presente": 35,
    "ausente": 2,
    "licencia": 0,
-   "votaciones": 39,
+   "votaciones": 40,
    "si": 29,
    "no": 10,
-   "abst": 0,
+   "abst": 1,
    "no_voto": 0,
    "con_bancada": 35,
-   "contra_bancada": 4,
+   "contra_bancada": 5,
    "pct_asistencia": 94.6
   },
   {
@@ -5588,13 +5928,13 @@
    "presente": 33,
    "ausente": 4,
    "licencia": 0,
-   "votaciones": 38,
+   "votaciones": 40,
    "si": 17,
-   "no": 16,
-   "abst": 0,
+   "no": 17,
+   "abst": 1,
    "no_voto": 5,
-   "con_bancada": 31,
-   "contra_bancada": 2,
+   "con_bancada": 32,
+   "contra_bancada": 3,
    "pct_asistencia": 89.2
   },
   {
@@ -5639,12 +5979,12 @@
    "presente": 27,
    "ausente": 6,
    "licencia": 4,
-   "votaciones": 38,
-   "si": 29,
+   "votaciones": 40,
+   "si": 30,
    "no": 4,
    "abst": 0,
-   "no_voto": 5,
-   "con_bancada": 33,
+   "no_voto": 6,
+   "con_bancada": 34,
    "contra_bancada": 0,
    "pct_asistencia": 81.8
   },
@@ -5707,13 +6047,13 @@
    "presente": 33,
    "ausente": 4,
    "licencia": 0,
-   "votaciones": 30,
-   "si": 26,
+   "votaciones": 40,
+   "si": 27,
    "no": 3,
-   "abst": 0,
+   "abst": 9,
    "no_voto": 1,
-   "con_bancada": 26,
-   "contra_bancada": 2,
+   "con_bancada": 28,
+   "contra_bancada": 11,
    "pct_asistencia": 89.2
   },
   {
@@ -5741,12 +6081,12 @@
    "presente": 33,
    "ausente": 4,
    "licencia": 0,
-   "votaciones": 39,
-   "si": 28,
+   "votaciones": 40,
+   "si": 29,
    "no": 5,
    "abst": 0,
    "no_voto": 6,
-   "con_bancada": 33,
+   "con_bancada": 34,
    "contra_bancada": 0,
    "pct_asistencia": 89.2
   },
@@ -5792,13 +6132,13 @@
    "presente": 33,
    "ausente": 4,
    "licencia": 0,
-   "votaciones": 38,
+   "votaciones": 39,
    "si": 21,
    "no": 14,
-   "abst": 0,
+   "abst": 1,
    "no_voto": 3,
    "con_bancada": 34,
-   "contra_bancada": 1,
+   "contra_bancada": 2,
    "pct_asistencia": 89.2
   },
   {
@@ -5809,13 +6149,13 @@
    "presente": 30,
    "ausente": 7,
    "licencia": 0,
-   "votaciones": 28,
+   "votaciones": 37,
    "si": 19,
    "no": 8,
-   "abst": 0,
+   "abst": 9,
    "no_voto": 1,
-   "con_bancada": 25,
-   "contra_bancada": 0,
+   "con_bancada": 29,
+   "contra_bancada": 3,
    "pct_asistencia": 81.1
   },
   {
@@ -5843,12 +6183,12 @@
    "presente": 33,
    "ausente": 4,
    "licencia": 0,
-   "votaciones": 35,
-   "si": 29,
+   "votaciones": 36,
+   "si": 30,
    "no": 4,
    "abst": 0,
    "no_voto": 2,
-   "con_bancada": 33,
+   "con_bancada": 34,
    "contra_bancada": 0,
    "pct_asistencia": 89.2
   },
@@ -5860,19 +6200,20 @@
    "presente": 37,
    "ausente": 0,
    "licencia": 0,
-   "votaciones": 37,
+   "votaciones": 38,
    "si": 22,
    "no": 13,
-   "abst": 0,
+   "abst": 1,
    "no_voto": 2,
    "con_bancada": 35,
-   "contra_bancada": 0,
+   "contra_bancada": 1,
    "pct_asistencia": 100.0
   }
  ],
  "meta": {
   "generado": "2026-11-11",
   "fuente": "Reportes de asistencia y votación del Pleno (PDF) · diputados/senado.congreso.gob.pe",
-  "nota": "Pases de lista y votaciones validados contra el total oficial al pie de cada bloque; los escaneos se leen con OCR. Licencias (viaje, enfermedad, oficial…) no cuentan como ausencia."
+  "nota": "Pases de lista y votaciones validados contra el total oficial al pie de cada bloque; los escaneos se leen con OCR. Licencias (viaje, enfermedad, oficial…) no cuentan como ausencia.",
+  "votos": "votaciones[].votos: un carácter por congresista en el orden de camaras[cam].nominal_orden (S sí, N no, A abstención, X ausente, L licencia, R sin respuesta, P presente, - sin dato)."
  }
 }

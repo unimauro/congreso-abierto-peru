@@ -14,6 +14,14 @@ Calidad: un bloque (pase de lista o votación) solo se usa si la cantidad de
 mismo bloque (tolerancia ±2 por OCR). Los descartados se reportan en `calidad`.
 
     python -m pipeline.scrapers.plenos            # escribe web/plenos.json
+
+Voto nominal (compacto): cada `camaras[cam].votaciones[i]` lleva
+  - `id`: estable, "<cam>-<AAAAMMDD>-<HHMM 24h>" (p. ej. "D-20261029-1156"; si dos
+    votaciones caen en el mismo minuto se agrega "b", "c"…).
+  - `votos`: una cadena con un carácter por congresista de esa cámara, en el orden de
+    `camaras[cam].nominal_orden` (lista de nombres = mismo orden que `miembros`).
+    Códigos: S=sí, N=no, A=abstención, X=ausente, L=licencia, R=sin respuesta,
+    P=presente sin voto, "-"=sin dato (no figura en el acta o no se pudo cruzar).
 """
 from __future__ import annotations
 
@@ -60,9 +68,10 @@ _BANCADA = r"[A-Z0-9][A-Za-z0-9)]{0,4}"  # incluye "OBRAS" (sigla de PCO en agos
 _OCR_SI = r"[Ss][IiLl1|]\]*|S\]+|E(?:[l1I]\]*|\]+)"
 _OCR_NO = r"N[O0o](?:\s?[—\-]+)*"
 _OCR_SINR = r"Sin\s?Res\w*"
+_OCR_ABST = r"Abst?"  # las actas de Diputados escriben "Abst." en minúsculas
 _ENTRADA = re.compile(
     rf"(?P<b>{_BANCADA})\s+(?P<n>[A-ZÁÉÍÓÚÑÜ][^\n]*?)\s*[—\-.]*\s+"
-    rf"(?P<s>{'|'.join(sorted(ESTADOS, key=len, reverse=True))}|{_OCR_SINR}|{_OCR_SI}|{_OCR_NO})[\]|.]*"
+    rf"(?P<s>{'|'.join(sorted(ESTADOS, key=len, reverse=True))}|{_OCR_SINR}|{_OCR_ABST}|{_OCR_SI}|{_OCR_NO})[\]|.]*"
     rf"(?=\s+{_BANCADA}\s+[A-ZÁÉÍÓÚÑÜ]|\s*$)", re.M)
 
 
@@ -71,9 +80,21 @@ def _estado(s: str) -> str:
         return s
     if re.fullmatch(_OCR_SINR, s):
         return "SINR"
+    if re.fullmatch(_OCR_ABST, s):
+        return "ABST"
     return "NO" if re.fullmatch(_OCR_NO, s) else "SI"
 
 # Una fila de votos empieza con la sigla de bancada (con variantes de OCR: "PCo", "0)").
+# Código de un carácter por estado para la cadena `votos` (ver docstring).
+def codigo_voto(st: str | None) -> str:
+    if st is None:
+        return "-"
+    v = VOTO.get(st)
+    if v:
+        return {"si": "S", "no": "N", "abst": "A", "sin_resp": "R"}[v]
+    return "X" if st in AUSENTE else "P" if st in PRESENTE else "L"
+
+
 _FILA = re.compile(r"\s*(AN|FP|JP|PBG|PC[A-Za-z0-9]{0,2}|RP|OBRAS|\d{1,2}\))\s+[A-ZÁÉÍÓÚÑÜ]")
 
 
@@ -145,6 +166,50 @@ def texto_pdf(session, url: str) -> str:
 
 # ---------------------------------------------------------------- parseo
 
+_SIGLA_EN_NOMBRE = re.compile(r"(AN|FP|JP|PBG|PC[Oo]|RP)\s+(?=[A-ZÁÉÍÓÚÑÜ][A-ZÁÉÍÓÚÑÜ'\s-]*[A-ZÁÉÍÓÚÑÜ])")
+
+
+def _resiglar(b: str, n: str, st: str) -> tuple[str, str, str]:
+    """Basura de OCR antes de la sigla ("A  FP  AGUINAGA…"): la sigla real queda al
+    inicio del nombre; se corrige."""
+    m = _SIGLA_EN_NOMBRE.match(n)
+    if m:
+        return m[1].upper(), n[m.end():], st
+    return b, n, st
+
+
+def _unir_nombres_partidos(filas: str) -> str:
+    """En los PDF con texto (pdftotext -layout) los nombres largos se parten: los
+    apellidos quedan solos en la línea de arriba ("ANDRADE SALGUERO DE ALVAREZ,") y la
+    fila solo trae los nombres ("FP  GLADYS GRISELDA  SI"). Se vuelven a unir por columna."""
+    # El estado de la 3.ª columna a veces cae solo en la línea siguiente: se sube.
+    lineas: list[str] = []
+    for ln in filas.split("\n"):
+        if lineas and _FILA.match(lineas[-1]) and re.fullmatch(r"\s+(?:SI|NO|Abst\.?|ABST|AUS|PRE|SinRes\w*|L[A-Z]{1,3})\s*", ln):
+            lineas[-1] += "  " + ln.strip()
+            continue
+        lineas.append(ln)
+    out: list[str] = []
+    for ln in lineas:
+        prev = out[-1] if out else ""
+        if prev.strip() and not _FILA.match(prev) and _FILA.match(ln) and ":" not in prev:
+            trozos = [[m.start(), m.group(), False] for m in re.finditer(r"\S+(?: \S+)*", prev)]
+            huecos = [m.start("n") for m in _ENTRADA.finditer(ln) if "," not in m["n"]]
+            nuevo = ln
+            for col in sorted(huecos, reverse=True):
+                libres = [t for t in trozos if not t[2] and abs(t[0] - col) <= 16]
+                if libres:
+                    t = min(libres, key=lambda t: abs(t[0] - col))
+                    t[2] = True
+                    nuevo = nuevo[:col] + t[1] + " " + nuevo[col:]
+            if any(t[2] for t in trozos):
+                resto = "  ".join(t[1] for t in trozos if not t[2])
+                out[-1] = resto  # lo que no se pudo ubicar se deja como estaba
+                ln = nuevo
+        out.append(ln)
+    return "\n".join(out)
+
+
 def parse_bloques(txt: str) -> list[dict]:
     """Divide el reporte en pases de lista y votaciones con sus entradas y totales oficiales."""
     bloques = []
@@ -170,7 +235,8 @@ def parse_bloques(txt: str) -> list[dict]:
                     lineas.append(ln)
                 asunto = re.sub(r"\s+", " ", " ".join(lineas)).strip()
                 filas = "\n".join(resto[i:])
-        entradas = [(m["b"], m["n"].strip(" ,.—-"), _estado(m["s"])) for m in _ENTRADA.finditer(filas)]
+        filas = _unir_nombres_partidos(filas)
+        entradas = [_resiglar(m["b"], m["n"].strip(" ,.—-"), _estado(m["s"])) for m in _ENTRADA.finditer(filas)]
 
         def total(etiqueta: str) -> int | None:
             m = re.search(etiqueta + r"\s+(\d+)", pie)
@@ -236,6 +302,15 @@ class Padron:
 
 # ---------------------------------------------------------------- armado
 
+def _hhmm(hora: str) -> str:
+    """'1:05PM' -> '1305' (24 h) para el id estable de cada votación."""
+    m = re.fullmatch(r"(\d{1,2}):(\d\d)(?::\d\d)?([AP]M)", hora)
+    if not m:
+        return re.sub(r"\D", "", hora)
+    h = int(m[1]) % 12 + (12 if m[3] == "PM" else 0)
+    return f"{h:02d}{m[2]}"
+
+
 def build() -> dict:
     session = build_session(timeout=120)
     congresistas = json.load(open(BICAMERAL, encoding="utf-8"))["congresistas"]
@@ -251,6 +326,9 @@ def build() -> dict:
 
     salida = {"camaras": {}, "calidad": {}}
     for cam in PAGINAS:
+        orden = sorted(m["nombre"] for m in congresistas if m["camara"] == cam)
+        idx = {n: i for i, n in enumerate(orden)}
+        ids_usados = set()
         print(f"[*] Pleno {cam}: listando PDFs...", file=sys.stderr)
         sesiones = defaultdict(lambda: {"documentos": {}})
         votaciones, pases = [], 0
@@ -280,12 +358,14 @@ def build() -> dict:
                 vistos = set()  # un congresista cuenta una sola vez por bloque
                 por_bancada = defaultdict(Counter)
                 emitidos = []  # (registro, sigla, voto) para medir disciplina de bancada
+                nominal = ["-"] * len(orden)
                 for sigla, nombre, st in b["entradas"]:
                     m = padron.buscar(cam, sigla, nombre)
                     if not m or m["nombre"] in vistos:
                         sin += 1
                         continue
                     vistos.add(m["nombre"])
+                    nominal[idx[m["nombre"]]] = codigo_voto(st)
                     r = miembros[(cam, m["nombre"])]
                     if b["tipo"] == "asistencia":
                         r["pases"] += 1
@@ -311,16 +391,25 @@ def build() -> dict:
                     pases += 1
                 else:
                     o = b["oficial"]
+                    vid = vid0 = f"{cam}-{b['fecha'].replace('-', '')}-{_hhmm(b['hora'])}"
+                    k = 1
+                    while vid in ids_usados:
+                        vid = vid0 + "bcdefghijklmnopqrstuvwxyz"[k - 1]
+                        k += 1
+                    ids_usados.add(vid)
                     votaciones.append({
+                        "id": vid,
                         "fecha": b["fecha"], "hora": b["hora"], "asunto": b["asunto"],
                         "si": o["si"], "no": o["no"], "abst": o["abst"],
                         "por_bancada": {k: dict(v) for k, v in sorted(por_bancada.items())},
                         "posicion": dict(sorted(posicion.items())),
+                        "votos": "".join(nominal),
                     })
         salida["camaras"][cam] = {
             "pases_lista": pases,
             "votaciones": sorted(votaciones, key=lambda v: (v["fecha"], v["hora"]), reverse=True),
             "sesiones": [{"fecha": f, **s} for f, s in sorted(sesiones.items(), reverse=True)],
+            "nominal_orden": orden,
         }
         salida["calidad"][cam] = dict(cal)
         print(f"    {pases} pases de lista · {len(votaciones)} votaciones · {dict(cal)}", file=sys.stderr)
@@ -337,6 +426,8 @@ def build() -> dict:
         "fuente": "Reportes de asistencia y votación del Pleno (PDF) · diputados/senado.congreso.gob.pe",
         "nota": "Pases de lista y votaciones validados contra el total oficial al pie de cada bloque; "
                 "los escaneos se leen con OCR. Licencias (viaje, enfermedad, oficial…) no cuentan como ausencia.",
+        "votos": "votaciones[].votos: un carácter por congresista en el orden de camaras[cam].nominal_orden "
+                 "(S sí, N no, A abstención, X ausente, L licencia, R sin respuesta, P presente, - sin dato).",
     }
     return salida
 

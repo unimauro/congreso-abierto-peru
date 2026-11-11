@@ -827,6 +827,7 @@ function renderBicameral() {
     return `<tr><td style="white-space:nowrap">${v.fecha}</td><td>${esc(v.asunto || "(sin asunto)")}${dividida ? ` <span class="tag fis">dividida</span>` : ""}${bancTxt}</td>
       <td class="num-r"><div class="votos" style="justify-content:flex-end"><span class="si">${v.si ?? "—"} SI</span><span class="no">${v.no ?? "—"} NO</span><span class="ab">${v.abst ?? "—"} Abst</span></div><span class="tag">${res}</span></td></tr>`;
   }).join("") : `<tr><td colspan="3" class="note">Sin votaciones procesadas para esta cámara.</td></tr>`;
+  decorarVotNominal(vots);
 
   const DOC = { agenda: "Agenda", asistencia: "Asistencia y votos", temas: "Temas tratados", acta: "Acta" };
   document.querySelector("#tBicSes tbody").innerHTML = (P?.sesiones || []).map(s =>
@@ -878,6 +879,100 @@ function renderAfinidad(vots) {
     }).join("")}<td class="num-r"><b>${pctTxt(cohesion(a) == null ? null : +cohesion(a).toFixed(1))}</b></td></tr>`).join("")}</tbody></table>`;
 }
 
+// ---------------------------------------------------------------- voto nominal
+// plenos.json: cada votación trae `id` y `votos` (un carácter por congresista de la
+// cámara, en el orden de camaras[cam].nominal_orden). Ver pipeline/scrapers/plenos.py.
+const VOTO_COD = {
+  S: ["SI", "var(--green)"], N: ["NO", "var(--accent)"], A: ["Abst", "var(--amber)"], X: ["Ausente", "var(--muted)"],
+  L: ["Licencia", "var(--muted)"], R: ["Sin responder", "var(--muted)"], P: ["Presente", "var(--muted)"], "-": ["Sin dato", "var(--muted)"],
+};
+const POS_COD = { si: "S", no: "N", abst: "A" };
+const nomIdx = {};
+const nominalIdx = (cam) => {
+  if (!nomIdx[cam]) { nomIdx[cam] = {}; (PLENOS?.camaras?.[cam]?.nominal_orden || []).forEach((n, i) => { nomIdx[cam][n] = i; }); }
+  return nomIdx[cam];
+};
+const ordenVot = (vs) => [...vs].sort((a, b) => (b.id || "").localeCompare(a.id || ""));
+const votoTxt = (c) => `<b style="color:${(VOTO_COD[c] || VOTO_COD["-"])[1]}">${(VOTO_COD[c] || VOTO_COD["-"])[0]}</b>`;
+
+// "Cómo votó": voto del congresista en cada votación validada, con la línea de su bancada.
+function bloqueComoVoto(m) {
+  const P = PLENOS?.camaras?.[m.camara];
+  const i = nominalIdx(m.camara)[m.nombre];
+  if (!P || i == null) return "";
+  const vs = ordenVot(P.votaciones.filter(v => v.votos));
+  if (!vs.length) return "";
+  let nContra = 0, nAus = 0;
+  const filas = vs.map(v => {
+    const c = v.votos[i] || "-";
+    const pos = v.posicion?.[m.sigla];
+    const contra = pos && "SNA".includes(c) && POS_COD[pos] !== c;
+    const aus = c === "X";
+    nContra += contra; nAus += aus;
+    const asu = v.asunto || "(sin asunto)";
+    return `<li data-f="${contra ? "contra" : aus ? "aus" : ""}" style="margin:0 0 6px">
+      <span class="note" style="white-space:nowrap">${esc(v.fecha)}</span> — <span title="${esc(asu)}">${esc(asu.length > 110 ? asu.slice(0, 110) + "…" : asu)}</span><br>
+      ${votoTxt(c)}${pos ? ` <span class="note">· ${esc(m.sigla)}: ${votoTxt(POS_COD[pos])}</span>` : ""}${contra ? ` <span class="tag fis" title="Votó distinto que la mayoría de su bancada">⚠ en contra de su bancada</span>` : ""}</li>`;
+  }).join("");
+  const chip = (f, t, on) => `<button type="button" class="ychip${on ? " active" : ""}" data-cvf="${f}" style="font-size:12px;padding:4px 10px">${t}</button>`;
+  return `<div class="comovoto" style="grid-column:1/-1;max-width:calc(100vw - 72px)"><h4>🗳️ Cómo votó (${vs.length} votaciones)</h4>
+    <div style="display:flex;gap:6px;flex-wrap:wrap;margin:0 0 8px">${chip("", "Todas", 1)}${chip("contra", `En contra de su bancada (${nContra})`)}${chip("aus", `Ausente (${nAus})`)}</div>
+    <ul style="max-height:300px;overflow:auto">${filas}</ul>
+    <div class="note">Votaciones nominales del Pleno validadas contra el total oficial (más recientes primero). "Bancada" = voto mayoritario de su grupo. Lectura por OCR: verifica en el acta oficial.</div></div>`;
+}
+
+// Filas desplegables en "Votaciones del Pleno": lista nominal agrupada por voto.
+const nomAbiertos = new Set();
+let nomWired = false;
+function decorarVotNominal(vots) {
+  const tb = document.querySelector("#tBicVot tbody");
+  if (!tb) return;
+  [...tb.querySelectorAll(":scope > tr")].forEach((tr, k) => {
+    const v = vots[k];
+    if (!v?.votos || !tr.cells[1]) return;
+    tr.dataset.vid = v.id;
+    tr.cells[1].insertAdjacentHTML("afterbegin", `<button type="button" class="xbtn nomx" aria-expanded="false" title="Ver cómo votó cada congresista">▸</button>`);
+    if (nomAbiertos.has(v.id)) abrirNominal(tr, v);
+  });
+  if (!nomWired) {
+    nomWired = true;
+    tb.addEventListener("click", e => {
+      const b = e.target.closest(".nomx");
+      if (!b) return;
+      const tr = b.closest("tr"), id = tr.dataset.vid;
+      const v = Object.values(PLENOS?.camaras || {}).flatMap(c => c.votaciones).find(x => x.id === id);
+      if (!v) return;
+      if (nomAbiertos.has(id)) { nomAbiertos.delete(id); tr.nextElementSibling?.classList.contains("nomdet") && tr.nextElementSibling.remove(); b.textContent = "▸"; b.setAttribute("aria-expanded", "false"); }
+      else { nomAbiertos.add(id); abrirNominal(tr, v); }
+    });
+  }
+}
+function abrirNominal(tr, v) {
+  const cam = v.id[0];
+  const orden = PLENOS.camaras[cam].nominal_orden;
+  const bic = {};
+  (BIC?.congresistas || []).forEach(m => { if (m.camara === cam) bic[m.nombre] = m; });
+  const grupos = {};
+  orden.forEach((n, i) => { const c = v.votos[i] || "-"; (grupos[c] = grupos[c] || []).push(n); });
+  const G = [["S", "SI"], ["N", "NO"], ["A", "Abstención"], ["X", "Ausentes"], ["L", "Con licencia"], ["R", "Sin responder"], ["P", "Presentes sin voto"], ["-", "Sin dato (no figura o no se pudo leer)"]];
+  const html = G.filter(([c]) => grupos[c]?.length).map(([c, t]) =>
+    `<div style="margin:0 0 10px"><b style="color:${VOTO_COD[c][1]}">${t} (${grupos[c].length})</b><div style="font-size:12.5px;line-height:1.6">${grupos[c].map(n =>
+      `<a href="congresistas/${slugify(n)}.html">${esc(n)}</a>${bic[n]?.sigla ? ` <span class="note">${esc(bic[n].sigla)}</span>` : ""}`).join(" · ")}</div></div>`).join("");
+  const b = tr.querySelector(".nomx");
+  if (b) { b.textContent = "▾"; b.setAttribute("aria-expanded", "true"); }
+  if (tr.nextElementSibling?.classList.contains("nomdet")) tr.nextElementSibling.remove();
+  tr.insertAdjacentHTML("afterend", `<tr class="det nomdet"><td colspan="${tr.cells.length}">${html}<div class="note">Lectura del acta oficial (OCR). Totales oficiales: ${v.si ?? "—"} SI, ${v.no ?? "—"} NO, ${v.abst ?? "—"} Abst.</div></td></tr>`);
+}
+
+// Chips de filtro del bloque "Cómo votó" (delegado: el detalle se repinta).
+document.addEventListener("click", e => {
+  const ch = e.target.closest(".comovoto [data-cvf]");
+  if (!ch) return;
+  const box = ch.closest(".comovoto"), f = ch.dataset.cvf;
+  box.querySelectorAll("[data-cvf]").forEach(x => x.classList.toggle("active", x === ch));
+  box.querySelectorAll("li[data-f]").forEach(li => { li.style.display = !f || li.dataset.f === f ? "" : "none"; });
+});
+
 const mesTxtCorto = (ym) => `${MESES_ABBR[+ym.slice(5)]}-${ym.slice(2, 4)}`;
 
 // Detalle desplegable: gasto mensual del despacho, equipo, proyectos y Pleno.
@@ -916,6 +1011,8 @@ function detalleCongresista(m, p, d) {
       <li>Votaciones: <b style="color:var(--green)">${p.si} SI</b>, <b style="color:var(--accent)">${p.no} NO</b>, <b style="color:var(--amber)">${p.abst} Abst</b>, ${p.no_voto} sin votar (de ${p.votaciones})</li>
       ${disciplina(p) != null ? `<li>Votó igual que su bancada en el <b>${pctTxt(disciplina(p))}</b> de los casos (${p.con_bancada} a favor de la línea, <b>${p.contra_bancada}</b> en contra)</li>` : ""}</ul></div>`);
   }
+  const cv = bloqueComoVoto(m);
+  if (cv) bloques.push(cv);
   const vi = visDe(m);
   if (vi && vi.total) {
     bloques.push(`<div style="grid-column:1/-1"><h4>🚪 Visitas a su despacho (${fmt(vi.total)} desde ${esc(VIS.meta.desde)})</h4>
