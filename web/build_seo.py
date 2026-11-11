@@ -152,7 +152,8 @@ def pagina(titulo: str, descripcion: str, ruta: str, cuerpo: str, ld: list | Non
 <meta name="theme-color" content="#e23744">
 <meta property="og:type" content="website"><meta property="og:site_name" content="Congreso Abierto Perú"><meta property="og:title" content="{e(titulo)}">
 <meta property="og:description" content="{e(descripcion)}"><meta property="og:url" content="{url}">
-<meta property="og:image" content="{e(imagen or BASE + 'og.png')}"><meta name="twitter:card" content="{'summary' if imagen else 'summary_large_image'}">
+<meta property="og:image" content="{e(imagen or BASE + 'og.png')}">{'<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">' if not imagen or '/og/' in imagen else ''}
+<meta name="twitter:card" content="{'summary' if imagen and '/og/' not in imagen else 'summary_large_image'}"><meta name="twitter:image" content="{e(imagen or BASE + 'og.png')}">
 <link rel="icon" type="image/svg+xml" href="{raiz}favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -343,7 +344,9 @@ def ficha(m: dict, pl: dict | None, dp: dict | None, generado: str, vi: dict | N
            **({"sameAs": [m["link"]]} if m.get("link") else {}), **({"image": foto} if foto else {}),
            "url": BASE + f"congresistas/{s}.html"}]
     titulo = f"{nombre} — {cargo} {m.get('sigla', '')} · proyectos, asistencia y gasto | Congreso Abierto Perú"
-    return s, pagina(titulo, desc, f"congresistas/{s}.html", cuerpo, ld, profundidad=1, seccion="cong", imagen=foto)
+    og = next((f"og/{s}.{x}" for x in ("jpg", "png") if os.path.exists(os.path.join(WEB, "og", f"{s}.{x}"))), None)
+    return s, pagina(titulo, desc, f"congresistas/{s}.html", cuerpo, ld, profundidad=1, seccion="cong",
+                     imagen=(BASE + og) if og else foto)
 
 
 INDICE_JS = r"""<script>

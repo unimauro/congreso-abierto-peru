@@ -39,3 +39,4 @@ vendor/bundle/
 /web/sitemap.xml
 /web/llms.txt
 /web/robots.txt
+/web/og/

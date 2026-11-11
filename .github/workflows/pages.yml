@@ -65,6 +65,13 @@ jobs:
             echo "Datos actualizados y commiteados."
           fi
 
+      - name: Imágenes para compartir por congresista (OG 1200×630)
+        run: |
+          sudo apt-get install -y -qq librsvg2-bin fonts-inter || sudo apt-get install -y -qq librsvg2-bin
+          pip install -q pillow
+          python web/og_congresistas.py
+        continue-on-error: true
+
       - name: Páginas estáticas para buscadores y bots (fichas, sitemap, llms.txt)
         run: python web/build_seo.py
         continue-on-error: true
