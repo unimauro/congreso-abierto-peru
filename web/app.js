@@ -721,7 +721,7 @@ function renderBicameral() {
     const b = document.createElement("button");
     b.className = "ychip" + (k === bicCam ? " active" : "");
     b.textContent = `${cams[k].nombre} (${fmt(cams[k].proyectos)})`;
-    b.onclick = () => { bicCam = k; bicState.banc = ""; bicState.pag = 0; renderBicameral(); syncHash(); };
+    b.onclick = () => { bicCam = k; bicState.banc = ""; bicState.pag = 0; bicProy.com = ""; bicProy.pag = 0; renderBicameral(); syncHash(); };
     box.appendChild(b);
   });
 
@@ -741,8 +741,9 @@ function renderBicameral() {
   const colAg = (k) => k.startsWith("Simbólico") ? css("--purple") : k.startsWith("Actualización") || k === "Otros" || k.startsWith("Reforma") ? css("--muted") : css("--green");
   mk("chBicAgenda", {
     type: "bar",
-    data: { labels: ag.map(e => e[0]), datasets: [{ data: ag.map(e => e[1]), backgroundColor: ag.map(e => colAg(e[0])), borderRadius: 4 }] },
-    options: opts({ indexAxis: "y", plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => ` ${fmt(c.parsed.x)} proyectos` } } }, scales: scales(true) }),
+    data: { labels: ag.map(e => e[0]), datasets: [{ data: ag.map(e => e[1]), backgroundColor: ag.map(e => colAg(e[0])), _base: ag.map(e => colAg(e[0])), borderRadius: 4 }] },
+    options: opts({ indexAxis: "y", plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => ` ${fmt(c.parsed.x)} proyectos · clic para filtrar` } } }, scales: scales(true),
+      onHover: cursorMano, onClick: (e, els) => { if (els.length) filtroBic("eje", ag[els[0].index][0]); } }),
   });
   document.getElementById("bic-agenda-nota").innerHTML =
     `En verde, los ejes que empujan crecimiento, competitividad o servicios básicos (inspirados en la Política Nacional de Competitividad y Productividad y las políticas de Estado del Acuerdo Nacional). En gris, lo que no se puede atribuir (re-presentaciones del periodo anterior, reforma política, otros); en morado, lo simbólico. <b>${fmt(C.riesgo_fiscal)}</b> proyectos tienen señales de <b>riesgo fiscal</b> (exoneraciones, bonos, nombramientos, pensiones). Clasificación por palabras clave del título: es indicativa, no evalúa la calidad del proyecto.`;
@@ -752,10 +753,11 @@ function renderBicameral() {
   mk("chBicBancada", {
     type: "bar",
     data: { labels: bc.map(b => b.bancada), datasets: [
-      { label: "Proyectos", data: bc.map(b => b.proyectos), backgroundColor: css("--accent"), borderRadius: 4 },
-      { label: "Por miembro", data: bc.map(b => b.por_miembro), backgroundColor: css("--accent-2"), borderRadius: 4 },
+      { label: "Proyectos", data: bc.map(b => b.proyectos), backgroundColor: css("--accent"), _base: css("--accent"), borderRadius: 4 },
+      { label: "Por miembro", data: bc.map(b => b.por_miembro), backgroundColor: css("--accent-2"), _base: css("--accent-2"), borderRadius: 4 },
     ] },
-    options: opts({ scales: scales() }),
+    options: opts({ scales: scales(), onHover: cursorMano,
+      onClick: (e, els) => { if (els.length) filtroBic("banc", bc[els[0].index].bancada); } }),
   });
   const asisBanc = {};
   miembrosCam.forEach(m => { const x = pl[bicCam + "|" + m.nombre]; if (x && x.pases) { const a = asisBanc[m.bancada] ||= [0, 0]; a[0] += x.presente; a[1] += x.presente + x.ausente; } });
@@ -781,8 +783,11 @@ function renderBicameral() {
     data: { labels: pm.map(e => e[0]), datasets: [{ data: pm.map(e => e[1]), backgroundColor: css("--accent"), borderRadius: 4, maxBarThickness: 60 }] },
     options: opts({ plugins: { legend: { display: false } }, scales: scales() }),
   });
-  document.querySelector("#tBicCom tbody").innerHTML = (C.comisiones || []).map(c =>
-    `<tr><td>${esc(c.nombre)}</td><td class="num-r"><b>${fmt(c.proyectos)}</b></td></tr>`).join("");
+  const tCom = document.querySelector("#tBicCom tbody");
+  tCom.innerHTML = (C.comisiones || []).map(c =>
+    `<tr data-com="${esc(c.nombre)}" tabindex="0" title="Filtrar proyectos de esta comisión"${c.nombre === bicProy.com ? ' class="on"' : ""}><td>${esc(c.nombre)}</td><td class="num-r"><b>${fmt(c.proyectos)}</b></td></tr>`).join("");
+  tCom.onclick = e => { const tr = e.target.closest("tr[data-com]"); if (tr) filtroBic("com", tr.dataset.com); };
+  tCom.onkeydown = e => { const tr = e.target.closest("tr[data-com]"); if (tr && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); filtroBic("com", tr.dataset.com); } };
 
   // Filtro de bancadas
   const sel = document.getElementById("bic-banc");
@@ -791,7 +796,7 @@ function renderBicameral() {
   if (!bicState.wired) {
     bicState.wired = true;
     document.getElementById("bic-q").addEventListener("input", e => { bicState.q = e.target.value; bicState.pag = 0; renderBicMiembros(); syncHash(); });
-    sel.addEventListener("change", e => { bicState.banc = e.target.value; bicState.pag = 0; renderBicMiembros(); syncHash(); });
+    sel.addEventListener("change", e => { bicState.banc = e.target.value; bicState.pag = 0; refrescarBic(); });
     document.getElementById("bic-ps").addEventListener("change", e => { bicState.ps = +e.target.value; bicState.pag = 0; renderBicMiembros(); });
     document.getElementById("bic-prev").addEventListener("click", () => { bicState.pag--; renderBicMiembros(); });
     document.getElementById("bic-next").addEventListener("click", () => { bicState.pag++; renderBicMiembros(); });
@@ -811,6 +816,10 @@ function renderBicameral() {
     });
   }
   renderBicMiembros();
+  renderBicProyectos();
+  pintarChipsBic();
+  recolorBic();
+  renderComisiones26();
 
   // Votaciones y agenda del Pleno
   const P = PLENOS?.camaras?.[bicCam];
@@ -1121,6 +1130,209 @@ function renderBicMiembros() {
   }
 }
 
+// ---- Bicameral: lista completa de proyectos + filtros cruzados (gráficos ↔ tablas) ----
+// eje/com/est/rf/q filtran la lista de proyectos; la bancada (bicState.banc) filtra
+// a la vez congresistas y proyectos (bancada del autor principal).
+let bicProy = { q: "", eje: "", com: "", est: "", rf: "", k: "fecha", dir: -1, pag: 0, ps: 20, wired: false };
+const bicProyCache = {};
+// Todos los proyectos de la cámara. bicameral.json trae `proyectos` (lista completa);
+// si falta (versión anterior), se reconstruye con los de cada autor + los recientes.
+function bicProyectos(cam) {
+  if (bicProyCache[cam]) return bicProyCache[cam];
+  const C = BIC.camaras[cam] || {}, coms = C.comisiones || [];
+  const memb = {};
+  BIC.congresistas.forEach(m => { memb[m.camara + "|" + m.nombre] = m; });
+  let lista;
+  if (Array.isArray(BIC.proyectos)) {
+    lista = BIC.proyectos.filter(p => p.camara === cam).map(p => ({ ...p, comisiones: (p.com || []).map(i => coms[i]?.nombre).filter(Boolean) }));
+  } else {
+    const vistos = new Map();
+    BIC.congresistas.filter(m => m.camara === cam).forEach(m => (m.proyectos || []).forEach(p => {
+      if (!vistos.has(p.codigo)) vistos.set(p.codigo, { ...p, camara: cam, autor: m.nombre, comisiones: [] });
+    }));
+    (BIC.recientes || []).filter(r => r.camara === cam).forEach(r => {
+      const x = vistos.get(r.codigo);
+      if (x) x.riesgo_fiscal = r.riesgo_fiscal;
+      else vistos.set(r.codigo, { ...r, comisiones: [] });
+    });
+    lista = [...vistos.values()];
+  }
+  lista.forEach(p => {
+    const m = p.autor ? memb[cam + "|" + p.autor] : null;
+    p.m = m; p.bancada = m?.bancada || "";
+    p._txt = (p.codigo + " " + p.titulo + " " + (p.autor || p.proponente || "")).toLowerCase();
+  });
+  return (bicProyCache[cam] = lista);
+}
+// Color atenuado para las barras no seleccionadas (#rrggbb → #rrggbb40).
+function atenuar(c, si) { return si && /^#[0-9a-f]{6}$/i.test(c) ? c + "40" : c; }
+function cursorMano(e, els) { if (e.native?.target) e.native.target.style.cursor = els.length ? "pointer" : "default"; }
+// Atenúa en los gráficos lo que no está seleccionado (sin recrearlos: el clic
+// llega desde el propio gráfico y destruirlo ahí rompe a Chart.js).
+function recolorBic() {
+  const a = CHARTS.chBicAgenda;
+  if (a) { const d = a.data.datasets[0]; d.backgroundColor = d._base.map((c, i) => atenuar(c, bicProy.eje && bicProy.eje !== a.data.labels[i])); a.update("none"); }
+  const b = CHARTS.chBicBancada;
+  if (b) { b.data.datasets.forEach(d => { d.backgroundColor = b.data.labels.map(l => atenuar(d._base, bicState.banc && bicState.banc !== l)); }); b.update("none"); }
+}
+// Repinta solo lo que depende de los filtros cruzados.
+function refrescarBic() {
+  const sel = document.getElementById("bic-banc");
+  if (sel) sel.value = bicState.banc;
+  document.querySelectorAll("#tBicCom tbody tr[data-com]").forEach(tr => tr.classList.toggle("on", tr.dataset.com === bicProy.com));
+  renderBicMiembros();
+  renderBicProyectos();
+  pintarChipsBic();
+  recolorBic();
+  syncHash();
+}
+// Activa (o desactiva si ya estaba) un filtro cruzado.
+function filtroBic(tipo, valor) {
+  if (tipo === "banc") { bicState.banc = bicState.banc === valor ? "" : valor; bicState.pag = 0; }
+  else bicProy[tipo] = bicProy[tipo] === valor ? "" : valor;
+  bicProy.pag = 0;
+  refrescarBic();
+}
+const CHIP_TXT = { eje: "Eje", com: "Comisión", banc: "Bancada", est: "Estado", rf: "Riesgo fiscal" };
+function pintarChipsBic() {
+  const act = [];
+  if (bicProy.eje) act.push(["eje", bicProy.eje]);
+  if (bicProy.com) act.push(["com", bicProy.com]);
+  if (bicState.banc) act.push(["banc", bicState.banc]);
+  if (bicProy.est) act.push(["est", bicProy.est]);
+  if (bicProy.rf) act.push(["rf", bicProy.rf === "1" ? "con riesgo" : "sin riesgo"]);
+  const chips = act.map(([k, v]) => `<button class="fchip" data-k="${k}" title="Quitar filtro"><span>${CHIP_TXT[k]}: ${esc(v)}</span> ✕</button>`).join("");
+  const n = document.getElementById("bicp-count")?.dataset.n || "0";
+  const top = document.getElementById("bic-chips-top"), pr = document.getElementById("bic-chips-proy");
+  const limpiar = act.length > 1 ? `<button class="btn" data-k="*">Quitar todos</button>` : "";
+  if (top) top.innerHTML = act.length ? `<span class="note" style="margin:0">Filtro activo:</span>${chips}${limpiar}<a class="note" style="margin:0" href="#bic-proy-card" data-ir="1">ver ${fmt(+n)} proyectos ↓</a>` : "";
+  if (pr) pr.innerHTML = act.length ? chips + limpiar : "";
+  [top, pr].forEach(box => box && (box.onclick = e => {
+    const ir = e.target.closest("[data-ir]");
+    if (ir) { e.preventDefault(); document.getElementById("bic-proy-card").scrollIntoView({ behavior: "smooth" }); return; }
+    const b = e.target.closest("[data-k]");
+    if (!b) return;
+    const k = b.dataset.k;
+    if (k === "*") { bicProy.eje = bicProy.com = bicProy.est = bicProy.rf = ""; bicState.banc = ""; }
+    else if (k === "banc") bicState.banc = "";
+    else bicProy[k] = "";
+    bicState.pag = 0; bicProy.pag = 0;
+    refrescarBic();
+  }));
+}
+function renderBicProyectos() {
+  if (!BIC || !document.getElementById("tBicProy")) return;
+  const todos = bicProyectos(bicCam);
+  const C = BIC.camaras[bicCam] || {};
+  const opt = (v, txt, cur) => `<option value="${esc(v)}"${v === cur ? " selected" : ""}>${esc(txt)}</option>`;
+  const ejes = Object.keys(C.agenda || {});
+  const estados = [...new Set(todos.map(p => p.estado))].sort((a, b) => a.localeCompare(b, "es"));
+  // Valores que ya no existen en esta cámara (p. ej. tras cambiar de cámara) se descartan.
+  if (bicProy.eje && !ejes.includes(bicProy.eje)) bicProy.eje = "";
+  if (bicProy.est && !estados.includes(bicProy.est)) bicProy.est = "";
+  if (bicProy.com && !(C.comisiones || []).some(c => c.nombre === bicProy.com)) bicProy.com = "";
+  document.getElementById("bicp-eje").innerHTML = opt("", "Todos los ejes", bicProy.eje) + ejes.map(e => opt(e, e, bicProy.eje)).join("");
+  document.getElementById("bicp-est").innerHTML = opt("", "Todos los estados", bicProy.est) + estados.map(e => opt(e, e, bicProy.est)).join("");
+  document.getElementById("bicp-banc").innerHTML = opt("", "Bancada del autor: todas", bicState.banc) +
+    [...new Set(BIC.congresistas.filter(m => m.camara === bicCam).map(m => m.bancada))].sort().map(b => opt(b, b, bicState.banc)).join("");
+  document.getElementById("bicp-rf").value = bicProy.rf;
+  const qi = document.getElementById("bicp-q");
+  if (qi.value !== bicProy.q) qi.value = bicProy.q;
+
+  if (!bicProy.wired) {
+    bicProy.wired = true;
+    const set = (k) => (e) => { bicProy[k] = e.target.value; bicProy.pag = 0; renderBicProyectos(); pintarChipsBic(); syncHash(); };
+    qi.addEventListener("input", set("q"));
+    document.getElementById("bicp-est").addEventListener("change", set("est"));
+    document.getElementById("bicp-rf").addEventListener("change", set("rf"));
+    // eje y bancada también recolorean los gráficos y la tabla de congresistas
+    document.getElementById("bicp-eje").addEventListener("change", e => { bicProy.eje = e.target.value; bicProy.pag = 0; refrescarBic(); });
+    document.getElementById("bicp-banc").addEventListener("change", e => { bicState.banc = e.target.value; bicState.pag = 0; bicProy.pag = 0; refrescarBic(); });
+    document.getElementById("bicp-prev").addEventListener("click", () => { bicProy.pag--; renderBicProyectos(); });
+    document.getElementById("bicp-next").addEventListener("click", () => { bicProy.pag++; renderBicProyectos(); });
+  }
+
+  const q = bicProy.q.trim().toLowerCase();
+  const filas = todos.filter(p =>
+    (!bicProy.eje || p.agenda === bicProy.eje) &&
+    (!bicProy.com || p.comisiones.includes(bicProy.com)) &&
+    (!bicProy.est || p.estado === bicProy.est) &&
+    (!bicState.banc || p.bancada === bicState.banc) &&
+    (!bicProy.rf || !!p.riesgo_fiscal === (bicProy.rf === "1")) &&
+    (!q || p._txt.includes(q)));
+  encabezados("tBicProy", [
+    { k: "codigo", t: "Código" }, { k: "fecha", t: "Fecha", num: 1 }, { t: "Título" }, { k: "autor", t: "Autor" }, { k: "estado", t: "Estado" },
+  ], bicProy, () => { bicProy.pag = 0; renderBicProyectos(); });
+  filas.sort((x, y) => cmp(x[bicProy.k], y[bicProy.k], bicProy.dir) || cmp(x.codigo, y.codigo, -1));
+  const total = filas.length, paginas = Math.max(1, Math.ceil(total / bicProy.ps));
+  bicProy.pag = Math.min(Math.max(0, bicProy.pag), paginas - 1);
+  const ini = bicProy.pag * bicProy.ps, pagina = filas.slice(ini, ini + bicProy.ps);
+  const cnt = document.getElementById("bicp-count");
+  cnt.dataset.n = total;
+  cnt.textContent = total === todos.length ? `${fmt(total)} proyectos` : `${fmt(total)} de ${fmt(todos.length)} proyectos`;
+  document.getElementById("bicp-pag").textContent = total ? `${fmt(ini + 1)}–${fmt(ini + pagina.length)} de ${fmt(total)} · página ${bicProy.pag + 1} de ${paginas}` : "sin resultados";
+  document.getElementById("bicp-prev").disabled = bicProy.pag === 0;
+  document.getElementById("bicp-next").disabled = bicProy.pag >= paginas - 1;
+  const clsAg = (a) => a.startsWith("Simbólico") ? "sim" : (a === "Otros" || a.startsWith("Actualización") || a.startsWith("Reforma")) ? "" : "dev";
+  document.querySelector("#tBicProy tbody").innerHTML = pagina.map(p => {
+    const autor = p.m ? `<a href="congresistas/${slugify(p.m.nombre)}.html" title="Ficha de ${esc(p.m.nombre)}">${esc(p.m.nombre)}</a><div class="note" style="margin:0"><span class="tag">${esc(p.m.sigla)}</span></div>`
+      : esc(p.autor || p.proponente || "—");
+    const com = p.comisiones.length ? `<div class="note" style="margin:2px 0 0">Comisión: ${p.comisiones.map(esc).join(" · ")}</div>` : "";
+    return `<tr><td class="code">${esc(p.codigo)}</td><td style="white-space:nowrap">${esc(p.fecha)}</td>
+      <td class="tit">${esc(p.titulo)}<div style="margin-top:4px"><span class="tag ${clsAg(p.agenda)}">${esc(p.agenda)}</span>${p.riesgo_fiscal ? ` <span class="tag fis">riesgo fiscal</span>` : ""}</div>${com}</td>
+      <td>${autor}</td><td><span class="tag">${esc(p.estado)}</span></td></tr>`;
+  }).join("") || `<tr><td colspan="5" class="note">Ningún proyecto coincide con los filtros.</td></tr>`;
+}
+
+// ---- Comisiones 2026–2031: proyectos derivados (BIC) + mesa directiva y miembros (perfiles) ----
+let com26Cam = "D";
+const normCom = (s) => tokens(s).filter(t => !["comision", "de", "en", "asuntos", "y", "la", "del", "el", "los", "las"].includes(t));
+function renderComisiones26() {
+  const tb = document.querySelector("#tCom26 tbody");
+  if (!tb || !BIC) return;
+  const box = document.getElementById("com26-cams");
+  box.innerHTML = "";
+  ["D", "S"].forEach(k => {
+    const b = document.createElement("button");
+    b.className = "ychip" + (k === com26Cam ? " active" : "");
+    b.textContent = BIC.camaras[k]?.nombre || CAM_NOMBRE[k];
+    b.onclick = () => { com26Cam = k; renderComisiones26(); };
+    box.appendChild(b);
+  });
+  // Órganos de los perfiles (sin bancadas ni órganos directivos)
+  const org = new Map();
+  (PERF?.perfiles || []).filter(x => x.camara === com26Cam).forEach(x => x.comisiones.forEach(c => {
+    if (/Grupo parlamentario|Órgano directivo/i.test(c.tipo)) return;
+    const o = org.get(c.organo) || { nombre: c.organo, tipo: c.tipo, pres: [], vice: [], secr: [], tit: 0, sup: 0 };
+    const cg = c.cargo || "";
+    if (/^Presiden/i.test(cg)) o.pres.push(x);
+    else if (/Vicepresiden/i.test(cg)) o.vice.push(x);
+    else if (/^Secretari/i.test(cg)) o.secr.push(x);
+    if (/Suplente/i.test(cg)) o.sup++; else o.tit++;
+    org.set(c.organo, o);
+  }));
+  // Cruce por palabras con las comisiones de la API (los nombres no son idénticos)
+  const api = (BIC.camaras[com26Cam]?.comisiones || []).map(c => ({ ...c, t: new Set(normCom(c.nombre)) }));
+  const filas = [...org.values()].map(o => {
+    const t = new Set(normCom(o.nombre));
+    let mejor = null, js = 0;
+    api.forEach(c => { const i = [...t].filter(x => c.t.has(x)).length, j = i / new Set([...t, ...c.t]).size; if (j > js) { js = j; mejor = c; } });
+    if (js >= 0.5 && !mejor.usada) mejor.usada = true; else mejor = null;
+    return { ...o, api: mejor };
+  });
+  api.filter(c => !c.usada).forEach(c => filas.push({ nombre: c.nombre, tipo: "", pres: [], vice: [], secr: [], tit: 0, sup: 0, api: c }));
+  filas.sort((a, b) => (b.api?.proyectos ?? -1) - (a.api?.proyectos ?? -1) || a.nombre.localeCompare(b.nombre, "es"));
+  const gente = (xs) => xs.length ? xs.map(x => `<a href="congresistas/${slugify(x.nombre)}.html">${esc(x.nombre)}</a>`).join("<br>") : "—";
+  tb.innerHTML = filas.map(f => {
+    const pr = f.api ? `<a href="#bicameral?${new URLSearchParams({ cam: com26Cam, com: f.api.nombre })}" title="Ver los proyectos de esta comisión"><b>${fmt(f.api.proyectos)}</b></a>` : "—";
+    const nom = f.nombre.length > 140 ? f.nombre.slice(0, 137) + "…" : f.nombre;
+    return `<tr><td>${esc(nom)}${f.tipo ? `<div class="note" style="margin:2px 0 0">${esc(f.tipo)}</div>` : ""}</td><td class="num-r">${pr}</td>
+      <td>${gente(f.pres)}</td><td>${gente(f.vice)}</td><td>${gente(f.secr)}</td>
+      <td class="num-r">${f.tit + f.sup ? `<b>${fmt(f.tit)}</b><div class="note" style="margin:0">+ ${fmt(f.sup)} supl.</div>` : "—"}</td></tr>`;
+  }).join("") || `<tr><td colspan="6" class="note">Sin datos de comisiones.</td></tr>`;
+  document.getElementById("com26-hint").textContent = `${fmt(filas.length)} órganos${PERF ? "" : " · cargos no disponibles"}`;
+}
+
 // Barra sobre el detalle: enlace para compartir y ficha estática.
 function barraEnlace(m) {
   const sl = slugify(m.nombre);
@@ -1316,6 +1528,7 @@ function activar(view, scroll = true) {
 }
 // Enlaces profundos:
 //   #bicameral?cam=D|S&banc=<bancada>&q=<texto>&c=<slug>   (c despliega y enfoca a un congresista)
+//             &eje=<eje>&com=<comisión>&est=<estado>&rf=0|1&pq=<texto>   (lista de proyectos)
 //   #contratos?q=<texto>&anio=<aaaa>     #personal?q=<texto>
 function leerHash() {
   const h = (location.hash || "").replace(/^#/, "");
@@ -1330,6 +1543,11 @@ function hashDe(view) {
     if (bicCam !== "D") p.set("cam", bicCam);
     if (bicState.banc) p.set("banc", bicState.banc);
     if (bicState.q.trim()) p.set("q", bicState.q.trim());
+    if (bicProy.eje) p.set("eje", bicProy.eje);
+    if (bicProy.com) p.set("com", bicProy.com);
+    if (bicProy.est) p.set("est", bicProy.est);
+    if (bicProy.rf) p.set("rf", bicProy.rf);
+    if (bicProy.q.trim()) p.set("pq", bicProy.q.trim());
     const u = bicState.ultimo && bicState.abiertos.has(bicState.ultimo) && BIC?.congresistas.find(m => m.nombre === bicState.ultimo && m.camara === bicCam);
     if (u) { p.set("cam", bicCam); p.set("c", slugify(u.nombre)); }
   } else if (view === "contratos") {
@@ -1371,6 +1589,9 @@ function aplicarRuta(inicial = false) {
     if (banc && !BIC.congresistas.some(x => x.camara === bicCam && x.bancada === banc)) banc = "";
     bicState.banc = banc; bicState.q = q; bicState.pag = 0;
     document.getElementById("bic-q").value = q;
+    // Filtros de la lista de proyectos (se validan contra la cámara en renderBicProyectos)
+    bicProy.eje = params.get("eje") || ""; bicProy.com = params.get("com") || ""; bicProy.est = params.get("est") || "";
+    bicProy.rf = ["0", "1"].includes(params.get("rf")) ? params.get("rf") : ""; bicProy.q = params.get("pq") || ""; bicProy.pag = 0;
     renderBicameral();
   } else if (view === "contratos" && CON) {
     conState.q = params.get("q") || "";
