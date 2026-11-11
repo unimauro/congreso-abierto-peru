@@ -7,7 +7,7 @@
  },
  "totales": {
   "proyectos": 855,
-  "leyes": 11,
+  "leyes": 12,
   "congresistas": 190
  },
  "camaras": {
@@ -214,12 +214,13 @@
   "S": {
    "nombre": "Senado",
    "proyectos": 22,
-   "leyes": 9,
+   "leyes": 10,
    "archivados": 0,
    "por_estado": {
     "EN COMISIÓN": 11,
     "Publicada en el Diario Oficial El Peruano": 9,
-    "EN AGENDA DEL PLENO DEL SENADO": 2
+    "AUTÓGRAFA": 1,
+    "APROBADO": 1
    },
    "por_mes": {
     "2026-08": 6,
@@ -17984,7 +17985,7 @@
    "camara": "S",
    "fecha": "2026-11-09",
    "titulo": "PROYECTO DE RESOLUCIÓN LEGISLATIVA QUE AUTORIZA A LA SEÑORA PRESIDENTA DE LA REPÚBLICA PARA SALIR DEL TERRITORIO NACIONAL DEL 15 AL 21 DE NOVIEMBRE DE 2026",
-   "estado": "EN AGENDA DEL PLENO DEL SENADO",
+   "estado": "AUTÓGRAFA",
    "agenda": "Reforma política e institucional",
    "proponente": "PODER EJECUTIVO"
   },
@@ -18041,7 +18042,7 @@
    "camara": "S",
    "fecha": "2026-10-26",
    "titulo": "PROPOSICIÓN DE RESOLUCIÓN LEGISLATIVA QUE AUTORIZA EL INGRESO Y TRÁNSITO DE UNA UNIDAD NAVAL Y DE PERSONAL MILITAR EXTRANJERO CON ARMAS DE GUERRA AL TERRITORIO DE LA REPÚBLICA DEL PERÚ",
-   "estado": "EN AGENDA DEL PLENO DEL SENADO",
+   "estado": "APROBADO",
    "agenda": "Seguridad y Estado de derecho",
    "proponente": "PODER EJECUTIVO",
    "com": [
@@ -18658,7 +18659,7 @@
   {
    "codigo": "00022-2026-2031-S",
    "camara": "S",
-   "estado": "EN AGENDA DEL PLENO DEL SENADO",
+   "estado": "AUTÓGRAFA",
    "fecha": "2026-11-09",
    "titulo": "PROYECTO DE RESOLUCIÓN LEGISLATIVA QUE AUTORIZA A LA SEÑORA PRESIDENTA DE LA REPÚBLICA PARA SALIR DEL TERRITORIO NACIONAL DEL 15 AL 21 DE NOVIEMBRE DE 2026",
    "proponente": "PODER EJECUTIVO",
