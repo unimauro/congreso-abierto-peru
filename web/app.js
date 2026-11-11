@@ -3,7 +3,7 @@
 const fmt = (n) => new Intl.NumberFormat("es-PE").format(n);
 const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
 let CHARTS = {};
-let DATA = null, CTX = null, PERSONAL = null, BIC = null, PLENOS = null, MOV = null, CON = null, INT = null, VIS = null, PERF = null;
+let DATA = null, CTX = null, PERSONAL = null, BIC = null, PLENOS = null, MOV = null, CON = null, INT = null, VIS = null, PERF = null, ASE = null;
 const soles = (n) => "S/ " + new Intl.NumberFormat("es-PE", { maximumFractionDigits: 0 }).format(n);
 const solesM = (n) => "S/ " + (n / 1e6).toFixed(1) + " M";
 
@@ -893,7 +893,8 @@ function detalleCongresista(m, p, d) {
         <div class="note" style="margin:-2px 0 4px 72px">${x.personal} personas</div>`).join("")}
       <div class="note">≈ <b>${soles(ult.masa * 14)}</b> al año al ritmo de ${mesTxtCorto(ult.mes)} (14 sueldos con gratificaciones). Solo planilla del equipo: el PTE no publica por congresista su remuneración ni sus gastos operativos.${d.serie.length > 2 ? " Los meses previos a ago-26 corresponden a su despacho en el Congreso anterior." : ""}</div></div>`);
     bloques.push(`<div><h4>👥 Equipo (${d.personal})</h4><ul>${d.equipo.map(e =>
-      `<li><b>${esc(e.nombre)}</b> — ${esc(e.cargo)} · ${soles(e.total)}${e.apellido ? ` <span class="tag ${e.apellido.some(x => x.raro) ? "fis" : ""}" title="Comparte apellido con el congresista. No prueba parentesco: la Ley 26771 prohíbe contratar parientes hasta el 4.º grado; verificar con la DJ de intereses.">apellido en común: ${esc(e.apellido.map(x => x.apellido).join(", "))}</span>` : ""}${e.antes ? `<br><span class="note">antes: ${esc(e.antes)}</span>` : ""}</li>`).join("")}</ul>
+      `<li><b>${esc(e.nombre)}</b> — ${esc(e.cargo)} · ${soles(e.total)}${e.apellido ? ` <span class="tag ${e.apellido.some(x => x.raro) ? "fis" : ""}" title="Comparte apellido con el congresista. No prueba parentesco: la Ley 26771 prohíbe contratar parientes hasta el 4.º grado; verificar con la DJ de intereses.">apellido en común: ${esc(e.apellido.map(x => x.apellido).join(", "))}</span>` : ""}${e.antes ? `<br><span class="note">antes: ${esc(e.antes)}</span>` : ""}${trayectoria(m.nombre, e.nombre)}</li>`).join("")}</ul>
+      ${ASE && d.equipo.some(e => trayectoria(m.nombre, e.nombre)) ? `<div class="note">🧾 "Antes en el Estado": planillas del PTE, declaraciones juradas, El Peruano y contratos (OCDS), cruzados por nombre completo. Puede haber homónimos; verifica en la fuente.</div>` : ""}
       ${d.equipo.some(e => e.apellido) ? `<div class="note">"Apellido en común" es solo una coincidencia de apellidos con el congresista (en ámbar si el apellido es poco frecuente en la planilla). No prueba parentesco; la Ley 26771 prohíbe contratar parientes hasta el 4.º grado de consanguinidad.</div>` : ""}</div>`);
   } else {
     bloques.push(`<div><h4>💸 Gasto del despacho</h4><div class="note">No se identificó su despacho en la planilla del PTE.</div></div>`);
@@ -929,6 +930,18 @@ function detalleCongresista(m, p, d) {
 // % de votos emitidos (SI/NO/Abst) iguales a la posición mayoritaria de su bancada.
 const disciplina = (p) => { const n = (p?.con_bancada || 0) + (p?.contra_bancada || 0); return n ? +(p.con_bancada / n * 100).toFixed(1) : null; };
 const discTxt = (p) => { const x = disciplina(p); return x == null ? "—" : `${pctTxt(x)}<div class="note" style="margin:0">${p.contra_bancada} en contra</div>`; };
+
+// Trayectoria pública previa de un asesor (planillas PTE, DJ, El Peruano, OCDS) por coincidencia de nombre completo.
+let aseIdx = null;
+function trayectoria(despacho, nombre) {
+  if (!ASE) return "";
+  if (!aseIdx) { aseIdx = {}; ASE.asesores.forEach(a => { if (!a.ambiguo) aseIdx[a.despacho + "|" + a.nombre] = a; }); }
+  const a = aseIdx[despacho + "|" + nombre];
+  if (!a) return "";
+  const per = (h) => h.desde ? (h.hasta && h.hasta !== h.desde ? `${h.desde.slice(0, 4)}–${h.hasta.slice(0, 4)}` : h.desde.slice(0, 4)) : (h.anio || "");
+  return `<div class="note" style="margin:2px 0 0">🧾 Antes en el Estado: ${a.historial.slice(0, 3).map(h =>
+    `${esc(h.cargo ? h.cargo.toLowerCase() : "")} en <b>${esc(h.entidad)}</b> ${esc(per(h))} <span class="tag">${esc(h.fuente)}</span>`).join("; ")}${a.historial.length > 3 ? ` y ${a.historial.length - 3} más` : ""}</div>`;
+}
 
 let perfIdx = null;
 const perfDe = (m) => {
@@ -1180,9 +1193,10 @@ Promise.all([
   fetch("integridad.json", nocache).then(r => r.ok ? r.json() : null).catch(() => null),
   fetch("visitas.json", nocache).then(r => r.ok ? r.json() : null).catch(() => null),
   fetch("perfiles.json", nocache).then(r => r.ok ? r.json() : null).catch(() => null),
+  fetch("asesores.json", nocache).then(r => r.ok ? r.json() : null).catch(() => null),
 ])
-  .then(([d, c, p, b, pl, mv, co, it, vi, pf]) => {
-    VIS = vi; PERF = pf;
+  .then(([d, c, p, b, pl, mv, co, it, vi, pf, as]) => {
+    VIS = vi; PERF = pf; ASE = as;
     DATA = d; CTX = c; PERSONAL = p; BIC = b; PLENOS = pl; MOV = mv; CON = co; INT = it;
     document.getElementById("gen").textContent = "actualizado " + d.meta.generado;
     const ud = document.getElementById("updated-date");
