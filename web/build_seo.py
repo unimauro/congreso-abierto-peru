@@ -244,6 +244,30 @@ def seccion_como_voto(m: dict, cv: list[dict]) -> str:
             '(OCR) y validadas contra el total oficial; verifica en el acta.</p></section>')
 
 
+def seccion_equipo(dp: dict | None, ases: dict) -> str:
+    """Equipo del despacho según la planilla del PTE + trayectoria previa en el Estado (asesores.json)."""
+    if not dp or not dp.get("equipo"):
+        return ""
+    def per(h):
+        d, a = (h.get("desde") or "")[:4], (h.get("hasta") or "")[:4]
+        return f"{d}–{a}" if d and a and a != d else (d or str(h.get("anio") or ""))
+    filas = ""
+    for x in dp["equipo"]:
+        tray = ases.get(x["nombre"])
+        t = ("".join(f'<div class="note">🧾 {e((h.get("cargo") or "").lower())} en {e(h["entidad"])} {e(per(h))} <span class="tag">{e(h["fuente"])}</span></div>'
+                     for h in tray["historial"][:3]) if tray else "")
+        ap = (f' <span class="tag{" red" if any(a.get("raro") for a in x["apellido"]) else ""}" title="Comparte apellido con el congresista; no prueba parentesco">apellido en común</span>'
+              if x.get("apellido") else "")
+        antes = f'<div class="note">Antes en el Congreso: {e(x["antes"].title())}</div>' if x.get("antes") else ""
+        filas += (f'<tr><td><b>{e(x["nombre"])}</b>{ap}{antes}{t}</td><td>{e(x["cargo"].capitalize())}</td>'
+                  f'<td class="num">{soles(x["total"])}</td></tr>')
+    return (f'<section class="card"><h2>👥 Equipo del despacho ({dp["personal"]} personas · {soles(dp["masa"])} al mes)</h2>'
+            f'<div class="scroll"><table><thead><tr><th>Nombre</th><th>Cargo</th><th class="num">Remuneración</th></tr></thead><tbody>{filas}</tbody></table></div>'
+            '<p class="note">Planilla nominal del Portal de Transparencia Estándar del Congreso (trabajadores cuya dependencia es este despacho). '
+            '"🧾" = cargos previos en el Estado según planillas del PTE, declaraciones juradas y El Peruano, cruzados por nombre completo: puede haber homónimos. '
+            '"Apellido en común" no prueba parentesco.</p></section>')
+
+
 def seccion_intereses(vs: list[dict]) -> str:
     if not vs:
         return ""
@@ -267,7 +291,7 @@ def seccion_intereses(vs: list[dict]) -> str:
 
 
 def ficha(m: dict, pl: dict | None, dp: dict | None, generado: str, vi: dict | None = None, pf: dict | None = None,
-          ctx: dict | None = None, cv: list | None = None, it: list | None = None) -> tuple[str, str]:
+          ctx: dict | None = None, cv: list | None = None, it: list | None = None, ases: dict | None = None) -> tuple[str, str]:
     ctx = ctx or {}
     nombre = nombre_natural(m["nombre"])
     cargo = CARGO.get(m["camara"], "Congresista")
@@ -364,7 +388,7 @@ def ficha(m: dict, pl: dict | None, dp: dict | None, generado: str, vi: dict | N
         agenda = f'<section class="card"><h2>📅 Semana de representación</h2><ul class="clean">{items}</ul></section>'
 
     cuerpo = f"""{hero}{kpis}
-<div class="cols"><div class="stack">{tematicas}{proyectos}{seccion_como_voto(m, cv or [])}{comis}{visitas}</div>
+<div class="cols"><div class="stack">{tematicas}{proyectos}{seccion_equipo(dp, ases or {})}{seccion_como_voto(m, cv or [])}{comis}{visitas}</div>
 <aside class="stack">{seccion_intereses(it or [])}{pleno}{gasto}{ents}{agenda}</aside></div>
 <p class="note" style="margin-top:16px">Datos al {e(generado)}.</p>"""
     ld = [{"@context": "https://schema.org", "@type": "Person", "name": nombre, "jobTitle": f"{cargo} 2026–2031",
@@ -438,6 +462,10 @@ def build() -> list[str]:
                                                                    "contratos.json", "integridad.json", "data.json", "visitas.json"))
     vi = {(x["camara"], x["nombre"]): x for x in (vis or {}).get("congresistas", [])}
     pfs = {(x["camara"], x["nombre"]): x for x in (cargar("perfiles.json") or {}).get("perfiles", [])}
+    ase_por_desp = {}
+    for a in (cargar("asesores.json") or {}).get("asesores", []):
+        if not a.get("ambiguo"):
+            ase_por_desp.setdefault(a["despacho"], {})[a["nombre"]] = a
     ints = {}
     for x in (cargar("intereses.json") or {}).get("vinculos", []):
         ints.setdefault((x["camara"], x["congresista"]), []).append(x)
@@ -463,7 +491,8 @@ def build() -> list[str]:
     por_cam = {"D": [], "S": []}
     for m in bic["congresistas"]:
         s, doc = ficha(m, pl.get((m["camara"], m["nombre"])), dp.get((m["camara"], m["nombre"])), gen, vi.get((m["camara"], m["nombre"])),
-                       pfs.get((m["camara"], m["nombre"])), ctx.get(m["camara"]), como_voto(m, plenos), ints.get((m["camara"], m["nombre"])))
+                       pfs.get((m["camara"], m["nombre"])), ctx.get(m["camara"]), como_voto(m, plenos), ints.get((m["camara"], m["nombre"])),
+                       ase_por_desp.get(m["nombre"], {}))
         open(os.path.join(WEB, "congresistas", f"{s}.html"), "w", encoding="utf-8").write(doc)
         urls.append(f"congresistas/{s}.html")
         por_cam.setdefault(m["camara"], []).append((m, s))
