@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generado": "2026-11-11",
+  "generado": "2026-11-12",
   "fuente": "Webs oficiales de la Cámara de Diputados y del Senado (perfil, cargos, informes de representación y de viajes)",
   "nota": "Solo comisiones con estado Activo. Las cámaras no publican agendas diarias ni actas por congresista."
  },
@@ -8,7 +8,7 @@
   "perfiles": 190,
   "con_foto": 190,
   "con_comisiones": 190,
-  "informes_representacion": 506,
+  "informes_representacion": 507,
   "viajes": 4
  },
  "perfiles": [
@@ -4542,6 +4542,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-10",
+     "lugar": "Lima Metropolitana",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/YARROW-LUMBRERAS_10-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-23",
      "lugar": "Lima Metropolitana",
      "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/YARROW-LUMBRERAS_23-10-2026.pdf"
@@ -8258,10 +8263,31 @@
      "hasta": "2027-07-26"
     },
     {
+     "organo": "Comisión de Economía, Medio Ambiente y Defensa del Consumidor",
+     "tipo": "Ordinaria",
+     "cargo": "Suplente",
+     "desde": "2026-11-11",
+     "hasta": "2027-07-26"
+    },
+    {
+     "organo": "Comisión de Justicia y Derechos Humanos",
+     "tipo": "Ordinaria",
+     "cargo": "Suplente",
+     "desde": "2026-11-11",
+     "hasta": "2027-07-26"
+    },
+    {
      "organo": "Comisión de Procedimientos Especiales",
      "tipo": "Ordinaria no legislativa",
      "cargo": "Suplente",
      "desde": "2026-10-07",
+     "hasta": "2027-07-26"
+    },
+    {
+     "organo": "Comisión en Asuntos de Desarrollo Productivo, Energía y Minas, Infraestructura y Trabajo",
+     "tipo": "Ordinaria",
+     "cargo": "Suplente",
+     "desde": "2026-11-11",
      "hasta": "2027-07-26"
     }
    ],
@@ -8319,6 +8345,20 @@
      "cargo": "Titular",
      "desde": "2026-07-27",
      "hasta": "2031-07-26"
+    },
+    {
+     "organo": "Comisión de Defensa Nacional y Orden Interno",
+     "tipo": "Ordinaria",
+     "cargo": "Suplente",
+     "desde": "2026-11-11",
+     "hasta": "2027-07-26"
+    },
+    {
+     "organo": "Comisión de Economía, Medio Ambiente y Defensa del Consumidor",
+     "tipo": "Ordinaria",
+     "cargo": "Suplente",
+     "desde": "2026-11-11",
+     "hasta": "2027-07-26"
     },
     {
      "organo": "Comisión de Justicia y Derechos Humanos",
@@ -8415,6 +8455,20 @@
      "cargo": "Suplente",
      "desde": "2026-08-12",
      "hasta": "2027-07-26"
+    },
+    {
+     "organo": "Comisión en Asuntos de Gestión del Estado y Contraloría",
+     "tipo": "Ordinaria",
+     "cargo": "Suplente",
+     "desde": "2026-11-11",
+     "hasta": "2027-07-26"
+    },
+    {
+     "organo": "Comisión en Asuntos de Salud, Educación, Cultura, Mujer y Desarrollo Social y Digital",
+     "tipo": "Ordinaria",
+     "cargo": "Suplente",
+     "desde": "2026-11-11",
+     "hasta": "2027-07-26"
     }
    ],
    "representacion": [
@@ -8484,6 +8538,20 @@
      "tipo": "Ordinaria no legislativa",
      "cargo": "Suplente",
      "desde": "2026-10-07",
+     "hasta": "2027-07-26"
+    },
+    {
+     "organo": "Comisión en Asuntos de Gestión del Estado y Contraloría",
+     "tipo": "Ordinaria",
+     "cargo": "Suplente",
+     "desde": "2026-11-11",
+     "hasta": "2027-07-26"
+    },
+    {
+     "organo": "Control, Político sobre los Actos Normativos del Poder Ejecutivo y Regímenes de Excepción",
+     "tipo": "Ordinaria no legislativa",
+     "cargo": "Suplente",
+     "desde": "2026-11-11",
      "hasta": "2027-07-26"
     },
     {
@@ -8625,6 +8693,13 @@
      "hasta": "2031-07-26"
     },
     {
+     "organo": "Comisión de Economía, Medio Ambiente y Defensa del Consumidor",
+     "tipo": "Ordinaria",
+     "cargo": "Suplente",
+     "desde": "2026-11-11",
+     "hasta": "2027-07-26"
+    },
+    {
      "organo": "Comisión de Procedimientos Especiales",
      "tipo": "Ordinaria no legislativa",
      "cargo": "Suplente",
@@ -8697,10 +8772,24 @@
      "hasta": "2027-07-26"
     },
     {
+     "organo": "Comisión de Procedimientos Especiales",
+     "tipo": "Ordinaria no legislativa",
+     "cargo": "Suplente",
+     "desde": "2026-11-11",
+     "hasta": "2027-07-26"
+    },
+    {
      "organo": "Comisión en Asuntos de Desarrollo Productivo, Energía y Minas, Infraestructura y Trabajo",
      "tipo": "Ordinaria",
      "cargo": "Suplente",
      "desde": "2026-08-12",
+     "hasta": "2027-07-26"
+    },
+    {
+     "organo": "Comisión en Asuntos de Salud, Educación, Cultura, Mujer y Desarrollo Social y Digital",
+     "tipo": "Ordinaria",
+     "cargo": "Suplente",
+     "desde": "2026-11-11",
      "hasta": "2027-07-26"
     },
     {
@@ -8779,6 +8868,20 @@
      "hasta": "2031-07-26"
     },
     {
+     "organo": "Comisión de Defensa Nacional y Orden Interno",
+     "tipo": "Ordinaria",
+     "cargo": "Suplente",
+     "desde": "2026-11-11",
+     "hasta": "2027-07-26"
+    },
+    {
+     "organo": "Comisión de Justicia y Derechos Humanos",
+     "tipo": "Ordinaria",
+     "cargo": "Suplente",
+     "desde": "2026-11-11",
+     "hasta": "2027-07-26"
+    },
+    {
      "organo": "Comisión en Asuntos de Gestión del Estado y Contraloría",
      "tipo": "Ordinaria",
      "cargo": "Suplente",
@@ -8790,6 +8893,13 @@
      "tipo": "Ordinaria",
      "cargo": "Suplente",
      "desde": "2026-08-12",
+     "hasta": "2027-07-26"
+    },
+    {
+     "organo": "Control, Político sobre los Actos Normativos del Poder Ejecutivo y Regímenes de Excepción",
+     "tipo": "Ordinaria no legislativa",
+     "cargo": "Suplente",
+     "desde": "2026-11-11",
      "hasta": "2027-07-26"
     }
    ],
@@ -9591,13 +9701,6 @@
      "hasta": "2027-07-26"
     },
     {
-     "organo": "Comisión Especial Multipartidaria de Protección Integral de la Infancia y la Adolescencia del Senado de la República, encargada de efectuar el seguimiento y la evaluación del cumplimiento de la normativa nacional, así como de la implementación de las políticas públicas, los planes y los programas vinculados con la infancia y la adolescencia; y de fiscalizar, en el marco de sus competencias, la actuación de las entidades de los tres niveles de gobierno en esta materia.",
-     "tipo": "Especial",
-     "cargo": "Titular",
-     "desde": "2026-10-21",
-     "hasta": "2027-07-26"
-    },
-    {
      "organo": "Comisión en Asuntos de Salud, Educación, Cultura, Mujer y Desarrollo Social y Digital",
      "tipo": "Ordinaria",
      "cargo": "Titular",
@@ -10176,13 +10279,6 @@
      "hasta": "2027-07-26"
     },
     {
-     "organo": "Comisión en Asuntos de Desarrollo Productivo, Energía y Minas, Infraestructura y Trabajo",
-     "tipo": "Ordinaria",
-     "cargo": "Titular",
-     "desde": "2026-08-12",
-     "hasta": "2027-07-26"
-    },
-    {
      "organo": "Comisión en Asuntos de Salud, Educación, Cultura, Mujer y Desarrollo Social y Digital",
      "tipo": "Ordinaria",
      "cargo": "Titular",
@@ -10201,6 +10297,13 @@
      "tipo": "Ordinaria",
      "cargo": "Suplente",
      "desde": "2026-08-12",
+     "hasta": "2027-07-26"
+    },
+    {
+     "organo": "Comisión en Asuntos de Desarrollo Productivo, Energía y Minas, Infraestructura y Trabajo",
+     "tipo": "Ordinaria",
+     "cargo": "Suplente",
+     "desde": "2026-11-11",
      "hasta": "2027-07-26"
     }
    ],
@@ -10312,6 +10415,13 @@
      "hasta": "2027-07-26"
     },
     {
+     "organo": "Comisión en Asuntos de Desarrollo Productivo, Energía y Minas, Infraestructura y Trabajo",
+     "tipo": "Ordinaria",
+     "cargo": "Titular",
+     "desde": "2026-11-11",
+     "hasta": "2027-07-26"
+    },
+    {
      "organo": "Fuerza Popular",
      "tipo": "Grupo parlamentario",
      "cargo": "Titular",
@@ -10320,13 +10430,6 @@
     },
     {
      "organo": "Comisión de Constitución, Reglamento y Relaciones Exteriores",
-     "tipo": "Ordinaria",
-     "cargo": "Suplente",
-     "desde": "2026-08-12",
-     "hasta": "2027-07-26"
-    },
-    {
-     "organo": "Comisión en Asuntos de Desarrollo Productivo, Energía y Minas, Infraestructura y Trabajo",
      "tipo": "Ordinaria",
      "cargo": "Suplente",
      "desde": "2026-08-12",
@@ -10752,13 +10855,6 @@
      "tipo": "Ordinaria no legislativa",
      "cargo": "Presidente",
      "desde": "2026-08-13",
-     "hasta": "2027-07-26"
-    },
-    {
-     "organo": "Comisión Especial Multipartidaria de Protección Integral de la Infancia y la Adolescencia del Senado de la República, encargada de efectuar el seguimiento y la evaluación del cumplimiento de la normativa nacional, así como de la implementación de las políticas públicas, los planes y los programas vinculados con la infancia y la adolescencia; y de fiscalizar, en el marco de sus competencias, la actuación de las entidades de los tres niveles de gobierno en esta materia.",
-     "tipo": "Especial",
-     "cargo": "Titular",
-     "desde": "2026-10-21",
      "hasta": "2027-07-26"
     },
     {
