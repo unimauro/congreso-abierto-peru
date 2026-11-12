@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generado": "2026-11-11T16:24:33+00:00",
+  "generado": "2026-11-12T14:54:11+00:00",
   "fuentes": {
    "pte_historico": {
     "nombre": "Portal de Transparencia Estándar — planillas",
@@ -12,7 +12,7 @@
     "nombre": "Portal de Transparencia Estándar — planillas",
     "desde": "2025-10",
     "hasta": "2026-11",
-    "filas": 534953
+    "filas": 706105
    },
    "dj_intereses": {
     "nombre": "Contraloría — declaraciones juradas de intereses",
@@ -22,15 +22,15 @@
    },
    "designaciones": {
     "nombre": "Diario Oficial El Peruano — designaciones",
-    "desde": "2021-08-11",
-    "hasta": "2026-11-06",
-    "filas": 2236
+    "desde": "2026-02-12",
+    "hasta": "2026-11-10",
+    "filas": 1105
    },
    "contratos_ocds": {
     "nombre": "OECE/SEACE — contrataciones abiertas (OCDS)",
     "desde": "2025-12-29",
     "hasta": "2026-11-10",
-    "filas": 24123
+    "filas": 24408
    }
   },
   "nota": "Cruce por nombre completo (sin DNI) con registros oficiales de otras entidades; excluye al Congreso. Pueden existir homónimos: 'ambiguo' marca nombres con señales de más de una persona. Nombres de 3 palabras con apellidos frecuentes requieren una segunda coincidencia (cargo o área). 'otra_planilla_2026' = figura en la planilla de otra entidad desde agosto de 2026. Máximo 12 registros por asesor, lo más reciente primero."
@@ -39,12 +39,12 @@
   "evaluados": 1311,
   "omitidos_nombre_corto": 6,
   "exigen_segunda_senal": 103,
-  "asesores": 249,
-  "con_historial": 249,
+  "asesores": 251,
+  "con_historial": 251,
   "ambiguos": 3,
-  "otra_planilla_2026": 21,
+  "otra_planilla_2026": 23,
   "registros_por_fuente": {
-   "PTE": 429,
+   "PTE": 432,
    "DJ": 51,
    "OCDS": 1,
    "El Peruano": 1
@@ -179,7 +179,7 @@
      "entidad": "Ministerio de Salud (MINSA)",
      "cargo": "ESPEC. ADMINISTRATIVO/A",
      "desde": "2024-12",
-     "hasta": "2026-09",
+     "hasta": "2026-10",
      "detalle": "CAS · D.U.Nº 083-2021"
     },
     {
@@ -403,7 +403,7 @@
      "entidad": "Superintendencia Nacional de Aduanas y de Administración Tributaria (SUNAT)",
      "cargo": "ESPECIALISTA 5",
      "desde": "2026-09",
-     "hasta": "2026-09",
+     "hasta": "2026-10",
      "detalle": "Régimen 728/OTROS · DIVISIÓN DE ESTADÍSTICA"
     }
    ],
@@ -1549,7 +1549,7 @@
      "entidad": "Municipalidad Provincial de Sullana (MP-SULLANA)",
      "cargo": "JEFE DE LA OFICINA DE TECNOLOGIA DE LA INFORMACIÓN",
      "desde": "2025-12",
-     "hasta": "2025-12",
+     "hasta": "2026-07",
      "detalle": "CAS · OFICINA DE TECNOLOGIAS DE LA INFORMACION"
     },
     {
@@ -1852,6 +1852,23 @@
    "otra_planilla_2026": false
   },
   {
+   "nombre": "ALVARADO LOZANO, ROGER ROBERT",
+   "despacho": "Del Águila Cárdenas, Juan Carlos",
+   "camara": "S",
+   "cargo": "COORDINADOR",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Provincial de Maynas (MPM)",
+     "cargo": "TECNICO ADMINISTRATIVO I",
+     "desde": "2026-04",
+     "hasta": "2026-04",
+     "detalle": "Régimen 276 · GERENCIA DE TRANSITO Y TRANSPORTE PUBLICO"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
    "nombre": "LOPEZ ORIHUELA, VICTOR FELIX",
    "despacho": "Del Águila Cárdenas, Juan Carlos",
    "camara": "S",
@@ -2129,7 +2146,7 @@
      "entidad": "Superintendencia Nacional de Aduanas y de Administración Tributaria (SUNAT)",
      "cargo": "ESPECIALISTA 3",
      "desde": "2026-09",
-     "hasta": "2026-09",
+     "hasta": "2026-10",
      "detalle": "Régimen 728/OTROS · DIVISIÓN DE TÉCNICA ADUANERA, RECAUDACIÓN Y CONTABILIDAD"
     }
    ],
@@ -3711,6 +3728,14 @@
     {
      "fuente": "PTE",
      "entidad": "Centro de Formación en Turismo (CENFOTUR)",
+     "cargo": "ABOGADO SENIOR",
+     "desde": "2026-10",
+     "hasta": "2026-10",
+     "detalle": "CAS · OFICINA DE ASESORÍA JURÍDICA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Centro de Formación en Turismo (CENFOTUR)",
      "cargo": "ABOGADO",
      "desde": "2021-12",
      "hasta": "2022-12",
@@ -3733,7 +3758,7 @@
      "detalle": "CAS · OFICINA DE ASESORÍA JURÍDICA"
     }
    ],
-   "otra_planilla_2026": false
+   "otra_planilla_2026": true
   },
   {
    "nombre": "MUÑOZ MONTOYA, ALEJANDRA MARIA",
@@ -4030,6 +4055,23 @@
     }
    ],
    "otra_planilla_2026": false
+  },
+  {
+   "nombre": "SOLIS PERALTA, VIDAL JULIO",
+   "despacho": "Morales Ramírez, Edyson Humberto",
+   "camara": "S",
+   "cargo": "TECNICO",
+   "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Municipalidad Metropolitana de Lima (MUNLIMA)",
+     "cargo": "POLICIA MUNICIPAL II",
+     "desde": "2026-08",
+     "hasta": "2026-08",
+     "detalle": "Régimen 276 · GERENCIA DE SEGURIDAD CIUDADANA"
+    }
+   ],
+   "otra_planilla_2026": true
   },
   {
    "nombre": "VERA FRANCK, NORA PATRICIA",

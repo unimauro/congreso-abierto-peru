@@ -1068,7 +1068,7 @@
    ]
   },
   "S": {
-   "pases_lista": 37,
+   "pases_lista": 45,
    "votaciones": [
     {
      "id": "S-20261028-1114",
@@ -2806,6 +2806,14 @@
    ],
    "sesiones": [
     {
+     "fecha": "2026-11-11",
+     "documentos": {
+      "temas": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/12_ctt_11.nov_.2026Senado.pdf",
+      "agenda": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/AGENDA-PLENO-SENADO-11-11-2026-V2.pdf",
+      "asistencia": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/Asistencias_y_votaciones_PROVISIONAL_sesion_del_11_11_2026.pdf"
+     }
+    },
+    {
      "fecha": "2026-10-28",
      "documentos": {
       "temas": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/11_ctt_28.oct_.2026Senado-1.pdf",
@@ -2972,10 +2980,10 @@
    "asistencia_descartado": 10
   },
   "S": {
-   "asistencia_total": 37,
+   "asistencia_total": 45,
    "nombres_sin_cruce": 5,
-   "votacion_total": 45,
-   "votacion_descartado": 5
+   "votacion_total": 52,
+   "votacion_descartado": 12
   }
  },
  "miembros": [
@@ -5193,9 +5201,9 @@
    "camara": "S",
    "nombre": "Aguinaga Recuenco, Alejandro Aurelio",
    "sigla": "FP",
-   "pases": 36,
-   "presente": 32,
-   "ausente": 4,
+   "pases": 44,
+   "presente": 39,
+   "ausente": 5,
    "licencia": 0,
    "votaciones": 40,
    "si": 35,
@@ -5204,14 +5212,14 @@
    "no_voto": 0,
    "con_bancada": 40,
    "contra_bancada": 0,
-   "pct_asistencia": 88.9
+   "pct_asistencia": 88.6
   },
   {
    "camara": "S",
    "nombre": "Alcorta Suero, María Lourdes Pía Luisa",
    "sigla": "RP",
-   "pases": 37,
-   "presente": 35,
+   "pases": 45,
+   "presente": 43,
    "ausente": 2,
    "licencia": 0,
    "votaciones": 40,
@@ -5221,16 +5229,16 @@
    "no_voto": 5,
    "con_bancada": 35,
    "contra_bancada": 0,
-   "pct_asistencia": 94.6
+   "pct_asistencia": 95.6
   },
   {
    "camara": "S",
    "nombre": "Ampuero Meza, Katherine Milagros",
    "sigla": "RP",
-   "pases": 37,
+   "pases": 45,
    "presente": 29,
    "ausente": 8,
-   "licencia": 0,
+   "licencia": 8,
    "votaciones": 40,
    "si": 30,
    "no": 5,
@@ -5244,9 +5252,9 @@
    "camara": "S",
    "nombre": "Andrés Luján, Serafín",
    "sigla": "JP",
-   "pases": 37,
+   "pases": 45,
    "presente": 33,
-   "ausente": 4,
+   "ausente": 12,
    "licencia": 0,
    "votaciones": 40,
    "si": 23,
@@ -5255,14 +5263,14 @@
    "no_voto": 5,
    "con_bancada": 34,
    "contra_bancada": 1,
-   "pct_asistencia": 89.2
+   "pct_asistencia": 73.3
   },
   {
    "camara": "S",
    "nombre": "Arista Arbildo, José Berley",
    "sigla": "FP",
-   "pases": 37,
-   "presente": 27,
+   "pases": 45,
+   "presente": 35,
    "ausente": 10,
    "licencia": 0,
    "votaciones": 40,
@@ -5272,14 +5280,14 @@
    "no_voto": 9,
    "con_bancada": 31,
    "contra_bancada": 0,
-   "pct_asistencia": 73.0
+   "pct_asistencia": 77.8
   },
   {
    "camara": "S",
    "nombre": "Armacanqui Morales, Saúl Andrés",
    "sigla": "JP",
-   "pases": 36,
-   "presente": 24,
+   "pases": 44,
+   "presente": 32,
    "ausente": 12,
    "licencia": 0,
    "votaciones": 40,
@@ -5289,14 +5297,14 @@
    "no_voto": 18,
    "con_bancada": 22,
    "contra_bancada": 0,
-   "pct_asistencia": 66.7
+   "pct_asistencia": 72.7
   },
   {
    "camara": "S",
    "nombre": "Astucuri Laura, Roger Miguel",
    "sigla": "PCO",
-   "pases": 37,
-   "presente": 36,
+   "pases": 45,
+   "presente": 44,
    "ausente": 1,
    "licencia": 0,
    "votaciones": 39,
@@ -5306,16 +5314,16 @@
    "no_voto": 1,
    "con_bancada": 36,
    "contra_bancada": 2,
-   "pct_asistencia": 97.3
+   "pct_asistencia": 97.8
   },
   {
    "camara": "S",
    "nombre": "Astudillo Salcedo, César Augusto",
    "sigla": "FP",
-   "pases": 37,
+   "pases": 45,
    "presente": 8,
    "ausente": 1,
-   "licencia": 28,
+   "licencia": 36,
    "votaciones": 40,
    "si": 8,
    "no": 2,
@@ -5329,8 +5337,8 @@
    "camara": "S",
    "nombre": "Barragán Coloma, Daniel Hugo",
    "sigla": "PCO",
-   "pases": 37,
-   "presente": 34,
+   "pases": 45,
+   "presente": 42,
    "ausente": 1,
    "licencia": 2,
    "votaciones": 38,
@@ -5340,14 +5348,14 @@
    "no_voto": 1,
    "con_bancada": 37,
    "contra_bancada": 0,
-   "pct_asistencia": 97.1
+   "pct_asistencia": 97.7
   },
   {
    "camara": "S",
    "nombre": "Bonifaz Carmona, Nora",
    "sigla": "PBG",
-   "pases": 37,
-   "presente": 33,
+   "pases": 45,
+   "presente": 41,
    "ausente": 4,
    "licencia": 0,
    "votaciones": 40,
@@ -5357,14 +5365,14 @@
    "no_voto": 1,
    "con_bancada": 36,
    "contra_bancada": 2,
-   "pct_asistencia": 89.2
+   "pct_asistencia": 91.1
   },
   {
    "camara": "S",
    "nombre": "Caballero León, Carlos David",
    "sigla": "PBG",
-   "pases": 37,
-   "presente": 31,
+   "pases": 45,
+   "presente": 39,
    "ausente": 6,
    "licencia": 0,
    "votaciones": 40,
@@ -5374,14 +5382,14 @@
    "no_voto": 5,
    "con_bancada": 34,
    "contra_bancada": 0,
-   "pct_asistencia": 83.8
+   "pct_asistencia": 86.7
   },
   {
    "camara": "S",
    "nombre": "Calisto Giampietri, Francisco José",
    "sigla": "RP",
-   "pases": 37,
-   "presente": 37,
+   "pases": 45,
+   "presente": 45,
    "ausente": 0,
    "licencia": 0,
    "votaciones": 39,
@@ -5397,10 +5405,10 @@
    "camara": "S",
    "nombre": "Castillo Terrones, José Mercedes",
    "sigla": "JP",
-   "pases": 37,
+   "pases": 45,
    "presente": 36,
    "ausente": 1,
-   "licencia": 0,
+   "licencia": 8,
    "votaciones": 40,
    "si": 25,
    "no": 14,
@@ -5414,8 +5422,8 @@
    "camara": "S",
    "nombre": "Ccahuana Aymachoque, Hugo Isaac",
    "sigla": "JP",
-   "pases": 37,
-   "presente": 14,
+   "pases": 45,
+   "presente": 22,
    "ausente": 23,
    "licencia": 0,
    "votaciones": 40,
@@ -5425,15 +5433,15 @@
    "no_voto": 21,
    "con_bancada": 16,
    "contra_bancada": 3,
-   "pct_asistencia": 37.8
+   "pct_asistencia": 48.9
   },
   {
    "camara": "S",
    "nombre": "Chacón Trujillo, Nilza Merly",
    "sigla": "FP",
-   "pases": 37,
-   "presente": 31,
-   "ausente": 4,
+   "pases": 45,
+   "presente": 38,
+   "ausente": 5,
    "licencia": 2,
    "votaciones": 40,
    "si": 30,
@@ -5442,14 +5450,14 @@
    "no_voto": 5,
    "con_bancada": 35,
    "contra_bancada": 0,
-   "pct_asistencia": 88.6
+   "pct_asistencia": 88.4
   },
   {
    "camara": "S",
    "nombre": "Chipana Chipana, José Moisés",
    "sigla": "JP",
-   "pases": 37,
-   "presente": 35,
+   "pases": 45,
+   "presente": 43,
    "ausente": 2,
    "licencia": 0,
    "votaciones": 40,
@@ -5459,14 +5467,14 @@
    "no_voto": 3,
    "con_bancada": 35,
    "contra_bancada": 2,
-   "pct_asistencia": 94.6
+   "pct_asistencia": 95.6
   },
   {
    "camara": "S",
    "nombre": "Chávez Cossío, Martha Gladys",
    "sigla": "FP",
-   "pases": 37,
-   "presente": 33,
+   "pases": 45,
+   "presente": 41,
    "ausente": 2,
    "licencia": 2,
    "votaciones": 40,
@@ -5476,14 +5484,14 @@
    "no_voto": 2,
    "con_bancada": 38,
    "contra_bancada": 0,
-   "pct_asistencia": 94.3
+   "pct_asistencia": 95.3
   },
   {
    "camara": "S",
    "nombre": "Cutipa Ccama, Víctor Raúl",
    "sigla": "JP",
-   "pases": 37,
-   "presente": 33,
+   "pases": 45,
+   "presente": 41,
    "ausente": 4,
    "licencia": 0,
    "votaciones": 40,
@@ -5493,15 +5501,15 @@
    "no_voto": 3,
    "con_bancada": 36,
    "contra_bancada": 1,
-   "pct_asistencia": 89.2
+   "pct_asistencia": 91.1
   },
   {
    "camara": "S",
    "nombre": "Del Águila Cárdenas, Juan Carlos",
    "sigla": "FP",
-   "pases": 37,
-   "presente": 33,
-   "ausente": 4,
+   "pases": 45,
+   "presente": 40,
+   "ausente": 5,
    "licencia": 0,
    "votaciones": 40,
    "si": 31,
@@ -5510,14 +5518,14 @@
    "no_voto": 4,
    "con_bancada": 36,
    "contra_bancada": 0,
-   "pct_asistencia": 89.2
+   "pct_asistencia": 88.9
   },
   {
    "camara": "S",
    "nombre": "Delgado Zegarra, Jaime Ricardo",
    "sigla": "AN",
-   "pases": 37,
-   "presente": 33,
+   "pases": 45,
+   "presente": 41,
    "ausente": 4,
    "licencia": 0,
    "votaciones": 40,
@@ -5527,14 +5535,14 @@
    "no_voto": 2,
    "con_bancada": 32,
    "contra_bancada": 2,
-   "pct_asistencia": 89.2
+   "pct_asistencia": 91.1
   },
   {
    "camara": "S",
    "nombre": "Figallo Rivadeneyra, Flavio Felipe",
    "sigla": "PBG",
-   "pases": 37,
-   "presente": 34,
+   "pases": 45,
+   "presente": 42,
    "ausente": 3,
    "licencia": 0,
    "votaciones": 39,
@@ -5544,14 +5552,14 @@
    "no_voto": 0,
    "con_bancada": 38,
    "contra_bancada": 0,
-   "pct_asistencia": 91.9
+   "pct_asistencia": 93.3
   },
   {
    "camara": "S",
    "nombre": "Flores Córdova, Agripina María del Pilar",
    "sigla": "PCO",
-   "pases": 37,
-   "presente": 23,
+   "pases": 45,
+   "presente": 31,
    "ausente": 9,
    "licencia": 5,
    "votaciones": 38,
@@ -5561,15 +5569,15 @@
    "no_voto": 10,
    "con_bancada": 27,
    "contra_bancada": 1,
-   "pct_asistencia": 71.9
+   "pct_asistencia": 77.5
   },
   {
    "camara": "S",
    "nombre": "Flores Ruiz, Víctor Seferino",
    "sigla": "FP",
-   "pases": 37,
-   "presente": 34,
-   "ausente": 3,
+   "pases": 45,
+   "presente": 40,
+   "ausente": 5,
    "licencia": 0,
    "votaciones": 40,
    "si": 33,
@@ -5578,15 +5586,15 @@
    "no_voto": 2,
    "con_bancada": 38,
    "contra_bancada": 0,
-   "pct_asistencia": 91.9
+   "pct_asistencia": 88.9
   },
   {
    "camara": "S",
    "nombre": "Flores Suárez, Juver Nilson",
    "sigla": "PBG",
-   "pases": 37,
-   "presente": 29,
-   "ausente": 8,
+   "pases": 45,
+   "presente": 36,
+   "ausente": 9,
    "licencia": 0,
    "votaciones": 40,
    "si": 34,
@@ -5595,15 +5603,15 @@
    "no_voto": 1,
    "con_bancada": 37,
    "contra_bancada": 2,
-   "pct_asistencia": 78.4
+   "pct_asistencia": 80.0
   },
   {
    "camara": "S",
    "nombre": "Gago Rodríguez, Walter Francisco",
    "sigla": "PCO",
-   "pases": 37,
-   "presente": 30,
-   "ausente": 7,
+   "pases": 45,
+   "presente": 36,
+   "ausente": 9,
    "licencia": 0,
    "votaciones": 37,
    "si": 31,
@@ -5612,15 +5620,15 @@
    "no_voto": 3,
    "con_bancada": 34,
    "contra_bancada": 0,
-   "pct_asistencia": 81.1
+   "pct_asistencia": 80.0
   },
   {
    "camara": "S",
    "nombre": "Gavidia Rodríguez, Jorge Octavio",
    "sigla": "PBG",
-   "pases": 37,
-   "presente": 35,
-   "ausente": 2,
+   "pases": 45,
+   "presente": 42,
+   "ausente": 3,
    "licencia": 0,
    "votaciones": 39,
    "si": 34,
@@ -5629,15 +5637,15 @@
    "no_voto": 3,
    "con_bancada": 31,
    "contra_bancada": 4,
-   "pct_asistencia": 94.6
+   "pct_asistencia": 93.3
   },
   {
    "camara": "S",
    "nombre": "Iturregui Byrne, Patricia Milagros",
    "sigla": "PBG",
-   "pases": 37,
-   "presente": 31,
-   "ausente": 6,
+   "pases": 45,
+   "presente": 36,
+   "ausente": 9,
    "licencia": 0,
    "votaciones": 38,
    "si": 27,
@@ -5646,16 +5654,16 @@
    "no_voto": 3,
    "con_bancada": 33,
    "contra_bancada": 1,
-   "pct_asistencia": 83.8
+   "pct_asistencia": 80.0
   },
   {
    "camara": "S",
    "nombre": "Jauregui Martínez de Aguayo, María de los Milagros Jackeline",
    "sigla": "RP",
-   "pases": 37,
+   "pases": 45,
    "presente": 31,
-   "ausente": 6,
-   "licencia": 0,
+   "ausente": 8,
+   "licencia": 6,
    "votaciones": 40,
    "si": 32,
    "no": 5,
@@ -5663,15 +5671,15 @@
    "no_voto": 3,
    "con_bancada": 37,
    "contra_bancada": 0,
-   "pct_asistencia": 83.8
+   "pct_asistencia": 79.5
   },
   {
    "camara": "S",
    "nombre": "Jiménez Heredia, David Julio",
    "sigla": "FP",
-   "pases": 37,
-   "presente": 29,
-   "ausente": 4,
+   "pases": 45,
+   "presente": 36,
+   "ausente": 5,
    "licencia": 4,
    "votaciones": 40,
    "si": 29,
@@ -5680,15 +5688,15 @@
    "no_voto": 6,
    "con_bancada": 34,
    "contra_bancada": 0,
-   "pct_asistencia": 87.9
+   "pct_asistencia": 87.8
   },
   {
    "camara": "S",
    "nombre": "Juárez Gallegos, Carmen Patricia",
    "sigla": "FP",
-   "pases": 37,
-   "presente": 36,
-   "ausente": 1,
+   "pases": 45,
+   "presente": 43,
+   "ausente": 2,
    "licencia": 0,
    "votaciones": 40,
    "si": 34,
@@ -5697,15 +5705,15 @@
    "no_voto": 1,
    "con_bancada": 39,
    "contra_bancada": 0,
-   "pct_asistencia": 97.3
+   "pct_asistencia": 95.6
   },
   {
    "camara": "S",
    "nombre": "Luque Ibarra, Ruth",
    "sigla": "AN",
-   "pases": 37,
-   "presente": 26,
-   "ausente": 8,
+   "pases": 45,
+   "presente": 33,
+   "ausente": 9,
    "licencia": 3,
    "votaciones": 38,
    "si": 21,
@@ -5714,15 +5722,15 @@
    "no_voto": 6,
    "con_bancada": 28,
    "contra_bancada": 0,
-   "pct_asistencia": 76.5
+   "pct_asistencia": 78.6
   },
   {
    "camara": "S",
    "nombre": "López Chau Nava, Pablo Alfonso",
    "sigla": "AN",
-   "pases": 37,
-   "presente": 16,
-   "ausente": 21,
+   "pases": 45,
+   "presente": 23,
+   "ausente": 22,
    "licencia": 0,
    "votaciones": 40,
    "si": 16,
@@ -5731,14 +5739,14 @@
    "no_voto": 19,
    "con_bancada": 12,
    "contra_bancada": 5,
-   "pct_asistencia": 43.2
+   "pct_asistencia": 51.1
   },
   {
    "camara": "S",
    "nombre": "Mancha Pineda, Estanislao Edgar",
    "sigla": "RP",
-   "pases": 37,
-   "presente": 34,
+   "pases": 45,
+   "presente": 42,
    "ausente": 3,
    "licencia": 0,
    "votaciones": 40,
@@ -5748,14 +5756,14 @@
    "no_voto": 1,
    "con_bancada": 39,
    "contra_bancada": 0,
-   "pct_asistencia": 91.9
+   "pct_asistencia": 93.3
   },
   {
    "camara": "S",
    "nombre": "Maraví Olarte, Iber Antenor",
    "sigla": "JP",
-   "pases": 37,
-   "presente": 37,
+   "pases": 45,
+   "presente": 45,
    "ausente": 0,
    "licencia": 0,
    "votaciones": 35,
@@ -5771,10 +5779,10 @@
    "camara": "S",
    "nombre": "Matute Charún, Susana Flor de María",
    "sigla": "PBG",
-   "pases": 37,
+   "pases": 45,
    "presente": 20,
    "ausente": 2,
-   "licencia": 15,
+   "licencia": 23,
    "votaciones": 39,
    "si": 18,
    "no": 5,
@@ -5788,9 +5796,9 @@
    "camara": "S",
    "nombre": "Melgar Váldez, Elard Galo",
    "sigla": "FP",
-   "pases": 37,
-   "presente": 33,
-   "ausente": 2,
+   "pases": 45,
+   "presente": 38,
+   "ausente": 5,
    "licencia": 2,
    "votaciones": 38,
    "si": 31,
@@ -5799,14 +5807,14 @@
    "no_voto": 3,
    "con_bancada": 35,
    "contra_bancada": 0,
-   "pct_asistencia": 94.3
+   "pct_asistencia": 88.4
   },
   {
    "camara": "S",
    "nombre": "Mesía Ramírez, Carlos Fernando",
    "sigla": "FP",
-   "pases": 37,
-   "presente": 28,
+   "pases": 45,
+   "presente": 36,
    "ausente": 9,
    "licencia": 0,
    "votaciones": 40,
@@ -5816,14 +5824,14 @@
    "no_voto": 2,
    "con_bancada": 38,
    "contra_bancada": 0,
-   "pct_asistencia": 75.7
+   "pct_asistencia": 80.0
   },
   {
    "camara": "S",
    "nombre": "Miyashiro Arashiro, Marco Enrique",
    "sigla": "FP",
-   "pases": 37,
-   "presente": 19,
+   "pases": 45,
+   "presente": 27,
    "ausente": 18,
    "licencia": 0,
    "votaciones": 40,
@@ -5833,14 +5841,14 @@
    "no_voto": 19,
    "con_bancada": 20,
    "contra_bancada": 1,
-   "pct_asistencia": 51.4
+   "pct_asistencia": 60.0
   },
   {
    "camara": "S",
    "nombre": "Morales Ramírez, Edyson Humberto",
    "sigla": "JP",
-   "pases": 37,
-   "presente": 36,
+   "pases": 45,
+   "presente": 44,
    "ausente": 1,
    "licencia": 0,
    "votaciones": 40,
@@ -5850,14 +5858,14 @@
    "no_voto": 0,
    "con_bancada": 38,
    "contra_bancada": 2,
-   "pct_asistencia": 97.3
+   "pct_asistencia": 97.8
   },
   {
    "camara": "S",
    "nombre": "Moyano Delgado, Martha Lupe",
    "sigla": "FP",
-   "pases": 37,
-   "presente": 35,
+   "pases": 45,
+   "presente": 43,
    "ausente": 2,
    "licencia": 0,
    "votaciones": 39,
@@ -5867,14 +5875,14 @@
    "no_voto": 2,
    "con_bancada": 37,
    "contra_bancada": 0,
-   "pct_asistencia": 94.6
+   "pct_asistencia": 95.6
   },
   {
    "camara": "S",
    "nombre": "Muñante Barrios, Alejandro",
    "sigla": "RP",
-   "pases": 37,
-   "presente": 29,
+   "pases": 45,
+   "presente": 37,
    "ausente": 8,
    "licencia": 0,
    "votaciones": 36,
@@ -5884,14 +5892,14 @@
    "no_voto": 11,
    "con_bancada": 25,
    "contra_bancada": 0,
-   "pct_asistencia": 78.4
+   "pct_asistencia": 82.2
   },
   {
    "camara": "S",
    "nombre": "Noriega Reátegui, Víctor Manuel",
    "sigla": "FP",
-   "pases": 37,
-   "presente": 37,
+   "pases": 45,
+   "presente": 45,
    "ausente": 0,
    "licencia": 0,
    "votaciones": 40,
@@ -5907,8 +5915,8 @@
    "camara": "S",
    "nombre": "Osorio Palpán, Percy Herbert",
    "sigla": "JP",
-   "pases": 37,
-   "presente": 35,
+   "pases": 45,
+   "presente": 43,
    "ausente": 2,
    "licencia": 0,
    "votaciones": 40,
@@ -5918,15 +5926,15 @@
    "no_voto": 0,
    "con_bancada": 35,
    "contra_bancada": 5,
-   "pct_asistencia": 94.6
+   "pct_asistencia": 95.6
   },
   {
    "camara": "S",
    "nombre": "Quito Sarmiento, Bernardo Jaime",
    "sigla": "JP",
-   "pases": 37,
-   "presente": 33,
-   "ausente": 4,
+   "pases": 45,
+   "presente": 39,
+   "ausente": 6,
    "licencia": 0,
    "votaciones": 40,
    "si": 17,
@@ -5935,14 +5943,14 @@
    "no_voto": 5,
    "con_bancada": 32,
    "contra_bancada": 3,
-   "pct_asistencia": 89.2
+   "pct_asistencia": 86.7
   },
   {
    "camara": "S",
    "nombre": "Ramos Huillcas, Andrés Avelino",
    "sigla": "JP",
-   "pases": 37,
-   "presente": 33,
+   "pases": 45,
+   "presente": 41,
    "ausente": 3,
    "licencia": 1,
    "votaciones": 40,
@@ -5952,15 +5960,15 @@
    "no_voto": 3,
    "con_bancada": 36,
    "contra_bancada": 1,
-   "pct_asistencia": 91.7
+   "pct_asistencia": 93.2
   },
   {
    "camara": "S",
    "nombre": "Robles Araujo, Silvana Emperatriz",
    "sigla": "JP",
-   "pases": 37,
-   "presente": 16,
-   "ausente": 3,
+   "pases": 45,
+   "presente": 23,
+   "ausente": 4,
    "licencia": 18,
    "votaciones": 38,
    "si": 9,
@@ -5969,16 +5977,16 @@
    "no_voto": 19,
    "con_bancada": 19,
    "contra_bancada": 0,
-   "pct_asistencia": 84.2
+   "pct_asistencia": 85.2
   },
   {
    "camara": "S",
    "nombre": "Rodrich Ackerman, Jacques Salomón",
    "sigla": "FP",
-   "pases": 37,
+   "pases": 45,
    "presente": 27,
    "ausente": 6,
-   "licencia": 4,
+   "licencia": 12,
    "votaciones": 40,
    "si": 30,
    "no": 4,
@@ -5992,8 +6000,8 @@
    "camara": "S",
    "nombre": "Rospigliosi Capurro, Fernando Miguel",
    "sigla": "FP",
-   "pases": 37,
-   "presente": 31,
+   "pases": 45,
+   "presente": 39,
    "ausente": 2,
    "licencia": 4,
    "votaciones": 37,
@@ -6003,16 +6011,16 @@
    "no_voto": 5,
    "con_bancada": 32,
    "contra_bancada": 0,
-   "pct_asistencia": 93.9
+   "pct_asistencia": 95.1
   },
   {
    "camara": "S",
    "nombre": "Schaefer Cuculiza, Karla Melissa",
    "sigla": "FP",
-   "pases": 37,
-   "presente": 32,
+   "pases": 45,
+   "presente": 33,
    "ausente": 3,
-   "licencia": 2,
+   "licencia": 9,
    "votaciones": 37,
    "si": 31,
    "no": 4,
@@ -6020,14 +6028,14 @@
    "no_voto": 2,
    "con_bancada": 35,
    "contra_bancada": 0,
-   "pct_asistencia": 91.4
+   "pct_asistencia": 91.7
   },
   {
    "camara": "S",
    "nombre": "Tapia Bernal, Segundo Leocadio",
    "sigla": "FP",
-   "pases": 37,
-   "presente": 32,
+   "pases": 45,
+   "presente": 40,
    "ausente": 5,
    "licencia": 0,
    "votaciones": 39,
@@ -6037,14 +6045,14 @@
    "no_voto": 1,
    "con_bancada": 38,
    "contra_bancada": 0,
-   "pct_asistencia": 86.5
+   "pct_asistencia": 88.9
   },
   {
    "camara": "S",
    "nombre": "Ticona Cohaila, Juana Guisella",
    "sigla": "PCO",
-   "pases": 37,
-   "presente": 33,
+   "pases": 45,
+   "presente": 41,
    "ausente": 4,
    "licencia": 0,
    "votaciones": 40,
@@ -6054,15 +6062,15 @@
    "no_voto": 1,
    "con_bancada": 28,
    "contra_bancada": 11,
-   "pct_asistencia": 89.2
+   "pct_asistencia": 91.1
   },
   {
    "camara": "S",
    "nombre": "Torres Morales, Miguel Ángel",
    "sigla": "FP",
-   "pases": 37,
-   "presente": 37,
-   "ausente": 0,
+   "pases": 45,
+   "presente": 44,
+   "ausente": 1,
    "licencia": 0,
    "votaciones": 0,
    "si": 0,
@@ -6071,14 +6079,14 @@
    "no_voto": 0,
    "con_bancada": 0,
    "contra_bancada": 0,
-   "pct_asistencia": 100.0
+   "pct_asistencia": 97.8
   },
   {
    "camara": "S",
    "nombre": "Velásquez García, Miguel Angel",
    "sigla": "RP",
-   "pases": 37,
-   "presente": 33,
+   "pases": 45,
+   "presente": 41,
    "ausente": 4,
    "licencia": 0,
    "votaciones": 40,
@@ -6088,14 +6096,14 @@
    "no_voto": 6,
    "con_bancada": 34,
    "contra_bancada": 0,
-   "pct_asistencia": 89.2
+   "pct_asistencia": 91.1
   },
   {
    "camara": "S",
    "nombre": "Velásquez Portocarrero, Jorge",
    "sigla": "FP",
-   "pases": 37,
-   "presente": 37,
+   "pases": 45,
+   "presente": 45,
    "ausente": 0,
    "licencia": 0,
    "votaciones": 38,
@@ -6111,9 +6119,9 @@
    "camara": "S",
    "nombre": "Ventura Ángel, Héctor José",
    "sigla": "FP",
-   "pases": 37,
-   "presente": 28,
-   "ausente": 9,
+   "pases": 45,
+   "presente": 34,
+   "ausente": 11,
    "licencia": 0,
    "votaciones": 40,
    "si": 23,
@@ -6122,15 +6130,15 @@
    "no_voto": 12,
    "con_bancada": 28,
    "contra_bancada": 0,
-   "pct_asistencia": 75.7
+   "pct_asistencia": 75.6
   },
   {
    "camara": "S",
    "nombre": "Verano Saravia, Wilfredo",
    "sigla": "JP",
-   "pases": 37,
-   "presente": 33,
-   "ausente": 4,
+   "pases": 45,
+   "presente": 40,
+   "ausente": 5,
    "licencia": 0,
    "votaciones": 39,
    "si": 21,
@@ -6139,14 +6147,14 @@
    "no_voto": 3,
    "con_bancada": 34,
    "contra_bancada": 2,
-   "pct_asistencia": 89.2
+   "pct_asistencia": 88.9
   },
   {
    "camara": "S",
    "nombre": "Vásquez Chuquilín, Mirtha Esther",
    "sigla": "AN",
-   "pases": 37,
-   "presente": 30,
+   "pases": 45,
+   "presente": 38,
    "ausente": 7,
    "licencia": 0,
    "votaciones": 37,
@@ -6156,15 +6164,15 @@
    "no_voto": 1,
    "con_bancada": 29,
    "contra_bancada": 3,
-   "pct_asistencia": 81.1
+   "pct_asistencia": 84.4
   },
   {
    "camara": "S",
    "nombre": "Vásquez Villanueva, Absalón",
    "sigla": "RP",
-   "pases": 37,
-   "presente": 33,
-   "ausente": 4,
+   "pases": 45,
+   "presente": 40,
+   "ausente": 5,
    "licencia": 0,
    "votaciones": 38,
    "si": 32,
@@ -6173,15 +6181,15 @@
    "no_voto": 1,
    "con_bancada": 37,
    "contra_bancada": 0,
-   "pct_asistencia": 89.2
+   "pct_asistencia": 88.9
   },
   {
    "camara": "S",
    "nombre": "Yamashiro Oré, Rafael Gustavo",
    "sigla": "FP",
-   "pases": 37,
-   "presente": 33,
-   "ausente": 4,
+   "pases": 45,
+   "presente": 40,
+   "ausente": 5,
    "licencia": 0,
    "votaciones": 36,
    "si": 30,
@@ -6190,14 +6198,14 @@
    "no_voto": 2,
    "con_bancada": 34,
    "contra_bancada": 0,
-   "pct_asistencia": 89.2
+   "pct_asistencia": 88.9
   },
   {
    "camara": "S",
    "nombre": "Yauri Tunque, Joaquín",
    "sigla": "JP",
-   "pases": 37,
-   "presente": 37,
+   "pases": 45,
+   "presente": 45,
    "ausente": 0,
    "licencia": 0,
    "votaciones": 38,
@@ -6211,7 +6219,7 @@
   }
  ],
  "meta": {
-  "generado": "2026-11-11",
+  "generado": "2026-11-12",
   "fuente": "Reportes de asistencia y votación del Pleno (PDF) · diputados/senado.congreso.gob.pe",
   "nota": "Pases de lista y votaciones validados contra el total oficial al pie de cada bloque; los escaneos se leen con OCR. Licencias (viaje, enfermedad, oficial…) no cuentan como ausencia.",
   "votos": "votaciones[].votos: un carácter por congresista en el orden de camaras[cam].nominal_orden (S sí, N no, A abstención, X ausente, L licencia, R sin respuesta, P presente, - sin dato)."
