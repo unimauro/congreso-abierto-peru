@@ -1,25 +1,25 @@
 {
  "meta": {
-  "generado": "2026-11-11",
+  "generado": "2026-11-12",
   "periodo": "2026-2031",
   "instalacion": "2026-07-27",
   "fuente": "api.congreso.gob.pe/spley-portal-service (codTipoParl S/D/C) · padrón: senado/diputados.congreso.gob.pe"
  },
  "totales": {
-  "proyectos": 855,
+  "proyectos": 856,
   "leyes": 12,
   "congresistas": 190
  },
  "camaras": {
   "D": {
    "nombre": "Cámara de Diputados",
-   "proyectos": 827,
+   "proyectos": 828,
    "leyes": 0,
    "archivados": 93,
    "por_estado": {
     "EN COMISIÓN": 651,
     "Archivado de Plano": 93,
-    "PRESENTADO": 33,
+    "PRESENTADO": 34,
     "APROBADO": 20,
     "Retirado por su Autor": 10,
     "CON DICTAMEN": 10,
@@ -31,10 +31,10 @@
     "2026-08": 102,
     "2026-09": 361,
     "2026-10": 264,
-    "2026-11": 100
+    "2026-11": 101
    },
    "por_proponente": {
-    "Cámara de Diputados": 590,
+    "Cámara de Diputados": 591,
     "PODER EJECUTIVO": 172,
     "Colegios Profesionales": 22,
     "Poder Judicial": 18,
@@ -46,7 +46,7 @@
     "Senado de la República": 1
    },
    "materias": {
-    "Otros": 166,
+    "Otros": 167,
     "Justicia y penal": 101,
     "Transporte e infraestructura": 79,
     "Salud": 76,
@@ -67,7 +67,7 @@
     "Capital humano: educación y salud": 120,
     "Seguridad y Estado de derecho": 107,
     "Otros": 68,
-    "Infraestructura y conectividad": 43,
+    "Infraestructura y conectividad": 44,
     "Inclusión y protección social": 40,
     "Finanzas públicas y presupuesto": 37,
     "Reforma política e institucional": 33,
@@ -75,7 +75,7 @@
     "Simbólico / declarativo": 15,
     "Ambiente y gestión de riesgos": 12
    },
-   "pct_desarrollo": 81.5,
+   "pct_desarrollo": 81.6,
    "pct_simbolico": 2.4,
    "riesgo_fiscal": 55,
    "actualizaciones": 199,
@@ -119,11 +119,11 @@
     {
      "bancada": "Partido Cívico Obras",
      "miembros": 14,
-     "proyectos": 49,
-     "por_miembro": 3.5,
+     "proyectos": 50,
+     "por_miembro": 3.6,
      "actualizaciones": 0,
-     "pct_desarrollo": 73.5,
-     "pct_simbolico": 4.1
+     "pct_desarrollo": 74.0,
+     "pct_simbolico": 4.0
     },
     {
      "bancada": "Partido del Buen Gobierno",
@@ -1810,6 +1810,114 @@
   },
   {
    "camara": "D",
+   "nombre": "Hancco Hancco, Dina Irene",
+   "bancada": "Partido Cívico Obras",
+   "sigla": "PCO",
+   "distrito": "Puno",
+   "genero": "femenino",
+   "condicion": "en ejercicio",
+   "link": "https://diputados.congreso.gob.pe/diputado/hancco-hancco-dina-irene/",
+   "principal": 13,
+   "firmas": 23,
+   "simbolicos": 1,
+   "actualizaciones": 0,
+   "desarrollo": 9,
+   "proyectos": [
+    {
+     "codigo": "00828-2026-2031-CD",
+     "fecha": "2026-11-12",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE EL CIERRE DE BRECHAS DE CONECTIVIDAD DIGITAL EN LAS INSTITUCIONES EDUCATIVAS PÚBLICAS DE ZONAS ALTOANDINAS Y AMAZÓNICAS DEL PERÚ.",
+     "estado": "PRESENTADO",
+     "agenda": "Infraestructura y conectividad"
+    },
+    {
+     "codigo": "00826-2026-2031-CD",
+     "fecha": "2026-11-11",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE AUTORIZA, POR ÚNICA VEZ, EL NOMBRAMIENTO EXCEPCIONAL DE DOCENTES APROBADOS EN LOS CONCURSOS DE INGRESO A LA CARRERA PÚBLICA MAGISTERIAL DE 2022 Y 2024.",
+     "estado": "PRESENTADO",
+     "agenda": "Capital humano: educación y salud"
+    },
+    {
+     "codigo": "00825-2026-2031-CD",
+     "fecha": "2026-11-11",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA PROTECCIÓN DE NIÑAS, NIÑOS Y ADOLESCENTES EN LOS MEDIOS DE COMUNICACIÓN Y PLATAFORMAS DIGITALES Y PROMUEVE CONTENIDOS EDUCATIVOS.",
+     "estado": "PRESENTADO",
+     "agenda": "Inclusión y protección social"
+    },
+    {
+     "codigo": "00719-2026-2031-CD",
+     "fecha": "2026-10-30",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Otros"
+    },
+    {
+     "codigo": "00629-2026-2031-CD",
+     "fecha": "2026-10-21",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 28094, LEY DE ORGANIZACIONES POLÍTICAS, PARA QUE LA HOJA DE VIDA DE QUIENES POSTULAN A CARGOS DE ELECCIÓN POPULAR INCLUYA EL HISTORIAL DOCUMENTADO DE SERVICIO SOCIAL DE LOS ÚLTIMOS DIEZ AÑOS.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Reforma política e institucional"
+    },
+    {
+     "codigo": "00628-2026-2031-CD",
+     "fecha": "2026-10-21",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE EL USO DE TUTORES DE INTELIGENCIA ARTIFICIAL EN APOYO A LA LABOR DOCENTE PARA LA RECUPERACIÓN DE APRENDIZAJES EN LA EDUCACIÓN BÁSICA.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Capital humano: educación y salud"
+    },
+    {
+     "codigo": "00627-2026-2031-CD",
+     "fecha": "2026-10-21",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL ARTÍCULO 34-A A LA LEY 28044, LEY GENERAL DE EDUCACIÓN, Y PROMUEVE LA RESPONSABILIDAD Y EL CUIDADO DE LOS ESPACIOS EDUCATIVOS EN LA EDUCACIÓN PRIMARIA.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Capital humano: educación y salud"
+    },
+    {
+     "codigo": "00625-2026-2031-CD",
+     "fecha": "2026-10-21",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY N°. 31751 Y N°. 32104 Y RESTABLECE LA REGULACIÓN DE LA SUSPENSIÓN DEL PLAZO DE PRESCRIPCIÓN DE LA ACCIÓN PENAL.",
+     "estado": "APROBADO",
+     "agenda": "Inclusión y protección social"
+    },
+    {
+     "codigo": "00623-2026-2031-CD",
+     "fecha": "2026-10-21",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LAS LEYES 32108 Y 32138 Y RESTITUYE EL MARCO NORMATIVO ANTERIOR EN MATERIA DE LUCHA CONTRA EL CRIMEN ORGANIZADO.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Seguridad y Estado de derecho"
+    },
+    {
+     "codigo": "00526-2026-2031-CD",
+     "fecha": "2026-10-06",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE LA RUTA INTEGRAL \"LOS PRIMEROS 2800 DÍAS\" PARA UNIR SALUD, EDUCACIÓN Y CULTURA EN FAVOR DE CADA NIÑA Y NIÑO, DESDE LA GESTACIÓN HASTA LOS SIETE AÑOS.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Capital humano: educación y salud"
+    },
+    {
+     "codigo": "00525-2026-2031-CD",
+     "fecha": "2026-10-06",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE GARANTIZA LA IMPLEMENTACIÓN PROGRESIVA DE UN PROFESIONAL DE NUTRICIÓN HUMANA EN CADA INSTITUCIÓN EDUCATIVA PÚBLICA.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Capital humano: educación y salud"
+    },
+    {
+     "codigo": "00523-2026-2031-CD",
+     "fecha": "2026-10-06",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32242 Y RESTABLECE LA VIGENCIA DEL ARTÍCULO 49 DE LA LEY 29944, LEY DE REFORMA MAGISTERIAL.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Otros"
+    },
+    {
+     "codigo": "00443-2026-2031-CD",
+     "fecha": "2026-09-28",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LOS NUMERALES 12 Y 14 DEL ARTÍCULO 4 DE LA LEY 32290, LEY QUE CREA LA UNIVERSIDAD NACIONAL DE DESAGUADERO EN EL DEPARTAMENTO DE PUNO, A FIN DE ADECUAR LA DENOMINACIÓN DE LAS CARRERAS PROFESIONALES DE INGENIERÍA ECONÓMICA Y MEDICINA HUMANA.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Simbólico / declarativo"
+    }
+   ]
+  },
+  {
+   "camara": "D",
    "nombre": "Palomino Casavilca, Catherin Norma",
    "bancada": "Juntos por el Perú",
    "sigla": "JP",
@@ -2122,107 +2230,6 @@
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LOS ARTÍCULOS 1, 2 Y 3 DE LA LEY 30012, LEY QUE CONCEDE EL DERECHO DE LICENCIA A TRABAJADORES CON FAMILIARES DIRECTOS QUE SE ENCUENTRAN CON ENFERMEDAD GRAVE O TERMINAL O SUFRAN ACCIDENTE GRAVE, PARA AMPLIAR LA COBERTURA DE LA LICENCIA A TODA ATENCIÓN DE SALUD DEL FAMILIAR DIRECTO",
      "estado": "EN COMISIÓN",
      "agenda": "Inversión, empleo y competitividad"
-    }
-   ]
-  },
-  {
-   "camara": "D",
-   "nombre": "Hancco Hancco, Dina Irene",
-   "bancada": "Partido Cívico Obras",
-   "sigla": "PCO",
-   "distrito": "Puno",
-   "genero": "femenino",
-   "condicion": "en ejercicio",
-   "link": "https://diputados.congreso.gob.pe/diputado/hancco-hancco-dina-irene/",
-   "principal": 12,
-   "firmas": 22,
-   "simbolicos": 1,
-   "actualizaciones": 0,
-   "desarrollo": 8,
-   "proyectos": [
-    {
-     "codigo": "00826-2026-2031-CD",
-     "fecha": "2026-11-11",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE AUTORIZA, POR ÚNICA VEZ, EL NOMBRAMIENTO EXCEPCIONAL DE DOCENTES APROBADOS EN LOS CONCURSOS DE INGRESO A LA CARRERA PÚBLICA MAGISTERIAL DE 2022 Y 2024.",
-     "estado": "PRESENTADO",
-     "agenda": "Capital humano: educación y salud"
-    },
-    {
-     "codigo": "00825-2026-2031-CD",
-     "fecha": "2026-11-11",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA PROTECCIÓN DE NIÑAS, NIÑOS Y ADOLESCENTES EN LOS MEDIOS DE COMUNICACIÓN Y PLATAFORMAS DIGITALES Y PROMUEVE CONTENIDOS EDUCATIVOS.",
-     "estado": "PRESENTADO",
-     "agenda": "Inclusión y protección social"
-    },
-    {
-     "codigo": "00719-2026-2031-CD",
-     "fecha": "2026-10-30",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Otros"
-    },
-    {
-     "codigo": "00629-2026-2031-CD",
-     "fecha": "2026-10-21",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 28094, LEY DE ORGANIZACIONES POLÍTICAS, PARA QUE LA HOJA DE VIDA DE QUIENES POSTULAN A CARGOS DE ELECCIÓN POPULAR INCLUYA EL HISTORIAL DOCUMENTADO DE SERVICIO SOCIAL DE LOS ÚLTIMOS DIEZ AÑOS.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Reforma política e institucional"
-    },
-    {
-     "codigo": "00628-2026-2031-CD",
-     "fecha": "2026-10-21",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE EL USO DE TUTORES DE INTELIGENCIA ARTIFICIAL EN APOYO A LA LABOR DOCENTE PARA LA RECUPERACIÓN DE APRENDIZAJES EN LA EDUCACIÓN BÁSICA.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Capital humano: educación y salud"
-    },
-    {
-     "codigo": "00627-2026-2031-CD",
-     "fecha": "2026-10-21",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL ARTÍCULO 34-A A LA LEY 28044, LEY GENERAL DE EDUCACIÓN, Y PROMUEVE LA RESPONSABILIDAD Y EL CUIDADO DE LOS ESPACIOS EDUCATIVOS EN LA EDUCACIÓN PRIMARIA.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Capital humano: educación y salud"
-    },
-    {
-     "codigo": "00625-2026-2031-CD",
-     "fecha": "2026-10-21",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY N°. 31751 Y N°. 32104 Y RESTABLECE LA REGULACIÓN DE LA SUSPENSIÓN DEL PLAZO DE PRESCRIPCIÓN DE LA ACCIÓN PENAL.",
-     "estado": "APROBADO",
-     "agenda": "Inclusión y protección social"
-    },
-    {
-     "codigo": "00623-2026-2031-CD",
-     "fecha": "2026-10-21",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LAS LEYES 32108 Y 32138 Y RESTITUYE EL MARCO NORMATIVO ANTERIOR EN MATERIA DE LUCHA CONTRA EL CRIMEN ORGANIZADO.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Seguridad y Estado de derecho"
-    },
-    {
-     "codigo": "00526-2026-2031-CD",
-     "fecha": "2026-10-06",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE LA RUTA INTEGRAL \"LOS PRIMEROS 2800 DÍAS\" PARA UNIR SALUD, EDUCACIÓN Y CULTURA EN FAVOR DE CADA NIÑA Y NIÑO, DESDE LA GESTACIÓN HASTA LOS SIETE AÑOS.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Capital humano: educación y salud"
-    },
-    {
-     "codigo": "00525-2026-2031-CD",
-     "fecha": "2026-10-06",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE GARANTIZA LA IMPLEMENTACIÓN PROGRESIVA DE UN PROFESIONAL DE NUTRICIÓN HUMANA EN CADA INSTITUCIÓN EDUCATIVA PÚBLICA.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Capital humano: educación y salud"
-    },
-    {
-     "codigo": "00523-2026-2031-CD",
-     "fecha": "2026-10-06",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32242 Y RESTABLECE LA VIGENCIA DEL ARTÍCULO 49 DE LA LEY 29944, LEY DE REFORMA MAGISTERIAL.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Otros"
-    },
-    {
-     "codigo": "00443-2026-2031-CD",
-     "fecha": "2026-09-28",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LOS NUMERALES 12 Y 14 DEL ARTÍCULO 4 DE LA LEY 32290, LEY QUE CREA LA UNIVERSIDAD NACIONAL DE DESAGUADERO EN EL DEPARTAMENTO DE PUNO, A FIN DE ADECUAR LA DENOMINACIÓN DE LAS CARRERAS PROFESIONALES DE INGENIERÍA ECONÓMICA Y MEDICINA HUMANA.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Simbólico / declarativo"
     }
    ]
   },
@@ -3892,7 +3899,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/pinan-mamani-victor-eduardo/",
    "principal": 7,
-   "firmas": 51,
+   "firmas": 52,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 3,
@@ -3958,7 +3965,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/sulca-castillo-pilar/",
    "principal": 7,
-   "firmas": 27,
+   "firmas": 28,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 5,
@@ -4090,7 +4097,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/eusebio-padilla-arturo-cesar/",
    "principal": 6,
-   "firmas": 20,
+   "firmas": 21,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 5,
@@ -4444,7 +4451,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/peralta-jorpa-maximo/",
    "principal": 6,
-   "firmas": 34,
+   "firmas": 35,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 5,
@@ -4784,7 +4791,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/cabrera-nieto-juan-cesar/",
    "principal": 5,
-   "firmas": 23,
+   "firmas": 24,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 3,
@@ -6998,7 +7005,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/valqui-calderon-demetrio-flavio/",
    "principal": 1,
-   "firmas": 16,
+   "firmas": 17,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 0,
@@ -7142,7 +7149,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/medina-stein-andrea-dayna/",
    "principal": 0,
-   "firmas": 15,
+   "firmas": 16,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 0,
@@ -8300,6 +8307,15 @@
   }
  ],
  "proyectos": [
+  {
+   "codigo": "00828-2026-2031-CD",
+   "camara": "D",
+   "fecha": "2026-11-12",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE EL CIERRE DE BRECHAS DE CONECTIVIDAD DIGITAL EN LAS INSTITUCIONES EDUCATIVAS PÚBLICAS DE ZONAS ALTOANDINAS Y AMAZÓNICAS DEL PERÚ.",
+   "estado": "PRESENTADO",
+   "agenda": "Infraestructura y conectividad",
+   "autor": "Hancco Hancco, Dina Irene"
+  },
   {
    "codigo": "00827-2026-2031-CD",
    "camara": "D",
@@ -18287,6 +18303,16 @@
  ],
  "recientes": [
   {
+   "codigo": "00828-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-11-12",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE EL CIERRE DE BRECHAS DE CONECTIVIDAD DIGITAL EN LAS INSTITUCIONES EDUCATIVAS PÚBLICAS DE ZONAS ALTOANDINAS Y AMAZÓNICAS DEL PERÚ.",
+   "proponente": "Cámara de Diputados",
+   "agenda": "Infraestructura y conectividad",
+   "riesgo_fiscal": false
+  },
+  {
    "codigo": "00827-2026-2031-CD",
    "camara": "D",
    "estado": "PRESENTADO",
@@ -18674,16 +18700,6 @@
    "titulo": "PROPOSICIÓN LEGISLATIVA PARA EL EMPLEO JUVENIL DIGNO.",
    "proponente": "Cámara de Diputados",
    "agenda": "Inversión, empleo y competitividad",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00789-2026-2031-CD",
-   "camara": "D",
-   "estado": "EN COMISIÓN",
-   "fecha": "2026-11-06",
-   "titulo": "PROPOSICIÓN LEGISLATIVA QUE CREA LA UNIVERSIDAD NACIONAL CIENTIFICA DE LA MAR -UNCLAM.",
-   "proponente": "Cámara de Diputados",
-   "agenda": "Capital humano: educación y salud",
    "riesgo_fiscal": false
   }
  ]
