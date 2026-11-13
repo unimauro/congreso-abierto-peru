@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generado": "2026-11-12",
+  "generado": "2026-11-13",
   "fuente": "Contrataciones Abiertas OECE (OCDS, SEACE v3) · comprador Congreso de la República (PE-CONSUCODE-6)",
   "desde": "2021-07",
   "nota": "Procesos registrados en SEACE por mes de convocatoria. Monto = contratos firmados o, si aún no hay, lo adjudicado. No incluye compras menores a 8 UIT ni las de catálogo electrónico de Perú Compras, que no pasan por este registro; la mayor parte del presupuesto del Congreso es planilla."
@@ -1168,7 +1168,7 @@
     "10742158859"
    ],
    "adjudicado": "2026-10-20",
-   "firmado": null
+   "firmado": "2026-11-09"
   },
   {
    "ocid": "ocds-dgv273-seacev3-2026-6-98",

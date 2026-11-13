@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generado": "2026-11-12T14:54:11+00:00",
+  "generado": "2026-11-13T14:37:37+00:00",
   "fuentes": {
    "pte_historico": {
     "nombre": "Portal de Transparencia Estándar — planillas",
@@ -12,7 +12,7 @@
     "nombre": "Portal de Transparencia Estándar — planillas",
     "desde": "2025-10",
     "hasta": "2026-11",
-    "filas": 706105
+    "filas": 763007
    },
    "dj_intereses": {
     "nombre": "Contraloría — declaraciones juradas de intereses",
@@ -24,13 +24,13 @@
     "nombre": "Diario Oficial El Peruano — designaciones",
     "desde": "2026-02-12",
     "hasta": "2026-11-10",
-    "filas": 1105
+    "filas": 2134
    },
    "contratos_ocds": {
     "nombre": "OECE/SEACE — contrataciones abiertas (OCDS)",
     "desde": "2025-12-29",
-    "hasta": "2026-11-10",
-    "filas": 24408
+    "hasta": "2026-11-11",
+    "filas": 24622
    }
   },
   "nota": "Cruce por nombre completo (sin DNI) con registros oficiales de otras entidades; excluye al Congreso. Pueden existir homónimos: 'ambiguo' marca nombres con señales de más de una persona. Nombres de 3 palabras con apellidos frecuentes requieren una segunda coincidencia (cargo o área). 'otra_planilla_2026' = figura en la planilla de otra entidad desde agosto de 2026. Máximo 12 registros por asesor, lo más reciente primero."
@@ -42,9 +42,9 @@
   "asesores": 251,
   "con_historial": 251,
   "ambiguos": 3,
-  "otra_planilla_2026": 23,
+  "otra_planilla_2026": 27,
   "registros_por_fuente": {
-   "PTE": 432,
+   "PTE": 434,
    "DJ": 51,
    "OCDS": 1,
    "El Peruano": 1
@@ -57,6 +57,14 @@
    "camara": "D",
    "cargo": "ASESOR PRINCIPAL",
    "historial": [
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Nacional de entrega de la pensión no contributiva a la persona con discapacidad severa (CONTIGO)",
+     "cargo": "ESPECIALISTA EN GESTIÓN",
+     "desde": "2026-10",
+     "hasta": "2026-10",
+     "detalle": "CAS · UNIDAD DE ASESORIA JURIDICA"
+    },
     {
      "fuente": "PTE",
      "entidad": "Programa Nacional de entrega de la pensión no contributiva a la persona con discapacidad severa (CONTIGO)",
@@ -90,7 +98,7 @@
      "detalle": "CAS · PROGRAMA NACIONAL CONTIGO"
     }
    ],
-   "otra_planilla_2026": false,
+   "otra_planilla_2026": true,
    "ambiguo": true
   },
   {
@@ -221,7 +229,7 @@
      "entidad": "Programa Nacional para la Prevención y Erradicación de la Violencia contra las Mujeres e Integrantes (Warmi Ñan)",
      "cargo": "COORDINADOR/A DE CEM",
      "desde": "2024-12",
-     "hasta": "2025-12",
+     "hasta": "2026-10",
      "detalle": "CAS · CEM_COMISARIA SECTORIAL BOLOGNESI CHIQUIAN"
     },
     {
@@ -233,7 +241,7 @@
      "detalle": "CAS · CEM_COMISARIA CHIQUIAN-SECTORIAL"
     }
    ],
-   "otra_planilla_2026": false
+   "otra_planilla_2026": true
   },
   {
    "nombre": "VENEGAS OCHOA, ROSSANA",
@@ -4218,7 +4226,7 @@
      "entidad": "Instituto Nacional de Innovación Agraria (INIA)",
      "cargo": "SECRETARIO/A TÉCNICO/A DE LOS ÓRGANOS INSTRUCTORES DEL PROCEDIMIENTO ADMINISTRATIVO DISCIPLINARIO",
      "desde": "2024-12",
-     "hasta": "2025-12",
+     "hasta": "2026-10",
      "detalle": "CAS · SEDE CENTRAL"
     },
     {
@@ -4246,7 +4254,7 @@
      "detalle": "CAS · UNIDAD DE RECURSOS HUMANOS"
     }
    ],
-   "otra_planilla_2026": false
+   "otra_planilla_2026": true
   },
   {
    "nombre": "VILLANUEVA OSHIRO, CECILIA ROSARIO",
@@ -5285,6 +5293,14 @@
      "fuente": "PTE",
      "entidad": "Programa Nacional para la Prevención y Erradicación de la Violencia contra las Mujeres e Integrantes (Warmi Ñan)",
      "cargo": "COORDINADOR/A DE CEM",
+     "desde": "2026-10",
+     "hasta": "2026-10",
+     "detalle": "CAS · CEM319_CEMF 24 HORAS DE FAMILIA PIURA"
+    },
+    {
+     "fuente": "PTE",
+     "entidad": "Programa Nacional para la Prevención y Erradicación de la Violencia contra las Mujeres e Integrantes (Warmi Ñan)",
+     "cargo": "COORDINADOR/A DE CEM",
      "desde": "2024-12",
      "hasta": "2024-12",
      "detalle": "CAS · CEM_COMISARIA DE FAMILIA PIURA"
@@ -5314,7 +5330,7 @@
      "detalle": "CAS · CEM_COMISARIA SULLANA"
     }
    ],
-   "otra_planilla_2026": false
+   "otra_planilla_2026": true
   },
   {
    "nombre": "ARELLANO OLAECHEA, MADAI",
