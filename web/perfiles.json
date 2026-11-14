@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generado": "2026-11-13",
+  "generado": "2026-11-14",
   "fuente": "Webs oficiales de la Cámara de Diputados y del Senado (perfil, cargos, informes de representación y de viajes)",
   "nota": "Solo comisiones con estado Activo. Las cámaras no publican agendas diarias ni actas por congresista."
  },
@@ -8,7 +8,7 @@
   "perfiles": 190,
   "con_foto": 190,
   "con_comisiones": 190,
-  "informes_representacion": 513,
+  "informes_representacion": 517,
   "viajes": 4
  },
  "perfiles": [
@@ -833,6 +833,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-13",
+     "lugar": "San Martín",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/PENA-CORDOVA_13-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-23",
      "lugar": "San Martín",
@@ -5351,6 +5356,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-13",
+     "lugar": "Junín",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/DUARTE-PATINO-DE-PEZET_13-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-22",
      "lugar": "Junín",
      "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/DUARTE-PATINO-DE-PEZET_22-10-2026.pdf"
@@ -8649,6 +8659,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-12",
+     "lugar": "Nacional (Distrito Único)",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/ALCORTA-SUERO_12-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-26",
      "lugar": "Nacional (Distrito Único)",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/ALCORTA-SUERO_26-10-2026.pdf"
@@ -8723,6 +8738,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-12",
+     "lugar": "Nacional (Distrito Único)",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/AMPUERO-MEZA_12-11-2026.pdf"
+    },
     {
      "fecha": "2026-11-11",
      "lugar": "Nacional (Distrito Único)",
