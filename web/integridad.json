@@ -1,8 +1,8 @@
 {
  "meta": {
-  "generado": "2026-11-11",
+  "generado": "2026-11-15",
   "fechas": {
-   "sancionados.csv": "2026-11-07",
+   "sancionados.csv": "2026-11-14",
    "sancionados_multa.csv": "2024-05-18",
    "penalidades.csv": "2021-09-29",
    "Socios.csv": "2021-09-29",
@@ -14,14 +14,32 @@
   "nota": "Las coincidencias de personas son por nombre completo exacto (sin DNI en la planilla): pueden ser homónimos y deben verificarse. Una sanción pasada no impide contratar una vez cumplida."
  },
  "totales": {
-  "proveedores_revisados": 181,
-  "con_sancion": 31,
-  "vigentes": 9,
+  "proveedores_revisados": 182,
+  "con_sancion": 32,
+  "vigentes": 10,
   "contratados_durante_sancion": 0,
   "con_penalidades": 6,
   "vinculos": 0
  },
  "proveedores": [
+  {
+   "ruc": "20100057523",
+   "nombre": "ASCENSORES S A",
+   "procesos_congreso": 6,
+   "monto_congreso": 8427258.94,
+   "vigente": true,
+   "sanciones": [
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2026-11-09",
+     "fin": "2028-12-09",
+     "resolucion": "9652-2026-TCP-S2",
+     "motivo": "Presentar información inexacta a las Entidades, al Tribunal de Contrataciones del Estado, al Registro Nacional de Proveedores (RNP), al Organismo Supervisor de las Contrataciones del Estado (OSCE) y a la Central de Compras Públicas–Perú Compras."
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  },
   {
    "ruc": "20261898706",
    "nombre": "ADEXUS PERU SA",

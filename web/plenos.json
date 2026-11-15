@@ -845,6 +845,7 @@
     {
      "fecha": "2026-11-10",
      "documentos": {
+      "temas": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/11_ctt_10.nov_.2026.pdf",
       "agenda": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/AGENDA-PLENO-DIPUTADOS-10-11-2026.pdf",
       "asistencia": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/ASISTENCIA-PLENO-DIPUTADOS-20261110-vbR.pdf"
      }
@@ -6218,7 +6219,7 @@
   }
  ],
  "meta": {
-  "generado": "2026-11-13",
+  "generado": "2026-11-15",
   "fuente": "Reportes de asistencia y votación del Pleno (PDF) · diputados/senado.congreso.gob.pe",
   "nota": "Pases de lista y votaciones validados contra el total oficial al pie de cada bloque; los escaneos se leen con OCR. Licencias (viaje, enfermedad, oficial…) no cuentan como ausencia.",
   "votos": "votaciones[].votos: un carácter por congresista en el orden de camaras[cam].nominal_orden (S sí, N no, A abstención, X ausente, L licencia, R sin respuesta, P presente, - sin dato)."
