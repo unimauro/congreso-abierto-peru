@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generado": "2026-11-14",
+  "generado": "2026-11-16",
   "desde": "2026-07-27",
   "fuente": "Registro de visitas del Congreso de la República (wb2server.congreso.gob.pe/regvisitastransparencia)",
   "nota": "Visitas registradas en el ingreso. Se atribuyen a un congresista cuando lo visitan a él o ella o a su despacho (asesores). No se publica el DNI de los visitantes."
@@ -1659,8 +1659,8 @@
      "fecha": "2026-11-13",
      "hora": "11:05",
      "salida": "11:50",
-     "visitante": "RIVERA PAZ, CARLOS MARTIN",
-     "entidad": "",
+     "visitante": "AZPUR AZPUR , JAVIER EDGARDO",
+     "entidad": "S/I",
      "motivo": "NORMAL",
      "tipo": "Normal",
      "anfitrion": "HUILCA FLORES, INDIRA ISABEL"
@@ -1669,8 +1669,8 @@
      "fecha": "2026-11-13",
      "hora": "11:05",
      "salida": "11:50",
-     "visitante": "AZPUR AZPUR , JAVIER EDGARDO",
-     "entidad": "S/I",
+     "visitante": "RIVERA PAZ, CARLOS MARTIN",
+     "entidad": "",
      "motivo": "NORMAL",
      "tipo": "Normal",
      "anfitrion": "HUILCA FLORES, INDIRA ISABEL"
@@ -3443,8 +3443,8 @@
      "fecha": "2026-11-13",
      "hora": "15:02",
      "salida": "16:05",
-     "visitante": "ALACHE SERRANO, JESSICA ANTHOANE",
-     "entidad": "ENTIDAD PÚBLICA - BENEFICIENCIA PUBLICA DE LIMA",
+     "visitante": "BOHORQUEZ CAIRO , KATTIA JOSEFINA",
+     "entidad": "ENTIDAD PÚBLICA - BENEFICENCIA DE LIMA",
      "motivo": "NORMAL",
      "tipo": "Normal",
      "anfitrion": "BENITEZ BARRIONUEVO, JESSICA"
@@ -3453,8 +3453,8 @@
      "fecha": "2026-11-13",
      "hora": "15:02",
      "salida": "16:05",
-     "visitante": "BOHORQUEZ CAIRO , KATTIA JOSEFINA",
-     "entidad": "ENTIDAD PÚBLICA - BENEFICENCIA DE LIMA",
+     "visitante": "ALACHE SERRANO, JESSICA ANTHOANE",
+     "entidad": "ENTIDAD PÚBLICA - BENEFICIENCIA PUBLICA DE LIMA",
      "motivo": "NORMAL",
      "tipo": "Normal",
      "anfitrion": "BENITEZ BARRIONUEVO, JESSICA"
@@ -9036,9 +9036,9 @@
     {
      "fecha": "2026-11-13",
      "hora": "11:05",
-     "salida": "12:23",
-     "visitante": "MALPARTIDA ARIAS, HUGO",
-     "entidad": "",
+     "salida": "12:29",
+     "visitante": "LÓPEZ CRISTOBAL, HECTOR",
+     "entidad": "PRENSA LOCAL DE LIMA ESTE",
      "motivo": "NORMAL",
      "tipo": "Normal",
      "anfitrion": "ASTOCAZA CARLOS, BLADIMIR"
@@ -9046,9 +9046,9 @@
     {
      "fecha": "2026-11-13",
      "hora": "11:05",
-     "salida": "12:29",
-     "visitante": "LÓPEZ CRISTOBAL, HECTOR",
-     "entidad": "PRENSA LOCAL DE LIMA ESTE",
+     "salida": "12:23",
+     "visitante": "MALPARTIDA ARIAS, HUGO",
+     "entidad": "",
      "motivo": "NORMAL",
      "tipo": "Normal",
      "anfitrion": "ASTOCAZA CARLOS, BLADIMIR"

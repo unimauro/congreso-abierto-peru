@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generado": "2026-11-15T14:36:59+00:00",
+  "generado": "2026-11-16T18:10:21+00:00",
   "fuentes": {
    "pte_historico": {
     "nombre": "Portal de Transparencia Estándar — planillas",
@@ -22,15 +22,15 @@
    },
    "designaciones": {
     "nombre": "Diario Oficial El Peruano — designaciones",
-    "desde": "2026-02-12",
-    "hasta": "2026-11-10",
-    "filas": 2283
+    "desde": "2026-10-05",
+    "hasta": "2026-11-14",
+    "filas": 236
    },
    "contratos_ocds": {
     "nombre": "OECE/SEACE — contrataciones abiertas (OCDS)",
     "desde": "2025-12-29",
     "hasta": "2026-11-16",
-    "filas": 25045
+    "filas": 25046
    }
   },
   "nota": "Cruce por nombre completo (sin DNI) con registros oficiales de otras entidades; excluye al Congreso. Pueden existir homónimos: 'ambiguo' marca nombres con señales de más de una persona. Nombres de 3 palabras con apellidos frecuentes requieren una segunda coincidencia (cargo o área). 'otra_planilla_2026' = figura en la planilla de otra entidad desde agosto de 2026. Máximo 12 registros por asesor, lo más reciente primero."
