@@ -65,13 +65,26 @@ if git diff --quiet -I'"generado"' -- web/personal.json; then
   git checkout -- web/personal.json
 fi
 
-# Igual con los "generado" de movimientos/plenos: solo cuentan cambios de datos.
-for f in web/movimientos.json web/plenos.json web/contratos.json web/integridad.json web/visitas.json web/textos.json web/asesores.json; do
-  if git diff --quiet -I'"generado"' -- "$f" 2>/dev/null; then git checkout -- "$f" 2>/dev/null || true; fi
+# Igual con los "generado" del resto: solo cuentan cambios de datos. Se compara el JSON
+# parseado sin las claves "generado" (textos.json va en una sola línea: un diff por líneas no sirve).
+solo_fecha() {
+  git cat-file -e "HEAD:$1" 2>/dev/null || return 1
+  git show "HEAD:$1" | python3 -c '
+import json, sys
+def limpio(x):
+    if isinstance(x, dict): return {k: limpio(v) for k, v in x.items() if k != "generado"}
+    if isinstance(x, list): return [limpio(v) for v in x]
+    return x
+a = json.load(sys.stdin); b = json.load(open(sys.argv[1], encoding="utf-8"))
+sys.exit(0 if limpio(a) == limpio(b) else 1)' "$1"
+}
+DATOS="web/movimientos.json web/plenos.json web/contratos.json web/integridad.json web/visitas.json web/textos.json web/asesores.json"
+for f in $DATOS; do
+  if ! git diff --quiet -- "$f" 2>/dev/null && solo_fecha "$f"; then git checkout -- "$f"; fi
 done
 
-if git diff --quiet -- web/context.json web/personal.json web/movimientos.json web/plenos.json web/contratos.json \
-   && [ -z "$(git ls-files --others --exclude-standard web/movimientos.json web/plenos.json web/contratos.json web/integridad.json web/visitas.json web/textos.json web/asesores.json)" ]; then
+if git diff --quiet -- web/context.json web/personal.json $DATOS \
+   && [ -z "$(git ls-files --others --exclude-standard $DATOS)" ]; then
   echo "[ok] Sin datos nuevos: nada que commitear."
   exit 0
 fi
