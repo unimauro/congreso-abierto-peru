@@ -49,6 +49,7 @@ from datetime import datetime, timezone
 RAIZ = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 WEB = os.path.join(RAIZ, "web")
 OUT = os.path.join(WEB, "asesores.json")
+ACUMULABLES = ("El Peruano", "OCDS")
 PT_DATA = os.path.expanduser(os.environ.get("PT_DATA", "~/Repos/peru-transparente/data"))
 
 MAX_ITEMS = 12
@@ -345,12 +346,27 @@ def main() -> int:
     leer_designaciones(os.path.join(PT_DATA, "designaciones.csv"), por_clave, hits, cobertura)
     leer_contratos(os.path.join(PT_DATA, "contratos.csv"), por_clave, hits, cobertura)
 
+    # El Peruano y OCDS en peru-transparente son ventanas móviles (semanas): lo ya hallado antes se
+    # conserva mientras el asesor siga en el despacho, para no perder designaciones verificadas.
+    previos = defaultdict(list)
+    try:
+        for e in json.load(open(OUT, encoding="utf-8")).get("asesores", []):
+            for it in e.get("historial", []):
+                if it.get("fuente") in ACUMULABLES:
+                    previos[(e["nombre"], e["despacho"])].append(it)
+    except (FileNotFoundError, ValueError):
+        pass
+
     salida = []
     por_fuente = Counter()
     n_amb = n_otra = 0
     for a in asesores:
         items, ambiguo, otra = items_pte(a, pte.get(a["clave"], []))
         items += hits.get(id(a), [])
+        vistos = {(it["fuente"], it.get("url"), it.get("entidad"), it.get("desde")) for it in items}
+        for it in previos.get((a["nombre"], a["despacho"]), []):
+            if (it["fuente"], it.get("url"), it.get("entidad"), it.get("desde")) not in vistos:
+                items.append(dict(it))
         if not items:
             continue
         items.sort(key=orden, reverse=True)
