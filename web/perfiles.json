@@ -8,7 +8,7 @@
   "perfiles": 190,
   "con_foto": 190,
   "con_comisiones": 190,
-  "informes_representacion": 517,
+  "informes_representacion": 531,
   "viajes": 4
  },
  "perfiles": [
@@ -1174,6 +1174,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-13",
+     "lugar": "Puno",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/PEREZ-QUISPE_13-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-23",
      "lugar": "Puno",
      "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/PEREZ-QUISPE_23-10-2026.pdf"
@@ -1455,6 +1460,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-10",
+     "lugar": "Piura",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/SILUPU-INGA_10-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-21",
      "lugar": "Piura",
      "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/SILUPU-INGA_21-10-2026.pdf"
@@ -1712,6 +1722,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-13",
+     "lugar": "Pasco",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/MUNOZ-YURIVILCA_13-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-23",
      "lugar": "Pasco",
@@ -2232,6 +2247,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-13",
+     "lugar": "Loreto",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/VIDAURRE-FLORIDAS_13-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-05",
      "lugar": "Loreto",
      "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/VIDAURRE-FLORIDAS_05-10-2026.pdf"
@@ -2610,6 +2630,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-13",
+     "lugar": "Lima Metropolitana",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/AVENDANO-VILCA_13-11-2026.pdf"
+    },
     {
      "fecha": "2026-09-29",
      "lugar": "Lima Metropolitana",
@@ -3762,6 +3787,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-13",
+     "lugar": "Lima Metropolitana",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/PACHECO-QUISPE_13-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-29",
      "lugar": "Lima Metropolitana",
      "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/PACHECO-QUISPE_29-10-2026.pdf"
@@ -4174,6 +4204,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-13",
+     "lugar": "LIma Metropolitana",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/DE-PAZ-LANCHO_13-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-27",
      "lugar": "LIma Metropolitana",
@@ -5047,6 +5082,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-17",
+     "lugar": "La Libertad",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/LAVADO-VALDIVIA_17-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-27",
      "lugar": "La Libertad",
      "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/LAVADO-VALDIVIA_27-10-2026.pdf"
@@ -5290,6 +5330,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-13",
+     "lugar": "La Libertad",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/TRUJILLO-ZEGARRA_13-11-2026.pdf"
+    },
     {
      "fecha": "2026-09-18",
      "lugar": "La Libertad",
@@ -5611,6 +5656,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-13",
+     "lugar": "Junín",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/MUEDAS-BALBIESE_13-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-21",
      "lugar": "Junín",
@@ -6017,6 +6067,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-13",
+     "lugar": "Huánuco",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/AMBROSIO-DOMINGUEZ_13-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-28",
      "lugar": "Huánuco",
@@ -9678,6 +9733,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-13",
+     "lugar": "Nacional (Distrito Único)",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/ARMACANQUI-MORALES_13-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-15",
      "lugar": "Nacional (Distrito Único)",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/ARMANCANQUI-MORALES_15-10-2026.pdf"
@@ -10028,6 +10088,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-13",
+     "lugar": "Cusco",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/VERANO-SARAVIA_13-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-05",
      "lugar": "Cusco",
@@ -11952,6 +12017,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-13",
+     "lugar": "Nacional (Distrito Único)",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/ITURREGUI-BYRNE_13-11-2026.pdf"
+    },
     {
      "fecha": "2026-09-28",
      "lugar": "Nacional (Distrito Único)",
