@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generado": "2026-11-16",
+  "generado": "2026-11-17",
   "periodo": "2026-2031",
   "instalacion": "2026-07-27",
   "fuente": "api.congreso.gob.pe/spley-portal-service (codTipoParl S/D/C) · padrón: senado/diputados.congreso.gob.pe"
@@ -18354,7 +18354,7 @@
    "camara": "S",
    "fecha": "2026-10-26",
    "titulo": "PROPOSICIÓN DE RESOLUCIÓN LEGISLATIVA QUE AUTORIZA EL INGRESO Y TRÁNSITO DE UNA UNIDAD NAVAL Y DE PERSONAL MILITAR EXTRANJERO CON ARMAS DE GUERRA AL TERRITORIO DE LA REPÚBLICA DEL PERÚ",
-   "estado": "AUTÓGRAFA",
+   "estado": "Publicada en el Diario Oficial El Peruano",
    "agenda": "Seguridad y Estado de derecho",
    "proponente": "PODER EJECUTIVO",
    "com": [
@@ -18399,7 +18399,7 @@
    "camara": "S",
    "fecha": "2026-10-07",
    "titulo": "PROPUESTA LEGISLATIVA REMITIDA POR LA CÁMARA DE DIPUTADOS - LEY QUE DELEGA EN EL PODER EJECUTIVO LA FACULTAD DE LEGISLAR EN MATERIA DE SEGURIDAD CIUDADANA Y DEL FENÓMENO EL NIÑO",
-   "estado": "Publicada en el Diario Oficial El Peruano",
+   "estado": "AUTÓGRAFA",
    "agenda": "Infraestructura y conectividad",
    "proponente": "Cámara de Diputados",
    "com": [
