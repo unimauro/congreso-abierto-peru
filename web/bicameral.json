@@ -6,20 +6,20 @@
   "fuente": "api.congreso.gob.pe/spley-portal-service (codTipoParl S/D/C) · padrón: senado/diputados.congreso.gob.pe"
  },
  "totales": {
-  "proyectos": 895,
+  "proyectos": 907,
   "leyes": 13,
   "congresistas": 190
  },
  "camaras": {
   "D": {
    "nombre": "Cámara de Diputados",
-   "proyectos": 861,
+   "proyectos": 872,
    "leyes": 0,
    "archivados": 93,
    "por_estado": {
-    "EN COMISIÓN": 667,
+    "EN COMISIÓN": 699,
     "Archivado de Plano": 93,
-    "PRESENTADO": 47,
+    "PRESENTADO": 26,
     "Expediente de propuesta legislativa remitida al senado de la república": 26,
     "CON DICTAMEN": 14,
     "Retirado por su Autor": 10,
@@ -31,14 +31,14 @@
     "2026-08": 102,
     "2026-09": 361,
     "2026-10": 264,
-    "2026-11": 134
+    "2026-11": 145
    },
    "por_proponente": {
-    "Cámara de Diputados": 620,
+    "Cámara de Diputados": 630,
     "PODER EJECUTIVO": 172,
     "Colegios Profesionales": 22,
     "Poder Judicial": 18,
-    "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN": 9,
+    "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN": 10,
     "Defensoría del Pueblo": 9,
     "Iniciativas Ciudadanas": 4,
     "Instituciones Públicas Autónomas": 3,
@@ -46,45 +46,45 @@
     "Senado de la República": 1
    },
    "materias": {
-    "Otros": 178,
+    "Otros": 184,
     "Justicia y penal": 104,
     "Salud": 81,
     "Transporte e infraestructura": 80,
-    "Educación": 78,
-    "Economía y tributación": 74,
+    "Educación": 79,
+    "Economía y tributación": 75,
     "Declarativa / simbólica": 60,
-    "Seguridad y orden": 52,
+    "Seguridad y orden": 54,
     "Trabajo y pensiones": 45,
     "Ambiente y recursos": 28,
+    "Mujer, familia y niñez": 23,
     "Reforma política y electoral": 23,
-    "Mujer, familia y niñez": 22,
     "Descentralización y regiones": 21,
     "Agrario, pesca y rural": 15
    },
    "agenda": {
-    "Actualización (periodo anterior)": 202,
-    "Inversión, empleo y competitividad": 142,
-    "Capital humano: educación y salud": 128,
-    "Seguridad y Estado de derecho": 110,
-    "Otros": 70,
+    "Actualización (periodo anterior)": 203,
+    "Inversión, empleo y competitividad": 143,
+    "Capital humano: educación y salud": 129,
+    "Seguridad y Estado de derecho": 113,
+    "Otros": 72,
     "Inclusión y protección social": 45,
     "Infraestructura y conectividad": 45,
     "Finanzas públicas y presupuesto": 39,
-    "Reforma política e institucional": 33,
-    "Gestión del Estado y simplificación": 19,
+    "Reforma política e institucional": 34,
+    "Gestión del Estado y simplificación": 21,
     "Simbólico / declarativo": 15,
     "Ambiente y gestión de riesgos": 13
    },
-   "pct_desarrollo": 82.1,
-   "pct_simbolico": 2.3,
+   "pct_desarrollo": 81.9,
+   "pct_simbolico": 2.2,
    "riesgo_fiscal": 56,
-   "actualizaciones": 202,
+   "actualizaciones": 203,
    "bancadas": [
     {
      "bancada": "Juntos por el Perú",
      "miembros": 32,
-     "proyectos": 184,
-     "por_miembro": 5.8,
+     "proyectos": 189,
+     "por_miembro": 5.9,
      "actualizaciones": 0,
      "pct_desarrollo": 81.5,
      "pct_simbolico": 1.6
@@ -101,29 +101,29 @@
     {
      "bancada": "Ahora Nación",
      "miembros": 10,
-     "proyectos": 99,
-     "por_miembro": 9.9,
+     "proyectos": 100,
+     "por_miembro": 10.0,
      "actualizaciones": 0,
-     "pct_desarrollo": 80.8,
+     "pct_desarrollo": 81.0,
      "pct_simbolico": 3.0
     },
     {
      "bancada": "Fuerza Popular",
      "miembros": 41,
-     "proyectos": 90,
-     "por_miembro": 2.2,
+     "proyectos": 93,
+     "por_miembro": 2.3,
      "actualizaciones": 1,
-     "pct_desarrollo": 89.9,
+     "pct_desarrollo": 89.1,
      "pct_simbolico": 1.1
     },
     {
      "bancada": "Partido Cívico Obras",
      "miembros": 14,
-     "proyectos": 53,
-     "por_miembro": 3.8,
+     "proyectos": 54,
+     "por_miembro": 3.9,
      "actualizaciones": 0,
-     "pct_desarrollo": 75.5,
-     "pct_simbolico": 3.8
+     "pct_desarrollo": 74.1,
+     "pct_simbolico": 3.7
     },
     {
      "bancada": "Partido del Buen Gobierno",
@@ -147,35 +147,35 @@
    "comisiones": [
     {
      "nombre": "Justicia y Derechos Humanos",
-     "proyectos": 132
+     "proyectos": 139
     },
     {
      "nombre": "Educación, Cultura y Deporte",
-     "proyectos": 102
-    },
-    {
-     "nombre": "Constitución, Reglamento y Relaciones Exteriores",
-     "proyectos": 84
+     "proyectos": 108
     },
     {
      "nombre": "Economía, Banca, Finanzas e Inteligencia Financiera",
-     "proyectos": 81
+     "proyectos": 87
+    },
+    {
+     "nombre": "Constitución, Reglamento y Relaciones Exteriores",
+     "proyectos": 86
     },
     {
      "nombre": "Modernización de la Gestión del Estado y Contraloría",
-     "proyectos": 74
+     "proyectos": 76
     },
     {
      "nombre": "Salud",
-     "proyectos": 52
-    },
-    {
-     "nombre": "Defensa Nacional y Orden Interno",
-     "proyectos": 51
+     "proyectos": 56
     },
     {
      "nombre": "Infraestructura, Vivienda y Transportes",
-     "proyectos": 51
+     "proyectos": 53
+    },
+    {
+     "nombre": "Defensa Nacional y Orden Interno",
+     "proyectos": 52
     },
     {
      "nombre": "Trabajo y Seguridad Social",
@@ -183,11 +183,11 @@
     },
     {
      "nombre": "Inclusión Social, Familia, Mujer y Pueblos Andinos, Amazónicos y Afroperuanos",
-     "proyectos": 36
+     "proyectos": 39
     },
     {
      "nombre": "Desarrollo Agrario",
-     "proyectos": 32
+     "proyectos": 33
     },
     {
      "nombre": "Energía y Minas",
@@ -198,12 +198,12 @@
      "proyectos": 18
     },
     {
-     "nombre": "Defensa del Consumidor y Regulación de los Servicios Públicos",
-     "proyectos": 13
+     "nombre": "Producción, Comercio Exterior y Turismo",
+     "proyectos": 15
     },
     {
-     "nombre": "Producción, Comercio Exterior y Turismo",
-     "proyectos": 13
+     "nombre": "Defensa del Consumidor y Regulación de los Servicios Públicos",
+     "proyectos": 14
     },
     {
      "nombre": "Ciencia, Innovación Tecnológica y Sociedad Digital",
@@ -213,30 +213,30 @@
   },
   "S": {
    "nombre": "Senado",
-   "proyectos": 28,
+   "proyectos": 29,
    "leyes": 11,
    "archivados": 0,
    "por_estado": {
+    "EN COMISIÓN": 16,
     "Publicada en el Diario Oficial El Peruano": 11,
-    "EN COMISIÓN": 11,
-    "PRESENTADO": 6
+    "PRESENTADO": 2
    },
    "por_mes": {
     "2026-08": 6,
     "2026-09": 4,
     "2026-10": 10,
-    "2026-11": 8
+    "2026-11": 9
    },
    "por_proponente": {
-    "Senado de la República": 13,
+    "Senado de la República": 14,
     "Cámara de Diputados": 9,
     "PODER EJECUTIVO": 6
    },
    "materias": {
     "Otros": 15,
+    "Reforma política y electoral": 3,
     "Seguridad y orden": 3,
     "Economía y tributación": 2,
-    "Reforma política y electoral": 2,
     "Ambiente y recursos": 2,
     "Transporte e infraestructura": 1,
     "Justicia y penal": 1,
@@ -244,7 +244,7 @@
     "Salud": 1
    },
    "agenda": {
-    "Reforma política e institucional": 11,
+    "Reforma política e institucional": 12,
     "Inclusión y protección social": 4,
     "Seguridad y Estado de derecho": 3,
     "Finanzas públicas y presupuesto": 2,
@@ -255,8 +255,8 @@
     "Otros": 1,
     "Capital humano: educación y salud": 1
    },
-   "pct_desarrollo": 53.6,
-   "pct_simbolico": 3.6,
+   "pct_desarrollo": 51.7,
+   "pct_simbolico": 3.4,
    "riesgo_fiscal": 1,
    "actualizaciones": 0,
    "bancadas": [
@@ -281,7 +281,7 @@
     {
      "bancada": "Fuerza Popular",
      "miembros": 22,
-     "proyectos": 2,
+     "proyectos": 3,
      "por_miembro": 0.1,
      "actualizaciones": 0,
      "pct_desarrollo": 0.0,
@@ -300,7 +300,7 @@
    "comisiones": [
     {
      "nombre": "Constitución, Reglamento y Relaciones Exteriores",
-     "proyectos": 11
+     "proyectos": 12
     },
     {
      "nombre": "Defensa Nacional y Orden Interno",
@@ -311,19 +311,19 @@
      "proyectos": 2
     },
     {
+     "nombre": "Economía, Medio Ambiente y Defensa del Consumidor",
+     "proyectos": 2
+    },
+    {
+     "nombre": "Justicia y Derechos Humanos",
+     "proyectos": 2
+    },
+    {
      "nombre": "Asuntos de Desarrollo Productivo, Energía y Minas, Infraestructura y Trabajo",
      "proyectos": 1
     },
     {
      "nombre": "Asuntos de Gestión del Estado y Contraloría",
-     "proyectos": 0
-    },
-    {
-     "nombre": "Economía, Medio Ambiente y Defensa del Consumidor",
-     "proyectos": 0
-    },
-    {
-     "nombre": "Justicia y Derechos Humanos",
      "proyectos": 0
     }
    ]
@@ -334,7 +334,7 @@
    "leyes": 2,
    "archivados": 0,
    "por_estado": {
-    "EN AGENDA DEL PLENO DEL CONGRESO DE LA REPÚBLICA": 3,
+    "EN DEBATE - PLENO": 3,
     "Publicada en el Diario Oficial El Peruano": 2,
     "EN COMISIÓN": 1
    },
@@ -372,17 +372,38 @@
    "genero": "",
    "condicion": "",
    "link": "https://diputados.congreso.gob.pe/diputado/zunini-yerren-ernesto-alonzo/",
-   "principal": 31,
-   "firmas": 134,
+   "principal": 34,
+   "firmas": 138,
    "simbolicos": 1,
    "actualizaciones": 0,
-   "desarrollo": 25,
+   "desarrollo": 27,
    "proyectos": [
+    {
+     "codigo": "00872-2026-2031-CD",
+     "fecha": "2026-11-18",
+     "titulo": "PROPOSICIÓN DE RESOLUCIÓN LEGISLATIVA QUE ACERCA EL CONGRESO A LA CIUDADANÍA MEDIANTE LA CREACIÓN DE LA RED TERRITORIAL DE PUNTOS DE CONTACTO LEGISLATIVO CIUDADANO.",
+     "estado": "PRESENTADO",
+     "agenda": "Reforma política e institucional"
+    },
+    {
+     "codigo": "00867-2026-2031-CD",
+     "fecha": "2026-11-18",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE EL SISTEMA NACIONAL DE TRAZABILIDAD Y RECUPERACIÓN DE ARMAS DE FUEGO Y MUNICIONES DE USO CIVIL, FORTALECE SU LOCALIZACIÓN, ENTREGA VOLUNTARIA Y RETIRO DEFINITIVO DE CIRCULACIÓN, Y MODIFICA LA LEY 30299.",
+     "estado": "PRESENTADO",
+     "agenda": "Seguridad y Estado de derecho"
+    },
+    {
+     "codigo": "00865-2026-2031-CD",
+     "fecha": "2026-11-18",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROTEGE LA ECONOMÍA FAMILIAR, REDUCE AL 50% EL TOPE DE INTERÉS PARA CRÉDITOS DE CONSUMO Y TARJETAS, Y SANCIONA LA USURA AGRAVADA.",
+     "estado": "PRESENTADO",
+     "agenda": "Inversión, empleo y competitividad"
+    },
     {
      "codigo": "00834-2026-2031-CD",
      "fecha": "2026-11-13",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROHÍBE LA ACUICULTURA DE OCTÓPODOS EN EL TERRITORIO NACIONAL Y LA IMPORTACIÓN DE PRODUCTOS PROVENIENTES DE GRANJAS DE OCTÓPODOS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
@@ -607,7 +628,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/villanueva-calderon-juan-amilcar/",
    "principal": 27,
-   "firmas": 57,
+   "firmas": 60,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 20,
@@ -616,28 +637,28 @@
      "codigo": "00841-2026-2031-CD",
      "fecha": "2026-11-13",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE GARANTIZA LA ENTREGA DIRECTA DE LOS RECURSOS DEL CANON A LOS INSTITUTOS Y ESCUELAS DE EDUCACIÓN SUPERIOR PÚBLICOS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Capital humano: educación y salud"
     },
     {
      "codigo": "00840-2026-2031-CD",
      "fecha": "2026-11-13",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL NUMERAL 100.15 AL ARTÍCULO 100 Y EL ARTÍCULO 100-A y 100-B A LA LEY 30220, LEY UNIVERSITARIA, PARA RECONOCER EL DERECHO DEL ESTUDIANTE A CONTRATAR UNA PENSIÓN DE ENSEÑANZA Y TASAS ADMINISTRATIVAS FIJAS EN LAS UNIVERSIDADES PRIVADAS",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Capital humano: educación y salud"
     },
     {
      "codigo": "00839-2026-2031-CD",
      "fecha": "2026-11-13",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA DISPOSICIONES EN LA LEY 30364, LEY PARA PREVENIR, SANCIONAR Y ERRADICAR LA VIOLENCIA CONTRA LAS MUJERES Y LOS INTEGRANTES DEL GRUPO FAMILIAR, PARA PROTEGER A LAS VÍCTIMAS FRENTE A LAS AMENAZAS Y EL MALTRATO CONTRA SUS ANIMALES DE COMPAÑÍA.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Inclusión y protección social"
     },
     {
      "codigo": "00838-2026-2031-CD",
      "fecha": "2026-11-13",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 26271, LEY QUE NORMA EL DERECHO A PASES LIBRES Y PASAJES DIFERENCIADOS COBRADOS POR LAS EMPRESAS DE TRANSPORTE URBANO E INTERURBANO DE PASAJEROS, PARA ADECUAR EL RECONOCIMIENTO DEL CARNÉ ESTUDIANTIL Y SUS BENEFICIOS PARA LAS Y LOS ESTUDIANTES DE INSTITUTOS Y ESCUELAS DE EDUCACIÓN SUPERIOR TECNOLÓGICA, PEDAGÓGICA Y DE FORMACIÓN ARTÍSTICA DEL PAÍS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Inversión, empleo y competitividad"
     },
     {
@@ -813,7 +834,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/marquez-huanca-anali/",
    "principal": 24,
-   "firmas": 41,
+   "firmas": 43,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 19,
@@ -822,7 +843,7 @@
      "codigo": "00855-2026-2031-CD",
      "fecha": "2026-11-17",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 3 DE LA LEY 31883, LEY QUE PROMUEVE LA VACUNACIÓN CONTRA EL VIRUS DEL PAPILOMA HUMANO (VPH) EN LA NIÑEZ Y ADOLESCENCIA, PARA AMPLIAR LA VACUNACIÓN HASTA LOS 26 AÑOS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Capital humano: educación y salud"
     },
     {
@@ -1625,12 +1646,19 @@
    "genero": "masculino",
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/holguin-loaiza-cesar-augusto/",
-   "principal": 15,
-   "firmas": 99,
+   "principal": 16,
+   "firmas": 100,
    "simbolicos": 1,
    "actualizaciones": 0,
-   "desarrollo": 10,
+   "desarrollo": 11,
    "proyectos": [
+    {
+     "codigo": "00864-2026-2031-CD",
+     "fecha": "2026-11-18",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 28094, LEY DE ORGANIZACIONES POLÍTICAS, CON LA FINALIDAD DE INCORPORAR LA INSTRUMENTALIZACIÓN CRIMINAL COMO CAUSAL DE DECLARACIÓN JUDICIAL DE ILEGALIDAD DE LAS ORGANIZACIONES POLÍTICAS",
+     "estado": "PRESENTADO",
+     "agenda": "Seguridad y Estado de derecho"
+    },
     {
      "codigo": "00790-2026-2031-CD",
      "fecha": "2026-11-06",
@@ -1748,7 +1776,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/isla-rojas-azucena/",
    "principal": 14,
-   "firmas": 61,
+   "firmas": 63,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 12,
@@ -1872,7 +1900,7 @@
      "codigo": "00852-2026-2031-CD",
      "fecha": "2026-11-17",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA PROTECCIÓN DE LA PROPIEDAD TERRITORIAL DE LAS COMUNIDADES CAMPESINAS Y ESTABLECE GARANTÍAS PARA LA FORMALIZACIÓN DE TIERRAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Inversión, empleo y competitividad"
     },
     {
@@ -1987,14 +2015,14 @@
      "codigo": "00836-2026-2031-CD",
      "fecha": "2026-11-13",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE AGILIZA LA RECUPERACIÓN DE PREDIOS DEL ESTADO PARA EL SERVICIO DE LA CIUDADANÍA.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Otros"
     },
     {
      "codigo": "00831-2026-2031-CD",
      "fecha": "2026-11-13",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA JUSTICIA DE PAZ PARA ACERCAR LA JUSTICIA A LA CIUDADANÍA Y PROMOVER LA SOLUCIÓN PACÍFICA DE CONFLICTOS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Seguridad y Estado de derecho"
     },
     {
@@ -2102,7 +2130,7 @@
      "codigo": "00849-2026-2031-CD",
      "fecha": "2026-11-17",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY N.º 29664, LEY QUE CREA EL SISTEMA NACIONAL DE GESTIÓN DEL RIESGO DE DESASTRES (SINAGERD), PARA FORTALECER LA ATENCIÓN Y EL SEGUIMIENTO DE LOS PUNTOS CRÍTICOS ANTE EL RIESGO DE INUNDACIONES Y DESBORDAMIENTOS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Ambiente y gestión de riesgos"
     },
     {
@@ -2217,14 +2245,14 @@
      "codigo": "00851-2026-2031-CD",
      "fecha": "2026-11-17",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 26549, LEY DE LOS CENTROS EDUCATIVOS PRIVADOS, PARA GARANTIZAR LA ESTABILIDAD DE LOS PARÁMETROS DIMENSIONALES DE INFRAESTRUCTURA DE LOS LOCALES DE LAS INSTITUCIONES EDUCATIVAS PRIVADAS AUTORIZADAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Infraestructura y conectividad"
     },
     {
      "codigo": "00827-2026-2031-CD",
      "fecha": "2026-11-11",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 44 DE LA LEY 31557, LEY QUE REGULA LA EXPLOTACIÓN DE LOS JUEGOS A DISTANCIA Y APUESTAS DEPORTIVAS A DISTANCIA, PARA INCORPORAR LA INFRAESTRUCTURA TURÍSTICA ENTRE LOS DESTINOS DE LOS RECURSOS DEL IMPUESTO",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Finanzas públicas y presupuesto"
     },
     {
@@ -2325,21 +2353,21 @@
      "codigo": "00828-2026-2031-CD",
      "fecha": "2026-11-12",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE EL CIERRE DE BRECHAS DE CONECTIVIDAD DIGITAL EN LAS INSTITUCIONES EDUCATIVAS PÚBLICAS DE ZONAS ALTOANDINAS Y AMAZÓNICAS DEL PERÚ.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Infraestructura y conectividad"
     },
     {
      "codigo": "00826-2026-2031-CD",
      "fecha": "2026-11-11",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE AUTORIZA, POR ÚNICA VEZ, EL NOMBRAMIENTO EXCEPCIONAL DE DOCENTES APROBADOS EN LOS CONCURSOS DE INGRESO A LA CARRERA PÚBLICA MAGISTERIAL DE 2022 Y 2024.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Capital humano: educación y salud"
     },
     {
      "codigo": "00825-2026-2031-CD",
      "fecha": "2026-11-11",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA PROTECCIÓN DE NIÑAS, NIÑOS Y ADOLESCENTES EN LOS MEDIOS DE COMUNICACIÓN Y PLATAFORMAS DIGITALES Y PROMUEVE CONTENIDOS EDUCATIVOS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Inclusión y protección social"
     },
     {
@@ -2447,14 +2475,14 @@
      "codigo": "00846-2026-2031-CD",
      "fecha": "2026-11-17",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL DELITO DE OBSTRUCCIÓN PARENTAL EN EL CÓDIGO PENAL.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Seguridad y Estado de derecho"
     },
     {
      "codigo": "00843-2026-2031-CD",
      "fecha": "2026-11-13",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE A SUSALUD PARA GARANTIZAR LA PROTECCIÓN OPORTUNA Y EFECTIVA DE LOS DERECHOS DE LOS PACIENTES.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Capital humano: educación y salud"
     },
     {
@@ -2627,6 +2655,107 @@
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE FACULTA LA DENUNCIA DE LA CONVENCIÓN AMERICANA SOBRE DERECHOS HUMANOS \"PACTO DE SAN JOSÉ DE COSTA RICA\"",
      "estado": "EN COMISIÓN",
      "agenda": "Seguridad y Estado de derecho"
+    }
+   ]
+  },
+  {
+   "camara": "D",
+   "nombre": "Dominguez Herrera, Carlos Alberto",
+   "bancada": "Fuerza Popular",
+   "sigla": "FP",
+   "distrito": "Ancash",
+   "genero": "masculino",
+   "condicion": "en ejercicio",
+   "link": "https://diputados.congreso.gob.pe/diputado/dominguez-herrera-carlos-alberto/",
+   "principal": 12,
+   "firmas": 29,
+   "simbolicos": 0,
+   "actualizaciones": 0,
+   "desarrollo": 10,
+   "proyectos": [
+    {
+     "codigo": "00863-2026-2031-CD",
+     "fecha": "2026-11-18",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE MEDIDAS DE TRANSPARENCIA, EVALUACIÓN Y RESPONSABILIDAD PARA EL USO SEGURO DE LA INTELIGENCIA ARTIFICIAL.",
+     "estado": "PRESENTADO",
+     "agenda": "Seguridad y Estado de derecho"
+    },
+    {
+     "codigo": "00862-2026-2031-CD",
+     "fecha": "2026-11-18",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA PUBLICIDAD OFICIAL DE NORMAS JURÍDICAS Y LA TRANSFORMACIÓN DIGITAL DE EDITORA PERÚ Y DEL DIARIO OFICIAL EL PERUANO",
+     "estado": "PRESENTADO",
+     "agenda": "Gestión del Estado y simplificación"
+    },
+    {
+     "codigo": "00691-2026-2031-CD",
+     "fecha": "2026-10-28",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 31557, LEY QUE REGULA LA EXPLOTACIÓN DE LOS JUEGOS A DISTANCIA Y APUESTAS DEPORTIVAS A DISTANCIA, PARA DESCENTRALIZAR EL FINANCIAMIENTO DE LOS SERVICIOS DE SALUD MENTAL.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Capital humano: educación y salud"
+    },
+    {
+     "codigo": "00661-2026-2031-CD",
+     "fecha": "2026-10-23",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 31589, LEY QUE GARANTIZA LA REACTIVACIÓN DE OBRAS PÚBLICAS PARALIZADAS, PARA FORTALECER LA SEGURIDAD JURÍDICA EN LA REACTIVACIÓN DE OBRAS PÚBLICAS.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Infraestructura y conectividad"
+    },
+    {
+     "codigo": "00658-2026-2031-CD",
+     "fecha": "2026-10-23",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE DISPOSICIONES PARA EL USO PRODUCTIVO TEMPORAL DE LOCALES COMUNALES EN EL MARCO DEL DESARROLLO ECONÓMICO LOCAL.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Inversión, empleo y competitividad"
+    },
+    {
+     "codigo": "00594-2026-2031-CD",
+     "fecha": "2026-10-15",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30790, LEY QUE PROMUEVE A LOS COMEDORES POPULARES COMO UNIDADES DE EMPRENDIMIENTO PARA LA PRODUCCIÓN, PARA FORTALECER EL DESARROLLO PRODUCTIVO DE LAS MUJERES INTEGRANTES DE COMEDORES POPULARES Y OLLAS COMUNES.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Inversión, empleo y competitividad"
+    },
+    {
+     "codigo": "00593-2026-2031-CD",
+     "fecha": "2026-10-15",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 26842, LEY GENERAL DE SALUD, PARA GARANTIZAR LA CONTINUIDAD DE LA ATENCIÓN ANTE LA INDISPONIBILIDAD DE SISTEMAS DIGITALES DE INFORMACIÓN CLÍNICA.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Capital humano: educación y salud"
+    },
+    {
+     "codigo": "00591-2026-2031-CD",
+     "fecha": "2026-10-15",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY N° 28951, LEY DE ACTUALIZACIÓN DE LA LEY N° 13253, LEY DE PROFESIONALIZACIÓN DEL CONTADOR PÚBLICO.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Otros"
+    },
+    {
+     "codigo": "00579-2026-2031-CD",
+     "fecha": "2026-10-13",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA ARTICULACIÓN DE LOS SERVICIOS DE ASISTENCIA TÉCNICA Y VINCULACIÓN COMERCIAL PARA EL DESARROLLO COMPETITIVO DE LA AGRICULTURA FAMILIAR.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Inversión, empleo y competitividad"
+    },
+    {
+     "codigo": "00421-2026-2031-CD",
+     "fecha": "2026-09-23",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE EL CONTROL DE ARMAS DE FUEGO DE USO CIVIL Y LA PARTICIPACIÓN DE LA POLICÍA NACIONAL DEL PERÚ EN SU CONTROL Y TRAZABILIDAD.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Seguridad y Estado de derecho"
+    },
+    {
+     "codigo": "00238-2026-2031-CD",
+     "fecha": "2026-09-15",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27056, LEY DE CREACIÓN DEL SEGURO SOCIAL DE SALUD (ESSALUD), PARA FORTALECER LA ATENCIÓN OPORTUNA DE SUS ASEGURADOS.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Capital humano: educación y salud"
+    },
+    {
+     "codigo": "00212-2026-2031-CD",
+     "fecha": "2026-09-14",
+     "titulo": "PROPOSICIÓN LEGISLATIVA DE REFORMA CONSTITUCIONAL QUE MODIFICA LOS ARTÍCULOS 40, 41, 109 Y 204 DE LA CONSTITUCIÓN POLÍTICA DEL PERÚ E INCORPORA AL DIARIO OFICIAL EL PERUANO COMO MEDIO OFICIAL DE PUBLICACIÓN.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Reforma política e institucional"
     }
    ]
   },
@@ -2828,7 +2957,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/huilca-flores-indira-isabel/",
    "principal": 11,
-   "firmas": 64,
+   "firmas": 65,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 9,
@@ -3008,93 +3137,6 @@
   },
   {
    "camara": "D",
-   "nombre": "Dominguez Herrera, Carlos Alberto",
-   "bancada": "Fuerza Popular",
-   "sigla": "FP",
-   "distrito": "Ancash",
-   "genero": "masculino",
-   "condicion": "en ejercicio",
-   "link": "https://diputados.congreso.gob.pe/diputado/dominguez-herrera-carlos-alberto/",
-   "principal": 10,
-   "firmas": 27,
-   "simbolicos": 0,
-   "actualizaciones": 0,
-   "desarrollo": 8,
-   "proyectos": [
-    {
-     "codigo": "00691-2026-2031-CD",
-     "fecha": "2026-10-28",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 31557, LEY QUE REGULA LA EXPLOTACIÓN DE LOS JUEGOS A DISTANCIA Y APUESTAS DEPORTIVAS A DISTANCIA, PARA DESCENTRALIZAR EL FINANCIAMIENTO DE LOS SERVICIOS DE SALUD MENTAL.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Capital humano: educación y salud"
-    },
-    {
-     "codigo": "00661-2026-2031-CD",
-     "fecha": "2026-10-23",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 31589, LEY QUE GARANTIZA LA REACTIVACIÓN DE OBRAS PÚBLICAS PARALIZADAS, PARA FORTALECER LA SEGURIDAD JURÍDICA EN LA REACTIVACIÓN DE OBRAS PÚBLICAS.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Infraestructura y conectividad"
-    },
-    {
-     "codigo": "00658-2026-2031-CD",
-     "fecha": "2026-10-23",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE DISPOSICIONES PARA EL USO PRODUCTIVO TEMPORAL DE LOCALES COMUNALES EN EL MARCO DEL DESARROLLO ECONÓMICO LOCAL.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Inversión, empleo y competitividad"
-    },
-    {
-     "codigo": "00594-2026-2031-CD",
-     "fecha": "2026-10-15",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30790, LEY QUE PROMUEVE A LOS COMEDORES POPULARES COMO UNIDADES DE EMPRENDIMIENTO PARA LA PRODUCCIÓN, PARA FORTALECER EL DESARROLLO PRODUCTIVO DE LAS MUJERES INTEGRANTES DE COMEDORES POPULARES Y OLLAS COMUNES.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Inversión, empleo y competitividad"
-    },
-    {
-     "codigo": "00593-2026-2031-CD",
-     "fecha": "2026-10-15",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 26842, LEY GENERAL DE SALUD, PARA GARANTIZAR LA CONTINUIDAD DE LA ATENCIÓN ANTE LA INDISPONIBILIDAD DE SISTEMAS DIGITALES DE INFORMACIÓN CLÍNICA.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Capital humano: educación y salud"
-    },
-    {
-     "codigo": "00591-2026-2031-CD",
-     "fecha": "2026-10-15",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY N° 28951, LEY DE ACTUALIZACIÓN DE LA LEY N° 13253, LEY DE PROFESIONALIZACIÓN DEL CONTADOR PÚBLICO.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Otros"
-    },
-    {
-     "codigo": "00579-2026-2031-CD",
-     "fecha": "2026-10-13",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA ARTICULACIÓN DE LOS SERVICIOS DE ASISTENCIA TÉCNICA Y VINCULACIÓN COMERCIAL PARA EL DESARROLLO COMPETITIVO DE LA AGRICULTURA FAMILIAR.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Inversión, empleo y competitividad"
-    },
-    {
-     "codigo": "00421-2026-2031-CD",
-     "fecha": "2026-09-23",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE EL CONTROL DE ARMAS DE FUEGO DE USO CIVIL Y LA PARTICIPACIÓN DE LA POLICÍA NACIONAL DEL PERÚ EN SU CONTROL Y TRAZABILIDAD.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Seguridad y Estado de derecho"
-    },
-    {
-     "codigo": "00238-2026-2031-CD",
-     "fecha": "2026-09-15",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27056, LEY DE CREACIÓN DEL SEGURO SOCIAL DE SALUD (ESSALUD), PARA FORTALECER LA ATENCIÓN OPORTUNA DE SUS ASEGURADOS.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Capital humano: educación y salud"
-    },
-    {
-     "codigo": "00212-2026-2031-CD",
-     "fecha": "2026-09-14",
-     "titulo": "PROPOSICIÓN LEGISLATIVA DE REFORMA CONSTITUCIONAL QUE MODIFICA LOS ARTÍCULOS 40, 41, 109 Y 204 DE LA CONSTITUCIÓN POLÍTICA DEL PERÚ E INCORPORA AL DIARIO OFICIAL EL PERUANO COMO MEDIO OFICIAL DE PUBLICACIÓN.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Reforma política e institucional"
-    }
-   ]
-  },
-  {
-   "camara": "D",
    "nombre": "Fernández Gonzalez, Svieta Valia",
    "bancada": "Juntos por el Perú",
    "sigla": "JP",
@@ -3103,7 +3145,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/fernandez-gonzalez-svieta-valia/",
    "principal": 10,
-   "firmas": 72,
+   "firmas": 74,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 8,
@@ -3112,7 +3154,7 @@
      "codigo": "00830-2026-2031-CD",
      "fecha": "2026-11-12",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE RECONOCE EL DERECHO AL CUIDADO Y ESTABLECE MEDIDAS DE PROTECCIÓN PARA LAS PERSONAS QUE REQUIEREN CUIDADOS Y PARA SUS PERSONAS CUIDADORAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Inclusión y protección social"
     },
     {
@@ -3190,7 +3232,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/gonzales-delgado-gabriel-robertino/",
    "principal": 10,
-   "firmas": 70,
+   "firmas": 73,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 9,
@@ -3357,7 +3399,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/meneses-crispin-angel-renato/",
    "principal": 9,
-   "firmas": 68,
+   "firmas": 69,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 8,
@@ -3663,7 +3705,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/buitron-martinez-freshman/",
    "principal": 8,
-   "firmas": 92,
+   "firmas": 93,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 7,
@@ -3955,7 +3997,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/pinan-mamani-victor-eduardo/",
    "principal": 8,
-   "firmas": 55,
+   "firmas": 56,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 4,
@@ -3964,7 +4006,7 @@
      "codigo": "00850-2026-2031-CD",
      "fecha": "2026-11-17",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL INCISO “C” AL ARTÍCULO 183 DEL CÓDIGO PENAL QUE SANCIONA A LOS MEDIOS DE COMUNICACIÓN SOCIAL LAS EXHIBICIONES OBSCENAS Y PORNOGRÁFICAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Seguridad y Estado de derecho"
     },
     {
@@ -4028,7 +4070,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/zegarra-sanchez-carlos-alberto/",
    "principal": 8,
-   "firmas": 24,
+   "firmas": 25,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 8,
@@ -4037,7 +4079,7 @@
      "codigo": "00837-2026-2031-CD",
      "fecha": "2026-11-13",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA SEGUNDA DISPOSICIÓN COMPLEMENTARIA FINAL DEL DECRETO LEGISLATIVO 1290 PARA PRECISAR LOS CRITERIOS DE PROPORCIONALIDAD Y SIMPLIFICACIÓN ADMINISTRATIVA APLICABLES A LAS MICRO Y PEQUEÑAS EMPRESAS",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Inversión, empleo y competitividad"
     },
     {
@@ -4167,7 +4209,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/silupu-inga-maria-luisa/",
    "principal": 7,
-   "firmas": 17,
+   "firmas": 20,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 5,
@@ -4308,7 +4350,7 @@
      "codigo": "00845-2026-2031-CD",
      "fecha": "2026-11-17",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE REGULA LA MOVILIDAD INTERUNIVERSITARIA DEFINITIVA DE DOCENTES ORDINARIOS DE UNIVERSIDADES PÚBLICAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Capital humano: educación y salud"
     },
     {
@@ -4476,7 +4518,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/guevara-ramirez-jessica-roxana/",
    "principal": 6,
-   "firmas": 71,
+   "firmas": 74,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 4,
@@ -4653,7 +4695,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/manrique-olivera-bernardino-jair/",
    "principal": 6,
-   "firmas": 54,
+   "firmas": 55,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 3,
@@ -4712,7 +4754,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/peralta-jorpa-maximo/",
    "principal": 6,
-   "firmas": 37,
+   "firmas": 38,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 5,
@@ -4771,7 +4813,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/poma-huamani-haydee-celinda/",
    "principal": 6,
-   "firmas": 61,
+   "firmas": 63,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 4,
@@ -4830,7 +4872,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/tito-rojas-cesar-hugo/",
    "principal": 6,
-   "firmas": 49,
+   "firmas": 50,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 4,
@@ -4876,6 +4918,58 @@
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32108 Y LA LEY 32138, SOBRE EL CRIMEN ORGANIZADO",
      "estado": "EN COMISIÓN",
      "agenda": "Seguridad y Estado de derecho"
+    }
+   ]
+  },
+  {
+   "camara": "D",
+   "nombre": "Alvaron de la Cruz, Edgar Adrián",
+   "bancada": "Partido Cívico Obras",
+   "sigla": "PCO",
+   "distrito": "Ancash",
+   "genero": "masculino",
+   "condicion": "en ejercicio",
+   "link": "https://diputados.congreso.gob.pe/diputado/alvaron-de-la-cruz-edgar-adrian/",
+   "principal": 5,
+   "firmas": 12,
+   "simbolicos": 0,
+   "actualizaciones": 0,
+   "desarrollo": 2,
+   "proyectos": [
+    {
+     "codigo": "00870-2026-2031-CD",
+     "fecha": "2026-11-18",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE LA LEY GENERAL DEL SISTEMA TRADICIONAL DE SEMILLAS NATIVAS.",
+     "estado": "PRESENTADO",
+     "agenda": "Otros"
+    },
+    {
+     "codigo": "00719-2026-2031-CD",
+     "fecha": "2026-10-30",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Otros"
+    },
+    {
+     "codigo": "00449-2026-2031-CD",
+     "fecha": "2026-09-28",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE RESTITUYE EL DERECHO A LOS CENTROS POBLADOS A PARTICIPAR DE LA DISTRIBUCIÓN DIRECTA DEL CANON.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Otros"
+    },
+    {
+     "codigo": "00438-2026-2031-CD",
+     "fecha": "2026-09-25",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 13 DE LA LEY 27803, PARA RECONOCER EL PERIODO DE CESE IRREGULAR EN EL CÁLCULO DE LA COMPENSACIÓN POR TIEMPO DE SERVICIO DE LOS TRABAJADORES ACTIVOS DE LOS REGÍMENES LABORALES 276 Y 728.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Inversión, empleo y competitividad"
+    },
+    {
+     "codigo": "00432-2026-2031-CD",
+     "fecha": "2026-09-24",
+     "titulo": "PROPOSICIÓN LEGISLATIVA DE RESOLUCIÓN LEGISLATIVA QUE RESTITUYE LA COMISIÓN DE INCLUSIÓN SOCIAL Y PERSONAS CON DISCAPACIDAD COMO COMISIÓN ORDINARIA LEGISLATIVA.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Inclusión y protección social"
     }
    ]
   },
@@ -5149,7 +5243,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/perez-alccahuaman-jesus/",
    "principal": 5,
-   "firmas": 40,
+   "firmas": 41,
    "simbolicos": 1,
    "actualizaciones": 0,
    "desarrollo": 3,
@@ -5285,51 +5379,6 @@
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY N' 32645, LEY QUE CREA EL COLEGIO PROFESIONAL DE ARTISTAS DEL PERÚ (CPAP)",
      "estado": "Expediente de propuesta legislativa remitida al senado de la república",
      "agenda": "Otros"
-    }
-   ]
-  },
-  {
-   "camara": "D",
-   "nombre": "Alvaron de la Cruz, Edgar Adrián",
-   "bancada": "Partido Cívico Obras",
-   "sigla": "PCO",
-   "distrito": "Ancash",
-   "genero": "masculino",
-   "condicion": "en ejercicio",
-   "link": "https://diputados.congreso.gob.pe/diputado/alvaron-de-la-cruz-edgar-adrian/",
-   "principal": 4,
-   "firmas": 11,
-   "simbolicos": 0,
-   "actualizaciones": 0,
-   "desarrollo": 2,
-   "proyectos": [
-    {
-     "codigo": "00719-2026-2031-CD",
-     "fecha": "2026-10-30",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Otros"
-    },
-    {
-     "codigo": "00449-2026-2031-CD",
-     "fecha": "2026-09-28",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE RESTITUYE EL DERECHO A LOS CENTROS POBLADOS A PARTICIPAR DE LA DISTRIBUCIÓN DIRECTA DEL CANON.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Otros"
-    },
-    {
-     "codigo": "00438-2026-2031-CD",
-     "fecha": "2026-09-25",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 13 DE LA LEY 27803, PARA RECONOCER EL PERIODO DE CESE IRREGULAR EN EL CÁLCULO DE LA COMPENSACIÓN POR TIEMPO DE SERVICIO DE LOS TRABAJADORES ACTIVOS DE LOS REGÍMENES LABORALES 276 Y 728.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Inversión, empleo y competitividad"
-    },
-    {
-     "codigo": "00432-2026-2031-CD",
-     "fecha": "2026-09-24",
-     "titulo": "PROPOSICIÓN LEGISLATIVA DE RESOLUCIÓN LEGISLATIVA QUE RESTITUYE LA COMISIÓN DE INCLUSIÓN SOCIAL Y PERSONAS CON DISCAPACIDAD COMO COMISIÓN ORDINARIA LEGISLATIVA.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Inclusión y protección social"
     }
    ]
   },
@@ -5568,7 +5617,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/jibaja-ramos-luis-angel/",
    "principal": 4,
-   "firmas": 76,
+   "firmas": 79,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 2,
@@ -5622,14 +5671,14 @@
      "codigo": "00833-2026-2031-CD",
      "fecha": "2026-11-13",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE UN RÉGIMEN ESPECIAL DE AUTORIZACIÓN PARA LA INVESTIGACIÓN CIENTÍFICA, MÉDICA Y FARMACÉUTICA CON SUSTANCIAS SOMETIDAS A FISCALIZACIÓN SANITARIA",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Capital humano: educación y salud"
     },
     {
      "codigo": "00829-2026-2031-CD",
      "fecha": "2026-11-12",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CREA EL FONDO SOBERANO DE RIQUEZA DEL PERÚ Y REGULA EL AHORRO FISCAL NACIONAL, EL AHORRO DE BONANZA EXTRACTIVA Y LA GESTIÓN Y RENTABILIZACIÓN DE ACTIVOS PÚBLICOS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Finanzas públicas y presupuesto"
     },
     {
@@ -5667,7 +5716,7 @@
      "codigo": "00842-2026-2031-CD",
      "fecha": "2026-11-13",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE LA ARTICULACIÓN Y EL FORTALECIMIENTO DE LAS ESCUELAS DE CAMPO Y DE CAPACITACIÓN AGROPECUARIA EN EL PERÚ.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Inversión, empleo y competitividad"
     },
     {
@@ -5712,14 +5761,14 @@
      "codigo": "00854-2026-2031-CD",
      "fecha": "2026-11-17",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY N.º 29973, LEY GENERAL DE LA PERSONA CON DISCAPACIDAD, PARA RECONOCER EL ACOMPAÑAMIENTO INDISPENSABLE Y EXTENDER BENEFICIOS DE ACCESO AL ACOMPAÑANTE.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Inclusión y protección social"
     },
     {
      "codigo": "00853-2026-2031-CD",
      "fecha": "2026-11-17",
      "titulo": "PROPOSICIÓN LEGISLATIVA DE COMPRAS PÚBLICAS INCLUSIVAS PARA PUEBLOS INDÍGENAS U ORIGINARIOS, PUEBLO AFROPERUANO Y COMUNIDADES CAMPESINAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Inclusión y protección social"
     },
     {
@@ -5861,6 +5910,44 @@
   },
   {
    "camara": "D",
+   "nombre": "Cahuaza Mitivire, Oswar Elbis",
+   "bancada": "Juntos por el Perú",
+   "sigla": "JP",
+   "distrito": "Ucayali",
+   "genero": "masculino",
+   "condicion": "en ejercicio",
+   "link": "https://diputados.congreso.gob.pe/diputado/cahuaza-mitivire-oswar-elbis/",
+   "principal": 3,
+   "firmas": 29,
+   "simbolicos": 0,
+   "actualizaciones": 0,
+   "desarrollo": 2,
+   "proyectos": [
+    {
+     "codigo": "00869-2026-2031-CD",
+     "fecha": "2026-11-18",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA TRANSPARENCIA SOBRE EL EJERCICIO Y REEMPLAZO DEL CARGO DE ALCALDE Y PRECISA LA APLICACIÓN DE LA PROHIBICIÓN DE REELECCIÓN INMEDIATA.",
+     "estado": "PRESENTADO",
+     "agenda": "Gestión del Estado y simplificación"
+    },
+    {
+     "codigo": "00868-2026-2031-CD",
+     "fecha": "2026-11-18",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 29719, LEY QUE PROMUEVE LA CONVIVENCIA SIN VIOLENCIA EN LAS INSTITUCIONES EDUCATIVAS PARA FORTALECER LA PREVENCIÓN, ATENCIÓN, SEGUIMIENTO Y CONTRARRESTAR LA VIOLENCIA COMO EL ACOSO ESCOLAR.",
+     "estado": "PRESENTADO",
+     "agenda": "Capital humano: educación y salud"
+    },
+    {
+     "codigo": "00719-2026-2031-CD",
+     "fecha": "2026-10-30",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Otros"
+    }
+   ]
+  },
+  {
+   "camara": "D",
    "nombre": "Columbus Murata, Diethell",
    "bancada": "Fuerza Popular",
    "sigla": "FP",
@@ -5983,7 +6070,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/meza-rivera-flor-de-jesus/",
    "principal": 3,
-   "firmas": 30,
+   "firmas": 32,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 2,
@@ -6144,7 +6231,7 @@
      "codigo": "00832-2026-2031-CD",
      "fecha": "2026-11-13",
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE EL CUMPLIMIENTO Y SEGUIMIENTO DE LAS OBLIGACIONES DE TRANSFORMACIÓN DIGITAL EN LAS ENTIDADES PÚBLICAS.",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Gestión del Estado y simplificación"
     },
     {
@@ -6249,7 +6336,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/abensur-pinasco-jaime-americo/",
    "principal": 2,
-   "firmas": 12,
+   "firmas": 13,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 2,
@@ -6280,7 +6367,7 @@
    "condicion": "electo",
    "link": "https://diputados.congreso.gob.pe/diputado/albanil-carmona-henry-antonio/",
    "principal": 2,
-   "firmas": 11,
+   "firmas": 12,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 1,
@@ -6404,7 +6491,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/gatica-vega-francisco-javier/",
    "principal": 2,
-   "firmas": 23,
+   "firmas": 25,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 2,
@@ -6559,7 +6646,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/paredes-navarro-yenifer-noelia/",
    "principal": 2,
-   "firmas": 41,
+   "firmas": 42,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 1,
@@ -6670,6 +6757,37 @@
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE CREA EL SISTEMA NACIONAL DE ALERTA E INTEROPERABILIDAD CONTRA EL CRIMEN ORGANIZADO (SINAICO), Y MODIFICA EL DECRETO LEGISLATIVO 1412, DECRETO LEGISLATIVO QUE APRUEBA LA LEY DE GOBIERNO DIGITAL.",
      "estado": "EN COMISIÓN",
      "agenda": "Seguridad y Estado de derecho"
+    }
+   ]
+  },
+  {
+   "camara": "D",
+   "nombre": "Quezada Castro, Geanmarco Antonio",
+   "bancada": "Fuerza Popular",
+   "sigla": "FP",
+   "distrito": "La Libertad",
+   "genero": "masculino",
+   "condicion": "en ejercicio",
+   "link": "https://diputados.congreso.gob.pe/diputado/quezada-castro-geanmarco-antonio/",
+   "principal": 2,
+   "firmas": 12,
+   "simbolicos": 0,
+   "actualizaciones": 0,
+   "desarrollo": 1,
+   "proyectos": [
+    {
+     "codigo": "00866-2026-2031-CD",
+     "fecha": "2026-11-18",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE REGULA EL AVISTAMIENTO RESPONSABLE DE CETÁCEOS Y ESTABLECE MEDIDAS PARA SU CONSERVACIÓN EN EL ÁMBITO MARINO.",
+     "estado": "PRESENTADO",
+     "agenda": "Otros"
+    },
+    {
+     "codigo": "00824-2026-2031-CD",
+     "fecha": "2026-11-11",
+     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA CAPACIDAD DE RESPUESTA Y DE REHABILITACIÓN DE LOS GOBIERNOS REGIONALES Y LOCALES ANTE EL FENÓMENO EL NIÑO.",
+     "estado": "EN COMISIÓN",
+     "agenda": "Infraestructura y conectividad"
     }
    ]
   },
@@ -6824,7 +6942,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/bobadilla-galindo-angel-bruno/",
    "principal": 1,
-   "firmas": 10,
+   "firmas": 11,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 1,
@@ -6835,30 +6953,6 @@
      "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 29230, LEY QUE IMPULSA LA INVERSIÓN PÚBLICA REGIONAL Y LOCAL CON PARTICIPACIÓN DEL SECTOR PRIVADO, PARA PRIORIZAR EL CIERRE DE BRECHAS DE INFRAESTRUCTURA, EQUIPAMIENTO Y CAPACIDAD OPERATIVA DE LOS ESTABLECIMIENTOS PÚBLICOS DE SALUD MEDIANTE OBRAS POR IMPUESTOS.",
      "estado": "EN COMISIÓN",
      "agenda": "Finanzas públicas y presupuesto"
-    }
-   ]
-  },
-  {
-   "camara": "D",
-   "nombre": "Cahuaza Mitivire, Oswar Elbis",
-   "bancada": "Juntos por el Perú",
-   "sigla": "JP",
-   "distrito": "Ucayali",
-   "genero": "masculino",
-   "condicion": "en ejercicio",
-   "link": "https://diputados.congreso.gob.pe/diputado/cahuaza-mitivire-oswar-elbis/",
-   "principal": 1,
-   "firmas": 24,
-   "simbolicos": 0,
-   "actualizaciones": 0,
-   "desarrollo": 0,
-   "proyectos": [
-    {
-     "codigo": "00719-2026-2031-CD",
-     "fecha": "2026-10-30",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE CONCEDE AMNISTÍA POR HECHOS VINCULADOS A LA CRISIS POLÍTICA SOCIAL DESDE EL 28 DE JULIO DE 2021 Y GARANTIZA LOS DERECHOS DE LAS VICTIMAS.",
-     "estado": "EN COMISIÓN",
-     "agenda": "Otros"
     }
    ]
   },
@@ -6896,7 +6990,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/celiz-castillo-rafael-aldo/",
    "principal": 1,
-   "firmas": 4,
+   "firmas": 5,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 1,
@@ -7104,30 +7198,6 @@
   },
   {
    "camara": "D",
-   "nombre": "Quezada Castro, Geanmarco Antonio",
-   "bancada": "Fuerza Popular",
-   "sigla": "FP",
-   "distrito": "La Libertad",
-   "genero": "masculino",
-   "condicion": "en ejercicio",
-   "link": "https://diputados.congreso.gob.pe/diputado/quezada-castro-geanmarco-antonio/",
-   "principal": 1,
-   "firmas": 11,
-   "simbolicos": 0,
-   "actualizaciones": 0,
-   "desarrollo": 1,
-   "proyectos": [
-    {
-     "codigo": "00824-2026-2031-CD",
-     "fecha": "2026-11-11",
-     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA CAPACIDAD DE RESPUESTA Y DE REHABILITACIÓN DE LOS GOBIERNOS REGIONALES Y LOCALES ANTE EL FENÓMENO EL NIÑO.",
-     "estado": "PRESENTADO",
-     "agenda": "Infraestructura y conectividad"
-    }
-   ]
-  },
-  {
-   "camara": "D",
    "nombre": "Ramos Rosales, María Candelaria",
    "bancada": "Fuerza Popular",
    "sigla": "FP",
@@ -7232,7 +7302,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/valqui-calderon-demetrio-flavio/",
    "principal": 1,
-   "firmas": 19,
+   "firmas": 20,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 0,
@@ -7256,7 +7326,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/valqui-ordonez-jhonn-brayam/",
    "principal": 1,
-   "firmas": 16,
+   "firmas": 18,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 1,
@@ -7376,7 +7446,7 @@
    "condicion": "en ejercicio",
    "link": "https://diputados.congreso.gob.pe/diputado/medina-stein-andrea-dayna/",
    "principal": 0,
-   "firmas": 18,
+   "firmas": 19,
    "simbolicos": 0,
    "actualizaciones": 0,
    "desarrollo": 0,
@@ -7544,7 +7614,7 @@
      "codigo": "00027-2026-2031-S",
      "fecha": "2026-11-17",
      "titulo": "PROYECTO DE RESOLUCIÓN LEGISLATIVA DEL SENADO QUE MODIFICA EL ARTÍCULO 41 DEL REGLAMENTO DEL SENADO A FIN DE OPTIMIZAR LA PARTICIPACIÓN DE LOS SENADORES EN LAS COMISIONES ESPECIALES",
-     "estado": "PRESENTADO",
+     "estado": "EN COMISIÓN",
      "agenda": "Reforma política e institucional"
     },
     {
@@ -7704,6 +7774,30 @@
      "titulo": "PROPOSICIÓN DE RESOLUCIÓN LEGISLATIVA QUE MODIFICA LA RESOLUCIÓN LEGISLATIVA DEL CONGRESO 006-2025-2026-CR, QUE APRUEBA EL REGLAMENTO DEL SENADO, A FIN DE RESTABLECER Y GARANTIZAR LA EXISTENCIA DE LA COMISIÓN DE PUEBLOS ANDINOS, AMAZÓNICOS Y AFROPERUANOS, AMBIENTE Y ECOLOGÍA",
      "estado": "EN COMISIÓN",
      "agenda": "Ambiente y gestión de riesgos"
+    }
+   ]
+  },
+  {
+   "camara": "S",
+   "nombre": "Rodrich Ackerman, Jacques Salomón",
+   "bancada": "Fuerza Popular",
+   "sigla": "FP",
+   "distrito": "Callao",
+   "genero": "masculino",
+   "condicion": "en ejercicio",
+   "link": "https://senado.congreso.gob.pe/senador/rodrich-ackerman-jacques-salomon/",
+   "principal": 1,
+   "firmas": 1,
+   "simbolicos": 0,
+   "actualizaciones": 0,
+   "desarrollo": 0,
+   "proyectos": [
+    {
+     "codigo": "00029-2026-2031-S",
+     "fecha": "2026-11-18",
+     "titulo": "PROYECTO DE RESOLUCIÓN LEGISLATIVA QUE GARANTIZA EL DERECHO CONSTITUCIONAL DEL VOTO DEL SUPLENTE EN LAS COMISIONES DEL SENADO DE LA REPÚBLICA",
+     "estado": "PRESENTADO",
+     "agenda": "Reforma política e institucional"
     }
    ]
   },
@@ -8333,22 +8427,6 @@
   },
   {
    "camara": "S",
-   "nombre": "Rodrich Ackerman, Jacques Salomón",
-   "bancada": "Fuerza Popular",
-   "sigla": "FP",
-   "distrito": "Callao",
-   "genero": "masculino",
-   "condicion": "en ejercicio",
-   "link": "https://senado.congreso.gob.pe/senador/rodrich-ackerman-jacques-salomon/",
-   "principal": 0,
-   "firmas": 0,
-   "simbolicos": 0,
-   "actualizaciones": 0,
-   "desarrollo": 0,
-   "proyectos": []
-  },
-  {
-   "camara": "S",
    "nombre": "Rospigliosi Capurro, Fernando Miguel",
    "bancada": "Fuerza Popular",
    "sigla": "FP",
@@ -8542,6 +8620,105 @@
  ],
  "proyectos": [
   {
+   "codigo": "00872-2026-2031-CD",
+   "camara": "D",
+   "fecha": "2026-11-18",
+   "titulo": "PROPOSICIÓN DE RESOLUCIÓN LEGISLATIVA QUE ACERCA EL CONGRESO A LA CIUDADANÍA MEDIANTE LA CREACIÓN DE LA RED TERRITORIAL DE PUNTOS DE CONTACTO LEGISLATIVO CIUDADANO.",
+   "estado": "PRESENTADO",
+   "agenda": "Reforma política e institucional",
+   "autor": "Zunini Yerren, Ernesto Alonzo"
+  },
+  {
+   "codigo": "00871-2026-2031-CD",
+   "camara": "D",
+   "fecha": "2026-11-18",
+   "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES N° 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 06383/2023-CR) PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27337, CÓDIGO DE LOS NIÑOS Y ADOLESCENTES, PROPONIENDO LA CONCILIACIÓN OBLIGATORIA COMO RESOLUCIÓN PACÍFICA, FRENTE A UNA SEPARACIÓN, EN MATERIA DE ALIMENTOS, TENENCIA Y VISITAS",
+   "estado": "PRESENTADO",
+   "agenda": "Actualización (periodo anterior)",
+   "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN"
+  },
+  {
+   "codigo": "00870-2026-2031-CD",
+   "camara": "D",
+   "fecha": "2026-11-18",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE LA LEY GENERAL DEL SISTEMA TRADICIONAL DE SEMILLAS NATIVAS.",
+   "estado": "PRESENTADO",
+   "agenda": "Otros",
+   "autor": "Alvaron de la Cruz, Edgar Adrián"
+  },
+  {
+   "codigo": "00869-2026-2031-CD",
+   "camara": "D",
+   "fecha": "2026-11-18",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA TRANSPARENCIA SOBRE EL EJERCICIO Y REEMPLAZO DEL CARGO DE ALCALDE Y PRECISA LA APLICACIÓN DE LA PROHIBICIÓN DE REELECCIÓN INMEDIATA.",
+   "estado": "PRESENTADO",
+   "agenda": "Gestión del Estado y simplificación",
+   "autor": "Cahuaza Mitivire, Oswar Elbis"
+  },
+  {
+   "codigo": "00868-2026-2031-CD",
+   "camara": "D",
+   "fecha": "2026-11-18",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 29719, LEY QUE PROMUEVE LA CONVIVENCIA SIN VIOLENCIA EN LAS INSTITUCIONES EDUCATIVAS PARA FORTALECER LA PREVENCIÓN, ATENCIÓN, SEGUIMIENTO Y CONTRARRESTAR LA VIOLENCIA COMO EL ACOSO ESCOLAR.",
+   "estado": "PRESENTADO",
+   "agenda": "Capital humano: educación y salud",
+   "autor": "Cahuaza Mitivire, Oswar Elbis"
+  },
+  {
+   "codigo": "00867-2026-2031-CD",
+   "camara": "D",
+   "fecha": "2026-11-18",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE EL SISTEMA NACIONAL DE TRAZABILIDAD Y RECUPERACIÓN DE ARMAS DE FUEGO Y MUNICIONES DE USO CIVIL, FORTALECE SU LOCALIZACIÓN, ENTREGA VOLUNTARIA Y RETIRO DEFINITIVO DE CIRCULACIÓN, Y MODIFICA LA LEY 30299.",
+   "estado": "PRESENTADO",
+   "agenda": "Seguridad y Estado de derecho",
+   "autor": "Zunini Yerren, Ernesto Alonzo"
+  },
+  {
+   "codigo": "00866-2026-2031-CD",
+   "camara": "D",
+   "fecha": "2026-11-18",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE REGULA EL AVISTAMIENTO RESPONSABLE DE CETÁCEOS Y ESTABLECE MEDIDAS PARA SU CONSERVACIÓN EN EL ÁMBITO MARINO.",
+   "estado": "PRESENTADO",
+   "agenda": "Otros",
+   "autor": "Quezada Castro, Geanmarco Antonio"
+  },
+  {
+   "codigo": "00865-2026-2031-CD",
+   "camara": "D",
+   "fecha": "2026-11-18",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROTEGE LA ECONOMÍA FAMILIAR, REDUCE AL 50% EL TOPE DE INTERÉS PARA CRÉDITOS DE CONSUMO Y TARJETAS, Y SANCIONA LA USURA AGRAVADA.",
+   "estado": "PRESENTADO",
+   "agenda": "Inversión, empleo y competitividad",
+   "autor": "Zunini Yerren, Ernesto Alonzo"
+  },
+  {
+   "codigo": "00864-2026-2031-CD",
+   "camara": "D",
+   "fecha": "2026-11-18",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 28094, LEY DE ORGANIZACIONES POLÍTICAS, CON LA FINALIDAD DE INCORPORAR LA INSTRUMENTALIZACIÓN CRIMINAL COMO CAUSAL DE DECLARACIÓN JUDICIAL DE ILEGALIDAD DE LAS ORGANIZACIONES POLÍTICAS",
+   "estado": "PRESENTADO",
+   "agenda": "Seguridad y Estado de derecho",
+   "autor": "Holguin Loaiza, Cesar Augusto"
+  },
+  {
+   "codigo": "00863-2026-2031-CD",
+   "camara": "D",
+   "fecha": "2026-11-18",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE MEDIDAS DE TRANSPARENCIA, EVALUACIÓN Y RESPONSABILIDAD PARA EL USO SEGURO DE LA INTELIGENCIA ARTIFICIAL.",
+   "estado": "PRESENTADO",
+   "agenda": "Seguridad y Estado de derecho",
+   "autor": "Dominguez Herrera, Carlos Alberto"
+  },
+  {
+   "codigo": "00862-2026-2031-CD",
+   "camara": "D",
+   "fecha": "2026-11-18",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA PUBLICIDAD OFICIAL DE NORMAS JURÍDICAS Y LA TRANSFORMACIÓN DIGITAL DE EDITORA PERÚ Y DEL DIARIO OFICIAL EL PERUANO",
+   "estado": "PRESENTADO",
+   "agenda": "Gestión del Estado y simplificación",
+   "autor": "Dominguez Herrera, Carlos Alberto"
+  },
+  {
    "codigo": "00861-2026-2031-CD",
    "camara": "D",
    "fecha": "2026-11-17",
@@ -8600,144 +8777,194 @@
    "camara": "D",
    "fecha": "2026-11-17",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 3 DE LA LEY 31883, LEY QUE PROMUEVE LA VACUNACIÓN CONTRA EL VIRUS DEL PAPILOMA HUMANO (VPH) EN LA NIÑEZ Y ADOLESCENCIA, PARA AMPLIAR LA VACUNACIÓN HASTA LOS 26 AÑOS.",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Capital humano: educación y salud",
-   "autor": "Marquez Huanca, Anali"
+   "autor": "Marquez Huanca, Anali",
+   "com": [
+    5
+   ]
   },
   {
    "codigo": "00854-2026-2031-CD",
    "camara": "D",
    "fecha": "2026-11-17",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY N.º 29973, LEY GENERAL DE LA PERSONA CON DISCAPACIDAD, PARA RECONOCER EL ACOMPAÑAMIENTO INDISPENSABLE Y EXTENDER BENEFICIOS DE ACCESO AL ACOMPAÑANTE.",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Inclusión y protección social",
-   "autor": "Soto Ferrari, Luz Mérida"
+   "autor": "Soto Ferrari, Luz Mérida",
+   "com": [
+    9
+   ]
   },
   {
    "codigo": "00853-2026-2031-CD",
    "camara": "D",
    "fecha": "2026-11-17",
    "titulo": "PROPOSICIÓN LEGISLATIVA DE COMPRAS PÚBLICAS INCLUSIVAS PARA PUEBLOS INDÍGENAS U ORIGINARIOS, PUEBLO AFROPERUANO Y COMUNIDADES CAMPESINAS.",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Inclusión y protección social",
-   "autor": "Soto Ferrari, Luz Mérida"
+   "autor": "Soto Ferrari, Luz Mérida",
+   "com": [
+    2,
+    9
+   ]
   },
   {
    "codigo": "00852-2026-2031-CD",
    "camara": "D",
    "fecha": "2026-11-17",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA PROTECCIÓN DE LA PROPIEDAD TERRITORIAL DE LAS COMUNIDADES CAMPESINAS Y ESTABLECE GARANTÍAS PARA LA FORMALIZACIÓN DE TIERRAS.",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Inversión, empleo y competitividad",
-   "autor": "Palomino Casavilca, Catherin Norma"
+   "autor": "Palomino Casavilca, Catherin Norma",
+   "com": [
+    9
+   ]
   },
   {
    "codigo": "00851-2026-2031-CD",
    "camara": "D",
    "fecha": "2026-11-17",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 26549, LEY DE LOS CENTROS EDUCATIVOS PRIVADOS, PARA GARANTIZAR LA ESTABILIDAD DE LOS PARÁMETROS DIMENSIONALES DE INFRAESTRUCTURA DE LOS LOCALES DE LAS INSTITUCIONES EDUCATIVAS PRIVADAS AUTORIZADAS.",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Infraestructura y conectividad",
-   "autor": "Aranda Vasquez, Christian"
+   "autor": "Aranda Vasquez, Christian",
+   "com": [
+    1
+   ]
   },
   {
    "codigo": "00850-2026-2031-CD",
    "camara": "D",
    "fecha": "2026-11-17",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL INCISO “C” AL ARTÍCULO 183 DEL CÓDIGO PENAL QUE SANCIONA A LOS MEDIOS DE COMUNICACIÓN SOCIAL LAS EXHIBICIONES OBSCENAS Y PORNOGRÁFICAS.",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Seguridad y Estado de derecho",
-   "autor": "Piñán Mamani, Víctor Eduardo"
+   "autor": "Piñán Mamani, Víctor Eduardo",
+   "com": [
+    0
+   ]
   },
   {
    "codigo": "00849-2026-2031-CD",
    "camara": "D",
    "fecha": "2026-11-17",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY N.º 29664, LEY QUE CREA EL SISTEMA NACIONAL DE GESTIÓN DEL RIESGO DE DESASTRES (SINAGERD), PARA FORTALECER LA ATENCIÓN Y EL SEGUIMIENTO DE LOS PUNTOS CRÍTICOS ANTE EL RIESGO DE INUNDACIONES Y DESBORDAMIENTOS.",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Ambiente y gestión de riesgos",
-   "autor": "Yarrow Lumbreras, Norma Martina"
+   "autor": "Yarrow Lumbreras, Norma Martina",
+   "com": [
+    7
+   ]
   },
   {
    "codigo": "00848-2026-2031-CD",
    "camara": "D",
    "fecha": "2026-11-17",
    "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES N° 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 06758/2023-CR). PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL ARTÍCULO 151-B AL CÓDIGO PENAL, TIPIFICANDO EL DELITO DE AMENAZA TELEFÓNICA.",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Actualización (periodo anterior)",
-   "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN"
+   "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
+   "com": [
+    0
+   ]
   },
   {
    "codigo": "00847-2026-2031-CD",
    "camara": "D",
    "fecha": "2026-11-17",
    "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES N° 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 06794/2023-CR). PROPOSICIÓN LEGISLATIVA QUE GARANTIZA LA IGUALDAD DE DERECHO DEL PADRE O MADRE A NO REVELAR LA IDENTIDAD DEL OTRO Y CREA EL REGISTRO RESERVADO DE IDENTIDAD DE PADRES BIOLÓGICOS NO REVELADOS.",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Actualización (periodo anterior)",
-   "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN"
+   "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
+   "com": [
+    0,
+    3
+   ]
   },
   {
    "codigo": "00846-2026-2031-CD",
    "camara": "D",
    "fecha": "2026-11-17",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL DELITO DE OBSTRUCCIÓN PARENTAL EN EL CÓDIGO PENAL.",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Seguridad y Estado de derecho",
-   "autor": "Martínez Paitán, Paola Isabel"
+   "autor": "Martínez Paitán, Paola Isabel",
+   "com": [
+    0
+   ]
   },
   {
    "codigo": "00845-2026-2031-CD",
    "camara": "D",
    "fecha": "2026-11-17",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE REGULA LA MOVILIDAD INTERUNIVERSITARIA DEFINITIVA DE DOCENTES ORDINARIOS DE UNIVERSIDADES PÚBLICAS.",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Capital humano: educación y salud",
-   "autor": "Cabrera Nieto, Juan César"
+   "autor": "Cabrera Nieto, Juan César",
+   "com": [
+    1
+   ]
   },
   {
    "codigo": "00844-2026-2031-CD",
    "camara": "D",
    "fecha": "2026-11-17",
    "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES N° 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 09144/2024-CR ). PROPOSICIÓN LEGISLATIVA QUE REGULA EL “APAGÓN TELEFÓNICO” DE EQUIPOS MÓVILES EN LOS ESTABLECIMIENTOS PENITENCIARIOS DEL PAÍS.",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Actualización (periodo anterior)",
-   "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN"
+   "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
+   "com": [
+    0
+   ]
   },
   {
    "codigo": "00843-2026-2031-CD",
    "camara": "D",
    "fecha": "2026-11-13",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE A SUSALUD PARA GARANTIZAR LA PROTECCIÓN OPORTUNA Y EFECTIVA DE LOS DERECHOS DE LOS PACIENTES.",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Capital humano: educación y salud",
-   "autor": "Martínez Paitán, Paola Isabel"
+   "autor": "Martínez Paitán, Paola Isabel",
+   "com": [
+    5
+   ]
   },
   {
    "codigo": "00842-2026-2031-CD",
    "camara": "D",
    "fecha": "2026-11-13",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE LA ARTICULACIÓN Y EL FORTALECIMIENTO DE LAS ESCUELAS DE CAMPO Y DE CAPACITACIÓN AGROPECUARIA EN EL PERÚ.",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Inversión, empleo y competitividad",
-   "autor": "Peña Córdova, Olver"
+   "autor": "Peña Córdova, Olver",
+   "com": [
+    10
+   ]
   },
   {
    "codigo": "00841-2026-2031-CD",
    "camara": "D",
    "fecha": "2026-11-13",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE GARANTIZA LA ENTREGA DIRECTA DE LOS RECURSOS DEL CANON A LOS INSTITUTOS Y ESCUELAS DE EDUCACIÓN SUPERIOR PÚBLICOS.",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Capital humano: educación y salud",
-   "autor": "Villanueva Calderón, Juan Amilcar"
+   "autor": "Villanueva Calderón, Juan Amilcar",
+   "com": [
+    2
+   ]
   },
   {
    "codigo": "00840-2026-2031-CD",
    "camara": "D",
    "fecha": "2026-11-13",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL NUMERAL 100.15 AL ARTÍCULO 100 Y EL ARTÍCULO 100-A y 100-B A LA LEY 30220, LEY UNIVERSITARIA, PARA RECONOCER EL DERECHO DEL ESTUDIANTE A CONTRATAR UNA PENSIÓN DE ENSEÑANZA Y TASAS ADMINISTRATIVAS FIJAS EN LAS UNIVERSIDADES PRIVADAS",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Capital humano: educación y salud",
    "autor": "Villanueva Calderón, Juan Amilcar",
+   "com": [
+    1
+   ],
    "riesgo_fiscal": true
   },
   {
@@ -8745,126 +8972,171 @@
    "camara": "D",
    "fecha": "2026-11-13",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA DISPOSICIONES EN LA LEY 30364, LEY PARA PREVENIR, SANCIONAR Y ERRADICAR LA VIOLENCIA CONTRA LAS MUJERES Y LOS INTEGRANTES DEL GRUPO FAMILIAR, PARA PROTEGER A LAS VÍCTIMAS FRENTE A LAS AMENAZAS Y EL MALTRATO CONTRA SUS ANIMALES DE COMPAÑÍA.",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Inclusión y protección social",
-   "autor": "Villanueva Calderón, Juan Amilcar"
+   "autor": "Villanueva Calderón, Juan Amilcar",
+   "com": [
+    0
+   ]
   },
   {
    "codigo": "00838-2026-2031-CD",
    "camara": "D",
    "fecha": "2026-11-13",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 26271, LEY QUE NORMA EL DERECHO A PASES LIBRES Y PASAJES DIFERENCIADOS COBRADOS POR LAS EMPRESAS DE TRANSPORTE URBANO E INTERURBANO DE PASAJEROS, PARA ADECUAR EL RECONOCIMIENTO DEL CARNÉ ESTUDIANTIL Y SUS BENEFICIOS PARA LAS Y LOS ESTUDIANTES DE INSTITUTOS Y ESCUELAS DE EDUCACIÓN SUPERIOR TECNOLÓGICA, PEDAGÓGICA Y DE FORMACIÓN ARTÍSTICA DEL PAÍS.",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Inversión, empleo y competitividad",
-   "autor": "Villanueva Calderón, Juan Amilcar"
+   "autor": "Villanueva Calderón, Juan Amilcar",
+   "com": [
+    6
+   ]
   },
   {
    "codigo": "00837-2026-2031-CD",
    "camara": "D",
    "fecha": "2026-11-13",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA SEGUNDA DISPOSICIÓN COMPLEMENTARIA FINAL DEL DECRETO LEGISLATIVO 1290 PARA PRECISAR LOS CRITERIOS DE PROPORCIONALIDAD Y SIMPLIFICACIÓN ADMINISTRATIVA APLICABLES A LAS MICRO Y PEQUEÑAS EMPRESAS",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Inversión, empleo y competitividad",
-   "autor": "Zegarra Sánchez, Carlos Alberto"
+   "autor": "Zegarra Sánchez, Carlos Alberto",
+   "com": [
+    5,
+    13
+   ]
   },
   {
    "codigo": "00836-2026-2031-CD",
    "camara": "D",
    "fecha": "2026-11-13",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE AGILIZA LA RECUPERACIÓN DE PREDIOS DEL ESTADO PARA EL SERVICIO DE LA CIUDADANÍA.",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Otros",
-   "autor": "Rocha Gallegos, Roxana María"
+   "autor": "Rocha Gallegos, Roxana María",
+   "com": [
+    2
+   ]
   },
   {
    "codigo": "00835-2026-2031-CD",
    "camara": "D",
    "fecha": "2026-11-13",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30220, LEY UNIVERSITARIA, A FIN DE QUE LA ESCUELA ELECTORAL Y DE GOBERNABILIDAD DEL JURADO NACIONAL DE ELECCIONES ORGANICE ESTUDIOS DE POSGRADO Y OTORGUE GRADOS DE MAESTRO Y DOCTOR A NOMBRE DE LA NACIÓN",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Capital humano: educación y salud",
-   "proponente": "Instituciones Públicas Autónomas"
+   "proponente": "Instituciones Públicas Autónomas",
+   "com": [
+    1
+   ]
   },
   {
    "codigo": "00834-2026-2031-CD",
    "camara": "D",
    "fecha": "2026-11-13",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROHÍBE LA ACUICULTURA DE OCTÓPODOS EN EL TERRITORIO NACIONAL Y LA IMPORTACIÓN DE PRODUCTOS PROVENIENTES DE GRANJAS DE OCTÓPODOS.",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Otros",
-   "autor": "Zunini Yerren, Ernesto Alonzo"
+   "autor": "Zunini Yerren, Ernesto Alonzo",
+   "com": [
+    13
+   ]
   },
   {
    "codigo": "00833-2026-2031-CD",
    "camara": "D",
    "fecha": "2026-11-13",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE UN RÉGIMEN ESPECIAL DE AUTORIZACIÓN PARA LA INVESTIGACIÓN CIENTÍFICA, MÉDICA Y FARMACÉUTICA CON SUSTANCIAS SOMETIDAS A FISCALIZACIÓN SANITARIA",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Capital humano: educación y salud",
-   "autor": "Marcelo Salazar, José Miguel"
+   "autor": "Marcelo Salazar, José Miguel",
+   "com": [
+    5
+   ]
   },
   {
    "codigo": "00832-2026-2031-CD",
    "camara": "D",
    "fecha": "2026-11-13",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE EL CUMPLIMIENTO Y SEGUIMIENTO DE LAS OBLIGACIONES DE TRANSFORMACIÓN DIGITAL EN LAS ENTIDADES PÚBLICAS.",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Gestión del Estado y simplificación",
-   "autor": "Yataco Torrealva, José Ricardo"
+   "autor": "Yataco Torrealva, José Ricardo",
+   "com": [
+    4
+   ]
   },
   {
    "codigo": "00831-2026-2031-CD",
    "camara": "D",
    "fecha": "2026-11-13",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA JUSTICIA DE PAZ PARA ACERCAR LA JUSTICIA A LA CIUDADANÍA Y PROMOVER LA SOLUCIÓN PACÍFICA DE CONFLICTOS.",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Seguridad y Estado de derecho",
-   "autor": "Rocha Gallegos, Roxana María"
+   "autor": "Rocha Gallegos, Roxana María",
+   "com": [
+    0
+   ]
   },
   {
    "codigo": "00830-2026-2031-CD",
    "camara": "D",
    "fecha": "2026-11-12",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE RECONOCE EL DERECHO AL CUIDADO Y ESTABLECE MEDIDAS DE PROTECCIÓN PARA LAS PERSONAS QUE REQUIEREN CUIDADOS Y PARA SUS PERSONAS CUIDADORAS.",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Inclusión y protección social",
-   "autor": "Fernández Gonzalez, Svieta Valia"
+   "autor": "Fernández Gonzalez, Svieta Valia",
+   "com": [
+    3
+   ]
   },
   {
    "codigo": "00829-2026-2031-CD",
    "camara": "D",
    "fecha": "2026-11-12",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE CREA EL FONDO SOBERANO DE RIQUEZA DEL PERÚ Y REGULA EL AHORRO FISCAL NACIONAL, EL AHORRO DE BONANZA EXTRACTIVA Y LA GESTIÓN Y RENTABILIZACIÓN DE ACTIVOS PÚBLICOS.",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Finanzas públicas y presupuesto",
-   "autor": "Marcelo Salazar, José Miguel"
+   "autor": "Marcelo Salazar, José Miguel",
+   "com": [
+    2
+   ]
   },
   {
    "codigo": "00828-2026-2031-CD",
    "camara": "D",
    "fecha": "2026-11-12",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE EL CIERRE DE BRECHAS DE CONECTIVIDAD DIGITAL EN LAS INSTITUCIONES EDUCATIVAS PÚBLICAS DE ZONAS ALTOANDINAS Y AMAZÓNICAS DEL PERÚ.",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Infraestructura y conectividad",
-   "autor": "Hancco Hancco, Dina Irene"
+   "autor": "Hancco Hancco, Dina Irene",
+   "com": [
+    1,
+    6
+   ]
   },
   {
    "codigo": "00827-2026-2031-CD",
    "camara": "D",
    "fecha": "2026-11-11",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 44 DE LA LEY 31557, LEY QUE REGULA LA EXPLOTACIÓN DE LOS JUEGOS A DISTANCIA Y APUESTAS DEPORTIVAS A DISTANCIA, PARA INCORPORAR LA INFRAESTRUCTURA TURÍSTICA ENTRE LOS DESTINOS DE LOS RECURSOS DEL IMPUESTO",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Finanzas públicas y presupuesto",
-   "autor": "Aranda Vasquez, Christian"
+   "autor": "Aranda Vasquez, Christian",
+   "com": [
+    2
+   ]
   },
   {
    "codigo": "00826-2026-2031-CD",
    "camara": "D",
    "fecha": "2026-11-11",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE AUTORIZA, POR ÚNICA VEZ, EL NOMBRAMIENTO EXCEPCIONAL DE DOCENTES APROBADOS EN LOS CONCURSOS DE INGRESO A LA CARRERA PÚBLICA MAGISTERIAL DE 2022 Y 2024.",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Capital humano: educación y salud",
    "autor": "Hancco Hancco, Dina Irene",
+   "com": [
+    1,
+    2
+   ],
    "riesgo_fiscal": true
   },
   {
@@ -8872,18 +9144,24 @@
    "camara": "D",
    "fecha": "2026-11-11",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA PROTECCIÓN DE NIÑAS, NIÑOS Y ADOLESCENTES EN LOS MEDIOS DE COMUNICACIÓN Y PLATAFORMAS DIGITALES Y PROMUEVE CONTENIDOS EDUCATIVOS.",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Inclusión y protección social",
-   "autor": "Hancco Hancco, Dina Irene"
+   "autor": "Hancco Hancco, Dina Irene",
+   "com": [
+    14
+   ]
   },
   {
    "codigo": "00824-2026-2031-CD",
    "camara": "D",
    "fecha": "2026-11-11",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA CAPACIDAD DE RESPUESTA Y DE REHABILITACIÓN DE LOS GOBIERNOS REGIONALES Y LOCALES ANTE EL FENÓMENO EL NIÑO.",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Infraestructura y conectividad",
-   "autor": "Quezada Castro, Geanmarco Antonio"
+   "autor": "Quezada Castro, Geanmarco Antonio",
+   "com": [
+    4
+   ]
   },
   {
    "codigo": "00823-2026-2031-CD",
@@ -8906,7 +9184,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Buitron Martínez, Freshman",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -8942,7 +9220,7 @@
    "agenda": "Inclusión y protección social",
    "autor": "Buitron Martínez, Freshman",
    "com": [
-    13
+    14
    ]
   },
   {
@@ -8966,7 +9244,7 @@
    "agenda": "Otros",
    "autor": "Yonz Núñez, Mady Verónica",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -8990,7 +9268,7 @@
    "agenda": "Infraestructura y conectividad",
    "autor": "Baella Malca, José Isidro",
    "com": [
-    6
+    7
    ],
    "riesgo_fiscal": true
   },
@@ -9003,7 +9281,7 @@
    "agenda": "Reforma política e institucional",
    "autor": "Arminta Valencia, Marleny Bibiana",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -9064,7 +9342,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Gonzales Delgado, Gabriel Robertino",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -9076,7 +9354,7 @@
    "agenda": "Capital humano: educación y salud",
    "autor": "Jibaja Ramos, Luis Angel",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -9100,7 +9378,7 @@
    "agenda": "Finanzas públicas y presupuesto",
    "autor": "Revilla Villanueva, César Manuel",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -9125,7 +9403,7 @@
    "autor": "Barbaran Reyes, Rosangella Andrea",
    "com": [
     0,
-    6
+    7
    ]
   },
   {
@@ -9161,7 +9439,7 @@
    "agenda": "Finanzas públicas y presupuesto",
    "proponente": "PODER EJECUTIVO",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -9245,7 +9523,7 @@
    "agenda": "Reforma política e institucional",
    "autor": "Silupu Inga, María Luisa",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -9257,7 +9535,7 @@
    "agenda": "Otros",
    "autor": "Meneses Crispin, Angel Renato",
    "com": [
-    13
+    14
    ]
   },
   {
@@ -9269,7 +9547,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Fernández Gonzalez, Svieta Valia",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -9281,7 +9559,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "proponente": "PODER EJECUTIVO",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -9317,7 +9595,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Marquez Huanca, Anali",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -9329,7 +9607,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Rocha Gallegos, Roxana María",
    "com": [
-    14
+    13
    ]
   },
   {
@@ -9365,7 +9643,7 @@
    "agenda": "Capital humano: educación y salud",
    "autor": "Marquez Huanca, Anali",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -9401,7 +9679,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Tapullima Insapillo, Jacqueline Viviana",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -9425,7 +9703,7 @@
    "agenda": "Otros",
    "autor": "Muedas Balbiese, Cesar Augusto",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -9437,7 +9715,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Zegarra Sánchez, Carlos Alberto",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -9461,7 +9739,7 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "Defensoría del Pueblo",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -9504,8 +9782,8 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "Defensoría del Pueblo",
    "com": [
-    2,
-    13
+    3,
+    14
    ]
   },
   {
@@ -9629,7 +9907,7 @@
    "agenda": "Reforma política e institucional",
    "autor": "Marquez Huanca, Anali",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -9653,7 +9931,7 @@
    "agenda": "Finanzas públicas y presupuesto",
    "autor": "Muedas Balbiese, Cesar Augusto",
    "com": [
-    3,
+    2,
     4
    ]
   },
@@ -9678,7 +9956,7 @@
    "agenda": "Gestión del Estado y simplificación",
    "autor": "Muedas Balbiese, Cesar Augusto",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -9739,7 +10017,7 @@
    "agenda": "Otros",
    "autor": "Meza Rivera, Flor de Jesús",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -9751,7 +10029,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Guillen Valencia, Héctor",
    "com": [
-    3,
+    2,
     10
    ]
   },
@@ -9800,7 +10078,7 @@
    "agenda": "Infraestructura y conectividad",
    "autor": "Guillen Valencia, Héctor",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -9873,7 +10151,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Muedas Balbiese, Cesar Augusto",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -9885,7 +10163,7 @@
    "agenda": "Capital humano: educación y salud",
    "autor": "Meneses Crispin, Angel Renato",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -9910,7 +10188,7 @@
    "autor": "Guillen Valencia, Héctor",
    "com": [
     0,
-    6
+    7
    ]
   },
   {
@@ -9982,7 +10260,7 @@
    "agenda": "Otros",
    "autor": "Yarrow Lumbreras, Norma Martina",
    "com": [
-    13
+    14
    ]
   },
   {
@@ -10006,7 +10284,7 @@
    "agenda": "Infraestructura y conectividad",
    "autor": "Samanez Gonzales Vigil, Jeenny Cristina",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -10018,7 +10296,7 @@
    "agenda": "Ambiente y gestión de riesgos",
    "autor": "Zunini Yerren, Ernesto Alonzo",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -10030,7 +10308,7 @@
    "agenda": "Finanzas públicas y presupuesto",
    "autor": "Zunini Yerren, Ernesto Alonzo",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -10055,7 +10333,7 @@
    "autor": "Palomino Pacheco, Amalia Emilia",
    "com": [
     1,
-    3
+    2
    ]
   },
   {
@@ -10091,7 +10369,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Huilca Flores, Indira Isabel",
    "com": [
-    3,
+    2,
     8
    ]
   },
@@ -10104,8 +10382,8 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Huilca Flores, Indira Isabel",
    "com": [
-    3,
-    7
+    2,
+    6
    ]
   },
   {
@@ -10117,7 +10395,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Zunini Yerren, Ernesto Alonzo",
    "com": [
-    3,
+    2,
     8
    ]
   },
@@ -10143,7 +10421,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Cabrera Nieto, Juan César",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -10155,7 +10433,7 @@
    "agenda": "Reforma política e institucional",
    "autor": "Muedas Balbiese, Cesar Augusto",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -10225,7 +10503,7 @@
    "agenda": "Otros",
    "autor": "Isla Rojas, Azucena",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -10273,7 +10551,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Gonzales Polar, Edgar Dember",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -10285,7 +10563,7 @@
    "agenda": "Infraestructura y conectividad",
    "autor": "Yonz Núñez, Mady Verónica",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -10309,7 +10587,7 @@
    "agenda": "Reforma política e institucional",
    "autor": "Holguin Loaiza, Cesar Augusto",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -10334,7 +10612,7 @@
    "autor": "Eusebio Padilla, Arturo César",
    "com": [
     4,
-    14
+    13
    ]
   },
   {
@@ -10346,7 +10624,7 @@
    "agenda": "Gestión del Estado y simplificación",
    "autor": "Segura Figueroa, Gustavo Alexander",
    "com": [
-    6
+    7
    ],
    "riesgo_fiscal": true
   },
@@ -10383,7 +10661,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Pinasco Montenegro, Nary Benvinda",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -10419,7 +10697,7 @@
    "agenda": "Otros",
    "autor": "Bravo Quispe, Aldo Antonio",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -10443,7 +10721,7 @@
    "agenda": "Finanzas públicas y presupuesto",
    "autor": "Bobadilla Galindo, Angel Bruno",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -10479,7 +10757,7 @@
    "agenda": "Capital humano: educación y salud",
    "autor": "Dominguez Herrera, Carlos Alberto",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -10504,7 +10782,7 @@
    "agenda": "Reforma política e institucional",
    "autor": "Guillen Valencia, Héctor",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -10516,7 +10794,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Segura Figueroa, Gustavo Alexander",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -10605,7 +10883,7 @@
    "agenda": "Infraestructura y conectividad",
    "autor": "Chacón De Vettori, Cecilia Isabel",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -10653,7 +10931,7 @@
    "agenda": "Otros",
    "autor": "Manrique Olivera, Bernardino Jair",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -10665,7 +10943,7 @@
    "agenda": "Otros",
    "autor": "Uribe Saenz, Romina Alejandra",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -10689,8 +10967,8 @@
    "agenda": "Infraestructura y conectividad",
    "autor": "Piñán Mamani, Víctor Eduardo",
    "com": [
-    7,
-    13
+    6,
+    14
    ]
   },
   {
@@ -10727,7 +11005,7 @@
    "agenda": "Capital humano: educación y salud",
    "autor": "Huamán Cornejo, Miguel Felix",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -10739,7 +11017,7 @@
    "agenda": "Capital humano: educación y salud",
    "autor": "Huamán Cornejo, Miguel Felix",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -10751,7 +11029,7 @@
    "agenda": "Infraestructura y conectividad",
    "autor": "Perez Quispe, Jessica Sadith",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -10836,7 +11114,7 @@
    "agenda": "Inclusión y protección social",
    "autor": "Huilca Flores, Indira Isabel",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -10896,7 +11174,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Paucara Paxi, Carmela",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -10946,7 +11224,7 @@
    "autor": "Guillen Valencia, Héctor",
    "com": [
     0,
-    6
+    7
    ]
   },
   {
@@ -10958,7 +11236,7 @@
    "agenda": "Reforma política e institucional",
    "autor": "Duarte, Georgina",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -10994,7 +11272,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Krklec Torres, Frank",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -11006,7 +11284,7 @@
    "agenda": "Reforma política e institucional",
    "autor": "Holguin Loaiza, Cesar Augusto",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -11018,7 +11296,7 @@
    "agenda": "Infraestructura y conectividad",
    "autor": "Masco Cáceres, Luis Aurelio",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -11054,7 +11332,7 @@
    "agenda": "Finanzas públicas y presupuesto",
    "autor": "Villanueva Calderón, Juan Amilcar",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -11102,7 +11380,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Holguin Loaiza, Cesar Augusto",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -11126,7 +11404,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Marcelo Salazar, José Miguel",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -11138,7 +11416,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Eusebio Padilla, Arturo César",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -11174,7 +11452,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Yonz Núñez, Mady Verónica",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -11198,7 +11476,7 @@
    "agenda": "Otros",
    "autor": "Yarrow Lumbreras, Norma Martina",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -11232,7 +11510,7 @@
    "agenda": "Reforma política e institucional",
    "autor": "Hancco Hancco, Dina Irene",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -11341,7 +11619,7 @@
    "agenda": "Infraestructura y conectividad",
    "autor": "Andrade Salguero de Alvarez, Gladys Griselda",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -11414,7 +11692,7 @@
    "autor": "Villanueva Calderón, Juan Amilcar",
    "com": [
     0,
-    6
+    7
    ]
   },
   {
@@ -11499,7 +11777,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Buitron Martínez, Freshman",
    "com": [
-    14
+    13
    ]
   },
   {
@@ -11523,7 +11801,7 @@
    "agenda": "Simbólico / declarativo",
    "autor": "De Paz Lancho, Leo Miguel",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -11548,7 +11826,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Bravo Quispe, Aldo Antonio",
    "com": [
-    3,
+    2,
     4
    ]
   },
@@ -11586,7 +11864,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Marquez Huanca, Anali",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -11623,7 +11901,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Barbaran Reyes, Rosangella Andrea",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -11684,7 +11962,7 @@
    "agenda": "Finanzas públicas y presupuesto",
    "autor": "Arminta Valencia, Marleny Bibiana",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -11708,7 +11986,7 @@
    "agenda": "Finanzas públicas y presupuesto",
    "autor": "Arminta Valencia, Marleny Bibiana",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -11720,7 +11998,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Castro Cruz, Javier Alejandro",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -11732,7 +12010,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Figari Mendoza, Pier Paolo",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -11768,7 +12046,7 @@
    "agenda": "Finanzas públicas y presupuesto",
    "autor": "Krklec Torres, Frank",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -11816,7 +12094,7 @@
    "agenda": "Finanzas públicas y presupuesto",
    "autor": "Gatica Vega, Francisco Javier",
    "com": [
-    3
+    2
    ],
    "riesgo_fiscal": true
   },
@@ -11853,7 +12131,7 @@
    "agenda": "Capital humano: educación y salud",
    "autor": "Gamarra Pita, Luzmila María del Carmen",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -11891,7 +12169,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Manrique Olivera, Bernardino Jair",
    "com": [
-    13
+    14
    ]
   },
   {
@@ -11903,7 +12181,7 @@
    "agenda": "Infraestructura y conectividad",
    "autor": "Chacón De Vettori, Cecilia Isabel",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -11941,7 +12219,7 @@
    "agenda": "Inclusión y protección social",
    "autor": "Dodero Jovich, Pierangeli Daniela",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -11953,7 +12231,7 @@
    "agenda": "Reforma política e institucional",
    "autor": "Mendoza Bernedo, Liz Huli",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -12002,7 +12280,7 @@
    "agenda": "Otros",
    "autor": "Camargo Porta, Raúl Jesús",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -12051,7 +12329,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Sulca Castillo, Pilar",
    "com": [
-    3,
+    2,
     10
    ]
   },
@@ -12064,7 +12342,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Sulca Castillo, Pilar",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -12100,7 +12378,7 @@
    "agenda": "Reforma política e institucional",
    "autor": "Marquez Huanca, Anali",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -12125,7 +12403,7 @@
    "autor": "Castro Cruz, Javier Alejandro",
    "com": [
     0,
-    7
+    6
    ]
   },
   {
@@ -12151,7 +12429,7 @@
    "proponente": "Gobiernos Locales",
    "com": [
     0,
-    7
+    6
    ]
   },
   {
@@ -12211,7 +12489,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Zunini Yerren, Ernesto Alonzo",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -12223,7 +12501,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Aranda Vasquez, Christian",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -12235,7 +12513,7 @@
    "agenda": "Finanzas públicas y presupuesto",
    "proponente": "Instituciones Públicas Autónomas",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -12247,7 +12525,7 @@
    "agenda": "Inclusión y protección social",
    "autor": "Muedas Balbiese, Cesar Augusto",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -12309,7 +12587,7 @@
    "autor": "Colchado Huamani, Harvey Julio",
    "com": [
     0,
-    2
+    3
    ]
   },
   {
@@ -12370,7 +12648,7 @@
    "agenda": "Reforma política e institucional",
    "autor": "Duarte, Georgina",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -12394,7 +12672,7 @@
    "agenda": "Inclusión y protección social",
    "autor": "Martínez Paitán, Paola Isabel",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -12406,7 +12684,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Huilca Flores, Indira Isabel",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -12443,7 +12721,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Marquez Huanca, Anali",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -12467,7 +12745,7 @@
    "agenda": "Reforma política e institucional",
    "autor": "Zeballos Aponte, Jorge Arturo",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -12552,7 +12830,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Segura Figueroa, Gustavo Alexander",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -12564,7 +12842,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Camargo Porta, Raúl Jesús",
    "com": [
-    3,
+    2,
     11
    ]
   },
@@ -12577,7 +12855,7 @@
    "agenda": "Finanzas públicas y presupuesto",
    "autor": "Masco Cáceres, Luis Aurelio",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -12614,7 +12892,7 @@
    "agenda": "Otros",
    "autor": "Masco Cáceres, Luis Aurelio",
    "com": [
-    13
+    14
    ],
    "riesgo_fiscal": true
   },
@@ -12627,7 +12905,7 @@
    "agenda": "Infraestructura y conectividad",
    "autor": "Masco Cáceres, Luis Aurelio",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -12689,7 +12967,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Arminta Valencia, Marleny Bibiana",
    "com": [
-    3,
+    2,
     4
    ]
   },
@@ -12702,7 +12980,7 @@
    "agenda": "Finanzas públicas y presupuesto",
    "proponente": "PODER EJECUTIVO",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -12715,7 +12993,7 @@
    "proponente": "PODER EJECUTIVO",
    "com": [
     1,
-    3
+    2
    ],
    "riesgo_fiscal": true
   },
@@ -12728,7 +13006,7 @@
    "agenda": "Infraestructura y conectividad",
    "proponente": "PODER EJECUTIVO",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -12740,7 +13018,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "De Paz Lancho, Leo Miguel",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -12800,7 +13078,7 @@
    "agenda": "Otros",
    "autor": "Krklec Torres, Frank",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -12836,7 +13114,7 @@
    "agenda": "Inclusión y protección social",
    "autor": "Lavado Valdivia, Marino Teofilo",
    "com": [
-    13
+    14
    ]
   },
   {
@@ -12869,7 +13147,7 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "Poder Judicial",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -12927,7 +13205,7 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "Poder Judicial",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -12963,7 +13241,7 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "Poder Judicial",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -12987,7 +13265,7 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "Poder Judicial",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -13114,7 +13392,7 @@
    "agenda": "Capital humano: educación y salud",
    "autor": "García Huby, Fernando Alberto",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -13175,7 +13453,7 @@
    "agenda": "Finanzas públicas y presupuesto",
    "autor": "Palomino Casavilca, Catherin Norma",
    "com": [
-    3
+    2
    ],
    "riesgo_fiscal": true
   },
@@ -13188,7 +13466,7 @@
    "agenda": "Inclusión y protección social",
    "autor": "Chipana Condori, Graciela",
    "com": [
-    6
+    7
    ],
    "riesgo_fiscal": true
   },
@@ -13201,7 +13479,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Palomino Casavilca, Catherin Norma",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -13213,7 +13491,7 @@
    "agenda": "Reforma política e institucional",
    "autor": "Fernández Gonzalez, Svieta Valia",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -13250,7 +13528,7 @@
    "agenda": "Otros",
    "autor": "Holguin Aguirre, James Arturo",
    "com": [
-    3,
+    2,
     11
    ]
   },
@@ -13287,7 +13565,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Hirache Pizarro, Gloria Charito",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -13311,7 +13589,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Marquez Huanca, Anali",
    "com": [
-    3,
+    2,
     11
    ]
   },
@@ -13336,7 +13614,7 @@
    "agenda": "Infraestructura y conectividad",
    "autor": "Marquez Huanca, Anali",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -13360,7 +13638,7 @@
    "agenda": "Reforma política e institucional",
    "autor": "Manrique Olivera, Bernardino Jair",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -13384,7 +13662,7 @@
    "agenda": "Inclusión y protección social",
    "autor": "Marquez Huanca, Anali",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -13421,7 +13699,7 @@
    "agenda": "Otros",
    "autor": "Alvaron de la Cruz, Edgar Adrián",
    "com": [
-    3,
+    2,
     11
    ]
   },
@@ -13435,7 +13713,7 @@
    "autor": "De Paz Lancho, Leo Miguel",
    "com": [
     0,
-    6
+    7
    ]
   },
   {
@@ -13483,7 +13761,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Piñán Mamani, Víctor Eduardo",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -13544,7 +13822,7 @@
    "agenda": "Finanzas públicas y presupuesto",
    "autor": "Marcelo Salazar, José Miguel",
    "com": [
-    3
+    2
    ],
    "riesgo_fiscal": true
   },
@@ -13581,7 +13859,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Colchado Huamani, Harvey Julio",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -13629,7 +13907,7 @@
    "agenda": "Inclusión y protección social",
    "autor": "Alvaron de la Cruz, Edgar Adrián",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -13679,7 +13957,7 @@
    "autor": "Pérez Mallqui, Julián Luis",
    "com": [
     1,
-    6
+    7
    ]
   },
   {
@@ -13727,7 +14005,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Krklec Torres, Frank",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -13751,7 +14029,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Yalta Sotelo, Carlos Alberto",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -13763,7 +14041,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Dominguez Herrera, Carlos Alberto",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -13775,7 +14053,7 @@
    "agenda": "Capital humano: educación y salud",
    "autor": "Zunini Yerren, Ernesto Alonzo",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -13799,7 +14077,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Zunini Yerren, Ernesto Alonzo",
    "com": [
-    14
+    13
    ]
   },
   {
@@ -13811,7 +14089,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Zunini Yerren, Ernesto Alonzo",
    "com": [
-    13
+    14
    ]
   },
   {
@@ -13823,7 +14101,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Zunini Yerren, Ernesto Alonzo",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -13835,7 +14113,7 @@
    "agenda": "Finanzas públicas y presupuesto",
    "autor": "Zunini Yerren, Ernesto Alonzo",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -13884,7 +14162,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Colchado Huamani, Harvey Julio",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -13935,7 +14213,7 @@
    "autor": "Zunini Yerren, Ernesto Alonzo",
    "com": [
     0,
-    3
+    2
    ]
   },
   {
@@ -13959,7 +14237,7 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "Iniciativas Ciudadanas",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -13995,7 +14273,7 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "Iniciativas Ciudadanas",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -14007,7 +14285,7 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "PODER EJECUTIVO",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -14058,7 +14336,7 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "PODER EJECUTIVO",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -14109,7 +14387,7 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "PODER EJECUTIVO",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -14121,7 +14399,7 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "PODER EJECUTIVO",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -14154,7 +14432,7 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "PODER EJECUTIVO",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -14175,7 +14453,7 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "PODER EJECUTIVO",
    "com": [
-    14
+    13
    ]
   },
   {
@@ -14295,7 +14573,7 @@
    "agenda": "Finanzas públicas y presupuesto",
    "autor": "Yalta Sotelo, Carlos Alberto",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -14317,7 +14595,7 @@
    "proponente": "PODER EJECUTIVO",
    "com": [
     10,
-    14
+    13
    ]
   },
   {
@@ -14410,7 +14688,7 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "PODER EJECUTIVO",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -14577,7 +14855,7 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "PODER EJECUTIVO",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -14589,7 +14867,7 @@
    "agenda": "Finanzas públicas y presupuesto",
    "autor": "Pérez Mallqui, Julián Luis",
    "com": [
-    3,
+    2,
     10
    ]
   },
@@ -14706,7 +14984,7 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "PODER EJECUTIVO",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -14740,7 +15018,7 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "PODER EJECUTIVO",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -14863,7 +15141,7 @@
    "proponente": "PODER EJECUTIVO",
    "com": [
     4,
-    7
+    6
    ]
   },
   {
@@ -14906,7 +15184,7 @@
    "agenda": "Infraestructura y conectividad",
    "autor": "Sonco Villanueva, Helard Bladimir",
    "com": [
-    7
+    6
    ],
    "riesgo_fiscal": true
   },
@@ -14970,7 +15248,7 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "PODER EJECUTIVO",
    "com": [
-    7
+    6
    ],
    "riesgo_fiscal": true
   },
@@ -14995,7 +15273,7 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "PODER EJECUTIVO",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -15008,7 +15286,7 @@
    "autor": "Castrejon Fernandez, Segundo Juan",
    "com": [
     1,
-    3
+    2
    ],
    "riesgo_fiscal": true
   },
@@ -15021,7 +15299,7 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "PODER EJECUTIVO",
    "com": [
-    14
+    13
    ]
   },
   {
@@ -15112,7 +15390,7 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "PODER EJECUTIVO",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -15136,7 +15414,7 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "PODER EJECUTIVO",
    "com": [
-    14
+    13
    ]
   },
   {
@@ -15160,7 +15438,7 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "PODER EJECUTIVO",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -15248,7 +15526,7 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "PODER EJECUTIVO",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -15302,7 +15580,7 @@
    "proponente": "PODER EJECUTIVO",
    "com": [
     5,
-    13
+    14
    ]
   },
   {
@@ -15335,7 +15613,7 @@
    "agenda": "Finanzas públicas y presupuesto",
    "autor": "Fernández Gonzalez, Svieta Valia",
    "com": [
-    3,
+    2,
     11
    ]
   },
@@ -15349,7 +15627,7 @@
    "proponente": "PODER EJECUTIVO",
    "com": [
     0,
-    2
+    3
    ]
   },
   {
@@ -15415,7 +15693,7 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "PODER EJECUTIVO",
    "com": [
-    7,
+    6,
     11
    ]
   },
@@ -15429,7 +15707,7 @@
    "autor": "Alayza Maccera, Rossana Herminia",
    "com": [
     1,
-    3
+    2
    ]
   },
   {
@@ -15441,7 +15719,7 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "PODER EJECUTIVO",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -15559,7 +15837,7 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "PODER EJECUTIVO",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -15627,7 +15905,7 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "PODER EJECUTIVO",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -15667,7 +15945,7 @@
    "proponente": "PODER EJECUTIVO",
    "com": [
     12,
-    14
+    13
    ]
   },
   {
@@ -15723,7 +16001,7 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "PODER EJECUTIVO",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -15744,7 +16022,7 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "PODER EJECUTIVO",
    "com": [
-    14
+    13
    ]
   },
   {
@@ -15792,7 +16070,7 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "PODER EJECUTIVO",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -16019,7 +16297,7 @@
    "agenda": "Ambiente y gestión de riesgos",
    "autor": "Yonz Núñez, Mady Verónica",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -16031,7 +16309,7 @@
    "agenda": "Actualización (periodo anterior)",
    "proponente": "PODER EJECUTIVO",
    "com": [
-    14
+    13
    ]
   },
   {
@@ -16043,7 +16321,7 @@
    "agenda": "Reforma política e institucional",
    "autor": "Dominguez Herrera, Carlos Alberto",
    "com": [
-    2
+    3
    ],
    "riesgo_fiscal": true
   },
@@ -16056,7 +16334,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Yalta Sotelo, Carlos Alberto",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -16068,7 +16346,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Fernández Gonzalez, Svieta Valia",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -16080,7 +16358,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Rocha Gallegos, Roxana María",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -16093,7 +16371,7 @@
    "autor": "Bravo Quispe, Aldo Antonio",
    "com": [
     4,
-    6
+    7
    ]
   },
   {
@@ -16141,8 +16419,8 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Meneses Crispin, Angel Renato",
    "com": [
-    3,
-    14
+    2,
+    13
    ]
   },
   {
@@ -16167,7 +16445,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Baella Malca, José Isidro",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -16191,7 +16469,7 @@
    "agenda": "Finanzas públicas y presupuesto",
    "autor": "Martínez Paitán, Paola Isabel",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -16215,7 +16493,7 @@
    "agenda": "Simbólico / declarativo",
    "autor": "Muedas Balbiese, Cesar Augusto",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -16239,7 +16517,7 @@
    "agenda": "Reforma política e institucional",
    "autor": "Alayza Maccera, Rossana Herminia",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -16300,7 +16578,7 @@
    "agenda": "Inclusión y protección social",
    "autor": "Colchado Huamani, Harvey Julio",
    "com": [
-    6
+    7
    ],
    "riesgo_fiscal": true
   },
@@ -16326,7 +16604,7 @@
    "autor": "Camargo Porta, Raúl Jesús",
    "com": [
     0,
-    6
+    7
    ]
   },
   {
@@ -16350,7 +16628,7 @@
    "agenda": "Finanzas públicas y presupuesto",
    "autor": "Zegarra Sánchez, Carlos Alberto",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -16385,7 +16663,7 @@
    "autor": "Columbus Murata, Diethell",
    "com": [
     5,
-    13
+    14
    ]
   },
   {
@@ -16434,7 +16712,7 @@
    "agenda": "Otros",
    "autor": "Marquez Huanca, Anali",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -16483,7 +16761,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Pérez Alccahuaman, Jesús",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -16495,7 +16773,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Huilca Flores, Indira Isabel",
    "com": [
-    2
+    3
    ],
    "riesgo_fiscal": true
   },
@@ -16533,7 +16811,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Prado Vallejos, Lila Marianela",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -16545,7 +16823,7 @@
    "agenda": "Capital humano: educación y salud",
    "autor": "Buitron Martínez, Freshman",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -16569,7 +16847,7 @@
    "agenda": "Ambiente y gestión de riesgos",
    "autor": "Yonz Núñez, Mady Verónica",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -16593,7 +16871,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Zunini Yerren, Ernesto Alonzo",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -16605,7 +16883,7 @@
    "agenda": "Reforma política e institucional",
    "autor": "Yalta Sotelo, Carlos Alberto",
    "com": [
-    3
+    2
    ],
    "riesgo_fiscal": true
   },
@@ -16618,7 +16896,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Figari Mendoza, Pier Paolo",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -16654,7 +16932,7 @@
    "agenda": "Capital humano: educación y salud",
    "autor": "Baella Malca, José Isidro",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -16666,7 +16944,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Martínez Paitán, Paola Isabel",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -16678,7 +16956,7 @@
    "agenda": "Ambiente y gestión de riesgos",
    "autor": "Benitez Barrionuevo, Jessica",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -16762,7 +17040,7 @@
    "agenda": "Otros",
    "autor": "Zeballos Aponte, Jorge Arturo",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -16775,7 +17053,7 @@
    "autor": "Bazán Calderón, Diego Alonso Fernando",
    "com": [
     1,
-    3
+    2
    ]
   },
   {
@@ -16824,7 +17102,7 @@
    "agenda": "Finanzas públicas y presupuesto",
    "autor": "Villanueva Calderón, Juan Amilcar",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -16836,7 +17114,7 @@
    "agenda": "Ambiente y gestión de riesgos",
    "autor": "Villanueva Calderón, Juan Amilcar",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -16920,7 +17198,7 @@
    "agenda": "Reforma política e institucional",
    "autor": "Piñán Mamani, Víctor Eduardo",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -16944,7 +17222,7 @@
    "agenda": "Reforma política e institucional",
    "autor": "Zunini Yerren, Ernesto Alonzo",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -16956,7 +17234,7 @@
    "agenda": "Reforma política e institucional",
    "autor": "Piñán Mamani, Víctor Eduardo",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -16978,7 +17256,7 @@
    "autor": "Segura Figueroa, Gustavo Alexander",
    "com": [
     4,
-    6
+    7
    ]
   },
   {
@@ -17014,7 +17292,7 @@
    "agenda": "Otros",
    "proponente": "Colegios Profesionales",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -17026,7 +17304,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Peña Córdova, Olver",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -17051,7 +17329,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Bazán Calderón, Diego Alonso Fernando",
    "com": [
-    14
+    13
    ]
   },
   {
@@ -17063,7 +17341,7 @@
    "agenda": "Gestión del Estado y simplificación",
    "autor": "Yalta Sotelo, Carlos Alberto",
    "com": [
-    3,
+    2,
     4
    ]
   },
@@ -17076,7 +17354,7 @@
    "agenda": "Reforma política e institucional",
    "autor": "Holguin Loaiza, Cesar Augusto",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -17088,7 +17366,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Holguin Loaiza, Cesar Augusto",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -17100,7 +17378,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Colchado Huamani, Harvey Julio",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -17112,7 +17390,7 @@
    "agenda": "Reforma política e institucional",
    "autor": "Palomino Casavilca, Catherin Norma",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -17172,7 +17450,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Guillen Valencia, Héctor",
    "com": [
-    2
+    3
    ],
    "riesgo_fiscal": true
   },
@@ -17185,7 +17463,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Guillen Valencia, Héctor",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -17197,7 +17475,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Meneses Crispin, Angel Renato",
    "com": [
-    13
+    14
    ]
   },
   {
@@ -17210,7 +17488,7 @@
    "autor": "Muedas Balbiese, Cesar Augusto",
    "com": [
     4,
-    7
+    6
    ]
   },
   {
@@ -17222,7 +17500,7 @@
    "agenda": "Infraestructura y conectividad",
    "autor": "Columbus Murata, Diethell",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -17270,7 +17548,7 @@
    "agenda": "Reforma política e institucional",
    "autor": "Manrique Olivera, Bernardino Jair",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -17282,7 +17560,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Yalta Sotelo, Carlos Alberto",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -17318,7 +17596,7 @@
    "agenda": "Reforma política e institucional",
    "autor": "Yarrow Lumbreras, Norma Martina",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -17342,7 +17620,7 @@
    "agenda": "Infraestructura y conectividad",
    "autor": "Yarrow Lumbreras, Norma Martina",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -17366,7 +17644,7 @@
    "agenda": "Finanzas públicas y presupuesto",
    "autor": "Gamarra Pita, Luzmila María del Carmen",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -17390,7 +17668,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Marquez Huanca, Anali",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -17403,7 +17681,7 @@
    "autor": "Yonz Núñez, Mady Verónica",
    "com": [
     0,
-    6
+    7
    ]
   },
   {
@@ -17415,7 +17693,7 @@
    "agenda": "Finanzas públicas y presupuesto",
    "proponente": "PODER EJECUTIVO",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -17439,7 +17717,7 @@
    "agenda": "Capital humano: educación y salud",
    "autor": "Palomino Casavilca, Catherin Norma",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -17508,7 +17786,7 @@
    "agenda": "Finanzas públicas y presupuesto",
    "autor": "Yonz Núñez, Mady Verónica",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -17566,7 +17844,7 @@
    "agenda": "Inclusión y protección social",
    "autor": "Zeballos Aponte, Jorge Arturo",
    "com": [
-    3,
+    2,
     9
    ]
   },
@@ -17591,7 +17869,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Yalta Sotelo, Carlos Alberto",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -17603,7 +17881,7 @@
    "agenda": "Simbólico / declarativo",
    "autor": "Holguin Loaiza, Cesar Augusto",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -17627,7 +17905,7 @@
    "agenda": "Finanzas públicas y presupuesto",
    "autor": "Holguin Loaiza, Cesar Augusto",
    "com": [
-    3,
+    2,
     10
    ]
   },
@@ -17640,7 +17918,7 @@
    "agenda": "Capital humano: educación y salud",
    "autor": "Meneses Crispin, Angel Renato",
    "com": [
-    3,
+    2,
     4
    ]
   },
@@ -17689,7 +17967,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Huilca Flores, Indira Isabel",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -17714,7 +17992,7 @@
    "autor": "Zegarra Sánchez, Carlos Alberto",
    "com": [
     1,
-    7
+    6
    ]
   },
   {
@@ -17738,7 +18016,7 @@
    "agenda": "Finanzas públicas y presupuesto",
    "autor": "Bazán Calderón, Diego Alonso Fernando",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -17750,7 +18028,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Takayama Jimenez, Liliana Milagros",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -17774,7 +18052,7 @@
    "agenda": "Gestión del Estado y simplificación",
    "autor": "De Paz Lancho, Leo Miguel",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -17786,8 +18064,8 @@
    "agenda": "Infraestructura y conectividad",
    "autor": "Barbaran Reyes, Rosangella Andrea",
    "com": [
-    3,
-    6
+    2,
+    7
    ]
   },
   {
@@ -17825,7 +18103,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Cipriani Thorne, Javier José María",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -17837,7 +18115,7 @@
    "agenda": "Otros",
    "autor": "Sulca Castillo, Pilar",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -17849,7 +18127,7 @@
    "agenda": "Infraestructura y conectividad",
    "autor": "Espinoza Huillca, Edwin",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -17873,7 +18151,7 @@
    "agenda": "Reforma política e institucional",
    "autor": "Palomino Casavilca, Catherin Norma",
    "com": [
-    2,
+    3,
     4
    ]
   },
@@ -17886,7 +18164,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Muedas Balbiese, Cesar Augusto",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -17898,7 +18176,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Rocha Gallegos, Roxana María",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -17910,7 +18188,7 @@
    "agenda": "Finanzas públicas y presupuesto",
    "proponente": "Gobiernos Locales",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -17969,7 +18247,7 @@
    "estado": "EN COMISIÓN",
    "agenda": "Reforma política e institucional",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -18065,7 +18343,7 @@
    "agenda": "Infraestructura y conectividad",
    "autor": "Rocha Gallegos, Roxana María",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -18089,7 +18367,7 @@
    "agenda": "Otros",
    "autor": "Guevara Ramírez, Jessica Roxana",
    "com": [
-    2,
+    3,
     9
    ]
   },
@@ -18115,7 +18393,7 @@
    "autor": "Zunini Yerren, Ernesto Alonzo",
    "com": [
     0,
-    2
+    3
    ]
   },
   {
@@ -18127,7 +18405,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Segura Figueroa, Gustavo Alexander",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -18139,7 +18417,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Manrique Olivera, Bernardino Jair",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -18151,7 +18429,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Yonz Núñez, Mady Verónica",
    "com": [
-    7
+    6
    ]
   },
   {
@@ -18163,7 +18441,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Fernández Gonzalez, Svieta Valia",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -18187,7 +18465,7 @@
    "agenda": "Reforma política e institucional",
    "autor": "Yarrow Lumbreras, Norma Martina",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -18211,7 +18489,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Yarrow Lumbreras, Norma Martina",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -18271,7 +18549,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Rocha Gallegos, Roxana María",
    "com": [
-    3
+    2
    ]
   },
   {
@@ -18283,7 +18561,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Zunini Yerren, Ernesto Alonzo",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -18319,7 +18597,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Chipana Condori, Graciela",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -18343,7 +18621,7 @@
    "agenda": "Reforma política e institucional",
    "autor": "Muedas Balbiese, Cesar Augusto",
    "com": [
-    2,
+    3,
     4
    ]
   },
@@ -18380,7 +18658,7 @@
    "agenda": "Seguridad y Estado de derecho",
    "autor": "Gonzales Delgado, Gabriel Robertino",
    "com": [
-    6
+    7
    ]
   },
   {
@@ -18429,7 +18707,7 @@
    "autor": "Meneses Crispin, Angel Renato",
    "com": [
     0,
-    7
+    6
    ]
   },
   {
@@ -18466,7 +18744,7 @@
    "autor": "Holguin Loaiza, Cesar Augusto",
    "com": [
     10,
-    13
+    14
    ]
   },
   {
@@ -18479,7 +18757,7 @@
    "autor": "Meneses Crispin, Angel Renato",
    "com": [
     0,
-    7
+    6
    ]
   },
   {
@@ -18540,7 +18818,7 @@
    "agenda": "Reforma política e institucional",
    "autor": "Piñán Mamani, Víctor Eduardo",
    "com": [
-    2
+    3
    ]
   },
   {
@@ -18588,8 +18866,17 @@
    "agenda": "Inversión, empleo y competitividad",
    "autor": "Huilca Flores, Indira Isabel",
    "com": [
-    2
+    3
    ]
+  },
+  {
+   "codigo": "00029-2026-2031-S",
+   "camara": "S",
+   "fecha": "2026-11-18",
+   "titulo": "PROYECTO DE RESOLUCIÓN LEGISLATIVA QUE GARANTIZA EL DERECHO CONSTITUCIONAL DEL VOTO DEL SUPLENTE EN LAS COMISIONES DEL SENADO DE LA REPÚBLICA",
+   "estado": "PRESENTADO",
+   "agenda": "Reforma política e institucional",
+   "autor": "Rodrich Ackerman, Jacques Salomón"
   },
   {
    "codigo": "00028-2026-2031-S",
@@ -18605,45 +18892,60 @@
    "camara": "S",
    "fecha": "2026-11-17",
    "titulo": "PROYECTO DE RESOLUCIÓN LEGISLATIVA DEL SENADO QUE MODIFICA EL ARTÍCULO 41 DEL REGLAMENTO DEL SENADO A FIN DE OPTIMIZAR LA PARTICIPACIÓN DE LOS SENADORES EN LAS COMISIONES ESPECIALES",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Reforma política e institucional",
-   "autor": "Juárez Gallegos, Carmen Patricia"
+   "autor": "Juárez Gallegos, Carmen Patricia",
+   "com": [
+    0
+   ]
   },
   {
    "codigo": "00026-2026-2031-S",
    "camara": "S",
    "fecha": "2026-11-17",
    "titulo": "PROPUESTA LEGISLATIVA REMITIDA POR LA CÁMARA DE DIPUTADOS – PROYECTO DE LEY QUE OTORGA TEMPORALMENTE EL REINTEGRO TRIBUTARIO DEL IMPUESTO GENERAL A LAS VENTAS A LAS EDITORIALES DE LIBROS",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Finanzas públicas y presupuesto",
-   "proponente": "Cámara de Diputados"
+   "proponente": "Cámara de Diputados",
+   "com": [
+    3
+   ]
   },
   {
    "codigo": "00025-2026-2031-S",
    "camara": "S",
    "fecha": "2026-11-17",
    "titulo": "PROPUESTA LEGISLATIVA REMITIDA POR LA CÁMARA DE DIPUTADOS – PROYECTO DE LEY QUE MODIFICA LA LEY 30498, LEY QUE PROMUEVE LA DONACIÓN DE ALIMENTOS Y FACILITA EL TRANSPORTE DE DONACIONES EN SITUACIONES DE DESASTRES NATURALES",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Infraestructura y conectividad",
-   "proponente": "Cámara de Diputados"
+   "proponente": "Cámara de Diputados",
+   "com": [
+    3
+   ]
   },
   {
    "codigo": "00024-2026-2031-S",
    "camara": "S",
    "fecha": "2026-11-17",
    "titulo": "PROPUESTA LEGISLATIVA REMITIDA POR LA CÁMARA DE DIPUTADOS – PROYECTO DE LEY QUE MODIFICA EL DECRETO LEGISLATIVO 1373, DECRETO LEGISLATIVO SOBRE EXTINCIÓN DE DOMINIO, PARA RESTABLECER LA AUTONOMÍA DEL PROCESO Y FORTALECER SUS GARANTÍAS",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Seguridad y Estado de derecho",
-   "proponente": "Cámara de Diputados"
+   "proponente": "Cámara de Diputados",
+   "com": [
+    4
+   ]
   },
   {
    "codigo": "00023-2026-2031-S",
    "camara": "S",
    "fecha": "2026-11-17",
    "titulo": "PROPUESTA LEGISLATIVA REMITIDA POR LA CÁMARA DE DIPUTADOS – PROYECTO DE LEY QUE MODIFICA EL CÓDIGO PENAL, DECRETO LEGISLATIVO 635, Y EL NUEVO CÓDIGO PROCESAL PENAL, DECRETO LEGISLATIVO 957, Y DEROGA LA LEY 32104, LEY QUE PRECISA LA APLICACIÓN DEL PÁRRAFO SEGUNDO DEL ARTÍCULO 84 DEL CÓDIGO PENAL, MODIFICADO POR LA LEY 31751, LEY QUE MODIFICA EL CÓDIGO PENAL Y EL NUEVO CÓDIGO PROCESAL PENAL PARA MODIFICAR LA SUSPENSIÓN DEL PLAZO DE PRESCRIPCIÓN, A FIN DE ESTABLECER UN LÍMITE PROPORCIONAL A LA SUSPENSIÓN DEL PLAZO DE PRESCRIPCIÓN DE LA ACCIÓN PENAL",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "agenda": "Inclusión y protección social",
    "proponente": "Cámara de Diputados",
+   "com": [
+    4
+   ],
    "riesgo_fiscal": true
   },
   {
@@ -18664,7 +18966,7 @@
    "agenda": "Inversión, empleo y competitividad",
    "proponente": "Cámara de Diputados",
    "com": [
-    3
+    5
    ]
   },
   {
@@ -18919,7 +19221,7 @@
    "camara": "C",
    "fecha": "2026-08-28",
    "titulo": "LEY DE ENDEUDAMIENTO DEL SECTOR PÚBLICO PARA EL AÑO FISCAL 2027",
-   "estado": "EN AGENDA DEL PLENO DEL CONGRESO DE LA REPÚBLICA",
+   "estado": "EN DEBATE - PLENO",
    "agenda": "Finanzas públicas y presupuesto",
    "proponente": "PODER EJECUTIVO"
   },
@@ -18928,7 +19230,7 @@
    "camara": "C",
    "fecha": "2026-08-28",
    "titulo": "LEY DE EQUILIBRIO FINANCIERO DEL PRESUPUESTO DEL SECTOR PÚBLICO PARA EL AÑO FISCAL 2027",
-   "estado": "EN AGENDA DEL PLENO DEL CONGRESO DE LA REPÚBLICA",
+   "estado": "EN DEBATE - PLENO",
    "agenda": "Finanzas públicas y presupuesto",
    "proponente": "PODER EJECUTIVO"
   },
@@ -18937,7 +19239,7 @@
    "camara": "C",
    "fecha": "2026-08-28",
    "titulo": "LEY DE PRESUPUESTO DEL SECTOR PÚBLICO PARA EL AÑO FISCAL 2027",
-   "estado": "EN AGENDA DEL PLENO DEL CONGRESO DE LA REPÚBLICA",
+   "estado": "EN DEBATE - PLENO",
    "agenda": "Finanzas públicas y presupuesto",
    "proponente": "PODER EJECUTIVO"
   },
@@ -18952,6 +19254,126 @@
   }
  ],
  "recientes": [
+  {
+   "codigo": "00872-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-11-18",
+   "titulo": "PROPOSICIÓN DE RESOLUCIÓN LEGISLATIVA QUE ACERCA EL CONGRESO A LA CIUDADANÍA MEDIANTE LA CREACIÓN DE LA RED TERRITORIAL DE PUNTOS DE CONTACTO LEGISLATIVO CIUDADANO.",
+   "proponente": "Cámara de Diputados",
+   "agenda": "Reforma política e institucional",
+   "riesgo_fiscal": false
+  },
+  {
+   "codigo": "00871-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-11-18",
+   "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES N° 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 06383/2023-CR)\nPROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27337, CÓDIGO DE LOS NIÑOS Y ADOLESCENTES, PROPONIENDO LA CONCILIACIÓN OBLIGATORIA COMO RESOLUCIÓN PACÍFICA, FRENTE A UNA SEPARACIÓN, EN MATERIA DE ALIMENTOS, TENENCIA Y VISITAS",
+   "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
+   "agenda": "Actualización (periodo anterior)",
+   "riesgo_fiscal": false
+  },
+  {
+   "codigo": "00870-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-11-18",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE LA LEY GENERAL DEL SISTEMA TRADICIONAL DE SEMILLAS NATIVAS.",
+   "proponente": "Cámara de Diputados",
+   "agenda": "Otros",
+   "riesgo_fiscal": false
+  },
+  {
+   "codigo": "00869-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-11-18",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA TRANSPARENCIA SOBRE EL EJERCICIO Y REEMPLAZO DEL CARGO DE ALCALDE Y PRECISA LA APLICACIÓN DE LA PROHIBICIÓN DE REELECCIÓN INMEDIATA.",
+   "proponente": "Cámara de Diputados",
+   "agenda": "Gestión del Estado y simplificación",
+   "riesgo_fiscal": false
+  },
+  {
+   "codigo": "00868-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-11-18",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 29719, LEY QUE PROMUEVE LA CONVIVENCIA SIN VIOLENCIA EN LAS INSTITUCIONES EDUCATIVAS PARA FORTALECER LA PREVENCIÓN, ATENCIÓN, SEGUIMIENTO Y CONTRARRESTAR LA VIOLENCIA COMO EL ACOSO ESCOLAR.",
+   "proponente": "Cámara de Diputados",
+   "agenda": "Capital humano: educación y salud",
+   "riesgo_fiscal": false
+  },
+  {
+   "codigo": "00867-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-11-18",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE EL SISTEMA NACIONAL DE TRAZABILIDAD Y RECUPERACIÓN DE ARMAS DE FUEGO Y MUNICIONES DE USO CIVIL, FORTALECE SU LOCALIZACIÓN, ENTREGA VOLUNTARIA Y RETIRO DEFINITIVO DE CIRCULACIÓN, Y MODIFICA LA LEY 30299.",
+   "proponente": "Cámara de Diputados",
+   "agenda": "Seguridad y Estado de derecho",
+   "riesgo_fiscal": false
+  },
+  {
+   "codigo": "00866-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-11-18",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE REGULA EL AVISTAMIENTO RESPONSABLE DE CETÁCEOS Y ESTABLECE MEDIDAS PARA SU CONSERVACIÓN EN EL ÁMBITO MARINO.",
+   "proponente": "Cámara de Diputados",
+   "agenda": "Otros",
+   "riesgo_fiscal": false
+  },
+  {
+   "codigo": "00865-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-11-18",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROTEGE LA ECONOMÍA FAMILIAR, REDUCE AL 50% EL TOPE DE INTERÉS PARA CRÉDITOS DE CONSUMO Y TARJETAS, Y SANCIONA LA USURA AGRAVADA.",
+   "proponente": "Cámara de Diputados",
+   "agenda": "Inversión, empleo y competitividad",
+   "riesgo_fiscal": false
+  },
+  {
+   "codigo": "00864-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-11-18",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 28094, LEY DE ORGANIZACIONES POLÍTICAS, CON LA FINALIDAD DE INCORPORAR LA INSTRUMENTALIZACIÓN CRIMINAL COMO CAUSAL DE DECLARACIÓN JUDICIAL DE ILEGALIDAD DE LAS ORGANIZACIONES POLÍTICAS",
+   "proponente": "Cámara de Diputados",
+   "agenda": "Seguridad y Estado de derecho",
+   "riesgo_fiscal": false
+  },
+  {
+   "codigo": "00863-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-11-18",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE MEDIDAS DE TRANSPARENCIA, EVALUACIÓN Y RESPONSABILIDAD PARA EL USO SEGURO DE LA INTELIGENCIA ARTIFICIAL.",
+   "proponente": "Cámara de Diputados",
+   "agenda": "Seguridad y Estado de derecho",
+   "riesgo_fiscal": false
+  },
+  {
+   "codigo": "00862-2026-2031-CD",
+   "camara": "D",
+   "estado": "PRESENTADO",
+   "fecha": "2026-11-18",
+   "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA PUBLICIDAD OFICIAL DE NORMAS JURÍDICAS Y LA TRANSFORMACIÓN DIGITAL DE EDITORA PERÚ Y DEL DIARIO OFICIAL EL PERUANO",
+   "proponente": "Cámara de Diputados",
+   "agenda": "Gestión del Estado y simplificación",
+   "riesgo_fiscal": false
+  },
+  {
+   "codigo": "00029-2026-2031-S",
+   "camara": "S",
+   "estado": "PRESENTADO",
+   "fecha": "2026-11-18",
+   "titulo": "PROYECTO DE RESOLUCIÓN LEGISLATIVA QUE GARANTIZA EL DERECHO CONSTITUCIONAL DEL VOTO DEL SUPLENTE EN LAS COMISIONES DEL SENADO DE LA REPÚBLICA",
+   "proponente": "Senado de la República",
+   "agenda": "Reforma política e institucional",
+   "riesgo_fiscal": false
+  },
   {
    "codigo": "00028-2026-2031-S",
    "camara": "S",
@@ -19025,7 +19447,7 @@
   {
    "codigo": "00855-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-11-17",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 3 DE LA LEY 31883, LEY QUE PROMUEVE LA VACUNACIÓN CONTRA EL VIRUS DEL PAPILOMA HUMANO (VPH) EN LA NIÑEZ Y ADOLESCENCIA, PARA AMPLIAR LA VACUNACIÓN HASTA LOS 26 AÑOS.",
    "proponente": "Cámara de Diputados",
@@ -19035,7 +19457,7 @@
   {
    "codigo": "00854-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-11-17",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY N.º 29973, LEY GENERAL DE LA PERSONA CON DISCAPACIDAD, PARA RECONOCER EL ACOMPAÑAMIENTO INDISPENSABLE Y EXTENDER BENEFICIOS DE ACCESO AL ACOMPAÑANTE.",
    "proponente": "Cámara de Diputados",
@@ -19045,7 +19467,7 @@
   {
    "codigo": "00853-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-11-17",
    "titulo": "PROPOSICIÓN LEGISLATIVA DE COMPRAS PÚBLICAS INCLUSIVAS PARA PUEBLOS INDÍGENAS U ORIGINARIOS, PUEBLO AFROPERUANO Y COMUNIDADES CAMPESINAS.",
    "proponente": "Cámara de Diputados",
@@ -19055,7 +19477,7 @@
   {
    "codigo": "00852-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-11-17",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA PROTECCIÓN DE LA PROPIEDAD TERRITORIAL DE LAS COMUNIDADES CAMPESINAS Y ESTABLECE GARANTÍAS PARA LA FORMALIZACIÓN DE TIERRAS.",
    "proponente": "Cámara de Diputados",
@@ -19065,7 +19487,7 @@
   {
    "codigo": "00851-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-11-17",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 26549, LEY DE LOS CENTROS EDUCATIVOS PRIVADOS, PARA GARANTIZAR LA ESTABILIDAD DE LOS PARÁMETROS DIMENSIONALES DE INFRAESTRUCTURA DE LOS LOCALES DE LAS INSTITUCIONES EDUCATIVAS PRIVADAS AUTORIZADAS.",
    "proponente": "Cámara de Diputados",
@@ -19075,7 +19497,7 @@
   {
    "codigo": "00850-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-11-17",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL INCISO “C” AL ARTÍCULO 183 DEL CÓDIGO PENAL QUE SANCIONA A LOS MEDIOS DE COMUNICACIÓN SOCIAL LAS EXHIBICIONES OBSCENAS Y PORNOGRÁFICAS.",
    "proponente": "Cámara de Diputados",
@@ -19085,7 +19507,7 @@
   {
    "codigo": "00849-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-11-17",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY N.º 29664, LEY QUE CREA EL SISTEMA NACIONAL DE GESTIÓN DEL RIESGO DE DESASTRES (SINAGERD), PARA FORTALECER LA ATENCIÓN Y EL SEGUIMIENTO DE LOS PUNTOS CRÍTICOS ANTE EL RIESGO DE INUNDACIONES Y DESBORDAMIENTOS.",
    "proponente": "Cámara de Diputados",
@@ -19095,7 +19517,7 @@
   {
    "codigo": "00848-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-11-17",
    "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES N° 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 06758/2023-CR).  \nPROPOSICIÓN LEGISLATIVA QUE INCORPORA EL ARTÍCULO 151-B AL CÓDIGO PENAL, TIPIFICANDO EL DELITO DE AMENAZA TELEFÓNICA.",
    "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
@@ -19105,7 +19527,7 @@
   {
    "codigo": "00847-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-11-17",
    "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES N° 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 06794/2023-CR).  \nPROPOSICIÓN LEGISLATIVA QUE GARANTIZA LA IGUALDAD DE DERECHO DEL PADRE O MADRE A NO REVELAR LA IDENTIDAD DEL OTRO Y CREA EL REGISTRO RESERVADO DE IDENTIDAD DE PADRES BIOLÓGICOS NO REVELADOS.",
    "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
@@ -19115,7 +19537,7 @@
   {
    "codigo": "00846-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-11-17",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL DELITO DE OBSTRUCCIÓN PARENTAL EN EL CÓDIGO PENAL.",
    "proponente": "Cámara de Diputados",
@@ -19125,7 +19547,7 @@
   {
    "codigo": "00845-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-11-17",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE REGULA LA MOVILIDAD INTERUNIVERSITARIA DEFINITIVA DE DOCENTES ORDINARIOS DE UNIVERSIDADES PÚBLICAS.",
    "proponente": "Cámara de Diputados",
@@ -19135,7 +19557,7 @@
   {
    "codigo": "00844-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-11-17",
    "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES N° 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 09144/2024-CR ).  \nPROPOSICIÓN LEGISLATIVA QUE REGULA EL “APAGÓN TELEFÓNICO” DE EQUIPOS MÓVILES EN LOS ESTABLECIMIENTOS PENITENCIARIOS DEL PAÍS.",
    "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
@@ -19145,7 +19567,7 @@
   {
    "codigo": "00027-2026-2031-S",
    "camara": "S",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-11-17",
    "titulo": "PROYECTO DE RESOLUCIÓN LEGISLATIVA DEL SENADO QUE MODIFICA EL ARTÍCULO 41 DEL REGLAMENTO DEL SENADO A FIN DE OPTIMIZAR LA PARTICIPACIÓN DE LOS SENADORES EN LAS COMISIONES ESPECIALES",
    "proponente": "Senado de la República",
@@ -19155,7 +19577,7 @@
   {
    "codigo": "00026-2026-2031-S",
    "camara": "S",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-11-17",
    "titulo": "PROPUESTA LEGISLATIVA REMITIDA POR LA CÁMARA DE DIPUTADOS – PROYECTO DE LEY QUE OTORGA TEMPORALMENTE EL REINTEGRO TRIBUTARIO DEL IMPUESTO GENERAL A LAS VENTAS A LAS EDITORIALES DE LIBROS",
    "proponente": "Cámara de Diputados",
@@ -19165,7 +19587,7 @@
   {
    "codigo": "00025-2026-2031-S",
    "camara": "S",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-11-17",
    "titulo": "PROPUESTA LEGISLATIVA REMITIDA POR LA CÁMARA DE DIPUTADOS –  PROYECTO DE LEY QUE MODIFICA LA LEY 30498, LEY QUE PROMUEVE LA DONACIÓN DE ALIMENTOS Y FACILITA EL TRANSPORTE DE DONACIONES EN SITUACIONES DE DESASTRES NATURALES",
    "proponente": "Cámara de Diputados",
@@ -19175,7 +19597,7 @@
   {
    "codigo": "00024-2026-2031-S",
    "camara": "S",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-11-17",
    "titulo": "PROPUESTA LEGISLATIVA REMITIDA POR LA CÁMARA DE DIPUTADOS – PROYECTO DE LEY QUE MODIFICA EL DECRETO LEGISLATIVO 1373, DECRETO LEGISLATIVO SOBRE EXTINCIÓN DE DOMINIO, PARA RESTABLECER LA AUTONOMÍA DEL PROCESO Y FORTALECER SUS GARANTÍAS",
    "proponente": "Cámara de Diputados",
@@ -19185,7 +19607,7 @@
   {
    "codigo": "00023-2026-2031-S",
    "camara": "S",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-11-17",
    "titulo": "PROPUESTA LEGISLATIVA REMITIDA POR LA CÁMARA DE DIPUTADOS – PROYECTO DE LEY QUE MODIFICA EL CÓDIGO PENAL, DECRETO LEGISLATIVO 635, Y EL NUEVO CÓDIGO PROCESAL PENAL, DECRETO LEGISLATIVO 957, Y DEROGA LA LEY 32104, LEY QUE PRECISA LA APLICACIÓN DEL PÁRRAFO SEGUNDO DEL ARTÍCULO 84 DEL CÓDIGO PENAL, MODIFICADO POR LA LEY 31751, LEY QUE MODIFICA EL CÓDIGO PENAL Y EL NUEVO CÓDIGO PROCESAL PENAL PARA MODIFICAR LA SUSPENSIÓN DEL PLAZO DE PRESCRIPCIÓN, A FIN DE ESTABLECER UN LÍMITE PROPORCIONAL A LA SUSPENSIÓN DEL PLAZO DE PRESCRIPCIÓN DE LA ACCIÓN PENAL",
    "proponente": "Cámara de Diputados",
@@ -19195,7 +19617,7 @@
   {
    "codigo": "00843-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-11-13",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE A SUSALUD PARA GARANTIZAR LA PROTECCIÓN OPORTUNA Y EFECTIVA DE LOS DERECHOS DE LOS PACIENTES.",
    "proponente": "Cámara de Diputados",
@@ -19205,7 +19627,7 @@
   {
    "codigo": "00842-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-11-13",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE LA ARTICULACIÓN Y EL FORTALECIMIENTO DE LAS ESCUELAS DE CAMPO Y DE CAPACITACIÓN AGROPECUARIA EN EL PERÚ.",
    "proponente": "Cámara de Diputados",
@@ -19215,7 +19637,7 @@
   {
    "codigo": "00841-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-11-13",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE GARANTIZA LA ENTREGA DIRECTA DE LOS RECURSOS DEL CANON A LOS INSTITUTOS Y ESCUELAS DE EDUCACIÓN SUPERIOR PÚBLICOS.",
    "proponente": "Cámara de Diputados",
@@ -19225,132 +19647,12 @@
   {
    "codigo": "00840-2026-2031-CD",
    "camara": "D",
-   "estado": "PRESENTADO",
+   "estado": "EN COMISIÓN",
    "fecha": "2026-11-13",
    "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL NUMERAL 100.15 AL ARTÍCULO 100 Y EL ARTÍCULO 100-A y 100-B A LA LEY 30220, LEY UNIVERSITARIA, PARA RECONOCER EL DERECHO DEL ESTUDIANTE A CONTRATAR UNA PENSIÓN DE ENSEÑANZA Y TASAS ADMINISTRATIVAS FIJAS EN LAS UNIVERSIDADES PRIVADAS",
    "proponente": "Cámara de Diputados",
    "agenda": "Capital humano: educación y salud",
    "riesgo_fiscal": true
-  },
-  {
-   "codigo": "00839-2026-2031-CD",
-   "camara": "D",
-   "estado": "PRESENTADO",
-   "fecha": "2026-11-13",
-   "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA DISPOSICIONES EN LA LEY 30364, LEY PARA PREVENIR, SANCIONAR Y ERRADICAR LA VIOLENCIA CONTRA LAS MUJERES Y LOS INTEGRANTES DEL GRUPO FAMILIAR, PARA PROTEGER A LAS VÍCTIMAS FRENTE A LAS AMENAZAS Y EL MALTRATO CONTRA SUS ANIMALES DE COMPAÑÍA.",
-   "proponente": "Cámara de Diputados",
-   "agenda": "Inclusión y protección social",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00838-2026-2031-CD",
-   "camara": "D",
-   "estado": "PRESENTADO",
-   "fecha": "2026-11-13",
-   "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 26271, LEY QUE NORMA EL DERECHO A PASES LIBRES Y PASAJES DIFERENCIADOS COBRADOS POR LAS EMPRESAS DE TRANSPORTE URBANO E INTERURBANO DE PASAJEROS, PARA ADECUAR EL RECONOCIMIENTO DEL CARNÉ ESTUDIANTIL Y SUS BENEFICIOS PARA LAS Y LOS ESTUDIANTES DE INSTITUTOS Y ESCUELAS DE EDUCACIÓN SUPERIOR TECNOLÓGICA, PEDAGÓGICA Y DE FORMACIÓN ARTÍSTICA DEL PAÍS.",
-   "proponente": "Cámara de Diputados",
-   "agenda": "Inversión, empleo y competitividad",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00837-2026-2031-CD",
-   "camara": "D",
-   "estado": "PRESENTADO",
-   "fecha": "2026-11-13",
-   "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA SEGUNDA DISPOSICIÓN COMPLEMENTARIA FINAL DEL DECRETO LEGISLATIVO 1290 PARA PRECISAR LOS CRITERIOS DE PROPORCIONALIDAD Y SIMPLIFICACIÓN ADMINISTRATIVA APLICABLES A LAS MICRO Y PEQUEÑAS EMPRESAS",
-   "proponente": "Cámara de Diputados",
-   "agenda": "Inversión, empleo y competitividad",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00836-2026-2031-CD",
-   "camara": "D",
-   "estado": "PRESENTADO",
-   "fecha": "2026-11-13",
-   "titulo": "PROPOSICIÓN LEGISLATIVA QUE AGILIZA LA RECUPERACIÓN DE PREDIOS DEL ESTADO PARA EL SERVICIO DE LA CIUDADANÍA.",
-   "proponente": "Cámara de Diputados",
-   "agenda": "Otros",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00835-2026-2031-CD",
-   "camara": "D",
-   "estado": "PRESENTADO",
-   "fecha": "2026-11-13",
-   "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30220, LEY UNIVERSITARIA, A FIN DE QUE LA ESCUELA ELECTORAL Y DE GOBERNABILIDAD DEL JURADO NACIONAL DE ELECCIONES ORGANICE ESTUDIOS DE POSGRADO Y OTORGUE GRADOS DE MAESTRO Y DOCTOR A NOMBRE DE LA NACIÓN",
-   "proponente": "Instituciones Públicas Autónomas",
-   "agenda": "Capital humano: educación y salud",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00834-2026-2031-CD",
-   "camara": "D",
-   "estado": "PRESENTADO",
-   "fecha": "2026-11-13",
-   "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROHÍBE LA ACUICULTURA DE OCTÓPODOS EN EL TERRITORIO NACIONAL Y LA IMPORTACIÓN DE PRODUCTOS PROVENIENTES DE GRANJAS DE OCTÓPODOS.",
-   "proponente": "Cámara de Diputados",
-   "agenda": "Otros",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00833-2026-2031-CD",
-   "camara": "D",
-   "estado": "PRESENTADO",
-   "fecha": "2026-11-13",
-   "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE UN RÉGIMEN ESPECIAL DE AUTORIZACIÓN PARA LA INVESTIGACIÓN CIENTÍFICA, MÉDICA Y FARMACÉUTICA CON SUSTANCIAS SOMETIDAS A FISCALIZACIÓN SANITARIA",
-   "proponente": "Cámara de Diputados",
-   "agenda": "Capital humano: educación y salud",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00832-2026-2031-CD",
-   "camara": "D",
-   "estado": "PRESENTADO",
-   "fecha": "2026-11-13",
-   "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE EL CUMPLIMIENTO Y SEGUIMIENTO DE LAS OBLIGACIONES DE TRANSFORMACIÓN DIGITAL EN LAS ENTIDADES PÚBLICAS.",
-   "proponente": "Cámara de Diputados",
-   "agenda": "Gestión del Estado y simplificación",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00831-2026-2031-CD",
-   "camara": "D",
-   "estado": "PRESENTADO",
-   "fecha": "2026-11-13",
-   "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA JUSTICIA DE PAZ PARA ACERCAR LA JUSTICIA A LA CIUDADANÍA Y PROMOVER LA SOLUCIÓN PACÍFICA DE CONFLICTOS.",
-   "proponente": "Cámara de Diputados",
-   "agenda": "Seguridad y Estado de derecho",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00830-2026-2031-CD",
-   "camara": "D",
-   "estado": "PRESENTADO",
-   "fecha": "2026-11-12",
-   "titulo": "PROPOSICIÓN LEGISLATIVA QUE RECONOCE EL DERECHO AL CUIDADO Y ESTABLECE MEDIDAS DE PROTECCIÓN PARA LAS PERSONAS QUE REQUIEREN CUIDADOS Y PARA SUS PERSONAS CUIDADORAS.",
-   "proponente": "Cámara de Diputados",
-   "agenda": "Inclusión y protección social",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00829-2026-2031-CD",
-   "camara": "D",
-   "estado": "PRESENTADO",
-   "fecha": "2026-11-12",
-   "titulo": "PROPOSICIÓN LEGISLATIVA QUE CREA EL FONDO SOBERANO DE RIQUEZA DEL PERÚ Y REGULA EL AHORRO FISCAL NACIONAL, EL AHORRO DE BONANZA EXTRACTIVA Y LA GESTIÓN Y RENTABILIZACIÓN DE ACTIVOS PÚBLICOS.",
-   "proponente": "Cámara de Diputados",
-   "agenda": "Finanzas públicas y presupuesto",
-   "riesgo_fiscal": false
-  },
-  {
-   "codigo": "00828-2026-2031-CD",
-   "camara": "D",
-   "estado": "PRESENTADO",
-   "fecha": "2026-11-12",
-   "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE EL CIERRE DE BRECHAS DE CONECTIVIDAD DIGITAL EN LAS INSTITUCIONES EDUCATIVAS PÚBLICAS DE ZONAS ALTOANDINAS Y AMAZÓNICAS DEL PERÚ.",
-   "proponente": "Cámara de Diputados",
-   "agenda": "Infraestructura y conectividad",
-   "riesgo_fiscal": false
   }
  ]
 }
