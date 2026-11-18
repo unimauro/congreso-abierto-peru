@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generado": "2026-11-17",
+  "generado": "2026-11-18",
   "fuente": "Webs oficiales de la Cámara de Diputados y del Senado (perfil, cargos, informes de representación y de viajes)",
   "nota": "Solo comisiones con estado Activo. Las cámaras no publican agendas diarias ni actas por congresista."
  },
@@ -8,7 +8,7 @@
   "perfiles": 190,
   "con_foto": 190,
   "con_comisiones": 190,
-  "informes_representacion": 531,
+  "informes_representacion": 535,
   "viajes": 4
  },
  "perfiles": [
@@ -3733,6 +3733,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-14",
+     "lugar": "Lima Metropolitana",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/DODERO-JOVICH_14-11-2026.pdf"
+    },
+    {
      "fecha": "2026-11-03",
      "lugar": "Lima Metropolitana",
      "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/DODERO-JOVICH_03-11-2026.pdf"
@@ -6635,6 +6640,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-17",
+     "lugar": "Callao",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/GARCIA-HUBY_17-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-27",
      "lugar": "Callao",
      "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/GARCIA-HUBY_27-10-2026.pdf"
@@ -8218,6 +8228,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-17",
+     "lugar": "Amazonas",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/INFANTES-CASTANEDA_17-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-23",
      "lugar": "Amazonas",
      "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/INFANTES-CASTANEDA_23-10-2026.pdf"
@@ -8279,9 +8294,9 @@
    ],
    "representacion": [
     {
-     "fecha": "2026-11-06",
+     "fecha": "2026-11-17",
      "lugar": "Amazonas",
-     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/CASTRO-GRANDEZ_06-11-2026.pdf"
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/CASTRO-GRANDEZ_17-11-2026.pdf"
     },
     {
      "fecha": "2026-11-03",
@@ -9801,7 +9816,7 @@
    "camara": "S",
    "nombre": "Robles Araujo, Silvana Emperatriz",
    "link": "https://senado.congreso.gob.pe/senador/robles-araujo-silvana-emperatriz/",
-   "foto": "https://senado.congreso.gob.pe/wp-content/uploads/2026/07/Silvana-Emperatriz-Robles-Araujo-300x300.jpg",
+   "foto": "https://senado.congreso.gob.pe/wp-content/uploads/2026/07/srobles-300x300.jpg",
    "comisiones": [
     {
      "organo": "COMISIÓN DE BICAMERAL DE PRESUPUESTO Y CUENTA GENERAL DE LA REPÚBLICA",
@@ -11718,6 +11733,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-13",
+     "lugar": "Lima Metropolitana",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/BONIFAZ-CARMONA_13-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-29",
      "lugar": "Lima Metropolitana",
