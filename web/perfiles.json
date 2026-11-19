@@ -8,7 +8,7 @@
   "perfiles": 190,
   "con_foto": 190,
   "con_comisiones": 190,
-  "informes_representacion": 558,
+  "informes_representacion": 564,
   "viajes": 4
  },
  "perfiles": [
@@ -2406,6 +2406,16 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-10",
+     "lugar": "Lima Provincias",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/SANTANA-VERA_10-11-2026.pdf"
+    },
+    {
+     "fecha": "2026-10-26",
+     "lugar": "Lima Provincias",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/SANTANA-VERA_26-10-2026.pdf"
+    },
     {
      "fecha": "2026-10-14",
      "lugar": "Lima Provincias",
@@ -5909,6 +5919,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-18",
+     "lugar": "Ica",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/ZEGARRA-SANCHEZ_18-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-30",
      "lugar": "Ica",
      "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/ZEGARRA-SANCHEZ_30-10-2026.pdf"
@@ -6424,6 +6439,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-18",
+     "lugar": "Cusco",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/ESPINOZA-HUILLCA_18-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-30",
      "lugar": "Cusco",
@@ -7591,6 +7611,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-18",
+     "lugar": "Arequipa",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/ARMINTA-VALENCIA_18-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-22",
      "lugar": "Arequipa",
      "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/ARMINTA-VALENCIA_22-10-2026.pdf"
@@ -8649,9 +8674,9 @@
    ],
    "representacion": [
     {
-     "fecha": "2026-11-17",
+     "fecha": "2026-11-19",
      "lugar": "Lima Metropolitana",
-     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/CALISTO-GIAMPIETRI_17-11-2026.pdf"
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/CALISTRO-GIAMPIETRI_19-11-2026.pdf"
     },
     {
      "fecha": "2026-10-19",
@@ -12451,6 +12476,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-19",
+     "lugar": "Nacional (Distrito Único)",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/LUQUE-IBARRA_19-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-23",
      "lugar": "Nacional (Distrito Único)",
