@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generado": "2026-11-18",
+  "generado": "2026-11-19",
   "fuente": "Webs oficiales de la Cámara de Diputados y del Senado (perfil, cargos, informes de representación y de viajes)",
   "nota": "Solo comisiones con estado Activo. Las cámaras no publican agendas diarias ni actas por congresista."
  },
@@ -8,7 +8,7 @@
   "perfiles": 190,
   "con_foto": 190,
   "con_comisiones": 190,
-  "informes_representacion": 535,
+  "informes_representacion": 558,
   "viajes": 4
  },
  "perfiles": [
@@ -88,6 +88,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-17",
+     "lugar": "Peruanos en el Extranjero",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/ZEBALLOS-APONTE_17-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-28",
      "lugar": "Peruanos en el Extranjero",
@@ -1253,6 +1258,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-17",
+     "lugar": "Piura",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/ALBANIL-CARMONA_17-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-21",
      "lugar": "Piura",
@@ -2769,6 +2779,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-16",
+     "lugar": "LIma Metropolitana",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/MEDINA-STEIN_16-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-05",
      "lugar": "LIma Metropolitana",
      "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/MEDINA-STEIN_05-10-2026.pdf"
@@ -3076,7 +3091,18 @@
      "hasta": "2027-07-26"
     }
    ],
-   "representacion": [],
+   "representacion": [
+    {
+     "fecha": "2026-11-13",
+     "lugar": "Lima Metropolitana",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/HUILCA-FLORES_13-11-2026.pdf"
+    },
+    {
+     "fecha": "2026-11-13",
+     "lugar": "Lima Metropolitana",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/HUILCA-FLORES_13-11-2026-1.pdf"
+    }
+   ],
    "viajes": []
   },
   {
@@ -3362,6 +3388,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-17",
+     "lugar": "Lima Metropolitana",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/BENITEZ-BARRIONUEVO_17-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-23",
      "lugar": "Lima Metropolitana",
@@ -3851,6 +3882,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-16",
+     "lugar": "Lima",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/FIGARI-MENDOZA_16-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-12",
      "lugar": "Lima",
      "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/FIGARI-MENDOZA_12-10-2026.pdf"
@@ -3918,6 +3954,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-17",
+     "lugar": "Lima Metropolitana",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/BARBARAN-REYES_17-11-2026.pdf"
+    },
     {
      "fecha": "2026-11-06",
      "lugar": "Lima Metropolitana",
@@ -4390,6 +4431,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-17",
+     "lugar": "Lima Metropolitana",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/SEGURA-FIGUEROA_17-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-07",
      "lugar": "Lima Metropolitana",
@@ -4921,6 +4967,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-17",
+     "lugar": "Lambayeque",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/PALMA-MENDOZA_17-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-26",
      "lugar": "Lambayeque",
      "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/PALMA-MENDOZA_26-10-2026.pdf"
@@ -5028,6 +5079,16 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-17",
+     "lugar": "La Libertad",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/LLAQUE-LINARES_17-11-2026.pdf"
+    },
+    {
+     "fecha": "2026-11-17",
+     "lugar": "La Libertad",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/LLAQUE-LINARES_17-11-2026-1.pdf"
+    },
     {
      "fecha": "2026-09-17",
      "lugar": "La Libertad",
@@ -5546,6 +5607,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-15",
+     "lugar": "Junín",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/PATINO-URCO_15-11-2026.pdf"
+    },
     {
      "fecha": "2026-11-05",
      "lugar": "Junín",
@@ -6145,6 +6211,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-17",
+     "lugar": "Huancavelica",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/GUILLEN-VALENCIA_17-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-23",
      "lugar": "Huancavelica",
@@ -6762,6 +6833,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-17",
+     "lugar": "Callao",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/BOBADILLA-GALINDO_17-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-28",
      "lugar": "Callao",
      "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/BOBADILLA-GALINDO_28-10-2026.pdf"
@@ -7069,6 +7145,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-17",
+     "lugar": "Cajamarca",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/GONZALES-DELGADO_17-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-23",
      "lugar": "Cajamarca",
@@ -8568,6 +8649,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-17",
+     "lugar": "Lima Metropolitana",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/CALISTO-GIAMPIETRI_17-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-19",
      "lugar": "Lima Metropolitana",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/CALISTRO-GIAMPIETRI_19-10-2026.pdf"
@@ -9863,6 +9949,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-17",
+     "lugar": "Nacional (Distrito Único)",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/ROBLES-ARAUJO_17-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-19",
      "lugar": "Nacional (Distrito Único)",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/ROBLES-ARAUJO_19-10-2026.pdf"
@@ -9930,6 +10021,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-18",
+     "lugar": "Nacional (Distrito Único)",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/CASTILLO-TERRONES_18-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-20",
      "lugar": "Nacional (Distrito Único)",
@@ -10062,6 +10158,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-17",
+     "lugar": "Huancavelica",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/YAURI-TUNQUE_17-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-09",
      "lugar": "Huancavelica",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/YAURI-TUNQUE_09-10-2026.pdf"
@@ -10103,6 +10204,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-17",
+     "lugar": "Cusco",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/VERANO-SARAVIA_17-11-2026.pdf"
+    },
     {
      "fecha": "2026-11-13",
      "lugar": "Cusco",
@@ -10506,6 +10612,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-18",
+     "lugar": "Piura",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/SCHAEFER-CUCULIZA_18-11-2026.pdf"
+    },
     {
      "fecha": "2026-11-06",
      "lugar": "Piura",
@@ -11337,6 +11448,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-17",
+     "lugar": "Junín",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/JIMENEZ-HEREDIA_17-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-29",
      "lugar": "Junín",
