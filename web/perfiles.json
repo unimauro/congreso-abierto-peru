@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generado": "2026-11-19",
+  "generado": "2026-11-20",
   "fuente": "Webs oficiales de la Cámara de Diputados y del Senado (perfil, cargos, informes de representación y de viajes)",
   "nota": "Solo comisiones con estado Activo. Las cámaras no publican agendas diarias ni actas por congresista."
  },
@@ -8,7 +8,7 @@
   "perfiles": 190,
   "con_foto": 190,
   "con_comisiones": 190,
-  "informes_representacion": 564,
+  "informes_representacion": 567,
   "viajes": 4
  },
  "perfiles": [
@@ -1868,6 +1868,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-19",
+     "lugar": "Moquegua",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/FERNANDEZ-NINA_19-11-2026.pdf"
+    },
     {
      "fecha": "2026-11-04",
      "lugar": "Moquegua",
@@ -4042,6 +4047,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-19",
+     "lugar": "Lima Metropolitana",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/COLUMBUS-MURATA_19-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-15",
      "lugar": "Lima Metropolitana",
@@ -11804,6 +11814,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-03",
+     "lugar": "Amazonas",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/ARISTA-ARBILDO_03-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-07",
      "lugar": "Amazonas",
