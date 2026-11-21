@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generado": "2026-11-20",
+  "generado": "2026-11-21",
   "fuente": "Webs oficiales de la Cámara de Diputados y del Senado (perfil, cargos, informes de representación y de viajes)",
   "nota": "Solo comisiones con estado Activo. Las cámaras no publican agendas diarias ni actas por congresista."
  },
@@ -8,7 +8,7 @@
   "perfiles": 190,
   "con_foto": 190,
   "con_comisiones": 190,
-  "informes_representacion": 570,
+  "informes_representacion": 571,
   "viajes": 4
  },
  "perfiles": [
@@ -4937,6 +4937,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-19",
+     "lugar": "Lambayeque",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/CASTRO-CRUZ_19-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-26",
      "lugar": "Lambayeque",
