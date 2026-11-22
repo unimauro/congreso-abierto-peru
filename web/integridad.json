@@ -1,8 +1,8 @@
 {
  "meta": {
-  "generado": "2026-11-20",
+  "generado": "2026-11-22",
   "fechas": {
-   "sancionados.csv": "2026-11-14",
+   "sancionados.csv": "2026-11-21",
    "sancionados_multa.csv": "2024-05-18",
    "penalidades.csv": "2021-09-29",
    "Socios.csv": "2021-09-29",
@@ -14,7 +14,7 @@
   "nota": "Las coincidencias de personas son por nombre completo exacto (sin DNI en la planilla): pueden ser homónimos y deben verificarse. Una sanción pasada no impide contratar una vez cumplida."
  },
  "totales": {
-  "proveedores_revisados": 183,
+  "proveedores_revisados": 184,
   "con_sancion": 32,
   "vigentes": 10,
   "contratados_durante_sancion": 0,
@@ -365,6 +365,24 @@
    "durante_sancion": []
   },
   {
+   "ruc": "20340549750",
+   "nombre": "CONQUISTADORES REAL SERVICE S.A.",
+   "procesos_congreso": 2,
+   "monto_congreso": 917112.08,
+   "vigente": false,
+   "sanciones": [
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2020-03-03",
+     "fin": "2023-04-03",
+     "resolucion": "717-2020-TCE-S1",
+     "motivo": "Presentar documentos falsos o adulterados a las Entidades, al Tribunal de Contrataciones del Estado o al Registro Nacional de Proveedores (RNP)."
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  },
+  {
    "ruc": "20100017491",
    "nombre": "TELEFONICA DEL PERU SAA",
    "procesos_congreso": 1,
@@ -535,24 +553,6 @@
      "fin": "2025-07-07",
      "resolucion": "1335-2025-TCE-S1",
      "motivo": "Presentar información inexacta a las Entidades, al Tribunal de Contrataciones del Estado, al Registro Nacional de Proveedores (RNP), al Organismo Supervisor de las Contrataciones del Estado (OSCE) y a la Central de Compras Públicas–Perú Compras."
-    }
-   ],
-   "penalidades": [],
-   "durante_sancion": []
-  },
-  {
-   "ruc": "20340549750",
-   "nombre": "CONQUISTADORES REAL SERVICE S.A.",
-   "procesos_congreso": 1,
-   "monto_congreso": 301469.08,
-   "vigente": false,
-   "sanciones": [
-    {
-     "tipo": "inhabilitación",
-     "inicio": "2020-03-03",
-     "fin": "2023-04-03",
-     "resolucion": "717-2020-TCE-S1",
-     "motivo": "Presentar documentos falsos o adulterados a las Entidades, al Tribunal de Contrataciones del Estado o al Registro Nacional de Proveedores (RNP)."
     }
    ],
    "penalidades": [],
