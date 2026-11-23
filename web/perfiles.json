@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generado": "2026-11-22",
+  "generado": "2026-11-23",
   "fuente": "Webs oficiales de la Cámara de Diputados y del Senado (perfil, cargos, informes de representación y de viajes)",
   "nota": "Solo comisiones con estado Activo. Las cámaras no publican agendas diarias ni actas por congresista."
  },
@@ -8,8 +8,8 @@
   "perfiles": 190,
   "con_foto": 190,
   "con_comisiones": 190,
-  "informes_representacion": 571,
-  "viajes": 4
+  "informes_representacion": 581,
+  "viajes": 5
  },
  "perfiles": [
   {
@@ -904,6 +904,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-20",
+     "lugar": "Puno",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/HANCCO-HANCCO_20-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-26",
      "lugar": "Puno",
@@ -2021,6 +2026,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-20",
+     "lugar": "Madre de Dios",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/POMA-HUAMANI_20-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-29",
      "lugar": "Madre de Dios",
@@ -4472,7 +4482,13 @@
      "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/09/IR_Segura_Figeroa_09_09.pdf"
     }
    ],
-   "viajes": []
+   "viajes": [
+    {
+     "fecha": "2026-11-20",
+     "detalle": "Informe 1 · Ver sumilla · Acuerdo 18-2026-2027/MESA · PDF",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/Informe-viaje-Republica-de-Panama-Nov26.pdf"
+    }
+   ]
   },
   {
    "camara": "D",
@@ -5056,6 +5072,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-19",
+     "lugar": "La Libertad",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/VALQUI-CALDERON_19-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-30",
      "lugar": "La Libertad",
      "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/VALQUI-CALDERON_30-10-2026.pdf"
@@ -5365,6 +5386,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-20",
+     "lugar": "La Libertad",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/LEIVA-BAYLON_20-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-29",
      "lugar": "La Libertad",
@@ -5708,6 +5734,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-20",
+     "lugar": "Junín",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/AGUIRRE-RAMOS_20-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-26",
      "lugar": "Junín",
@@ -6375,6 +6406,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-20",
+     "lugar": "Cusco",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/LOPEZ-LETONA_20-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-29",
      "lugar": "Cusco",
@@ -8520,12 +8556,12 @@
    "representacion": [
     {
      "fecha": "2026-11-09",
-     "lugar": "Peruanos en el exterior",
+     "lugar": "Noviembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/VELASQUEZ-GARCIA_09-11-2026.pdf"
     },
     {
      "fecha": "2026-09-16",
-     "lugar": "Peruanos en el exterior",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Velasquez_Garcia_16_09.pdf"
     }
    ],
@@ -8611,17 +8647,17 @@
    "representacion": [
     {
      "fecha": "2026-10-20",
-     "lugar": "Lima Metropolitana",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/JAUREGUI-DE-AGUAYO_20-10-2026.pdf"
     },
     {
      "fecha": "2026-09-18",
-     "lugar": "Lima Metropolitana",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/JAUREGUI-MARTINEZ_18-09-2026.pdf"
     },
     {
      "fecha": "2026-08-31",
-     "lugar": "Lima Metropolitana",
+     "lugar": "Agosto",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/JAUREGUI-DE-AGUAYO_31-08-2026.pdf"
     }
    ],
@@ -8700,17 +8736,17 @@
    "representacion": [
     {
      "fecha": "2026-11-19",
-     "lugar": "Lima Metropolitana",
+     "lugar": "Noviembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/CALISTRO-GIAMPIETRI_19-11-2026.pdf"
     },
     {
      "fecha": "2026-10-19",
-     "lugar": "Lima Metropolitana",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/CALISTRO-GIAMPIETRI_19-10-2026.pdf"
     },
     {
      "fecha": "2026-09-09",
-     "lugar": "Lima Metropolitana",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Giampietri_Calisto_09_09.pdf"
     }
    ],
@@ -8802,13 +8838,18 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-09",
+     "lugar": "Noviembre",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/MANCHA-PINEDA_09-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-02",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/MANCHA-PINEDA_02-10-2026.pdf"
     },
     {
      "fecha": "2026-08-31",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Agosto",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Mancha_Pineda_31_08.pdf"
     }
    ],
@@ -8866,22 +8907,22 @@
    "representacion": [
     {
      "fecha": "2026-11-12",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Noviembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/ALCORTA-SUERO_12-11-2026.pdf"
     },
     {
      "fecha": "2026-10-26",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/ALCORTA-SUERO_26-10-2026.pdf"
     },
     {
      "fecha": "2026-09-30",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/ALCORTA-SUERO_30-09-2026.pdf"
     },
     {
      "fecha": "2026-09-02",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/07/IR-Alcorta_Suero_Agosto.pdf"
     }
    ],
@@ -8946,22 +8987,22 @@
    "representacion": [
     {
      "fecha": "2026-11-12",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Noviembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/AMPUERO-MEZA_12-11-2026.pdf"
     },
     {
      "fecha": "2026-11-11",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Noviembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/AMPUERO-MEZA_11-11-2026.pdf"
     },
     {
      "fecha": "2026-11-11",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Noviembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/AMPUERO-MEZA_11-11-2026-1.pdf"
     },
     {
      "fecha": "2026-10-29",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/AMPUERO-MEZA_29-10-2026.pdf"
     }
    ],
@@ -9061,17 +9102,17 @@
    "representacion": [
     {
      "fecha": "2026-11-04",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Noviembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/MUNANTE-BARRIOS_04-11-2026.pdf"
     },
     {
      "fecha": "2026-10-20",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/MUNANTE-BARRIOS_20-10-2026.pdf"
     },
     {
      "fecha": "2026-09-07",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/Munante_Alejandro_07_09.pdf"
     }
    ],
@@ -9157,17 +9198,17 @@
    "representacion": [
     {
      "fecha": "2026-10-20",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/VASQUEZ-VILLANUEVA_20-10-2026.pdf"
     },
     {
      "fecha": "2026-10-15",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/VASQUEZ-VILLANUEVA_15-10-2026.pdf"
     },
     {
      "fecha": "2026-10-06",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/VASQUEZ-VILLANUEVA_06-10-2026.pdf"
     }
    ],
@@ -9225,17 +9266,17 @@
    "representacion": [
     {
      "fecha": "2026-10-30",
-     "lugar": "Tacna",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/TICONA-COHAILA_30-10-2026.pdf"
     },
     {
      "fecha": "2026-10-14",
-     "lugar": "Tacna",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/TICONA-COHAILA_14-10-2026.pdf"
     },
     {
      "fecha": "2026-09-10",
-     "lugar": "Tacna",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Ticona_Cohaila-10_09.pdf"
     }
    ],
@@ -9307,7 +9348,7 @@
    "representacion": [
     {
      "fecha": "2026-09-11",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/ASTUCURI-LAURA_11-09-2026.pdf"
     }
    ],
@@ -9372,17 +9413,17 @@
    "representacion": [
     {
      "fecha": "2026-10-30",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/GAGO-RODRIGUEZ_30-10-2026.pdf"
     },
     {
      "fecha": "2026-10-13",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/GAGO-RODRIGUEZ_13-10-2026.pdf"
     },
     {
      "fecha": "2026-09-19",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/GAGO-RODRIGUEZ_19-09-2026-RECTIFICAR-INF.-DE-AGOSTO-2026-MOD.pdf"
     }
    ],
@@ -9432,13 +9473,18 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-20",
+     "lugar": "Noviembre",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/FLORES-CORDOVA_20-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-12",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/FLORES-CORDOVA_12-10-2026.pdf"
     },
     {
      "fecha": "2026-09-22",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/FLORES-CORDOVA_22-09-2026.pdf"
     }
    ],
@@ -9489,17 +9535,17 @@
    "representacion": [
     {
      "fecha": "2026-11-03",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Noviembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/BARRAGAN-COLOMA_03-11-2026.pdf"
     },
     {
      "fecha": "2026-10-12",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/BARRAGAN-COLOMA_12-10-2026.pdf"
     },
     {
      "fecha": "2026-09-07",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/BARRAGAN-COLOMA_07-09-2026.pdf"
     }
    ],
@@ -9564,17 +9610,17 @@
    "representacion": [
     {
      "fecha": "2026-10-28",
-     "lugar": "Puno",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/CHIPANA-CHIPANA_28-10-2026.pdf"
     },
     {
      "fecha": "2026-10-07",
-     "lugar": "Puno",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/CHIPANA-CHIPANA_07-10-2026.pdf"
     },
     {
      "fecha": "2026-09-07",
-     "lugar": "Puno",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Chipana_Chipana_07_08.pdf"
     }
    ],
@@ -9618,12 +9664,12 @@
    "representacion": [
     {
      "fecha": "2026-10-07",
-     "lugar": "Pasco",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/OSORIO-PALPAN_07-10-2026.pdf"
     },
     {
      "fecha": "2026-09-11",
-     "lugar": "Pasco",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Osorio_Palapan_11_09.pdf"
     }
    ],
@@ -9674,17 +9720,17 @@
    "representacion": [
     {
      "fecha": "2026-10-09",
-     "lugar": "Moquegua",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/CUTIPA-CCAMA_09-10-2026.pdf"
     },
     {
      "fecha": "2026-10-09",
-     "lugar": "Moquegua",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/CUTIPA-CCAMA_09-10-2026-1.pdf"
     },
     {
      "fecha": "2026-09-14",
-     "lugar": "Moquegua",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Cutipa_Ccama_14_09.pdf"
     }
    ],
@@ -9756,22 +9802,22 @@
    "representacion": [
     {
      "fecha": "2026-11-16",
-     "lugar": "Madre de Dios",
+     "lugar": "Noviembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/CCAHUANA-AYMACHOQUE_16-11-2026.pdf"
     },
     {
      "fecha": "2026-11-12",
-     "lugar": "Madre de Dios",
+     "lugar": "Noviembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/CCAHUANA-AYMACHOQUE_12-11-2026.pdf"
     },
     {
      "fecha": "2026-11-09",
-     "lugar": "Madre de Dios",
+     "lugar": "Noviembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/CCAHUANA-AYMACHOQUE_09-11-2026.pdf"
     },
     {
      "fecha": "2026-09-18",
-     "lugar": "Madre de Dios",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/CCAHUANA-AYMACHOQUE_18-09-2026.pdf"
     }
    ],
@@ -9822,17 +9868,17 @@
    "representacion": [
     {
      "fecha": "2026-10-30",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/MARAVI-OLARTE_30-10-2026.pdf"
     },
     {
      "fecha": "2026-10-19",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/MARAVI-OLARTE_19-10-2026.pdf"
     },
     {
      "fecha": "2026-09-11",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/Ir_Maravi_Olarte_11_09.pdf"
     }
    ],
@@ -9890,17 +9936,17 @@
    "representacion": [
     {
      "fecha": "2026-11-13",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Noviembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/ARMACANQUI-MORALES_13-11-2026.pdf"
     },
     {
      "fecha": "2026-10-15",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/ARMANCANQUI-MORALES_15-10-2026.pdf"
     },
     {
      "fecha": "2026-09-11",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Armanqui_Morales_11_09.pdf"
     }
    ],
@@ -9937,17 +9983,17 @@
    "representacion": [
     {
      "fecha": "2026-10-30",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/QUITO-SARMIENTO_30-10-2026.pdf"
     },
     {
      "fecha": "2026-10-07",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/QUITO-SARMIENTO_07-10-2026.pdf"
     },
     {
      "fecha": "2026-09-10",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Quito_sarmiento_11_09.pdf"
     }
    ],
@@ -10005,22 +10051,22 @@
    "representacion": [
     {
      "fecha": "2026-11-17",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Noviembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/ROBLES-ARAUJO_17-11-2026.pdf"
     },
     {
      "fecha": "2026-10-19",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/ROBLES-ARAUJO_19-10-2026.pdf"
     },
     {
      "fecha": "2026-10-02",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/ROBLES-ARAUJO_02-10-2026.pdf"
     },
     {
      "fecha": "2026-09-08",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Robles_Araujo_08_09.pdf"
     }
    ],
@@ -10078,17 +10124,17 @@
    "representacion": [
     {
      "fecha": "2026-11-18",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Noviembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/CASTILLO-TERRONES_18-11-2026.pdf"
     },
     {
      "fecha": "2026-10-20",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/CASTILLO-TERRONES_20-10-2026.pdf"
     },
     {
      "fecha": "2026-09-11",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Castillo_Terrones_11_09.pdf"
     }
    ],
@@ -10153,17 +10199,17 @@
    "representacion": [
     {
      "fecha": "2026-10-28",
-     "lugar": "Huánuco",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/ANDRES-LUJAN_28-10-2026.pdf"
     },
     {
      "fecha": "2026-10-15",
-     "lugar": "Huánuco",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/ANDRES-LUJAN_15-10-2026.pdf"
     },
     {
      "fecha": "2026-09-15",
-     "lugar": "Huánuco",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Andres_Lujan_15_09_2026.pdf"
     }
    ],
@@ -10214,17 +10260,17 @@
    "representacion": [
     {
      "fecha": "2026-11-17",
-     "lugar": "Huancavelica",
+     "lugar": "Noviembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/YAURI-TUNQUE_17-11-2026.pdf"
     },
     {
      "fecha": "2026-10-09",
-     "lugar": "Huancavelica",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/YAURI-TUNQUE_09-10-2026.pdf"
     },
     {
      "fecha": "2026-09-10",
-     "lugar": "Huancavelica",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Tunque_Yui_10_09.pdf"
     }
    ],
@@ -10261,22 +10307,22 @@
    "representacion": [
     {
      "fecha": "2026-11-17",
-     "lugar": "Cusco",
+     "lugar": "Noviembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/VERANO-SARAVIA_17-11-2026.pdf"
     },
     {
      "fecha": "2026-11-13",
-     "lugar": "Cusco",
+     "lugar": "Noviembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/VERANO-SARAVIA_13-11-2026.pdf"
     },
     {
      "fecha": "2026-10-05",
-     "lugar": "Cusco",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/VERANO-SARAVIA_05-10-2026.pdf"
     },
     {
      "fecha": "2026-09-10",
-     "lugar": "Cusco",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Verano_Saravia_10_09.pdf"
     }
    ],
@@ -10334,17 +10380,17 @@
    "representacion": [
     {
      "fecha": "2026-10-23",
-     "lugar": "Ayacucho",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/MORALES-RAMIREZ_23-10-2026.pdf"
     },
     {
      "fecha": "2026-10-05",
-     "lugar": "Ayacucho",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/MORALES-RAMIREZ_05-10-2026.pdf"
     },
     {
      "fecha": "2026-09-08",
-     "lugar": "Ayacucho",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Morales-Ramirez_08_09.pdf"
     }
    ],
@@ -10402,17 +10448,17 @@
    "representacion": [
     {
      "fecha": "2026-11-02",
-     "lugar": "Apurímac",
+     "lugar": "Noviembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/RAMOS-HUILLCAS_02-11-2026.pdf"
     },
     {
      "fecha": "2026-10-09",
-     "lugar": "Apurímac",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/RAMOS-HUILLCAS_09-10-2026.pdf"
     },
     {
      "fecha": "2026-09-18",
-     "lugar": "Apurímac",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/RAMOS-HUILLCAS_18-09-2026.pdf"
     }
    ],
@@ -10470,12 +10516,12 @@
    "representacion": [
     {
      "fecha": "2026-10-26",
-     "lugar": "Ucayali",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/VELASQUEZ-PORTOCARRERO_26-10-2026.pdf"
     },
     {
      "fecha": "2026-10-07",
-     "lugar": "Ucayali",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/VELASQUEZ-PORTOCARRERO_07-10-2026.pdf"
     }
    ],
@@ -10540,17 +10586,17 @@
    "representacion": [
     {
      "fecha": "2026-11-10",
-     "lugar": "Tumbes",
+     "lugar": "Noviembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/VENTURA-ANGEL_10-11-2026.pdf"
     },
     {
      "fecha": "2026-10-13",
-     "lugar": "Tumbes",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/VENTURA-ANGEL_13-10-2026.pdf"
     },
     {
      "fecha": "2026-09-01",
-     "lugar": "Tumbes",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Ventura_angel_01_09.pdf"
     }
    ],
@@ -10601,17 +10647,17 @@
    "representacion": [
     {
      "fecha": "2026-10-23",
-     "lugar": "San Martín",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/NORIEGA-REATEGUI_23-10-2026.pdf"
     },
     {
      "fecha": "2026-10-05",
-     "lugar": "San Martín",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/NORIEGA-REATEGUI_05-10-2026.pdf"
     },
     {
      "fecha": "2026-09-11",
-     "lugar": "San Martín",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Noriega_Reategui_11_09.pdf"
     }
    ],
@@ -10669,22 +10715,22 @@
    "representacion": [
     {
      "fecha": "2026-11-18",
-     "lugar": "Piura",
+     "lugar": "Noviembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/SCHAEFER-CUCULIZA_18-11-2026.pdf"
     },
     {
      "fecha": "2026-11-06",
-     "lugar": "Piura",
+     "lugar": "Noviembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/SCHAEFER-CUCULIZA_06-11-2026.pdf"
     },
     {
      "fecha": "2026-10-16",
-     "lugar": "Piura",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/SCHAEFER-CUCULIZA_16-10-2026.pdf"
     },
     {
      "fecha": "2026-10-16",
-     "lugar": "Piura",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/SCHAEFER-CUCULIZA_16-10-2026-1.pdf"
     }
    ],
@@ -10735,12 +10781,12 @@
    "representacion": [
     {
      "fecha": "2026-10-12",
-     "lugar": "Loreto",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/DEL-AGUILA-CARDENAS_12-10-2026.pdf"
     },
     {
      "fecha": "2026-09-11",
-     "lugar": "Loreto",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/Del_Aguila_Cardenas_11_09_2026.pdf"
     }
    ],
@@ -10791,17 +10837,17 @@
    "representacion": [
     {
      "fecha": "2026-11-06",
-     "lugar": "Lima Provincias",
+     "lugar": "Noviembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/MELGAR-VALDEZ_06-11-2026.pdf"
     },
     {
      "fecha": "2026-10-14",
-     "lugar": "Lima Provincias",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/MELGAR-VALDEZ_14-10-2026.pdf"
     },
     {
      "fecha": "2026-09-10",
-     "lugar": "Lima Provincias",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Melgar_Valdez_10_09.pdf"
     }
    ],
@@ -10845,17 +10891,17 @@
    "representacion": [
     {
      "fecha": "2026-10-22",
-     "lugar": "Lima Metropolitana",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/MIRASHIRO-ARASHIRO_22-10-2026.pdf"
     },
     {
      "fecha": "2026-10-01",
-     "lugar": "Lima Metropolitana",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/MIYASHIRO-ARASHIRO_01-10-2026.pdf"
     },
     {
      "fecha": "2026-09-04",
-     "lugar": "Lima Metropolitana",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/Miyashiro_Arashiro_04_09.pdf"
     }
    ],
@@ -10913,17 +10959,17 @@
    "representacion": [
     {
      "fecha": "2026-10-23",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/MESIA-RAMIREZ_23-10-2026.pdf"
     },
     {
      "fecha": "2026-10-07",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/MESIA-RAMIREZ_07-10-2026.pdf"
     },
     {
      "fecha": "2026-09-14",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Mesia_Ramirez_14_09.pdf"
     }
    ],
@@ -11012,17 +11058,17 @@
    "representacion": [
     {
      "fecha": "2026-10-30",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/MOYANO-DELGADO_30-10-2026.pdf"
     },
     {
      "fecha": "2026-10-13",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/MOYANO-DELGADO_13-10-2026.pdf"
     },
     {
      "fecha": "2026-09-17",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/MOYANO-DELGADO_17-09-2026.pdf"
     }
    ],
@@ -11129,12 +11175,12 @@
    "representacion": [
     {
      "fecha": "2026-10-14",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/JUAREZ-GALLEGOS_14-10-2026.pdf"
     },
     {
      "fecha": "2026-09-14",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Juarez_Gallegos_14_09.pdf"
     }
    ],
@@ -11178,17 +11224,17 @@
    "representacion": [
     {
      "fecha": "2026-10-30",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/ROSPIGLIOSI-CAPURRO_30-10-2026-3.pdf"
     },
     {
      "fecha": "2026-09-07",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/ROSPIGLIOSI-CAPURRO_07-09-2026.pdf"
     },
     {
      "fecha": "2026-09-02",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/ROSPIGLIOSI-CAPURRO_02-09-2026.pdf"
     }
    ],
@@ -11224,8 +11270,13 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-05",
+     "lugar": "Noviembre",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/CHAVEZ-COSSIO_05-11-2026.pdf"
+    },
+    {
      "fecha": "2026-09-18",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/CHAVEZ-COSSIO_18-09-2026.pdf"
     }
    ],
@@ -11269,12 +11320,12 @@
    "representacion": [
     {
      "fecha": "2026-10-14",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/TORRES-MORALES_14-10-2026.pdf"
     },
     {
      "fecha": "2026-09-11",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Torres_Morales_11_09.pdf"
     }
    ],
@@ -11325,17 +11376,17 @@
    "representacion": [
     {
      "fecha": "2026-10-12",
-     "lugar": "Lambayeque",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/AGUINAGA-RECUENCO_12-10-2026-1.pdf"
     },
     {
      "fecha": "2026-09-29",
-     "lugar": "Lambayeque",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/AGUINAGA-RECUENCO_29-09-2026-1.pdf"
     },
     {
      "fecha": "2026-08-19",
-     "lugar": "Lambayeque",
+     "lugar": "Agosto",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/AGUINAGA-RECUENCO_19-08-2026.pdf"
     }
    ],
@@ -11442,12 +11493,12 @@
    "representacion": [
     {
      "fecha": "2026-10-15",
-     "lugar": "La Libertad",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/FLORES-RUIZ_15-10-2026.pdf"
     },
     {
      "fecha": "2026-09-01",
-     "lugar": "La Libertad",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/FLORES-RUIZ_01-09-2026.pdf"
     }
    ],
@@ -11505,22 +11556,22 @@
    "representacion": [
     {
      "fecha": "2026-11-17",
-     "lugar": "Junín",
+     "lugar": "Noviembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/JIMENEZ-HEREDIA_17-11-2026.pdf"
     },
     {
      "fecha": "2026-10-29",
-     "lugar": "Junín",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/JIMENEZ-HEREDIA_29-10-2026.pdf"
     },
     {
      "fecha": "2026-10-01",
-     "lugar": "Junín",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/JIMENEZ-HEREDIA_01-10-2026.pdf"
     },
     {
      "fecha": "2026-09-07",
-     "lugar": "Junín",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Jimenez_Herdia_14_09.pdf"
     }
    ],
@@ -11571,17 +11622,17 @@
    "representacion": [
     {
      "fecha": "2026-11-02",
-     "lugar": "Ica",
+     "lugar": "Noviembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/YAMASHIRO-ORE_02-11-2026.pdf"
     },
     {
      "fecha": "2026-10-15",
-     "lugar": "Ica",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/YAMASHIRO-ORE_15-10-2026.pdf"
     },
     {
      "fecha": "2026-09-17",
-     "lugar": "Ica",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/YAMASHIRO-ORE-RAFAEL-GUSTAVO-17-09-2026.pdf"
     }
    ],
@@ -11632,22 +11683,22 @@
    "representacion": [
     {
      "fecha": "2026-11-02",
-     "lugar": "Callao",
+     "lugar": "Noviembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/RODRICH-ACKERMAN_02-11-2026.pdf"
     },
     {
      "fecha": "2026-10-21",
-     "lugar": "Callao",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/RODRICH-ACKERMAN_21-10-2026.pdf"
     },
     {
      "fecha": "2026-10-01",
-     "lugar": "Callao",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/RODRICH-ACKERMAN_01-10-2026.pdf"
     },
     {
      "fecha": "2026-09-02",
-     "lugar": "Callao",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Ackerman_Rodrich_02_09.pdf"
     }
    ],
@@ -11698,17 +11749,17 @@
    "representacion": [
     {
      "fecha": "2026-10-26",
-     "lugar": "Cajamarca",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/TAPIA-BERNAL_26-10-2026.pdf"
     },
     {
      "fecha": "2026-10-19",
-     "lugar": "Cajamarca",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/TAPIA-BERNAL_19-10-2026.pdf"
     },
     {
      "fecha": "2026-09-11",
-     "lugar": "Cajamarca",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Tapia_Bernal_11_09_2026.pdf"
     }
    ],
@@ -11786,13 +11837,18 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-19",
+     "lugar": "Noviembre",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/CHACON-TRUJILLO_19-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-02",
-     "lugar": "Áncash",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/CHACON-TRUJILLO_02-10-2026.pdf"
     },
     {
      "fecha": "2026-09-09",
-     "lugar": "Áncash",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Chacon_Trujillo_09_09.pdf"
     }
    ],
@@ -11836,17 +11892,17 @@
    "representacion": [
     {
      "fecha": "2026-11-03",
-     "lugar": "Amazonas",
+     "lugar": "Noviembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/ARISTA-ARBILDO_03-11-2026.pdf"
     },
     {
      "fecha": "2026-10-07",
-     "lugar": "Amazonas",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/ARISTA-ARBILDO_07-10-2026-INFORMA.pdf"
     },
     {
      "fecha": "2026-09-11",
-     "lugar": "Amazonas",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Arista_Arbilo_11_09.pdf"
     }
    ],
@@ -11911,22 +11967,22 @@
    "representacion": [
     {
      "fecha": "2026-11-13",
-     "lugar": "Lima Metropolitana",
+     "lugar": "Noviembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/BONIFAZ-CARMONA_13-11-2026.pdf"
     },
     {
      "fecha": "2026-10-29",
-     "lugar": "Lima Metropolitana",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/BONIFAZ-CARMONA_29-10-2026.pdf"
     },
     {
      "fecha": "2026-09-18",
-     "lugar": "Lima Metropolitana",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/BONIFAZ-CARMONA_18-09-2026.pdf"
     },
     {
      "fecha": "2026-09-15",
-     "lugar": "Lima Metropolitana",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Bonifaz_Carmona.pdf"
     }
    ],
@@ -11998,12 +12054,12 @@
    "representacion": [
     {
      "fecha": "2026-11-03",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Noviembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/GAVIDIA-RODRIGUEZ_03-11-2026.pdf"
     },
     {
      "fecha": "2026-09-08",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Rodriguez_Gavidia_08_09.pdf"
     }
    ],
@@ -12075,12 +12131,12 @@
    "representacion": [
     {
      "fecha": "2026-10-21",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/CABALLERO-LEON_21-10-2026.pdf"
     },
     {
      "fecha": "2026-09-01",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Caballero_Leon_01_09.pdf"
     }
    ],
@@ -12145,12 +12201,12 @@
    "representacion": [
     {
      "fecha": "2026-11-10",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Noviembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/MATUTE-CHARUN_10-11-2026.pdf"
     },
     {
      "fecha": "2026-09-07",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/MATUTE-CHARUN_07-09-2026.pdf"
     }
    ],
@@ -12215,17 +12271,17 @@
    "representacion": [
     {
      "fecha": "2026-11-13",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Noviembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/ITURREGUI-BYRNE_13-11-2026.pdf"
     },
     {
      "fecha": "2026-09-28",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/ITURREGUI-BYRNE_28-09-2026.pdf"
     },
     {
      "fecha": "2026-09-04",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/07/IR_Patricia_Iturri_04_09.pdf"
     }
    ],
@@ -12363,17 +12419,17 @@
    "representacion": [
     {
      "fecha": "2026-10-26",
-     "lugar": "Arequipa",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/FLORES-SUAREZ_26-10-2026.pdf"
     },
     {
      "fecha": "2026-10-02",
-     "lugar": "Arequipa",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/FLORES-SUAREZ_02-10-2026.pdf"
     },
     {
      "fecha": "2026-09-07",
-     "lugar": "Arequipa",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Flores_Nilson_07_09.pdf"
     }
    ],
@@ -12445,17 +12501,17 @@
    "representacion": [
     {
      "fecha": "2026-10-19",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/VASQUEZ-CHUQUILIN_19-10-2026.pdf"
     },
     {
      "fecha": "2026-10-09",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/VASQUEZ-CHUQUILIN_09-10-2026.pdf"
     },
     {
      "fecha": "2026-09-10",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Vasquez_Chuquilin_10_09.pdf"
     }
    ],
@@ -12513,22 +12569,22 @@
    "representacion": [
     {
      "fecha": "2026-11-19",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Noviembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/LUQUE-IBARRA_19-11-2026.pdf"
     },
     {
      "fecha": "2026-10-23",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/LUQUE-IBARRA_23-10-2026.pdf"
     },
     {
      "fecha": "2026-10-02",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/LUQUE-IBARRA_02-10-2026.pdf"
     },
     {
      "fecha": "2026-09-09",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Ibarra_Luque_09_09.pdf"
     }
    ],
@@ -12607,17 +12663,17 @@
    "representacion": [
     {
      "fecha": "2026-10-26",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/DELGADO-ZEGARRA_26-10-2026.pdf"
     },
     {
      "fecha": "2026-10-02",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/DELGADO-ZEGARRA_02-10-2026.pdf"
     },
     {
      "fecha": "2026-09-07",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Delgado_Zegarra_07_09.pdf"
     }
    ],
@@ -12689,17 +12745,17 @@
    "representacion": [
     {
      "fecha": "2026-11-09",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Noviembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/LOPEZ-CHAU-NAVA_09-11-2026.pdf"
     },
     {
      "fecha": "2026-10-19",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/LOPEZ-CHAU-NAVA_19-10-2026.pdf"
     },
     {
      "fecha": "2026-09-09",
-     "lugar": "Nacional (Distrito Único)",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Lopez_chao_09_09.pdf"
     }
    ],
