@@ -8,7 +8,7 @@
   "perfiles": 190,
   "con_foto": 190,
   "con_comisiones": 190,
-  "informes_representacion": 584,
+  "informes_representacion": 591,
   "viajes": 5
  },
  "perfiles": [
@@ -1342,6 +1342,16 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-23",
+     "lugar": "Piura",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/HUAMAN-CORNEJO_23-11-2026.pdf"
+    },
+    {
+     "fecha": "2026-11-23",
+     "lugar": "Piura",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/HUAMAN-CORNEJO_23-11-2026-1.pdf"
+    },
+    {
      "fecha": "2026-10-14",
      "lugar": "Piura",
      "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/HUAMAN-CORNEJO_14-10-2026.pdf"
@@ -2493,6 +2503,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-20",
+     "lugar": "Lima Provincias",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/EUSEBIO-PADILLA_20-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-22",
      "lugar": "Lima Provincias",
      "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/EUSEBIO-PADILLA_22-10-2026.pdf"
@@ -3192,6 +3207,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-20",
+     "lugar": "Lima Metropolitana",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/COLCHADO-HUAMANI_20-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-30",
      "lugar": "Lima Metropolitana",
@@ -4338,6 +4358,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-23",
+     "lugar": "Lima Metropolitana",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/MARTINEZ-PAITAN_23-11-2026.pdf"
+    },
+    {
      "fecha": "2026-11-06",
      "lugar": "Lima Metropolitana",
      "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/MARTINEZ-PAITAN_06-11-2026.pdf"
@@ -4580,6 +4605,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-23",
+     "lugar": "Lima Metropolitana",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/ROCHA-GALLEGOS_23-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-29",
      "lugar": "Lima Metropolitana",
@@ -9997,18 +10027,23 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-20",
+     "lugar": "Noviembre",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/QUITO-SARMIENTO_20-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-30",
      "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/QUITO-SARMIENTO_30-10-2026.pdf"
     },
     {
      "fecha": "2026-10-07",
-     "lugar": "Octubre",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/QUITO-SARMIENTO_07-10-2026.pdf"
     },
     {
      "fecha": "2026-09-10",
-     "lugar": "Setiembre",
+     "lugar": "Agosto",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Quito_sarmiento_11_09.pdf"
     }
    ],
@@ -12015,13 +12050,6 @@
      "cargo": "Vicepresidente",
      "desde": "2026-08-14",
      "hasta": "2027-07-26"
-    },
-    {
-     "organo": "Partido del Buen Gobierno",
-     "tipo": "Grupo parlamentario",
-     "cargo": "Titular",
-     "desde": "2026-07-27",
-     "hasta": "2031-07-26"
     },
     {
      "organo": "COMISIÓN DE BICAMERAL DE PRESUPUESTO Y CUENTA GENERAL DE LA REPÚBLICA",
