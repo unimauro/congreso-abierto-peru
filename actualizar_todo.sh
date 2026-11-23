@@ -21,6 +21,22 @@ if [ -x ".venv/bin/python3" ]; then
   export PATH="$PWD/.venv/bin:$PATH"
 fi
 
+# Guardia: si una fuente responde a medias (p. ej. el PTE el 2026-11-22 devolvió ~14% de la
+# planilla), el archivo nuevo se achica de golpe. En ese caso se conserva la versión anterior
+# para no publicar datos rotos ni arrastrarlos a los cálculos que dependen de él.
+guardia() {
+  local f
+  for f in "$@"; do
+    git cat-file -e "HEAD:$f" 2>/dev/null && [ -f "$f" ] || continue
+    local antes ahora
+    antes=$(git cat-file -s "HEAD:$f"); ahora=$(wc -c < "$f" | tr -d ' ')
+    if [ "$ahora" -lt $((antes * 6 / 10)) ]; then
+      echo "[!] $f se achicó de $antes a $ahora bytes: fuente incompleta, se conserva la versión anterior"
+      git checkout -- "$f"
+    fi
+  done
+}
+
 echo "=== Refresco total $(date '+%Y-%m-%d %H:%M') ==="
 
 echo "[*] git pull..."
@@ -32,14 +48,17 @@ python3 pipeline/sync_presupuesto_context.py
 
 echo "[*] Personal PTE..."
 ./actualizar_personal.sh
+guardia web/personal.json data/personal_congreso.csv
 
 echo "[*] Movimientos de personal (snapshots en git)..."
 python3 web/build_movimientos.py --fecha "$(date +%Y-%m-%d)"
+guardia web/movimientos.json
 
 # Trayectoria de asesores: cruza movimientos.json con los CSV locales de peru-transparente
 # (PT_DATA, por defecto ~/Repos/peru-transparente/data). Sin esos CSV no hace nada.
 echo "[*] Trayectoria de asesores (PTE histórico, DJ, El Peruano, OCDS)..."
 python3 -m pipeline.scrapers.asesores_historial || echo "[!] asesores falló; se mantiene el asesores.json anterior"
+guardia web/asesores.json
 
 # Pleno: agenda, asistencia y votaciones desde los PDF de cada cámara (OCR con
 # tesseract cuando son escaneos; el texto queda cacheado en data/plenos/).
@@ -78,6 +97,7 @@ def limpio(x):
 a = json.load(sys.stdin); b = json.load(open(sys.argv[1], encoding="utf-8"))
 sys.exit(0 if limpio(a) == limpio(b) else 1)' "$1"
 }
+guardia web/plenos.json web/textos.json web/contratos.json web/visitas.json web/integridad.json
 DATOS="web/movimientos.json web/plenos.json web/contratos.json web/integridad.json web/visitas.json web/textos.json web/asesores.json"
 for f in $DATOS; do
   if ! git diff --quiet -- "$f" 2>/dev/null && solo_fecha "$f"; then git checkout -- "$f"; fi

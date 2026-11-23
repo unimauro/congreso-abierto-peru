@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generado": "2026-11-23T16:37:56+00:00",
+  "generado": "2026-11-23T20:46:11+00:00",
   "fuentes": {
    "pte_historico": {
     "nombre": "Portal de Transparencia Estándar — planillas",
@@ -39,14 +39,15 @@
   "evaluados": 1311,
   "omitidos_nombre_corto": 6,
   "exigen_segunda_senal": 103,
-  "asesores": 250,
-  "con_historial": 250,
+  "asesores": 251,
+  "con_historial": 251,
   "ambiguos": 3,
   "otra_planilla_2026": 27,
   "registros_por_fuente": {
    "PTE": 434,
    "DJ": 51,
-   "OCDS": 1
+   "OCDS": 1,
+   "El Peruano": 1
   }
  },
  "asesores": [
@@ -4770,6 +4771,23 @@
      "desde": "2015-12",
      "hasta": "2019-12",
      "detalle": "CAS · ADMINISTRACION LOCAL DE AGUA ICA"
+    }
+   ],
+   "otra_planilla_2026": false
+  },
+  {
+   "nombre": "FONSECA VELASQUEZ, CARLOS ENRIQUE",
+   "despacho": "Prado Vallejos, Lila Marianela",
+   "camara": "D",
+   "cargo": "ASISTENTE",
+   "historial": [
+    {
+     "fuente": "El Peruano",
+     "entidad": "Programa Nacional de Infraestructura Educativa",
+     "cargo": "Director del Sistema Administrativo III de la Oficina de Comunicaciones",
+     "desde": "2026-10-05",
+     "detalle": "RESOLUCIÓN DIRECTORAL · Designan Director del Sistema Administrativo III de la Oficina de Comunicaciones del Programa Nacional de Infraestructura Educativa",
+     "url": "https://busquedas.elperuano.pe/dispositivo/NL/2561796-1"
     }
    ],
    "otra_planilla_2026": false
