@@ -8,7 +8,7 @@
   "perfiles": 190,
   "con_foto": 190,
   "con_comisiones": 190,
-  "informes_representacion": 581,
+  "informes_representacion": 584,
   "viajes": 5
  },
  "perfiles": [
@@ -6710,6 +6710,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-20",
+     "lugar": "Cusco",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/MARQUEZ-HUANCA_20-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-09",
      "lugar": "Cusco",
      "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/MARQUEZ-HUANCA_09-10-2026.pdf"
@@ -7460,6 +7465,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-20",
+     "lugar": "Ayacucho",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/MANAY-PILLACA_20-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-22",
      "lugar": "Ayacucho",
@@ -8992,17 +9002,17 @@
     },
     {
      "fecha": "2026-11-11",
-     "lugar": "Noviembre",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/AMPUERO-MEZA_11-11-2026.pdf"
     },
     {
      "fecha": "2026-11-11",
-     "lugar": "Noviembre",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/AMPUERO-MEZA_11-11-2026-1.pdf"
     },
     {
      "fecha": "2026-10-29",
-     "lugar": "Octubre",
+     "lugar": "Agosto",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/AMPUERO-MEZA_29-10-2026.pdf"
     }
    ],
@@ -9475,12 +9485,17 @@
     {
      "fecha": "2026-11-20",
      "lugar": "Noviembre",
-     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/FLORES-CORDOVA_20-11-2026.pdf"
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/FLORES-CORDOVA_20-11-2026-1.pdf"
     },
     {
      "fecha": "2026-10-12",
      "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/FLORES-CORDOVA_12-10-2026.pdf"
+    },
+    {
+     "fecha": "2026-10-02",
+     "lugar": "Octubre",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/FLORES-CORDOVA_02-10-2026.pdf"
     },
     {
      "fecha": "2026-09-22",
