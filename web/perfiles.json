@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generado": "2026-11-23",
+  "generado": "2026-11-24",
   "fuente": "Webs oficiales de la Cámara de Diputados y del Senado (perfil, cargos, informes de representación y de viajes)",
   "nota": "Solo comisiones con estado Activo. Las cámaras no publican agendas diarias ni actas por congresista."
  },
@@ -8,7 +8,7 @@
   "perfiles": 190,
   "con_foto": 190,
   "con_comisiones": 190,
-  "informes_representacion": 591,
+  "informes_representacion": 601,
   "viajes": 5
  },
  "perfiles": [
@@ -157,6 +157,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-23",
+     "lugar": "Ucayali",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/CAHUAZA-MITIVIRE_23-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-23",
      "lugar": "Ucayali",
      "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/CAHUAZA-MITIVIRE_23-10-2026.pdf"
@@ -164,12 +169,12 @@
     {
      "fecha": "2026-10-07",
      "lugar": "Ucayali",
-     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/CAHUAZA-MITIVIRE_07-10-2026.pdf"
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/CAHUAZA-MITIVIRE_01-10-2026.pdf"
     },
     {
      "fecha": "2026-10-01",
      "lugar": "Ucayali",
-     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/CAHUAZA-MITIVIRE_01-10-2026.pdf"
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/CAHUAZA-MITIVIRE_07-10-2026.pdf"
     }
    ],
    "viajes": []
@@ -224,6 +229,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-20",
+     "lugar": "Ucayali",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/ABENSUR-PINASCO_20-11-2026.pdf"
+    },
     {
      "fecha": "2026-11-02",
      "lugar": "Ucayali",
@@ -609,6 +619,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-23",
+     "lugar": "San Martín",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/GATICA-VEGA_23-11-2026.pdf"
+    },
     {
      "fecha": "2026-11-04",
      "lugar": "San Martín",
@@ -1555,6 +1570,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-23",
+     "lugar": "Piura",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/PAUCARA-PAXI_23-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-30",
      "lugar": "Piura",
@@ -8962,7 +8982,7 @@
     },
     {
      "fecha": "2026-09-02",
-     "lugar": "Setiembre",
+     "lugar": "Agosto",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/07/IR-Alcorta_Suero_Agosto.pdf"
     }
    ],
@@ -9579,18 +9599,23 @@
    ],
    "representacion": [
     {
-     "fecha": "2026-11-03",
+     "fecha": "2026-11-20",
      "lugar": "Noviembre",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/BARRAGAN-COLOMA_20-11-2026.pdf"
+    },
+    {
+     "fecha": "2026-11-03",
+     "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/BARRAGAN-COLOMA_03-11-2026.pdf"
     },
     {
      "fecha": "2026-10-12",
-     "lugar": "Octubre",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/BARRAGAN-COLOMA_12-10-2026.pdf"
     },
     {
      "fecha": "2026-09-07",
-     "lugar": "Setiembre",
+     "lugar": "Agosto",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/BARRAGAN-COLOMA_07-09-2026.pdf"
     }
    ],
@@ -9708,13 +9733,18 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-19",
+     "lugar": "Noviembre",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/OSORIO-PALPAN_19-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-07",
-     "lugar": "Octubre",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/OSORIO-PALPAN_07-10-2026.pdf"
     },
     {
      "fecha": "2026-09-11",
-     "lugar": "Setiembre",
+     "lugar": "Agosto",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Osorio_Palapan_11_09.pdf"
     }
    ],
@@ -9912,18 +9942,23 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-20",
+     "lugar": "Noviembre",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/MARAVI-OLARTE_20-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-30",
      "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/MARAVI-OLARTE_30-10-2026.pdf"
     },
     {
      "fecha": "2026-10-19",
-     "lugar": "Octubre",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/MARAVI-OLARTE_19-10-2026.pdf"
     },
     {
      "fecha": "2026-09-11",
-     "lugar": "Setiembre",
+     "lugar": "Agosto",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/Ir_Maravi_Olarte_11_09.pdf"
     }
    ],
@@ -10248,18 +10283,23 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-23",
+     "lugar": "Noviembre",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/ANDRES-LUJAN_23-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-28",
      "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/ANDRES-LUJAN_28-10-2026.pdf"
     },
     {
      "fecha": "2026-10-15",
-     "lugar": "Octubre",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/ANDRES-LUJAN_15-10-2026.pdf"
     },
     {
      "fecha": "2026-09-15",
-     "lugar": "Setiembre",
+     "lugar": "Agosto",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Andres_Lujan_15_09_2026.pdf"
     }
    ],
@@ -11107,18 +11147,23 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-20",
+     "lugar": "Noviembre",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/MOYANO-DELGADO_20-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-30",
      "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/MOYANO-DELGADO_30-10-2026.pdf"
     },
     {
      "fecha": "2026-10-13",
-     "lugar": "Octubre",
+     "lugar": "Setiembre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/MOYANO-DELGADO_13-10-2026.pdf"
     },
     {
      "fecha": "2026-09-17",
-     "lugar": "Setiembre",
+     "lugar": "Agosto",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/MOYANO-DELGADO_17-09-2026.pdf"
     }
    ],
@@ -11273,6 +11318,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-23",
+     "lugar": "Noviembre",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/ROSPIGLIOSI-CAPURRO_23-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-30",
      "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/ROSPIGLIOSI-CAPURRO_30-10-2026-3.pdf"
@@ -11284,7 +11334,7 @@
     },
     {
      "fecha": "2026-09-02",
-     "lugar": "Setiembre",
+     "lugar": "Agosto",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/ROSPIGLIOSI-CAPURRO_02-09-2026.pdf"
     }
    ],
@@ -12049,6 +12099,13 @@
      "tipo": "Ordinaria",
      "cargo": "Vicepresidente",
      "desde": "2026-08-14",
+     "hasta": "2027-07-26"
+    },
+    {
+     "organo": "Grupo Mixto",
+     "tipo": "Grupo parlamentario",
+     "cargo": "Titular",
+     "desde": "2026-11-23",
      "hasta": "2027-07-26"
     },
     {
