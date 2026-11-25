@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generado": "2026-11-24",
+  "generado": "2026-11-25",
   "fuente": "Webs oficiales de la Cámara de Diputados y del Senado (perfil, cargos, informes de representación y de viajes)",
   "nota": "Solo comisiones con estado Activo. Las cámaras no publican agendas diarias ni actas por congresista."
  },
@@ -8,7 +8,7 @@
   "perfiles": 190,
   "con_foto": 190,
   "con_comisiones": 190,
-  "informes_representacion": 607,
+  "informes_representacion": 617,
   "viajes": 5
  },
  "perfiles": [
@@ -367,6 +367,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-24",
+     "lugar": "Tumbes",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/RAMOS-ROSALES_24-11-2026.pdf"
+    },
+    {
      "fecha": "2026-11-03",
      "lugar": "Tumbes",
      "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/RAMOS-ROSALES_03-11-2026.pdf"
@@ -474,6 +479,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-10-26",
+     "lugar": "Tacna",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/CABRERA-NIETO_26-10-2026.pdf"
+    },
     {
      "fecha": "2026-10-07",
      "lugar": "Tacna",
@@ -1844,6 +1854,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-20",
+     "lugar": "Pasco",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/VALQUI-ORDONEZ_20-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-09",
      "lugar": "Pasco",
      "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/VALQUI-ORDONEZ_09-10-2026.pdf"
@@ -2188,6 +2203,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-24",
+     "lugar": "Loreto",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/ISLA-ROJAS_24-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-22",
      "lugar": "Loreto",
@@ -4957,6 +4977,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-24",
+     "lugar": "Lambayeque",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/TAKAYAMA-JIMENEZ_24-11-2026.pdf"
+    },
     {
      "fecha": "2026-11-03",
      "lugar": "Lambayeque",
@@ -7899,6 +7924,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-24",
+     "lugar": "Arequipa",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/HIRACHE-PIZARRO_24-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-29",
      "lugar": "Arequipa",
      "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/HIRACHE-PIZARRO_29-10-2026.pdf"
@@ -8008,6 +8038,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-24",
+     "lugar": "Apurímac",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/SOTO-FERRARI_24-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-28",
      "lugar": "Apurímac",
@@ -8392,6 +8427,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-24",
+     "lugar": "Áncash",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/GAMARRA-PITA_24-11-2026.pdf"
+    },
     {
      "fecha": "2026-11-03",
      "lugar": "Áncash",
@@ -8814,6 +8854,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-24",
+     "lugar": "Noviembre",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/CALISTO-GIAMPIETRI_24-11-2026.pdf"
+    },
     {
      "fecha": "2026-11-19",
      "lugar": "Octubre",
@@ -10894,6 +10939,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-19",
+     "lugar": "Noviembre",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/DEL-AGUILA-CARDENAS_19-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-12",
      "lugar": "Setiembre",
