@@ -8,7 +8,7 @@
   "perfiles": 190,
   "con_foto": 190,
   "con_comisiones": 190,
-  "informes_representacion": 617,
+  "informes_representacion": 622,
   "viajes": 5
  },
  "perfiles": [
@@ -3343,6 +3343,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-24",
+     "lugar": "Lima Metropolitana",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/URIBE-SAENZ_24-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-20",
      "lugar": "Lima Metropolitana",
      "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/URIBE-SAENZ_20-10-2026.pdf"
@@ -4287,6 +4292,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-24",
+     "lugar": "Lima Metropolitana",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/BRAVO-QUISPE_24-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-29",
      "lugar": "Lima Metropolitana",
@@ -7716,6 +7726,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-24",
+     "lugar": "Arequipa",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/PALOMINO-PACHECO_24-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-27",
      "lugar": "Arequipa",
      "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/PALOMINO-PACHECO_27-10-2026.pdf"
@@ -10539,6 +10554,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-24",
+     "lugar": "Noviembre",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/MORALES-RAMIREZ_24-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-23",
      "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/MORALES-RAMIREZ_23-10-2026.pdf"
@@ -11927,6 +11947,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-24",
+     "lugar": "Noviembre",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/TAPIA-BERNAL_24-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-26",
      "lugar": "Octubre",
