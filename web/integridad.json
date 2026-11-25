@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generado": "2026-11-22",
+  "generado": "2026-11-25",
   "fechas": {
    "sancionados.csv": "2026-11-21",
    "sancionados_multa.csv": "2024-05-18",
@@ -16,7 +16,7 @@
  "totales": {
   "proveedores_revisados": 184,
   "con_sancion": 32,
-  "vigentes": 10,
+  "vigentes": 9,
   "contratados_durante_sancion": 0,
   "con_penalidades": 6,
   "vinculos": 0
@@ -79,24 +79,6 @@
      "fin": "2027-03-26",
      "resolucion": "2119-2025-TCE-S5",
      "motivo": "Presentar documentos falsos o adulterados a las Entidades, al Tribunal de Contrataciones del Estado, al Registro Nacional de Proveedores (RNP), al Organismo Supervisor de las Contrataciones del Estado (OSCE), o a la Central de Compras Públicas– Perú Compras."
-    }
-   ],
-   "penalidades": [],
-   "durante_sancion": []
-  },
-  {
-   "ruc": "10448650044",
-   "nombre": "SANTIAGO ATENCIO ELIZABETH CAROLINA",
-   "procesos_congreso": 1,
-   "monto_congreso": 323421.0,
-   "vigente": true,
-   "sanciones": [
-    {
-     "tipo": "inhabilitación",
-     "inicio": "2026-08-24",
-     "fin": "2026-11-24",
-     "resolucion": "7256-2026-TCP-S1",
-     "motivo": "Ocasionar que la Entidad resuelva el contrato, incluido Acuerdos Marco, siempre que dicha resolución haya quedado consentida o firme en vía conciliatoria o arbitral."
     }
    ],
    "penalidades": [],
@@ -528,6 +510,24 @@
      "fin": "2024-04-10",
      "resolucion": "2547-2020-TCE-S3",
      "motivo": "Presentar documentos falsos o adulterados a las Entidades, al Tribunal de Contrataciones del Estado, al Registro Nacional de Proveedores (RNP), al Organismo Supervisor de las Contrataciones del Estado (OSCE), o a la Central de Compras Públicas - Perú Compras"
+    }
+   ],
+   "penalidades": [],
+   "durante_sancion": []
+  },
+  {
+   "ruc": "10448650044",
+   "nombre": "SANTIAGO ATENCIO ELIZABETH CAROLINA",
+   "procesos_congreso": 1,
+   "monto_congreso": 323421.0,
+   "vigente": false,
+   "sanciones": [
+    {
+     "tipo": "inhabilitación",
+     "inicio": "2026-08-24",
+     "fin": "2026-11-24",
+     "resolucion": "7256-2026-TCP-S1",
+     "motivo": "Ocasionar que la Entidad resuelva el contrato, incluido Acuerdos Marco, siempre que dicha resolución haya quedado consentida o firme en vía conciliatoria o arbitral."
     }
    ],
    "penalidades": [],
