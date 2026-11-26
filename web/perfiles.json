@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generado": "2026-11-25",
+  "generado": "2026-11-26",
   "fuente": "Webs oficiales de la Cámara de Diputados y del Senado (perfil, cargos, informes de representación y de viajes)",
   "nota": "Solo comisiones con estado Activo. Las cámaras no publican agendas diarias ni actas por congresista."
  },
@@ -8,7 +8,7 @@
   "perfiles": 190,
   "con_foto": 190,
   "con_comisiones": 190,
-  "informes_representacion": 622,
+  "informes_representacion": 624,
   "viajes": 5
  },
  "perfiles": [
@@ -818,17 +818,17 @@
    "foto": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/07/Pena-Cordova-Olver-300x300.png",
    "comisiones": [
     {
+     "organo": "Comisión de Desarrollo Agrario",
+     "tipo": "Ordinaria",
+     "cargo": "Vicepresidente",
+     "desde": "2026-08-13",
+     "hasta": "2027-07-26"
+    },
+    {
      "organo": "Comisión de Infraestructura, Vivienda y Transportes",
      "tipo": "Ordinaria",
      "cargo": "Vicepresidente",
      "desde": "2026-08-21",
-     "hasta": "2027-07-26"
-    },
-    {
-     "organo": "Comisión de Desarrollo Agrario",
-     "tipo": "Ordinaria",
-     "cargo": "Titular",
-     "desde": "2026-08-13",
      "hasta": "2027-07-26"
     },
     {
@@ -3127,6 +3127,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-25",
+     "lugar": "Lima Metropolitana",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/MANRIQUE-OLIVERA_25-11-2026.pdf"
+    },
+    {
      "fecha": "2026-11-03",
      "lugar": "Lima Metropolitana",
      "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/MANRIQUE-OLIVERA_03-11-2026.pdf"
@@ -4924,6 +4929,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-23",
+     "lugar": "Lambayeque",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/zunini-yerren_23-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-15",
      "lugar": "Lambayeque",
