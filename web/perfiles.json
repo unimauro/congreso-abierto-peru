@@ -8,7 +8,7 @@
   "perfiles": 190,
   "con_foto": 190,
   "con_comisiones": 190,
-  "informes_representacion": 624,
+  "informes_representacion": 628,
   "viajes": 5
  },
  "perfiles": [
@@ -425,6 +425,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-25",
+     "lugar": "Tumbes",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/CELIZ-CASTILLO_25-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-26",
      "lugar": "Tumbes",
@@ -1856,12 +1861,17 @@
     {
      "fecha": "2026-11-20",
      "lugar": "Pasco",
-     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/VALQUI-ORDONEZ_20-11-2026.pdf"
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/VALQUI-ORDONEZ_20-11-2026-1.pdf"
     },
     {
      "fecha": "2026-10-09",
      "lugar": "Pasco",
      "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/VALQUI-ORDONEZ_09-10-2026.pdf"
+    },
+    {
+     "fecha": "2026-10-02",
+     "lugar": "Pasco",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/VALQUI-ORDONEZ_02-10-2026.pdf"
     },
     {
      "fecha": "2026-09-16",
@@ -2282,6 +2292,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-25",
+     "lugar": "Loreto",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/YUFFRA-LUGO_25-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-30",
      "lugar": "Loreto",
@@ -3697,6 +3712,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-25",
+     "lugar": "Lima Metropolitana",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/MOLINA-SOTO_25-11-2026.pdf"
+    },
     {
      "fecha": "2026-11-10",
      "lugar": "Lima Metropolitana",
@@ -5428,6 +5448,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-24",
+     "lugar": "La Libertad",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/QUEZADA-CASTRO_24-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-27",
      "lugar": "La Libertad",
@@ -9420,6 +9445,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-20",
+     "lugar": "Noviembre",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/TICONA-COHAILA_20-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-30",
      "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/TICONA-COHAILA_30-10-2026.pdf"
@@ -10496,16 +10526,6 @@
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/VERANO-SARAVIA_17-11-2026.pdf"
     },
     {
-     "fecha": "2026-11-13",
-     "lugar": "Octubre",
-     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/VERANO-SARAVIA_13-11-2026.pdf"
-    },
-    {
-     "fecha": "2026-10-05",
-     "lugar": "Setiembre",
-     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/10/VERANO-SARAVIA_05-10-2026.pdf"
-    },
-    {
      "fecha": "2026-09-10",
      "lugar": "Agosto",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/09/IR_Verano_Saravia_10_09.pdf"
@@ -11482,7 +11502,7 @@
     {
      "fecha": "2026-11-05",
      "lugar": "Setiembre",
-     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/CHAVEZ-COSSIO_05-11-2026.pdf"
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/CHAVEZ-COSSIO_NUEVO.pdf"
     },
     {
      "fecha": "2026-09-18",
