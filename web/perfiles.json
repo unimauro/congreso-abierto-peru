@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generado": "2026-11-26",
+  "generado": "2026-11-27",
   "fuente": "Webs oficiales de la Cámara de Diputados y del Senado (perfil, cargos, informes de representación y de viajes)",
   "nota": "Solo comisiones con estado Activo. Las cámaras no publican agendas diarias ni actas por congresista."
  },
@@ -8,7 +8,7 @@
   "perfiles": 190,
   "con_foto": 190,
   "con_comisiones": 190,
-  "informes_representacion": 628,
+  "informes_representacion": 632,
   "viajes": 5
  },
  "perfiles": [
@@ -7672,6 +7672,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-26",
+     "lugar": "Arequipa",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/MASCO-CACERES_26-11-2026.pdf"
+    },
+    {
      "fecha": "2026-10-23",
      "lugar": "Arequipa",
      "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/10/MASCO-CACERES_23-10-2026.pdf"
@@ -7859,7 +7864,7 @@
    "camara": "D",
    "nombre": "Aranda Vasquez, Christian",
    "link": "https://diputados.congreso.gob.pe/diputado/aranda-vasquez-christian/",
-   "foto": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/07/Christian-Aranda-Vasquez-300x300.jpg",
+   "foto": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/07/Aranda-Vasquez_Cristian-300x300.png",
    "comisiones": [
     {
      "organo": "Comisión de Acusaciones Constitucionales.",
@@ -8423,6 +8428,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-26",
+     "lugar": "Áncash",
+     "pdf": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/11/DOMINGUEZ-HERRERA_26-11-2026.pdf"
+    },
     {
      "fecha": "2026-10-27",
      "lugar": "Áncash",
@@ -11051,6 +11061,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-26",
+     "lugar": "Noviembre",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/MELGAR-VALDEZ_26-11-2026.pdf"
+    },
+    {
      "fecha": "2026-11-06",
      "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/MELGAR-VALDEZ_06-11-2026.pdf"
@@ -11244,13 +11259,6 @@
      "tipo": "Órgano directivo",
      "cargo": "Titular",
      "desde": "2026-08-18",
-     "hasta": "2027-07-26"
-    },
-    {
-     "organo": "Comisión de Justicia y Derechos Humanos",
-     "tipo": "Ordinaria",
-     "cargo": "Titular",
-     "desde": "2026-08-12",
      "hasta": "2027-07-26"
     },
     {
@@ -12232,8 +12240,8 @@
     {
      "organo": "Comisión de Justicia y Derechos Humanos",
      "tipo": "Ordinaria",
-     "cargo": "Vicepresidente",
-     "desde": "2026-08-14",
+     "cargo": "Titular",
+     "desde": "2026-11-27",
      "hasta": "2027-07-26"
     },
     {
@@ -12241,48 +12249,6 @@
      "tipo": "Grupo parlamentario",
      "cargo": "Titular",
      "desde": "2026-11-23",
-     "hasta": "2027-07-26"
-    },
-    {
-     "organo": "COMISIÓN DE BICAMERAL DE PRESUPUESTO Y CUENTA GENERAL DE LA REPÚBLICA",
-     "tipo": "Bicameral",
-     "cargo": "Suplente",
-     "desde": "2026-08-18",
-     "hasta": "2027-07-26"
-    },
-    {
-     "organo": "Comisión de Defensa Nacional y Orden Interno",
-     "tipo": "Ordinaria",
-     "cargo": "Suplente",
-     "desde": "2026-08-12",
-     "hasta": "2027-07-26"
-    },
-    {
-     "organo": "Comisión de Economía, Medio Ambiente y Defensa del Consumidor",
-     "tipo": "Ordinaria",
-     "cargo": "Suplente",
-     "desde": "2026-08-12",
-     "hasta": "2027-07-26"
-    },
-    {
-     "organo": "Comisión de Procedimientos Especiales",
-     "tipo": "Ordinaria no legislativa",
-     "cargo": "Suplente",
-     "desde": "2026-08-12",
-     "hasta": "2027-07-26"
-    },
-    {
-     "organo": "Comisión en Asuntos de Desarrollo Productivo, Energía y Minas, Infraestructura y Trabajo",
-     "tipo": "Ordinaria",
-     "cargo": "Suplente",
-     "desde": "2026-08-12",
-     "hasta": "2027-07-26"
-    },
-    {
-     "organo": "Control, Político sobre los Actos Normativos del Poder Ejecutivo y Regímenes de Excepción",
-     "tipo": "Ordinaria no legislativa",
-     "cargo": "Suplente",
-     "desde": "2026-08-12",
      "hasta": "2027-07-26"
     }
    ],
@@ -12435,6 +12401,11 @@
    ],
    "representacion": [
     {
+     "fecha": "2026-11-25",
+     "lugar": "Noviembre",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/MATUTE-CHARUN_25-11-2026.pdf"
+    },
+    {
      "fecha": "2026-11-10",
      "lugar": "Octubre",
      "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/MATUTE-CHARUN_10-11-2026.pdf"
@@ -12533,6 +12504,13 @@
      "tipo": "Órgano directivo",
      "cargo": "Titular",
      "desde": "2026-08-18",
+     "hasta": "2027-07-26"
+    },
+    {
+     "organo": "Comisión de Justicia y Derechos Humanos",
+     "tipo": "Ordinaria",
+     "cargo": "Titular",
+     "desde": "2026-11-27",
      "hasta": "2027-07-26"
     },
     {
