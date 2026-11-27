@@ -8,7 +8,7 @@
   "perfiles": 190,
   "con_foto": 190,
   "con_comisiones": 190,
-  "informes_representacion": 632,
+  "informes_representacion": 633,
   "viajes": 5
  },
  "perfiles": [
@@ -7864,7 +7864,7 @@
    "camara": "D",
    "nombre": "Aranda Vasquez, Christian",
    "link": "https://diputados.congreso.gob.pe/diputado/aranda-vasquez-christian/",
-   "foto": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/07/Aranda-Vasquez_Cristian-300x300.png",
+   "foto": "https://diputados.congreso.gob.pe/wp-content/uploads/2026/07/christian-aranda-Vasquez-300x300.png",
    "comisiones": [
     {
      "organo": "Comisión de Acusaciones Constitucionales.",
@@ -10342,6 +10342,11 @@
     }
    ],
    "representacion": [
+    {
+     "fecha": "2026-11-27",
+     "lugar": "Noviembre",
+     "pdf": "https://senado.congreso.gob.pe/wp-content/uploads/2026/11/CASTILLO-TERRONES_27-11-2026.pdf"
+    },
     {
      "fecha": "2026-11-18",
      "lugar": "Octubre",
