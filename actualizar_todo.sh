@@ -39,6 +39,13 @@ guardia() {
 
 echo "=== Refresco total $(date '+%Y-%m-%d %H:%M') ==="
 
+# Sin internet (laptop dormida, wifi caído) no se refresca nada: esperar hasta ~10 min y si no, salir limpio.
+for i in $(seq 1 20); do
+  curl -sfI --max-time 10 https://github.com >/dev/null 2>&1 && break
+  [ "$i" -eq 20 ] && { echo "[!] Sin conexión a internet; se omite el refresco de hoy."; exit 0; }
+  sleep 30
+done
+
 echo "[*] git pull..."
 git pull --rebase
 

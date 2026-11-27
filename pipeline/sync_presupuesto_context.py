@@ -33,7 +33,13 @@ def main() -> None:
         for f in sorted(filas, key=lambda f: f["anio"])
     ]
 
+    if not serie:
+        print("[!] serie de presupuesto vacía; context.json no se toca")
+        return
     context = json.loads(CONTEXT.read_text(encoding="utf-8"))
+    if len(serie) < len(context["presupuesto"]["serie"]):
+        print(f"[!] la serie nueva tiene menos años ({len(serie)}) que la publicada; context.json no se toca")
+        return
     if context["presupuesto"]["serie"] == serie:
         print("[ok] context.json ya estaba al día (sin cambios)")
         return

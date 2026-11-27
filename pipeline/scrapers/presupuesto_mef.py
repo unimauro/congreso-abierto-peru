@@ -116,6 +116,20 @@ def main() -> int:
 
     os.makedirs(args.out, exist_ok=True)
     out_path = os.path.join(args.out, "presupuesto_congreso.json")
+    # Años que hoy fallaron (MEF caído, sin internet, timeout) se conservan del archivo anterior:
+    # nunca se reemplaza una serie buena por una incompleta.
+    try:
+        previa = {r["anio"]: r for r in json.load(open(out_path, encoding="utf-8"))}
+    except (FileNotFoundError, ValueError, TypeError, KeyError):
+        previa = {}
+    nuevos = {r["anio"] for r in serie}
+    conservados = sorted(a for a in previa if a not in nuevos)
+    serie = sorted(serie + [previa[a] for a in conservados], key=lambda r: r["anio"])
+    if conservados:
+        print(f"[!] se conservan del archivo anterior: {conservados}", file=sys.stderr)
+    if not nuevos:
+        print("[!] el MEF no respondió ningún año; no se toca el archivo", file=sys.stderr)
+        return 0
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(serie, f, ensure_ascii=False, indent=2)
     print(f"[ok] {len(serie)} años -> {out_path}", file=sys.stderr)
